@@ -11,6 +11,8 @@
 
 四个 ZIP 均已通过 `unzip -t` 完整性检查。
 
+脚本也可直接查看：[`scripts/register_root_timeseries.py`](scripts/register_root_timeseries.py)；运行说明见 [`scripts/ROOT_REGISTRATION_README.md`](scripts/ROOT_REGISTRATION_README.md)。汇总指标位于 [`metrics/`](metrics/)。
+
 ## 如何看图
 
 - `registered_to_T1.png`：严格为 T1 原尺寸；只显示该时期真正落入 T1 视野的部分。
