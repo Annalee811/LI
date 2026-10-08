@@ -1,14 +1,16 @@
-# Same-FOV temporal registration results
+# Common-ROI temporal root tracking results
 
-These archives use T1 as the fixed 2550 x 2273 reference frame.
+T1 is the fixed reference. T2 and T3 were transformed into T1 coordinates with
+the original RoMa geometric solutions. All three periods were then cropped to
+the largest rectangular region containing valid pixels in every period:
 
-- `*_same_fov_core.zip` contains the complete registered image, transform,
-  raw RoMa warp, support mask, and metrics.
-- `*_same_fov_visuals.zip` contains alpha/difference overlays, checkerboards,
-  change maps, and match visualizations.
+`T1 x=3:2548, y=1311:2203` (2545 x 892 pixels).
 
-T2 is supported by a broad RoMa solution (`verified_roma`). T3 is exported
-under the user-provided same-location/full-frame acquisition constraint and is
-marked `prior_only_unverified`: RoMa's visually supported candidate covered
-only about 42.6% of the frame. This distinction is preserved in
-`metrics.json`, `transform.json`, and `roma_support_mask.png`.
+- `root_tracking_aligned_crops.zip` contains the three co-located, same-size
+  images and crop/transform metadata.
+- `root_tracking_visualizations.zip` contains T1-vs-T2 and T1-vs-T3 colored
+  overlays, checkerboards, an RGB temporal composite, a side-by-side image, and
+  an animated blink comparison.
+
+In the RGB temporal composite, red is T1, green is T2, and blue is T3. Neutral
+or white structures remain stable; colored structures differ by period.
