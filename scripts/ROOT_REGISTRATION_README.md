@@ -64,6 +64,18 @@ data/T4/sample.png
 - `temporal_overview_preview.png`：T1、T2、T3 在 T1 坐标中的并排预览；
 - `summary.csv` 和 `summary.json`：批量指标汇总。
 
+当同一点位有两个或更多时期时，还会生成 `T1/common_overlap/`：
+
+- `T1_aligned_crop.png`、`T2_aligned_crop.png` 等：所有时期完全相同的 T1 坐标、尺寸与像素尺度；
+- `aligned_sequence_montage.png`：同位置原始裁剪的全分辨率并排拼接；
+- `root_soil_sequence_montage.png`：统一排除各时期水珠后的并排图；
+- `overlay_T1_T2.png` 等：T1 与每个时期的两两叠加；
+- `pairwise_root_soil_overlays.png`：所有两两叠加的横向拼接；
+- `checkerboard_T1_T2.png` 等：同位置棋盘格检查；
+- `common_crop.json`：共同裁剪框、可比较面积及处理策略。
+
+共同裁剪是所有时期真实覆盖区域内的最大轴对齐矩形；区域外不参与拼接。当前阶段只做变化可视化，不自动判定根系新增、加长或消失。
+
 ## 当前三幅图的客观覆盖
 
 - T2→T1：T1 覆盖约 97.0%，属于可信全幅配准；排水珠匹配 RMSE 约 1.43 px。

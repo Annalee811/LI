@@ -2,6 +2,17 @@
 
 以 T1 为固定坐标系，RoMa 对 T2、T3 提取跨时期对应，再由 RANSAC 估计几何变换。原始图像没有修改；水珠只从变换拟合、质量指标和根系/土壤对比中排除，完整配准图仍保留原像素。
 
+## 0353-2-B3 四时期共同区域试运行
+
+新数据集中的 `0353-2-B3` 与最初上传的 T1/T2/T3 完全一致，现已加入 T4 并重新生成四时期共同区域结果：
+
+- [`pilot_0353-2-B3_common_crops.zip`](pilot_0353-2-B3_common_crops.zip)（约 53 MB）：T1–T4 相同坐标、相同尺寸的原始裁剪和排水珠裁剪，另含全部 warp、变换和指标。
+- [`pilot_0353-2-B3_common_visuals.zip`](pilot_0353-2-B3_common_visuals.zip)（约 66 MB）：四时期并排拼接、T1 与 T2/T3/T4 两两叠加、棋盘格及候选根线图。
+- [`pilot_0353-2-B3_T4_registration.zip`](pilot_0353-2-B3_T4_registration.zip)（约 75 MB）：T4→T1 配准、扩展全图、匹配点、水珠掩膜、warp 和指标。
+- [`DATASET_INVENTORY.md`](DATASET_INVENTORY.md)：全部 19 个点位、68 张图像的完整性清单。
+
+四时期共同裁剪框为 T1 坐标 `x=4, y=1468, 2545×735`；区域外不参与拼接。当前只提供变化可视化，不自动判断根系新增、加长或消失。
+
 ## 下载包
 
 - [`registration_fullframe_core.zip`](registration_fullframe_core.zip)（约 75 MB）：脚本、中文说明、T1、T2/T3 的 T1 原尺寸配准图、透明 NoData 图层、排水珠根系/土壤叠加图、覆盖掩膜、变换和指标。

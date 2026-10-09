@@ -1,0 +1,26 @@
+{
+  "coordinate_system": "T1 pixels",
+  "periods": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "crop_xywh": [
+    4,
+    1468,
+    2545,
+    735
+  ],
+  "crop_bounds_xyxy": [
+    4,
+    1468,
+    2549,
+    2203
+  ],
+  "crop_fraction_of_T1": 0.32272715509432987,
+  "root_soil_comparable_fraction_inside_crop": 0.9658874944869893,
+  "policy": "largest axis-aligned rectangle observed in every period; all panels share T1 scale and coordinates; non-overlap is omitted; detected droplets are neutral gray only in comparison views",
+  "biological_change_policy": "visualization only; no new/elongated/disappeared-root classification",
+  "orientation_policy": "current inputs required no discrete rotation or mirror correction; future orientation normalization is recorded before registration"
+}

@@ -1434,11 +1434,9 @@ def register_pair(
             )
             cache_path = next((path for path in cache_candidates if path.is_file()), None)
             if cache_path is None:
-                raise RegistrationError(
-                    "RoMa cache loading",
-                    pair,
-                    "no roma_warp.npz found at "
-                    + " or ".join(str(path) for path in cache_candidates),
+                print(
+                    f"[resume miss] {pair}: no cached warp; running RoMa",
+                    flush=True,
                 )
 
         if cache_path is not None:
@@ -1754,6 +1752,241 @@ def write_temporal_outputs(
             raise OSError("failed to write temporal overview preview")
 
 
+def largest_valid_rectangle(mask: np.ndarray) -> tuple[int, int, int, int]:
+    """Return the largest axis-aligned rectangle containing only nonzero pixels."""
+
+    if mask.ndim != 2:
+        raise ValueError("largest_valid_rectangle expects a 2-D mask")
+    height, width = mask.shape
+    histogram = np.zeros(width, dtype=np.int32)
+    best_area = 0
+    best = (0, 0, 0, 0)
+    for row_index in range(height):
+        row_valid = mask[row_index] > 0
+        histogram = np.where(row_valid, histogram + 1, 0)
+        stack: list[tuple[int, int]] = []
+        for column_index in range(width + 1):
+            current_height = int(histogram[column_index]) if column_index < width else 0
+            start = column_index
+            while stack and stack[-1][1] > current_height:
+                left, rectangle_height = stack.pop()
+                area = rectangle_height * (column_index - left)
+                if area > best_area:
+                    best_area = area
+                    best = (
+                        left,
+                        row_index - rectangle_height + 1,
+                        column_index - left,
+                        rectangle_height,
+                    )
+                start = left
+            if current_height > 0 and (
+                not stack or stack[-1][1] < current_height
+            ):
+                stack.append((start, current_height))
+    return best
+
+
+def add_panel_label(image: np.ndarray, label: str) -> np.ndarray:
+    """Add a label above an image without covering measured pixels."""
+
+    output = cv2.copyMakeBorder(
+        image, 58, 0, 0, 0, cv2.BORDER_CONSTANT, value=(28, 28, 28)
+    )
+    cv2.putText(
+        output,
+        label,
+        (18, 39),
+        cv2.FONT_HERSHEY_SIMPLEX,
+        0.9,
+        (255, 255, 255),
+        2,
+        cv2.LINE_AA,
+    )
+    return output
+
+
+def write_common_overlap_outputs(
+    output_dir: Path, fixed_path: Path, completed_periods: Iterable[str]
+) -> None:
+    """Crop every period to one real, all-period field of view.
+
+    This is the preferred view for longitudinal comparison: all panels have the
+    same T1 pixel coordinates and scale, and no image content outside the true
+    multi-period intersection is stitched into the comparison.
+    """
+
+    periods = list(completed_periods)
+    if not periods:
+        return
+    sequence_dir = output_dir / fixed_path.stem
+    common_dir = sequence_dir / "common_overlap"
+    common_dir.mkdir(parents=True, exist_ok=True)
+    fixed = read_color(fixed_path, f"{fixed_path.name} common-overlap crop")
+    height, width = fixed.shape[:2]
+    images: dict[str, np.ndarray] = {"T1": fixed}
+    coverage_masks: list[np.ndarray] = []
+    droplet_masks: dict[str, np.ndarray] = {}
+
+    for period in periods:
+        rgba_path = sequence_dir / period / "registered_to_T1_rgba.png"
+        rgba = cv2.imread(str(rgba_path), cv2.IMREAD_UNCHANGED)
+        if rgba is None or rgba.shape != (height, width, 4):
+            raise OSError(f"cannot read registered layer for common crop: {rgba_path}")
+        images[period] = rgba[..., :3]
+        coverage_masks.append(rgba[..., 3] > 0)
+        droplet_path = sequence_dir / period / "droplet_mask_registered_gray.png"
+        droplet = cv2.imread(str(droplet_path), cv2.IMREAD_GRAYSCALE)
+        if droplet is None or droplet.shape != (height, width):
+            raise OSError(f"cannot read registered droplet mask: {droplet_path}")
+        droplet_masks[period] = droplet
+
+    fixed_droplet_path = sequence_dir / periods[0] / "droplet_mask_T1_gray.png"
+    fixed_droplet = cv2.imread(str(fixed_droplet_path), cv2.IMREAD_GRAYSCALE)
+    if fixed_droplet is None or fixed_droplet.shape != (height, width):
+        raise OSError(f"cannot read T1 droplet mask: {fixed_droplet_path}")
+    droplet_masks["T1"] = fixed_droplet
+
+    common_coverage = np.logical_and.reduce(coverage_masks)
+    x_coord, y_coord, crop_width, crop_height = largest_valid_rectangle(
+        common_coverage.astype(np.uint8)
+    )
+    if crop_width < 32 or crop_height < 32:
+        raise ValueError(
+            "the all-period overlap has no usable rectangular crop "
+            f"(largest={crop_width}x{crop_height})"
+        )
+    crop_slice = np.s_[
+        y_coord : y_coord + crop_height,
+        x_coord : x_coord + crop_width,
+    ]
+    water_union = np.logical_or.reduce(
+        [droplet_masks[label] > 0 for label in ("T1", *periods)]
+    )
+    crop_water = water_union[crop_slice]
+    comparison_mask = (~crop_water).astype(np.uint8) * 255
+
+    raw_crops: dict[str, np.ndarray] = {}
+    root_soil_crops: dict[str, np.ndarray] = {}
+    for label in ("T1", *periods):
+        crop = images[label][crop_slice].copy()
+        raw_crops[label] = crop
+        root_soil = crop.copy()
+        root_soil[crop_water] = (58, 58, 58)
+        root_soil_crops[label] = root_soil
+        for name, output in (
+            (f"{label}_aligned_crop.png", crop),
+            (f"{label}_root_soil_crop.png", root_soil),
+        ):
+            if not cv2.imwrite(str(common_dir / name), output):
+                raise OSError(f"failed to write {common_dir / name}")
+
+    raw_montage = np.hstack(
+        [add_panel_label(raw_crops[label], label) for label in ("T1", *periods)]
+    )
+    root_soil_montage = np.hstack(
+        [
+            add_panel_label(root_soil_crops[label], f"{label} (water ignored)")
+            for label in ("T1", *periods)
+        ]
+    )
+    pairwise_overlays: list[np.ndarray] = []
+    pairwise_root_lines: list[np.ndarray] = []
+    all_valid_crop = np.full((crop_height, crop_width), 255, dtype=np.uint8)
+    for period in periods:
+        overlay = make_color_overlap(
+            raw_crops["T1"],
+            raw_crops[period],
+            all_valid_crop,
+            crop_water.astype(np.uint8) * 255,
+        )
+        checkerboard = make_masked_checkerboard(
+            raw_crops["T1"], raw_crops[period], comparison_mask
+        )
+        checkerboard[crop_water] = (58, 58, 58)
+        overlay_name = f"overlay_T1_{period}.png"
+        checker_name = f"checkerboard_T1_{period}.png"
+        if not cv2.imwrite(str(common_dir / overlay_name), overlay):
+            raise OSError(f"failed to write {common_dir / overlay_name}")
+        if not cv2.imwrite(str(common_dir / checker_name), checkerboard):
+            raise OSError(f"failed to write {common_dir / checker_name}")
+        pairwise_overlays.append(add_panel_label(overlay, f"T1 vs {period}"))
+
+        root_line_path = sequence_dir / period / "root_change_overlay.png"
+        root_line = cv2.imread(str(root_line_path), cv2.IMREAD_COLOR)
+        if root_line is not None and root_line.shape[:2] == (height, width):
+            root_crop = root_line[crop_slice]
+            root_name = f"heuristic_root_lines_T1_{period}.png"
+            if not cv2.imwrite(str(common_dir / root_name), root_crop):
+                raise OSError(f"failed to write {common_dir / root_name}")
+            pairwise_root_lines.append(
+                add_panel_label(root_crop, f"T1 vs {period} root-line candidates")
+            )
+
+    temporal = np.zeros((crop_height, crop_width, 3), dtype=np.uint8)
+    t1_gray = cv2.cvtColor(raw_crops["T1"], cv2.COLOR_BGR2GRAY)
+    temporal[..., 2] = robust_normalize_uint8(t1_gray, comparison_mask)
+    if "T2" in raw_crops:
+        t2_gray = cv2.cvtColor(raw_crops["T2"], cv2.COLOR_BGR2GRAY)
+        temporal[..., 1] = robust_normalize_uint8(t2_gray, comparison_mask)
+    if "T3" in raw_crops:
+        t3_gray = cv2.cvtColor(raw_crops["T3"], cv2.COLOR_BGR2GRAY)
+        temporal[..., 0] = robust_normalize_uint8(t3_gray, comparison_mask)
+    temporal[crop_water] = (58, 58, 58)
+
+    outputs = {
+        "aligned_sequence_montage.png": raw_montage,
+        "root_soil_sequence_montage.png": root_soil_montage,
+        "temporal_RGB_common_crop.png": temporal,
+        "common_comparison_mask.png": colorize_binary_mask(comparison_mask),
+        "common_coverage_mask_full.png": colorize_binary_mask(
+            common_coverage.astype(np.uint8) * 255
+        ),
+    }
+    if pairwise_overlays:
+        outputs["pairwise_root_soil_overlays.png"] = np.hstack(pairwise_overlays)
+    if pairwise_root_lines:
+        outputs["pairwise_heuristic_root_lines.png"] = np.hstack(
+            pairwise_root_lines
+        )
+    for name, image in outputs.items():
+        if not cv2.imwrite(str(common_dir / name), image):
+            raise OSError(f"failed to write {common_dir / name}")
+
+    write_json(
+        common_dir / "common_crop.json",
+        {
+            "coordinate_system": "T1 pixels",
+            "periods": ["T1", *periods],
+            "crop_xywh": [x_coord, y_coord, crop_width, crop_height],
+            "crop_bounds_xyxy": [
+                x_coord,
+                y_coord,
+                x_coord + crop_width,
+                y_coord + crop_height,
+            ],
+            "crop_fraction_of_T1": float(
+                crop_width * crop_height / (width * height)
+            ),
+            "root_soil_comparable_fraction_inside_crop": float(
+                comparison_mask.mean() / 255.0
+            ),
+            "policy": (
+                "largest axis-aligned rectangle observed in every period; all panels "
+                "share T1 scale and coordinates; non-overlap is omitted; detected "
+                "droplets are neutral gray only in comparison views"
+            ),
+            "biological_change_policy": (
+                "visualization only; no new/elongated/disappeared-root classification"
+            ),
+            "orientation_policy": (
+                "current inputs required no discrete rotation or mirror correction; "
+                "future orientation normalization is recorded before registration"
+            ),
+        },
+    )
+
+
 def write_summary(output_dir: Path, metrics: Iterable[QualityMetrics]) -> None:
     rows = [asdict(metric) for metric in metrics]
     if not rows:
@@ -1811,25 +2044,26 @@ def main() -> int:
         torch.set_float32_matmul_precision("highest")
         torch_cache = configure_torch_cache()
         print(f"[setup] torch cache={torch_cache}")
-        model: torch.nn.Module | None = None
-        if args.reuse_warp_dir is None:
-            try:
-                model = roma_outdoor(
-                    device=device,
-                    coarse_res=args.coarse_res,
-                    upsample_res=args.upsample_res,
-                    symmetric=False,
-                    use_custom_corr=device.type == "cuda",
-                    upsample_preds=True,
-                )
-            except Exception as exc:
-                raise RegistrationError(
-                    "model setup",
-                    "all",
-                    "failed to initialize RoMa or load its official weights: " + str(exc),
-                ) from exc
-        else:
-            print(f"[setup] reusing RoMa warps below {args.reuse_warp_dir}")
+        try:
+            model: torch.nn.Module | None = roma_outdoor(
+                device=device,
+                coarse_res=args.coarse_res,
+                upsample_res=args.upsample_res,
+                symmetric=False,
+                use_custom_corr=device.type == "cuda",
+                upsample_preds=True,
+            )
+        except Exception as exc:
+            raise RegistrationError(
+                "model setup",
+                "all",
+                "failed to initialize RoMa or load its official weights: " + str(exc),
+            ) from exc
+        if args.reuse_warp_dir is not None:
+            print(
+                f"[setup] reusing RoMa warps below {args.reuse_warp_dir} "
+                "and computing cache misses"
+            )
 
         all_metrics: list[QualityMetrics] = []
         failures: list[str] = []
@@ -1876,8 +2110,11 @@ def main() -> int:
                     write_temporal_outputs(
                         args.output_dir, paths["T1"], completed_periods
                     )
+                    write_common_overlap_outputs(
+                        args.output_dir, paths["T1"], completed_periods
+                    )
                 except Exception as exc:
-                    message = f"[temporal output writing] {filename}: {exc}"
+                    message = f"[temporal/common-crop output writing] {filename}: {exc}"
                     failures.append(message)
                     print(f"ERROR {message}", file=sys.stderr)
                     if args.debug:
