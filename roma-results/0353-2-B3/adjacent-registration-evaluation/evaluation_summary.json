@@ -1,0 +1,440 @@
+{
+  "position": "0353-2-B3",
+  "evaluated_pairs": 3,
+  "automatic_qc_passed_pairs": 3,
+  "automatic_qc_pass_rate_pct": 100.0,
+  "successful_execution_pairs": 3,
+  "successful_execution_rate_pct": 100,
+  "manual_landmark_TRE": null,
+  "manual_confirmed_registration_success_rate": null,
+  "confidence_threshold": 0.5,
+  "automatic_qc_rules": {
+    "min_effective_target_fraction": 0.1,
+    "min_roma_reliable_samples": 100,
+    "min_automatic_validation_points": 20,
+    "max_automatic_median_px_at_width1400": 3.0,
+    "max_confident_cycle_p95_target_px": 3.0
+  },
+  "area_units": "native target pixels squared (px^2); no physical calibration available",
+  "low_confidence_definition": "geometric overlap AND target confidence <0.5; primary denominator full target canvas",
+  "error_definition": "Euclidean distance between independent RootSIFT target point and RoMa source-to-target prediction, native target pixels",
+  "limitations": [
+    "Automatic quality pass is not independently confirmed registration success.",
+    "SIFT verification is feature-rich-location sampling and may include false matches.",
+    "Manual landmark TRE unavailable; cycle error is internal consistency only.",
+    "Pixel errors and areas have different scales across periods; no mm calibration.",
+    "3 adjacent pairs from one position, not 19-position dataset."
+  ],
+  "pairs": [
+    {
+      "summary": {
+        "pair": "T1→T2",
+        "target_width": 1327,
+        "target_height": 1185,
+        "automatic_qc_pass": true,
+        "human_landmark_TRE": "未评估（无人工标志点）",
+        "automatic_validation_points": 43,
+        "automatic_point_mean_target_px": 0.7845384421022509,
+        "automatic_point_median_target_px": 0.5880408642079731,
+        "automatic_point_rmse_target_px": 0.9173817935936125,
+        "automatic_point_p95_target_px": 1.687692785072956,
+        "automatic_point_median_at_target_width1400": 0.6203489516696484,
+        "geometric_overlap_pixels": 1555353,
+        "geometric_overlap_pct_target": 98.90988524605801,
+        "effective_overlap_pixels": 374862,
+        "effective_overlap_pct_target": 23.838676752549294,
+        "low_confidence_overlap_pixels": 1117323,
+        "low_confidence_overlap_pct_target": 71.0541527953984,
+        "low_confidence_pct_geometric_overlap": 71.83726138053548,
+        "low_confidence_full_canvas_pixels": 1134461,
+        "low_confidence_full_canvas_pct": 72.14401317651249,
+        "other_unreliable_overlap_pixels": 63168,
+        "other_unreliable_overlap_pct_target": 4.017055698110328,
+        "nonoverlap_pixels": 17142,
+        "nonoverlap_pct_target": 1.090114753941984,
+        "reliable_roma_samples": 1239,
+        "sampled_roma_matches": 5000,
+        "cycle_median_effective_target_px": 0.19370946288108826,
+        "cycle_p95_effective_target_px": 0.6763939261436462
+      },
+      "automatic_qc_checks": {
+        "effective_area": true,
+        "reliable_sample_count": true,
+        "independent_point_count": true,
+        "independent_point_error": true,
+        "confident_cycle": true
+      },
+      "independent_matching": {
+        "source_keypoints": 25827,
+        "target_keypoints": 27334,
+        "mutual_matches": 69,
+        "ransac_inliers": 53,
+        "spatially_thinned_points": 43,
+        "analysis_target_size_wh": [
+          1400,
+          1250
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            0.9928985213767917,
+            -0.0013803259863667677,
+            0.23988247844483707
+          ],
+          [
+            0.0013803259863667677,
+            0.9928985213767917,
+            46.24284968906071
+          ]
+        ]
+      },
+      "automatic_validation_all_points": {
+        "n": 43,
+        "mean": 0.7845384421022509,
+        "median": 0.5880408642079731,
+        "rmse": 0.9173817935936125,
+        "p95": 1.687692785072956
+      },
+      "automatic_validation_points_in_effective_area": {
+        "n": 39,
+        "mean": 0.7917211555786826,
+        "median": 0.5880408642079731,
+        "rmse": 0.929789886624767,
+        "p95": 1.697539255664517
+      },
+      "automatic_validation_width1400": {
+        "n": 43,
+        "mean": 0.8276472170316564,
+        "median": 0.6203489516696484,
+        "rmse": 0.967792053959069,
+        "p95": 1.7804447042628144
+      },
+      "roma_original_metrics": {
+        "pair": "T1_to_T2",
+        "kind": "adjacent",
+        "source_file": "results/microtube_registration/input/raw/V-变化/0353-2-B3/T1.png",
+        "target_file": "results/microtube_registration/input/raw/V-变化/0353-2-B3/T2.png",
+        "source_size_wh": [
+          2550,
+          2273
+        ],
+        "target_size_wh": [
+          1327,
+          1185
+        ],
+        "model": "roma_outdoor",
+        "device": "cpu",
+        "coarse_resolution": 560,
+        "upsample_resolution": 864,
+        "confidence_threshold": 0.5,
+        "cycle_threshold_target_px": 3.0,
+        "checker_tile_px": 128,
+        "sampled_matches": 5000,
+        "reliable_sampled_matches": 1239,
+        "reliable_dense_source_pixels": 1402727,
+        "homography_inliers": 1161,
+        "homography_inlier_ratio": 0.937046004842615,
+        "homography_ransac_target_px": 3.0,
+        "foldover_target_ratio": 0.027410580001844202,
+        "flow_preview_magnitude_p99_source_px": 90.23686218261719,
+        "effective_area_ratio": 0.23838676752549293,
+        "effective_pixel_count": 374862,
+        "geometric_area_ratio": 0.9890988524605802,
+        "confidence_on_effective_area": {
+          "median": 0.6872005462646484,
+          "p95": 0.9060007333755493
+        },
+        "gray_ncc": 0.5444974553449841,
+        "gradient_ncc": 0.520098469909478,
+        "cycle_error_effective_target_px": {
+          "median": 0.19370946288108826,
+          "p95": 0.6763939261436462
+        },
+        "cycle_error_confident_target_px": {
+          "median": 0.2021484076976776,
+          "p95": 0.7234428524971008
+        },
+        "quality_interpretation": "Requires visual review; confidence/cycle consistency are internal checks, not independent ground truth. Seasonal RGB and root changes confound NCC.",
+        "elapsed_seconds": 54.71
+      }
+    },
+    {
+      "summary": {
+        "pair": "T2→T3",
+        "target_width": 1330,
+        "target_height": 1183,
+        "automatic_qc_pass": true,
+        "human_landmark_TRE": "未评估（无人工标志点）",
+        "automatic_validation_points": 36,
+        "automatic_point_mean_target_px": 0.7243445608425159,
+        "automatic_point_median_target_px": 0.5051654008894898,
+        "automatic_point_rmse_target_px": 0.9200071330991904,
+        "automatic_point_p95_target_px": 2.0234225673653095,
+        "automatic_point_median_at_target_width1400": 0.5317119913139403,
+        "geometric_overlap_pixels": 806363,
+        "geometric_overlap_pct_target": 51.25003972314556,
+        "effective_overlap_pixels": 290274,
+        "effective_overlap_pct_target": 18.448954169023573,
+        "low_confidence_overlap_pixels": 506081,
+        "low_confidence_overlap_pct_target": 32.16500676882401,
+        "low_confidence_pct_geometric_overlap": 62.76094017210611,
+        "low_confidence_full_canvas_pixels": 1273104,
+        "low_confidence_full_canvas_pct": 80.91471281754683,
+        "other_unreliable_overlap_pixels": 10008,
+        "other_unreliable_overlap_pct_target": 0.6360787852979871,
+        "nonoverlap_pixels": 767027,
+        "nonoverlap_pct_target": 48.74996027685444,
+        "reliable_roma_samples": 2285,
+        "sampled_roma_matches": 5000,
+        "cycle_median_effective_target_px": 0.15779973566532135,
+        "cycle_p95_effective_target_px": 0.4259774088859558
+      },
+      "automatic_qc_checks": {
+        "effective_area": true,
+        "reliable_sample_count": true,
+        "independent_point_count": true,
+        "independent_point_error": true,
+        "confident_cycle": true
+      },
+      "independent_matching": {
+        "source_keypoints": 27334,
+        "target_keypoints": 29425,
+        "mutual_matches": 140,
+        "ransac_inliers": 50,
+        "spatially_thinned_points": 36,
+        "analysis_target_size_wh": [
+          1400,
+          1245
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            1.0071825972666906,
+            -0.00018832925945611506,
+            0.22164412094022082
+          ],
+          [
+            0.00018832925945611506,
+            1.0071825972666906,
+            -766.0563896547446
+          ]
+        ]
+      },
+      "automatic_validation_all_points": {
+        "n": 36,
+        "mean": 0.7243445608425159,
+        "median": 0.5051654008894898,
+        "rmse": 0.9200071330991904,
+        "p95": 2.0234225673653095
+      },
+      "automatic_validation_points_in_effective_area": {
+        "n": 29,
+        "mean": 0.6142061472255222,
+        "median": 0.4724642170851909,
+        "rmse": 0.7927624159239021,
+        "p95": 1.7083861249702015
+      },
+      "automatic_validation_width1400": {
+        "n": 36,
+        "mean": 0.762411173909736,
+        "median": 0.5317119913139403,
+        "rmse": 0.9683714002947911,
+        "p95": 2.129915887668666
+      },
+      "roma_original_metrics": {
+        "pair": "T2_to_T3",
+        "kind": "adjacent",
+        "source_file": "results/microtube_registration/input/raw/V-变化/0353-2-B3/T2.png",
+        "target_file": "results/microtube_registration/input/raw/V-变化/0353-2-B3/T3.png",
+        "source_size_wh": [
+          1327,
+          1185
+        ],
+        "target_size_wh": [
+          1330,
+          1183
+        ],
+        "model": "roma_outdoor",
+        "device": "cpu",
+        "coarse_resolution": 560,
+        "upsample_resolution": 864,
+        "confidence_threshold": 0.5,
+        "cycle_threshold_target_px": 3.0,
+        "checker_tile_px": 128,
+        "sampled_matches": 5000,
+        "reliable_sampled_matches": 2285,
+        "reliable_dense_source_pixels": 284575,
+        "homography_inliers": 2281,
+        "homography_inlier_ratio": 0.9982494529540481,
+        "homography_ransac_target_px": 3.0,
+        "prealignment_source_to_inference": [
+          [
+            1.0017187246426633,
+            2.888289616353695e-05,
+            -0.17236632417647926
+          ],
+          [
+            0.0018339329309540566,
+            0.9992976729085984,
+            -721.1423779399561
+          ],
+          [
+            1.1551795720469398e-06,
+            -9.946764088620759e-06,
+            1.0
+          ]
+        ],
+        "foldover_target_ratio": 0.14650340983481527,
+        "flow_preview_magnitude_p99_source_px": 750.9283447265625,
+        "effective_area_ratio": 0.18448954169023574,
+        "effective_pixel_count": 290274,
+        "geometric_area_ratio": 0.5125003972314557,
+        "confidence_on_effective_area": {
+          "median": 0.7047781944274902,
+          "p95": 0.8983883261680603
+        },
+        "gray_ncc": 0.7888608215008067,
+        "gradient_ncc": 0.6582964043213402,
+        "cycle_error_effective_target_px": {
+          "median": 0.15779973566532135,
+          "p95": 0.4259774088859558
+        },
+        "cycle_error_confident_target_px": {
+          "median": 0.1596914529800415,
+          "p95": 0.44344961643218994
+        },
+        "quality_interpretation": "Requires visual review; confidence/cycle consistency are internal checks, not independent ground truth. Seasonal RGB and root changes confound NCC.",
+        "elapsed_seconds": 49.97
+      }
+    },
+    {
+      "summary": {
+        "pair": "T3→T4",
+        "target_width": 5100,
+        "target_height": 4547,
+        "automatic_qc_pass": true,
+        "human_landmark_TRE": "未评估（无人工标志点）",
+        "automatic_validation_points": 245,
+        "automatic_point_mean_target_px": 3.1485103500134275,
+        "automatic_point_median_target_px": 2.820084930210742,
+        "automatic_point_rmse_target_px": 3.6250254173991814,
+        "automatic_point_p95_target_px": 6.74178508018814,
+        "automatic_point_median_at_target_width1400": 0.7740236686299679,
+        "geometric_overlap_pixels": 23087189,
+        "geometric_overlap_pct_target": 99.55794598463973,
+        "effective_overlap_pixels": 9952278,
+        "effective_overlap_pct_target": 42.916803580900144,
+        "low_confidence_overlap_pixels": 10354517,
+        "low_confidence_overlap_pct_target": 44.65136245833279,
+        "low_confidence_pct_geometric_overlap": 44.84962201331656,
+        "low_confidence_full_canvas_pixels": 10456734,
+        "low_confidence_full_canvas_pct": 45.092148669452385,
+        "other_unreliable_overlap_pixels": 2780394,
+        "other_unreliable_overlap_pct_target": 11.989779945406797,
+        "nonoverlap_pixels": 102511,
+        "nonoverlap_pct_target": 0.4420540153602677,
+        "reliable_roma_samples": 2288,
+        "sampled_roma_matches": 5000,
+        "cycle_median_effective_target_px": 0.48776718974113464,
+        "cycle_p95_effective_target_px": 1.2543790340423584
+      },
+      "automatic_qc_checks": {
+        "effective_area": true,
+        "reliable_sample_count": true,
+        "independent_point_count": true,
+        "independent_point_error": true,
+        "confident_cycle": true
+      },
+      "independent_matching": {
+        "source_keypoints": 29425,
+        "target_keypoints": 23570,
+        "mutual_matches": 418,
+        "ransac_inliers": 321,
+        "spatially_thinned_points": 245,
+        "analysis_target_size_wh": [
+          1400,
+          1248
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            1.0005180867948096,
+            0.0010036141854152508,
+            -2.2922595911506387
+          ],
+          [
+            -0.0010036141854152508,
+            1.0005180867948096,
+            -83.7799641984814
+          ]
+        ]
+      },
+      "automatic_validation_all_points": {
+        "n": 245,
+        "mean": 3.1485103500134275,
+        "median": 2.820084930210742,
+        "rmse": 3.6250254173991814,
+        "p95": 6.74178508018814
+      },
+      "automatic_validation_points_in_effective_area": {
+        "n": 210,
+        "mean": 3.10189040047138,
+        "median": 2.7434215899985963,
+        "rmse": 3.5692485046113553,
+        "p95": 6.6634814990252735
+      },
+      "automatic_validation_width1400": {
+        "n": 245,
+        "mean": 0.8642287503395648,
+        "median": 0.7740236686299679,
+        "rmse": 0.9950293601957807,
+        "p95": 1.850615503944363
+      },
+      "roma_original_metrics": {
+        "pair": "T3_to_T4",
+        "kind": "adjacent",
+        "source_file": "results/microtube_registration/input/raw/V-变化/0353-2-B3/T3.png",
+        "target_file": "results/microtube_registration/input/raw/V-变化/0353-2-B3/T4.TIFF",
+        "source_size_wh": [
+          1330,
+          1183
+        ],
+        "target_size_wh": [
+          5100,
+          4547
+        ],
+        "model": "roma_outdoor",
+        "device": "cpu",
+        "coarse_resolution": 560,
+        "upsample_resolution": 864,
+        "confidence_threshold": 0.5,
+        "cycle_threshold_target_px": 3.0,
+        "checker_tile_px": 128,
+        "sampled_matches": 5000,
+        "reliable_sampled_matches": 2288,
+        "reliable_dense_source_pixels": 675486,
+        "homography_inliers": 1760,
+        "homography_inlier_ratio": 0.7692307692307693,
+        "homography_ransac_target_px": 3.0,
+        "foldover_target_ratio": 0.04003285941603384,
+        "flow_preview_magnitude_p99_source_px": 83.48966979980469,
+        "effective_area_ratio": 0.4291680358090014,
+        "effective_pixel_count": 9952278,
+        "geometric_area_ratio": 0.9955794598463973,
+        "confidence_on_effective_area": {
+          "median": 0.7944812774658203,
+          "p95": 0.9438320398330688
+        },
+        "gray_ncc": 0.8260935088040252,
+        "gradient_ncc": 0.3951224053630957,
+        "cycle_error_effective_target_px": {
+          "median": 0.48776718974113464,
+          "p95": 1.2543790340423584
+        },
+        "cycle_error_confident_target_px": {
+          "median": 0.5113608241081238,
+          "p95": 1.4153481721878052
+        },
+        "quality_interpretation": "Requires visual review; confidence/cycle consistency are internal checks, not independent ground truth. Seasonal RGB and root changes confound NCC.",
+        "elapsed_seconds": 108.92
+      }
+    }
+  ]
+}
