@@ -1,0 +1,369 @@
+{
+  "position": "0353-2-B3",
+  "chain": "T1→T2→T3→T4",
+  "reference_size_wh": [
+    2550,
+    2273
+  ],
+  "reference": "native T1",
+  "error_coordinate": "T1 original pixel coordinates for all endpoints",
+  "cumulative_confidence": "minimum of all source- and target-side RoMa confidences sampled along adjacent forward path; not calibrated probability",
+  "effective_definition": "each adjacent native target valid mask propagated to T1, full path in original image bounds, path confidence >=0.5, cumulative T1 round-trip <=3 px, positive cumulative Jacobian; nested across stages",
+  "common_geometric_area_T1_px2": 2351657,
+  "common_geometric_pct_T1": 40.572742251322,
+  "common_effective_area_T1_px2": 242143,
+  "common_effective_pct_T1": 4.177652407201332,
+  "common_low_confidence_geometric_area_T1_px2": 2103288,
+  "common_low_confidence_pct_T1": 36.28767371444838,
+  "largest_common_geometric_horizontal_rectangle_xyxy": [
+    9,
+    1464,
+    2547,
+    2202
+  ],
+  "rectangle_size_wh": [
+    2538,
+    738
+  ],
+  "rectangle_effective_fraction": 0.12927779593004757,
+  "rectangle_common_pixels": 1873044,
+  "full_chain_automatic_qc_pass": false,
+  "cumulative_paths_passed": 1,
+  "cumulative_paths_evaluated": 3,
+  "manual_landmark_TRE": null,
+  "flow_display_max_T1_normalized_px": 1469.2376708984375,
+  "method_notes": [
+    "All images are sampled once from original RGB through composed RoMa fields.",
+    "No feature-derived transform refitting; RootSIFT endpoint checks are validation only.",
+    "RGB display rectangle is geometric common coverage, not an all-high-confidence rectangle.",
+    "Automatic quality thresholds: effective coverage>=10%, >=20 endpoint points, median error at width1400<=3px, effective roundtrip P95<=3 T1 pixels.",
+    "Unmappable endpoint matches are counted separately and excluded from numeric error; no confidence/error-based deletion from the geometrically mappable headline error.",
+    "Manual TRE and physically calibrated area unavailable. Automatic feature matching may be mistaken.",
+    "Only 0353-2-B3 is evaluated; success on 19 locations has not been evaluated."
+  ],
+  "original_inference": {
+    "input_sha256": {
+      "results/microtube_registration/input/raw/V-变化/0353-2-B3/T1.png": "b73a853d17b1a061ebcba122026c3fafec83cbe480463f35884180182c6df0a5",
+      "results/microtube_registration/input/raw/V-变化/0353-2-B3/T2.png": "a11fe41516b6fea91cbf0e383f4b41b41aa71cae28d4806d40d636f559045973",
+      "results/microtube_registration/input/raw/V-变化/0353-2-B3/T3.png": "396096b3f7bbab3c7c733952b81bc814ad096fbde9026f2fae34cd5e4ba575dd",
+      "results/microtube_registration/input/raw/V-变化/0353-2-B3/T4.TIFF": "59d755b267c04bd7fa94b1f40cb2070ea1fec8db1f389aa27644355976f116cc"
+    },
+    "args": {
+      "input_dir": "results/microtube_registration/input/raw/V-变化/0353-2-B3",
+      "output_dir": "results/microtube_registration/0353-2-B3",
+      "coarse": 560,
+      "upsample": 864,
+      "confidence": 0.5,
+      "cycle": 3.0,
+      "samples": 5000,
+      "ransac": 3.0,
+      "tile": 128,
+      "threads": 4,
+      "seed": 20261012,
+      "self_test": false,
+      "prealign_json": "results/microtube_registration/prealign.json",
+      "reuse_adjacent": true,
+      "device": "cpu",
+      "prealignments": {
+        "T2_to_T3": [
+          [
+            1.0017187246426633,
+            2.888289616353695e-05,
+            -0.17236632417647926
+          ],
+          [
+            0.0018339329309540566,
+            0.9992976729085984,
+            -721.1423779399561
+          ],
+          [
+            1.1551795720469398e-06,
+            -9.946764088620759e-06,
+            1.0
+          ]
+        ]
+      }
+    },
+    "versions": {
+      "torch": "2.8.0+cu128",
+      "opencv": "4.12.0"
+    },
+    "coordinate_convention": "zero-based pixel centres, x then y; target_to_source_xy_px is the pullback used by remap; source_to_target_xy_px is the forward map",
+    "interpolation": "bilinear for RGB and dense maps; nearest for binary masks; no colour correction or EXIF rotation",
+    "overlap_definition": "in source bounds, bidirectional RoMa confidence >= threshold, cycle error <= target-pixel threshold, positive local Jacobian; confidence is not calibrated correctness probability",
+    "cumulative_definition": "Tn->T1 pullback = composed adjacent backward maps; T1 RGB sampled once. Confidence is minimum along path, not a new RoMa inference. Validity intersects all adjacent masks.",
+    "repository_commit": "8d455a898ff5882a515f42eeeee818bd0443c16c",
+    "python_version": "3.12.14",
+    "model_checkpoint_sha256": {
+      "roma_outdoor.pth": "c7a45c80d41ad788a63c641d1b686d7cb3f297f40097c6f4e75039889e5cc8ba",
+      "dinov2_vitl14_pretrain.pth": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428"
+    }
+  },
+  "cumulative_evaluations": [
+    {
+      "summary": {
+        "path": "T1→T2",
+        "reference": "T1",
+        "automatic_endpoint_points": 43,
+        "automatic_evaluable_endpoint_points": 43,
+        "automatic_unmappable_endpoint_points": 0,
+        "automatic_effective_endpoint_points": 39,
+        "automatic_mean_error_effective_T1_px": 1.490224774155899,
+        "automatic_mean_error_T1_px": 1.4808762831828837,
+        "automatic_median_error_T1_px": 1.1037111345398867,
+        "automatic_rmse_error_T1_px": 1.7505878566177502,
+        "automatic_p95_error_T1_px": 3.3539172395187684,
+        "automatic_mean_error_native_period_px": 0.7845384421022509,
+        "geometric_area_T1_px2": 5706591,
+        "geometric_pct_T1": 98.45485365285577,
+        "effective_area_T1_px2": 1374065,
+        "effective_pct_T1": 23.706512081295344,
+        "low_confidence_geometric_area_T1_px2": 4303864,
+        "low_confidence_pct_T1": 74.25384091163963,
+        "low_confidence_pct_geometric": 75.41917757904851,
+        "other_unreliable_geometric_pct_T1": 0.4945006599208095,
+        "nonoverlap_pct_T1": 1.545146347144225,
+        "cumulative_cycle_median_effective_T1_px": 0.37457507848739624,
+        "cumulative_cycle_p95_effective_T1_px": 1.2959802150726318,
+        "automatic_qc_pass": true
+      },
+      "automatic_checks": {
+        "effective_area_at_least_10pct": true,
+        "endpoint_validation_points_at_least_20": true,
+        "endpoint_normalized_median_at_most_3px": true,
+        "cumulative_cycle_p95_effective_at_most_3px": true
+      },
+      "independent_endpoint_matching": {
+        "source_keypoints": 25827,
+        "target_keypoints": 27334,
+        "mutual_matches": 69,
+        "ransac_inliers": 53,
+        "spatially_thinned_points": 43,
+        "analysis_target_size_wh": [
+          1400,
+          1250
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            0.9928985213767917,
+            -0.0013803259863667677,
+            0.23988247844483707
+          ],
+          [
+            0.0013803259863667677,
+            0.9928985213767917,
+            46.24284968906071
+          ]
+        ]
+      },
+      "endpoint_error_T1_all": {
+        "n": 43,
+        "mean": 1.4808762831828837,
+        "median": 1.1037111345398867,
+        "rmse": 1.7505878566177502,
+        "p95": 3.3539172395187684
+      },
+      "endpoint_error_T1_effective": {
+        "n": 39,
+        "mean": 1.490224774155899,
+        "median": 1.0865147429118491,
+        "rmse": 1.7752713843528063,
+        "p95": 3.397733216975517
+      },
+      "endpoint_unmappable_count": 0,
+      "endpoint_error_native_period": {
+        "n": 43,
+        "mean": 0.7845384421022509,
+        "median": 0.5880408642079731,
+        "rmse": 0.9173817935936125,
+        "p95": 1.687692785072956
+      },
+      "endpoint_error_analysis_width1400": {
+        "n": 43,
+        "mean": 0.8276472170316564,
+        "median": 0.6203489516696484,
+        "rmse": 0.967792053959069,
+        "p95": 1.7804447042628144
+      }
+    },
+    {
+      "summary": {
+        "path": "T1→T2→T3",
+        "reference": "T1",
+        "automatic_endpoint_points": 12,
+        "automatic_evaluable_endpoint_points": 12,
+        "automatic_unmappable_endpoint_points": 0,
+        "automatic_effective_endpoint_points": 3,
+        "automatic_mean_error_effective_T1_px": 1.1608038946962216,
+        "automatic_mean_error_T1_px": 2.0696312933207914,
+        "automatic_median_error_T1_px": 1.677738644770941,
+        "automatic_rmse_error_T1_px": 2.582190632576585,
+        "automatic_p95_error_T1_px": 4.340887969597256,
+        "automatic_mean_error_native_period_px": 0.9195294064532621,
+        "geometric_area_T1_px2": 2358282,
+        "geometric_pct_T1": 40.687042260811054,
+        "effective_area_T1_px2": 382195,
+        "effective_pct_T1": 6.593945981384195,
+        "low_confidence_geometric_area_T1_px2": 1965747,
+        "low_confidence_pct_T1": 33.91470200046582,
+        "low_confidence_pct_geometric": 83.35504405325571,
+        "other_unreliable_geometric_pct_T1": 0.1783942789610345,
+        "nonoverlap_pct_T1": 59.312957739188946,
+        "cumulative_cycle_median_effective_T1_px": 0.46570926904678345,
+        "cumulative_cycle_p95_effective_T1_px": 1.1362520456314087,
+        "automatic_qc_pass": false
+      },
+      "automatic_checks": {
+        "effective_area_at_least_10pct": false,
+        "endpoint_validation_points_at_least_20": false,
+        "endpoint_normalized_median_at_most_3px": true,
+        "cumulative_cycle_p95_effective_at_most_3px": true
+      },
+      "independent_endpoint_matching": {
+        "source_keypoints": 25827,
+        "target_keypoints": 29425,
+        "mutual_matches": 23,
+        "ransac_inliers": 13,
+        "spatially_thinned_points": 12,
+        "analysis_target_size_wh": [
+          1400,
+          1245
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            0.9998390276390395,
+            -0.0008533683912590414,
+            -0.3245896580279665
+          ],
+          [
+            0.0008533683912590414,
+            0.9998390276390395,
+            -718.519329114074
+          ]
+        ]
+      },
+      "endpoint_error_T1_all": {
+        "n": 12,
+        "mean": 2.0696312933207914,
+        "median": 1.677738644770941,
+        "rmse": 2.582190632576585,
+        "p95": 4.340887969597256
+      },
+      "endpoint_error_T1_effective": {
+        "n": 3,
+        "mean": 1.1608038946962216,
+        "median": 0.4849731782351295,
+        "rmse": 1.5059493938859263,
+        "p95": 2.3143145710069577
+      },
+      "endpoint_unmappable_count": 0,
+      "endpoint_error_native_period": {
+        "n": 12,
+        "mean": 0.9195294064532621,
+        "median": 0.740417646120737,
+        "rmse": 1.0534736227668478,
+        "p95": 1.6905919372009883
+      },
+      "endpoint_error_analysis_width1400": {
+        "n": 12,
+        "mean": 0.9678139314034316,
+        "median": 0.7793127272942033,
+        "rmse": 1.1087787618848282,
+        "p95": 1.7793135784308338
+      }
+    },
+    {
+      "summary": {
+        "path": "T1→T2→T3→T4",
+        "reference": "T1",
+        "automatic_endpoint_points": 39,
+        "automatic_evaluable_endpoint_points": 32,
+        "automatic_unmappable_endpoint_points": 7,
+        "automatic_effective_endpoint_points": 14,
+        "automatic_mean_error_effective_T1_px": 1.3064491197500205,
+        "automatic_mean_error_T1_px": 3.6134221969146267,
+        "automatic_median_error_T1_px": 1.6080330526188626,
+        "automatic_rmse_error_T1_px": 8.558945052259672,
+        "automatic_p95_error_T1_px": 16.556918364858856,
+        "automatic_mean_error_native_period_px": 8.344315074248888,
+        "geometric_area_T1_px2": 2351657,
+        "geometric_pct_T1": 40.572742251322,
+        "effective_area_T1_px2": 242143,
+        "effective_pct_T1": 4.177652407201332,
+        "low_confidence_geometric_area_T1_px2": 2103288,
+        "low_confidence_pct_T1": 36.28767371444838,
+        "low_confidence_pct_geometric": 89.43855332644173,
+        "other_unreliable_geometric_pct_T1": 0.10741612967228246,
+        "nonoverlap_pct_T1": 59.427257748678,
+        "cumulative_cycle_median_effective_T1_px": 0.6675511598587036,
+        "cumulative_cycle_p95_effective_T1_px": 1.3673638105392456,
+        "automatic_qc_pass": false
+      },
+      "automatic_checks": {
+        "effective_area_at_least_10pct": false,
+        "endpoint_validation_points_at_least_20": true,
+        "endpoint_normalized_median_at_most_3px": true,
+        "cumulative_cycle_p95_effective_at_most_3px": true
+      },
+      "independent_endpoint_matching": {
+        "source_keypoints": 25827,
+        "target_keypoints": 23570,
+        "mutual_matches": 91,
+        "ransac_inliers": 56,
+        "spatially_thinned_points": 39,
+        "analysis_target_size_wh": [
+          1400,
+          1248
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            1.0003181954344114,
+            0.0018464249962227843,
+            -4.399490324225491
+          ],
+          [
+            -0.0018464249962227843,
+            1.0003181954344114,
+            -804.0903008189257
+          ]
+        ]
+      },
+      "endpoint_error_T1_all": {
+        "n": 32,
+        "mean": 3.6134221969146267,
+        "median": 1.6080330526188626,
+        "rmse": 8.558945052259672,
+        "p95": 16.556918364858856
+      },
+      "endpoint_error_T1_effective": {
+        "n": 14,
+        "mean": 1.3064491197500205,
+        "median": 1.1210478382399724,
+        "rmse": 1.5116912303869743,
+        "p95": 2.5164847261679375
+      },
+      "endpoint_unmappable_count": 7,
+      "endpoint_error_native_period": {
+        "n": 32,
+        "mean": 8.344315074248888,
+        "median": 2.7783514664158284,
+        "rmse": 22.404014471588436,
+        "p95": 42.9543065109999
+      },
+      "endpoint_error_analysis_width1400": {
+        "n": 32,
+        "mean": 2.290313993862016,
+        "median": 0.762630174324918,
+        "rmse": 6.149181910061348,
+        "p95": 11.78962771953932
+      }
+    }
+  ],
+  "adjacent_qc_passed_pairs": 3,
+  "adjacent_pairs": 3,
+  "flow_display_brightness": "log1p magnitude / log1p shared p99 max; arrows normalized to fixed length indicate direction only",
+  "cumulative_paths_auto_qc_pct": 33.333333333333336,
+  "full_chains_evaluated": 1,
+  "full_chains_automatic_qc_passed": 0,
+  "full_chain_automatic_qc_pass_pct": 0
+}
