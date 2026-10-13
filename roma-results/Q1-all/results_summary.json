@@ -1,0 +1,346 @@
+{
+  "positions": [
+    {
+      "position": "Q1-1-B2",
+      "group": "Q1-1",
+      "status": "region_localization",
+      "period_ids": [
+        1,
+        3,
+        4
+      ],
+      "missing_period_ids": [
+        2
+      ],
+      "unlocalized_period_ids": [],
+      "crop_size_wh": [
+        1317,
+        725
+      ],
+      "map_file": "Q1-1-B2_same_region_localization.png",
+      "image_files": [
+        "Q1-1-B2_same_region_localization.png",
+        "T1_common_region_RGB.png",
+        "T3_common_region_RGB.png",
+        "T4_common_region_RGB.png"
+      ],
+      "image_size_wh": {
+        "Q1-1-B2_same_region_localization.png": [
+          4800,
+          1677
+        ],
+        "T1_common_region_RGB.png": [
+          1317,
+          725
+        ],
+        "T3_common_region_RGB.png": [
+          1317,
+          725
+        ],
+        "T4_common_region_RGB.png": [
+          1317,
+          725
+        ]
+      },
+      "archive": "Q1-1-B2_same_region_map_and_RGB.zip",
+      "image_count": 4,
+      "path": "Q1-1/Q1-1-B2/region-observation-results/",
+      "note": "缺少T2，不补造缺失图像。以原始T1为坐标与尺度基准，结构关系使用T1/T3、T3/T4。额外结构路线在共同范围的差异中位数/95百分位（T1像素）：T1/T4 1.05/1.67。"
+    },
+    {
+      "position": "Q1-2-B3",
+      "group": "Q1-2",
+      "status": "partial_neural_region_candidate",
+      "period_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "missing_period_ids": [],
+      "unlocalized_period_ids": [
+        4
+      ],
+      "crop_size_wh": [
+        2535,
+        1517
+      ],
+      "map_file": "Q1-2-B3_localization_review.png",
+      "image_files": [
+        "Q1-2-B3_localization_review.png",
+        "T1_candidate_T1_region_RGB.png",
+        "T2_candidate_T1_region_RGB.png",
+        "T3_candidate_T1_region_RGB.png",
+        "T4_unlocalized_original_RGB.png"
+      ],
+      "image_size_wh": {
+        "Q1-2-B3_localization_review.png": [
+          6400,
+          1712
+        ],
+        "T1_candidate_T1_region_RGB.png": [
+          2535,
+          1517
+        ],
+        "T2_candidate_T1_region_RGB.png": [
+          2535,
+          1517
+        ],
+        "T3_candidate_T1_region_RGB.png": [
+          2535,
+          1517
+        ],
+        "T4_unlocalized_original_RGB.png": [
+          5100,
+          4547
+        ]
+      },
+      "archive": "Q1-2-B3_partial_localization_review_and_RGB.zip",
+      "image_count": 5,
+      "path": "Q1-2/Q1-2-B3/region-observation-results/",
+      "note": "前三期仅为RoMa模型候选；T4尚未定位. Failure remains failure. Missing periods are not synthesized; unlocalized existing periods are not relabeled missing. Only existing supported neural hypotheses are rendered as explicitly unverified candidates. Original unsupported RGB remains native, uncropped and unregistered. No elastic deformation or color changes."
+    },
+    {
+      "position": "Q1-2-Z2",
+      "group": "Q1-2",
+      "status": "candidate_region_localization",
+      "period_ids": [
+        1,
+        3,
+        4
+      ],
+      "missing_period_ids": [
+        2
+      ],
+      "unlocalized_period_ids": [],
+      "crop_size_wh": [
+        2493,
+        1295
+      ],
+      "map_file": "Q1-2-Z2_same_region_localization.png",
+      "image_files": [
+        "Q1-2-Z2_same_region_localization.png",
+        "T1_common_region_RGB.png",
+        "T3_common_region_RGB.png",
+        "T4_common_region_RGB.png"
+      ],
+      "image_size_wh": {
+        "Q1-2-Z2_same_region_localization.png": [
+          4800,
+          1677
+        ],
+        "T1_common_region_RGB.png": [
+          2493,
+          1295
+        ],
+        "T3_common_region_RGB.png": [
+          2493,
+          1295
+        ],
+        "T4_common_region_RGB.png": [
+          2493,
+          1295
+        ]
+      },
+      "archive": "Q1-2-Z2_same_region_map_and_RGB.zip",
+      "image_count": 4,
+      "path": "Q1-2/Q1-2-Z2/region-observation-results/",
+      "note": "缺少T2，不补造缺失图像。以原始T1为坐标与尺度基准，结构关系使用T1/T4、T3/T4。没有额外可靠结构路线可供核对，标为候选定位；不能据此声称精确逐点配准成功。"
+    },
+    {
+      "position": "Q1-2-Z3",
+      "group": "Q1-2",
+      "status": "region_localization",
+      "period_ids": [
+        1,
+        2,
+        4
+      ],
+      "missing_period_ids": [
+        3
+      ],
+      "unlocalized_period_ids": [],
+      "crop_size_wh": [
+        2528,
+        1918
+      ],
+      "map_file": "Q1-2-Z3_same_region_localization.png",
+      "image_files": [
+        "Q1-2-Z3_same_region_localization.png",
+        "T1_common_region_RGB.png",
+        "T2_common_region_RGB.png",
+        "T4_common_region_RGB.png"
+      ],
+      "image_size_wh": {
+        "Q1-2-Z3_same_region_localization.png": [
+          4800,
+          1677
+        ],
+        "T1_common_region_RGB.png": [
+          2528,
+          1918
+        ],
+        "T2_common_region_RGB.png": [
+          2528,
+          1918
+        ],
+        "T4_common_region_RGB.png": [
+          2528,
+          1918
+        ]
+      },
+      "archive": "Q1-2-Z3_same_region_map_and_RGB.zip",
+      "image_count": 4,
+      "path": "Q1-2/Q1-2-Z3/region-observation-results/",
+      "note": "缺少T3，不补造缺失图像。以原始T1为坐标与尺度基准，结构关系使用T1/T4、T2/T4。额外结构路线在共同范围的差异中位数/95百分位（T1像素）：T1/T2 3.99/5.26。"
+    },
+    {
+      "position": "Q1-3-Z3",
+      "group": "Q1-3",
+      "status": "no_T1_referenced_localization",
+      "period_ids": [
+        1,
+        2,
+        3
+      ],
+      "missing_period_ids": [
+        4
+      ],
+      "unlocalized_period_ids": [
+        1
+      ],
+      "crop_size_wh": null,
+      "map_file": "Q1-3-Z3_localization_review.png",
+      "image_files": [
+        "Q1-3-Z3_localization_review.png",
+        "T1_unregistered_original_RGB.png",
+        "T2_unregistered_original_RGB.png",
+        "T3_unregistered_original_RGB.png"
+      ],
+      "image_size_wh": {
+        "Q1-3-Z3_localization_review.png": [
+          4800,
+          1712
+        ],
+        "T1_unregistered_original_RGB.png": [
+          2550,
+          2273
+        ],
+        "T2_unregistered_original_RGB.png": [
+          1328,
+          1184
+        ],
+        "T3_unregistered_original_RGB.png": [
+          1328,
+          1184
+        ]
+      },
+      "archive": "Q1-3-Z3_partial_localization_review_and_RGB.zip",
+      "image_count": 4,
+      "path": "Q1-3/Q1-3-Z3/region-observation-results/",
+      "note": "缺少T4，不补造缺失图像。T1未可靠定位：仅原图核对，不作共同区域裁剪. Failure remains failure. Missing periods are not synthesized; unlocalized existing periods are not relabeled missing. Only existing supported neural hypotheses are rendered as explicitly unverified candidates. Original unsupported RGB remains native, uncropped and unregistered. No elastic deformation or color changes."
+    }
+  ],
+  "skipped": [
+    {
+      "position": "Q1-1-B3",
+      "period_ids": [
+        3,
+        4
+      ],
+      "missing_period_ids": [
+        1,
+        2
+      ],
+      "status": "skipped",
+      "reason": "Only two available periods: skipped under user rule",
+      "input_sha256": {
+        "T3": "4b305509a9a1a890026d4b248118226cd18b01aef34cf6d2f51073629feaa70f",
+        "T4": "efa3dfe60e601536c4c8a149ac3e2e5d5cec7346b5ee033483e138c17fe1a645"
+      },
+      "original_size_wh": {
+        "T3": [
+          1330,
+          1183
+        ],
+        "T4": [
+          5100,
+          4547
+        ]
+      }
+    }
+  ],
+  "bundles": [
+    {
+      "series": "Q1-1",
+      "archive": "Q1-1_region_observation_images.zip",
+      "positions": [
+        "Q1-1-B2"
+      ],
+      "bytes": 16675003,
+      "sha256": "c9e9fdd41b3e2795f7014e6ba968f03709d2f77115f21be177f98667e38e7f73",
+      "image_count": 4,
+      "image_sha256": {
+        "Q1-1-B2_same_region_localization.png": "e2b066504a7e7d75efdb6836e8385f97a3c0086c3760b349c203b0cef955c40a",
+        "Q1-1-B2_T1_common_region_RGB.png": "470da0d245176d3aa0fcdb8a8f8868ed7b38ec85ffe089cf85b7b8f38b36bf57",
+        "Q1-1-B2_T3_common_region_RGB.png": "a010d02c893880120958f91daca7f58a17a56610f3652412b4188ffda0c3d34d",
+        "Q1-1-B2_T4_common_region_RGB.png": "abca978b830684d6c4263c94b1890f9ac02ba8fcbcdcc491b4b3b416dfd4addc"
+      }
+    },
+    {
+      "series": "Q1-2",
+      "archive": "Q1-2_region_observation_images_part_1.zip",
+      "positions": [
+        "Q1-2-B3"
+      ],
+      "bytes": 71555060,
+      "sha256": "3ec0ba7132d19d303febf37d9d84293fca219abc64a959e0ddecd27cc7a02eb5",
+      "image_count": 5,
+      "image_sha256": {
+        "Q1-2-B3_localization_review.png": "1108541dd61872b964f937c0d49cb3e2e6dba9198add7dd996b9f966e2e52f76",
+        "Q1-2-B3_T1_candidate_T1_region_RGB.png": "efaaae65dbf21a363d7432a41b4dbe0c4f65ddf1ee89fdc26875ea9f92a09b2d",
+        "Q1-2-B3_T2_candidate_T1_region_RGB.png": "9df86b79bbca9ee9b1c582b06c72f5b0b9decd8660a2e5d98ddc181fbc77b05f",
+        "Q1-2-B3_T3_candidate_T1_region_RGB.png": "ac7cb8c8e9d1095ae5448635cc1f693337c62c272f89f33699a041b753a2fbfc",
+        "Q1-2-B3_T4_unlocalized_original_RGB.png": "b8f231b8e77e379ddacc5ee4a974e875136b81afc2490f5bdcf299f09da66c7d"
+      }
+    },
+    {
+      "series": "Q1-2",
+      "archive": "Q1-2_region_observation_images_part_2.zip",
+      "positions": [
+        "Q1-2-Z2",
+        "Q1-2-Z3"
+      ],
+      "bytes": 71357780,
+      "sha256": "da8f0f99308eeffe020a0e83be2a391321f0095cd0e10913150f0535580b6019",
+      "image_count": 8,
+      "image_sha256": {
+        "Q1-2-Z2_same_region_localization.png": "4b3bc03739e17799e1dbe1faab913e49576e18d48a22b20f629145125600a3ca",
+        "Q1-2-Z2_T1_common_region_RGB.png": "3d62ed31c929b8255e49936992a92634e157b0e3bdeeedc0f72474b6da0cf8da",
+        "Q1-2-Z2_T3_common_region_RGB.png": "3c4910fcf2f309841f6e60d56f4b523391ecb5fa02b86c399cc6e582edace60f",
+        "Q1-2-Z2_T4_common_region_RGB.png": "24d5d9e416abe4919b66e6445f77b6531a918e4a9c3bfa7d7c953292ad6b59ee",
+        "Q1-2-Z3_same_region_localization.png": "cf4b6d195bd8922558fcbb35016951d1853889ba0f9d726eb7f958eef89057bc",
+        "Q1-2-Z3_T1_common_region_RGB.png": "312fd3d397def2764e3e52dafeb29e2ec43dd2151ac3392222539e1cfcceee62",
+        "Q1-2-Z3_T2_common_region_RGB.png": "ec15090f4843ddb6438ae5cf63bbac66aa9d3f9507061a26450a80e6ad782ea0",
+        "Q1-2-Z3_T4_common_region_RGB.png": "0e54aa93a7ad4e03780e2a4f29c187b911cab2da209873e15747f80b96351dc2"
+      }
+    },
+    {
+      "series": "Q1-3",
+      "archive": "Q1-3_region_observation_images.zip",
+      "positions": [
+        "Q1-3-Z3"
+      ],
+      "bytes": 31864075,
+      "sha256": "999287174225303f827217570d7e71aecf171012646dba8840c556e587fc510c",
+      "image_count": 4,
+      "image_sha256": {
+        "Q1-3-Z3_localization_review.png": "5ada6d054081f739bba1f0160d1527aaedcb8672ace1f2bfbd0c37a242729df7",
+        "Q1-3-Z3_T1_unregistered_original_RGB.png": "ede6afb80a78a87e76f7aeed4979e8e604e893800b1e25b5ce53579499623fd4",
+        "Q1-3-Z3_T2_unregistered_original_RGB.png": "81d0ffd5fc96f949258de38735fa4628326b0eeb975db6fca130519e3f70412b",
+        "Q1-3-Z3_T3_unregistered_original_RGB.png": "50e29b0adc248ba267d03c18b95f8efc9670d511db7d6344aba0da1d6a00584e"
+      }
+    }
+  ],
+  "total_primary_PNGs": 21
+}

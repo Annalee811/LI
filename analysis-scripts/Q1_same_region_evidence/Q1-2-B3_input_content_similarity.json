@@ -1,0 +1,10 @@
+{
+  "position": "Q1-2-B3",
+  "pair": "T1_to_T2",
+  "comparison": "Raw RGB T1 uniformly reduced to native T2 dimensions, before registration or color correction",
+  "mean_absolute_RGB_difference_8bit": 12.553201615583957,
+  "gray_NCC": 0.7610831043934019,
+  "gray_SSIM_11px": 0.5872122254183767,
+  "near_duplicate_image_content_candidate": false,
+  "interpretation": "Highly similar image content is a data provenance warning, not proof of no root growth or proof of exact duplicated acquisition. Period labels preserved as supplied; no images removed."
+}

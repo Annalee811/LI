@@ -1,0 +1,193 @@
+[
+  {
+    "position": "Q1-1-B2",
+    "period_ids": [
+      1,
+      3,
+      4
+    ],
+    "missing_period_ids": [
+      2
+    ],
+    "status": "scheduled",
+    "reason": null,
+    "input_sha256": {
+      "T1": "f9755349f5c11cce2fb53b01aedd7368879beb25c10f5452523f77bfcf320df4",
+      "T3": "3778d77192ca43a78dcf2ac026ee4fe6e6b0fee7af0844d5c65e7dfa919da7b7",
+      "T4": "8257e936564213fa48312bd92b9266d87b420a4c6740854cf5d6d8efa3a75f0a"
+    },
+    "original_size_wh": {
+      "T1": [
+        1330,
+        1182
+      ],
+      "T3": [
+        1328,
+        1184
+      ],
+      "T4": [
+        5100,
+        4547
+      ]
+    }
+  },
+  {
+    "position": "Q1-1-B3",
+    "period_ids": [
+      3,
+      4
+    ],
+    "missing_period_ids": [
+      1,
+      2
+    ],
+    "status": "skipped",
+    "reason": "Only two available periods: skipped under user rule",
+    "input_sha256": {
+      "T3": "4b305509a9a1a890026d4b248118226cd18b01aef34cf6d2f51073629feaa70f",
+      "T4": "efa3dfe60e601536c4c8a149ac3e2e5d5cec7346b5ee033483e138c17fe1a645"
+    },
+    "original_size_wh": {
+      "T3": [
+        1330,
+        1183
+      ],
+      "T4": [
+        5100,
+        4547
+      ]
+    }
+  },
+  {
+    "position": "Q1-2-B3",
+    "period_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "missing_period_ids": [],
+    "status": "scheduled",
+    "reason": null,
+    "input_sha256": {
+      "T1": "8cca7488a15320e1d5717266959ab9395cc999a61282c599fa1c127e0ce41127",
+      "T2": "8c9db1ce0fc18a6c0823410e54e80a8d587e40ac0b6eeca95189f53239cdb2e9",
+      "T3": "593fe1480463e4b7c2eff8f9c84176da4a9b58c1b29ec8143da13fa6855b89ea",
+      "T4": "0e0ead59a5e44fdfbe23617856f554614dca57896b6c93c590a76ab46053c05e"
+    },
+    "original_size_wh": {
+      "T1": [
+        2550,
+        2273
+      ],
+      "T2": [
+        1328,
+        1184
+      ],
+      "T3": [
+        1328,
+        1184
+      ],
+      "T4": [
+        5100,
+        4547
+      ]
+    }
+  },
+  {
+    "position": "Q1-2-Z2",
+    "period_ids": [
+      1,
+      3,
+      4
+    ],
+    "missing_period_ids": [
+      2
+    ],
+    "status": "scheduled",
+    "reason": null,
+    "input_sha256": {
+      "T1": "a49212981a680ba4412f54669c8c9fe5c526db42b550836e74815d4f3927a02d",
+      "T3": "0e6a79281e831ed5aeff1bcfb30a6dc7014309ff152a84e25e66fcad148731c6",
+      "T4": "b884483197c5aed11b46b046712604822481da8ac338bc7170cb5cc3dc13015c"
+    },
+    "original_size_wh": {
+      "T1": [
+        2550,
+        2273
+      ],
+      "T3": [
+        1328,
+        1184
+      ],
+      "T4": [
+        5100,
+        4547
+      ]
+    }
+  },
+  {
+    "position": "Q1-2-Z3",
+    "period_ids": [
+      1,
+      2,
+      4
+    ],
+    "missing_period_ids": [
+      3
+    ],
+    "status": "scheduled",
+    "reason": null,
+    "input_sha256": {
+      "T1": "446069ce3b12001072677d7654018bf83cd93618791c2852037da985107033b5",
+      "T2": "8cf27d38de6526e56b53f4421b5b1f9017f2ff660bdb048acbf0125619421fe9",
+      "T4": "65bb62fa0145b634290d50615681567b80cee0e3231b50e59fec6750245576b2"
+    },
+    "original_size_wh": {
+      "T1": [
+        2550,
+        2273
+      ],
+      "T2": [
+        1328,
+        1184
+      ],
+      "T4": [
+        5100,
+        4547
+      ]
+    }
+  },
+  {
+    "position": "Q1-3-Z3",
+    "period_ids": [
+      1,
+      2,
+      3
+    ],
+    "missing_period_ids": [
+      4
+    ],
+    "status": "scheduled",
+    "reason": null,
+    "input_sha256": {
+      "T1": "9046fbcb230965d6c0b7372ef394ecf73f5738cae9effd524fcf46e99380cd8a",
+      "T2": "add19453dec0d0b30c15933257c3d41084fc587ea24e2403c2feb222cb998ebb",
+      "T3": "3601e81b7b25b46c03ee6fc70cd0b8c561484e21dd30051aec83500768bb4017"
+    },
+    "original_size_wh": {
+      "T1": [
+        2550,
+        2273
+      ],
+      "T2": [
+        1328,
+        1184
+      ],
+      "T3": [
+        1328,
+        1184
+      ]
+    }
+  }
+]

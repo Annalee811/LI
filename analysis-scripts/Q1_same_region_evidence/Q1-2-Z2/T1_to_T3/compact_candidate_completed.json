@@ -1,0 +1,29 @@
+{
+  "input_sha256": {
+    "/workspace/LI/results/microtube_registration/input/raw/V-\u53d8\u5316/Q1-2-Z2/T1.jpg": "a49212981a680ba4412f54669c8c9fe5c526db42b550836e74815d4f3927a02d",
+    "/workspace/LI/results/microtube_registration/input/raw/V-\u53d8\u5316/Q1-2-Z2/T3.png": "0e6a79281e831ed5aeff1bcfb30a6dc7014309ff152a84e25e66fcad148731c6",
+    "/workspace/LI/results/microtube_registration/input/raw/V-\u53d8\u5316/Q1-2-Z2/T4.jpg": "b884483197c5aed11b46b046712604822481da8ac338bc7170cb5cc3dc13015c"
+  },
+  "metrics": {
+    "pair": "T1_to_T3",
+    "source_size_wh": [
+      2550,
+      2273
+    ],
+    "target_size_wh": [
+      1328,
+      1184
+    ],
+    "device": "cpu",
+    "model": "full roma_outdoor",
+    "coarse_res": 560,
+    "upsample_res": 864,
+    "sample_count": 5000,
+    "bidirectionally_supported_candidates": 137,
+    "confidence_threshold": 0.5,
+    "cycle_threshold_analysis1600_px": 5,
+    "prealignment_native": null,
+    "elapsed_seconds": 77.27,
+    "interpretation": "RoMa confidence/cycle are internal candidate evidence, not independent accuracy. Pixel-precision continuous success is not asserted. Dense RoMa is not used to render final RGB."
+  }
+}

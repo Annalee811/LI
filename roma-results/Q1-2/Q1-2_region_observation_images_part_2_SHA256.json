@@ -1,0 +1,21 @@
+{
+  "series": "Q1-2",
+  "archive": "Q1-2_region_observation_images_part_2.zip",
+  "positions": [
+    "Q1-2-Z2",
+    "Q1-2-Z3"
+  ],
+  "bytes": 71357780,
+  "sha256": "da8f0f99308eeffe020a0e83be2a391321f0095cd0e10913150f0535580b6019",
+  "image_count": 8,
+  "image_sha256": {
+    "Q1-2-Z2_same_region_localization.png": "4b3bc03739e17799e1dbe1faab913e49576e18d48a22b20f629145125600a3ca",
+    "Q1-2-Z2_T1_common_region_RGB.png": "3d62ed31c929b8255e49936992a92634e157b0e3bdeeedc0f72474b6da0cf8da",
+    "Q1-2-Z2_T3_common_region_RGB.png": "3c4910fcf2f309841f6e60d56f4b523391ecb5fa02b86c399cc6e582edace60f",
+    "Q1-2-Z2_T4_common_region_RGB.png": "24d5d9e416abe4919b66e6445f77b6531a918e4a9c3bfa7d7c953292ad6b59ee",
+    "Q1-2-Z3_same_region_localization.png": "cf4b6d195bd8922558fcbb35016951d1853889ba0f9d726eb7f958eef89057bc",
+    "Q1-2-Z3_T1_common_region_RGB.png": "312fd3d397def2764e3e52dafeb29e2ec43dd2151ac3392222539e1cfcceee62",
+    "Q1-2-Z3_T2_common_region_RGB.png": "ec15090f4843ddb6438ae5cf63bbac66aa9d3f9507061a26450a80e6ad782ea0",
+    "Q1-2-Z3_T4_common_region_RGB.png": "0e54aa93a7ad4e03780e2a4f29c187b911cab2da209873e15747f80b96351dc2"
+  }
+}

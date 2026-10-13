@@ -1,0 +1,38 @@
+{
+  "position": "Q1-3-Z3",
+  "status": "no_T1_referenced_localization",
+  "period_ids": [
+    1,
+    2,
+    3
+  ],
+  "missing_period_ids": [
+    4
+  ],
+  "localized_candidate_period_ids": [],
+  "unlocalized_period_ids": [
+    1
+  ],
+  "full_T1_referenced_sequence_accepted": false,
+  "full_common_region_defined": false,
+  "candidate_crop_size_wh": null,
+  "candidate_common_T1_rectangle_xyxy": null,
+  "matrices_T1_to_native_candidates": {},
+  "original_canvas_candidate_polygons": {},
+  "neural_hypothesis_evidence": [],
+  "candidate_region_manual_review": true,
+  "manual_TRE": null,
+  "output_image_filenames": [
+    "Q1-3-Z3_localization_review.png",
+    "T1_unregistered_original_RGB.png",
+    "T2_unregistered_original_RGB.png",
+    "T3_unregistered_original_RGB.png"
+  ],
+  "input_sha256": {
+    "T1": "9046fbcb230965d6c0b7372ef394ecf73f5738cae9effd524fcf46e99380cd8a",
+    "T2": "add19453dec0d0b30c15933257c3d41084fc587ea24e2403c2feb222cb998ebb",
+    "T3": "3601e81b7b25b46c03ee6fc70cd0b8c561484e21dd30051aec83500768bb4017"
+  },
+  "interpretation": "T1未可靠定位：仅原图核对，不作共同区域裁剪. Failure remains failure. Missing periods are not synthesized; unlocalized existing periods are not relabeled missing. Only existing supported neural hypotheses are rendered as explicitly unverified candidates. Original unsupported RGB remains native, uncropped and unregistered. No elastic deformation or color changes.",
+  "limitations": "Confidence/cycle/model consensus are internal evidence, not validated root identity or ground truth. Full-frame descriptor checks, contrast normalization and orientation trials failed to locate the unlocalized image(s)."
+}

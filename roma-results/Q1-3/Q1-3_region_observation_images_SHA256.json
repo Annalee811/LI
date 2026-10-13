@@ -1,0 +1,16 @@
+{
+  "series": "Q1-3",
+  "archive": "Q1-3_region_observation_images.zip",
+  "positions": [
+    "Q1-3-Z3"
+  ],
+  "bytes": 31864075,
+  "sha256": "999287174225303f827217570d7e71aecf171012646dba8840c556e587fc510c",
+  "image_count": 4,
+  "image_sha256": {
+    "Q1-3-Z3_localization_review.png": "5ada6d054081f739bba1f0160d1527aaedcb8672ace1f2bfbd0c37a242729df7",
+    "Q1-3-Z3_T1_unregistered_original_RGB.png": "ede6afb80a78a87e76f7aeed4979e8e604e893800b1e25b5ce53579499623fd4",
+    "Q1-3-Z3_T2_unregistered_original_RGB.png": "81d0ffd5fc96f949258de38735fa4628326b0eeb975db6fca130519e3f70412b",
+    "Q1-3-Z3_T3_unregistered_original_RGB.png": "50e29b0adc248ba267d03c18b95f8efc9670d511db7d6344aba0da1d6a00584e"
+  }
+}

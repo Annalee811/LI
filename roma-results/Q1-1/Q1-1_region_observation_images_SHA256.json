@@ -1,0 +1,16 @@
+{
+  "series": "Q1-1",
+  "archive": "Q1-1_region_observation_images.zip",
+  "positions": [
+    "Q1-1-B2"
+  ],
+  "bytes": 16675003,
+  "sha256": "c9e9fdd41b3e2795f7014e6ba968f03709d2f77115f21be177f98667e38e7f73",
+  "image_count": 4,
+  "image_sha256": {
+    "Q1-1-B2_same_region_localization.png": "e2b066504a7e7d75efdb6836e8385f97a3c0086c3760b349c203b0cef955c40a",
+    "Q1-1-B2_T1_common_region_RGB.png": "470da0d245176d3aa0fcdb8a8f8868ed7b38ec85ffe089cf85b7b8f38b36bf57",
+    "Q1-1-B2_T3_common_region_RGB.png": "a010d02c893880120958f91daca7f58a17a56610f3652412b4188ffda0c3d34d",
+    "Q1-1-B2_T4_common_region_RGB.png": "abca978b830684d6c4263c94b1890f9ac02ba8fcbcdcc491b4b3b416dfd4addc"
+  }
+}

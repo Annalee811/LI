@@ -1,0 +1,17 @@
+{
+  "position": "Q1-2-B3",
+  "pair": "T3_to_T4",
+  "inference_target_rotation_CCW_deg": 180,
+  "device": "cpu",
+  "coarse_res": 336,
+  "upsample_res": 448,
+  "internally_supported_candidates": 0,
+  "global_similarity_consensus": null,
+  "global_matrix_analysis1600": null,
+  "elapsed_seconds": 24.88,
+  "input_sha256": {
+    "T3": "593fe1480463e4b7c2eff8f9c84176da4a9b58c1b29ec8143da13fa6855b89ea",
+    "T4": "0e0ead59a5e44fdfbe23617856f554614dca57896b6c93c590a76ab46053c05e"
+  },
+  "interpretation": "Target rotation is for orientation testing only. Coordinates converted back to original target pixel centres. Confidence/cycle/consensus are internal evidence, not verified region correctness. No original RGB colors or pixels changed."
+}
