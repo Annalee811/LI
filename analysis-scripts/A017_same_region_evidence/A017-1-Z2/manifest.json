@@ -1,0 +1,109 @@
+{
+  "position": "A017-1-Z2",
+  "period_ids": [
+    1,
+    2,
+    4
+  ],
+  "missing_period_ids": [
+    3
+  ],
+  "input_sha256": {
+    "results/microtube_registration/input/raw/V-变化/A017-1-Z2/T1.jpg": "f048169a76c248d7a3d9ed54d76113333a36bdbd84b02f4d618029f13b217434",
+    "results/microtube_registration/input/raw/V-变化/A017-1-Z2/T2.jpg": "b94eae540825a056e2e920da9bea2baff998f14101910cdea1342479ba64ee08",
+    "results/microtube_registration/input/raw/V-变化/A017-1-Z2/T4.jpg": "3ba72d8807a66c95d625fab5040279c2fd35429699c11ba7a72aa07ce0150ac0"
+  },
+  "args": {
+    "device": "cpu",
+    "coarse": 560,
+    "upsample": 864,
+    "confidence": 0.5,
+    "cycle_native_target_px": 3.0,
+    "seed": 20261013
+  },
+  "model": "full roma_outdoor",
+  "root_priority": [
+    {
+      "pair": "T1_to_T2",
+      "mutual_feature_matches": 2,
+      "root_candidate_anchors": 0,
+      "coarse_alignment_used": false,
+      "calendar_gap_periods": 0
+    },
+    {
+      "pair": "T2_to_T4",
+      "mutual_feature_matches": 17,
+      "root_candidate_anchors": 15,
+      "coarse_alignment_used": true,
+      "calendar_gap_periods": 1,
+      "coarse_method": "root-first RANSAC + weighted root/soil refinement",
+      "coarse_inliers": 17,
+      "coarse_root_inliers": 15,
+      "root_anchor_weight": 3.0,
+      "soil_anchor_weight": 1.0,
+      "homography_native_source_to_target": [
+        [
+          3.830985562154364,
+          0.016445432473545307,
+          -34.11981584425874
+        ],
+        [
+          -0.01645065840090226,
+          3.830972078125955,
+          -3283.540570046229
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "method": "Root-first geometric prealignment from conservative root ridge support; 3:1 root/soil weight; full RoMa dense residuals on RGB; artifact rejection. RGB output sampled once from originals.",
+  "soil_shape_refinement": {
+    "selected_pairs": [
+      "T2_to_T4"
+    ],
+    "coarse_priors": {
+      "T1_to_T2": [
+        [
+          0.5197341491103801,
+          0.0012533368369335887,
+          211.3746794549407
+        ],
+        [
+          -0.0012534593865490388,
+          0.5198503066356998,
+          119.60599671316413
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T2_to_T4": [
+        [
+          3.831277645135746,
+          0.01172286055360528,
+          -28.573831594803433
+        ],
+        [
+          -0.01172658577139857,
+          3.831264160079285,
+          -3287.2630530912597
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "model_inference": "Shared geometry ROI + L-channel CLAHE, inference only; fields embedded in native full canvases, outside ROI unknown/confidence0",
+    "manual_landmark_TRE": null,
+    "first_pair_trials_rejected": true,
+    "warning": "Stable soil crack coarse localization found, but T1/T2 dense proposals remain below 1% effective area and 100 reliable samples. Full chain has no validated continuity."
+  }
+}

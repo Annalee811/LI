@@ -1,0 +1,19 @@
+{
+  "series": "A017-3",
+  "archive": "A017-3_all_same_region_images.zip",
+  "bytes": 71259741,
+  "sha256": "f23b36a075a5b10939218b2af47daf781668ef15c06f1a04b235e2f0db0637ef",
+  "image_count": 10,
+  "image_sha256": {
+    "A017-3-B3_same_region_localization.png": "1c4a8475513aa051725bb7b337564bf792b09e4354630e5940a487b045c8af3c",
+    "A017-3-B3_T1_common_region_RGB.png": "5eaf587928e6b9975587f68c489254d8cc749543c38ce7a53a696363f129eb20",
+    "A017-3-B3_T2_common_region_RGB.png": "ac2cf2e927af0b740d7cb8ee9202ca4528847e903ce017d7f525fb457daecd22",
+    "A017-3-B3_T3_common_region_RGB.png": "090370cf4149f3dfa53d348bfd08542b1155e0a1ac031a1d38945a32e7acac12",
+    "A017-3-B3_T4_common_region_RGB.png": "72814670aac2addeb5388ab696272083963d948515a8cdd312ab7f3674b014a4",
+    "A017-3-Z2_same_region_localization.png": "cfe3451e9b5c60b00456352f98ca4270f9aa5aa38e0cc0aad67e3f8f88416112",
+    "A017-3-Z2_T1_common_region_RGB.png": "25c278984d9607266231e1c5bc392b91506d41d6021cd3fd445e5f11332aa64f",
+    "A017-3-Z2_T2_common_region_RGB.png": "6912bc63559536a27cfc7a39ef76fbd6db4522683b004c0231725bc9401a769e",
+    "A017-3-Z2_T3_common_region_RGB.png": "d195e07a6b4c9db04394aa59193679fb22e37c866c110ecc96d90d889834555e",
+    "A017-3-Z2_T4_common_region_RGB.png": "b6766f27cff0d4bfa54ecde5d49bd3084d631f7a11163ca29c0af25454f8a621"
+  }
+}

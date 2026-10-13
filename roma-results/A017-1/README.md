@@ -1,3 +1,20 @@
+# 最新：A017-1同一区域定位与原色RGB
+
+[下载本系列全部图片](A017-1_all_same_region_images.zip)
+
+各位置使用自己的原始T1坐标与尺度，保留颜色与季节变化，无局部弹性变形。
+
+| 位置 | 实际时期 | 独立裁剪尺寸 | 定位图 | 图片包 |
+|---|---|---:|---|---|
+| A017-1-B2 | T1/T2/T4 | 2301×416 | [PNG](A017-1-B2/same-region-localization/A017-1-B2_same_region_localization.png) | [ZIP](A017-1-B2/same-region-localization/A017-1-B2_same_region_map_and_RGB.zip) |
+| A017-1-Z2 | T1/T2/T4 | 2142×611 | [PNG](A017-1-Z2/same-region-localization/A017-1-Z2_same_region_localization.png) | [ZIP](A017-1-Z2/same-region-localization/A017-1-Z2_same_region_map_and_RGB.zip) |
+
+**A017-1-B2**：缺少T3，只保存实际存在的T1、T2、T4。区域定位仍以原始T1为标准；结构关系使用T1/T4、T1/T2。未参与构建的结构路线对共同范围的差异中位数/95百分位（T1像素）：T2/T4 4.84/11.36。
+
+**A017-1-Z2**：缺少T3，只保存实际存在的T1、T2、T4。区域定位仍以原始T1为标准；结构关系使用T1/T2、T2/T4。其中T1/T2的直接RoMa可靠点不足；粗区域假设来自明确记录的跨期结构关系，不能称为该段神经逐点配准成功。未参与构建的结构路线对共同范围的差异中位数/95百分位（T1像素）：T1/T4 1.31/2.75。
+
+---
+
 ## B2 同一区域配准更新
 
 [当前B2结果和下载](A017-1-B2/region-aware-refinement/README.md)：扩大观察区搜索，保留根系新生、延伸及土壤变化；不要求各时期逐点相同。

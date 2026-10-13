@@ -1,0 +1,55 @@
+{
+  "pair": "T1_to_T2",
+  "kind": "adjacent",
+  "source_file": "/workspace/LI/results/microtube_registration/input/raw/V-变化/A017-1-Z2/T1.jpg",
+  "target_file": "/workspace/LI/results/microtube_registration/input/raw/V-变化/A017-1-Z2/T2.jpg",
+  "source_size_wh": [
+    2550,
+    2273
+  ],
+  "target_size_wh": [
+    1329,
+    1183
+  ],
+  "model": "roma_outdoor",
+  "device": "cpu",
+  "coarse_resolution": 560,
+  "upsample_resolution": 864,
+  "confidence_threshold": 0.5,
+  "cycle_threshold_target_px": 3.0,
+  "checker_tile_px": 128,
+  "sampled_matches": 5000,
+  "reliable_sampled_matches": 0,
+  "reliable_dense_source_pixels": 0,
+  "homography_inliers": 0,
+  "homography_inlier_ratio": null,
+  "homography_ransac_target_px": 3.0,
+  "prealignment_source_to_inference": null,
+  "foldover_target_ratio": 0.3046570839590461,
+  "flow_preview_magnitude_p99_source_px": 2455.90576171875,
+  "effective_area_ratio": 0.0,
+  "effective_pixel_count": 0,
+  "geometric_area_ratio": 0.9941604381611328,
+  "confidence_on_effective_area": {
+    "median": null,
+    "p95": null
+  },
+  "gray_ncc": null,
+  "gradient_ncc": null,
+  "cycle_error_effective_target_px": {
+    "median": null,
+    "p95": null
+  },
+  "cycle_error_confident_target_px": {
+    "median": 139.4612274169922,
+    "p95": 290.0132751464844
+  },
+  "quality_interpretation": "Requires visual review; confidence/cycle consistency are internal checks, not independent ground truth. Seasonal RGB and root changes confound NCC.",
+  "elapsed_seconds": 89.35,
+  "calendar_gap_periods": 0,
+  "artifact_excluded_effective_pixels": 0,
+  "root_candidate_target_area_ratio": 0.2344087006354761,
+  "root_candidate_effective_area_ratio": 0.0,
+  "root_priority_configuration_file": "/workspace/LI/results/microtube_registration/A017-1_root_priority_configuration/A017-1-Z2/root_priority_configuration.json",
+  "root_semantics": "Conservative ridge/length proxy used to prioritize coarse anchors. Not verified root segmentation."
+}

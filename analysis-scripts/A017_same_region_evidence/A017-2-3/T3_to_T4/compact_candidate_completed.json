@@ -1,0 +1,30 @@
+{
+  "input_sha256": {
+    "/workspace/LI/results/microtube_registration/input/raw/V-\u53d8\u5316/A017-2-3/T1.jpg": "74b5e40077cd8c1eb8bcf4cf49a325ef23fb4eb692c435e03a79d6ed71311d86",
+    "/workspace/LI/results/microtube_registration/input/raw/V-\u53d8\u5316/A017-2-3/T2.jpg": "d8c522583788259cd718aeb820befb97f39bf7d7fba39d7d39030b82ac266424",
+    "/workspace/LI/results/microtube_registration/input/raw/V-\u53d8\u5316/A017-2-3/T3.jpg": "c348407aa44a345edacbc11e1539c1cfb6c1423923dda84658ddcfb1a6ba37a2",
+    "/workspace/LI/results/microtube_registration/input/raw/V-\u53d8\u5316/A017-2-3/T4.jpg": "18087744b15549cf5caae9ec459c3c2753bde1ffadc8b1fb33d55d3c2b309e69"
+  },
+  "metrics": {
+    "pair": "T3_to_T4",
+    "source_size_wh": [
+      1330,
+      1183
+    ],
+    "target_size_wh": [
+      5100,
+      4547
+    ],
+    "device": "cpu",
+    "model": "full roma_outdoor",
+    "coarse_res": 560,
+    "upsample_res": 864,
+    "sample_count": 5000,
+    "bidirectionally_supported_candidates": 2145,
+    "confidence_threshold": 0.5,
+    "cycle_threshold_analysis1600_px": 5,
+    "prealignment_native": null,
+    "elapsed_seconds": 76.69,
+    "interpretation": "RoMa confidence/cycle are internal candidate evidence, not independent accuracy. Pixel-precision continuous success is not asserted. Dense RoMa is not used to render final RGB."
+  }
+}

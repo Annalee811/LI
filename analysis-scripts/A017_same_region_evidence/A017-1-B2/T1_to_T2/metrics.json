@@ -1,0 +1,55 @@
+{
+  "pair": "T1_to_T2",
+  "kind": "adjacent",
+  "source_file": "/workspace/LI/results/microtube_registration/input/raw/V-变化/A017-1-B2/T1.jpg",
+  "target_file": "/workspace/LI/results/microtube_registration/input/raw/V-变化/A017-1-B2/T2.jpg",
+  "source_size_wh": [
+    2550,
+    2273
+  ],
+  "target_size_wh": [
+    1330,
+    1183
+  ],
+  "model": "roma_outdoor",
+  "device": "cpu",
+  "coarse_resolution": 560,
+  "upsample_resolution": 864,
+  "confidence_threshold": 0.5,
+  "cycle_threshold_target_px": 3.0,
+  "checker_tile_px": 128,
+  "sampled_matches": 5000,
+  "reliable_sampled_matches": 1051,
+  "reliable_dense_source_pixels": 613659,
+  "homography_inliers": 1051,
+  "homography_inlier_ratio": 1.0,
+  "homography_ransac_target_px": 3.0,
+  "prealignment_source_to_inference": null,
+  "foldover_target_ratio": 0.2191916816555336,
+  "flow_preview_magnitude_p99_source_px": 1003.842529296875,
+  "effective_area_ratio": 0.10714635277966683,
+  "effective_pixel_count": 168583,
+  "geometric_area_ratio": 0.9981879889919218,
+  "confidence_on_effective_area": {
+    "median": 0.653751790523529,
+    "p95": 0.8818780779838562
+  },
+  "gray_ncc": 0.6010566973437175,
+  "gradient_ncc": 0.44544190461881755,
+  "cycle_error_effective_target_px": {
+    "median": 0.20968180894851685,
+    "p95": 0.6039248108863831
+  },
+  "cycle_error_confident_target_px": {
+    "median": 0.21664775907993317,
+    "p95": 0.6654433012008667
+  },
+  "quality_interpretation": "Requires visual review; confidence/cycle consistency are internal checks, not independent ground truth. Seasonal RGB and root changes confound NCC.",
+  "elapsed_seconds": 54.39,
+  "calendar_gap_periods": 0,
+  "artifact_excluded_effective_pixels": 0,
+  "root_candidate_target_area_ratio": 0.32519273670227977,
+  "root_candidate_effective_area_ratio": 0.12217021235011873,
+  "root_priority_configuration_file": "/workspace/LI/results/microtube_registration/A017-1_root_priority_configuration/A017-1-B2/root_priority_configuration.json",
+  "root_semantics": "Conservative ridge/length proxy used to prioritize coarse anchors. Not verified root segmentation."
+}

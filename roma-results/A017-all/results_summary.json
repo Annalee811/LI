@@ -1,0 +1,171 @@
+{
+  "positions": [
+    {
+      "position": "A017-1-B2",
+      "group": "A017-1",
+      "period_ids": [
+        1,
+        2,
+        4
+      ],
+      "missing_period_ids": [
+        3
+      ],
+      "crop_size_wh": [
+        2301,
+        416
+      ],
+      "localization": "../A017-1/A017-1-B2/same-region-localization/A017-1-B2_same_region_localization.png",
+      "archive": "../A017-1/A017-1-B2/same-region-localization/A017-1-B2_same_region_map_and_RGB.zip",
+      "note": "缺少T3，只保存实际存在的T1、T2、T4。区域定位仍以原始T1为标准；结构关系使用T1/T4、T1/T2。未参与构建的结构路线对共同范围的差异中位数/95百分位（T1像素）：T2/T4 4.84/11.36。"
+    },
+    {
+      "position": "A017-1-Z2",
+      "group": "A017-1",
+      "period_ids": [
+        1,
+        2,
+        4
+      ],
+      "missing_period_ids": [
+        3
+      ],
+      "crop_size_wh": [
+        2142,
+        611
+      ],
+      "localization": "../A017-1/A017-1-Z2/same-region-localization/A017-1-Z2_same_region_localization.png",
+      "archive": "../A017-1/A017-1-Z2/same-region-localization/A017-1-Z2_same_region_map_and_RGB.zip",
+      "note": "缺少T3，只保存实际存在的T1、T2、T4。区域定位仍以原始T1为标准；结构关系使用T1/T2、T2/T4。其中T1/T2的直接RoMa可靠点不足；粗区域假设来自明确记录的跨期结构关系，不能称为该段神经逐点配准成功。未参与构建的结构路线对共同范围的差异中位数/95百分位（T1像素）：T1/T4 1.31/2.75。"
+    },
+    {
+      "position": "A017-2-2",
+      "group": "A017-2",
+      "period_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "missing_period_ids": [],
+      "crop_size_wh": [
+        2102,
+        558
+      ],
+      "localization": "../A017-2/A017-2-2/same-region-localization/A017-2-2_same_region_localization.png",
+      "archive": "../A017-2/A017-2-2/same-region-localization/A017-2-2_same_region_map_and_RGB.zip",
+      "note": "四期齐全。区域定位仍以原始T1为标准；结构关系使用T1/T4、T3/T4、T1/T2。未参与构建的结构路线对共同范围的差异中位数/95百分位（T1像素）：T1/T3 1.90/4.34；T2/T3 1.47/3.04；T2/T4 3.93/8.96。"
+    },
+    {
+      "position": "A017-2-3",
+      "group": "A017-2",
+      "period_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "missing_period_ids": [],
+      "crop_size_wh": [
+        2517,
+        512
+      ],
+      "localization": "../A017-2/A017-2-3/same-region-localization/A017-2-3_same_region_localization.png",
+      "archive": "../A017-2/A017-2-3/same-region-localization/A017-2-3_same_region_map_and_RGB.zip",
+      "note": "四期齐全。区域定位仍以原始T1为标准；结构关系使用T1/T4、T3/T4、T2/T4。其中T2/T3的直接RoMa可靠点不足；粗区域假设来自明确记录的跨期结构关系，不能称为该段神经逐点配准成功。输出标为候选定位，尚未通过完整路线一致性核对，需人工确认。额外RoMa区域模型与最终定位的差异中位数/95百分位（T1像素）：T2/T4 14.16/32.34（不是人工误差）。未参与构建的结构路线对共同范围的差异中位数/95百分位（T1像素）：T1/T2 8.08/19.24。路线未达到5像素核对规则：T1_to_T2，须重点目视复核。"
+    },
+    {
+      "position": "A017-3-B3",
+      "group": "A017-3",
+      "period_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "missing_period_ids": [],
+      "crop_size_wh": [
+        2545,
+        672
+      ],
+      "localization": "../A017-3/A017-3-B3/same-region-localization/A017-3-B3_same_region_localization.png",
+      "archive": "../A017-3/A017-3-B3/same-region-localization/A017-3-B3_same_region_map_and_RGB.zip",
+      "note": "四期齐全。区域定位仍以原始T1为标准；结构关系使用T1/T4、T3/T4、T1/T2。其中T1/T2的直接RoMa可靠点不足；粗区域假设来自明确记录的跨期结构关系，不能称为该段神经逐点配准成功。原始T2/T3神经候选落在重复结构的其他高度，已用一致的跨期结构关系重新定位；保留原始证据，不把神经置信度当作真实正确率。额外RoMa区域模型与最终定位的差异中位数/95百分位（T1像素）：T1/T4 0.41/0.72（不是人工误差）。未参与构建的结构路线对共同范围的差异中位数/95百分位（T1像素）：T1/T3 0.81/1.65；T2/T3 0.66/1.25；T2/T4 1.90/2.40。"
+    },
+    {
+      "position": "A017-3-Z2",
+      "group": "A017-3",
+      "period_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "missing_period_ids": [],
+      "crop_size_wh": [
+        2445,
+        2042
+      ],
+      "localization": "../A017-3/A017-3-Z2/same-region-localization/A017-3-Z2_same_region_localization.png",
+      "archive": "../A017-3/A017-3-Z2/same-region-localization/A017-3-Z2_same_region_map_and_RGB.zip",
+      "note": "四期齐全。区域定位仍以原始T1为标准；结构关系使用T1/T4、T2/T4、T3/T4。输出标为候选定位，尚未通过完整路线一致性核对，需人工确认。未参与构建的结构路线对共同范围的差异中位数/95百分位（T1像素）：T1/T2 2.29/3.45；T1/T3 22.83/36.33；T2/T3 4.83/7.72。路线未达到5像素核对规则：T1_to_T3，须重点目视复核。"
+    }
+  ],
+  "bundles": [
+    {
+      "series": "A017-1",
+      "archive": "A017-1_all_same_region_images.zip",
+      "bytes": 35189272,
+      "sha256": "0c7c2b5032db01afb517ab121c8a3b59402f8a4fc8ce11214cbc588450278c15",
+      "image_count": 8,
+      "image_sha256": {
+        "A017-1-B2_same_region_localization.png": "4de8b89ea639a90259d221fa6b8f6bb3d5b2ddcc2cc40df4de93e5fb91aa5fab",
+        "A017-1-B2_T1_common_region_RGB.png": "1fdbf7013a860fe93194628f408c876b79aa2ae3fcc0bb2be3711cdba66f0ed8",
+        "A017-1-B2_T2_common_region_RGB.png": "635aff00e67e2d17cd3b451d117a4a5c9a3dace5fe2bf8ed87e9da094a69361b",
+        "A017-1-B2_T4_common_region_RGB.png": "ab6acee73619923f4a63ddd7285d7b66c50dd7dcb05c3ed8d268f849ab8b550f",
+        "A017-1-Z2_same_region_localization.png": "8b8d25e0eca66710246dee065a85061db036eb3c49b776c24e018ad9fe76a375",
+        "A017-1-Z2_T1_common_region_RGB.png": "e34470848bb89ef6474445ef6088417d2932fa4f2565388337fee7cc4f3a9812",
+        "A017-1-Z2_T2_common_region_RGB.png": "3f122e99b1516a73c07389a2b165c5ebce34a40fdd4629e935b37b4849d7f0df",
+        "A017-1-Z2_T4_common_region_RGB.png": "18f445a03d0e3571978acd7f95660b34b799d69d2fb7a0f9e871b6d276d41c12"
+      }
+    },
+    {
+      "series": "A017-2",
+      "archive": "A017-2_all_same_region_images.zip",
+      "bytes": 47379026,
+      "sha256": "ce0081f5db749ec0cc77d18df011aa5dc3f8edb5ff57de2e01d4c3023c2d4104",
+      "image_count": 10,
+      "image_sha256": {
+        "A017-2-2_same_region_localization.png": "104b0d2d391997c386cc9cf54cb2ae249775d5b62e028f15b8fcea2f5af5a654",
+        "A017-2-2_T1_common_region_RGB.png": "007165cd5156f098bbec33ad61d9f3638413941303f68b0d7880f6cf94b6cfcb",
+        "A017-2-2_T2_common_region_RGB.png": "4049a43e458e36ec92f59855d511b1c360ee26e896d5287502b71843db373431",
+        "A017-2-2_T3_common_region_RGB.png": "628f6a238df6de67b4717537a860ee0aca2b8bf1772351d93cd2fe4b79f61125",
+        "A017-2-2_T4_common_region_RGB.png": "97710f86246e3d96bbec123a38acc99a8efbc1d007b798015eb70746a79d9c55",
+        "A017-2-3_same_region_localization.png": "56936ca45fec4ec771f5d73a5d53d302016d34adc72574c5f014217b0bebac83",
+        "A017-2-3_T1_common_region_RGB.png": "5e0230a883f9b9c8a5b8de6ee1ffc7450df1227f5ac35c8bb57b646f4bcd69cd",
+        "A017-2-3_T2_common_region_RGB.png": "a2c99e7fe99c3a3a1e3adaca6795f6411e5238175ab2a9e9fb5e039b3d01b3df",
+        "A017-2-3_T3_common_region_RGB.png": "7c9ae11da5cd493adc4752c681fa1a36e21373b11e8f54b43b5a3ca276e2c926",
+        "A017-2-3_T4_common_region_RGB.png": "ad89f89ff582c892e54198b23b47c992125d35cbd5e093083dd09e7b8e0e8c20"
+      }
+    },
+    {
+      "series": "A017-3",
+      "archive": "A017-3_all_same_region_images.zip",
+      "bytes": 71259741,
+      "sha256": "f23b36a075a5b10939218b2af47daf781668ef15c06f1a04b235e2f0db0637ef",
+      "image_count": 10,
+      "image_sha256": {
+        "A017-3-B3_same_region_localization.png": "1c4a8475513aa051725bb7b337564bf792b09e4354630e5940a487b045c8af3c",
+        "A017-3-B3_T1_common_region_RGB.png": "5eaf587928e6b9975587f68c489254d8cc749543c38ce7a53a696363f129eb20",
+        "A017-3-B3_T2_common_region_RGB.png": "ac2cf2e927af0b740d7cb8ee9202ca4528847e903ce017d7f525fb457daecd22",
+        "A017-3-B3_T3_common_region_RGB.png": "090370cf4149f3dfa53d348bfd08542b1155e0a1ac031a1d38945a32e7acac12",
+        "A017-3-B3_T4_common_region_RGB.png": "72814670aac2addeb5388ab696272083963d948515a8cdd312ab7f3674b014a4",
+        "A017-3-Z2_same_region_localization.png": "cfe3451e9b5c60b00456352f98ca4270f9aa5aa38e0cc0aad67e3f8f88416112",
+        "A017-3-Z2_T1_common_region_RGB.png": "25c278984d9607266231e1c5bc392b91506d41d6021cd3fd445e5f11332aa64f",
+        "A017-3-Z2_T2_common_region_RGB.png": "6912bc63559536a27cfc7a39ef76fbd6db4522683b004c0231725bc9401a769e",
+        "A017-3-Z2_T3_common_region_RGB.png": "d195e07a6b4c9db04394aa59193679fb22e37c866c110ecc96d90d889834555e",
+        "A017-3-Z2_T4_common_region_RGB.png": "b6766f27cff0d4bfa54ecde5d49bd3084d631f7a11163ca29c0af25454f8a621"
+      }
+    }
+  ]
+}

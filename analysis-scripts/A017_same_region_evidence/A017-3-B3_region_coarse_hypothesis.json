@@ -1,0 +1,83 @@
+{
+  "position": "A017-3-B3",
+  "provenance": "Complete-frame descriptor hypotheses T1/T2, T1/T3, T1/T4 form a consistent regional graph. Raw RoMa T1/T2 has only 28 internally supported samples and raw RoMa T2/T3 chooses the alternate repeated-structure offset (+684.53 analysis px rather than -863), incompatible with T1/T3 and T1/T4. Coherent structure bridge supplies broad priors; final geometry is root/soil-weighted and refitted; unused structural routes and an additional RoMa pair are compared, without claiming independent ground truth, not rendered with dense neural warps.",
+  "force_region_hypothesis_pairs": [
+    "T1_to_T2",
+    "T2_to_T3"
+  ],
+  "descriptor_region_consensus_counts": {
+    "T1_to_T2": 759,
+    "T1_to_T3": 122,
+    "T1_to_T4": 573
+  },
+  "matrices_native": {
+    "T1_to_T2": [
+      [
+        0.5206115111123781,
+        -0.0002521869939972815,
+        -0.4082777846743887
+      ],
+      [
+        0.0002521869939972815,
+        0.5206115111123781,
+        746.6778828981543
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T1_to_T3": [
+      [
+        0.520911343205467,
+        1.3641284077553126e-05,
+        0.9503111806885941
+      ],
+      [
+        -1.3641284077553126e-05,
+        0.520911343205467,
+        29.685080312199005
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T1_to_T4": [
+      [
+        2.000091954574031,
+        0.002187010806667029,
+        -9.625702728009738
+      ],
+      [
+        -0.002187010806667029,
+        2.000091954574031,
+        -324.7744063613705
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2_to_T3": [
+      [
+        1.00057567542732,
+        0.0005108866213159011,
+        0.9773562600459925
+      ],
+      [
+        -0.0005108866213159011,
+        1.00057567542732,
+        -717.422855278921
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+}

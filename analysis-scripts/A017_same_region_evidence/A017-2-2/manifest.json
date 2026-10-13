@@ -1,0 +1,24 @@
+{
+  "position": "A017-2-2",
+  "period_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "missing_period_ids": [],
+  "input_sha256": {
+    "/workspace/LI/results/microtube_registration/input/raw/V-变化/A017-2-2/T1.jpg": "f505eae5ff90d893b227a799db7a4a03f77ae99579de0d0794d23eac563b4ce6",
+    "/workspace/LI/results/microtube_registration/input/raw/V-变化/A017-2-2/T2.jpg": "c7bd20c1bebcdeeda3642881e08596a673304b9fde9ff5419ba4139a4473ea24",
+    "/workspace/LI/results/microtube_registration/input/raw/V-变化/A017-2-2/T3.jpg": "e05fd8f27051c17a944b7a245c49ee1db3e479bd7ad896221d6bf099493eade4",
+    "/workspace/LI/results/microtube_registration/input/raw/V-变化/A017-2-2/T4.jpg": "eeeb652ef2805a5b6a54250dbbdf9d5cccbfba4ecf5fd7b9571a099bcbd1081b"
+  },
+  "model": "full roma_outdoor",
+  "method": "RoMa region candidate evidence only; dense maps never applied to final RGB",
+  "args": {
+    "device": "cpu",
+    "coarse": 560,
+    "upsample": 864,
+    "seed": 20261013
+  }
+}
