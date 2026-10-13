@@ -1,0 +1,356 @@
+{
+  "position": "0353-1-B3",
+  "period_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "missing_period_ids": [],
+  "reference": "Original T1 zero-based pixel centres",
+  "common_T1_rectangle_xyxy": [
+    1,
+    1245,
+    2383,
+    2273
+  ],
+  "crop_size_wh": [
+    2382,
+    1028
+  ],
+  "common_observable_pct_T1": 42.32373213253625,
+  "matrices_T1_to_native": {
+    "T1": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2": [
+      [
+        0.5201702040967934,
+        0.0006421431282531239,
+        86.0140163589215
+      ],
+      [
+        -0.0006421431282531239,
+        0.5201702040967934,
+        -645.9982446881456
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T3": [
+      [
+        0.5204203311298192,
+        0.0005289660630860843,
+        0.29292725302398676
+      ],
+      [
+        -0.0005289660630860842,
+        0.5204203311298192,
+        -521.5158934671626
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T4": [
+      [
+        1.9953150169059564,
+        0.004631293168112128,
+        -7.513208234663179
+      ],
+      [
+        -0.004631293168112128,
+        1.9953150169059564,
+        -1097.9979605945205
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "original_canvas_region_polygons": {
+    "T1": [
+      [
+        1.0,
+        1245.0
+      ],
+      [
+        2382.0,
+        1245.0
+      ],
+      [
+        2382.0,
+        2272.0
+      ],
+      [
+        1.0,
+        2272.0
+      ]
+    ],
+    "T2": [
+      [
+        87.33365631103516,
+        1.6130173206329346
+      ],
+      [
+        1325.85888671875,
+        0.0840744823217392
+      ],
+      [
+        1326.5184326171875,
+        534.2988891601562
+      ],
+      [
+        87.99313354492188,
+        535.8278198242188
+      ]
+    ],
+    "T3": [
+      [
+        1.4719103574752808,
+        126.40689086914062
+      ],
+      [
+        1240.5927734375,
+        125.14742279052734
+      ],
+      [
+        1241.135986328125,
+        659.6190795898438
+      ],
+      [
+        2.0151584148406982,
+        660.8785400390625
+      ]
+    ],
+    "T4": [
+      [
+        0.24806678295135498,
+        1386.16455078125
+      ],
+      [
+        4751.09326171875,
+        1375.137451171875
+      ],
+      [
+        4755.849609375,
+        3424.325927734375
+      ],
+      [
+        5.0044050216674805,
+        3435.35302734375
+      ]
+    ]
+  },
+  "automatic_feature_checks": [
+    {
+      "pair": "T1_to_T2",
+      "candidates": 168,
+      "stable_anchors": 167,
+      "root_support_anchor_candidates": 113,
+      "spatial_CV_anchor_median_T1_px": 2.017567106989421,
+      "spatial_CV_anchor_p95_T1_px": 5.368618473489637,
+      "matrix_analysis_1600": [
+        [
+          0.9988207985292343,
+          0.0012330308562089353,
+          103.6313450107488
+        ],
+        [
+          -0.0012330308562089353,
+          0.9988207985292343,
+          -778.3111381784888
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9988215596089572,
+      "rotation_deg": -0.07073083408588868,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T2_to_T3",
+      "candidates": 82,
+      "stable_anchors": 82,
+      "root_support_anchor_candidates": 59,
+      "spatial_CV_anchor_median_T1_px": 2.775573453038974,
+      "spatial_CV_anchor_p95_T1_px": 5.437338804715933,
+      "matrix_analysis_1600": [
+        [
+          0.9989761047196692,
+          -0.00021784218827822395,
+          -103.34239267935168
+        ],
+        [
+          0.00021784218827822395,
+          0.9989761047196692,
+          150.10411278537975
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.998976128471598,
+      "rotation_deg": 0.0124942305741113,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T3_to_T4",
+      "candidates": 1969,
+      "stable_anchors": 1960,
+      "root_support_anchor_candidates": 951,
+      "spatial_CV_anchor_median_T1_px": 2.250969657415056,
+      "spatial_CV_anchor_p95_T1_px": 8.841143692390027,
+      "matrix_analysis_1600": [
+        [
+          0.999860144288682,
+          0.001304477334451521,
+          -1.8910165127745466
+        ],
+        [
+          -0.001304477334451521,
+          0.999860144288682,
+          282.8303085500757
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9998609952378881,
+      "rotation_deg": -0.07475145774638166,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T1_to_T3",
+      "candidates": 103,
+      "stable_anchors": 100,
+      "root_support_anchor_candidates": 49,
+      "spatial_CV_anchor_median_T1_px": 2.3947118561694447,
+      "spatial_CV_anchor_p95_T1_px": 5.319035372927589,
+      "matrix_analysis_1600": [
+        [
+          0.9985639422508015,
+          -0.0001502059117113374,
+          -0.27011524865691644
+        ],
+        [
+          0.0001502059117113374,
+          0.9985639422508015,
+          -628.7163574060511
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9985639535479327,
+      "rotation_deg": 0.008618541457310997,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T1_to_T4",
+      "candidates": 1038,
+      "stable_anchors": 1028,
+      "root_support_anchor_candidates": 481,
+      "spatial_CV_anchor_median_T1_px": 1.432031604501036,
+      "spatial_CV_anchor_p95_T1_px": 6.422977328919338,
+      "matrix_analysis_1600": [
+        [
+          0.9984997166334421,
+          0.0015805162581910095,
+          -2.7398297805694733
+        ],
+        [
+          -0.0015805162581910095,
+          0.9984997166334421,
+          -346.01099181929743
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9985009675251729,
+      "rotation_deg": -0.09069290046485662,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T2_to_T4",
+      "candidates": 121,
+      "stable_anchors": 118,
+      "root_support_anchor_candidates": 88,
+      "spatial_CV_anchor_median_T1_px": 2.0138068669502625,
+      "spatial_CV_anchor_p95_T1_px": 5.199673383926585,
+      "matrix_analysis_1600": [
+        [
+          0.9990045170099472,
+          0.0018014209218106983,
+          -105.1058083405493
+        ],
+        [
+          -0.0018014209218106983,
+          0.9990045170099472,
+          433.278654224621
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9990061411841348,
+      "rotation_deg": -0.10331655394898571,
+      "manual_TRE": null
+    }
+  ],
+  "independent_route_checks": {
+    "T1_to_T3": {
+      "median_T1_px": 2.425490379333496,
+      "p95_T1_px": 3.197115659713745
+    },
+    "T1_to_T4": {
+      "median_T1_px": 1.0488747358322144,
+      "p95_T1_px": 2.045396089553833
+    }
+  },
+  "manual_landmark_TRE": null,
+  "method": "Hash-verified cached full RoMa candidate priors + complete-frame multiscale RootSIFT, root/soil weighted robust similarity. Adjacent chain; direct route cross-check. Geometric shared rectangle, not identical-content mask.",
+  "rendering": "Original-canvas outline figure uses original RGB without elastic deformation or colour correction; separate crops use a single GLOBAL similarity resampling on T1 scale.",
+  "validation_limits": "Automatic spatial CV is conditional on selected descriptor-consensus anchors, not human landmarks. New roots and changed soil remain in the crop. T2/T3 have lower native resolution; upsampling/DPI does not create captured detail.",
+  "input_sha256": {
+    "T1": "e067c8ecd36e80020e2c242fca4ce7c9d772dbf032072d201eb657e43a1c5c06",
+    "T2": "f09e66a71ca84f846d7c03346839c7c5db3397e4a6e52b5b293b22595d477072",
+    "T3": "83f2a9b1a5f97d31167d9340f73ac4d9a70207a5bbb1fdbeacbd2bdf97bdac6e",
+    "T4": "618c3dc8681f54152e7f47cc52b1b0af01dd654fca2a12fcfa9c650ca22c1eea"
+  }
+}

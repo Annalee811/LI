@@ -1,0 +1,34 @@
+{
+  "T3_common_region_RGB.png": {
+    "bytes": 3389565,
+    "sha256": "3cbf24b53422da0c81d7807eca6ee16a668e6fc12ddb622d402cad6164831bff"
+  },
+  "0353-1-B3_same_region_map_and_four_RGB.zip": {
+    "bytes": 30867334,
+    "sha256": "4d6d1c2380c2165d41326a711ee4039faf69ad2c9a42458eb912f4499a81441d"
+  },
+  "0353-1-B3_same_region_preview.jpg": {
+    "bytes": 688339,
+    "sha256": "b8652d18b07a42c2e85138f9745efb947e72d4d1f039568281f14501325457cc"
+  },
+  "T2_common_region_RGB.png": {
+    "bytes": 3309932,
+    "sha256": "0d4e3d8f15b10adadafc64f2ee87136878d3bd8ccb427179fca906d0c8860304"
+  },
+  "README.md": {
+    "bytes": 1035,
+    "sha256": "c6fd1c6ee49ef78d805f39d5f41d4c93e392c16ed859fc2a7d42f26866551943"
+  },
+  "T4_common_region_RGB.png": {
+    "bytes": 3511410,
+    "sha256": "a5f9b547551a876b22ae541b8eab9ebd037860fd6d1458dbb0e993d575faf894"
+  },
+  "T1_common_region_RGB.png": {
+    "bytes": 4304828,
+    "sha256": "548d9bef6ecb3a06ef82a6624ff8285ac5d3aee38c5fc7449a51be41cd9ff039"
+  },
+  "0353-1-B3_same_region_localization.png": {
+    "bytes": 16399357,
+    "sha256": "2f77895d7f8f08c5cd8a51bb0096b4f61b24b4b0b200a7f60cb6f82659ce544f"
+  }
+}
