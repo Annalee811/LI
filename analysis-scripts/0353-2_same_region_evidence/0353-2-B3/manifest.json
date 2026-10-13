@@ -1,0 +1,58 @@
+{
+  "input_sha256": {
+    "results/microtube_registration/input/raw/V-变化/0353-2-B3/T1.png": "b73a853d17b1a061ebcba122026c3fafec83cbe480463f35884180182c6df0a5",
+    "results/microtube_registration/input/raw/V-变化/0353-2-B3/T2.png": "a11fe41516b6fea91cbf0e383f4b41b41aa71cae28d4806d40d636f559045973",
+    "results/microtube_registration/input/raw/V-变化/0353-2-B3/T3.png": "396096b3f7bbab3c7c733952b81bc814ad096fbde9026f2fae34cd5e4ba575dd",
+    "results/microtube_registration/input/raw/V-变化/0353-2-B3/T4.TIFF": "59d755b267c04bd7fa94b1f40cb2070ea1fec8db1f389aa27644355976f116cc"
+  },
+  "args": {
+    "input_dir": "results/microtube_registration/input/raw/V-变化/0353-2-B3",
+    "output_dir": "results/microtube_registration/0353-2-B3",
+    "coarse": 560,
+    "upsample": 864,
+    "confidence": 0.5,
+    "cycle": 3.0,
+    "samples": 5000,
+    "ransac": 3.0,
+    "tile": 128,
+    "threads": 4,
+    "seed": 20261012,
+    "self_test": false,
+    "prealign_json": "results/microtube_registration/prealign.json",
+    "reuse_adjacent": true,
+    "device": "cpu",
+    "prealignments": {
+      "T2_to_T3": [
+        [
+          1.0017187246426633,
+          2.888289616353695e-05,
+          -0.17236632417647926
+        ],
+        [
+          0.0018339329309540566,
+          0.9992976729085984,
+          -721.1423779399561
+        ],
+        [
+          1.1551795720469398e-06,
+          -9.946764088620759e-06,
+          1.0
+        ]
+      ]
+    }
+  },
+  "versions": {
+    "torch": "2.8.0+cu128",
+    "opencv": "4.12.0"
+  },
+  "coordinate_convention": "zero-based pixel centres, x then y; target_to_source_xy_px is the pullback used by remap; source_to_target_xy_px is the forward map",
+  "interpolation": "bilinear for RGB and dense maps; nearest for binary masks; no colour correction or EXIF rotation",
+  "overlap_definition": "in source bounds, bidirectional RoMa confidence >= threshold, cycle error <= target-pixel threshold, positive local Jacobian; confidence is not calibrated correctness probability",
+  "cumulative_definition": "Tn->T1 pullback = composed adjacent backward maps; T1 RGB sampled once. Confidence is minimum along path, not a new RoMa inference. Validity intersects all adjacent masks.",
+  "repository_commit": "8d455a898ff5882a515f42eeeee818bd0443c16c",
+  "python_version": "3.12.14",
+  "model_checkpoint_sha256": {
+    "roma_outdoor.pth": "c7a45c80d41ad788a63c641d1b686d7cb3f297f40097c6f4e75039889e5cc8ba",
+    "dinov2_vitl14_pretrain.pth": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428"
+  }
+}

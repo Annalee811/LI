@@ -1,0 +1,105 @@
+{
+  "position": "0353-2-LB3",
+  "input_sha256": {
+    "results/microtube_registration/input/raw/V-变化/0353-2-LB3/T1.jpg": "fbc53fe7ba443f423d718f21c429c651111640eff364e38647f6dfe5cb25beb0",
+    "results/microtube_registration/input/raw/V-变化/0353-2-LB3/T2.jpg": "e50bf9dba03e477291bf1cafd53f646aa3fa03fac3cb9d9c391a983f5532a97f",
+    "results/microtube_registration/input/raw/V-变化/0353-2-LB3/T3.png": "278354a392563e3b07b0eba37c03f21e8e7451dad062468217cd57384ef758ea",
+    "results/microtube_registration/input/raw/V-变化/0353-2-LB3/T4.jpg": "3b4a0b654728bba551e1a8f6187b6d9052dfc09a4fa8cc13d405cebdaf690c18"
+  },
+  "args": {
+    "device": "cpu",
+    "coarse": 560,
+    "upsample": 864,
+    "confidence": 0.5,
+    "cycle_native_target_px": 3.0,
+    "seed": 20261013
+  },
+  "model": "full roma_outdoor",
+  "root_priority": [
+    {
+      "pair": "T1_to_T2",
+      "mutual_feature_matches": 42,
+      "root_candidate_anchors": 22,
+      "coarse_alignment_used": true,
+      "coarse_method": "root-first RANSAC + weighted root/soil refinement",
+      "coarse_inliers": 24,
+      "coarse_root_inliers": 17,
+      "root_anchor_weight": 3.0,
+      "soil_anchor_weight": 1.0,
+      "homography_native_source_to_target": [
+        [
+          0.5182087845694838,
+          -0.0008118645709652574,
+          1.8685310865434457
+        ],
+        [
+          0.000811938944783734,
+          0.5183214034223735,
+          -19.214355181829017
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "pair": "T2_to_T3",
+      "mutual_feature_matches": 66,
+      "root_candidate_anchors": 36,
+      "coarse_alignment_used": true,
+      "coarse_method": "root-first RANSAC + weighted root/soil refinement",
+      "coarse_inliers": 32,
+      "coarse_root_inliers": 21,
+      "root_anchor_weight": 3.0,
+      "soil_anchor_weight": 1.0,
+      "homography_native_source_to_target": [
+        [
+          1.0011946976831088,
+          -0.00027419160456425696,
+          1.4428033312620212
+        ],
+        [
+          0.00027427631657566613,
+          1.0011946976831088,
+          448.81772571321017
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "pair": "T3_to_T4",
+      "mutual_feature_matches": 179,
+      "root_candidate_anchors": 86,
+      "coarse_alignment_used": true,
+      "coarse_method": "root-first RANSAC + weighted root/soil refinement",
+      "coarse_inliers": 131,
+      "coarse_root_inliers": 76,
+      "root_anchor_weight": 3.0,
+      "soil_anchor_weight": 1.0,
+      "homography_native_source_to_target": [
+        [
+          3.843343549656038,
+          -0.0019305172817326351,
+          -9.312963694103573
+        ],
+        [
+          0.0019311188355625754,
+          3.843353733396234,
+          -869.9050585969059
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "method": "Root-first geometric prealignment from conservative root ridge support; 3:1 root/soil weight; full RoMa dense residuals on RGB; artifact rejection. RGB output sampled once from originals."
+}

@@ -1,3 +1,17 @@
+# 最新：0353-2同一区域定位与独立RGB裁剪
+
+B3、LB2、LB3四期齐全。各位置以自己的T1为尺度基准，框出共同观察范围，分别保存四张同尺寸原色RGB图。结果包只含定位图与4张独立PNG；没有局部弹性拉伸。
+
+| 位置 | 四期裁剪尺寸（像素） | 定位图 | 五张图片下载 |
+|---|---:|---|---|
+| 0353-2-B3 | 2541×738 | [PNG](0353-2-B3/same-region-localization/0353-2-B3_same_region_localization.png) | [ZIP](0353-2-B3/same-region-localization/0353-2-B3_same_region_map_and_four_RGB.zip) |
+| 0353-2-LB2 | 2500×1421 | [PNG](0353-2-LB2/same-region-localization/0353-2-LB2_same_region_localization.png) | [ZIP](0353-2-LB2/same-region-localization/0353-2-LB2_same_region_map_and_four_RGB.zip) |
+| 0353-2-LB3 | 2542×1407 | [PNG](0353-2-LB3/same-region-localization/0353-2-LB3_same_region_localization.png) | [ZIP](0353-2-LB3/same-region-localization/0353-2-LB3_same_region_map_and_four_RGB.zip) |
+
+LB2的T3相关路线仍有约6–10个T1像素的中位差异，需要目视复核；结果用于同一区域观察，不能认定逐根或逐点连续配准成功。
+
+---
+
 # 0353-2 四期连续配准结果
 
 已处理 0353-2-LB2、0353-2-LB3；按要求排除已处理的 0353-2-B3。以原始 T1 为参考，串联 T1→T2→T3→T4；保存原始RGB单次采样结果。
