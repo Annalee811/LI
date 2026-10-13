@@ -1,0 +1,430 @@
+{
+  "position": "0353-1-B3",
+  "chain": "T1→T2→T3→T4",
+  "reference_size_wh": [
+    2550,
+    2273
+  ],
+  "reference": "native T1",
+  "error_coordinate": "T1 original pixel coordinates for all endpoints",
+  "cumulative_confidence": "minimum of all source- and target-side RoMa confidences sampled along adjacent forward path; not calibrated probability",
+  "effective_definition": "each adjacent native target valid mask propagated to T1, full path in original image bounds, path confidence >=0.5, cumulative T1 round-trip <=3 px, positive cumulative Jacobian; nested across stages",
+  "common_geometric_area_T1_px2": 2449549,
+  "common_geometric_pct_T1": 42.26165644436393,
+  "common_effective_area_T1_px2": 228073,
+  "common_effective_pct_T1": 3.9349050662940055,
+  "common_low_confidence_geometric_area_T1_px2": 2214808,
+  "common_low_confidence_pct_T1": 38.211709496821165,
+  "largest_common_geometric_horizontal_rectangle_xyxy": [
+    0,
+    1250,
+    2383,
+    2273
+  ],
+  "rectangle_size_wh": [
+    2383,
+    1023
+  ],
+  "rectangle_effective_fraction": 0.09351552972361657,
+  "rectangle_common_pixels": 2437809,
+  "full_chain_automatic_qc_pass": false,
+  "root_candidate_reference_area_T1_px2": 1200484,
+  "root_candidate_common_effective_area_T1_px2": 78363,
+  "root_candidate_common_effective_pct": 6.5276171943982595,
+  "cumulative_paths_passed": 0,
+  "cumulative_paths_evaluated": 3,
+  "cumulative_paths_auto_qc_pct": 0.0,
+  "full_chains_evaluated": 1,
+  "full_chains_automatic_qc_passed": 0,
+  "full_chain_automatic_qc_pass_pct": 0,
+  "manual_landmark_TRE": null,
+  "flow_display_max_T1_normalized_px": 1259.2493896484375,
+  "flow_display_brightness": "log1p magnitude / log1p shared p99 max; arrows normalized to fixed length indicate direction only",
+  "method_notes": [
+    "All images are sampled once from original RGB through composed RoMa fields.",
+    "Endpoint checks never refit the dense field; coarse prealignment, if configured, can use related feature anchors.",
+    "RGB display rectangle is geometric common coverage, not an all-high-confidence rectangle.",
+    "Automatic quality thresholds: effective coverage>=10%, >=20 endpoint points, median error at width1400<=3px, effective roundtrip P95<=3 T1 pixels.",
+    "Unmappable endpoint matches are counted separately and excluded from numeric error; no confidence/error-based deletion from the geometrically mappable headline error.",
+    "Manual TRE and physically calibrated area unavailable. Automatic feature matching may be mistaken.",
+    "Only 0353-1-B3 is evaluated in this report; success on 19 locations has not been evaluated."
+  ],
+  "original_inference": {
+    "position": "0353-1-B3",
+    "input_sha256": {
+      "results/microtube_registration/input/raw/V-变化/0353-1-B3/T1.jpg": "e067c8ecd36e80020e2c242fca4ce7c9d772dbf032072d201eb657e43a1c5c06",
+      "results/microtube_registration/input/raw/V-变化/0353-1-B3/T2.jpg": "f09e66a71ca84f846d7c03346839c7c5db3397e4a6e52b5b293b22595d477072",
+      "results/microtube_registration/input/raw/V-变化/0353-1-B3/T3.jpg": "83f2a9b1a5f97d31167d9340f73ac4d9a70207a5bbb1fdbeacbd2bdf97bdac6e",
+      "results/microtube_registration/input/raw/V-变化/0353-1-B3/T4.jpg": "618c3dc8681f54152e7f47cc52b1b0af01dd654fca2a12fcfa9c650ca22c1eea"
+    },
+    "args": {
+      "device": "cpu",
+      "coarse": 560,
+      "upsample": 864,
+      "confidence": 0.5,
+      "cycle_native_target_px": 3.0,
+      "seed": 20261013
+    },
+    "model": "full roma_outdoor",
+    "root_priority": [
+      {
+        "pair": "T1_to_T2",
+        "mutual_feature_matches": 13,
+        "root_candidate_anchors": 10,
+        "coarse_alignment_used": false
+      },
+      {
+        "pair": "T2_to_T3",
+        "mutual_feature_matches": 6,
+        "root_candidate_anchors": 4,
+        "coarse_alignment_used": false
+      },
+      {
+        "pair": "T3_to_T4",
+        "mutual_feature_matches": 120,
+        "root_candidate_anchors": 84,
+        "coarse_alignment_used": true,
+        "coarse_method": "root-first RANSAC + weighted root/soil refinement",
+        "coarse_inliers": 95,
+        "coarse_root_inliers": 68,
+        "root_anchor_weight": 3.0,
+        "soil_anchor_weight": 1.0,
+        "homography_native_source_to_target": [
+          [
+            3.833393408582688,
+            0.009558564037115793,
+            -5.223471359645587
+          ],
+          [
+            -0.009562086550916303,
+            3.833185461521977,
+            902.8411706438285
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "method": "Root-first geometric prealignment from conservative root ridge support; 3:1 root/soil weight; full RoMa dense residuals on RGB; artifact rejection. RGB output sampled once from originals.",
+    "first_pair_refinement": {
+      "configuration": {
+        "method": "RootSIFT low-contrast detection, same ratio .75; root-weighted consensus",
+        "feature_matches": 17,
+        "inliers": 11,
+        "root_inliers": 8,
+        "root_weight": 3,
+        "soil_weight": 1,
+        "source_to_target_native": [
+          [
+            0.5198594094298412,
+            0.0009215799343901932,
+            86.06647504044082
+          ],
+          [
+            -0.0009216643590851524,
+            0.5199723870020037,
+            -645.1672345195717
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "baseline_effective_ratio": 0.0,
+      "selected_effective_ratio": 0.11114495990719635,
+      "inference_normalization": "identical fixed L-channel CLAHE clip=2, grid=12x12; original RGB sampled once for final outputs"
+    }
+  },
+  "cumulative_evaluations": [
+    {
+      "summary": {
+        "path": "T1→T2",
+        "reference": "T1",
+        "automatic_endpoint_points": 5,
+        "automatic_evaluable_endpoint_points": 5,
+        "automatic_unmappable_endpoint_points": 0,
+        "automatic_effective_endpoint_points": 3,
+        "automatic_mean_error_effective_T1_px": 1.5743523945519178,
+        "automatic_mean_error_T1_px": 1.9994396197348032,
+        "automatic_median_error_T1_px": 1.6162932728471953,
+        "automatic_rmse_error_T1_px": 2.194677936473142,
+        "automatic_p95_error_T1_px": 3.3705401705739577,
+        "automatic_mean_error_native_period_px": 0.9429833835587657,
+        "geometric_area_T1_px2": 2449651,
+        "geometric_pct_T1": 42.263416233189275,
+        "effective_area_T1_px2": 632234,
+        "effective_pct_T1": 10.907826747064862,
+        "low_confidence_geometric_area_T1_px2": 1805898,
+        "low_confidence_pct_T1": 31.15685411868223,
+        "low_confidence_pct_geometric": 73.7206238766257,
+        "other_unreliable_geometric_pct_T1": 0.19873536744218145,
+        "nonoverlap_pct_T1": 57.736583766810725,
+        "cumulative_cycle_median_effective_T1_px": 0.48676779866218567,
+        "cumulative_cycle_p95_effective_T1_px": 1.186582326889038,
+        "automatic_qc_pass": false
+      },
+      "automatic_checks": {
+        "effective_area_at_least_10pct": true,
+        "endpoint_validation_points_at_least_20": false,
+        "endpoint_normalized_median_at_most_3px": true,
+        "cumulative_cycle_p95_effective_at_most_3px": true
+      },
+      "independent_endpoint_matching": {
+        "source_keypoints": 9298,
+        "target_keypoints": 24747,
+        "mutual_matches": 13,
+        "ransac_inliers": 7,
+        "spatially_thinned_points": 5,
+        "analysis_target_size_wh": [
+          1400,
+          1248
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            0.9982559696850776,
+            0.0008275049832298794,
+            91.49406322473034
+          ],
+          [
+            -0.0008275049832298794,
+            0.9982559696850776,
+            -680.8893132880215
+          ]
+        ]
+      },
+      "endpoint_error_T1_all": {
+        "n": 5,
+        "mean": 1.9994396197348032,
+        "median": 1.6162932728471953,
+        "rmse": 2.194677936473142,
+        "p95": 3.3705401705739577
+      },
+      "endpoint_error_T1_effective": {
+        "n": 3,
+        "mean": 1.5743523945519178,
+        "median": 1.6162932728471953,
+        "rmse": 1.6215894965693503,
+        "p95": 1.986705088452523
+      },
+      "endpoint_unmappable_count": 0,
+      "endpoint_error_native_period": {
+        "n": 5,
+        "mean": 0.9429833835587657,
+        "median": 0.9289078787778975,
+        "rmse": 1.0114888810419762,
+        "p95": 1.4480532557007466
+      },
+      "endpoint_error_analysis_width1400": {
+        "n": 5,
+        "mean": 0.9940242869258344,
+        "median": 0.979226391041119,
+        "rmse": 1.0662405609334007,
+        "p95": 1.5264247001430293
+      }
+    },
+    {
+      "summary": {
+        "path": "T1→T2→T3",
+        "reference": "T1",
+        "automatic_endpoint_points": 6,
+        "automatic_evaluable_endpoint_points": 2,
+        "automatic_unmappable_endpoint_points": 4,
+        "automatic_effective_endpoint_points": 0,
+        "automatic_mean_error_effective_T1_px": null,
+        "automatic_mean_error_T1_px": 2.707989975788811,
+        "automatic_median_error_T1_px": 2.707989975788811,
+        "automatic_rmse_error_T1_px": 3.728524985079616,
+        "automatic_p95_error_T1_px": 5.014640788735173,
+        "automatic_mean_error_native_period_px": 1.308906784116279,
+        "geometric_area_T1_px2": 2449549,
+        "geometric_pct_T1": 42.26165644436393,
+        "effective_area_T1_px2": 268092,
+        "effective_pct_T1": 4.6253461349343965,
+        "low_confidence_geometric_area_T1_px2": 2173274,
+        "low_confidence_pct_T1": 37.49513038827497,
+        "low_confidence_pct_geometric": 88.72139320340193,
+        "other_unreliable_geometric_pct_T1": 0.1411799211545595,
+        "nonoverlap_pct_T1": 57.73834355563607,
+        "cumulative_cycle_median_effective_T1_px": 0.7228279709815979,
+        "cumulative_cycle_p95_effective_T1_px": 1.5775070190429688,
+        "automatic_qc_pass": false
+      },
+      "automatic_checks": {
+        "effective_area_at_least_10pct": false,
+        "endpoint_validation_points_at_least_20": false,
+        "endpoint_normalized_median_at_most_3px": true,
+        "cumulative_cycle_p95_effective_at_most_3px": true
+      },
+      "independent_endpoint_matching": {
+        "source_keypoints": 9298,
+        "target_keypoints": 29818,
+        "mutual_matches": 9,
+        "ransac_inliers": 7,
+        "spatially_thinned_points": 6,
+        "analysis_target_size_wh": [
+          1400,
+          1245
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            0.99727956829587,
+            -0.0013450504404759348,
+            1.967658750530575
+          ],
+          [
+            0.0013450504404759348,
+            0.99727956829587,
+            -550.6146477383746
+          ]
+        ]
+      },
+      "endpoint_error_T1_all": {
+        "n": 2,
+        "mean": 2.707989975788811,
+        "median": 2.707989975788811,
+        "rmse": 3.728524985079616,
+        "p95": 5.014640788735173
+      },
+      "endpoint_error_T1_effective": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_unmappable_count": 4,
+      "endpoint_error_native_period": {
+        "n": 2,
+        "mean": 1.308906784116279,
+        "median": 1.308906784116279,
+        "rmse": 1.5215592418610517,
+        "p95": 2.0071499374372395
+      },
+      "endpoint_error_analysis_width1400": {
+        "n": 2,
+        "mean": 1.3775681499101189,
+        "median": 1.3775681499101189,
+        "rmse": 1.601328282761036,
+        "p95": 2.112355324426749
+      }
+    },
+    {
+      "summary": {
+        "path": "T1→T2→T3→T4",
+        "reference": "T1",
+        "automatic_endpoint_points": 90,
+        "automatic_evaluable_endpoint_points": 40,
+        "automatic_unmappable_endpoint_points": 50,
+        "automatic_effective_endpoint_points": 24,
+        "automatic_mean_error_effective_T1_px": 1.1757687149406315,
+        "automatic_mean_error_T1_px": 1.2703993326007628,
+        "automatic_median_error_T1_px": 1.0811242436208448,
+        "automatic_rmse_error_T1_px": 1.5386200670685637,
+        "automatic_p95_error_T1_px": 3.084228518835391,
+        "automatic_mean_error_native_period_px": 2.9058978877752666,
+        "geometric_area_T1_px2": 2449549,
+        "geometric_pct_T1": 42.26165644436393,
+        "effective_area_T1_px2": 228073,
+        "effective_pct_T1": 3.9349050662940055,
+        "low_confidence_geometric_area_T1_px2": 2214808,
+        "low_confidence_pct_T1": 38.211709496821165,
+        "low_confidence_pct_geometric": 90.41697063418613,
+        "other_unreliable_geometric_pct_T1": 0.11504188124875996,
+        "nonoverlap_pct_T1": 57.73834355563607,
+        "cumulative_cycle_median_effective_T1_px": 0.8433520197868347,
+        "cumulative_cycle_p95_effective_T1_px": 1.68397057056427,
+        "automatic_qc_pass": false
+      },
+      "automatic_checks": {
+        "effective_area_at_least_10pct": false,
+        "endpoint_validation_points_at_least_20": true,
+        "endpoint_normalized_median_at_most_3px": true,
+        "cumulative_cycle_p95_effective_at_most_3px": true
+      },
+      "independent_endpoint_matching": {
+        "source_keypoints": 9298,
+        "target_keypoints": 13429,
+        "mutual_matches": 138,
+        "ransac_inliers": 131,
+        "spatially_thinned_points": 90,
+        "analysis_target_size_wh": [
+          1400,
+          1248
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            0.9986254194929912,
+            0.0012548630969312089,
+            -2.280530214207711
+          ],
+          [
+            -0.0012548630969312089,
+            0.9986254194929912,
+            -303.82283283228736
+          ]
+        ]
+      },
+      "endpoint_error_T1_all": {
+        "n": 40,
+        "mean": 1.2703993326007628,
+        "median": 1.0811242436208448,
+        "rmse": 1.5386200670685637,
+        "p95": 3.084228518835391
+      },
+      "endpoint_error_T1_effective": {
+        "n": 24,
+        "mean": 1.1757687149406315,
+        "median": 0.960672277642474,
+        "rmse": 1.3831093562793715,
+        "p95": 2.858345051909184
+      },
+      "endpoint_unmappable_count": 50,
+      "endpoint_error_native_period": {
+        "n": 40,
+        "mean": 2.9058978877752666,
+        "median": 2.6367267089170294,
+        "rmse": 3.382433837429088,
+        "p95": 5.852745567216597
+      },
+      "endpoint_error_analysis_width1400": {
+        "n": 40,
+        "mean": 0.7976473751211495,
+        "median": 0.7237497764009977,
+        "rmse": 0.9284444356719314,
+        "p95": 1.606541593016443
+      }
+    }
+  ],
+  "adjacent_inference_completed_pairs": 3,
+  "adjacent_pairs": 3,
+  "adjacent_qc_passed_pairs": 3,
+  "adjacent_qc_definition": "Provisional internal check only: effective native target area >=10% and >=100 reliable RoMa samples; no human landmarks.",
+  "adjacent_root_candidate_qc": [
+    {
+      "pair": "T1_to_T2",
+      "effective_area_ratio": 0.11114495990719635,
+      "root_candidate_target_area_ratio": 0.3153180712715728,
+      "root_candidate_effective_area_ratio": 0.16234260000685774,
+      "artifact_excluded_effective_pixels": 0
+    },
+    {
+      "pair": "T2_to_T3",
+      "effective_area_ratio": 0.13904944101589561,
+      "root_candidate_target_area_ratio": 0.37143492713186177,
+      "root_candidate_effective_area_ratio": 0.18263998685858607,
+      "artifact_excluded_effective_pixels": 0
+    },
+    {
+      "pair": "T3_to_T4",
+      "effective_area_ratio": 0.3823745887182672,
+      "root_candidate_target_area_ratio": 0.27471235074192424,
+      "root_candidate_effective_area_ratio": 0.46678822704099854,
+      "artifact_excluded_effective_pixels": 0
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "series": "0353-1",
+  "positions": [
+    {
+      "position": "0353-1-B3",
+      "reference": "T1",
+      "periods": "T1→T2→T3→T4",
+      "geometric_common_pct": 42.26165644436393,
+      "effective_common_pixels": 228073,
+      "effective_common_pct": 3.9349050662940055,
+      "root_candidate_effective_common_pct": 6.5276171943982595,
+      "crop_width": 2383,
+      "crop_height": 1023,
+      "effective_pct_inside_crop": 9.351552972361658,
+      "automatic_endpoint_mean_T1_px": 1.2703993326007628,
+      "automatic_qc_pass": false,
+      "supplement_T2_T4_effective_pct": null
+    },
+    {
+      "position": "0353-1-Z2",
+      "reference": "T1",
+      "periods": "T1→T2→T3→T4",
+      "geometric_common_pct": 22.812642875011864,
+      "effective_common_pixels": 0,
+      "effective_common_pct": 0.0,
+      "root_candidate_effective_common_pct": 0.0,
+      "crop_width": 2550,
+      "crop_height": 400,
+      "effective_pct_inside_crop": 0.0,
+      "automatic_endpoint_mean_T1_px": 209.13132957693983,
+      "automatic_qc_pass": false,
+      "supplement_T2_T4_effective_pct": 22.243110957342886
+    }
+  ],
+  "root_priority": "Conservative curvilinear root-support proxies prioritized in coarse alignment (root:soil=3:1 when joint fitting), soil fallback; not verified semantic root segmentation.",
+  "output_colour": "Original RGB preserved; any contrast normalization is inference only; outputs sampled once from original images.",
+  "manual_landmark_TRE": null,
+  "packages": [
+    {
+      "file": "0353-1-B3_continuous_registration_results.zip",
+      "bytes": 66265677,
+      "sha256": "af3d237085b0f611682aef60d64d3554260c02c8d3c870f9512ee5ddfab79f0b"
+    },
+    {
+      "file": "0353-1-B3_full_T1_canvas_RGB_and_masks.zip",
+      "bytes": 31528507,
+      "sha256": "dd92390884d2a4b27027000b06eb1d253fc1fd03fdab329cb89d2fa231dcea37"
+    },
+    {
+      "position": "0353-1-B3",
+      "file": "T1-T4_continuous_dense_fields.h5",
+      "bytes": 56527184,
+      "sha256": "a47c9347574c4a46b0cc5ae86cff5de929f39bb98d7f81b9c516e145ecfa7def"
+    },
+    {
+      "file": "0353-1-Z2_continuous_registration_results.zip",
+      "bytes": 63970913,
+      "sha256": "9ed6b896a810700065a18de4d0e4707e27abf0d453f0c44111a8d04f78cf9a51"
+    },
+    {
+      "file": "0353-1-Z2_full_T1_canvas_RGB_and_masks.zip",
+      "bytes": 28165238,
+      "sha256": "b84214d8794a90a84a78c9cea896ff9a68fb5678f8f004f590d724c389f93fb7"
+    },
+    {
+      "position": "0353-1-Z2",
+      "file": "T1-T4_continuous_dense_fields.h5",
+      "bytes": 66445292,
+      "sha256": "d87ff6eddf00b8584cb6a6d1fd7789e32003f6219297bd8fde35ac6cedc9d2a6"
+    }
+  ]
+}

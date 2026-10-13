@@ -1,0 +1,21 @@
+{
+  "position": "0353-1-Z2",
+  "reference": "T2",
+  "chain": "T2→T3→T4",
+  "supplement_excludes_T1": true,
+  "common_effective_pixels": 349740,
+  "common_effective_pct_T2": 22.243110957342886,
+  "common_geometric_pct_T2": 41.30411002116575,
+  "crop_xyxy": [
+    10,
+    694,
+    1328,
+    1184
+  ],
+  "crop_size_wh": [
+    1318,
+    490
+  ],
+  "effective_pct_inside_crop": 54.12731101545323,
+  "note": "This three-period result does not establish four-period continuity from T1."
+}

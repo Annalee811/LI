@@ -13,8 +13,9 @@ from PIL import Image,ImageDraw,ImageFont
 REPO=Path.cwd().resolve(); ROOT=REPO/'results/microtube_registration'
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from evaluate_adjacent_registration import independent_points,stats,save_csv
-RAW=ROOT/'input/raw/V-变化/0353-2-B3'; PAIR=ROOT/'0353-2-B3'
-OUT=ROOT/'0353-2-B3_final_continuous_evaluation';OUT.mkdir(parents=True,exist_ok=True)
+POSITION='0353-2-B3'
+RAW=ROOT/'input/raw/V-变化'/POSITION; PAIR=ROOT/POSITION
+OUT=ROOT/f'{POSITION}_final_continuous_evaluation';OUT.mkdir(parents=True,exist_ok=True)
 FIELDS=OUT/'dense_fields';FIELDS.mkdir(exist_ok=True)
 DETAIL=OUT/'native_T1_results';DETAIL.mkdir(exist_ok=True)
 FONT='/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc'
@@ -36,6 +37,8 @@ def inside(m,wh):
 
 
 def remap(a,m,nearest=False,border=-1):
+ if m.shape[0]==0 or m.shape[1]==0:
+  return np.empty(m.shape[:2]+a.shape[2:],dtype=a.dtype)
  return cv2.remap(a,m[...,0].astype(np.float32),m[...,1].astype(np.float32),cv2.INTER_NEAREST if nearest else cv2.INTER_LINEAR,borderMode=cv2.BORDER_CONSTANT,borderValue=border)
 
 
@@ -98,8 +101,17 @@ def flow_preview(mapping,wh,base,geometry,scale):
  return a
 
 
+def configure_position(position):
+ global POSITION,RAW,PAIR,OUT,FIELDS,DETAIL
+ POSITION=position;RAW=ROOT/'input/raw/V-变化'/position;PAIR=ROOT/position
+ OUT=ROOT/f'{position}_final_continuous_evaluation';OUT.mkdir(parents=True,exist_ok=True)
+ FIELDS=OUT/'dense_fields';FIELDS.mkdir(exist_ok=True)
+ DETAIL=OUT/'native_T1_results';DETAIL.mkdir(exist_ok=True)
+
+
 def main():
- sources=[rgb(RAW/n) for n in ['T1.png','T2.png','T3.png','T4.TIFF']]
+ raw_paths=[next(f for f in RAW.iterdir() if f.stem.upper()==f'T{i}') for i in range(1,5)]
+ sources=[rgb(n) for n in raw_paths]
  t1=sources[0];h,w=t1.shape[:2];base=grid(h,w)
  adj=[load(n) for n in ['T1_to_T2','T2_to_T3','T3_to_T4']]
  cumulative=base.copy();confidence=np.ones((h,w),np.float32)
@@ -132,7 +144,7 @@ def main():
     effective_mask_T1=valid,geometric_mask_T1=geometry,cycle_error_T1_px=cycle.astype(np.float32),
     T1_size_wh=np.array([w,h]),period_size_wh=np.array(twh),confidence_threshold=np.float32(THRESH),
     cumulative_cycle_threshold_T1_px=np.float32(CYCLE_T1))
-  meta=dict(source_file=str((RAW/'T1.png').relative_to(REPO)),target_file=str((RAW/['T2.png','T3.png','T4.TIFF'][k]).relative_to(REPO)))
+  meta=dict(source_file=str(raw_paths[0].relative_to(REPO)),target_file=str(raw_paths[k+1].relative_to(REPO)))
   pa,pb,mi,sb=independent_points(meta)
   pred_period=remap(cumulative,pa[None,...])[0]
   point_back=pb[None,...].astype(np.float32)
@@ -182,6 +194,8 @@ def main():
  save_native('T1_original_RGB.png',t1)
  common_geo=np.logical_and.reduce(geoms);common_valid=np.logical_and.reduce(valids)
  common_conf=np.minimum.reduce(confs);crop=rectangle(common_geo)
+ root_mask_path=ROOT/'0353-1_root_priority_configuration'/POSITION/'T1_root_support_candidates.png'
+ root_mask=(np.array(Image.open(root_mask_path))>0) if root_mask_path.exists() else None
  x0,y0,x1,y1=crop;sl=np.s_[y0:y1,x0:x1]
  save_png('four_period_common_geometric_mask_T1.png',common_geo.astype(np.uint8)*255)
  save_png('four_period_common_effective_mask_T1.png',common_valid.astype(np.uint8)*255)
@@ -217,7 +231,7 @@ def main():
  partition[common_geo&(common_conf<THRESH)]=3;partition[common_valid]=1
  colors=np.array([[210,210,210],[48,154,96],[150,112,170],[232,162,47]],np.uint8)
  save_png('four_period_joint_quality_map_T1.png',colors[partition])
- summary=dict(position='0353-2-B3',chain='T1→T2→T3→T4',reference_size_wh=[w,h],reference='native T1',
+ summary=dict(position=POSITION,chain='T1→T2→T3→T4',reference_size_wh=[w,h],reference='native T1',
   error_coordinate='T1 original pixel coordinates for all endpoints',
   cumulative_confidence='minimum of all source- and target-side RoMa confidences sampled along adjacent forward path; not calibrated probability',
   effective_definition='each adjacent native target valid mask propagated to T1, full path in original image bounds, path confidence >=0.5, cumulative T1 round-trip <=3 px, positive cumulative Jacobian; nested across stages',
@@ -228,19 +242,29 @@ def main():
   largest_common_geometric_horizontal_rectangle_xyxy=crop,
   rectangle_size_wh=[x1-x0,y1-y0],rectangle_effective_fraction=float(common_valid[sl].mean()),
   rectangle_common_pixels=(x1-x0)*(y1-y0),full_chain_automatic_qc_pass=rows[-1]['automatic_qc_pass'],
+  root_candidate_reference_area_T1_px2=int(root_mask.sum()) if root_mask is not None else None,
+  root_candidate_common_effective_area_T1_px2=int((root_mask&common_valid).sum()) if root_mask is not None else None,
+  root_candidate_common_effective_pct=100*float(common_valid[root_mask].mean()) if root_mask is not None and root_mask.any() else None,
   cumulative_paths_passed=sum(r['automatic_qc_pass'] for r in rows),cumulative_paths_evaluated=3,cumulative_paths_auto_qc_pct=100*sum(r['automatic_qc_pass'] for r in rows)/3,full_chains_evaluated=1,full_chains_automatic_qc_passed=int(rows[-1]['automatic_qc_pass']),full_chain_automatic_qc_pass_pct=100*int(rows[-1]['automatic_qc_pass']),
   manual_landmark_TRE=None,flow_display_max_T1_normalized_px=scale,flow_display_brightness='log1p magnitude / log1p shared p99 max; arrows normalized to fixed length indicate direction only',
   method_notes=['All images are sampled once from original RGB through composed RoMa fields.',
-    'No feature-derived transform refitting; RootSIFT endpoint checks are validation only.',
+    'Endpoint checks never refit the dense field; coarse prealignment, if configured, can use related feature anchors.',
     'RGB display rectangle is geometric common coverage, not an all-high-confidence rectangle.',
     'Automatic quality thresholds: effective coverage>=10%, >=20 endpoint points, median error at width1400<=3px, effective roundtrip P95<=3 T1 pixels.',
     'Unmappable endpoint matches are counted separately and excluded from numeric error; no confidence/error-based deletion from the geometrically mappable headline error.',
     'Manual TRE and physically calibrated area unavailable. Automatic feature matching may be mistaken.',
-    'Only 0353-2-B3 is evaluated; success on 19 locations has not been evaluated.'],
+    f'Only {POSITION} is evaluated in this report; success on 19 locations has not been evaluated.'],
   original_inference=json.loads((PAIR/'manifest.json').read_text()),cumulative_evaluations=evaluations)
- adj_report=ROOT/'0353-2-B3_registration_evaluation/evaluation_summary.json'
+ adj_report=ROOT/f'{POSITION}_registration_evaluation/evaluation_summary.json'
  if adj_report.exists():
   d=json.loads(adj_report.read_text());summary['adjacent_qc_passed_pairs']=d['automatic_qc_passed_pairs'];summary['adjacent_pairs']=d['evaluated_pairs']
+ else:
+  adjacent_summaries=[json.loads((PAIR/n/'metrics.json').read_text()) for n in ['T1_to_T2','T2_to_T3','T3_to_T4']]
+  summary['adjacent_inference_completed_pairs']=3
+  summary['adjacent_pairs']=3
+  summary['adjacent_qc_passed_pairs']=sum(m['effective_area_ratio']>=.1 and m['reliable_sampled_matches']>=100 for m in adjacent_summaries)
+  summary['adjacent_qc_definition']='Provisional internal check only: effective native target area >=10% and >=100 reliable RoMa samples; no human landmarks.'
+  summary['adjacent_root_candidate_qc']=[{k:m.get(k) for k in ['pair','effective_area_ratio','root_candidate_target_area_ratio','root_candidate_effective_area_ratio','artifact_excluded_effective_pixels']} for m in adjacent_summaries]
  (OUT/'continuous_evaluation.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2))
  save_csv(OUT/'continuous_evaluation.csv',rows)
  np.savez_compressed(FIELDS/'four_period_common_masks_T1.npz',geometric_mask=common_geo,effective_mask=common_valid,
@@ -257,7 +281,7 @@ def write_report(summary,rows):
  from matplotlib.backends.backend_pdf import PdfPages
  font_manager.fontManager.addfont(REG)
  plt.rcParams.update({'font.family':'Noto Sans CJK JP','axes.unicode_minus':False,'pdf.fonttype':42,'font.size':11})
- fig=plt.figure(figsize=(15,10),facecolor='white');fig.suptitle('0353-2-B3  四期连续配准终点评估',fontsize=22,y=.97)
+ fig=plt.figure(figsize=(15,10),facecolor='white');fig.suptitle(f'{POSITION}  四期连续配准终点评估',fontsize=22,y=.97)
  adj=f"{summary.get('adjacent_qc_passed_pairs','未评估')}/{summary.get('adjacent_pairs',3)}"
  fig.text(.04,.91,f"相邻自动质控：{adj}   |   完整链自动质控：{'通过' if summary['full_chain_automatic_qc_pass'] else '未通过'}   |   人工标志点误差：未评估",fontsize=13)
  headers=['累计配准路径','可评估/自动点','平均误差\n统一T1像素','有效区平均误差\n统一T1像素','几何覆盖\n% T1','有效覆盖\n% T1','低置信面积\n% T1','自动质控']
@@ -272,13 +296,13 @@ def write_report(summary,rows):
  for key,label,c in [('effective_pct_T1','有效','#309a60'),('low_confidence_pct_T1','低置信','#e8a22f'),('other_unreliable_geometric_pct_T1','其他不可靠','#9670aa'),('nonoverlap_pct_T1','无共同几何来源','#d2d2d2')]:
   a=np.array([r[key] for r in rows]);ax.bar(x,a,bottom=bottom,width=.58,label=label,color=c);bottom+=a
  ax.set_ylim(0,100);ax.set_xticks(x,['至 T2','至 T3','至 T4']);ax.set_ylabel('T1 完整画布面积 (%)');ax.set_title('可靠区域沿路径逐步收缩');ax.spines[['top','right']].set_visible(False);ax.legend(ncol=2,fontsize=9,loc='upper center',bbox_to_anchor=(.5,-.18),frameon=False)
- ax2=fig.add_axes([.59,.34,.34,.25]);ax2.bar(x,[r['automatic_mean_error_T1_px'] or 0 for r in rows],color='#3978a9',width=.58);ax2.set_xticks(x,['至 T2','至 T3','至 T4']);ax2.set_ylabel('平均误差（T1 原始像素）');ax2.set_title('独立终点匹配验证累计误差');ax2.spines[['top','right']].set_visible(False)
+ ax2=fig.add_axes([.59,.34,.34,.25]);ax2.bar(x,[r['automatic_mean_error_T1_px'] if r['automatic_mean_error_T1_px'] is not None else np.nan for r in rows],color='#3978a9',width=.58);ax2.set_xticks(x,['至 T2','至 T3','至 T4']);ax2.set_ylabel('平均误差（T1 原始像素）');ax2.set_title('自动终点匹配检查累计误差');ax2.spines[['top','right']].set_visible(False)
  notes=[f"四期共同严格有效面积：{summary['common_effective_area_T1_px2']:,} px²（T1 全画布的 {summary['common_effective_pct_T1']:.2f}%）。",
  f"四期共同几何覆盖：{summary['common_geometric_pct_T1']:.2f}%；路径低置信度面积：{summary['common_low_confidence_pct_T1']:.2f}%（分母同为T1全画布）。",
  f"展示裁剪为最大共同几何横向矩形 {summary['rectangle_size_wh'][0]}×{summary['rectangle_size_wh'][1]}；其中有效像素占 {100*summary['rectangle_effective_fraction']:.2f}%。",
  '累计变换由 T1→T2、T2→T3、T3→T4 串联得到；所有指标与显示均使用 T1 原始尺度。',
  '置信度是路径上各段双向置信度的最小值。有效性同时传播各段掩膜，并检查累计往返误差≤3个T1像素。',
- 'RootSIFT终点验证；无完整路径的点单独计数，不赋予数值误差；有效区平均误差另外列出。自动点不是人工真值。',
+ 'RootSIFT自动终点复核；粗配准可用相关特征点，故非独立人工真值。无路径点单独计数；有效区误差另列。',
  '自动通过阈值：有效面积≥10%、终点点数≥20、统一分析尺度中位误差≤3px、有效区累计循环P95≤3个T1像素。',
  '共同几何覆盖不等于可靠重叠；低置信及掩膜外的形变不能作为定量根系追踪证据。']
  for j,n in enumerate(notes):fig.text(.04,.235-j*.024,n,fontsize=9,color='#38424b')
@@ -309,4 +333,8 @@ def verify(summary,rows,aligned,maps,confs,valids,geoms):
  (OUT/'validation.json').write_text(json.dumps(dict(status='PASS',checks=['native T1 canvas sizes','dense-map lossless save/reload','confidence bounds','nested propagated geometric/effective masks','area partition sums','all-period geometric rectangle','unchanged T1 RGB','four equally sized ROI RGBs']),indent=2))
  print('PASS: continuous field, masks, dimensions, area partition, and RGB checks',flush=True)
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+ import argparse
+ parser=argparse.ArgumentParser(description=__doc__)
+ parser.add_argument('--position',default='0353-2-B3')
+ args=parser.parse_args();configure_position(args.position);main()

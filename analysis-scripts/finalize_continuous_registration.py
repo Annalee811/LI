@@ -1,9 +1,14 @@
 from pathlib import Path
 import sys,json,numpy as np
 import h5py
-p=Path.cwd()/'results/microtube_registration/0353-2-B3_final_continuous_evaluation'
+import argparse
+parser=argparse.ArgumentParser()
+parser.add_argument('--position',default='0353-2-B3')
+args=parser.parse_args()
+p=Path.cwd()/'results/microtube_registration'/f'{args.position}_final_continuous_evaluation'
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 import evaluate_continuous_registration as v
+v.configure_position(args.position)
 s=json.loads((p/'continuous_evaluation.json').read_text());h,w=s['reference_size_wh'][1],s['reference_size_wh'][0];base=v.grid(h,w)
 x0,y0,x1,y1=s['largest_common_geometric_horizontal_rectangle_xyxy'];sl=np.s_[y0:y1,x0:x1]
 flows=[]

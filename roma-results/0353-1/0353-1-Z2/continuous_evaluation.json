@@ -1,0 +1,386 @@
+{
+  "position": "0353-1-Z2",
+  "chain": "T1→T2→T3→T4",
+  "reference_size_wh": [
+    2550,
+    2273
+  ],
+  "reference": "native T1",
+  "error_coordinate": "T1 original pixel coordinates for all endpoints",
+  "cumulative_confidence": "minimum of all source- and target-side RoMa confidences sampled along adjacent forward path; not calibrated probability",
+  "effective_definition": "each adjacent native target valid mask propagated to T1, full path in original image bounds, path confidence >=0.5, cumulative T1 round-trip <=3 px, positive cumulative Jacobian; nested across stages",
+  "common_geometric_area_T1_px2": 1322255,
+  "common_geometric_pct_T1": 22.812642875011864,
+  "common_effective_area_T1_px2": 0,
+  "common_effective_pct_T1": 0.0,
+  "common_low_confidence_geometric_area_T1_px2": 1322255,
+  "common_low_confidence_pct_T1": 22.812642875011864,
+  "largest_common_geometric_horizontal_rectangle_xyxy": [
+    0,
+    1873,
+    2550,
+    2273
+  ],
+  "rectangle_size_wh": [
+    2550,
+    400
+  ],
+  "rectangle_effective_fraction": 0.0,
+  "rectangle_common_pixels": 1020000,
+  "full_chain_automatic_qc_pass": false,
+  "root_candidate_reference_area_T1_px2": 932408,
+  "root_candidate_common_effective_area_T1_px2": 0,
+  "root_candidate_common_effective_pct": 0.0,
+  "cumulative_paths_passed": 0,
+  "cumulative_paths_evaluated": 3,
+  "cumulative_paths_auto_qc_pct": 0.0,
+  "full_chains_evaluated": 1,
+  "full_chains_automatic_qc_passed": 0,
+  "full_chain_automatic_qc_pass_pct": 0,
+  "manual_landmark_TRE": null,
+  "flow_display_max_T1_normalized_px": 2598.414794921875,
+  "flow_display_brightness": "log1p magnitude / log1p shared p99 max; arrows normalized to fixed length indicate direction only",
+  "method_notes": [
+    "All images are sampled once from original RGB through composed RoMa fields.",
+    "Endpoint checks never refit the dense field; coarse prealignment, if configured, can use related feature anchors.",
+    "RGB display rectangle is geometric common coverage, not an all-high-confidence rectangle.",
+    "Automatic quality thresholds: effective coverage>=10%, >=20 endpoint points, median error at width1400<=3px, effective roundtrip P95<=3 T1 pixels.",
+    "Unmappable endpoint matches are counted separately and excluded from numeric error; no confidence/error-based deletion from the geometrically mappable headline error.",
+    "Manual TRE and physically calibrated area unavailable. Automatic feature matching may be mistaken.",
+    "Only 0353-1-Z2 is evaluated in this report; success on 19 locations has not been evaluated."
+  ],
+  "original_inference": {
+    "position": "0353-1-Z2",
+    "input_sha256": {
+      "results/microtube_registration/input/raw/V-变化/0353-1-Z2/T1.jpg": "3f0d0375d711a17adf5a3d3ff66e1e078846922b159a15e4eb84285000b85af6",
+      "results/microtube_registration/input/raw/V-变化/0353-1-Z2/T2.png": "bcc8b22a6ac3e07aec5151d66f9b20eecb11ae204265a2746980d07e1c45847b",
+      "results/microtube_registration/input/raw/V-变化/0353-1-Z2/T3.png": "6e4613764b85caf8a9965690490dd759d0c4b4f68593dca8c95412b6e74ccd5f",
+      "results/microtube_registration/input/raw/V-变化/0353-1-Z2/T4.jpg": "f45263c8f813134a8a4c3b6bebfe4a09e197a8e76756259983b59470e213a604"
+    },
+    "args": {
+      "device": "cpu",
+      "coarse": 560,
+      "upsample": 864,
+      "confidence": 0.5,
+      "cycle_native_target_px": 3.0,
+      "seed": 20261013
+    },
+    "model": "full roma_outdoor",
+    "root_priority": [
+      {
+        "pair": "T1_to_T2",
+        "mutual_feature_matches": 0,
+        "root_candidate_anchors": 0,
+        "coarse_alignment_used": false
+      },
+      {
+        "pair": "T2_to_T3",
+        "mutual_feature_matches": 18,
+        "root_candidate_anchors": 13,
+        "coarse_alignment_used": true,
+        "coarse_method": "root-first RANSAC + weighted root/soil refinement",
+        "coarse_inliers": 11,
+        "coarse_root_inliers": 9,
+        "root_anchor_weight": 3.0,
+        "soil_anchor_weight": 1.0,
+        "homography_native_source_to_target": [
+          [
+            0.9985771605098986,
+            0.0011359830411708282,
+            -5.88021221030378
+          ],
+          [
+            -0.0011363340052657983,
+            0.9985771605098985,
+            -595.7805834193571
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "pair": "T3_to_T4",
+        "mutual_feature_matches": 87,
+        "root_candidate_anchors": 56,
+        "coarse_alignment_used": true,
+        "coarse_method": "root-first RANSAC + weighted root/soil refinement",
+        "coarse_inliers": 83,
+        "coarse_root_inliers": 55,
+        "root_anchor_weight": 3.0,
+        "soil_anchor_weight": 1.0,
+        "homography_native_source_to_target": [
+          [
+            3.8404795581542355,
+            0.0016656656339414076,
+            -3.24102902426499
+          ],
+          [
+            -0.0016661846593606453,
+            3.840489734305688,
+            -349.2362952978645
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "method": "Root-first geometric prealignment from conservative root ridge support; 3:1 root/soil weight; full RoMa dense residuals on RGB; artifact rejection. RGB output sampled once from originals."
+  },
+  "cumulative_evaluations": [
+    {
+      "summary": {
+        "path": "T1→T2",
+        "reference": "T1",
+        "automatic_endpoint_points": 0,
+        "automatic_evaluable_endpoint_points": 0,
+        "automatic_unmappable_endpoint_points": 0,
+        "automatic_effective_endpoint_points": 0,
+        "automatic_mean_error_effective_T1_px": null,
+        "automatic_mean_error_T1_px": null,
+        "automatic_median_error_T1_px": null,
+        "automatic_rmse_error_T1_px": null,
+        "automatic_p95_error_T1_px": null,
+        "automatic_mean_error_native_period_px": null,
+        "geometric_area_T1_px2": 5759000,
+        "geometric_pct_T1": 99.35905730528023,
+        "effective_area_T1_px2": 0,
+        "effective_pct_T1": 0.0,
+        "low_confidence_geometric_area_T1_px2": 5759000,
+        "low_confidence_pct_T1": 99.35905730528023,
+        "low_confidence_pct_geometric": 100.0,
+        "other_unreliable_geometric_pct_T1": 0.0,
+        "nonoverlap_pct_T1": 0.6409426947197708,
+        "cumulative_cycle_median_effective_T1_px": null,
+        "cumulative_cycle_p95_effective_T1_px": null,
+        "automatic_qc_pass": false
+      },
+      "automatic_checks": {
+        "effective_area_at_least_10pct": false,
+        "endpoint_validation_points_at_least_20": false,
+        "endpoint_normalized_median_at_most_3px": false,
+        "cumulative_cycle_p95_effective_at_most_3px": false
+      },
+      "independent_endpoint_matching": {
+        "mutual_matches": 0,
+        "ransac_inliers": 0
+      },
+      "endpoint_error_T1_all": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_error_T1_effective": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_unmappable_count": 0,
+      "endpoint_error_native_period": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_error_analysis_width1400": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      }
+    },
+    {
+      "summary": {
+        "path": "T1→T2→T3",
+        "reference": "T1",
+        "automatic_endpoint_points": 0,
+        "automatic_evaluable_endpoint_points": 0,
+        "automatic_unmappable_endpoint_points": 0,
+        "automatic_effective_endpoint_points": 0,
+        "automatic_mean_error_effective_T1_px": null,
+        "automatic_mean_error_T1_px": null,
+        "automatic_median_error_T1_px": null,
+        "automatic_rmse_error_T1_px": null,
+        "automatic_p95_error_T1_px": null,
+        "automatic_mean_error_native_period_px": null,
+        "geometric_area_T1_px2": 1858799,
+        "geometric_pct_T1": 32.06954616426421,
+        "effective_area_T1_px2": 0,
+        "effective_pct_T1": 0.0,
+        "low_confidence_geometric_area_T1_px2": 1858799,
+        "low_confidence_pct_T1": 32.06954616426421,
+        "low_confidence_pct_geometric": 100.0,
+        "other_unreliable_geometric_pct_T1": 0.0,
+        "nonoverlap_pct_T1": 67.93045383573579,
+        "cumulative_cycle_median_effective_T1_px": null,
+        "cumulative_cycle_p95_effective_T1_px": null,
+        "automatic_qc_pass": false
+      },
+      "automatic_checks": {
+        "effective_area_at_least_10pct": false,
+        "endpoint_validation_points_at_least_20": false,
+        "endpoint_normalized_median_at_most_3px": false,
+        "cumulative_cycle_p95_effective_at_most_3px": false
+      },
+      "independent_endpoint_matching": {
+        "mutual_matches": 0,
+        "ransac_inliers": 0
+      },
+      "endpoint_error_T1_all": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_error_T1_effective": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_unmappable_count": 0,
+      "endpoint_error_native_period": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_error_analysis_width1400": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      }
+    },
+    {
+      "summary": {
+        "path": "T1→T2→T3→T4",
+        "reference": "T1",
+        "automatic_endpoint_points": 17,
+        "automatic_evaluable_endpoint_points": 17,
+        "automatic_unmappable_endpoint_points": 0,
+        "automatic_effective_endpoint_points": 0,
+        "automatic_mean_error_effective_T1_px": null,
+        "automatic_mean_error_T1_px": 209.13132957693983,
+        "automatic_median_error_T1_px": 6.49112833709149,
+        "automatic_rmse_error_T1_px": 386.2924244456032,
+        "automatic_p95_error_T1_px": 802.6730162676217,
+        "automatic_mean_error_native_period_px": 461.6439185739478,
+        "geometric_area_T1_px2": 1322255,
+        "geometric_pct_T1": 22.81264287501186,
+        "effective_area_T1_px2": 0,
+        "effective_pct_T1": 0.0,
+        "low_confidence_geometric_area_T1_px2": 1322255,
+        "low_confidence_pct_T1": 22.81264287501186,
+        "low_confidence_pct_geometric": 100.0,
+        "other_unreliable_geometric_pct_T1": 0.0,
+        "nonoverlap_pct_T1": 77.18735712498814,
+        "cumulative_cycle_median_effective_T1_px": null,
+        "cumulative_cycle_p95_effective_T1_px": null,
+        "automatic_qc_pass": false
+      },
+      "automatic_checks": {
+        "effective_area_at_least_10pct": false,
+        "endpoint_validation_points_at_least_20": false,
+        "endpoint_normalized_median_at_most_3px": false,
+        "cumulative_cycle_p95_effective_at_most_3px": false
+      },
+      "independent_endpoint_matching": {
+        "source_keypoints": 8872,
+        "target_keypoints": 12484,
+        "mutual_matches": 24,
+        "ransac_inliers": 21,
+        "spatially_thinned_points": 17,
+        "analysis_target_size_wh": [
+          1400,
+          1248
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            1.0021064290689143,
+            0.008022002978741526,
+            90.77804970267404
+          ],
+          [
+            -0.008022002978741526,
+            1.0021064290689143,
+            -926.5116425862836
+          ]
+        ]
+      },
+      "endpoint_error_T1_all": {
+        "n": 17,
+        "mean": 209.13132957693983,
+        "median": 6.49112833709149,
+        "rmse": 386.2924244456032,
+        "p95": 802.6730162676217
+      },
+      "endpoint_error_T1_effective": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_unmappable_count": 0,
+      "endpoint_error_native_period": {
+        "n": 17,
+        "mean": 461.6439185739478,
+        "median": 441.99050848861754,
+        "rmse": 468.5309771552712,
+        "p95": 602.8706017937366
+      },
+      "endpoint_error_analysis_width1400": {
+        "n": 17,
+        "mean": 126.71346155601232,
+        "median": 121.31638775092526,
+        "rmse": 128.60456342477522,
+        "p95": 165.48649703423985
+      }
+    }
+  ],
+  "adjacent_inference_completed_pairs": 3,
+  "adjacent_pairs": 3,
+  "adjacent_qc_passed_pairs": 2,
+  "adjacent_qc_definition": "Provisional internal check only: effective native target area >=10% and >=100 reliable RoMa samples; no human landmarks.",
+  "adjacent_root_candidate_qc": [
+    {
+      "pair": "T1_to_T2",
+      "effective_area_ratio": 0.0,
+      "root_candidate_target_area_ratio": 0.232874063822859,
+      "root_candidate_effective_area_ratio": 0.0,
+      "artifact_excluded_effective_pixels": 0
+    },
+    {
+      "pair": "T2_to_T3",
+      "effective_area_ratio": 0.28917443422338,
+      "root_candidate_target_area_ratio": 0.25338028634809506,
+      "root_candidate_effective_area_ratio": 0.44329736472867926,
+      "artifact_excluded_effective_pixels": 0
+    },
+    {
+      "pair": "T3_to_T4",
+      "effective_area_ratio": 0.5561248312828541,
+      "root_candidate_target_area_ratio": 0.2041726714877726,
+      "root_candidate_effective_area_ratio": 0.6401694045011904,
+      "artifact_excluded_effective_pixels": 0
+    }
+  ],
+  "four_period_diagnostic_only": true,
+  "warning": "T1 to T2 failed; effective four-period common region is empty. Estimated RGB warps/rectangle are diagnostic only, not reliable registration."
+}
