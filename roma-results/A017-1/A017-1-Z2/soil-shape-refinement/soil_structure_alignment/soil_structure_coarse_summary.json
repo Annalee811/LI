@@ -1,0 +1,166 @@
+{
+  "position": "A017-1-Z2",
+  "period_ids": [
+    1,
+    2,
+    4
+  ],
+  "missing_period_ids": [
+    3
+  ],
+  "field_type": "coarse affine soil-structure localization; NOT accepted continuous RoMa registration",
+  "manual_landmark_TRE": null,
+  "coarse_method": "T1/T4 and T2/T4 stable soil descriptors; T4 bridge gives T1/T2 prior. All three RGBs sampled once from originals onto T1.",
+  "original_T1_size_wh": [
+    2550,
+    2273
+  ],
+  "common_geometric_crop_xyxy": [
+    0,
+    1434,
+    2144,
+    2044
+  ],
+  "observation_windows": [
+    {
+      "label": "A",
+      "T1_center_xy": [
+        683.0357055664062,
+        1885.06005859375
+      ],
+      "T1_window_xyxy": [
+        588,
+        1820,
+        778,
+        1950
+      ]
+    },
+    {
+      "label": "B",
+      "T1_center_xy": [
+        1111.0714111328125,
+        1957.91259765625
+      ],
+      "T1_window_xyxy": [
+        1016,
+        1892,
+        1206,
+        2022
+      ]
+    },
+    {
+      "label": "C",
+      "T1_center_xy": [
+        1302.3214111328125,
+        1912.3797607421875
+      ],
+      "T1_window_xyxy": [
+        1207,
+        1847,
+        1397,
+        1977
+      ]
+    }
+  ],
+  "affine_matrices": {
+    "T1_to_T2": [
+      [
+        0.5197341491103801,
+        0.0012533368369335887,
+        211.3746794549407
+      ],
+      [
+        -0.0012534593865490388,
+        0.5198503066356998,
+        119.60599671316413
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T1_to_T4": [
+      [
+        1.9912311327706493,
+        0.010896014058608058,
+        782.6633769694882
+      ],
+      [
+        -0.010897041101668024,
+        1.9916691510576645,
+        -2831.4995878620834
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "geometric_common_pct_T1": 22.892696013733254,
+  "automatic_fit_summaries": [
+    {
+      "mode": "clahe",
+      "pair": "T1_to_T2",
+      "mutual_matches": 3
+    },
+    {
+      "mode": "clahe",
+      "pair": "T2_to_T4",
+      "mutual_matches": 40,
+      "inliers": 37,
+      "median_fit_error_analysis_px": 0.763160621169768
+    },
+    {
+      "mode": "clahe",
+      "pair": "T1_to_T4",
+      "mutual_matches": 43,
+      "inliers": 37,
+      "median_fit_error_analysis_px": 1.2032563964736458
+    },
+    {
+      "mode": "blur_clahe",
+      "pair": "T1_to_T2",
+      "mutual_matches": 11,
+      "inliers": 7,
+      "median_fit_error_analysis_px": 1.3777943734941933
+    },
+    {
+      "mode": "blur_clahe",
+      "pair": "T2_to_T4",
+      "mutual_matches": 63,
+      "inliers": 53,
+      "median_fit_error_analysis_px": 1.3411230295583663
+    },
+    {
+      "mode": "blur_clahe",
+      "pair": "T1_to_T4",
+      "mutual_matches": 23,
+      "inliers": 17,
+      "median_fit_error_analysis_px": 1.6245146822729226
+    },
+    {
+      "mode": "crack",
+      "pair": "T1_to_T2",
+      "mutual_matches": 7,
+      "inliers": 3,
+      "median_fit_error_analysis_px": 0.9366410389642446
+    },
+    {
+      "mode": "crack",
+      "pair": "T2_to_T4",
+      "mutual_matches": 41,
+      "inliers": 37,
+      "median_fit_error_analysis_px": 0.626098143407211
+    },
+    {
+      "mode": "crack",
+      "pair": "T1_to_T4",
+      "mutual_matches": 44,
+      "inliers": 36,
+      "median_fit_error_analysis_px": 1.263053377717152
+    }
+  ],
+  "interpretation": "The marked shapes support coarse localization. Fitting residuals are not independent registration errors or manual TRE. Low-confidence RoMa regions cannot support quantitative root tracing."
+}
