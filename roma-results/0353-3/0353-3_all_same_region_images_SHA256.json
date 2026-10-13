@@ -1,0 +1,17 @@
+{
+  "archive": "0353-3_all_same_region_images.zip",
+  "bytes": 59144255,
+  "sha256": "136c69833b201a4a615e452827b10ff8b4b694a088b9fa1bd9318318f60482ce",
+  "image_sha256": {
+    "0353-3-LB2_same_region_localization.png": "0c4ab068100b6fbba5ec9ad5fc747c31201ca78ebe24e46abb930e7b31c4a8d3",
+    "0353-3-LB2_T1_common_region_RGB.png": "7ff1ee7903ed66632c81edbb97e16b3735196d4dcb414b81c699cc7df43fc24b",
+    "0353-3-LB2_T2_common_region_RGB.png": "b8d2a50b0f62d8a9cec4f4781b6d27c4f1b07ababc45a90b55e7c88424a1f7d7",
+    "0353-3-LB2_T3_common_region_RGB.png": "929e1cc1ede6168125c0eac439d26f0dee8f10d614b2f197f9aff1db633aee27",
+    "0353-3-LB2_T4_common_region_RGB.png": "0b553ec6d2623d3489fa62d8469773b17bf07ae5a71625a37bb45e4436a71742",
+    "0353-3-LB3_same_region_localization.png": "1afa5ac80db62e53697040ec9a5a1610c0b9c8a2230444a5e834f0e5d92e1cd6",
+    "0353-3-LB3_T1_common_region_RGB.png": "96090de63794989f5c105c7f3660c12aab4350a6c72026e2c95e379d88fc1029",
+    "0353-3-LB3_T2_common_region_RGB.png": "23303ed0ab3201f350bf3ae4e84ac473da1781fda38441465dbec79b62c56d28",
+    "0353-3-LB3_T3_common_region_RGB.png": "3608475335ef3e33502b5bd4bb755697172447de8315601ffc4ee3acd0a36b1e",
+    "0353-3-LB3_T4_common_region_RGB.png": "464b070cde8296e1bc1ea5a7fc7ae678fb8e6cdbd6a8d813b4c4b54846c9d2c5"
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "position": "0353-3-LB2",
+  "period_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "missing_period_ids": [],
+  "reference": "Original T1 zero-based pixel centres",
+  "common_T1_rectangle_xyxy": [
+    4,
+    0,
+    2530,
+    816
+  ],
+  "crop_size_wh": [
+    2526,
+    816
+  ],
+  "common_observable_pct_T1": 35.667693210148116,
+  "matrices_T1_to_native": {
+    "T1": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T4": [
+      [
+        2.003321247032296,
+        -0.0029728229250249763,
+        -4.879818668552339
+      ],
+      [
+        0.0029728229250249763,
+        2.003321247032296,
+        2525.8177948733273
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T3": [
+      [
+        0.5222185704598604,
+        -0.0008965729488863766,
+        6.1689883999642925
+      ],
+      [
+        0.0008965729488863765,
+        0.5222185704598604,
+        754.8803519373253
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2": [
+      [
+        0.5217915042025189,
+        -0.0009119849460920123,
+        -0.04377780439180973
+      ],
+      [
+        0.0009119849460920123,
+        0.521791504202519,
+        142.12773477314366
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "original_canvas_region_polygons": {
+    "T1": [
+      [
+        4.0,
+        0.0
+      ],
+      [
+        2529.0,
+        0.0
+      ],
+      [
+        2529.0,
+        815.0
+      ],
+      [
+        4.0,
+        815.0
+      ]
+    ],
+    "T2": [
+      [
+        2.0433881282806396,
+        142.13137817382812
+      ],
+      [
+        1319.56689453125,
+        144.43414306640625
+      ],
+      [
+        1318.8236083984375,
+        569.6942138671875
+      ],
+      [
+        1.30012047290802,
+        567.3914794921875
+      ]
+    ],
+    "T3": [
+      [
+        8.25786304473877,
+        754.8839111328125
+      ],
+      [
+        1326.8597412109375,
+        757.1477661132812
+      ],
+      [
+        1326.1290283203125,
+        1182.755859375
+      ],
+      [
+        7.527155876159668,
+        1180.4920654296875
+      ]
+    ],
+    "T4": [
+      [
+        3.1334662437438965,
+        2525.82958984375
+      ],
+      [
+        5061.51953125,
+        2533.336181640625
+      ],
+      [
+        5059.0966796875,
+        4166.04296875
+      ],
+      [
+        0.7106156349182129,
+        4158.53662109375
+      ]
+    ]
+  },
+  "automatic_feature_checks": [
+    {
+      "pair": "T1_to_T2",
+      "candidates": 106,
+      "stable_anchors": 101,
+      "root_support_anchor_candidates": 39,
+      "spatial_CV_anchor_median_T1_px": 8.071832786793918,
+      "spatial_CV_anchor_p95_T1_px": 11.383401145831899,
+      "stable_anchor_span_T1_xy": [
+        2188.8147974163294,
+        1900.7153853178024
+      ],
+      "matrix_analysis_1600": [
+        [
+          1.000256800260844,
+          -0.00040014108278155566,
+          1.8615039414171939
+        ],
+        [
+          0.00040014108278155566,
+          1.000256800260844,
+          166.62883588629742
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 1.0002568802967307,
+      "rotation_deg": 0.022920508037759805,
+      "validated_region_edge": true,
+      "point_precision_3px_pass": false,
+      "spatial_fold_pose_median_T1_px": 1.3039757013320923,
+      "spatial_fold_pose_p95_T1_px": 2.349261522293091,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T1_to_T3",
+      "candidates": 18,
+      "stable_anchors": 17,
+      "root_support_anchor_candidates": 0,
+      "spatial_CV_anchor_median_T1_px": 4.419214272958225,
+      "spatial_CV_anchor_p95_T1_px": 8.826257274033027,
+      "stable_anchor_span_T1_xy": [
+        2227.6170058250427,
+        730.9917336702347
+      ],
+      "matrix_analysis_1600": [
+        [
+          0.9996709090492812,
+          -0.001415973327846375,
+          10.940586273432103
+        ],
+        [
+          0.001415973327846375,
+          0.9996709090492812,
+          909.0701527508759
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9996719118690299,
+      "rotation_deg": 0.08115594902058722,
+      "validated_region_edge": false,
+      "point_precision_3px_pass": false,
+      "spatial_fold_pose_median_T1_px": 1.1110798120498657,
+      "spatial_fold_pose_p95_T1_px": 2.3387553691864014,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T1_to_T4",
+      "candidates": 134,
+      "stable_anchors": 132,
+      "root_support_anchor_candidates": 51,
+      "spatial_CV_anchor_median_T1_px": 1.2672323764793187,
+      "spatial_CV_anchor_p95_T1_px": 4.595823758914204,
+      "stable_anchor_span_T1_xy": [
+        2509.5625478178263,
+        971.7628819048405
+      ],
+      "matrix_analysis_1600": [
+        [
+          1.001660623516148,
+          -0.0014864114625124881,
+          -1.5309235038595572
+        ],
+        [
+          0.0014864114625124881,
+          1.001660623516148,
+          792.4134258426125
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 1.0016617263935936,
+      "rotation_deg": 0.08502384830598264,
+      "validated_region_edge": true,
+      "point_precision_3px_pass": true,
+      "spatial_fold_pose_median_T1_px": 0.2774059474468231,
+      "spatial_fold_pose_p95_T1_px": 0.6462410688400269,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T2_to_T3",
+      "candidates": 1176,
+      "stable_anchors": 1161,
+      "root_support_anchor_candidates": 689,
+      "spatial_CV_anchor_median_T1_px": 2.237558299097661,
+      "spatial_CV_anchor_p95_T1_px": 6.226406615047633,
+      "stable_anchor_span_T1_xy": [
+        2488.4304886758327,
+        1028.3003536462784
+      ],
+      "matrix_analysis_1600": [
+        [
+          1.001572035694873,
+          3.09904238210976e-05,
+          7.480000901104869
+        ],
+        [
+          -3.09904238210976e-05,
+          1.001572035694873,
+          738.1160209903952
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 1.0015720361743223,
+      "rotation_deg": -0.0017728335321103813,
+      "validated_region_edge": true,
+      "point_precision_3px_pass": true,
+      "spatial_fold_pose_median_T1_px": 0.07709813863039017,
+      "spatial_fold_pose_p95_T1_px": 0.2536733150482178,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T2_to_T4",
+      "candidates": 920,
+      "stable_anchors": 836,
+      "root_support_anchor_candidates": 452,
+      "spatial_CV_anchor_median_T1_px": 2.2042705058140455,
+      "spatial_CV_anchor_p95_T1_px": 8.197803193860183,
+      "stable_anchor_span_T1_xy": [
+        2514.267617225647,
+        1225.0624442696571
+      ],
+      "matrix_analysis_1600": [
+        [
+          1.0006922215117162,
+          0.00012388631169422886,
+          -1.8361066461425848
+        ],
+        [
+          -0.00012388631169422886,
+          1.0006922215117162,
+          620.9293529554488
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 1.0006922291803169,
+      "rotation_deg": -0.007093252661177876,
+      "validated_region_edge": true,
+      "point_precision_3px_pass": true,
+      "spatial_fold_pose_median_T1_px": 0.08847470581531525,
+      "spatial_fold_pose_p95_T1_px": 0.2192866951227188,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T3_to_T4",
+      "candidates": 2203,
+      "stable_anchors": 2185,
+      "root_support_anchor_candidates": 766,
+      "spatial_CV_anchor_median_T1_px": 2.2767278591104416,
+      "spatial_CV_anchor_p95_T1_px": 7.685886558840351,
+      "stable_anchor_span_T1_xy": [
+        2511.277740061283,
+        2039.4660830497742
+      ],
+      "matrix_analysis_1600": [
+        [
+          0.9989091949657495,
+          0.00023265198913723553,
+          -9.16692790361885
+        ],
+        [
+          -0.00023265198913723553,
+          0.9989091949657495,
+          -116.08716382215013
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9989092220587763,
+      "rotation_deg": -0.01334453311576027,
+      "validated_region_edge": true,
+      "point_precision_3px_pass": true,
+      "spatial_fold_pose_median_T1_px": 0.04817081242799759,
+      "spatial_fold_pose_p95_T1_px": 0.15687289834022522,
+      "manual_TRE": null
+    }
+  ],
+  "independent_route_checks": {
+    "T1_to_T2": {
+      "median_T1_px": 9.545843124389648,
+      "p95_T1_px": 10.916726112365723,
+      "region_route_5px_pass": false
+    },
+    "T2_to_T4": {
+      "median_T1_px": 0.3617963194847107,
+      "p95_T1_px": 0.647398054599762,
+      "region_route_5px_pass": true
+    }
+  },
+  "selected_structure_edges": [
+    "T1_to_T4",
+    "T3_to_T4",
+    "T2_to_T3"
+  ],
+  "independent_route_review_required": [
+    "T1_to_T2"
+  ],
+  "regional_stability_rule": {
+    "minimum_consensus_anchors": 20,
+    "minimum_horizontal_span_fraction": 0.3,
+    "spatial_fold_pose_median_T1_px_max": 3,
+    "spatial_fold_pose_p95_T1_px_max": 5,
+    "point_CV_median_T1_px_max": 10,
+    "independent_route_at_least_one_median_T1_px_max": 5
+  },
+  "cached_RoMa_consensus": {
+    "T1_to_T2": {
+      "reliable_samples": 995,
+      "global_similarity_consensus": 973
+    },
+    "T2_to_T3": {
+      "reliable_samples": 2081,
+      "global_similarity_consensus": 2081
+    },
+    "T3_to_T4": {
+      "reliable_samples": 2851,
+      "global_similarity_consensus": 2851
+    }
+  },
+  "manual_landmark_TRE": null,
+  "method": "Spatially stable region structure graph; T1 coordinate reference; point-level precision and regional stability evaluated separately",
+  "rendering": "Original-canvas outline figure uses original RGB without elastic deformation or colour correction; separate crops use a single GLOBAL similarity resampling on T1 scale.",
+  "validation_limits": "Automatic spatial CV conditional on selected descriptor-consensus anchors, not human landmarks. Pose-fold stability quantifies sensitivity to blocks of selected anchors, not absolute accuracy. Independent route disagreements remain recorded and require visual review; no exact point-registration success is inferred. New roots and changed soil remain in the crop. Upsampling/DPI does not create captured detail.",
+  "input_sha256": {
+    "T1": "b6c5f1376105f7ca1c8e888758ef9c2cb42e5e7d17070dd553a3b66b8d014828",
+    "T2": "84b83e52b5cbf910c567067628c423d93640fb4ce573ae44a5e9ed95e68c3e54",
+    "T3": "7cc7746b6a336803e1dfe3a88c803cd48a7c525ce794d4a552cf34374fd693e0",
+    "T4": "b66786c39704b6aefd1091382b9c07cbdb89a3180464b8a3a17a554bc25420bd"
+  }
+}
