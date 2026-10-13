@@ -159,8 +159,8 @@ def create_report(out,rows,report):
     font_manager.fontManager.addfont('/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc')
     plt.rcParams.update({'font.family':'Noto Sans CJK JP','axes.unicode_minus':False,'font.size':11,'pdf.fonttype':42})
     fig=plt.figure(figsize=(15,9.4),facecolor='white')
-    fig.suptitle(report['position']+'  相邻时期 RoMa 配准评估',fontsize=21,y=.975)
-    fig.text(.04,.918,f"自动质控通过率：{report['automatic_qc_passed_pairs']}/3 = {report['automatic_qc_pass_rate_pct']:.1f}%     人工标志点误差：未评估",fontsize=13)
+    fig.suptitle(report['position']+'  可用时期 RoMa 配准评估',fontsize=21,y=.975)
+    fig.text(.04,.918,f"自动质控通过率：{report['automatic_qc_passed_pairs']}/{len(rows)} = {report['automatic_qc_pass_rate_pct']:.1f}%     人工标志点误差：未评估",fontsize=13)
     headers=['图像对','自动验证点数','平均误差\n目标像素','中位误差\n目标像素','几何重叠\n% 全画布','有效重叠\n% 全画布','低置信度面积\n% 全画布','自动质控']
     cells=[]
     for r in rows:
@@ -174,9 +174,9 @@ def create_report(out,rows,report):
         cell.set_edgecolor('#d9e0e5')
         cell.set_facecolor('#e8eff5' if r==0 else ('#f6f8fa' if r%2==0 else 'white'))
     ax=fig.add_axes([.07,.345,.41,.255])
-    x=np.arange(3)
+    x=np.arange(len(rows))
     parts=[('effective_overlap_pct_target','有效重叠','#309a60'),('low_confidence_overlap_pct_target','低置信度','#e8a22f'),('other_unreliable_overlap_pct_target','其他不可靠重叠','#9670aa'),('nonoverlap_pct_target','无几何重叠','#d2d2d2')]
-    base=np.zeros(3)
+    base=np.zeros(len(rows))
     for key,label,color in parts:
         vals=np.array([r[key] for r in rows]);ax.bar(x,vals,bottom=base,color=color,label=label,width=.57);base+=vals
     ax.set_xticks(x,[r['pair'] for r in rows]);ax.set_ylim(0,100);ax.set_ylabel('后一期完整画布面积 (%)');ax.set_title('面积分类（四类互斥）',fontsize=12)
@@ -192,11 +192,11 @@ def create_report(out,rows,report):
       '自动点误差使用后一期原始像素；T4 为 5100×4547，原始像素误差与 T2/T3 不能直接作同尺度比较。',
       '通过条件：有效面积 ≥10%，可靠 RoMa 采样 ≥100，自动点 ≥20，统一尺度中位误差 ≤3 px，置信区循环误差 P95 ≤3 px。',
       '自动质控通过不代表人工确认成功。自动特征点不是人工真值；未标定像素物理尺寸，面积以 px² 报告。',
-      '结果仅涵盖此位置的 3 个相邻图像对，不代表整个 19 位置数据集。'
+      f"实际链：{report['chain']}；缺失期：{report['missing_period_ids']}。跨缺失期直接配准，无法评估中间变化。"
     ]
     for j,text in enumerate(notes):fig.text(.045,.235-j*.026,text,fontsize=9,color='#39434b')
     fig.savefig(out/'registration_metrics.png',dpi=240,bbox_inches='tight')
-    fig2,axes=plt.subplots(3,3,figsize=(13.5,12),facecolor='white')
+    fig2,axes=plt.subplots(len(rows),3,figsize=(13.5,4*len(rows)),facecolor='white',squeeze=False)
     for i,name in enumerate(PAIRS):
         for j,filename in enumerate(['registered_rgb.png','checkerboard.png','overlap_quality_map.png']):
             im=Image.open(out/name/filename);im.thumbnail((1000,950));axes[i,j].imshow(im);axes[i,j].axis('off')
@@ -210,17 +210,20 @@ def create_report(out,rows,report):
 
 
 def main():
+    global PAIRS
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source',type=Path,default=ROOT/'0353-2-B3')
     parser.add_argument('--output',type=Path,default=ROOT/'0353-2-B3_registration_evaluation')
     args=parser.parse_args();args.output.mkdir(parents=True,exist_ok=True)
+    manifest=json.loads((args.source/'manifest.json').read_text());period_ids=manifest.get('period_ids',[1,2,3,4])
+    PAIRS=[f'T{a}_to_T{b}' for a,b in zip(period_ids,period_ids[1:])];count=len(PAIRS)
     cv2.setNumThreads(4);cv2.setRNGSeed(20261012)
     rows=[];details=[]
     for name in PAIRS:
         row,d=evaluate(name,args.source,args.output);rows.append(row);details.append(d)
     passed=sum(r['automatic_qc_pass'] for r in rows)
-    report=dict(position=args.source.name,evaluated_pairs=3,automatic_qc_passed_pairs=passed,
-        automatic_qc_pass_rate_pct=100*passed/3,successful_execution_pairs=3,
+    report=dict(position=args.source.name,period_ids=period_ids,missing_period_ids=sorted(set(range(1,5))-set(period_ids)),chain='→'.join(f'T{i}' for i in period_ids),evaluated_pairs=count,automatic_qc_passed_pairs=passed,
+        automatic_qc_pass_rate_pct=100*passed/count,successful_execution_pairs=count,
         successful_execution_rate_pct=100,manual_landmark_TRE=None,
         manual_confirmed_registration_success_rate=None,
         confidence_threshold=.5,automatic_qc_rules=RULES,
@@ -231,10 +234,10 @@ def main():
                     'SIFT verification is feature-rich-location sampling and may include false matches; root-priority coarse fitting can share these features, so this is not a held-out validation.',
                     'Manual landmark TRE unavailable; cycle error is internal consistency only.',
                     'Pixel errors and areas have different scales across periods; no mm calibration.',
-                    '3 adjacent pairs from one position, not 19-position dataset.'],pairs=details)
+                    'Only consecutive available periods from one position; unavailable intermediate changes cannot be assessed.'],pairs=details)
     (args.output/'evaluation_summary.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
     save_csv(args.output/'registration_metrics.csv',rows)
-    md=['# '+args.source.name+' 相邻配准结果', '',f'自动质控通过：{passed}/3（{100*passed/3:.1f}%）。运行完成：3/3。人工确认成功率及人工标志点 TRE：未评估。','',
+    md=['# '+args.source.name+' 可用时期配准结果', '',f'自动质控通过：{passed}/{count}（{100*passed/count:.1f}%）。运行完成：{count}/{count}。人工确认成功率及人工标志点 TRE：未评估。','',
         '| 图像对 | 自动验证点 | 平均误差(px) | 中位误差(px) | 有效面积(px²) | 有效面积比例 | 低置信度面积(px²) | 低置信度比例 |',
         '|---|---:|---:|---:|---:|---:|---:|---:|']
     for r in rows:
@@ -246,7 +249,7 @@ def main():
            '分析宽度统一为1400像素；保留所有筛选后的对应点，不按RoMa置信度或预测误差删点。',
            '自动质控规则：'+json.dumps(RULES,ensure_ascii=False),
            'T4画布显著大于T2/T3，原始误差与面积值不能直接解释为物理差异。没有像素尺寸标定，无法换算毫米或平方毫米。',
-           '仅此位置3对，不代表19位置整体成功率。']
+           f"实际链：{report['chain']}；缺失期：{report['missing_period_ids']}；不代表19位置整体成功率。"]
     (args.output/'results_summary.md').write_text('\n'.join(md),encoding='utf-8')
     create_report(args.output,rows,report)
     print('AUTOMATIC QC',passed,'/',len(rows),flush=True)

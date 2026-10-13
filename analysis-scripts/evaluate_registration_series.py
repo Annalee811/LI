@@ -20,8 +20,10 @@ def run(script,arguments,log_name):
  print('DONE',script,*arguments,flush=True)
 
 for pos in positions:
+ ids=sorted(int(p.stem[1:]) for p in (scripts/'input/raw/V-变化'/pos).iterdir() if p.stem.upper() in ['T1','T2','T3','T4'])
+ if len(ids)<=2:print('SKIP',pos,'only',len(ids),'available periods',flush=True);continue
  deadline=time.monotonic()+args.wait_for_pairs
- markers=[scripts/pos/f'T{i}_to_T{i+1}'/'root_priority_completed.json' for i in range(1,4)]
+ markers=[scripts/pos/f'T{a}_to_T{b}'/'root_priority_completed.json' for a,b in zip(ids,ids[1:])]
  while not all(p.exists() for p in markers):
   if time.monotonic()>=deadline:raise SystemExit(f'{pos}: adjacent fields incomplete')
   time.sleep(5)

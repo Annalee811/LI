@@ -1,0 +1,109 @@
+{
+  "series": "A017-1",
+  "excluded": [],
+  "positions": [
+    {
+      "position": "A017-1-B2",
+      "reference": "T1",
+      "chain": "T1→T2→T4",
+      "period_ids": [
+        1,
+        2,
+        4
+      ],
+      "missing_period_ids": [
+        3
+      ],
+      "dense_field_filename": "T1-T2-T4_continuous_dense_fields.h5",
+      "common_geometric_pct_T1": 18.05419114412153,
+      "common_effective_pixels": 133606,
+      "common_effective_pct_T1": 2.3050818215539626,
+      "root_candidate_common_effective_pct": 2.1590606405316946,
+      "crop_width": 2303,
+      "crop_height": 402,
+      "effective_pct_inside_crop": 14.431317144196518,
+      "cumulative_automatic_mean_error_T1_px": null,
+      "common_low_confidence_pct_T1": 15.691709151764533,
+      "adjacent_auto_qc_passed_pairs": 1,
+      "adjacent_pairs": 2,
+      "adjacent_auto_qc_pct": 50.0,
+      "full_chain_auto_qc_pass": false,
+      "all_six_composites_saved": true
+    },
+    {
+      "position": "A017-1-Z2",
+      "reference": "T1",
+      "chain": "T1→T2→T4",
+      "period_ids": [
+        1,
+        2,
+        4
+      ],
+      "missing_period_ids": [
+        3
+      ],
+      "dense_field_filename": "T1-T2-T4_continuous_dense_fields.h5",
+      "common_geometric_pct_T1": 53.63008203721436,
+      "common_effective_pixels": 0,
+      "common_effective_pct_T1": 0.0,
+      "root_candidate_common_effective_pct": 0.0,
+      "crop_width": 1636,
+      "crop_height": 797,
+      "effective_pct_inside_crop": 0.0,
+      "cumulative_automatic_mean_error_T1_px": 1732.5554181673756,
+      "common_low_confidence_pct_T1": 53.63008203721436,
+      "adjacent_auto_qc_passed_pairs": 0,
+      "adjacent_pairs": 2,
+      "adjacent_auto_qc_pct": 0.0,
+      "full_chain_auto_qc_pass": false,
+      "all_six_composites_saved": true
+    }
+  ],
+  "packages": [
+    {
+      "file": "A017-1-B2_continuous_registration_results.zip",
+      "bytes": 23698991,
+      "sha256": "539dd6811ec77a699b2cca4acb4e2d2e2e2a6cbf20255ae24dea26933ab12ae1"
+    },
+    {
+      "file": "A017-1-B2_strict_common_effective_RGB.zip",
+      "bytes": 1843151,
+      "sha256": "d0c2e6d6c87dd7a1f39e7a13c0dd91ad706920c49961d60dd3f0d53012006e08"
+    },
+    {
+      "file": "A017-1-B2_full_T1_canvas_RGB_and_masks.zip",
+      "bytes": 27526341,
+      "sha256": "04069464cc72b47dc9da75f9965c422e17df48e81856b7e598bed8643aba0b90"
+    },
+    {
+      "position": "A017-1-B2",
+      "file": "T1-T2-T4_continuous_dense_fields.h5",
+      "bytes": 49704391,
+      "sha256": "423df5e048a3679ca2eb593848b739d11108c9ef66acb21eb38f880c7cffcd3d"
+    },
+    {
+      "file": "A017-1-Z2_continuous_registration_results.zip",
+      "bytes": 24940984,
+      "sha256": "82621e9c513c0e588d182ea9a262a65142b1b4af051f3b7ccd99b316a5abb344"
+    },
+    {
+      "file": "A017-1-Z2_strict_common_effective_RGB.zip",
+      "bytes": 22119,
+      "sha256": "71ee3c6b21a8d73d45ea739681ab4bf1875843ac74953dbcc9c06e98b1831932"
+    },
+    {
+      "file": "A017-1-Z2_full_T1_canvas_RGB_and_masks.zip",
+      "bytes": 26219456,
+      "sha256": "f3a601bbf84ede95e60a0ca0096d801542f3d1aa6160a11825e93aab7cb31528"
+    },
+    {
+      "position": "A017-1-Z2",
+      "file": "T1-T2-T4_continuous_dense_fields.h5",
+      "bytes": 69582782,
+      "sha256": "546a31f13864e397435a36725adef2d8710dcf8543f1db6c23942e9d74263b49"
+    }
+  ],
+  "output": "Unenhanced original-source RGB sampled once to T1; common-geometry crops plus separately masked strict common-effective original RGB; six composites per location.",
+  "root_priority": "Root ridge candidates prioritized in coarse alignment, root:soil weight 3:1; no verified semantic root segmentation.",
+  "manual_landmark_TRE": null
+}

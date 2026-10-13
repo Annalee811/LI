@@ -35,14 +35,14 @@ def shared_rgb(p,periods,reference,mask_name,summary_file):
  oldout=v.OUT;v.OUT=p
  v.montage(views,[f'T{i} 严格共同有效RGB' for i in periods],'strict_common_effective_RGB_montage.png',f'{reference}坐标；其余区域透明/灰底，不参与定量比较')
  v.OUT=oldout
- if reference=='T1' and not m.any():
+ if reference=='T1' and not m.any() and not d.get('diagnostic_only',d.get('four_period_diagnostic_only',False)):
   # Standalone figures must not imply that an empty effective mask establishes alignment.
   for f in sorted(p.glob('0[1-6]_*.png')):
    im=Image.open(f).convert('RGB');canvas=Image.new('RGB',(im.width,im.height+64),'white');canvas.paste(im,(0,64));draw=ImageDraw.Draw(canvas)
    font=ImageFont.truetype(v.FONT,29)
-   draw.text((18,9),'T1起始连续配准失败：共同有效像素为0；以下仅为模型估计诊断图',font=font,fill=(175,35,35))
+   draw.text((18,9),'连续配准共同有效像素为0；以下仅为模型估计诊断图',font=font,fill=(175,35,35))
    canvas.save(f,dpi=(600,600),compress_level=5)
-  d['four_period_diagnostic_only']=True;d['warning']='T1 to T2 failed; effective four-period common region is empty. Estimated RGB warps/rectangle are diagnostic only, not reliable registration.'
+  d['diagnostic_only']=True;d['warning']='Effective common region is empty. Estimated RGB warps/rectangle are diagnostic only, not reliable registration.'
   (p/summary_file).write_text(json.dumps(d,ensure_ascii=False,indent=2))
   oldout=v.OUT;v.OUT=p;v.write_report(d,[x['summary'] for x in d['cumulative_evaluations']]);v.OUT=oldout
  print('PASS: exact original-colour RGB within common masks',p.name,int(m.sum()),flush=True)

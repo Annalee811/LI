@@ -82,24 +82,25 @@ def weighted_similarity(pa,pb,weights):
 
 
 def configure(position):
- raw=INPUT/position;paths=[next(f for f in raw.iterdir() if f.stem.upper()==f'T{i}') for i in range(1,5)]
+ raw=INPUT/position;paths=sorted((f for f in raw.iterdir() if f.stem.upper() in ['T1','T2','T3','T4']),key=lambda f:int(f.stem[1:]))
+ period_ids=[int(f.stem[1:]) for f in paths]
  out=CACHE/position;out.mkdir(exist_ok=True)
  masks=[];artifacts=[];feature_data=[]
  for i,path in enumerate(paths):
   a=read(path);r,bad=support(a);masks.append(r);artifacts.append(bad)
   native_r=cv2.resize(r.astype(np.uint8),tuple(reversed(a.shape[:2])),interpolation=cv2.INTER_NEAREST)>0
   native_bad=cv2.resize(bad.astype(np.uint8),tuple(reversed(a.shape[:2])),interpolation=cv2.INTER_NEAREST)>0
-  Image.fromarray(native_r.astype(np.uint8)*255).save(out/f'T{i+1}_root_support_candidates.png')
-  Image.fromarray(native_bad.astype(np.uint8)*255).save(out/f'T{i+1}_compact_specular_mask.png')
+  Image.fromarray(native_r.astype(np.uint8)*255).save(out/f'T{period_ids[i]}_root_support_candidates.png')
+  Image.fromarray(native_bad.astype(np.uint8)*255).save(out/f'T{period_ids[i]}_compact_specular_mask.png')
   feature_data.append(features(path))
  prealign={};rows=[]
- for i in range(3):
+ for i in range(len(paths)-1):
   ka,da,sa,_=feature_data[i];kb,db,sb,_=feature_data[i+1]
   matcher=cv2.BFMatcher(cv2.NORM_L2);ab=matcher.knnMatch(da,db,2);ba=matcher.knnMatch(db,da,2)
   reverse={m.queryIdx:m.trainIdx for m,n in ba if m.distance<.75*n.distance}
   matches=[m for m,n in ab if m.distance<.75*n.distance and reverse.get(m.trainIdx)==m.queryIdx]
   pa=np.array([ka[m.queryIdx].pt for m in matches],np.float32);pb=np.array([kb[m.trainIdx].pt for m in matches],np.float32)
-  name=f'T{i+1}_to_T{i+2}';row=dict(pair=name,mutual_feature_matches=len(matches),root_candidate_anchors=0,coarse_alignment_used=False)
+  name=f'T{period_ids[i]}_to_T{period_ids[i+1]}';row=dict(pair=name,mutual_feature_matches=len(matches),root_candidate_anchors=0,coarse_alignment_used=False,calendar_gap_periods=period_ids[i+1]-period_ids[i]-1)
   if len(matches)>=6:
    ok=~map_points(artifacts[i],pa)&~map_points(artifacts[i+1],pb);pa,pb=pa[ok],pb[ok]
    root=map_points(masks[i],pa)&map_points(masks[i+1],pb);row['root_candidate_anchors']=int(root.sum())
@@ -126,11 +127,12 @@ def configure(position):
 
 
 def postprocess(folder,config,i,meta):
+ source_period=Path(meta['source_file']).stem.upper();target_period=Path(meta['target_file']).stem.upper()
  with np.load(folder/'dense_transform.npz') as z:fields={k:z[k] for k in z.files}
- source_root=np.array(Image.open(config/f'T{i+1}_root_support_candidates.png'))>0
- target_root=np.array(Image.open(config/f'T{i+2}_root_support_candidates.png'))>0
- source_art=np.array(Image.open(config/f'T{i+1}_compact_specular_mask.png'))>0
- target_art=np.array(Image.open(config/f'T{i+2}_compact_specular_mask.png'))>0
+ source_root=np.array(Image.open(config/f'{source_period}_root_support_candidates.png'))>0
+ target_root=np.array(Image.open(config/f'{target_period}_root_support_candidates.png'))>0
+ source_art=np.array(Image.open(config/f'{source_period}_compact_specular_mask.png'))>0
+ target_art=np.array(Image.open(config/f'{target_period}_compact_specular_mask.png'))>0
  warp_art=registration.remap(source_art.astype(np.uint8),fields['target_to_source_xy_px'],nearest=True)>0
  artifact=target_art|warp_art
  old=fields['valid_target'];valid=old&~artifact;fields['valid_target']=valid
@@ -155,16 +157,19 @@ def main():
  print('LOADING FULL ROMA',device,flush=True)
  model=roma_outdoor(device=device,coarse_res=560,upsample_res=864,symmetric=True,use_custom_corr=False,upsample_preds=True)
  for position,paths,prealign,config,rows in configs:
+  period_ids=[int(f.stem[1:]) for f in paths]
   dest=ROOT/position;dest.mkdir(exist_ok=True)
   args=SimpleNamespace(prealignments=prealign,device=device,confidence=.5,cycle=3.,samples=5000,seed=20261013,ransac=3.,coarse=560,upsample=864,tile=128)
-  manifest=dict(position=position,input_sha256={str(f.relative_to(REPO)):hashlib.file_digest(f.open('rb'),'sha256').hexdigest() for f in paths},
+  manifest=dict(position=position,period_ids=period_ids,missing_period_ids=sorted(set(range(1,5))-set(period_ids)),input_sha256={str(f.relative_to(REPO)):hashlib.file_digest(f.open('rb'),'sha256').hexdigest() for f in paths},
    args=dict(device=str(device),coarse=560,upsample=864,confidence=.5,cycle_native_target_px=3.,seed=20261013),
    model='full roma_outdoor',root_priority=rows,method='Root-first geometric prealignment from conservative root ridge support; 3:1 root/soil weight; full RoMa dense residuals on RGB; artifact rejection. RGB output sampled once from originals.')
   (dest/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
-  for i in range(3):
-   folder=dest/f'T{i+1}_to_T{i+2}'
+  for i in range(len(paths)-1):
+   folder=dest/f'T{period_ids[i]}_to_T{period_ids[i+1]}'
    if (folder/'root_priority_completed.json').exists():print('REUSE',folder,flush=True);continue
    b,c,v,m=registration.pair(model,paths[i],paths[i+1],folder,args)
+   m['calendar_gap_periods']=period_ids[i+1]-period_ids[i]-1
+   if m['calendar_gap_periods']:m['kind']='consecutive_available_periods_with_missing_intermediate'
    del b,c,v;gc.collect();postprocess(folder,config,i,m)
    (folder/'root_priority_completed.json').write_text(json.dumps(dict(status='completed',input_hashes=manifest['input_sha256'],root_configuration=rows[i]),ensure_ascii=False,indent=2))
   print('POSITION DONE',position,flush=True)
