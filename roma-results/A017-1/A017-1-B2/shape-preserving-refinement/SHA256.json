@@ -1,0 +1,122 @@
+{
+  "A017-1-B2_T2-T4_RoMa_candidate_fields.zip": {
+    "bytes": 51711699,
+    "sha256": "19c266a55a997701d3bae619836c8fd9f621f99290de87812bc53f73b1e1dc4c"
+  },
+  "T4_common_original_RGB.png": {
+    "bytes": 2339801,
+    "sha256": "2039ed9992d99294eb07f21b847ace97663fc1f864702466209eb001c30fd986"
+  },
+  "evaluation.json": {
+    "bytes": 10779,
+    "sha256": "3e73e61a76d5dd56fbbb892a331501c34d1f3f7df21abba8e641f6ef19223044"
+  },
+  "root_detail_comparison.png": {
+    "bytes": 4284621,
+    "sha256": "8571240fe78d7c351d6df11157896e73d764977bde3e8cdfda6b56ec121f2ce1"
+  },
+  "thin_root_candidate_sites.png": {
+    "bytes": 8012111,
+    "sha256": "b20837cccfc9f4a6bbc6142b3b8061bcb7434ba05ac2ce510d37578f3fd9757a"
+  },
+  "six_results_preview.jpg": {
+    "bytes": 1267245,
+    "sha256": "add577ca2e998df3f8938b48de2ab465f3acd2661d98e560c070e8feab31472e"
+  },
+  "T2_common_original_RGB.png": {
+    "bytes": 2241778,
+    "sha256": "39de29fc189a308d20aa2077ce1042844a4433f0044b091247655bb9ab0fabb9"
+  },
+  "common_effective_mask_T1.png": {
+    "bytes": 32196,
+    "sha256": "4ef3399af348b061814cfe479e74245087c231b761abbfc27f2aead8dfaa3acb"
+  },
+  "T1_common_original_RGB.png": {
+    "bytes": 3107922,
+    "sha256": "395489cba00c84f8205034edc25372fedcacec7cf0027ccc416d4d595dc9cf6b"
+  },
+  "A017-1-B2_shape_preserving_results.zip": {
+    "bytes": 89580205,
+    "sha256": "bccfa562e2995120aac76468eb2334f88be70defb0c8ac06f505c1db3d379ee0"
+  },
+  "README.md": {
+    "bytes": 1648,
+    "sha256": "1fff93d2ea07c021021a04f10155052140b1603fad2bc3199088a25ae353aaed"
+  },
+  "root_detail_preview.jpg": {
+    "bytes": 968993,
+    "sha256": "587cf73d145b63614f42cebbe6eed01eb17b3fcf034ee7af16d45d878672a862"
+  },
+  "A017-1-B2_global_coordinate_fields.zip": {
+    "bytes": 1720240,
+    "sha256": "ab29ed44a41f65b78f1e51fc0b2567a85966216851c2fe9a354140ddafb8bfa5"
+  },
+  "cropped_RGB_preview.jpg": {
+    "bytes": 358874,
+    "sha256": "56b010eb24bcbec9f8ccd239933ce94494e005097f1d614dd41556ba05488534"
+  },
+  "result_summary.md": {
+    "bytes": 1730,
+    "sha256": "337dc045d12fdea1417b86e89fbc180eb75924310b4e776be2d42500273e1b6d"
+  },
+  "six_results_comprehensive.png": {
+    "bytes": 17960118,
+    "sha256": "e6e3f8fcbb862b14077c4c4cca80f51ec5235b77cf0aea6bb25037c01e274a4c"
+  },
+  "A017-1-B2_T1-T2_RoMa_candidate_fields.zip": {
+    "bytes": 52677437,
+    "sha256": "ccb747cb37b10da57b0184155eaf5f658c60538c56a56599ad2eb59415ae94fa"
+  },
+  "A017-1-B2_shape_preserving_full_RGB.zip": {
+    "bytes": 63815126,
+    "sha256": "0453a9309913e4e2b469b8188570cd99878e3831076692d83e56c58dbe13b3d8"
+  },
+  "common_geometric_mask_T1.png": {
+    "bytes": 7334,
+    "sha256": "2a23eb53e0e20b362aee266afa823e2cf83f8403dc3345668b154d2005c2497e"
+  },
+  "root_structure_overview.png": {
+    "bytes": 7920521,
+    "sha256": "7a832a07c755a8d2236d9ef9568e8595b2fb58c0b88652133d39b5f12df22703"
+  },
+  "cropped_RGB_montage.png": {
+    "bytes": 7975067,
+    "sha256": "237b3d8f412c5ec4f44711d4a170f90313a673c8147d702ab8dffeec870d6167"
+  },
+  "scripts/register_roma.py": {
+    "bytes": 19593,
+    "sha256": "a244bc03d73f42d42776343d18e82b87c47597d214704255fbbe1e792c895c9a"
+  },
+  "scripts/rematch_B2_shapes.py": {
+    "bytes": 2997,
+    "sha256": "ea8fd63eb696a7588c37cb3b8c8a46f5e19ef99e8a7766d4f972449ee06d4488"
+  },
+  "scripts/build_B2_shape_preserving.py": {
+    "bytes": 16599,
+    "sha256": "20448b6dc4fe9b6c4a793ca01b0697cbf41588fa4cee93e8bda36381532bb45a"
+  },
+  "scripts/publish_B2_shape_revision.py": {
+    "bytes": 3991,
+    "sha256": "606f4a968b432fd5524f05a0b670fe42f8dc748f4a78eca3c7350f86ea782e18"
+  },
+  "scripts/run_0353_1_root_priority.py": {
+    "bytes": 11269,
+    "sha256": "663032a89aa710a86b0230a1a63bee40760ae4b45478a1210658ecc37e3bff0b"
+  },
+  "scripts/evaluate_continuous_registration.py": {
+    "bytes": 26999,
+    "sha256": "bf5fd2ce52fe11ca9af1a090a4ec7798e7d4f969966e3744382726251dabca2a"
+  },
+  "scripts/B2_tiled_roma.py": {
+    "bytes": 2240,
+    "sha256": "027a1d056d290c4976c016a282eab824a2df899a592947c26c33cff6fcada76a"
+  },
+  "scripts/finalize_B2_shape_revision.py": {
+    "bytes": 13706,
+    "sha256": "3b97be79d2e59bc86a49b9d72c19e1c156ae647c6e097ff3e1b80795cd1bb0a3"
+  },
+  "scripts/evaluate_adjacent_registration.py": {
+    "bytes": 18972,
+    "sha256": "d589dc932a60f11b0109e5b37a0b182ec1aebfba92dce0e26017fd74b159a46b"
+  }
+}

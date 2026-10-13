@@ -1,3 +1,7 @@
+## B2 最新修订
+
+[根系指导、保持形状的重新匹配及下载](A017-1-B2/shape-preserving-refinement/README.md)。T3缺失，按T1→T2→T4处理。
+
 ## Z2 土壤结构定位修订
 
 [查看新的A/B/C结构对照与修订结果](A017-1-Z2/soil-shape-refinement/README.md)。T2→T4局部RoMa有效面积提高到3.43%，完整链仍未通过质控。原失败基线保留于下方结果。

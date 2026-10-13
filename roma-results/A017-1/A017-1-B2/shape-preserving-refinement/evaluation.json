@@ -1,0 +1,388 @@
+{
+  "position": "A017-1-B2",
+  "period_ids": [
+    1,
+    2,
+    4
+  ],
+  "missing_period_ids": [
+    3
+  ],
+  "rendering": "Global similarity only (uniform scaling, rotation, translation); RGB sampled once from originals; no elastic/dense RGB warping; no colour adjustment",
+  "T1_size_wh": [
+    2550,
+    2273
+  ],
+  "common_crop_xyxy": [
+    0,
+    953,
+    2307,
+    1655
+  ],
+  "common_crop_size_wh": [
+    2307,
+    702
+  ],
+  "common_geometric_pct_T1": 28.226926494310877,
+  "matrices_T1_to_native": {
+    "T1": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2": [
+      [
+        0.5226142689647767,
+        0.0020738286649974744,
+        120.04635106439811
+      ],
+      [
+        -0.0020738286649974744,
+        0.5226142689647767,
+        -493.1920064253063
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T4": [
+      [
+        1.9940953098697427,
+        0.003875240940744378,
+        446.2362788488886
+      ],
+      [
+        -0.003875240940744377,
+        1.9940953098697427,
+        1246.3272734587822
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "feature_evaluation": [
+    {
+      "pair": "T1_to_T2",
+      "unique_consensus_matches": 45,
+      "root_support_candidate_matches": 22,
+      "fit_error_median_T1_px": 1.2372884174713832,
+      "spatial_cross_validation_points": 45,
+      "spatial_cross_validation_median_T1_px": 1.2978966214165195,
+      "spatial_cross_validation_p95_T1_px": 3.67165000138489,
+      "normalized_uniform_scale": 1.0020126903870283,
+      "rotation_degrees": -0.22735890182468,
+      "matrix_analysis_1600": [
+        [
+          1.002004801398632,
+          0.003976137665972601,
+          144.41666293461427
+        ],
+        [
+          -0.003976137665972601,
+          1.002004801398632,
+          -593.3136919402181
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manual_landmark_TRE": null
+    },
+    {
+      "pair": "T2_to_T4",
+      "unique_consensus_matches": 35,
+      "root_support_candidate_matches": 14,
+      "fit_error_median_T1_px": 2.290639059039937,
+      "spatial_cross_validation_points": 35,
+      "spatial_cross_validation_median_T1_px": 2.2639836013371784,
+      "spatial_cross_validation_p95_T1_px": 4.906492281310681,
+      "normalized_uniform_scale": 0.9950468165159057,
+      "rotation_degrees": 0.11601283431864197,
+      "matrix_analysis_1600": [
+        [
+          0.9950447767506961,
+          -0.0020147753214132536,
+          -4.900744588090006
+        ],
+        [
+          0.0020147753214132536,
+          0.9950447767506961,
+          981.0873578219024
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manual_landmark_TRE": null
+    },
+    {
+      "pair": "T1_to_T4",
+      "unique_consensus_matches": 159,
+      "root_support_candidate_matches": 58,
+      "fit_error_median_T1_px": 1.06671445986719,
+      "spatial_cross_validation_points": 159,
+      "spatial_cross_validation_median_T1_px": 1.2303401731364365,
+      "spatial_cross_validation_p95_T1_px": 3.0753993868200937,
+      "normalized_uniform_scale": 1.0007579972282774,
+      "rotation_degrees": -0.178851611759787,
+      "matrix_analysis_1600": [
+        [
+          1.0007531215036136,
+          0.0031239105503004794,
+          134.89198335473972
+        ],
+        [
+          -0.0031239105503004794,
+          1.0007531215036136,
+          389.6581511779286
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manual_landmark_TRE": null
+    }
+  ],
+  "chain_vs_independent_direct_median_T1_px": 2.786489963531494,
+  "chain_vs_independent_direct_p95_T1_px": 6.73397970199585,
+  "observation_windows": [
+    {
+      "label": "A",
+      "description": "上方长横根",
+      "T1_xyxy": [
+        159,
+        953,
+        797,
+        1108
+      ],
+      "kind": "visual observation window; not manual correspondence ground truth"
+    },
+    {
+      "label": "B",
+      "description": "中部横根群",
+      "T1_xyxy": [
+        255,
+        1100,
+        1020,
+        1251
+      ],
+      "kind": "visual observation window; not manual correspondence ground truth"
+    },
+    {
+      "label": "C",
+      "description": "下方横根群",
+      "T1_xyxy": [
+        287,
+        1259,
+        1084,
+        1395
+      ],
+      "kind": "visual observation window; not manual correspondence ground truth"
+    },
+    {
+      "label": "D",
+      "description": "右侧长根",
+      "T1_xyxy": [
+        1020,
+        953,
+        1801,
+        1227
+      ],
+      "kind": "visual observation window; not manual correspondence ground truth"
+    },
+    {
+      "label": "E",
+      "description": "斜向分枝",
+      "T1_xyxy": [
+        733,
+        1323,
+        1275,
+        1578
+      ],
+      "kind": "visual observation window; not manual correspondence ground truth"
+    },
+    {
+      "label": "F",
+      "description": "陡斜根与邻根",
+      "T1_xyxy": [
+        1100,
+        1355,
+        1450,
+        1618
+      ],
+      "kind": "visual observation window; not manual correspondence ground truth"
+    },
+    {
+      "label": "G",
+      "description": "右侧细根",
+      "T1_xyxy": [
+        1721,
+        1148,
+        2263,
+        1442
+      ],
+      "kind": "visual observation window; not manual correspondence ground truth"
+    },
+    {
+      "label": "H",
+      "description": "下部边界与细根",
+      "T1_xyxy": [
+        1355,
+        1434,
+        2231,
+        1610
+      ],
+      "kind": "visual observation window; not manual correspondence ground truth"
+    }
+  ],
+  "manual_landmark_TRE": null,
+  "limitations": "Spatial CV checks automatic descriptor sites; root-support masks are proxies, not root identity or life/death labels. T2 has only 1330 native width; resampling cannot add captured detail. Direct and chain fit may share descriptors; closure is an internal check.",
+  "roma_inference": "Three overlapping 1000px root-detail context tiles, fixed disjoint query ownership, no confidence-max selection; CLAHE inference-only",
+  "device": "cpu",
+  "roma_evaluation": [
+    {
+      "pair": "T1_to_T2",
+      "calendar_gap_periods": 0,
+      "sampled_matches": 10000,
+      "effective_sampled_matches": 905,
+      "effective_pct_common_canvas": 9.218691533385941,
+      "effective_pct_T1_full": 2.5758132553505346,
+      "low_confidence_pct_common_canvas": 76.1270973884758,
+      "global_agreement_error_confident_T1_px": {
+        "median": 1.697793960571289,
+        "p95": 9.400470733642578
+      },
+      "effective_cycle_error_T1_px": {
+        "median": 0.4633268713951111,
+        "p95": 1.1551785469055176
+      },
+      "automatic_global_registration_pass": false,
+      "effective_definition": "Bidirectional RoMa confidence >=0.5; cycle <=3 T1 pixels; positive candidate Jacobian; candidate displacement from GLOBAL RGB <=3 T1 pixels",
+      "manual_landmark_TRE": null,
+      "geometric_overlap_pct_native_target": 53.1010111923935,
+      "assessed_crop_pct_native_target": 28.11210189463515,
+      "effective_pct_native_target": 2.5903939900469686,
+      "low_confidence_pct_native_target": 21.40149613255455,
+      "unknown_outside_assessed_pct_native_target": 71.88789810536484
+    },
+    {
+      "pair": "T2_to_T4",
+      "calendar_gap_periods": 1,
+      "sampled_matches": 10000,
+      "effective_sampled_matches": 2083,
+      "effective_pct_common_canvas": 21.506945910933776,
+      "effective_pct_T1_full": 6.009299276243714,
+      "low_confidence_pct_common_canvas": 55.799455886148564,
+      "global_agreement_error_confident_T1_px": {
+        "median": 2.4810917377471924,
+        "p95": 5.253439426422119
+      },
+      "effective_cycle_error_T1_px": {
+        "median": 0.4575059413909912,
+        "p95": 1.3299623727798462
+      },
+      "automatic_global_registration_pass": true,
+      "effective_definition": "Bidirectional RoMa confidence >=0.5; cycle <=3 T1 pixels; positive candidate Jacobian; candidate displacement from GLOBAL RGB <=3 T1 pixels",
+      "manual_landmark_TRE": null,
+      "geometric_overlap_pct_native_target": 30.87524633781377,
+      "assessed_crop_pct_native_target": 27.770057396171577,
+      "effective_pct_native_target": 5.972259235781403,
+      "low_confidence_pct_native_target": 15.493068043139843,
+      "unknown_outside_assessed_pct_native_target": 72.22994260382842
+    }
+  ],
+  "common_effective_pct_T1": 1.3908370211260923,
+  "common_effective_pct_crop": 4.977727886267115,
+  "automatic_pair_success_ratio": 0.5,
+  "quality_rules": "Automatic pass: >=100 effective sampled matches; >=10% of geometric common crop effective; spatial-CV median <=3 T1 pixels. No manual TRE. No inferred root death.",
+  "thin_root_site_display": [
+    {
+      "pair": "T1_to_T2",
+      "displayed_root_support_sites": 22
+    },
+    {
+      "pair": "T2_to_T4",
+      "displayed_root_support_sites": 14
+    }
+  ],
+  "automatic_error_interpretation": "Spatial-block cross-validation within preselected descriptor consensus; conditional automatic verification, not independently annotated landmark TRE.",
+  "input_sha256": {
+    "T1": "1df8930f5bcb7730f67b71f4da0c5d4a3fc372578e02042a0e3474cc1f6f7d94",
+    "T2": "604b5b2b963166da77f992093b7ac1bfa9f388cada2892fa78c7dbae6a838335",
+    "T4": "e15d69407e52e9552bc920cf34f5bac6db461d8de005dd75c1292af6f7677e5b"
+  },
+  "literal_native_crops": {
+    "T1": {
+      "native_bbox_xyxy": [
+        0,
+        953,
+        2307,
+        1655
+      ],
+      "kind": "Literal native RGB pixels, axis-aligned enclosing rectangle; different native sizes, not registered display"
+    },
+    "T2": {
+      "native_bbox_xyxy": [
+        122,
+        0,
+        1330,
+        373
+      ],
+      "kind": "Literal native RGB pixels, axis-aligned enclosing rectangle; different native sizes, not registered display"
+    },
+    "T4": {
+      "native_bbox_xyxy": [
+        449,
+        3137,
+        5053,
+        4546
+      ],
+      "kind": "Literal native RGB pixels, axis-aligned enclosing rectangle; different native sizes, not registered display"
+    }
+  },
+  "pair_only_original_crops": [
+    {
+      "pair": "T1_to_T2",
+      "T1_xyxy": [
+        0,
+        953,
+        2305,
+        2273
+      ],
+      "notes": "Pair geometric crop within T1 FOV. Extra area outside three-period shared crop has no RoMa confidence assessment."
+    },
+    {
+      "pair": "T2_to_T4",
+      "T1_xyxy": [
+        0,
+        953,
+        2307,
+        1655
+      ],
+      "notes": "Pair geometric crop within T1 FOV. Extra area outside three-period shared crop has no RoMa confidence assessment."
+    }
+  ]
+}
