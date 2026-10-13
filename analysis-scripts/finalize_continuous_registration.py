@@ -10,6 +10,12 @@ sys.path.insert(0,str(Path(__file__).resolve().parent))
 import evaluate_continuous_registration as v
 v.configure_position(args.position)
 s=json.loads((p/'continuous_evaluation.json').read_text());h,w=s['reference_size_wh'][1],s['reference_size_wh'][0];base=v.grid(h,w)
+adj=p.parent/f'{args.position}_registration_evaluation'/'evaluation_summary.json'
+if adj.exists():
+ a=json.loads(adj.read_text())
+ s['adjacent_qc_passed_pairs']=a['automatic_qc_passed_pairs'];s['adjacent_pairs']=a['evaluated_pairs']
+ s['adjacent_qc_definition']=a['automatic_qc_rules'];s['adjacent_automatic_evaluations']=a['pairs']
+ s['adjacent_validation_limitations']=a['limitations']
 x0,y0,x1,y1=s['largest_common_geometric_horizontal_rectangle_xyxy'];sl=np.s_[y0:y1,x0:x1]
 flows=[]
 for t in [2,3,4]:

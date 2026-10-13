@@ -194,7 +194,7 @@ def main():
  save_native('T1_original_RGB.png',t1)
  common_geo=np.logical_and.reduce(geoms);common_valid=np.logical_and.reduce(valids)
  common_conf=np.minimum.reduce(confs);crop=rectangle(common_geo)
- root_mask_path=ROOT/'0353-1_root_priority_configuration'/POSITION/'T1_root_support_candidates.png'
+ root_mask_path=ROOT/f"{'-'.join(POSITION.split('-')[:2])}_root_priority_configuration"/POSITION/'T1_root_support_candidates.png'
  root_mask=(np.array(Image.open(root_mask_path))>0) if root_mask_path.exists() else None
  x0,y0,x1,y1=crop;sl=np.s_[y0:y1,x0:x1]
  save_png('four_period_common_geometric_mask_T1.png',common_geo.astype(np.uint8)*255)

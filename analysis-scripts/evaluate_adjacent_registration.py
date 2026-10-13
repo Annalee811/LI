@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Audit saved RoMa adjacent registrations; independent RootSIFT validation.
+"""Audit saved RoMa adjacent registrations with automatic RootSIFT checks.
 
 No registration field is refitted. SIFT acceptance uses descriptors, mutual ratio
 matching, a similarity RANSAC and spatial thinning, never RoMa residual/confidence.
-Errors are automatic validation-point errors, not human landmark TRE.
+Errors are automatic validation-point errors, not human landmark TRE. Root-priority
+coarse fitting can share these features, so they are not held-out landmarks.
 """
 from pathlib import Path
 import csv, json, shutil, hashlib, gc, argparse
@@ -19,12 +20,16 @@ RULES = dict(min_effective_target_fraction=.10, min_roma_reliable_samples=100,
              max_confident_cycle_p95_target_px=3.)
 COLORS = np.array([[210,210,210], [48,154,96], [232,162,47], [150,112,170]], np.uint8)
 
+def fmt(value):
+    return 'NA' if value is None else f'{value:.3f}'
+
 
 def rgb(path):
     with Image.open(path) as im: return np.array(im.convert('RGB'))
 
 
 def sample(array, points, nearest=False):
+    if not len(points): return np.empty((0,)+array.shape[2:],dtype=array.dtype)
     return cv2.remap(array, points[None,:,0].astype(np.float32),
                      points[None,:,1].astype(np.float32),
                      cv2.INTER_NEAREST if nearest else cv2.INTER_LINEAR,
@@ -154,13 +159,13 @@ def create_report(out,rows,report):
     font_manager.fontManager.addfont('/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc')
     plt.rcParams.update({'font.family':'Noto Sans CJK JP','axes.unicode_minus':False,'font.size':11,'pdf.fonttype':42})
     fig=plt.figure(figsize=(15,9.4),facecolor='white')
-    fig.suptitle('0353-2-B3  相邻时期 RoMa 配准评估',fontsize=21,y=.975)
+    fig.suptitle(report['position']+'  相邻时期 RoMa 配准评估',fontsize=21,y=.975)
     fig.text(.04,.918,f"自动质控通过率：{report['automatic_qc_passed_pairs']}/3 = {report['automatic_qc_pass_rate_pct']:.1f}%     人工标志点误差：未评估",fontsize=13)
     headers=['图像对','自动验证点数','平均误差\n目标像素','中位误差\n目标像素','几何重叠\n% 全画布','有效重叠\n% 全画布','低置信度面积\n% 全画布','自动质控']
     cells=[]
     for r in rows:
-        cells.append([r['pair'],r['automatic_validation_points'],f"{r['automatic_point_mean_target_px']:.3f}",
-                      f"{r['automatic_point_median_target_px']:.3f}",f"{r['geometric_overlap_pct_target']:.2f}",
+        cells.append([r['pair'],r['automatic_validation_points'],fmt(r['automatic_point_mean_target_px']),
+                      fmt(r['automatic_point_median_target_px']),f"{r['geometric_overlap_pct_target']:.2f}",
                       f"{r['effective_overlap_pct_target']:.2f}",f"{r['low_confidence_overlap_pct_target']:.2f}",
                       '通过' if r['automatic_qc_pass'] else '未通过'])
     ax=fig.add_axes([.035,.675,.93,.20]);ax.axis('off')
@@ -178,12 +183,12 @@ def create_report(out,rows,report):
     ax.legend(ncol=2,fontsize=9,loc='upper center',bbox_to_anchor=(.5,-.15),frameon=False)
     ax.spines[['top','right']].set_visible(False)
     ax2=fig.add_axes([.58,.345,.34,.255])
-    ax2.bar(x,[r['automatic_point_median_at_target_width1400'] for r in rows],color='#3978a9',width=.57)
+    ax2.bar(x,[r['automatic_point_median_at_target_width1400'] if r['automatic_point_median_at_target_width1400'] is not None else np.nan for r in rows],color='#3978a9',width=.57)
     ax2.set_xticks(x,[r['pair'] for r in rows]);ax2.set_ylabel('中位误差（宽度统一 1400 px）');ax2.set_title('自动验证点误差（统一分析尺度）',fontsize=12);ax2.spines[['top','right']].set_visible(False)
     notes=[
       '有效重叠：来源坐标在图内，双向 RoMa 置信度 ≥ 0.5，循环误差 ≤ 3 个目标像素，局部 Jacobian > 0。',
       '低置信度面积：几何重叠内目标侧置信度 < 0.5；此表比例分母为后一期完整画布。无重叠区域单独计数。',
-      '自动验证：独立 RootSIFT 特征匹配 + 互选比例检验 0.75 + 相似变换 RANSAC + 空间抽稀；不按 RoMa 误差筛点。',
+      '自动验证：RootSIFT 互选比例检验 0.75 + 相似变换 RANSAC + 空间抽稀；不按 RoMa 误差筛点，可能与粗配准共用特征。',
       '自动点误差使用后一期原始像素；T4 为 5100×4547，原始像素误差与 T2/T3 不能直接作同尺度比较。',
       '通过条件：有效面积 ≥10%，可靠 RoMa 采样 ≥100，自动点 ≥20，统一尺度中位误差 ≤3 px，置信区循环误差 P95 ≤3 px。',
       '自动质控通过不代表人工确认成功。自动特征点不是人工真值；未标定像素物理尺寸，面积以 px² 报告。',
@@ -214,7 +219,7 @@ def main():
     for name in PAIRS:
         row,d=evaluate(name,args.source,args.output);rows.append(row);details.append(d)
     passed=sum(r['automatic_qc_pass'] for r in rows)
-    report=dict(position='0353-2-B3',evaluated_pairs=3,automatic_qc_passed_pairs=passed,
+    report=dict(position=args.source.name,evaluated_pairs=3,automatic_qc_passed_pairs=passed,
         automatic_qc_pass_rate_pct=100*passed/3,successful_execution_pairs=3,
         successful_execution_rate_pct=100,manual_landmark_TRE=None,
         manual_confirmed_registration_success_rate=None,
@@ -223,17 +228,17 @@ def main():
         low_confidence_definition='geometric overlap AND target confidence <0.5; primary denominator full target canvas',
         error_definition='Euclidean distance between independent RootSIFT target point and RoMa source-to-target prediction, native target pixels',
         limitations=['Automatic quality pass is not independently confirmed registration success.',
-                    'SIFT verification is feature-rich-location sampling and may include false matches.',
+                    'SIFT verification is feature-rich-location sampling and may include false matches; root-priority coarse fitting can share these features, so this is not a held-out validation.',
                     'Manual landmark TRE unavailable; cycle error is internal consistency only.',
                     'Pixel errors and areas have different scales across periods; no mm calibration.',
                     '3 adjacent pairs from one position, not 19-position dataset.'],pairs=details)
     (args.output/'evaluation_summary.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
     save_csv(args.output/'registration_metrics.csv',rows)
-    md=['# 0353-2-B3 相邻配准结果', '',f'自动质控通过：{passed}/3（{100*passed/3:.1f}%）。运行完成：3/3。人工确认成功率及人工标志点 TRE：未评估。','',
+    md=['# '+args.source.name+' 相邻配准结果', '',f'自动质控通过：{passed}/3（{100*passed/3:.1f}%）。运行完成：3/3。人工确认成功率及人工标志点 TRE：未评估。','',
         '| 图像对 | 自动验证点 | 平均误差(px) | 中位误差(px) | 有效面积(px²) | 有效面积比例 | 低置信度面积(px²) | 低置信度比例 |',
         '|---|---:|---:|---:|---:|---:|---:|---:|']
     for r in rows:
-        md.append(f"| {r['pair']} | {r['automatic_validation_points']} | {r['automatic_point_mean_target_px']:.3f} | {r['automatic_point_median_target_px']:.3f} | {r['effective_overlap_pixels']:,} | {r['effective_overlap_pct_target']:.2f}% | {r['low_confidence_overlap_pixels']:,} | {r['low_confidence_overlap_pct_target']:.2f}% |")
+        md.append(f"| {r['pair']} | {r['automatic_validation_points']} | {fmt(r['automatic_point_mean_target_px'])} | {fmt(r['automatic_point_median_target_px'])} | {r['effective_overlap_pixels']:,} | {r['effective_overlap_pct_target']:.2f}% | {r['low_confidence_overlap_pixels']:,} | {r['low_confidence_overlap_pct_target']:.2f}% |")
     md += ['', '面积与误差采用各对后一期原始像素坐标；所有表中面积比例分母为后一期完整画布。',
            '有效面积同时要求图内来源、双向置信度≥0.5、循环误差≤3目标像素、正Jacobian。',
            '低置信度面积为几何重叠内目标侧置信度<0.5，无重叠面积单独列入CSV。',
