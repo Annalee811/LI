@@ -1,0 +1,89 @@
+{
+  "series": "0353-3",
+  "excluded": [],
+  "positions": [
+    {
+      "position": "0353-3-LB2",
+      "reference": "T1",
+      "chain": "T1→T2→T3→T4",
+      "common_geometric_pct_T1": 36.36341364526453,
+      "common_effective_pixels": 294977,
+      "common_effective_pct_T1": 5.089188513064706,
+      "root_candidate_common_effective_pct": 1.5652967743757553,
+      "crop_width": 2523,
+      "crop_height": 821,
+      "effective_pct_inside_crop": 14.240582258326926,
+      "cumulative_automatic_mean_error_T1_px": 2.5403165055405688,
+      "common_low_confidence_pct_T1": 31.136754569843777,
+      "adjacent_auto_qc_passed_pairs": 2,
+      "adjacent_auto_qc_pct": 66.66666666666667,
+      "full_chain_auto_qc_pass": false,
+      "all_six_composites_saved": true
+    },
+    {
+      "position": "0353-3-LB3",
+      "reference": "T1",
+      "chain": "T1→T2→T3→T4",
+      "common_geometric_pct_T1": 36.26942021859338,
+      "common_effective_pixels": 137094,
+      "common_effective_pct_T1": 2.365259698247975,
+      "root_candidate_common_effective_pct": 2.2162025311926055,
+      "crop_width": 2534,
+      "crop_height": 818,
+      "effective_pct_inside_crop": 6.613913852293406,
+      "cumulative_automatic_mean_error_T1_px": null,
+      "common_low_confidence_pct_T1": 33.77495406433581,
+      "adjacent_auto_qc_passed_pairs": 2,
+      "adjacent_auto_qc_pct": 66.66666666666667,
+      "full_chain_auto_qc_pass": false,
+      "all_six_composites_saved": true
+    }
+  ],
+  "packages": [
+    {
+      "file": "0353-3-LB2_continuous_registration_results.zip",
+      "bytes": 59495112,
+      "sha256": "e8635c14ce28f178e578eb45633d5610eea3367cc388445c3fe9465575e75c50"
+    },
+    {
+      "file": "0353-3-LB2_strict_common_effective_RGB.zip",
+      "bytes": 5148357,
+      "sha256": "9c569b17150b6dc91d800f4fc7c4ed4a3f8502b6a2bee313f6c3a2915c6f5e02"
+    },
+    {
+      "file": "0353-3-LB2_full_T1_canvas_RGB_and_masks.zip",
+      "bytes": 38448765,
+      "sha256": "985ebd365c2f0ca8bca9034e262b491f3ecf227ea92abd94f2596c4df693e0a4"
+    },
+    {
+      "position": "0353-3-LB2",
+      "file": "T1-T4_continuous_dense_fields.h5",
+      "bytes": 67134426,
+      "sha256": "add88c8dd5dc42c273999c11325340a3a1daa907ecf133e103adf3c12cb050c1"
+    },
+    {
+      "file": "0353-3-LB3_continuous_registration_results.zip",
+      "bytes": 59177352,
+      "sha256": "4316ad5dab89cd6326de1bb0974db37604964098d98f273340832b7b41433760"
+    },
+    {
+      "file": "0353-3-LB3_strict_common_effective_RGB.zip",
+      "bytes": 2572321,
+      "sha256": "d3c8d1a025ea0c46695fa3fb371df7e9eb7a2a04640bd16622222a2c40e7a2b6"
+    },
+    {
+      "file": "0353-3-LB3_full_T1_canvas_RGB_and_masks.zip",
+      "bytes": 37344586,
+      "sha256": "d610b3f71ed6a879771a716a956dc6f63ecb20ac9827df8d1c98d56353db27ef"
+    },
+    {
+      "position": "0353-3-LB3",
+      "file": "T1-T4_continuous_dense_fields.h5",
+      "bytes": 66571326,
+      "sha256": "a1e47bb9f800a3fbe6842d595c0aef7f5d3c0621bd9fc31bdd258cad20ff6c71"
+    }
+  ],
+  "output": "Unenhanced original-source RGB sampled once to T1; common-geometry crops plus separately masked strict common-effective original RGB; six composites per location.",
+  "root_priority": "Root ridge candidates prioritized in coarse alignment, root:soil weight 3:1; no verified semantic root segmentation.",
+  "manual_landmark_TRE": null
+}

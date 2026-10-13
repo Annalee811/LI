@@ -1,0 +1,894 @@
+{
+  "position": "0353-3-LB3",
+  "chain": "T1→T2→T3→T4",
+  "reference_size_wh": [
+    2550,
+    2273
+  ],
+  "reference": "native T1",
+  "error_coordinate": "T1 original pixel coordinates for all endpoints",
+  "cumulative_confidence": "minimum of all source- and target-side RoMa confidences sampled along adjacent forward path; not calibrated probability",
+  "effective_definition": "each adjacent native target valid mask propagated to T1, full path in original image bounds, path confidence >=0.5, cumulative T1 round-trip <=3 px, positive cumulative Jacobian; nested across stages",
+  "common_geometric_area_T1_px2": 2102230,
+  "common_geometric_pct_T1": 36.26942021859338,
+  "common_effective_area_T1_px2": 137094,
+  "common_effective_pct_T1": 2.365259698247975,
+  "common_low_confidence_geometric_area_T1_px2": 1957647,
+  "common_low_confidence_pct_T1": 33.77495406433581,
+  "largest_common_geometric_horizontal_rectangle_xyxy": [
+    14,
+    0,
+    2548,
+    818
+  ],
+  "rectangle_size_wh": [
+    2534,
+    818
+  ],
+  "rectangle_effective_fraction": 0.06613913852293406,
+  "rectangle_common_pixels": 2072812,
+  "full_chain_automatic_qc_pass": false,
+  "root_candidate_reference_area_T1_px2": 1117813,
+  "root_candidate_common_effective_area_T1_px2": 24773,
+  "root_candidate_common_effective_pct": 2.2162025311926055,
+  "cumulative_paths_passed": 0,
+  "cumulative_paths_evaluated": 3,
+  "cumulative_paths_auto_qc_pct": 0.0,
+  "full_chains_evaluated": 1,
+  "full_chains_automatic_qc_passed": 0,
+  "full_chain_automatic_qc_pass_pct": 0,
+  "manual_landmark_TRE": null,
+  "flow_display_max_T1_normalized_px": 1454.3857421875,
+  "flow_display_brightness": "log1p magnitude / log1p shared p99 max; arrows normalized to fixed length indicate direction only",
+  "method_notes": [
+    "All images are sampled once from original RGB through composed RoMa fields.",
+    "Endpoint checks never refit the dense field; coarse prealignment, if configured, can use related feature anchors.",
+    "RGB display rectangle is geometric common coverage, not an all-high-confidence rectangle.",
+    "Automatic quality thresholds: effective coverage>=10%, >=20 endpoint points, median error at width1400<=3px, effective roundtrip P95<=3 T1 pixels.",
+    "Unmappable endpoint matches are counted separately and excluded from numeric error; no confidence/error-based deletion from the geometrically mappable headline error.",
+    "Manual TRE and physically calibrated area unavailable. Automatic feature matching may be mistaken.",
+    "Only 0353-3-LB3 is evaluated in this report; success on 19 locations has not been evaluated."
+  ],
+  "original_inference": {
+    "position": "0353-3-LB3",
+    "input_sha256": {
+      "results/microtube_registration/input/raw/V-变化/0353-3-LB3/T1.jpg": "7f53f3f1c6301215e32c564d07c24de9948553826b870732ea2504b9a2230ef7",
+      "results/microtube_registration/input/raw/V-变化/0353-3-LB3/T2.jpg": "6d475474b090d89565137d85f3f899ffb1eea9510817a372b909aebb1b12ea11",
+      "results/microtube_registration/input/raw/V-变化/0353-3-LB3/T3.png": "bb4a6970642370c954728f6c460952f3c239e1d2e37d75e76b679b7a6d4659ce",
+      "results/microtube_registration/input/raw/V-变化/0353-3-LB3/T4.jpg": "e12d5646eb1e81563b57700fc9c183f4b0fa0e777b74fd55335d2f8227d0ee18"
+    },
+    "args": {
+      "device": "cpu",
+      "coarse": 560,
+      "upsample": 864,
+      "confidence": 0.5,
+      "cycle_native_target_px": 3.0,
+      "seed": 20261013
+    },
+    "model": "full roma_outdoor",
+    "root_priority": [
+      {
+        "pair": "T1_to_T2",
+        "mutual_feature_matches": 20,
+        "root_candidate_anchors": 1,
+        "coarse_alignment_used": true,
+        "coarse_method": "root-prioritized joint robust fit",
+        "coarse_inliers": 17,
+        "coarse_root_inliers": 1,
+        "root_anchor_weight": 3.0,
+        "soil_anchor_weight": 1.0,
+        "homography_native_source_to_target": [
+          [
+            0.5216049087494706,
+            3.738841333923929e-05,
+            -2.7162442648234055
+          ],
+          [
+            -3.7391838441363784e-05,
+            0.5217182656593382,
+            143.0369715175601
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "pair": "T2_to_T3",
+        "mutual_feature_matches": 124,
+        "root_candidate_anchors": 78,
+        "coarse_alignment_used": true,
+        "coarse_method": "root-first RANSAC + weighted root/soil refinement",
+        "coarse_inliers": 82,
+        "coarse_root_inliers": 61,
+        "root_anchor_weight": 3.0,
+        "soil_anchor_weight": 1.0,
+        "homography_native_source_to_target": [
+          [
+            1.0010183460323765,
+            0.00025783911467971017,
+            0.43416774801388897
+          ],
+          [
+            -0.000257933449880099,
+            1.0010753029795194,
+            606.1001650872896
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "pair": "T3_to_T4",
+        "mutual_feature_matches": 264,
+        "root_candidate_anchors": 150,
+        "coarse_alignment_used": true,
+        "coarse_method": "root-first RANSAC + weighted root/soil refinement",
+        "coarse_inliers": 242,
+        "coarse_root_inliers": 145,
+        "root_anchor_weight": 3.0,
+        "soil_anchor_weight": 1.0,
+        "homography_native_source_to_target": [
+          [
+            3.8338365800579717,
+            -0.0006364941028848304,
+            -4.617968271688668
+          ],
+          [
+            0.0006367286631443681,
+            3.833628608956888,
+            -367.8341012001994
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "method": "Root-first geometric prealignment from conservative root ridge support; 3:1 root/soil weight; full RoMa dense residuals on RGB; artifact rejection. RGB output sampled once from originals."
+  },
+  "cumulative_evaluations": [
+    {
+      "summary": {
+        "path": "T1→T2",
+        "reference": "T1",
+        "automatic_endpoint_points": 15,
+        "automatic_evaluable_endpoint_points": 15,
+        "automatic_unmappable_endpoint_points": 0,
+        "automatic_effective_endpoint_points": 9,
+        "automatic_mean_error_effective_T1_px": 1.4175631389364194,
+        "automatic_mean_error_T1_px": 1.772232836034806,
+        "automatic_median_error_T1_px": 1.5488080072084676,
+        "automatic_rmse_error_T1_px": 2.1368516368161656,
+        "automatic_p95_error_T1_px": 3.9612529956828464,
+        "automatic_mean_error_native_period_px": 0.9391396403355786,
+        "geometric_area_T1_px2": 5077030,
+        "geometric_pct_T1": 87.59314372471381,
+        "effective_area_T1_px2": 1022781,
+        "effective_pct_T1": 17.645868378147565,
+        "low_confidence_geometric_area_T1_px2": 4016214,
+        "low_confidence_pct_T1": 69.29106389586191,
+        "low_confidence_pct_geometric": 79.10557944309961,
+        "other_unreliable_geometric_pct_T1": 0.6562114507043468,
+        "nonoverlap_pct_T1": 12.40685627528618,
+        "cumulative_cycle_median_effective_T1_px": 0.4786190688610077,
+        "cumulative_cycle_p95_effective_T1_px": 1.6461342573165894,
+        "automatic_qc_pass": false
+      },
+      "automatic_checks": {
+        "effective_area_at_least_10pct": true,
+        "endpoint_validation_points_at_least_20": false,
+        "endpoint_normalized_median_at_most_3px": true,
+        "cumulative_cycle_p95_effective_at_most_3px": true
+      },
+      "independent_endpoint_matching": {
+        "source_keypoints": 18447,
+        "target_keypoints": 21433,
+        "mutual_matches": 20,
+        "ransac_inliers": 17,
+        "spatially_thinned_points": 15,
+        "analysis_target_size_wh": [
+          1400,
+          1248
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            1.001656411727644,
+            1.699996691749581e-06,
+            -2.812744266389347
+          ],
+          [
+            -1.699996691749581e-06,
+            1.001656411727644,
+            150.6723987076621
+          ]
+        ]
+      },
+      "endpoint_error_T1_all": {
+        "n": 15,
+        "mean": 1.772232836034806,
+        "median": 1.5488080072084676,
+        "rmse": 2.1368516368161656,
+        "p95": 3.9612529956828464
+      },
+      "endpoint_error_T1_effective": {
+        "n": 9,
+        "mean": 1.4175631389364194,
+        "median": 1.3977968132002914,
+        "rmse": 1.5877699170993167,
+        "p95": 2.631360907163194
+      },
+      "endpoint_unmappable_count": 0,
+      "endpoint_error_native_period": {
+        "n": 15,
+        "mean": 0.9391396403355786,
+        "median": 0.83666889554391,
+        "rmse": 1.1343671321596327,
+        "p95": 2.16704475264767
+      },
+      "endpoint_error_analysis_width1400": {
+        "n": 15,
+        "mean": 0.990002312347622,
+        "median": 0.8820062341774054,
+        "rmse": 1.1958200284232636,
+        "p95": 2.284453213973421
+      }
+    },
+    {
+      "summary": {
+        "path": "T1→T2→T3",
+        "reference": "T1",
+        "automatic_endpoint_points": 4,
+        "automatic_evaluable_endpoint_points": 0,
+        "automatic_unmappable_endpoint_points": 4,
+        "automatic_effective_endpoint_points": 0,
+        "automatic_mean_error_effective_T1_px": null,
+        "automatic_mean_error_T1_px": null,
+        "automatic_median_error_T1_px": null,
+        "automatic_rmse_error_T1_px": null,
+        "automatic_p95_error_T1_px": null,
+        "automatic_mean_error_native_period_px": null,
+        "geometric_area_T1_px2": 2104559,
+        "geometric_pct_T1": 36.30960206343866,
+        "effective_area_T1_px2": 147211,
+        "effective_pct_T1": 2.5398065957575287,
+        "low_confidence_geometric_area_T1_px2": 1948523,
+        "low_confidence_pct_T1": 33.6175392286259,
+        "low_confidence_pct_geometric": 92.58581013884618,
+        "other_unreliable_geometric_pct_T1": 0.15225623905523494,
+        "nonoverlap_pct_T1": 63.69039793656134,
+        "cumulative_cycle_median_effective_T1_px": 0.718994140625,
+        "cumulative_cycle_p95_effective_T1_px": 1.8939762115478516,
+        "automatic_qc_pass": false
+      },
+      "automatic_checks": {
+        "effective_area_at_least_10pct": false,
+        "endpoint_validation_points_at_least_20": false,
+        "endpoint_normalized_median_at_most_3px": false,
+        "cumulative_cycle_p95_effective_at_most_3px": true
+      },
+      "independent_endpoint_matching": {
+        "source_keypoints": 18447,
+        "target_keypoints": 33135,
+        "mutual_matches": 7,
+        "ransac_inliers": 5,
+        "spatially_thinned_points": 4,
+        "analysis_target_size_wh": [
+          1400,
+          1245
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            1.0015655881102965,
+            0.005284200199689587,
+            -7.106784847465682
+          ],
+          [
+            -0.005284200199689587,
+            1.0015655881102965,
+            -565.037198862459
+          ]
+        ]
+      },
+      "endpoint_error_T1_all": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_error_T1_effective": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_unmappable_count": 4,
+      "endpoint_error_native_period": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_error_analysis_width1400": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      }
+    },
+    {
+      "summary": {
+        "path": "T1→T2→T3→T4",
+        "reference": "T1",
+        "automatic_endpoint_points": 48,
+        "automatic_evaluable_endpoint_points": 0,
+        "automatic_unmappable_endpoint_points": 48,
+        "automatic_effective_endpoint_points": 0,
+        "automatic_mean_error_effective_T1_px": null,
+        "automatic_mean_error_T1_px": null,
+        "automatic_median_error_T1_px": null,
+        "automatic_rmse_error_T1_px": null,
+        "automatic_p95_error_T1_px": null,
+        "automatic_mean_error_native_period_px": null,
+        "geometric_area_T1_px2": 2102230,
+        "geometric_pct_T1": 36.269420218593375,
+        "effective_area_T1_px2": 137094,
+        "effective_pct_T1": 2.365259698247975,
+        "low_confidence_geometric_area_T1_px2": 1957647,
+        "low_confidence_pct_T1": 33.77495406433581,
+        "low_confidence_pct_geometric": 93.12239859577687,
+        "other_unreliable_geometric_pct_T1": 0.12920645600959257,
+        "nonoverlap_pct_T1": 63.730579781406625,
+        "cumulative_cycle_median_effective_T1_px": 0.8223288059234619,
+        "cumulative_cycle_p95_effective_T1_px": 1.9912006855010986,
+        "automatic_qc_pass": false
+      },
+      "automatic_checks": {
+        "effective_area_at_least_10pct": false,
+        "endpoint_validation_points_at_least_20": false,
+        "endpoint_normalized_median_at_most_3px": false,
+        "cumulative_cycle_p95_effective_at_most_3px": true
+      },
+      "independent_endpoint_matching": {
+        "source_keypoints": 18447,
+        "target_keypoints": 15689,
+        "mutual_matches": 89,
+        "ransac_inliers": 82,
+        "spatially_thinned_points": 48,
+        "analysis_target_size_wh": [
+          1400,
+          1248
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            1.0006293275358256,
+            0.0019283435641353121,
+            -4.638767276797477
+          ],
+          [
+            -0.0019283435641353121,
+            1.0006293275358256,
+            -669.6144869118447
+          ]
+        ]
+      },
+      "endpoint_error_T1_all": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_error_T1_effective": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_unmappable_count": 48,
+      "endpoint_error_native_period": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      },
+      "endpoint_error_analysis_width1400": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "rmse": null,
+        "p95": null
+      }
+    }
+  ],
+  "adjacent_qc_passed_pairs": 2,
+  "adjacent_pairs": 3,
+  "adjacent_qc_definition": {
+    "min_effective_target_fraction": 0.1,
+    "min_roma_reliable_samples": 100,
+    "min_automatic_validation_points": 20,
+    "max_automatic_median_px_at_width1400": 3.0,
+    "max_confident_cycle_p95_target_px": 3.0
+  },
+  "adjacent_automatic_evaluations": [
+    {
+      "summary": {
+        "pair": "T1→T2",
+        "target_width": 1328,
+        "target_height": 1184,
+        "automatic_qc_pass": false,
+        "human_landmark_TRE": "未评估（无人工标志点）",
+        "automatic_validation_points": 15,
+        "automatic_point_mean_target_px": 0.9391396403355786,
+        "automatic_point_median_target_px": 0.83666889554391,
+        "automatic_point_rmse_target_px": 1.1343671321596327,
+        "automatic_point_p95_target_px": 2.16704475264767,
+        "automatic_point_median_at_target_width1400": 0.8820062341774054,
+        "geometric_overlap_pixels": 1570861,
+        "geometric_overlap_pct_target": 99.90517390507978,
+        "effective_overlap_pixels": 289413,
+        "effective_overlap_pct_target": 18.40637465402149,
+        "low_confidence_overlap_pixels": 1260219,
+        "low_confidence_overlap_pct_target": 80.14865628052752,
+        "low_confidence_pct_geometric_overlap": 80.22473025939279,
+        "low_confidence_full_canvas_pixels": 1261710,
+        "low_confidence_full_canvas_pct": 80.24348237544774,
+        "other_unreliable_overlap_pixels": 21229,
+        "other_unreliable_overlap_pct_target": 1.3501429705307717,
+        "nonoverlap_pixels": 1491,
+        "nonoverlap_pct_target": 0.09482609492022143,
+        "reliable_roma_samples": 1129,
+        "sampled_roma_matches": 5000,
+        "cycle_median_effective_target_px": 0.25471559166908264,
+        "cycle_p95_effective_target_px": 0.9815184473991394
+      },
+      "automatic_qc_checks": {
+        "effective_area": true,
+        "reliable_sample_count": true,
+        "independent_point_count": false,
+        "independent_point_error": true,
+        "confident_cycle": true
+      },
+      "independent_matching": {
+        "source_keypoints": 18447,
+        "target_keypoints": 21433,
+        "mutual_matches": 20,
+        "ransac_inliers": 17,
+        "spatially_thinned_points": 15,
+        "analysis_target_size_wh": [
+          1400,
+          1248
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            1.001656411727644,
+            1.699996691749581e-06,
+            -2.812744266389347
+          ],
+          [
+            -1.699996691749581e-06,
+            1.001656411727644,
+            150.6723987076621
+          ]
+        ]
+      },
+      "automatic_validation_all_points": {
+        "n": 15,
+        "mean": 0.9391396403355786,
+        "median": 0.83666889554391,
+        "rmse": 1.1343671321596327,
+        "p95": 2.16704475264767
+      },
+      "automatic_validation_points_in_effective_area": {
+        "n": 9,
+        "mean": 0.7201282396643534,
+        "median": 0.7376248707461454,
+        "rmse": 0.8231274120182059,
+        "p95": 1.329652168071374
+      },
+      "automatic_validation_width1400": {
+        "n": 15,
+        "mean": 0.990002312347622,
+        "median": 0.8820062341774054,
+        "rmse": 1.1958200284232636,
+        "p95": 2.284453213973421
+      },
+      "roma_original_metrics": {
+        "pair": "T1_to_T2",
+        "kind": "adjacent",
+        "source_file": "/workspace/LI/results/microtube_registration/input/raw/V-变化/0353-3-LB3/T1.jpg",
+        "target_file": "/workspace/LI/results/microtube_registration/input/raw/V-变化/0353-3-LB3/T2.jpg",
+        "source_size_wh": [
+          2550,
+          2273
+        ],
+        "target_size_wh": [
+          1328,
+          1184
+        ],
+        "model": "roma_outdoor",
+        "device": "cpu",
+        "coarse_resolution": 560,
+        "upsample_resolution": 864,
+        "confidence_threshold": 0.5,
+        "cycle_threshold_target_px": 3.0,
+        "checker_tile_px": 128,
+        "sampled_matches": 5000,
+        "reliable_sampled_matches": 1129,
+        "reliable_dense_source_pixels": 1058232,
+        "homography_inliers": 1116,
+        "homography_inlier_ratio": 0.9884853852967228,
+        "homography_ransac_target_px": 3.0,
+        "prealignment_source_to_inference": [
+          [
+            0.5216049087494706,
+            3.738841333923929e-05,
+            -2.7162442648234055
+          ],
+          [
+            -3.7391838441363784e-05,
+            0.5217182656593382,
+            143.0369715175601
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "foldover_target_ratio": 0.051927939799739496,
+        "flow_preview_magnitude_p99_source_px": 339.25469970703125,
+        "effective_area_ratio": 0.1840637465402149,
+        "effective_pixel_count": 289413,
+        "geometric_area_ratio": 0.9990517390507978,
+        "confidence_on_effective_area": {
+          "median": 0.649921178817749,
+          "p95": 0.8851161003112793
+        },
+        "gray_ncc": 0.6149399576593927,
+        "gradient_ncc": 0.4354724679797589,
+        "cycle_error_effective_target_px": {
+          "median": 0.25471559166908264,
+          "p95": 0.9815184473991394
+        },
+        "cycle_error_confident_target_px": {
+          "median": 0.2695271372795105,
+          "p95": 1.3807233572006226
+        },
+        "quality_interpretation": "Requires visual review; confidence/cycle consistency are internal checks, not independent ground truth. Seasonal RGB and root changes confound NCC.",
+        "elapsed_seconds": 114.62,
+        "artifact_excluded_effective_pixels": 0,
+        "root_candidate_target_area_ratio": 0.225541736201563,
+        "root_candidate_effective_area_ratio": 0.18479489948707248,
+        "root_priority_configuration_file": "/workspace/LI/results/microtube_registration/0353-3_root_priority_configuration/0353-3-LB3/root_priority_configuration.json",
+        "root_semantics": "Conservative ridge/length proxy used to prioritize coarse anchors. Not verified root segmentation."
+      }
+    },
+    {
+      "summary": {
+        "pair": "T2→T3",
+        "target_width": 1330,
+        "target_height": 1183,
+        "automatic_qc_pass": true,
+        "human_landmark_TRE": "未评估（无人工标志点）",
+        "automatic_validation_points": 58,
+        "automatic_point_mean_target_px": 0.7878932053068495,
+        "automatic_point_median_target_px": 0.5553374468437964,
+        "automatic_point_rmse_target_px": 1.0061133132638187,
+        "automatic_point_p95_target_px": 1.9076323537617559,
+        "automatic_point_median_at_target_width1400": 0.5845508482784101,
+        "geometric_overlap_pixels": 1460194,
+        "geometric_overlap_pct_target": 92.80559810345814,
+        "effective_overlap_pixels": 224431,
+        "effective_overlap_pct_target": 14.264168451560007,
+        "low_confidence_overlap_pixels": 1194936,
+        "low_confidence_overlap_pct_target": 75.94658666954791,
+        "low_confidence_pct_geometric_overlap": 81.83405766631009,
+        "low_confidence_full_canvas_pixels": 1308126,
+        "low_confidence_full_canvas_pct": 83.14060722389236,
+        "other_unreliable_overlap_pixels": 40827,
+        "other_unreliable_overlap_pct_target": 2.5948429823502117,
+        "nonoverlap_pixels": 113196,
+        "nonoverlap_pct_target": 7.194401896541862,
+        "reliable_roma_samples": 1345,
+        "sampled_roma_matches": 5000,
+        "cycle_median_effective_target_px": 0.17108432948589325,
+        "cycle_p95_effective_target_px": 0.48735344409942627
+      },
+      "automatic_qc_checks": {
+        "effective_area": true,
+        "reliable_sample_count": true,
+        "independent_point_count": true,
+        "independent_point_error": true,
+        "confident_cycle": true
+      },
+      "independent_matching": {
+        "source_keypoints": 21433,
+        "target_keypoints": 33135,
+        "mutual_matches": 124,
+        "ransac_inliers": 78,
+        "spatially_thinned_points": 58,
+        "analysis_target_size_wh": [
+          1400,
+          1245
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            0.9992641233370029,
+            0.0004976538464929155,
+            0.3132941718397062
+          ],
+          [
+            -0.0004976538464929155,
+            0.9992641233370029,
+            637.9758209634031
+          ]
+        ]
+      },
+      "automatic_validation_all_points": {
+        "n": 58,
+        "mean": 0.7878932053068495,
+        "median": 0.5553374468437964,
+        "rmse": 1.0061133132638187,
+        "p95": 1.9076323537617559
+      },
+      "automatic_validation_points_in_effective_area": {
+        "n": 49,
+        "mean": 0.7862059877319127,
+        "median": 0.5466131903283623,
+        "rmse": 1.0206507955009445,
+        "p95": 1.9419401537141445
+      },
+      "automatic_validation_width1400": {
+        "n": 58,
+        "mean": 0.8292758820928527,
+        "median": 0.5845508482784101,
+        "rmse": 1.0589387791345557,
+        "p95": 2.0077374500255605
+      },
+      "roma_original_metrics": {
+        "pair": "T2_to_T3",
+        "kind": "adjacent",
+        "source_file": "/workspace/LI/results/microtube_registration/input/raw/V-变化/0353-3-LB3/T2.jpg",
+        "target_file": "/workspace/LI/results/microtube_registration/input/raw/V-变化/0353-3-LB3/T3.png",
+        "source_size_wh": [
+          1328,
+          1184
+        ],
+        "target_size_wh": [
+          1330,
+          1183
+        ],
+        "model": "roma_outdoor",
+        "device": "cpu",
+        "coarse_resolution": 560,
+        "upsample_resolution": 864,
+        "confidence_threshold": 0.5,
+        "cycle_threshold_target_px": 3.0,
+        "checker_tile_px": 128,
+        "sampled_matches": 5000,
+        "reliable_sampled_matches": 1345,
+        "reliable_dense_source_pixels": 220494,
+        "homography_inliers": 1137,
+        "homography_inlier_ratio": 0.8453531598513011,
+        "homography_ransac_target_px": 3.0,
+        "prealignment_source_to_inference": [
+          [
+            1.0010183460323765,
+            0.00025783911467971017,
+            0.43416774801388897
+          ],
+          [
+            -0.000257933449880099,
+            1.0010753029795194,
+            606.1001650872896
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "foldover_target_ratio": 0.20391002866422184,
+        "flow_preview_magnitude_p99_source_px": 613.6047973632812,
+        "effective_area_ratio": 0.14264168451560008,
+        "effective_pixel_count": 224431,
+        "geometric_area_ratio": 0.9280559810345814,
+        "confidence_on_effective_area": {
+          "median": 0.6780479550361633,
+          "p95": 0.8861739635467529
+        },
+        "gray_ncc": 0.7640812783760894,
+        "gradient_ncc": 0.5561116705705835,
+        "cycle_error_effective_target_px": {
+          "median": 0.17108432948589325,
+          "p95": 0.48735344409942627
+        },
+        "cycle_error_confident_target_px": {
+          "median": 0.18884865939617157,
+          "p95": 0.600008487701416
+        },
+        "quality_interpretation": "Requires visual review; confidence/cycle consistency are internal checks, not independent ground truth. Seasonal RGB and root changes confound NCC.",
+        "elapsed_seconds": 51.97,
+        "artifact_excluded_effective_pixels": 0,
+        "root_candidate_target_area_ratio": 0.30157748555666425,
+        "root_candidate_effective_area_ratio": 0.23751156482943062,
+        "root_priority_configuration_file": "/workspace/LI/results/microtube_registration/0353-3_root_priority_configuration/0353-3-LB3/root_priority_configuration.json",
+        "root_semantics": "Conservative ridge/length proxy used to prioritize coarse anchors. Not verified root segmentation."
+      }
+    },
+    {
+      "summary": {
+        "pair": "T3→T4",
+        "target_width": 5100,
+        "target_height": 4547,
+        "automatic_qc_pass": true,
+        "human_landmark_TRE": "未评估（无人工标志点）",
+        "automatic_validation_points": 194,
+        "automatic_point_mean_target_px": 3.9846787518822073,
+        "automatic_point_median_target_px": 3.5732646615242007,
+        "automatic_point_rmse_target_px": 4.551902005625505,
+        "automatic_point_p95_target_px": 8.317566981879747,
+        "automatic_point_median_at_target_width1400": 0.9807876383478566,
+        "geometric_overlap_pixels": 21264264,
+        "geometric_overlap_pct_target": 91.69702066003441,
+        "effective_overlap_pixels": 14369628,
+        "effective_overlap_pct_target": 61.9655622970543,
+        "low_confidence_overlap_pixels": 5177627,
+        "low_confidence_overlap_pct_target": 22.327270296726564,
+        "low_confidence_pct_geometric_overlap": 24.348959362054572,
+        "low_confidence_full_canvas_pixels": 7102871,
+        "low_confidence_full_canvas_pct": 30.629421682902326,
+        "other_unreliable_overlap_pixels": 1717009,
+        "other_unreliable_overlap_pct_target": 7.4041880662535515,
+        "nonoverlap_pixels": 1925436,
+        "nonoverlap_pct_target": 8.302979339965589,
+        "reliable_roma_samples": 3347,
+        "sampled_roma_matches": 5000,
+        "cycle_median_effective_target_px": 0.5225070714950562,
+        "cycle_p95_effective_target_px": 1.267142415046692
+      },
+      "automatic_qc_checks": {
+        "effective_area": true,
+        "reliable_sample_count": true,
+        "independent_point_count": true,
+        "independent_point_error": true,
+        "confident_cycle": true
+      },
+      "independent_matching": {
+        "source_keypoints": 33135,
+        "target_keypoints": 15689,
+        "mutual_matches": 264,
+        "ransac_inliers": 233,
+        "spatially_thinned_points": 194,
+        "analysis_target_size_wh": [
+          1400,
+          1248
+        ],
+        "similarity_in_analysis_coordinates": [
+          [
+            0.9997970879294792,
+            -0.00020837529840015594,
+            -1.204995313640974
+          ],
+          [
+            0.00020837529840015594,
+            0.9997970879294792,
+            -100.91701001786325
+          ]
+        ]
+      },
+      "automatic_validation_all_points": {
+        "n": 194,
+        "mean": 3.9846787518822073,
+        "median": 3.5732646615242007,
+        "rmse": 4.551902005625505,
+        "p95": 8.317566981879747
+      },
+      "automatic_validation_points_in_effective_area": {
+        "n": 182,
+        "mean": 3.975770076423167,
+        "median": 3.5732646615242007,
+        "rmse": 4.55165422876023,
+        "p95": 8.194747829521559
+      },
+      "automatic_validation_width1400": {
+        "n": 194,
+        "mean": 1.0937441608910778,
+        "median": 0.9807876383478566,
+        "rmse": 1.249443938205688,
+        "p95": 2.2830866311921363
+      },
+      "roma_original_metrics": {
+        "pair": "T3_to_T4",
+        "kind": "adjacent",
+        "source_file": "/workspace/LI/results/microtube_registration/input/raw/V-变化/0353-3-LB3/T3.png",
+        "target_file": "/workspace/LI/results/microtube_registration/input/raw/V-变化/0353-3-LB3/T4.jpg",
+        "source_size_wh": [
+          1330,
+          1183
+        ],
+        "target_size_wh": [
+          5100,
+          4547
+        ],
+        "model": "roma_outdoor",
+        "device": "cpu",
+        "coarse_resolution": 560,
+        "upsample_resolution": 864,
+        "confidence_threshold": 0.5,
+        "cycle_threshold_target_px": 3.0,
+        "checker_tile_px": 128,
+        "sampled_matches": 5000,
+        "reliable_sampled_matches": 3347,
+        "reliable_dense_source_pixels": 974900,
+        "homography_inliers": 2709,
+        "homography_inlier_ratio": 0.8093815357036152,
+        "homography_ransac_target_px": 3.0,
+        "prealignment_source_to_inference": [
+          [
+            3.8338365800579717,
+            -0.0006364941028848304,
+            -4.617968271688668
+          ],
+          [
+            0.0006367286631443681,
+            3.833628608956888,
+            -367.8341012001994
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "foldover_target_ratio": 0.0016016593573871158,
+        "flow_preview_magnitude_p99_source_px": 98.7595443725586,
+        "effective_area_ratio": 0.619655622970543,
+        "effective_pixel_count": 14369628,
+        "geometric_area_ratio": 0.9169702066003441,
+        "confidence_on_effective_area": {
+          "median": 0.7597874402999878,
+          "p95": 0.9134622812271118
+        },
+        "gray_ncc": 0.7384506533409733,
+        "gradient_ncc": 0.29633388424337764,
+        "cycle_error_effective_target_px": {
+          "median": 0.5225070714950562,
+          "p95": 1.267142415046692
+        },
+        "cycle_error_confident_target_px": {
+          "median": 0.5303099155426025,
+          "p95": 1.3438745737075806
+        },
+        "quality_interpretation": "Requires visual review; confidence/cycle consistency are internal checks, not independent ground truth. Seasonal RGB and root changes confound NCC.",
+        "elapsed_seconds": 136.31,
+        "artifact_excluded_effective_pixels": 0,
+        "root_candidate_target_area_ratio": 0.22617554345248106,
+        "root_candidate_effective_area_ratio": 0.6666840802655053,
+        "root_priority_configuration_file": "/workspace/LI/results/microtube_registration/0353-3_root_priority_configuration/0353-3-LB3/root_priority_configuration.json",
+        "root_semantics": "Conservative ridge/length proxy used to prioritize coarse anchors. Not verified root segmentation."
+      }
+    }
+  ],
+  "adjacent_validation_limitations": [
+    "Automatic quality pass is not independently confirmed registration success.",
+    "SIFT verification is feature-rich-location sampling and may include false matches; root-priority coarse fitting can share these features, so this is not a held-out validation.",
+    "Manual landmark TRE unavailable; cycle error is internal consistency only.",
+    "Pixel errors and areas have different scales across periods; no mm calibration.",
+    "3 adjacent pairs from one position, not 19-position dataset."
+  ]
+}

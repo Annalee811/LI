@@ -1,0 +1,3 @@
+﻿position,reference,chain,common_geometric_pct_T1,common_effective_pixels,common_effective_pct_T1,root_candidate_common_effective_pct,crop_width,crop_height,effective_pct_inside_crop,cumulative_automatic_mean_error_T1_px,common_low_confidence_pct_T1,adjacent_auto_qc_passed_pairs,adjacent_auto_qc_pct,full_chain_auto_qc_pass,all_six_composites_saved
+0353-3-LB2,T1,T1→T2→T3→T4,36.36341364526453,294977,5.089188513064706,1.5652967743757553,2523,821,14.240582258326926,2.5403165055405688,31.136754569843777,2,66.66666666666667,False,True
+0353-3-LB3,T1,T1→T2→T3→T4,36.26942021859338,137094,2.365259698247975,2.2162025311926055,2534,818,6.613913852293406,,33.77495406433581,2,66.66666666666667,False,True
