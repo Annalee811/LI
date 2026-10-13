@@ -1,0 +1,162 @@
+[
+  {
+    "pair": "T1_to_T2",
+    "window": "A",
+    "description": "上方长横根",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 14.907697666318356,
+    "locally_displaced_support_pct": 14.907697666318356,
+    "low_confidence_pct": 61.92656791034074,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T2_to_T4",
+    "window": "A",
+    "description": "上方长横根",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 48.05560677771631,
+    "locally_displaced_support_pct": 38.602044788657366,
+    "low_confidence_pct": 47.47372303153236,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T1_to_T2",
+    "window": "B",
+    "description": "中部横根群",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 12.470241959918624,
+    "locally_displaced_support_pct": 12.470241959918624,
+    "low_confidence_pct": 70.4748301086439,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T2_to_T4",
+    "window": "B",
+    "description": "中部横根群",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 44.79677963900792,
+    "locally_displaced_support_pct": 42.66805176816864,
+    "low_confidence_pct": 43.13032939445094,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T1_to_T2",
+    "window": "C",
+    "description": "下方横根群",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 14.361761015573105,
+    "locally_displaced_support_pct": 14.361761015573105,
+    "low_confidence_pct": 69.21174994464536,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T2_to_T4",
+    "window": "C",
+    "description": "下方横根群",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 48.473134548675176,
+    "locally_displaced_support_pct": 29.95516274263783,
+    "low_confidence_pct": 31.64809211011883,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T1_to_T2",
+    "window": "D",
+    "description": "右侧长根",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 18.82814265270769,
+    "locally_displaced_support_pct": 0.6227875273028546,
+    "low_confidence_pct": 73.3731264592905,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T2_to_T4",
+    "window": "D",
+    "description": "右侧长根",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 25.472621827220003,
+    "locally_displaced_support_pct": 0.1981810649996234,
+    "low_confidence_pct": 50.83885666942833,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T1_to_T2",
+    "window": "E",
+    "description": "斜向分枝",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 11.343607553722595,
+    "locally_displaced_support_pct": 10.747413356486506,
+    "low_confidence_pct": 82.31748788076116,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T2_to_T4",
+    "window": "E",
+    "description": "斜向分枝",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 35.58353230591129,
+    "locally_displaced_support_pct": 3.0554952608349613,
+    "low_confidence_pct": 41.43549670790826,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T1_to_T2",
+    "window": "F",
+    "description": "陡斜根与邻根",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 12.73003802281369,
+    "locally_displaced_support_pct": 5.2036936447582836,
+    "low_confidence_pct": 81.72080391091798,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T2_to_T4",
+    "window": "F",
+    "description": "陡斜根与邻根",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 21.639326453014665,
+    "locally_displaced_support_pct": 0.0,
+    "low_confidence_pct": 68.70505160239001,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T1_to_T2",
+    "window": "G",
+    "description": "右侧细根",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 29.46381504631373,
+    "locally_displaced_support_pct": 0.8290031879910635,
+    "low_confidence_pct": 58.303838140422215,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T2_to_T4",
+    "window": "G",
+    "description": "右侧细根",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 32.1409744709692,
+    "locally_displaced_support_pct": 0.23219619951301554,
+    "low_confidence_pct": 64.76014760147602,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T1_to_T2",
+    "window": "H",
+    "description": "下部边界与细根",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 30.849808011623082,
+    "locally_displaced_support_pct": 0.1161010792860108,
+    "low_confidence_pct": 55.95877438771274,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  },
+  {
+    "pair": "T2_to_T4",
+    "window": "H",
+    "description": "下部边界与细根",
+    "observable_pct": 100.0,
+    "correspondence_support_pct": 23.176110419261104,
+    "locally_displaced_support_pct": 0.4092725197177252,
+    "low_confidence_pct": 68.27327210460771,
+    "interpretation": "Low support is not invalid observational content or proof of new/dead roots."
+  }
+]

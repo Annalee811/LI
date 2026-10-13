@@ -1,0 +1,372 @@
+{
+  "position": "A017-1-B2",
+  "period_ids": [
+    1,
+    2,
+    4
+  ],
+  "missing_period_ids": [
+    3
+  ],
+  "T1_size_wh": [
+    2550,
+    2273
+  ],
+  "common_crop_xyxy": [
+    0,
+    955,
+    2304,
+    1652
+  ],
+  "common_crop_size_wh": [
+    2304,
+    697
+  ],
+  "common_observable_pct_T1_full": 28.09635706460323,
+  "common_crop_pct_T1_full": 27.70611526616806,
+  "matrices_T1_to_native": {
+    "T1": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2": [
+      [
+        0.524084457439625,
+        0.0026146810843803566,
+        117.44247336213527
+      ],
+      [
+        -0.0026146810843803566,
+        0.524084457439625,
+        -494.1369771841575
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T4": [
+      [
+        1.9992001723175739,
+        0.0062875680755200974,
+        436.6459568530455
+      ],
+      [
+        -0.006287568075520096,
+        1.9992001723175739,
+        1244.7656555883825
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "region_features": [
+    {
+      "pair": "T1_to_T2",
+      "broad_region_candidates": 150,
+      "stable_structure_anchors": 145,
+      "root_support_anchor_candidates": 42,
+      "spatial_cv_anchor_points": 145,
+      "spatial_cv_anchor_median_T1_px": 1.888020704509472,
+      "spatial_cv_anchor_p95_T1_px": 5.510949347119697,
+      "spatial_cv_all_candidate_median_T1_px": 1.9017474573170148,
+      "stable_anchor_span_T1_xy": [
+        1895.2764544487,
+        1244.3549423217773
+      ],
+      "normalized_uniform_scale": 1.0048360890522432,
+      "rotation_deg": -0.2858488662386772,
+      "matrix_analysis_1600": [
+        [
+          1.0048235838128148,
+          0.005013110349751811,
+          141.28417848076424
+        ],
+        [
+          -0.005013110349751811,
+          1.0048235838128148,
+          -594.4504988681593
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manual_TRE": null,
+      "validation_interpretation": "Automatic spatial-block CV conditional on descriptor-consensus anchor selection; all broader candidates retained separately; not human ground truth."
+    },
+    {
+      "pair": "T2_to_T4",
+      "broad_region_candidates": 51,
+      "stable_structure_anchors": 46,
+      "root_support_anchor_candidates": 18,
+      "spatial_cv_anchor_points": 46,
+      "spatial_cv_anchor_median_T1_px": 2.323388389711329,
+      "spatial_cv_anchor_p95_T1_px": 4.686082770448436,
+      "spatial_cv_all_candidate_median_T1_px": 2.4654076652231796,
+      "stable_anchor_span_T1_xy": [
+        1805.1012983322144,
+        546.623152256012
+      ],
+      "normalized_uniform_scale": 0.9947941168747866,
+      "rotation_deg": 0.10565183977712073,
+      "matrix_analysis_1600": [
+        [
+          0.9947924256086518,
+          -0.001834371920212374,
+          -4.65190705822769
+        ],
+        [
+          0.001834371920212374,
+          0.9947924256086518,
+          981.6104014222622
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manual_TRE": null,
+      "validation_interpretation": "Automatic spatial-block CV conditional on descriptor-consensus anchor selection; all broader candidates retained separately; not human ground truth."
+    },
+    {
+      "pair": "T1_to_T4",
+      "broad_region_candidates": 493,
+      "stable_structure_anchors": 480,
+      "root_support_anchor_candidates": 153,
+      "spatial_cv_anchor_points": 480,
+      "spatial_cv_anchor_median_T1_px": 2.0367967500166557,
+      "spatial_cv_anchor_p95_T1_px": 5.941101200168865,
+      "spatial_cv_all_candidate_median_T1_px": 2.098203327946093,
+      "stable_anchor_span_T1_xy": [
+        2250.1358621120453,
+        1583.2333544790745
+      ],
+      "normalized_uniform_scale": 0.9987886634655081,
+      "rotation_deg": -0.06667788122087852,
+      "matrix_analysis_1600": [
+        [
+          0.9987879871304856,
+          0.0011623386120422877,
+          139.3431760346697
+        ],
+        [
+          -0.0011623386120422877,
+          0.9987879871304856,
+          389.4949453248126
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manual_TRE": null,
+      "validation_interpretation": "Automatic spatial-block CV conditional on descriptor-consensus anchor selection; all broader candidates retained separately; not human ground truth."
+    }
+  ],
+  "chain_vs_direct_median_T1_px": 1.3134804964065552,
+  "chain_vs_direct_p95_T1_px": 2.732356071472168,
+  "matching_goal": "Same observational REGION across seasons; roots can be newly visible, extend, disappear, move; soil can change. Geometric visibility is not identical-content confidence.",
+  "RGB_rendering": "Global similarity, once from source RGB; no elastic warping; no colour enhancement.",
+  "manual_landmark_TRE": null,
+  "previous_pixel_strict_success_ratio": 0.5,
+  "previous_pixel_strict_common_pct_crop": 4.977727886267115,
+  "previous_pixel_strict_interpretation": "Old strict same-location point validation. Not a same-region registration failure rate.",
+  "pair_evaluation": [
+    {
+      "pair": "T1_to_T2",
+      "calendar_gap_periods": 0,
+      "pair_T1_crop_xyxy": [
+        0,
+        955,
+        2304,
+        2273
+      ],
+      "largest_pair_geometric_rectangle_T1_xyxy": [
+        0,
+        955,
+        2301,
+        2273
+      ],
+      "pair_crop_size_wh": [
+        2304,
+        1318
+      ],
+      "pair_observable_pct_T1_full": 52.629797365492614,
+      "pair_crop_pct_T1_full": 52.39119070417432,
+      "region_localization_supported": true,
+      "stable_anchor_horizontal_span_fraction": 0.8226026277989149,
+      "stable_anchor_vertical_span_fraction": 0.9441236284687233,
+      "spatially_thinned_confident_correspondences": 6714,
+      "point_correspondence_support_pct_pair_crop": 12.141482517703592,
+      "same_location_point_support_pct_pair_crop": 9.57146507755859,
+      "locally_displaced_point_support_pct_pair_crop": 2.570017440145001,
+      "low_confidence_pct_pair_crop": 79.4600799822964,
+      "confident_candidate_displacement_median_T1_px": 1.9585365056991577,
+      "interpretation": "Region visibility retains new/extended roots and changed soil. Confident candidates with displacement >3 pixels are retained as possible local motion, not forced to coincide. Candidate motion is not proven soil migration/root growth; may include mismatch. Local candidate displacement can also contain global-pose estimation error.",
+      "point_support_rule": "Bidirectional confidence >=0.5, cycle <=3 T1 px, positive Jacobian; no global-position-agreement <=3 constraint.",
+      "region_support_rule": ">=20 stable auto anchors; spatial-CV anchor median<=3 T1 px; anchor x-span>=40% and y-span>=20% of pair crop; chain-vs-direct median<=5 T1 px; no minimum identical-content area.",
+      "manual_TRE": null,
+      "low_confidence_pct_observable_region": 79.4849200668177,
+      "unobservable_pct_pair_crop": 0.03125131723149553,
+      "assessed_observable_pct_native_target": 52.99537940370792,
+      "point_correspondence_support_pct_native_target": 6.431463273568537,
+      "low_confidence_pct_native_target": 42.12337691227223,
+      "unknown_outside_assessed_pct_native_target": 47.004620596292085
+    },
+    {
+      "pair": "T2_to_T4",
+      "calendar_gap_periods": 1,
+      "pair_T1_crop_xyxy": [
+        0,
+        955,
+        2304,
+        1652
+      ],
+      "largest_pair_geometric_rectangle_T1_xyxy": [
+        0,
+        955,
+        2304,
+        1652
+      ],
+      "pair_crop_size_wh": [
+        2304,
+        697
+      ],
+      "pair_observable_pct_T1_full": 28.09635706460323,
+      "pair_crop_pct_T1_full": 27.70611526616806,
+      "region_localization_supported": true,
+      "stable_anchor_horizontal_span_fraction": 0.7834641051789125,
+      "stable_anchor_vertical_span_fraction": 0.7842512944849526,
+      "spatially_thinned_confident_correspondences": 6834,
+      "point_correspondence_support_pct_pair_crop": 30.369677088315,
+      "same_location_point_support_pct_pair_crop": 20.649073908018494,
+      "locally_displaced_point_support_pct_pair_crop": 9.720603180296509,
+      "low_confidence_pct_pair_crop": 57.49361101147776,
+      "confident_candidate_displacement_median_T1_px": 2.0730481147766113,
+      "interpretation": "Region visibility retains new/extended roots and changed soil. Confident candidates with displacement >3 pixels are retained as possible local motion, not forced to coincide. Candidate motion is not proven soil migration/root growth; may include mismatch. Local candidate displacement can also contain global-pose estimation error.",
+      "point_support_rule": "Bidirectional confidence >=0.5, cycle <=3 T1 px, positive Jacobian; no global-position-agreement <=3 constraint.",
+      "region_support_rule": ">=20 stable auto anchors; spatial-CV anchor median<=3 T1 px; anchor x-span>=40% and y-span>=20% of pair crop; chain-vs-direct median<=5 T1 px; no minimum identical-content area.",
+      "manual_TRE": null,
+      "low_confidence_pct_observable_region": 57.49361101147776,
+      "unobservable_pct_pair_crop": 0.0,
+      "assessed_observable_pct_native_target": 27.678581439173428,
+      "point_correspondence_support_pct_native_target": 8.406262262987447,
+      "low_confidence_pct_native_target": 15.913349461183198,
+      "unknown_outside_assessed_pct_native_target": 72.32141856082657
+    }
+  ],
+  "observation_windows": [
+    {
+      "label": "A",
+      "description": "上方长横根",
+      "T1_xyxy": [
+        159,
+        955,
+        797,
+        1108
+      ]
+    },
+    {
+      "label": "B",
+      "description": "中部横根群",
+      "T1_xyxy": [
+        255,
+        1100,
+        1020,
+        1251
+      ]
+    },
+    {
+      "label": "C",
+      "description": "下方横根群",
+      "T1_xyxy": [
+        287,
+        1259,
+        1084,
+        1395
+      ]
+    },
+    {
+      "label": "D",
+      "description": "右侧长根",
+      "T1_xyxy": [
+        1020,
+        955,
+        1801,
+        1227
+      ]
+    },
+    {
+      "label": "E",
+      "description": "斜向分枝",
+      "T1_xyxy": [
+        733,
+        1323,
+        1275,
+        1578
+      ]
+    },
+    {
+      "label": "F",
+      "description": "陡斜根与邻根",
+      "T1_xyxy": [
+        1100,
+        1355,
+        1450,
+        1618
+      ]
+    },
+    {
+      "label": "G",
+      "description": "右侧细根",
+      "T1_xyxy": [
+        1721,
+        1148,
+        2263,
+        1442
+      ]
+    },
+    {
+      "label": "H",
+      "description": "下部边界与细根",
+      "T1_xyxy": [
+        1355,
+        1434,
+        2231,
+        1610
+      ]
+    }
+  ],
+  "device": "cpu",
+  "RoMa_model": "roma_outdoor 560/864, overlapping 1000x900 context, fixed query ownership",
+  "common_point_correspondence_support_pct_crop": 8.358117128965407,
+  "common_point_correspondence_support_pct_T1_full": 2.3157095658324924,
+  "region_localization_supported_pair_ratio": 1.0,
+  "common_mask_semantics": "OBSERVABLE geometric region mask retains seasonal changes; POINT mask only represents RoMa correspondence evidence, not a root segmentation or same-region success rate.",
+  "input_sha256": {
+    "T1": "1df8930f5bcb7730f67b71f4da0c5d4a3fc372578e02042a0e3474cc1f6f7d94",
+    "T2": "604b5b2b963166da77f992093b7ac1bfa9f388cada2892fa78c7dbae6a838335",
+    "T4": "e15d69407e52e9552bc920cf34f5bac6db461d8de005dd75c1292af6f7677e5b"
+  }
+}

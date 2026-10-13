@@ -1,0 +1,1 @@
+在已配置RoMa的LI环境，将本目录Python文件放到results/microtube_registration；原图放在input/raw/V-变化/A017-1-B2。先运行search_B2_region.py，再build_B2_region_revision.py与package_B2_region_revision.py。脚本自动检测CUDA。build还引用保留的B2_shape_revision/final/evaluation.json及shape_feature_candidates.json作为用户所指区域的初始定位；这些文件在仓库上一修订及本结果的reference_prior中保留。publish是已有上传工作区的可选发布脚本。所有其他旧helper只导入函数，不运行其主程序。

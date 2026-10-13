@@ -1,3 +1,7 @@
+## B2 同一区域配准更新
+
+[当前B2结果和下载](A017-1-B2/region-aware-refinement/README.md)：扩大观察区搜索，保留根系新生、延伸及土壤变化；不要求各时期逐点相同。
+
 ## B2 最新修订
 
 [根系指导、保持形状的重新匹配及下载](A017-1-B2/shape-preserving-refinement/README.md)。T3缺失，按T1→T2→T4处理。
