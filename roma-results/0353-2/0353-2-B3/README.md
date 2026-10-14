@@ -1,6 +1,8 @@
 # 最新：根系分割人工标注预实验准备
 
-[下载60张原色图、人工标注工具及评估脚本](segmentation-pilot-annotation/0353-2-B3_human_annotation_kit.zip) · [查看标注窗位置](segmentation-pilot-annotation/views/0353-2-B3_annotation_windows.png) · [标注规则](segmentation-pilot-annotation/annotation_protocol.md)
+[下载60张原色图、人工标注工具及评估脚本](segmentation-pilot-annotation/0353-2-B3_human_annotation_kit_v2.zip) · [查看标注窗位置](segmentation-pilot-annotation/views/0353-2-B3_annotation_windows.png) · [标注规则](segmentation-pilot-annotation/annotation_protocol.md)
+
+修复版v2页面内置60张原色图，打开即显示；支持其他裁剪图原始比例预览，未匹配的图片不再静默过滤。固定实验图块经SHA核验后允许标注。
 
 以本位置四期分区裁剪RGB为输入。训练36、验证12、空间留出测试12图块，分别对应9、3、3物理观察窗；四期同窗同组、跨组缓冲64像素。单位置留出，不是独立位置测试。当前人工真值0、真实训练模型0，所有分割及根长一致性指标未测，未预填Dice0.956。
 

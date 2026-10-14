@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "automatic_60_images_and_native_RGB_identity",
+    "real_file_picker_all_8_original_crops_visible_without_name_filter",
+    "original_aspect_ratio_on_narrow_viewport",
+    "bad_image_visible_error_and_no_false_label",
+    "restore_builtin_and_HTMLImageElement_decode_fallback",
+    "arbitrary_image_names_preview_without_fabricated_training_ID",
+    "fine_brush_death_evidence_review_and_annotation_export_regression",
+    "annotation_zip_CRC_and_attribute_values",
+    "training_reader_accepts_v2_review_record_without_source_changes"
+  ],
+  "actual_human_annotations_created": 0,
+  "test_kind": "software_only_browser_import_and_export_regression"
+}
