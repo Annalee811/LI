@@ -1,0 +1,43 @@
+{
+  "matrices_native": {
+    "T1_to_T2": [
+      [
+        0.5237172136656394,
+        0.000752262131750646,
+        117.30737532101917
+      ],
+      [
+        -0.000752262131750646,
+        0.5237172136656394,
+        797.9211400277222
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2_to_T4": [
+      [
+        3.8168243041628536,
+        0.007663155377646916,
+        -15.858706655147179
+      ],
+      [
+        -0.007663155377646916,
+        3.8168243041628536,
+        -1801.8603335957125
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "force_region_hypothesis_pairs": [
+    "T1_to_T2",
+    "T2_to_T4"
+  ],
+  "provenance": "Complete-frame alternative descriptor modes for actual periods T1/T2/T4; missing T3 is not synthesized. Global RoMa mode cannot rule out disjoint observation bands. Every regional fit needs descriptor, spatial and unused-route validation; no physical wrap mechanism or root identity assumed."
+}

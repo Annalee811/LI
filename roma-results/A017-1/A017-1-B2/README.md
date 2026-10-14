@@ -1,3 +1,11 @@
+# 最新：A017-1-B2 共同区域复核
+
+[查看定位、局部对照和原色裁剪](multiregion-review/README.md) · [下载结果图片](multiregion-review/A017-1-B2_reviewed_regions_and_RGB.zip) · [下载独立RGB](multiregion-review/A017-1-B2_available_period_stitched_RGB.zip)
+
+仅T1/T2/T4，缺T3。B2发现三段不同偏移下的共同区域。旧结果只保存下缘C区，遗漏上部A区和中部B区；中部细根、斜向根束和土层轮廓已单独纳入。下列旧结果仅作历史比较。
+
+---
+
 # 最新：同一区域定位与统一尺寸RGB
 
 [定位图与独立裁剪](same-region-localization/README.md) · [下载图片](same-region-localization/A017-1-B2_same_region_map_and_RGB.zip)

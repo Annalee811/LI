@@ -1,0 +1,62 @@
+[
+  {
+    "position": "A017-1-B2",
+    "period_ids": [
+      1,
+      2,
+      4
+    ],
+    "missing_period_ids": [
+      3
+    ],
+    "regions": 3,
+    "region_RGB_wh": {
+      "A": [
+        2314,
+        736
+      ],
+      "B": [
+        2306,
+        704
+      ],
+      "C": [
+        2300,
+        416
+      ]
+    },
+    "geometric_pct": 73.89953676147098,
+    "joined_wh": [
+      2300,
+      1904
+    ],
+    "unconfirmed_regions_excluded": [],
+    "candidate_regions": []
+  },
+  {
+    "position": "A017-1-Z2",
+    "period_ids": [
+      1,
+      2,
+      4
+    ],
+    "missing_period_ids": [
+      3
+    ],
+    "regions": 1,
+    "region_RGB_wh": {
+      "B": [
+        2142,
+        612
+      ]
+    },
+    "geometric_pct": 22.616805983282006,
+    "joined_wh": [
+      2142,
+      612
+    ],
+    "unconfirmed_regions_excluded": [
+      "A"
+    ],
+    "candidate_regions": []
+  }
+]

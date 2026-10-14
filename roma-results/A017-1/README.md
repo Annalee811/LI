@@ -1,3 +1,18 @@
+# 最新：A017-1 共同区域复核与原色裁剪
+
+[查看全系列定位总览](A017-1_reviewed_regions_overview.png) · [下载全部定位、局部对照、分区原色RGB与掩膜](A017-1_all_same_region_images.zip) · [下载六张独立拼接RGB和总览](A017-1_all_stitched_RGB_and_overview.zip)
+
+两位置都缺少T3，按实际T1、T2、T4处理。B2保留上、中、下三段，原单段结果遗漏了上部和中部根系。Z2额外候选上部范围未能建立一致关系，不生成推测裁剪；只保存核验区域。每段只整体定位，保留原色和根系、土层局部位移。拼接白带为非数据分隔，不能用于跨接缝根系追踪。
+
+| 位置 | 实际时期 | 保留区域数 | T1几何覆盖 | 定位图 | 分区结果 |
+|---|---|---:|---:|---|---|
+| A017-1-B2 | T1/T2/T4；缺T3 | 3 | 73.90% | [查看](A017-1-B2/multiregion-review/A017-1-B2_reviewed_region_localization.png) | [下载](A017-1-B2/multiregion-review/A017-1-B2_reviewed_regions_and_RGB.zip) |
+| A017-1-Z2 | T1/T2/T4；缺T3 | 1 | 22.62% | [查看](A017-1-Z2/multiregion-review/A017-1-Z2_reviewed_region_localization.png) | [下载](A017-1-Z2/multiregion-review/A017-1-Z2_reviewed_regions_and_RGB.zip) |
+
+全部图片包已替换为当前22张PNG，旧的单段图只保留作历史比较。几何可观察比例不是可靠点匹配或根系匹配成功率。区域路线核验依赖所选区域与特征点，不是人工TRE；根系身份和新生、死亡未评估。Z2的T1/T2直接RoMa可靠候选为0，区域桥接依赖独立结构关系，不能称该段直接神经匹配成功。下列旧记录仅供历史比较。
+
+---
+
 # 最新：A017-1同一区域定位与原色RGB
 
 [下载本系列全部图片](A017-1_all_same_region_images.zip)

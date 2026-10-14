@@ -1,3 +1,11 @@
+# 最新：A017-1-Z2 共同区域复核
+
+[查看定位、局部对照和原色裁剪](multiregion-review/README.md) · [下载结果图片](multiregion-review/A017-1-Z2_reviewed_regions_and_RGB.zip) · [下载独立RGB](multiregion-review/A017-1-Z2_available_period_stitched_RGB.zip)
+
+仅T1/T2/T4，缺T3。Z2仅B区建立了三期一致区域关系。额外上部A区经完整画面的CLAHE、模糊、细长结构、裂缝、梯度特征及区域内特征搜索，仍不能连接T1/T2/T4的核验图，因此不绘制其共同区域框、不生成推测T1裁剪、不计入覆盖面积。T1/T2缓存RoMa内部可靠候选为0；本段的位置来自结构对应并由T1/T4独立结构路线核验，不能称为T1/T2直接神经匹配成功。下列旧结果仅作历史比较。
+
+---
+
 # 最新：同一区域定位与统一尺寸RGB
 
 [定位图与独立裁剪](same-region-localization/README.md) · [下载图片](same-region-localization/A017-1-Z2_same_region_map_and_RGB.zip)

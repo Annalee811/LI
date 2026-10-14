@@ -1,0 +1,49 @@
+{
+  "archives": {
+    "A017-1_all_same_region_images.zip": {
+      "bytes": 73572417,
+      "sha256": "0ef8b537ab6c04767af7ecfe5538305089447db50097a185648d5001ad537f3b",
+      "images": {
+        "A017-1-B2/A017-1-B2_reviewed_region_localization.png": "448122752aa758d2cb340c144f369756a0c81202325da2f0277844907acf295b",
+        "A017-1-B2/A017-1-B2_root_region_review.png": "fdeb9a8ee4bb5f58c5f6f590e06d7a20514b11539651b1117966ff9ae60dbdb3",
+        "A017-1-B2/A017-1-B2_multiregion_sequence.png": "5d518c8e0e24e524d93bd6687f2bd592398388bd87a077e2da27e96498e91944",
+        "A017-1-B2/T1_geometric_observation_mask.png": "7ef5ad802f55f3913fa0d69b22e38eaedadb28d09b61332c8ff8236652186946",
+        "A017-1-B2/T1_region_review_status_mask.png": "7ef5ad802f55f3913fa0d69b22e38eaedadb28d09b61332c8ff8236652186946",
+        "A017-1-B2/T1_region_A_RGB.png": "a2c350d3e4d13c8ff365327a6d88149b124f243182a0e6c86b6edafc5751104c",
+        "A017-1-B2/T2_region_A_RGB.png": "343e771ac40618f13fe3ce57ea8590feb03536dddce948f6273053b932ab3399",
+        "A017-1-B2/T4_region_A_RGB.png": "5d47b3afd4d5953fbe81f5712417e7e340d281d9d495c75ecd12bd463c2bbf5a",
+        "A017-1-B2/T1_region_B_RGB.png": "57cfd641f0fdd3b1f074dc2fa05735db902fa4fd7eb00ebf58a7084c622c154f",
+        "A017-1-B2/T2_region_B_RGB.png": "284c258514d4d2c8ea78b6b5612b62f1861b5334714f455998847dc93111256c",
+        "A017-1-B2/T4_region_B_RGB.png": "54796a6b1f8b39cd8f03c52eaffcfa6846360da3d8a7a17a5736e8763ec2d61f",
+        "A017-1-B2/T1_region_C_RGB.png": "f60fa57e7832008667d90c43a93f84e2cfde5924b6bb903157947698fcb590ca",
+        "A017-1-B2/T2_region_C_RGB.png": "34292df8bf22e46699b0523fb7b5e209981f26751da468a51e8adb7c1d9a44e3",
+        "A017-1-B2/T4_region_C_RGB.png": "0ceddfd22c03445eceed8e5dc2671a297dd2df702cac4c7a8c18de28342ae386",
+        "A017-1-Z2/A017-1-Z2_reviewed_region_localization.png": "87d1c5988ec184d5bdb1cce5083ce8bbcb14ef1e2b2275fc3a96fd107ddcd5b2",
+        "A017-1-Z2/A017-1-Z2_root_region_review.png": "aac227328c912800f3c0ef841a5075449c912caeddb6fb1c4a70b1373e2cfef0",
+        "A017-1-Z2/A017-1-Z2_multiregion_sequence.png": "fbb32dd053e78fa52cac693dfe997c4dcac991f9e602b4f1340c7c8b933586e7",
+        "A017-1-Z2/T1_geometric_observation_mask.png": "81a61f6724866fab4552b6ab1a530fbe7e251e553008e506b7d69e3479f0d1c3",
+        "A017-1-Z2/T1_region_review_status_mask.png": "81a61f6724866fab4552b6ab1a530fbe7e251e553008e506b7d69e3479f0d1c3",
+        "A017-1-Z2/T1_region_B_RGB.png": "ad714f11318ef18e1350d427e22b431bd66671c362cfa0d4b2eb0b168f6a8764",
+        "A017-1-Z2/T2_region_B_RGB.png": "fcdf15c4508144dbda0deea45c8d44ec7ab9d98e1a9e7fabcdefb3167fbba4b5",
+        "A017-1-Z2/T4_region_B_RGB.png": "4ff6a016cc294e7329985484b14743452f5539769011713aae9d7327bd75b760"
+      }
+    },
+    "A017-1_all_stitched_RGB_and_overview.zip": {
+      "bytes": 32374967,
+      "sha256": "06dbc6b646bfc1e61e2c82d7760f9abdec9df196b66ff035a195416c0262d10d",
+      "images": {
+        "A017-1_reviewed_regions_overview.png": "d68333b182b5617747232305f18062de03d32edfde3087e44ef7d1198d30bca7",
+        "A017-1-B2/T1_multiregion_RGB.png": "96499d5b77947cfa2ddb223cb1a42f79575c07135f8f7a41b2d184a55233d0f5",
+        "A017-1-B2/T2_multiregion_RGB.png": "ead4bd401f69f9eeabde6b9f839915c0099ee4b3bb49322108f6d26c14b0d0fc",
+        "A017-1-B2/T4_multiregion_RGB.png": "e67c1c4cdb494adbcc38c8c6e894f6df61d8294985d77b7669d84f6ec464994f",
+        "A017-1-Z2/T1_multiregion_RGB.png": "ad714f11318ef18e1350d427e22b431bd66671c362cfa0d4b2eb0b168f6a8764",
+        "A017-1-Z2/T2_multiregion_RGB.png": "fcdf15c4508144dbda0deea45c8d44ec7ab9d98e1a9e7fabcdefb3167fbba4b5",
+        "A017-1-Z2/T4_multiregion_RGB.png": "4ff6a016cc294e7329985484b14743452f5539769011713aae9d7327bd75b760"
+      }
+    }
+  },
+  "overview_files": {
+    "A017-1_reviewed_regions_overview.png": "d68333b182b5617747232305f18062de03d32edfde3087e44ef7d1198d30bca7",
+    "A017-1_reviewed_regions_overview.jpg": "e8de01034ce5c1b84a20ef5e78ac8acde9770a4429c1b64473330f06b9d025fa"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "position": "A017-1-Z2",
+  "region": "A",
+  "status": "Unconfirmed; excluded from all-period crop and coverage",
+  "available_period_ids": [
+    1,
+    2,
+    4
+  ],
+  "missing_period_ids": [
+    3
+  ],
+  "region_prior": {
+    "matrices_native": {
+      "T1_to_T2": [
+        [
+          0.5213179865126242,
+          0.0022897401788758783,
+          206.8109700751911
+        ],
+        [
+          -0.0022897401788758783,
+          0.5213179865126242,
+          118.71104381741202
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T2_to_T4": [
+        [
+          3.8301377717900214,
+          0.01642041813495938,
+          -33.59215419227347
+        ],
+        [
+          -0.01642041813495938,
+          3.8301377717900214,
+          1660.733793751784
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "force_region_hypothesis_pairs": [
+      "T1_to_T2",
+      "T2_to_T4"
+    ],
+    "provenance": "Complete-frame alternative descriptor modes for actual periods T1/T2/T4; missing T3 is not synthesized. Global RoMa mode cannot rule out disjoint observation bands. Every regional fit needs descriptor, spatial and unused-route validation; no physical wrap mechanism or root identity assumed."
+  },
+  "conditioned_descriptor_checks": [
+    {
+      "pair": "T1_to_T2",
+      "candidates": 9,
+      "stable_anchors": 7,
+      "root_support_anchor_candidates": 0,
+      "spatial_CV_anchor_median_T1_px": 4.865913798734513,
+      "spatial_CV_anchor_p95_T1_px": 4.865913798734513,
+      "stable_anchor_span_T1_xy": [
+        779.2348022460938,
+        1213.5242752432823
+      ],
+      "matrix_analysis_1600": [
+        [
+          0.9918398878943815,
+          -0.013313652300713824,
+          225.91005921013516
+        ],
+        [
+          0.013313652300713824,
+          0.9918398878943815,
+          125.56538328951156
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9919292396919871,
+      "rotation_deg": 0.7690457762062605,
+      "validated_region_edge": false,
+      "point_precision_3px_pass": false,
+      "spatial_fold_pose_median_T1_px": 2.4441990852355957,
+      "spatial_fold_pose_p95_T1_px": 4.268908500671387,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T1_to_T4",
+      "candidates": 6,
+      "stable_anchors": 6,
+      "root_support_anchor_candidates": 0,
+      "spatial_CV_anchor_median_T1_px": null,
+      "spatial_CV_anchor_p95_T1_px": null,
+      "stable_anchor_span_T1_xy": [
+        1233.5243196487427,
+        526.4997360706329
+      ],
+      "matrix_analysis_1600": [
+        [
+          0.9327232314343368,
+          0.08208348588384198,
+          271.51243980856515
+        ],
+        [
+          -0.08208348588384198,
+          0.9327232314343368,
+          738.3319589006259
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9363281076162107,
+      "rotation_deg": -5.029307746951507,
+      "validated_region_edge": false,
+      "point_precision_3px_pass": false,
+      "spatial_fold_pose_median_T1_px": null,
+      "spatial_fold_pose_p95_T1_px": null,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T2_to_T4",
+      "candidates": 20,
+      "stable_anchors": 18,
+      "root_support_anchor_candidates": 7,
+      "spatial_CV_anchor_median_T1_px": 3.2743526704185024,
+      "spatial_CV_anchor_p95_T1_px": 10.815949974206807,
+      "stable_anchor_span_T1_xy": [
+        1125.2882766723633,
+        1020.318380355835
+      ],
+      "matrix_analysis_1600": [
+        [
+          0.9998553112838464,
+          -0.002398099694261769,
+          -6.957327060096347
+        ],
+        [
+          0.002398099694261769,
+          0.9998553112838464,
+          510.33145155717466
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9998581871368865,
+      "rotation_deg": 0.13742061107697273,
+      "validated_region_edge": false,
+      "point_precision_3px_pass": false,
+      "spatial_fold_pose_median_T1_px": 0.8986110687255859,
+      "spatial_fold_pose_p95_T1_px": 8.11825180053711,
+      "manual_TRE": null
+    }
+  ],
+  "reason": "No validated structural graph connects T1/T2/T4. All complete-frame CLAHE/blur/ridge/crack/gradient and region-guided blur/ridge proposals were retained. Additional RoMa T1/T4 only supports the negative displacement of accepted region B; T1/T2 cached neural supported matches are zero.",
+  "crop_generated": false,
+  "geometry_counted": false,
+  "manual_TRE": null
+}

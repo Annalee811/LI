@@ -1,17 +1,29 @@
 {
-  "series": "A017-1",
   "archive": "A017-1_all_same_region_images.zip",
-  "bytes": 35189272,
-  "sha256": "0c7c2b5032db01afb517ab121c8a3b59402f8a4fc8ce11214cbc588450278c15",
-  "image_count": 8,
-  "image_sha256": {
-    "A017-1-B2_same_region_localization.png": "4de8b89ea639a90259d221fa6b8f6bb3d5b2ddcc2cc40df4de93e5fb91aa5fab",
-    "A017-1-B2_T1_common_region_RGB.png": "1fdbf7013a860fe93194628f408c876b79aa2ae3fcc0bb2be3711cdba66f0ed8",
-    "A017-1-B2_T2_common_region_RGB.png": "635aff00e67e2d17cd3b451d117a4a5c9a3dace5fe2bf8ed87e9da094a69361b",
-    "A017-1-B2_T4_common_region_RGB.png": "ab6acee73619923f4a63ddd7285d7b66c50dd7dcb05c3ed8d268f849ab8b550f",
-    "A017-1-Z2_same_region_localization.png": "8b8d25e0eca66710246dee065a85061db036eb3c49b776c24e018ad9fe76a375",
-    "A017-1-Z2_T1_common_region_RGB.png": "e34470848bb89ef6474445ef6088417d2932fa4f2565388337fee7cc4f3a9812",
-    "A017-1-Z2_T2_common_region_RGB.png": "3f122e99b1516a73c07389a2b165c5ebce34a40fdd4629e935b37b4849d7f0df",
-    "A017-1-Z2_T4_common_region_RGB.png": "18f445a03d0e3571978acd7f95660b34b799d69d2fb7a0f9e871b6d276d41c12"
+  "bytes": 73572417,
+  "sha256": "0ef8b537ab6c04767af7ecfe5538305089447db50097a185648d5001ad537f3b",
+  "images": {
+    "A017-1-B2/A017-1-B2_reviewed_region_localization.png": "448122752aa758d2cb340c144f369756a0c81202325da2f0277844907acf295b",
+    "A017-1-B2/A017-1-B2_root_region_review.png": "fdeb9a8ee4bb5f58c5f6f590e06d7a20514b11539651b1117966ff9ae60dbdb3",
+    "A017-1-B2/A017-1-B2_multiregion_sequence.png": "5d518c8e0e24e524d93bd6687f2bd592398388bd87a077e2da27e96498e91944",
+    "A017-1-B2/T1_geometric_observation_mask.png": "7ef5ad802f55f3913fa0d69b22e38eaedadb28d09b61332c8ff8236652186946",
+    "A017-1-B2/T1_region_review_status_mask.png": "7ef5ad802f55f3913fa0d69b22e38eaedadb28d09b61332c8ff8236652186946",
+    "A017-1-B2/T1_region_A_RGB.png": "a2c350d3e4d13c8ff365327a6d88149b124f243182a0e6c86b6edafc5751104c",
+    "A017-1-B2/T2_region_A_RGB.png": "343e771ac40618f13fe3ce57ea8590feb03536dddce948f6273053b932ab3399",
+    "A017-1-B2/T4_region_A_RGB.png": "5d47b3afd4d5953fbe81f5712417e7e340d281d9d495c75ecd12bd463c2bbf5a",
+    "A017-1-B2/T1_region_B_RGB.png": "57cfd641f0fdd3b1f074dc2fa05735db902fa4fd7eb00ebf58a7084c622c154f",
+    "A017-1-B2/T2_region_B_RGB.png": "284c258514d4d2c8ea78b6b5612b62f1861b5334714f455998847dc93111256c",
+    "A017-1-B2/T4_region_B_RGB.png": "54796a6b1f8b39cd8f03c52eaffcfa6846360da3d8a7a17a5736e8763ec2d61f",
+    "A017-1-B2/T1_region_C_RGB.png": "f60fa57e7832008667d90c43a93f84e2cfde5924b6bb903157947698fcb590ca",
+    "A017-1-B2/T2_region_C_RGB.png": "34292df8bf22e46699b0523fb7b5e209981f26751da468a51e8adb7c1d9a44e3",
+    "A017-1-B2/T4_region_C_RGB.png": "0ceddfd22c03445eceed8e5dc2671a297dd2df702cac4c7a8c18de28342ae386",
+    "A017-1-Z2/A017-1-Z2_reviewed_region_localization.png": "87d1c5988ec184d5bdb1cce5083ce8bbcb14ef1e2b2275fc3a96fd107ddcd5b2",
+    "A017-1-Z2/A017-1-Z2_root_region_review.png": "aac227328c912800f3c0ef841a5075449c912caeddb6fb1c4a70b1373e2cfef0",
+    "A017-1-Z2/A017-1-Z2_multiregion_sequence.png": "fbb32dd053e78fa52cac693dfe997c4dcac991f9e602b4f1340c7c8b933586e7",
+    "A017-1-Z2/T1_geometric_observation_mask.png": "81a61f6724866fab4552b6ab1a530fbe7e251e553008e506b7d69e3479f0d1c3",
+    "A017-1-Z2/T1_region_review_status_mask.png": "81a61f6724866fab4552b6ab1a530fbe7e251e553008e506b7d69e3479f0d1c3",
+    "A017-1-Z2/T1_region_B_RGB.png": "ad714f11318ef18e1350d427e22b431bd66671c362cfa0d4b2eb0b168f6a8764",
+    "A017-1-Z2/T2_region_B_RGB.png": "fcdf15c4508144dbda0deea45c8d44ec7ab9d98e1a9e7fabcdefb3167fbba4b5",
+    "A017-1-Z2/T4_region_B_RGB.png": "4ff6a016cc294e7329985484b14743452f5539769011713aae9d7327bd75b760"
   }
 }
