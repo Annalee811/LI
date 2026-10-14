@@ -1,0 +1,57 @@
+{
+  "matrices_native": {
+    "T1_to_T2": [
+      [
+        0.5216910914251727,
+        -7.044691791102851e-05,
+        -2.0747302033718866
+      ],
+      [
+        7.044691791102851e-05,
+        0.5216910914251727,
+        143.95716500752903
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2_to_T3": [
+      [
+        1.0015663430725554,
+        -0.00023638935650962658,
+        0.4285782460765667
+      ],
+      [
+        0.00023638935650962658,
+        1.0015663430725554,
+        605.1448949569645
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T3_to_T4": [
+      [
+        3.8360081090101392,
+        0.000955086905637023,
+        -7.431532123230808
+      ],
+      [
+        -0.000955086905637023,
+        3.8360081090101392,
+        -365.65950218596265
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "force_region_hypothesis_pairs": [],
+  "provenance": "Two disjoint original-frame correspondence bands found in complete-frame RootSIFT; B uses the negative T2-to-T3 translation supported by direct T1-to-T3/T4 and T2-to-T4. No assumed cylindrical wrap and no elastic warp; bands remain separate."
+}

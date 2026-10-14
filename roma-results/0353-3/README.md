@@ -1,3 +1,11 @@
+# 最新复核：0353-3-LB3 的两段共同区域
+
+[查看LB3复核定位和根系局部对照](0353-3-LB3/two-region-review/README.md) · [下载LB3分区裁剪结果](0353-3-LB3/two-region-review/0353-3-LB3_reviewed_regions_and_RGB.zip) · [下载LB3四期拼接RGB](0353-3-LB3/two-region-review/0353-3-LB3_four_stitched_RGB.zip)
+
+[下载更新后的系列图片包](0353-3_all_same_region_images.zip)：LB2保留5张结果；LB3替换为12张复核结果，共17张PNG。LB3原单段裁剪遗漏B区，两段合计69.93% T1几何观察面积；拼接白带不代表连续根系。A区远期路线差异仍需目视复核。下列旧记录仅供历史比较。
+
+---
+
 # 最新：0353-3同一区域定位与独立RGB裁剪
 
 [下载本系列全部10张图片](0353-3_all_same_region_images.zip)
