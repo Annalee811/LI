@@ -1,0 +1,59 @@
+{
+  "matrices_native": {
+    "T1_to_T2": [
+      [
+        0.5222231779758423,
+        0.0007812154661450736,
+        16.5761687544623
+      ],
+      [
+        -0.0007812154661450736,
+        0.5222231779758423,
+        -17.382285439571667
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2_to_T3": [
+      [
+        0.9981025250937242,
+        -0.0001018086462135825,
+        31.786001224976978
+      ],
+      [
+        0.0001018086462135825,
+        0.9981025250937242,
+        -833.4879847527725
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T3_to_T4": [
+      [
+        3.862845684021616,
+        -0.017433732900990158,
+        -46.68401827871968
+      ],
+      [
+        0.017433732900990158,
+        3.862845684021616,
+        -874.7001827143894
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "force_region_hypothesis_pairs": [
+    "T2_to_T3"
+  ],
+  "provenance": "Whole-frame descriptor hypotheses reveal disjoint original-frame observation regions. Keep all modes rather than gate onto one cached RoMa mode. No physical wrap mechanism or root identities assumed. Original neural evidence retained and weak hypotheses require separate structural verification."
+}

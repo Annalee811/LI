@@ -1,0 +1,76 @@
+[
+  {
+    "position": "0353-2-B3",
+    "regions": 2,
+    "candidate_regions": [],
+    "geometric_pct_including_candidates": 80.82145907197018,
+    "geometric_pct_region_routes_pass": 80.82145907197018,
+    "joined_wh": [
+      2541,
+      1867
+    ],
+    "region_RGB_wh": {
+      "A": [
+        2541,
+        1108
+      ],
+      "B": [
+        2543,
+        735
+      ]
+    }
+  },
+  {
+    "position": "0353-2-LB2",
+    "regions": 3,
+    "candidate_regions": [
+      "A",
+      "B"
+    ],
+    "geometric_pct_including_candidates": 79.58636336188677,
+    "geometric_pct_region_routes_pass": 8.27454430958481,
+    "joined_wh": [
+      2463,
+      1897
+    ],
+    "region_RGB_wh": {
+      "A": [
+        2494,
+        1422
+      ],
+      "B": [
+        2508,
+        234
+      ],
+      "C": [
+        2485,
+        193
+      ]
+    }
+  },
+  {
+    "position": "0353-2-LB3",
+    "regions": 3,
+    "candidate_regions": [],
+    "geometric_pct_including_candidates": 80.11247120933723,
+    "geometric_pct_region_routes_pass": 80.11247120933723,
+    "joined_wh": [
+      2541,
+      1875
+    ],
+    "region_RGB_wh": {
+      "A": [
+        2541,
+        1407
+      ],
+      "B": [
+        2543,
+        228
+      ],
+      "C": [
+        2544,
+        192
+      ]
+    }
+  }
+]

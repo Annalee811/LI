@@ -1,0 +1,48 @@
+{
+  "pair": "T3_to_T4",
+  "kind": "adjacent",
+  "source_file": "results/microtube_registration/input/raw/V-变化/0353-2-B3/T3.png",
+  "target_file": "results/microtube_registration/input/raw/V-变化/0353-2-B3/T4.TIFF",
+  "source_size_wh": [
+    1330,
+    1183
+  ],
+  "target_size_wh": [
+    5100,
+    4547
+  ],
+  "model": "roma_outdoor",
+  "device": "cpu",
+  "coarse_resolution": 560,
+  "upsample_resolution": 864,
+  "confidence_threshold": 0.5,
+  "cycle_threshold_target_px": 3.0,
+  "checker_tile_px": 128,
+  "sampled_matches": 5000,
+  "reliable_sampled_matches": 2288,
+  "reliable_dense_source_pixels": 675486,
+  "homography_inliers": 1760,
+  "homography_inlier_ratio": 0.7692307692307693,
+  "homography_ransac_target_px": 3.0,
+  "foldover_target_ratio": 0.04003285941603384,
+  "flow_preview_magnitude_p99_source_px": 83.48966979980469,
+  "effective_area_ratio": 0.4291680358090014,
+  "effective_pixel_count": 9952278,
+  "geometric_area_ratio": 0.9955794598463973,
+  "confidence_on_effective_area": {
+    "median": 0.7944812774658203,
+    "p95": 0.9438320398330688
+  },
+  "gray_ncc": 0.8260935088040252,
+  "gradient_ncc": 0.3951224053630957,
+  "cycle_error_effective_target_px": {
+    "median": 0.48776718974113464,
+    "p95": 1.2543790340423584
+  },
+  "cycle_error_confident_target_px": {
+    "median": 0.5113608241081238,
+    "p95": 1.4153481721878052
+  },
+  "quality_interpretation": "Requires visual review; confidence/cycle consistency are internal checks, not independent ground truth. Seasonal RGB and root changes confound NCC.",
+  "elapsed_seconds": 108.92
+}

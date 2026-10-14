@@ -1,0 +1,70 @@
+{
+  "pair": "T2_to_T3",
+  "kind": "adjacent",
+  "source_file": "/workspace/LI/results/microtube_registration/input/raw/V-变化/0353-2-LB2/T2.jpg",
+  "target_file": "/workspace/LI/results/microtube_registration/input/raw/V-变化/0353-2-LB2/T3.png",
+  "source_size_wh": [
+    1328,
+    1184
+  ],
+  "target_size_wh": [
+    1325,
+    1187
+  ],
+  "model": "roma_outdoor",
+  "device": "cpu",
+  "coarse_resolution": 560,
+  "upsample_resolution": 864,
+  "confidence_threshold": 0.5,
+  "cycle_threshold_target_px": 3.0,
+  "checker_tile_px": 128,
+  "sampled_matches": 5000,
+  "reliable_sampled_matches": 2453,
+  "reliable_dense_source_pixels": 488403,
+  "homography_inliers": 2430,
+  "homography_inlier_ratio": 0.990623726049735,
+  "homography_ransac_target_px": 3.0,
+  "prealignment_source_to_inference": [
+    [
+      0.9963803259964711,
+      -0.0011658810372617576,
+      -6.597884778278909
+    ],
+    [
+      0.0011662365717151366,
+      0.9963763390067881,
+      437.0077824103766
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "foldover_target_ratio": 0.10438746801036385,
+  "flow_preview_magnitude_p99_source_px": 449.29571533203125,
+  "effective_area_ratio": 0.3029498815787382,
+  "effective_pixel_count": 476472,
+  "geometric_area_ratio": 0.7807416826946003,
+  "confidence_on_effective_area": {
+    "median": 0.7367780208587646,
+    "p95": 0.919516921043396
+  },
+  "gray_ncc": 0.6847655759550343,
+  "gradient_ncc": 0.5726373123825418,
+  "cycle_error_effective_target_px": {
+    "median": 0.16857880353927612,
+    "p95": 0.4412558376789093
+  },
+  "cycle_error_confident_target_px": {
+    "median": 0.1704416424036026,
+    "p95": 0.4487062096595764
+  },
+  "quality_interpretation": "Requires visual review; confidence/cycle consistency are internal checks, not independent ground truth. Seasonal RGB and root changes confound NCC.",
+  "elapsed_seconds": 49.31,
+  "artifact_excluded_effective_pixels": 0,
+  "root_candidate_target_area_ratio": 0.3101708763173372,
+  "root_candidate_effective_area_ratio": 0.25728687716392423,
+  "root_priority_configuration_file": "/workspace/LI/results/microtube_registration/0353-2_root_priority_configuration/0353-2-LB2/root_priority_configuration.json",
+  "root_semantics": "Conservative ridge/length proxy used to prioritize coarse anchors. Not verified root segmentation."
+}

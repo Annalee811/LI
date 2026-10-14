@@ -1,0 +1,21 @@
+{
+  "archive": "0353-2_all_stitched_RGB_and_overview.zip",
+  "archive_bytes": 96244201,
+  "archive_sha256": "b558d89443057ffcb1702bda6964c4ea6575780afd6a7dd98c0a6584694977ec",
+  "images": {
+    "0353-2_reviewed_regions_overview.png": "7ce9dc8386d11b879c487f348d84350be1cfe80404c7f608ba745fe69fc60b73",
+    "0353-2-B3/T1_multiregion_RGB.png": "4bbbe96d30015f8b1fb719095c2ce90bedca23291a03c6582d6bc65719f98e86",
+    "0353-2-B3/T2_multiregion_RGB.png": "98c4735809480b6bc6de54218d0e7d2a97d9f21a4ad75dc8d797fc7620249a0d",
+    "0353-2-B3/T3_multiregion_RGB.png": "0484e8cec9bc784c2190af4e1651055b71c51c22d31f385b24203471d28b9176",
+    "0353-2-B3/T4_multiregion_RGB.png": "257042bd6079ac405ef592b8df2fa895ca9142ad327b9a8cb5586776332c2376",
+    "0353-2-LB2/T1_multiregion_RGB.png": "210fa750f76178187243f1f211f6a94217a00f998c85348b0bea10658d74f4ce",
+    "0353-2-LB2/T2_multiregion_RGB.png": "f134f24512f743d111924d974291b1a6e6db6c808a7e77b9ffec046db21e9960",
+    "0353-2-LB2/T3_multiregion_RGB.png": "f85c9121bbd391d802eb4a0cb3a5278c866c801ff26995f6d69841f8a862c517",
+    "0353-2-LB2/T4_multiregion_RGB.png": "1a972c16c197e9db8809bff3627addb2728acf0490de5039a9c5d11f994a1ea2",
+    "0353-2-LB3/T1_multiregion_RGB.png": "23f8074bddfa7bfcec43eec02434f70f4c4b67c476de98c23ab48b5ef4736cde",
+    "0353-2-LB3/T2_multiregion_RGB.png": "8908153050334b7dee43ce66404a10c7df364785d23a68bda577172986b35dc4",
+    "0353-2-LB3/T3_multiregion_RGB.png": "e7fa28e3c59a211916904bd6624297f0a2c67de934f7402db96357a0dd3b1847",
+    "0353-2-LB3/T4_multiregion_RGB.png": "a0cf560e114afc5c59a0867ee82483530b8d94c3a20467cf2c45963c14ea3771"
+  },
+  "overview_JPG_sha256": "b546195a426af3f48bb713061006cbc084eb0c36ec283f81145cdfb0e9d4bc80"
+}

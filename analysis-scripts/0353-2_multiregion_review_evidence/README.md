@@ -1,0 +1,18 @@
+# Reproduce 0353-2 multi-region review
+
+Original data: GitHub v-change-data release. Put original RGBs into `<position>/input/raw/V-变化/<position>` in this evidence root and preserve their hashes. Each position directory contains original cached adjacent and added full-frame T1/T4 RoMa proposals, whole-frame descriptor searches, each regional descriptor search, branch priors, correspondence CSVs, all previous whole-frame-fit disagreements, final region-only fits, root-window coordinates and rendering audit.
+
+Prepare every `band_A`/`band_B`/`band_C` directory by linking its parent's `input` and position-named RoMa cache into it. From repository root with the configured Python environment:
+
+```bash
+OPENBLAS_NUM_THREADS=1 python analysis-scripts/export_multiregion_band.py --root analysis-scripts/0353-2_multiregion_review_evidence/0353-2-B3/band_A --position 0353-2-B3 --prior-matrices analysis-scripts/0353-2_multiregion_review_evidence/0353-2-B3/band_A/prior.json --threads 1 --allow-no-extra-route --allow-inconsistent-routes
+OPENBLAS_NUM_THREADS=1 python analysis-scripts/render_multiregion_review.py --root analysis-scripts/0353-2_multiregion_review_evidence/0353-2-B3 --position 0353-2-B3 --bands A B --windows analysis-scripts/0353-2_multiregion_review_evidence/0353-2-B3/root_windows.json --threads 1
+```
+
+Repeat export for B3 band_B. LB2/LB3 have A/B/C and the renderer receives `--bands A B C`. LB2 band_B additionally requires `--allow-candidate-bridge`; it remains explicitly unvalidated. This optional flag preserves a candidate when a descriptor-consensus edge fails pose-fold stability and the validated graph is disconnected; it does not change the quality rules or claim a pass. All raw failures and unused unvalidated route checks remain in metadata.
+
+To regenerate feature searches, use search_Q1_region_structures.py with full-image width1000 CLAHE/blur, width1600 CLAHE/blur where originally recorded for LB2/LB3, and width1300 CLAHE/blur/ridge for all positions. Use --append only for subsequent widths. Copy the completed common full-frame search into `<position>_region_localization/full_canvas_feature_search.json` under each position evidence workspace, then run search_conditioned_regions.py --root <position-workspace> --position <position> --bands A B [C] --threads 1. Guided feature masks are expanded by80 canonical pixels; final pose fits use only the proposed common region plus20 canonical pixels, so unrelated whole-frame anchors cannot dominate a thin edge region. Descriptor ratio .88 and all proposals are recorded. This procedure is conditional on region hypotheses, not independent absolute accuracy.
+
+The full RoMa collector automatically detects CUDA; this run used CPU. Added T1/T4 internal support counts are B3=117, LB2=1443, LB3=1504. Compact candidate caches and metrics are preserved; no neural confidence alone is used to claim final image location is correct. Original-colour outputs never receive dense elastic fields.
+
+Renderer checks source SHA256, exact original T1 pixels, same within-region dimensions for all periods, source bounds, equality of linear singular values, lossless PNG content and ZIP CRC. Joined RGBs have24-pixel non-data separators and a separate geometric mask. No omitted T1 gap is fabricated or treated as continuous root data. All area ratios are geometric and explicitly include candidates when stated. The region status mask is255 for conditionally corroborated regional geometry,128 for candidate geometry,0 otherwise; it is not neural certainty or pixelwise effective correspondence. Real manual TRE, validated root identities and root life/death labels remain unassessed.

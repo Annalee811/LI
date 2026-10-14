@@ -1,3 +1,19 @@
+# 最新：0353-2 全系列多段共同区域复核
+
+[查看全系列定位综合图](0353-2_reviewed_regions_overview.png) · [下载全系列十二张独立拼接RGB及定位总览](0353-2_all_stitched_RGB_and_overview.zip)
+
+旧单段横向裁剪遗漏了其他偏移下的对应区域。本次逐个位置复核原始四期RGB，分别保存实际区域的原色裁剪，以T1像素尺度定位，24像素白带表示非数据分隔。每段仅整体定位，不改色、不做弹性拉伸。
+
+| 位置 | 区域数 | T1几何覆盖（含候选） | 核验状态 | 定位图 | 分区原色RGB与综合图 |
+|---|---:|---:|---|---|---|
+| 0353-2-B3 | 2 | 80.82% | 通过区域路线核验 | [查看](0353-2-B3/multiregion-review/0353-2-B3_reviewed_region_localization.png) | [下载](0353-2-B3/multiregion-review/0353-2-B3_reviewed_regions_and_RGB.zip) |
+| 0353-2-LB2 | 3 | 79.59% | A、B为候选 | [查看](0353-2-LB2/multiregion-review/0353-2-LB2_reviewed_region_localization.png) | [下载](0353-2-LB2/multiregion-review/0353-2-LB2_reviewed_regions_and_RGB.zip) |
+| 0353-2-LB3 | 3 | 80.11% | 通过区域路线核验 | [查看](0353-2-LB3/multiregion-review/0353-2-LB3_reviewed_region_localization.png) | [下载](0353-2-LB3/multiregion-review/0353-2-LB3_reviewed_regions_and_RGB.zip) |
+
+LB2的A区T2/T3路线仍有6.31个T1像素的中位差异，未通过5像素规则；B区只能候选桥接，未通过区域稳定性和独立路线规则，须人工复核。B3和LB3通过的也是条件性区域路线核验，不是人工TRE、逐点完全配准或逐根身份确认。几何可观察覆盖不能当作可靠点匹配面积或根系匹配成功率。下列旧记录仅供历史比较。
+
+---
+
 # 最新：0353-2同一区域定位与独立RGB裁剪
 
 B3、LB2、LB3四期齐全。各位置以自己的T1为尺度基准，框出共同观察范围，分别保存四张同尺寸原色RGB图。结果包只含定位图与4张独立PNG；没有局部弹性拉伸。
