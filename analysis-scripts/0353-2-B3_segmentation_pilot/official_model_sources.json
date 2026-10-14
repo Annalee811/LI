@@ -1,0 +1,35 @@
+{
+  "RootPainter": {
+    "repository": "https://github.com/Abe404/root_painter",
+    "revision": "354fb93a9c14bfdba05ba00129d8e9b9547415cd",
+    "model": "UNetGNRes: residual U-Net with GroupNorm",
+    "annotation_channels": "foreground red,background green; undefined both zero",
+    "implementation_reference": "https://github.com/Abe404/root_painter/blob/354fb93a9c14bfdba05ba00129d8e9b9547415cd/trainer/src/model_utils.py",
+    "paper": "https://doi.org/10.1111/nph.18387",
+    "training_run_performed": false
+  },
+  "UNet": {
+    "library": "segmentation_models_pytorch",
+    "version": "0.5.0",
+    "encoder": "resnet18",
+    "paper": "https://arxiv.org/abs/1505.04597",
+    "B3_training_performed": false
+  },
+  "DeepLabV3Plus": {
+    "library": "segmentation_models_pytorch",
+    "version": "0.5.0",
+    "encoder": "resnet18",
+    "paper": "https://arxiv.org/abs/1802.02611",
+    "B3_training_performed": false
+  },
+  "dependency_versions": {
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "segmentation-models-pytorch": "0.5.0",
+    "scikit-image": "0.25.2",
+    "numpy": "2.2.6",
+    "scipy": "1.16.2",
+    "Pillow": "11.3.0"
+  },
+  "notes": "Official RootPainter not replaced by the native U-Net. Software-only shape/export tests do not establish root accuracy."
+}

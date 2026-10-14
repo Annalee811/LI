@@ -1,0 +1,258 @@
+{
+  "position": "0353-2-B3",
+  "status": "awaiting_human_dense_annotations",
+  "original_acquisitions": 4,
+  "source_region_crops": 8,
+  "spatial_windows": 15,
+  "spatial_column_groups": 5,
+  "patch_size_wh": [
+    448,
+    448
+  ],
+  "guard_band_T1_px": 64,
+  "seed": 20261014,
+  "counts": {
+    "train": {
+      "image_patches": 36,
+      "spatial_windows": 9,
+      "column_groups": 3,
+      "human_reviewed_images": 0
+    },
+    "val": {
+      "image_patches": 12,
+      "spatial_windows": 3,
+      "column_groups": 1,
+      "human_reviewed_images": 0
+    },
+    "test": {
+      "image_patches": 12,
+      "spatial_windows": 3,
+      "column_groups": 1,
+      "human_reviewed_images": 0
+    }
+  },
+  "column_assignment": {
+    "3": "train",
+    "0": "train",
+    "2": "train",
+    "1": "val",
+    "4": "test"
+  },
+  "source_crop_sha256": {
+    "T1_region_A_RGB.png": "d8541ef348263d9551d0526b56e84839960a3aedc2d61cf2ebc0df11036f0d5d",
+    "T2_region_A_RGB.png": "700d6deb14c4bdad6fd2f96eec839d791261ed3c829cbe7d827784b3b0673293",
+    "T3_region_A_RGB.png": "feddee57c19f6b1371b3f980f330e96498e3fd657978e99ab75b1c0f3a256bf0",
+    "T4_region_A_RGB.png": "272302b28020ae8d628bf5340552bb1c5916392069311fcb83695b28f4bb4790",
+    "T1_region_B_RGB.png": "988ad3a3f97461a7ac1cda14bc0965b303a72b9afaedc1acc9b064612d48c3d1",
+    "T2_region_B_RGB.png": "18ed3d6b54a7c5596818b4b7d93fa755faef502b994dbf00fbbfe0a3ef7b70cd",
+    "T3_region_B_RGB.png": "9fce3c34ede290c11c8e1b68dd67379b8a0fc3e953ce2663f2f784b8575ce469",
+    "T4_region_B_RGB.png": "0109377edacfbb019469ca25b18fa86a6f77150880ab925a6617b81b8b5f29d5"
+  },
+  "windows": [
+    {
+      "window_id": "B3_A0_C0",
+      "band": "A",
+      "row": 0,
+      "column": 0,
+      "split": "train",
+      "T1_xyxy": [
+        29,
+        74,
+        477,
+        522
+      ]
+    },
+    {
+      "window_id": "B3_A0_C1",
+      "band": "A",
+      "row": 0,
+      "column": 1,
+      "split": "val",
+      "T1_xyxy": [
+        541,
+        74,
+        989,
+        522
+      ]
+    },
+    {
+      "window_id": "B3_A0_C2",
+      "band": "A",
+      "row": 0,
+      "column": 2,
+      "split": "train",
+      "T1_xyxy": [
+        1053,
+        74,
+        1501,
+        522
+      ]
+    },
+    {
+      "window_id": "B3_A0_C3",
+      "band": "A",
+      "row": 0,
+      "column": 3,
+      "split": "train",
+      "T1_xyxy": [
+        1565,
+        74,
+        2013,
+        522
+      ]
+    },
+    {
+      "window_id": "B3_A0_C4",
+      "band": "A",
+      "row": 0,
+      "column": 4,
+      "split": "test",
+      "T1_xyxy": [
+        2077,
+        74,
+        2525,
+        522
+      ]
+    },
+    {
+      "window_id": "B3_A1_C0",
+      "band": "A",
+      "row": 1,
+      "column": 0,
+      "split": "train",
+      "T1_xyxy": [
+        29,
+        586,
+        477,
+        1034
+      ]
+    },
+    {
+      "window_id": "B3_A1_C1",
+      "band": "A",
+      "row": 1,
+      "column": 1,
+      "split": "val",
+      "T1_xyxy": [
+        541,
+        586,
+        989,
+        1034
+      ]
+    },
+    {
+      "window_id": "B3_A1_C2",
+      "band": "A",
+      "row": 1,
+      "column": 2,
+      "split": "train",
+      "T1_xyxy": [
+        1053,
+        586,
+        1501,
+        1034
+      ]
+    },
+    {
+      "window_id": "B3_A1_C3",
+      "band": "A",
+      "row": 1,
+      "column": 3,
+      "split": "train",
+      "T1_xyxy": [
+        1565,
+        586,
+        2013,
+        1034
+      ]
+    },
+    {
+      "window_id": "B3_A1_C4",
+      "band": "A",
+      "row": 1,
+      "column": 4,
+      "split": "test",
+      "T1_xyxy": [
+        2077,
+        586,
+        2525,
+        1034
+      ]
+    },
+    {
+      "window_id": "B3_B0_C0",
+      "band": "B",
+      "row": 0,
+      "column": 0,
+      "split": "train",
+      "T1_xyxy": [
+        29,
+        1610,
+        477,
+        2058
+      ]
+    },
+    {
+      "window_id": "B3_B0_C1",
+      "band": "B",
+      "row": 0,
+      "column": 1,
+      "split": "val",
+      "T1_xyxy": [
+        541,
+        1610,
+        989,
+        2058
+      ]
+    },
+    {
+      "window_id": "B3_B0_C2",
+      "band": "B",
+      "row": 0,
+      "column": 2,
+      "split": "train",
+      "T1_xyxy": [
+        1053,
+        1610,
+        1501,
+        2058
+      ]
+    },
+    {
+      "window_id": "B3_B0_C3",
+      "band": "B",
+      "row": 0,
+      "column": 3,
+      "split": "train",
+      "T1_xyxy": [
+        1565,
+        1610,
+        2013,
+        2058
+      ]
+    },
+    {
+      "window_id": "B3_B0_C4",
+      "band": "B",
+      "row": 0,
+      "column": 4,
+      "split": "test",
+      "T1_xyxy": [
+        2077,
+        1610,
+        2525,
+        2058
+      ]
+    }
+  ],
+  "limitations": "Single microtube position, spatial holdout only. Temporal observations are correlated and roots may cross ROI boundaries; this is not biological or external-location independence.64px guards reduce but cannot prove absence of root-level dependence. No rescaling, colour enhancement, blank ground-truth masks or claimed model accuracy. No physical scale supplied; lengths initially in T1 pixels.",
+  "actual_B3_models_trained": 0,
+  "metric_results": null,
+  "main_task": "root_vs_background_including_visible_dead_roots",
+  "optional_attributes": [
+    "color",
+    "temporal",
+    "viability"
+  ],
+  "death_labeling": "suspected_dead and human_confirmed_dead separated; evidence required; absence and browning alone not proof of death"
+}

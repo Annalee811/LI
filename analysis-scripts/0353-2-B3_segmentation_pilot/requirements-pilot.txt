@@ -1,0 +1,2 @@
+segmentation-models-pytorch==0.5.0
+scikit-image==0.25.2

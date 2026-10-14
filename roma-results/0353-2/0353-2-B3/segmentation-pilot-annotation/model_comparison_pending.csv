@@ -1,0 +1,4 @@
+﻿model,status,validation_precision,validation_recall,validation_dice,validation_iou,holdout_precision,holdout_recall,holdout_dice,holdout_iou,root_length_R2_identity,root_length_RMSE_px,root_length_CCC
+RootPainter,not_trained_no_human_ground_truth,,,,,,,,,,,
+U-Net,not_trained_no_human_ground_truth,,,,,,,,,,,
+DeepLabV3+,not_trained_no_human_ground_truth,,,,,,,,,,,

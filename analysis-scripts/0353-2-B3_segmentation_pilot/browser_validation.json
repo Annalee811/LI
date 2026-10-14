@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "test_kind": "headless_Chromium_over_local_loopback_software_fixture_not_human_annotation",
+  "checks": [
+    "native_RGB_pixel_identity",
+    "one_pixel_brush",
+    "attribute_reset_and_undo",
+    "unreviewed_export_refusal",
+    "death_evidence_required",
+    "reviewed_PNG_JSON_ZIP_export",
+    "zip_CRC_and_PNG_values",
+    "mask_review_SHA256",
+    "separate_color_temporal_death_attributes"
+  ],
+  "actual_B3_human_masks": 0
+}
