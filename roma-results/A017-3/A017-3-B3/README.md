@@ -1,3 +1,11 @@
+# 最新：A017-3-B3 共同区域复核
+
+[查看定位、原色裁剪与下载](multiregion-review/README.md) · [下载分区结果](multiregion-review/A017-3-B3_reviewed_regions_and_RGB.zip) · [下载独立拼接RGB](multiregion-review/A017-3-B3_available_period_stitched_RGB.zip)
+
+保存两种T1/T2偏移对应的A、B段。B经2000像素宽的局部细节搜索获得更多T1/T4结构锚点，但仍没有达标的额外结构路线，明确保留为候选；不视为已完成独立四期连续核验。以下旧结果仅作历史比较。
+
+---
+
 # 最新：同一区域定位与统一尺寸RGB
 
 [定位图与独立裁剪](same-region-localization/README.md) · [下载图片](same-region-localization/A017-3-B3_same_region_map_and_RGB.zip)

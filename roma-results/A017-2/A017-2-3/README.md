@@ -1,3 +1,11 @@
+# 最新：A017-2-3 共同区域复核
+
+[查看定位、原色裁剪与下载](multiregion-review/README.md) · [下载分区结果](multiregion-review/A017-2-3_reviewed_regions_and_RGB.zip) · [下载独立拼接RGB](multiregion-review/A017-2-3_available_period_stitched_RGB.zip)
+
+保存上缘A、中部B、下缘C；狭窄D候选未建立核验图，未裁剪、未计入面积。T3通过T4结构关系桥接定位，不能称为直接T1/T3或T2/T3独立验证成功。缓存RoMa T2/T3和本次额外T1/T4均为0个内部双向支持候选；对应位置依赖结构匹配与跨期桥接，不能称这些段直接神经匹配成功。以下旧结果仅作历史比较。
+
+---
+
 # 最新：同一区域定位与统一尺寸RGB
 
 [定位图与独立裁剪](same-region-localization/README.md) · [下载图片](same-region-localization/A017-2-3_same_region_map_and_RGB.zip)

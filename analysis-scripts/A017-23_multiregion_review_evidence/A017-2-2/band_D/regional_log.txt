@@ -1,0 +1,6 @@
+MATCH A017-2-2 {"pair": "T3_to_T4", "candidates": 15, "stable_anchors": 15, "root_support_anchor_candidates": 5, "spatial_CV_anchor_median_T1_px": 0.9863588738140325, "spatial_CV_anchor_p95_T1_px": 2.008035342846951, "stable_anchor_span_T1_xy": [1083.6787948608398, 29.676589965820312], "matrix_analysis_1600": [[1.00054029792734, 0.001767094614835089, -18.432372659306814], [-0.001767094614835089, 1.00054029792734, -1372.7689142644679], [0.0, 0.0, 1.0]], "scale": 1.000541858394694, "rotation_deg": -0.10119228417744404, "validated_region_edge": false, "point_precision_3px_pass": false, "spatial_fold_pose_median_T1_px": 0.20137983560562134, "spatial_fold_pose_p95_T1_px": 0.38711386919021606, "manual_TRE": null}
+Traceback (most recent call last):
+  File "/workspace/LI/results/microtube_registration/export_multiregion_band.py", line 111, in <module>
+    assert candidates,'ADAPTIVE_SEARCH_REQUIRED: reliable structural graph is disconnected'
+           ^^^^^^^^^^
+AssertionError: ADAPTIVE_SEARCH_REQUIRED: reliable structural graph is disconnected

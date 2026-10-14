@@ -1,0 +1,21 @@
+{
+  "T1_region_review_status_mask.png": "5a713d775c335e5d301ad8cbca266fd636c18e641b7089ac5a0394091735dc21",
+  "T1_geometric_observation_mask.png": "ba46310a81e9ede1c084f60af1120907fd180a1b8e426ebbc125f4cbef43e172",
+  "T4_region_A_RGB.png": "44b2800b461a350e67f792cf1f6d3cb46fb4073e93aae2e18850f751dfb27c98",
+  "A017-3-Z2_multiregion_sequence.png": "dee848428b9223f0b1e10a279c3cb4d749898712656e111b8ed1e47ddb95effc",
+  "A017-3-Z2_region_preview.jpg": "3090e7b35c9fe370ae963535353716c0a54dd5fa9365cee7db7e9ab173c243a9",
+  "T3_region_A_RGB.png": "12ea44c869789b706c9e8814c2632bb59e25b4c11469c199d49e4f6d96897ada",
+  "A017-3-Z2_reviewed_regions_and_RGB.zip": "c1aec7613bbe8049ce0cbf2082bfcaf892be72d1623076b4b6e2ae0f30995829",
+  "T1_multiregion_RGB.png": "2989606600779fce2665ed303a8ddf7fdc92354e7a1162c9a19a1c8266a9843d",
+  "README.md": "d8c130bdc5b77862dc1f6895c64e0fc5105347cbce99566ad63233e0d8b367a2",
+  "T2_multiregion_RGB.png": "ba6709c1a3304c0b7fedf011c4aa1fa9a8964f771be840eee9278f7244539e84",
+  "T1_region_A_RGB.png": "2989606600779fce2665ed303a8ddf7fdc92354e7a1162c9a19a1c8266a9843d",
+  "T2_region_A_RGB.png": "ba6709c1a3304c0b7fedf011c4aa1fa9a8964f771be840eee9278f7244539e84",
+  "A017-3-Z2_root_review_preview.jpg": "2d5d39d2479c3dba635e0b00f1982e5a42f91bb0bd213f70d108557685105ea6",
+  "T3_multiregion_RGB.png": "12ea44c869789b706c9e8814c2632bb59e25b4c11469c199d49e4f6d96897ada",
+  "A017-3-Z2_reviewed_region_localization.png": "a07ae1843ab7dafd618eabcec61759772d340af78bc3fc7e93cfa168d768fbb8",
+  "A017-3-Z2_available_period_stitched_RGB.zip": "3a9c509005891e5adec2b4281cec829748194e07400e1c42eb50e985009675a8",
+  "joined_geometric_observation_mask.png": "e19d49ce71ecd576ee95c9da9844cb85bf9afb7b8e5f44cf95526dd2215942c3",
+  "A017-3-Z2_root_region_review.png": "5f590188edcef7068d668c030af7c35a8b13dfc7107074be63d1eb43c32de7a6",
+  "T4_multiregion_RGB.png": "44b2800b461a350e67f792cf1f6d3cb46fb4073e93aae2e18850f751dfb27c98"
+}

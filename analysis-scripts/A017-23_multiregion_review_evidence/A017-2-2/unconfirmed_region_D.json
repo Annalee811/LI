@@ -1,0 +1,177 @@
+{
+  "position": "A017-2-2",
+  "region": "D",
+  "status": "Unconfirmed; excluded from crop and coverage",
+  "reason": "Narrow competing location cannot form a validated all-period structure graph. Quality criteria unchanged; original raw proposals and failures retained.",
+  "prior": {
+    "matrices_native": {
+      "T1_to_T2": [
+        [
+          0.5217576706333206,
+          0.0006070375619252473,
+          209.3239495558095
+        ],
+        [
+          -0.0006070375619252473,
+          0.5217576706333206,
+          -232.2886037891817
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T2_to_T3": [
+        [
+          0.9893297592759961,
+          -0.0017927223797313907,
+          26.468399450956376
+        ],
+        [
+          0.001792722379731391,
+          0.9893297592759961,
+          628.3663260725873
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T3_to_T4": [
+        [
+          3.871105190939277,
+          0.017213714323936515,
+          -82.60401241199767
+        ],
+        [
+          -0.017213714323936515,
+          3.871105190939277,
+          -4384.388253823382
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "force_region_hypothesis_pairs": [
+      "T1_to_T2",
+      "T2_to_T3",
+      "T3_to_T4"
+    ],
+    "provenance": "Complete-frame T1/T2,T1/T3,T1/T4 competing modes; consecutive priors are derived from these coarse independent models. All four actual phases are present. Coarse hypotheses require region-only descriptor and route verification; no assumed physical periodicity or root identity.",
+    "proposed_T1_to_analysis1600": {
+      "T1": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T2": [
+        [
+          1.002624009129591,
+          0.0011665002131947104,
+          252.38758047422397
+        ],
+        [
+          -0.0011665002131947104,
+          1.002624009129591,
+          -280.0766888189079
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T3": [
+        [
+          0.9904351176009177,
+          -0.0006424049181498845,
+          281.685768011167
+        ],
+        [
+          0.0006424049181498845,
+          0.9904351176009177,
+          480.27877481686846
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T4": [
+        [
+          0.9991186384477858,
+          0.0037947510704392255,
+          260.3939926736307
+        ],
+        [
+          -0.0037947510704392255,
+          0.9991186384477858,
+          -892.2697456826219
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "conditional_descriptor_checks": [
+    {
+      "pair": "T3_to_T4",
+      "candidates": 15,
+      "stable_anchors": 15,
+      "root_support_anchor_candidates": 5,
+      "spatial_CV_anchor_median_T1_px": 0.9863588738140325,
+      "spatial_CV_anchor_p95_T1_px": 2.008035342846951,
+      "stable_anchor_span_T1_xy": [
+        1083.6787948608398,
+        29.676589965820312
+      ],
+      "matrix_analysis_1600": [
+        [
+          1.00054029792734,
+          0.001767094614835089,
+          -18.432372659306814
+        ],
+        [
+          -0.001767094614835089,
+          1.00054029792734,
+          -1372.7689142644679
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 1.000541858394694,
+      "rotation_deg": -0.10119228417744404,
+      "validated_region_edge": false,
+      "point_precision_3px_pass": false,
+      "spatial_fold_pose_median_T1_px": 0.20137983560562134,
+      "spatial_fold_pose_p95_T1_px": 0.38711386919021606,
+      "manual_TRE": null
+    }
+  ],
+  "crop_generated": false,
+  "geometry_counted": false
+}

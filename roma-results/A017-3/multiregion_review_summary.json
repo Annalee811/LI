@@ -1,0 +1,62 @@
+[
+  {
+    "position": "A017-3-B3",
+    "series": "A017-3",
+    "period_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "regions": 2,
+    "region_RGB_wh": {
+      "A": [
+        2544,
+        673
+      ],
+      "B": [
+        2540,
+        1177
+      ]
+    },
+    "geometric_pct_including_candidates": 81.11750040975475,
+    "geometric_pct_region_routes_pass": 29.53878005227608,
+    "candidate_regions": [
+      "B"
+    ],
+    "excluded_unconfirmed_regions": [],
+    "joined_wh": [
+      2539,
+      1874
+    ],
+    "special_limit": "保存两种T1/T2偏移对应的A、B段。B经2000像素宽的局部细节搜索获得更多T1/T4结构锚点，但仍没有达标的额外结构路线，明确保留为候选；不视为已完成独立四期连续核验。"
+  },
+  {
+    "position": "A017-3-Z2",
+    "series": "A017-3",
+    "period_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "regions": 1,
+    "region_RGB_wh": {
+      "A": [
+        2444,
+        2040
+      ]
+    },
+    "geometric_pct_including_candidates": 86.01847778266608,
+    "geometric_pct_region_routes_pass": 0.0,
+    "candidate_regions": [
+      "A"
+    ],
+    "excluded_unconfirmed_regions": [],
+    "joined_wh": [
+      2444,
+      2040
+    ],
+    "special_limit": "保存一个较大的共同几何观察范围；涉及T3的路线仍分歧，整个A区保留为候选。仅整体定位，保持土层与根系局部移动可见，不用自由变形消除分歧。"
+  }
+]

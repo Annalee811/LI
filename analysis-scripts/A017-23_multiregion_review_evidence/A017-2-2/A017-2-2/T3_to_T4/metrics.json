@@ -1,0 +1,22 @@
+{
+  "pair": "T3_to_T4",
+  "source_size_wh": [
+    1329,
+    1183
+  ],
+  "target_size_wh": [
+    5100,
+    4547
+  ],
+  "device": "cpu",
+  "model": "full roma_outdoor",
+  "coarse_res": 560,
+  "upsample_res": 864,
+  "sample_count": 5000,
+  "bidirectionally_supported_candidates": 2521,
+  "confidence_threshold": 0.5,
+  "cycle_threshold_analysis1600_px": 5,
+  "prealignment_native": null,
+  "elapsed_seconds": 74.93,
+  "interpretation": "RoMa confidence/cycle are internal candidate evidence, not independent accuracy. Pixel-precision continuous success is not asserted. Dense RoMa is not used to render final RGB."
+}

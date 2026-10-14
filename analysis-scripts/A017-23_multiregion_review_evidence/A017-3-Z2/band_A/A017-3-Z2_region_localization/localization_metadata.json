@@ -1,0 +1,677 @@
+{
+  "position": "A017-3-Z2",
+  "period_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "missing_period_ids": [],
+  "reference": "Original T1 zero-based pixel centres",
+  "common_T1_rectangle_xyxy": [
+    27,
+    233,
+    2471,
+    2273
+  ],
+  "crop_size_wh": [
+    2444,
+    2040
+  ],
+  "common_observable_pct_T1": 86.42978528851047,
+  "matrices_T1_to_native": {
+    "T1": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T4": [
+      [
+        2.0118037899406547,
+        0.002040533315182382,
+        124.48845626488746
+      ],
+      [
+        -0.002040533315182382,
+        2.0118037899406547,
+        -88.71527808376806
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2": [
+      [
+        0.5241181450814559,
+        0.0005012589176781777,
+        8.24678349748141
+      ],
+      [
+        -0.0005012589176781777,
+        0.5241181450814557,
+        -50.02623175776987
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T3": [
+      [
+        0.5222048184530764,
+        -0.0020831429205548633,
+        -8.898924230301695
+      ],
+      [
+        0.0020831429205548633,
+        0.5222048184530763,
+        -121.26166548168223
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "original_canvas_region_polygons": {
+    "T1": [
+      [
+        27.0,
+        233.0
+      ],
+      [
+        2470.0,
+        233.0
+      ],
+      [
+        2470.0,
+        2272.0
+      ],
+      [
+        27.0,
+        2272.0
+      ]
+    ],
+    "T2": [
+      [
+        22.514766693115234,
+        72.07976531982422
+      ],
+      [
+        1302.9354248046875,
+        70.85518646240234
+      ],
+      [
+        1303.95751953125,
+        1139.5321044921875
+      ],
+      [
+        23.536832809448242,
+        1140.7567138671875
+      ]
+    ],
+    "T3": [
+      [
+        4.71523380279541,
+        0.46830207109451294
+      ],
+      [
+        1280.4615478515625,
+        5.557420253753662
+      ],
+      [
+        1276.214111328125,
+        1070.3330078125
+      ],
+      [
+        0.4677051603794098,
+        1065.243896484375
+      ]
+    ],
+    "T4": [
+      [
+        179.28260803222656,
+        379.97991943359375
+      ],
+      [
+        5094.119140625,
+        374.994873046875
+      ],
+      [
+        5098.27978515625,
+        4477.06298828125
+      ],
+      [
+        183.44325256347656,
+        4482.0478515625
+      ]
+    ]
+  },
+  "automatic_feature_checks": [
+    {
+      "pair": "T1_to_T2",
+      "candidates": 171,
+      "stable_anchors": 162,
+      "root_support_anchor_candidates": 73,
+      "spatial_CV_anchor_median_T1_px": 3.531410198027042,
+      "spatial_CV_anchor_p95_T1_px": 8.02903832430778,
+      "stable_anchor_span_T1_xy": [
+        1891.1389446258545,
+        2047.388165473938
+      ],
+      "matrix_analysis_1600": [
+        [
+          1.006730816584476,
+          0.0005679575571607871,
+          9.469634674160837
+        ],
+        [
+          -0.0005679575571607871,
+          1.006730816584476,
+          -60.63210202262544
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 1.0067309767940154,
+      "rotation_deg": -0.03232400059617515,
+      "validated_region_edge": true,
+      "point_precision_3px_pass": false,
+      "spatial_fold_pose_median_T1_px": 0.5198959112167358,
+      "spatial_fold_pose_p95_T1_px": 1.0081467628479004,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T1_to_T3",
+      "candidates": 202,
+      "stable_anchors": 186,
+      "root_support_anchor_candidates": 107,
+      "spatial_CV_anchor_median_T1_px": 6.143178717801619,
+      "spatial_CV_anchor_p95_T1_px": 14.525766947004705,
+      "stable_anchor_span_T1_xy": [
+        1169.7589015960693,
+        1793.9479908943176
+      ],
+      "matrix_analysis_1600": [
+        [
+          0.9921002459539605,
+          -0.0073446486133648455,
+          8.7214178395426
+        ],
+        [
+          0.0073446486133648455,
+          0.9921002459539605,
+          -147.98077504567647
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9921274322813389,
+      "rotation_deg": 0.42416044316001733,
+      "validated_region_edge": true,
+      "point_precision_3px_pass": false,
+      "spatial_fold_pose_median_T1_px": 1.8440570831298828,
+      "spatial_fold_pose_p95_T1_px": 4.819229602813721,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T1_to_T4",
+      "candidates": 734,
+      "stable_anchors": 721,
+      "root_support_anchor_candidates": 260,
+      "spatial_CV_anchor_median_T1_px": 2.3187837752079554,
+      "spatial_CV_anchor_p95_T1_px": 6.728524771969393,
+      "stable_anchor_span_T1_xy": [
+        2391.9167969226837,
+        2055.1739659309387
+      ],
+      "matrix_analysis_1600": [
+        [
+          1.0059018949703273,
+          0.001020266657591191,
+          39.05520196545489
+        ],
+        [
+          -0.001020266657591191,
+          1.0059018949703273,
+          -27.83224410471155
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 1.0059024123884723,
+      "rotation_deg": -0.05811397085942503,
+      "validated_region_edge": true,
+      "point_precision_3px_pass": true,
+      "spatial_fold_pose_median_T1_px": 0.21968336403369904,
+      "spatial_fold_pose_p95_T1_px": 0.4658976197242737,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T2_to_T3",
+      "candidates": 265,
+      "stable_anchors": 195,
+      "root_support_anchor_candidates": 98,
+      "spatial_CV_anchor_median_T1_px": 4.28305995203377,
+      "spatial_CV_anchor_p95_T1_px": 12.074447205989447,
+      "stable_anchor_span_T1_xy": [
+        2358.6506094932556,
+        702.9316864013672
+      ],
+      "matrix_analysis_1600": [
+        [
+          0.9998280807601605,
+          -0.0010244752933717394,
+          -26.10869375703424
+        ],
+        [
+          0.0010244752933717394,
+          0.9998280807601605,
+          -84.40307653598224
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9998286056250705,
+      "rotation_deg": 0.058708183049253244,
+      "validated_region_edge": true,
+      "point_precision_3px_pass": false,
+      "spatial_fold_pose_median_T1_px": 0.3896094560623169,
+      "spatial_fold_pose_p95_T1_px": 1.5897817611694336,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T2_to_T4",
+      "candidates": 400,
+      "stable_anchors": 393,
+      "root_support_anchor_candidates": 182,
+      "spatial_CV_anchor_median_T1_px": 1.507038790708397,
+      "spatial_CV_anchor_p95_T1_px": 3.7029828665457822,
+      "stable_anchor_span_T1_xy": [
+        2455.3562228679657,
+        2099.7599952220917
+      ],
+      "matrix_analysis_1600": [
+        [
+          0.9995035698905073,
+          5.786632978929607e-05,
+          29.1277384577178
+        ],
+        [
+          -5.786632978929607e-05,
+          0.9995035698905073,
+          32.41097811354678
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 0.9995035715655949,
+      "rotation_deg": -0.003317143198895909,
+      "validated_region_edge": true,
+      "point_precision_3px_pass": true,
+      "spatial_fold_pose_median_T1_px": 0.1539630889892578,
+      "spatial_fold_pose_p95_T1_px": 0.2225576788187027,
+      "manual_TRE": null
+    },
+    {
+      "pair": "T3_to_T4",
+      "candidates": 1515,
+      "stable_anchors": 1333,
+      "root_support_anchor_candidates": 569,
+      "spatial_CV_anchor_median_T1_px": 4.754641190840272,
+      "spatial_CV_anchor_p95_T1_px": 16.242537550633532,
+      "stable_anchor_span_T1_xy": [
+        2395.3704771995544,
+        1909.5155854225159
+      ],
+      "matrix_analysis_1600": [
+        [
+          1.0046563738535692,
+          0.005026728594334279,
+          50.543816016204886
+        ],
+        [
+          -0.005026728594334279,
+          1.0046563738535692,
+          118.67190344823175
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scale": 1.0046689492190768,
+      "rotation_deg": -0.28667307286728266,
+      "validated_region_edge": true,
+      "point_precision_3px_pass": false,
+      "spatial_fold_pose_median_T1_px": 0.30890408158302307,
+      "spatial_fold_pose_p95_T1_px": 0.623324990272522,
+      "manual_TRE": null
+    }
+  ],
+  "independent_route_checks": {
+    "T1_to_T2": {
+      "median_T1_px": 0.973534107208252,
+      "p95_T1_px": 1.4127558469772339,
+      "region_route_5px_pass": true
+    },
+    "T1_to_T3": {
+      "median_T1_px": 19.658180236816406,
+      "p95_T1_px": 29.794551849365234,
+      "region_route_5px_pass": false
+    },
+    "T2_to_T3": {
+      "median_T1_px": 6.707036018371582,
+      "p95_T1_px": 11.15164852142334,
+      "region_route_5px_pass": false
+    }
+  },
+  "selected_structure_edges": [
+    "T1_to_T4",
+    "T2_to_T4",
+    "T3_to_T4"
+  ],
+  "independent_route_review_required": [
+    "T1_to_T3",
+    "T2_to_T3"
+  ],
+  "no_extra_route_corroboration": false,
+  "extra_route_corroboration_pass": true,
+  "candidate_region_manual_review": true,
+  "inconsistent_route_candidate_allowed": true,
+  "coarse_hypothesis_override": {
+    "matrices_native": {
+      "T1_to_T2": [
+        [
+          0.5239602315713022,
+          0.00036364262667617104,
+          8.744056787800439
+        ],
+        [
+          -0.00036364262667617104,
+          0.5239602315713022,
+          -50.04796596337639
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T2_to_T3": [
+        [
+          0.9979637140972676,
+          -0.0032307152814626526,
+          -19.181311699715412
+        ],
+        [
+          0.0032307152814626534,
+          0.9979637140972676,
+          -70.8192856544262
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T3_to_T4": [
+        [
+          3.8462927267564098,
+          0.012836539862409308,
+          167.17057171426472
+        ],
+        [
+          -0.01283653986240931,
+          3.8462927267564098,
+          375.5750232885814
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "force_region_hypothesis_pairs": [
+      "T1_to_T2",
+      "T2_to_T3",
+      "T3_to_T4"
+    ],
+    "provenance": "Previously reviewed global structure graph gives the broad common observation field. Only one region proposed; route disagreements retained, never removed with elastic warps. All four actual phases are present. Coarse hypotheses require region-only descriptor and route verification; no assumed physical periodicity or root identity.",
+    "proposed_T1_to_analysis1600": {
+      "T1": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T2": [
+        [
+          1.0060983362250155,
+          0.0006982595617652382,
+          10.535008178072818
+        ],
+        [
+          -0.0006982595617652382,
+          1.0060983362250155,
+          -60.29875417274264
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T3": [
+        [
+          1.0025420357805095,
+          -0.002549739594564218,
+          -12.383001002154174
+        ],
+        [
+          0.0025497395945642187,
+          1.0025420357805095,
+          -145.24762717878448
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T4": [
+        [
+          1.0056111406923587,
+          0.0007985544139794628,
+          39.53863927321031
+        ],
+        [
+          -0.0007985544139794628,
+          1.0056111406923587,
+          -27.82212923433498
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "regional_stability_rule": {
+    "minimum_consensus_anchors": 20,
+    "minimum_horizontal_span_fraction": 0.3,
+    "spatial_fold_pose_median_T1_px_max": 3,
+    "spatial_fold_pose_p95_T1_px_max": 5,
+    "point_CV_median_T1_px_max": 10,
+    "independent_route_at_least_one_median_T1_px_max": 5
+  },
+  "cached_RoMa_consensus": {
+    "T1_to_T2": {
+      "reliable_samples": 851,
+      "global_similarity_consensus": 851,
+      "raw_neural_matrix_analysis1600": [
+        [
+          1.0038234058534063,
+          0.000502142870697632,
+          13.707516608991247
+        ],
+        [
+          -0.000502142870697632,
+          1.0038234058534063,
+          -60.26015217656843
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hint_source": "Explicit whole-region hypothesis overrides a weak or incompatible neural location; original neural evidence retained",
+      "global_region_alias_override": true,
+      "prior_provenance": "Previously reviewed global structure graph gives the broad common observation field. Only one region proposed; route disagreements retained, never removed with elastic warps. All four actual phases are present. Coarse hypotheses require region-only descriptor and route verification; no assumed physical periodicity or root identity."
+    },
+    "T2_to_T3": {
+      "reliable_samples": 1334,
+      "global_similarity_consensus": 1187,
+      "raw_neural_matrix_analysis1600": [
+        [
+          0.9973868944401422,
+          -0.004826860483081057,
+          -22.63105254269601
+        ],
+        [
+          0.004826860483081057,
+          0.9973868944401422,
+          -86.06104475666774
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hint_source": "Explicit whole-region hypothesis overrides a weak or incompatible neural location; original neural evidence retained",
+      "global_region_alias_override": true,
+      "prior_provenance": "Previously reviewed global structure graph gives the broad common observation field. Only one region proposed; route disagreements retained, never removed with elastic warps. All four actual phases are present. Coarse hypotheses require region-only descriptor and route verification; no assumed physical periodicity or root identity."
+    },
+    "T3_to_T4": {
+      "reliable_samples": 2021,
+      "global_similarity_consensus": 1744,
+      "raw_neural_matrix_analysis1600": [
+        [
+          1.0008875283316743,
+          0.003787769823593187,
+          55.17297883159753
+        ],
+        [
+          -0.003787769823593187,
+          1.0008875283316743,
+          119.00055717744124
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hint_source": "Explicit whole-region hypothesis overrides a weak or incompatible neural location; original neural evidence retained",
+      "global_region_alias_override": true,
+      "prior_provenance": "Previously reviewed global structure graph gives the broad common observation field. Only one region proposed; route disagreements retained, never removed with elastic warps. All four actual phases are present. Coarse hypotheses require region-only descriptor and route verification; no assumed physical periodicity or root identity."
+    }
+  },
+  "manual_landmark_TRE": null,
+  "method": "Spatially stable region structure graph; T1 coordinate reference; point-level precision and regional stability evaluated separately",
+  "rendering": "Original-canvas outline figure uses original RGB without elastic deformation or colour correction; separate crops use a single GLOBAL similarity resampling on T1 scale.",
+  "validation_limits": "Missing periods are not synthesized. If no eligible extra structural route exists, this is explicitly a region candidate for manual review, not accepted continuously registered points. Automatic spatial CV conditional on selected descriptor-consensus anchors, not human landmarks. Pose-fold stability quantifies sensitivity to blocks of selected anchors, not absolute accuracy. Independent route disagreements remain recorded and require visual review; no exact point-registration success is inferred. New roots and changed soil remain in the crop. Upsampling/DPI does not create captured detail.",
+  "input_sha256": {
+    "T1": "664f65f85d539be4febb916f13e5d738f10d1e4e990ce28f2af5ad0d06f36b6f",
+    "T2": "18a06dfc4b45de69ad96bf817403a5921bc3894b50c6b48739346964cb37bf28",
+    "T3": "ecb188387de86a302bf8902c2b4c15678e9a03ac71b643b74491a443fbc1c74a",
+    "T4": "c0876765c8853f38edc771438a8694962897bfff12bceaa3e66e827aae731da8"
+  },
+  "additional_neural_region_checks": [
+    {
+      "pair": "T1_to_T4",
+      "internally_supported_samples": 931,
+      "global_model_consensus": 931,
+      "neural_global_matrix_analysis1600": [
+        [
+          1.0053631923665365,
+          0.0018970961321046554,
+          39.58712964754035
+        ],
+        [
+          -0.0018970961321046554,
+          1.0053631923665365,
+          -26.880828211174112
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "median_T1_px": 1.5367101430892944,
+      "p95_T1_px": 2.368556261062622,
+      "interpretation": "Additional neural whole-region model comparison, not independent ground truth or manual accuracy. Candidate confidence may support a repeated-structure alias; no automatic pass inferred."
+    }
+  ],
+  "unvalidated_candidate_bridges": [],
+  "candidate_bridge_interpretation": "When requested, a graph-disconnecting edge with descriptor consensus but failed pose-fold stability can only make an explicitly labelled review candidate, never a validated region or point-registration success.",
+  "unvalidated_unused_route_checks": {},
+  "region_anchor_selection": {
+    "proposal_T1_box_analysis1600": [
+      16,
+      145,
+      1550,
+      1426
+    ],
+    "margin_analysis1600_px": 20,
+    "interpretation": "All fits restricted to the actual common band plus 20 analysis pixels; validation is conditional on the proposed location. Other whole-frame regions cannot dominate this regional pose."
+  }
+}

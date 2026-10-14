@@ -1,3 +1,11 @@
+# 最新：A017-2-2 共同区域复核
+
+[查看定位、原色裁剪与下载](multiregion-review/README.md) · [下载分区结果](multiregion-review/A017-2-2_reviewed_regions_and_RGB.zip) · [下载独立拼接RGB](multiregion-review/A017-2-2_available_period_stitched_RGB.zip)
+
+保存上缘A、中部B、下缘C；B缺少额外达标路线，明确为候选。狭窄D候选未建立核验图，未裁剪、未计入面积。以下旧结果仅作历史比较。
+
+---
+
 # 最新：同一区域定位与统一尺寸RGB
 
 [定位图与独立裁剪](same-region-localization/README.md) · [下载图片](same-region-localization/A017-2-2_same_region_map_and_RGB.zip)

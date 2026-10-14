@@ -1,0 +1,76 @@
+[
+  {
+    "position": "A017-2-2",
+    "series": "A017-2",
+    "period_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "regions": 3,
+    "region_RGB_wh": {
+      "A": [
+        2108,
+        249
+      ],
+      "B": [
+        2111,
+        781
+      ],
+      "C": [
+        2104,
+        559
+      ]
+    },
+    "geometric_pct_including_candidates": 57.792137884630314,
+    "geometric_pct_region_routes_pass": 29.34754966658903,
+    "candidate_regions": [
+      "B"
+    ],
+    "excluded_unconfirmed_regions": [
+      "D"
+    ],
+    "joined_wh": [
+      2104,
+      1637
+    ],
+    "special_limit": "保存上缘A、中部B、下缘C；B缺少额外达标路线，明确为候选。狭窄D候选未建立核验图，未裁剪、未计入面积。"
+  },
+  {
+    "position": "A017-2-3",
+    "series": "A017-2",
+    "period_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "regions": 3,
+    "region_RGB_wh": {
+      "A": [
+        2529,
+        269
+      ],
+      "B": [
+        2527,
+        770
+      ],
+      "C": [
+        2526,
+        528
+      ]
+    },
+    "geometric_pct_including_candidates": 68.3180904565962,
+    "geometric_pct_region_routes_pass": 68.3180904565962,
+    "candidate_regions": [],
+    "excluded_unconfirmed_regions": [
+      "D"
+    ],
+    "joined_wh": [
+      2525,
+      1615
+    ],
+    "special_limit": "保存上缘A、中部B、下缘C；狭窄D候选未建立核验图，未裁剪、未计入面积。T3通过T4结构关系桥接定位，不能称为直接T1/T3或T2/T3独立验证成功。缓存RoMa T2/T3和本次额外T1/T4均为0个内部双向支持候选；对应位置依赖结构匹配与跨期桥接，不能称这些段直接神经匹配成功。"
+  }
+]
