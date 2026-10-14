@@ -1,3 +1,13 @@
+# 最新：Q1-2-Z2 区域复核
+
+[查看最新结果与下载](multiregion-review/README.md)
+
+缺少T2；保存上部A和下部B两段，分别采用不同T1/T3、T3/T4偏移。下部点级误差较大，区域定位核验不能当作精准根系逐点重合。
+
+以下为历史记录。
+
+---
+
 # 最新：Q1-2-Z2区域观察图片
 
 [查看结果与状态](region-observation-results/README.md) · [下载图片](region-observation-results/Q1-2-Z2_same_region_map_and_RGB.zip)

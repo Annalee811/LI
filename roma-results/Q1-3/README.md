@@ -1,3 +1,13 @@
+# 最新：Q1-3 区域复核
+
+[查看定位总览](Q1-3_reviewed_regions_overview.png) · [全Q1独立拼接RGB汇总](../Q1-all/Q1_all_located_stitched_RGB_and_overview.zip)
+
+- [Q1-3-Z3 最新结果与下载](Q1-3-Z3/multiregion-review/README.md)：T1未定位；原图核对，无共同裁剪。
+
+以下旧记录仅作历史比较。
+
+---
+
 # Q1-3区域观察结果
 
 - [图片包1：4张PNG](Q1-3_region_observation_images.zip)

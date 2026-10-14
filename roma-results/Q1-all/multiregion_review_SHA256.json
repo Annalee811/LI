@@ -1,0 +1,24 @@
+{
+  "archives": {
+    "Q1_all_located_stitched_RGB_and_overview.zip": {
+      "bytes": 75677426,
+      "sha256": "eba38a77fe246eec948508663603de8074fceb3f20e7ad6eb18d5d5a0252268c",
+      "images": {
+        "Q1_reviewed_regions_overview.png": "f97b6e9b5e1d7d4e5fc3cf4a548f8c23754dfaa8a604ae2e4ff23baefa559f2d",
+        "Q1-1-B2/T1_multiregion_RGB.png": "d278963fe397b12295c7e963eb9e0db8aa4cc3c668ab24058bb775f72273096e",
+        "Q1-1-B2/T3_multiregion_RGB.png": "f48ae6db4a9f63746b66dd432b58d81faf0c280e9157059bee469c47d4ddc69d",
+        "Q1-1-B2/T4_multiregion_RGB.png": "62cfa85b53505529c2a1dc57804608fab18a7179eef636f146d5e52336bb55dd",
+        "Q1-2-Z2/T1_multiregion_RGB.png": "56494fbe668bd3a10c13a68264fed2e8bb570f1e49a9964f6bd34307202ffe00",
+        "Q1-2-Z2/T3_multiregion_RGB.png": "e007155a7a4ecfb258a442cba5ce8185721cfeeaae3f88b98132e1ae8bdd8f00",
+        "Q1-2-Z2/T4_multiregion_RGB.png": "3fd769d9d2fc731c1e2059d6eaa6274d54b9302a0a3c1f7358014564c4f58378",
+        "Q1-2-Z3/T1_multiregion_RGB.png": "dc15e7f82b9d70d461a42207c85b8e8c69cbf15b83078078687a3001f269e047",
+        "Q1-2-Z3/T2_multiregion_RGB.png": "3879599a17a2eea7180be207ba03c19a513e198cc32804a3145d66a9dd994893",
+        "Q1-2-Z3/T4_multiregion_RGB.png": "5db58d02f83bde5834d9dc3f20d05837136a4d95b2416e00957810b5d4e911c9"
+      }
+    }
+  },
+  "overview_files": {
+    "Q1_reviewed_regions_overview.png": "f97b6e9b5e1d7d4e5fc3cf4a548f8c23754dfaa8a604ae2e4ff23baefa559f2d",
+    "Q1_reviewed_regions_overview.jpg": "7b65a2ac399c6f77ffefe25e5ae764e7d294a609de6e40c1a9f9e8e798d8f3f0"
+  }
+}

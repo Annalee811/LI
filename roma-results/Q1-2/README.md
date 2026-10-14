@@ -1,3 +1,15 @@
+# 最新：Q1-2 区域复核
+
+[查看定位总览](Q1-2_reviewed_regions_overview.png) · [全Q1独立拼接RGB汇总](../Q1-all/Q1_all_located_stitched_RGB_and_overview.zip)
+
+- [Q1-2-B3 最新结果与下载](Q1-2-B3/multiregion-review/README.md)：前三期结构定位候选；T4未定位。
+- [Q1-2-Z2 最新结果与下载](Q1-2-Z2/multiregion-review/README.md)：通过本次可用区域路线规则；非人工确认。
+- [Q1-2-Z3 最新结果与下载](Q1-2-Z3/multiregion-review/README.md)：通过本次可用区域路线规则；非人工确认。
+
+以下旧记录仅作历史比较。
+
+---
+
 # Q1-2区域观察结果
 
 - [图片包1：5张PNG](Q1-2_region_observation_images_part_1.zip)

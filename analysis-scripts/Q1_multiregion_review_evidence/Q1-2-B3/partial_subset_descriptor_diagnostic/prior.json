@@ -1,0 +1,57 @@
+{
+  "matrices_native": {
+    "T1_to_T2": [
+      [
+        0.521230930812405,
+        5.1736688504844806e-05,
+        0.07683776356632802
+      ],
+      [
+        -5.1736688504844806e-05,
+        0.521230930812405,
+        -0.49594323746987057
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2_to_T3": [
+      [
+        1.0038409035128018,
+        0.00018210201881760634,
+        -4.42047921051463
+      ],
+      [
+        -0.00018210201881760634,
+        1.003840903512802,
+        -393.62978346428537
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "force_region_hypothesis_pairs": [
+    "T1_to_T2",
+    "T2_to_T3"
+  ],
+  "provenance": {
+    "source": "Existing compact RoMa T1/T2/T3 hypothesis; explicit partial-subset diagnostic. T4 still exists but is unlocated, not missing.",
+    "full_original_period_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "analysis_subset_period_ids": [
+      1,
+      2,
+      3
+    ]
+  },
+  "limitations": "Subset-only analysis must never be presented as four-period localization. T1/T2 content is almost identical. All failures retained."
+}

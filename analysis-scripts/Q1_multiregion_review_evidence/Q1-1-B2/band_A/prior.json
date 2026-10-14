@@ -1,0 +1,46 @@
+{
+  "matrices_native": {
+    "T1_to_T3": [
+      [
+        0.9998627987682628,
+        0.0011175380326123125,
+        10.328339569850225
+      ],
+      [
+        -0.0011175380326123125,
+        0.9998627987682628,
+        459.0267111983533
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T3_to_T4": [
+      [
+        3.8318217513634543,
+        0.0008784255841482463,
+        -6.104219974847426
+      ],
+      [
+        -0.0008784255841482468,
+        3.8318217513634547,
+        -91.58490270382795
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "force_region_hypothesis_pairs": [
+    "T1_to_T3",
+    "T3_to_T4"
+  ],
+  "provenance": {
+    "source": "Previous verified upper observation field; revalidated using additional complete-frame modes."
+  },
+  "limitations": "Coarse whole-frame observation hypotheses only; real region-specific descriptor checks and route disagreements must be retained. Original neural candidate modes never overwritten."
+}

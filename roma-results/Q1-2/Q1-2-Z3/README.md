@@ -1,3 +1,13 @@
+# 最新：Q1-2-Z3 区域复核
+
+[查看最新结果与下载](multiregion-review/README.md)
+
+缺少T3；保存一个共同观察范围。区域路线满足规则，仍保留根系和土层局部移动。
+
+以下为历史记录。
+
+---
+
 # 最新：Q1-2-Z3区域观察图片
 
 [查看结果与状态](region-observation-results/README.md) · [下载图片](region-observation-results/Q1-2-Z3_same_region_map_and_RGB.zip)

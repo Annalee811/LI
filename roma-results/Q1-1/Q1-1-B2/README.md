@@ -1,3 +1,13 @@
+# 最新：Q1-1-B2 区域复核
+
+[查看最新结果与下载](multiregion-review/README.md)
+
+缺少T2；保存上部A和下部B两段，下部T1对应后期上部。以原始1330像素宽T1为尺度，不通过放大宣称新增细节。
+
+以下为历史记录。
+
+---
+
 # 最新：Q1-1-B2区域观察图片
 
 [查看结果与状态](region-observation-results/README.md) · [下载图片](region-observation-results/Q1-1-B2_same_region_map_and_RGB.zip)

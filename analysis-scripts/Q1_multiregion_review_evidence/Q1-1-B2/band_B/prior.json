@@ -1,0 +1,94 @@
+{
+  "matrices_native": {
+    "T1_to_T3": [
+      [
+        1.0012138667983645,
+        0.0013587817320177202,
+        7.224763573788471
+      ],
+      [
+        -0.0013587817320177202,
+        1.0012138667983645,
+        -831.2960582592818
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T3_to_T4": [
+      [
+        3.828514752821482,
+        -1.0194784842434987e-05,
+        -2.326165543376056
+      ],
+      [
+        1.0194784842434984e-05,
+        3.8285147528214822,
+        -83.622540353224
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "force_region_hypothesis_pairs": [
+    "T1_to_T3",
+    "T3_to_T4"
+  ],
+  "provenance": {
+    "source": "New lower T1 region maps to upper T3/T4; both complete-frame alternate modes retained.",
+    "edges": [
+      {
+        "pair": "T1_to_T3",
+        "mode": "blur",
+        "analysis_width": 1000,
+        "inliers": 27,
+        "matrix_analysis1600": [
+          [
+            1.0027217190073983,
+            0.0013608280900478675,
+            8.70453442625117
+          ],
+          [
+            -0.0013608280900478675,
+            1.0027217190073983,
+            -1001.5615159750384
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "pair": "T1_to_T4",
+        "mode": "blur",
+        "analysis_width": 1300,
+        "inliers": 40,
+        "matrix_analysis1600": [
+          [
+            0.9996285407674299,
+            0.0013539683594963512,
+            7.950564162815585
+          ],
+          [
+            -0.0013539683594963512,
+            0.9996285407674299,
+            -1024.706412456885
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ]
+  },
+  "limitations": "Coarse whole-frame observation hypotheses only; real region-specific descriptor checks and route disagreements must be retained. Original neural candidate modes never overwritten."
+}

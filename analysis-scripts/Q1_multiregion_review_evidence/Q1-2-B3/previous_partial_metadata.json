@@ -1,0 +1,205 @@
+{
+  "position": "Q1-2-B3",
+  "status": "partial_neural_region_candidate",
+  "period_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "missing_period_ids": [],
+  "localized_candidate_period_ids": [
+    1,
+    2,
+    3
+  ],
+  "unlocalized_period_ids": [
+    4
+  ],
+  "full_T1_referenced_sequence_accepted": false,
+  "full_common_region_defined": false,
+  "candidate_crop_size_wh": [
+    2535,
+    1517
+  ],
+  "candidate_common_T1_rectangle_xyxy": [
+    9,
+    754,
+    2544,
+    2271
+  ],
+  "matrices_T1_to_native_candidates": {
+    "T1": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2": [
+      [
+        0.521230930812405,
+        5.1736688504844806e-05,
+        0.07683776356632802
+      ],
+      [
+        -5.1736688504844806e-05,
+        0.521230930812405,
+        -0.49594323746987057
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T3": [
+      [
+        0.5232329191041879,
+        0.00014685260890458284,
+        -4.343436632777067
+      ],
+      [
+        -0.00014685260890458284,
+        0.523232919104188,
+        -394.12764556419006
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "original_canvas_candidate_polygons": {
+    "T1": [
+      [
+        9.0,
+        754.0
+      ],
+      [
+        2543.0,
+        754.0
+      ],
+      [
+        2543.0,
+        2270.0
+      ],
+      [
+        9.0,
+        2270.0
+      ]
+    ],
+    "T2": [
+      [
+        4.8069257736206055,
+        392.51171875
+      ],
+      [
+        1325.6060791015625,
+        392.380615234375
+      ],
+      [
+        1325.6845703125,
+        1182.566650390625
+      ],
+      [
+        4.8853583335876465,
+        1182.69775390625
+      ]
+    ],
+    "T3": [
+      [
+        0.47638651728630066,
+        0.3886537551879883
+      ],
+      [
+        1326.3486328125,
+        0.016529256477952003
+      ],
+      [
+        1326.5712890625,
+        793.2376098632812
+      ],
+      [
+        0.6990150809288025,
+        793.6097412109375
+      ]
+    ]
+  },
+  "neural_hypothesis_evidence": [
+    {
+      "pair": "T1_to_T2",
+      "internally_supported_candidates": 3541,
+      "global_similarity_consensus": 3541,
+      "matrix_analysis1600": [
+        [
+          1.000857585520808,
+          9.93437919332487e-05,
+          0.09257561875461208
+        ],
+        [
+          -9.93437919332487e-05,
+          1.000857585520808,
+          -0.5975219728552658
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "validation": "Neural internal support only; not independent accuracy or accepted region registration"
+    },
+    {
+      "pair": "T2_to_T3",
+      "internally_supported_candidates": 645,
+      "global_similarity_consensus": 640,
+      "matrix_analysis1600": [
+        [
+          1.003840903512802,
+          0.00018210201881760629,
+          -5.3258785668850965
+        ],
+        [
+          -0.00018210201881760629,
+          1.003840903512802,
+          -474.2527511617896
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "validation": "Neural internal support only; not independent accuracy or accepted region registration"
+    }
+  ],
+  "candidate_region_manual_review": true,
+  "manual_TRE": null,
+  "output_image_filenames": [
+    "Q1-2-B3_localization_review.png",
+    "T1_candidate_T1_region_RGB.png",
+    "T2_candidate_T1_region_RGB.png",
+    "T3_candidate_T1_region_RGB.png",
+    "T4_unlocalized_original_RGB.png"
+  ],
+  "input_sha256": {
+    "T1": "8cca7488a15320e1d5717266959ab9395cc999a61282c599fa1c127e0ce41127",
+    "T2": "8c9db1ce0fc18a6c0823410e54e80a8d587e40ac0b6eeca95189f53239cdb2e9",
+    "T3": "593fe1480463e4b7c2eff8f9c84176da4a9b58c1b29ec8143da13fa6855b89ea",
+    "T4": "0e0ead59a5e44fdfbe23617856f554614dca57896b6c93c590a76ab46053c05e"
+  },
+  "interpretation": "前三期仅为RoMa模型候选；T4尚未定位. Failure remains failure. Missing periods are not synthesized; unlocalized existing periods are not relabeled missing. Only existing supported neural hypotheses are rendered as explicitly unverified candidates. Original unsupported RGB remains native, uncropped and unregistered. No elastic deformation or color changes.",
+  "limitations": "Confidence/cycle/model consensus are internal evidence, not validated root identity or ground truth. Full-frame descriptor checks, contrast normalization and orientation trials failed to locate the unlocalized image(s)."
+}

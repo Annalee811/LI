@@ -1,0 +1,19 @@
+{
+  "Q1-2-Z3_available_period_stitched_RGB.zip": "bc3644d63408539450f486da55c082bab53660058d84718d71738493879d3a80",
+  "Q1-2-Z3_multiregion_sequence.png": "510b3c0197544baf6bc96fe83d2c22bf18accb0f775fa7a7a4d2bdd3447207c5",
+  "Q1-2-Z3_region_preview.jpg": "dc20756bbe78faca0c6b3fc10d0ba9bc07e8a1f354ad7b621700b1e5190ed161",
+  "Q1-2-Z3_reviewed_region_localization.png": "e2adfb63ae9f994324efcc2b7204736caa023ee71b85bc8996f57a8bff5ddae8",
+  "Q1-2-Z3_reviewed_regions_and_RGB.zip": "5bbae78410f24b19ed22999a93b04620554e1e406f6f22634625d465a4ebdb44",
+  "Q1-2-Z3_root_region_review.png": "9cb124f6fed62d1e6bc44c1223992becab8cec3acc21ad88d1eb5a14303190bb",
+  "Q1-2-Z3_root_review_preview.jpg": "8a14a240abf1add3fb81c1f6b380940de0bb03983badd8a215bff5132ded0760",
+  "README.md": "a976083ff22ee3f37f20fa7f7d74990b050ce45819e74dbdc21520b334e81948",
+  "T1_geometric_observation_mask.png": "d57bd9097df673115c2a4846c62901a8c67e5542c504d8cbbe7f2d03de2f726a",
+  "T1_multiregion_RGB.png": "dc15e7f82b9d70d461a42207c85b8e8c69cbf15b83078078687a3001f269e047",
+  "T1_region_A_RGB.png": "dc15e7f82b9d70d461a42207c85b8e8c69cbf15b83078078687a3001f269e047",
+  "T1_region_review_status_mask.png": "d57bd9097df673115c2a4846c62901a8c67e5542c504d8cbbe7f2d03de2f726a",
+  "T2_multiregion_RGB.png": "3879599a17a2eea7180be207ba03c19a513e198cc32804a3145d66a9dd994893",
+  "T2_region_A_RGB.png": "3879599a17a2eea7180be207ba03c19a513e198cc32804a3145d66a9dd994893",
+  "T4_multiregion_RGB.png": "5db58d02f83bde5834d9dc3f20d05837136a4d95b2416e00957810b5d4e911c9",
+  "T4_region_A_RGB.png": "5db58d02f83bde5834d9dc3f20d05837136a4d95b2416e00957810b5d4e911c9",
+  "joined_geometric_observation_mask.png": "f8fb5d49c734991930f96758c1d57ed86d842bf8a457a1b9f41a5ed6105f4401"
+}

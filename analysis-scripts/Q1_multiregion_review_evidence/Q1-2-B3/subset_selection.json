@@ -1,0 +1,19 @@
+{
+  "position": "Q1-2-B3",
+  "source_period_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "selected_period_ids": [
+    1,
+    2,
+    3
+  ],
+  "unlocalized_period_ids": [
+    4
+  ],
+  "missing_period_ids": [],
+  "purpose": "Additional conditional descriptor verification of an existing partial neural hypothesis, not complete sequence acceptance."
+}
