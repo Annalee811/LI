@@ -1,0 +1,449 @@
+{
+  "checks": [
+    {
+      "name": "four full-size registered RGB images loaded separately",
+      "pass": true
+    },
+    {
+      "name": "no old assistant annotations prefilled",
+      "pass": true
+    },
+    {
+      "name": "all eight old images import without conflicts or scaling",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T1.png/mask",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T1.png/color",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T1.png/temporal",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T1.png/viability",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T1.png/cohort",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T1.png/scene",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T1.png/instance",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T2.png/mask",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T2.png/color",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T2.png/temporal",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T2.png/viability",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T2.png/cohort",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T2.png/scene",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C0_T2.png/instance",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T3.png/mask",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T3.png/color",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T3.png/temporal",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T3.png/viability",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T3.png/cohort",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T3.png/scene",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T3.png/instance",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T4.png/mask",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T4.png/color",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T4.png/temporal",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T4.png/viability",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T4.png/cohort",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T4.png/scene",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_A0_C1_T4.png/instance",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T1.png/mask",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T1.png/color",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T1.png/temporal",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T1.png/viability",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T1.png/cohort",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T1.png/scene",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T1.png/instance",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T2.png/mask",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T2.png/color",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T2.png/temporal",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T2.png/viability",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T2.png/cohort",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T2.png/scene",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C0_T2.png/instance",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T3.png/mask",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T3.png/color",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T3.png/temporal",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T3.png/viability",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T3.png/cohort",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T3.png/scene",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T3.png/instance",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T4.png/mask",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T4.png/color",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T4.png/temporal",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T4.png/viability",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T4.png/cohort",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T4.png/scene",
+      "pass": true
+    },
+    {
+      "name": "exact old pixels preserved B3_B0_C4_T4.png/instance",
+      "pass": true
+    },
+    {
+      "name": "original user backup text retained verbatim",
+      "pass": true
+    },
+    {
+      "name": "reimport is idempotent",
+      "pass": true
+    },
+    {
+      "name": "conflicting pixels retained rather than overwritten",
+      "pass": true
+    },
+    {
+      "name": "invalid source hash rejected before any mutation",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T1_multiregion_RGB.png/mask",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T1_multiregion_RGB.png/color",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T1_multiregion_RGB.png/temporal",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T1_multiregion_RGB.png/viability",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T1_multiregion_RGB.png/cohort",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T1_multiregion_RGB.png/scene",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T1_multiregion_RGB.png/instance",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T2_multiregion_RGB.png/mask",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T2_multiregion_RGB.png/color",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T2_multiregion_RGB.png/temporal",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T2_multiregion_RGB.png/viability",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T2_multiregion_RGB.png/cohort",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T2_multiregion_RGB.png/scene",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T2_multiregion_RGB.png/instance",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T3_multiregion_RGB.png/mask",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T3_multiregion_RGB.png/color",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T3_multiregion_RGB.png/temporal",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T3_multiregion_RGB.png/viability",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T3_multiregion_RGB.png/cohort",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T3_multiregion_RGB.png/scene",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T3_multiregion_RGB.png/instance",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T4_multiregion_RGB.png/mask",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T4_multiregion_RGB.png/color",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T4_multiregion_RGB.png/temporal",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T4_multiregion_RGB.png/viability",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T4_multiregion_RGB.png/cohort",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T4_multiregion_RGB.png/scene",
+      "pass": true
+    },
+    {
+      "name": "full project exact roundtrip T4_multiregion_RGB.png/instance",
+      "pass": true
+    },
+    {
+      "name": "legacy T1 temporal attributes not silently relabelled",
+      "pass": true
+    },
+    {
+      "name": "full project restore preserves all source masks and attributes",
+      "pass": true
+    },
+    {
+      "name": "expanded image keeps tools next to canvas",
+      "pass": true
+    },
+    {
+      "name": "zoom does not alter annotation masks",
+      "pass": true
+    },
+    {
+      "name": "period change keeps local view and zoom",
+      "pass": true
+    },
+    {
+      "name": "normal view restored",
+      "pass": true
+    },
+    {
+      "name": "later-root brush retains chosen origin and persistence",
+      "pass": true
+    },
+    {
+      "name": "Ctrl+Z restores every label layer",
+      "pass": true
+    },
+    {
+      "name": "newly painted T1 roots are forced to baseline",
+      "pass": true
+    },
+    {
+      "name": "separator cannot receive root strokes",
+      "pass": true
+    },
+    {
+      "name": "no full human review created by migration",
+      "pass": true
+    },
+    {
+      "name": "automatic backup writes matching arrays",
+      "pass": true
+    },
+    {
+      "name": "restore-draft action recovers every image and attribute",
+      "pass": true
+    },
+    {
+      "name": "JSON download retains four full images and original eight-image backup",
+      "pass": true
+    }
+  ],
+  "rgba_hashes": [
+    {
+      "name": "T1_multiregion_RGB.png",
+      "sha256": "6d036a3f06be9d85a43a91f635ea37311126e0d546c7eecc8efd2b5636a07dc8"
+    },
+    {
+      "name": "T2_multiregion_RGB.png",
+      "sha256": "c2dcc73c89af15fd1df7a630f30e74bdc3348fa911f8c2a2698086c297e8dbb2"
+    },
+    {
+      "name": "T3_multiregion_RGB.png",
+      "sha256": "76b3a3d4fd023d829c5b5c45cb5b1ff2f9219b4045ad96bb78bad97ce6a28a50"
+    },
+    {
+      "name": "T4_multiregion_RGB.png",
+      "sha256": "2d173d46a02887bc5277eb0081fd9808791a36bea963511a38203134d159ef3f"
+    }
+  ],
+  "software_only": true,
+  "actual_user_annotations_received": false,
+  "old_page_recovery": {
+    "images": 8,
+    "original_four_arrays_unchanged": true,
+    "software_fixture_only": true
+  }
+}

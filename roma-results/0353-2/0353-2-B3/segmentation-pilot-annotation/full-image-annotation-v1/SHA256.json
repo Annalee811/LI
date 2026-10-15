@@ -1,0 +1,14 @@
+{
+  "annotate.html": "b2d7cac73f7eabc2c7c25d4e490162b02ed10959923e7cf72adb18197ae81380",
+  "先保全旧标注.html": "174adff9fe2179ce324fd008f4286eb2e83c8766a93e18bbb7d965927905f573",
+  "preserve_open_editor.js": "f42f107341d8cc13e6d90eb54e5e0c3aa49084114e6abbaf5caa43b0e177eb1a",
+  "README.md": "a1e74a7a1ff9ed2aec9e3a75627759e39166256a19c93833db634ae6da9450fb",
+  "patch_mapping.json": "e660eaec15bbd67d479b418975c592a2b582d0a496ddce7b02fca8b7a06b32e4",
+  "source_images.json": "a9add43696e312ef103536c0ef5d33514285629c9990f9da12818cebd221aa3a",
+  "migration_geometry_verification.json": "8c9f318a30a36b9857f566adb973be2848ec1368598eb2e655c477cbf4cd2cd0",
+  "browser_validation.json": "b2bae72566b91cda0051d65ba40fdfca25e67107ebb3e68f85317263b893f1d2",
+  "recovery_validation.json": "dda9dabcfb1a6edd912ee314a744c5402c5d4a38b797a70c47661e0959fd0ec8",
+  "crop_validation.json": "0ac34ea6a9e479139263ccdff2f177a37157ea4e820731c381cd9b53bda2498b",
+  "toolbar_preview.png": "4fcc927314a5033cbcc18e71e53520f32e0e37936e17e544b4d7737de3c9c252",
+  "export_full_project.py": "5a3d9e073f7d2eb81659d092242653a2bd25002e2845b5d352f1888510258f2b"
+}

@@ -1,0 +1,14 @@
+{
+  "software_fixture_only": true,
+  "actual_user_annotations_received": false,
+  "unreviewed_training_export_rejected": true,
+  "draft_export_kept_unknown64": true,
+  "full_review_fixture_counts": {
+    "train": 36,
+    "val": 12,
+    "test": 12
+  },
+  "legacy_eight_labels_and_all_attributes_roundtrip_exact": true,
+  "all_60_RGB_crops_pixel_exact": true,
+  "whole_spatial_groups_do_not_cross_splits": true
+}

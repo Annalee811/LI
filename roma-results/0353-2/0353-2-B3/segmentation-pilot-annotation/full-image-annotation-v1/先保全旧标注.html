@@ -1,0 +1,49 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>保全旧页面已有标注</title>
+<style>body{font:17px/1.7 system-ui;max-width:900px;margin:30px auto;padding:20px;color:#203c30}textarea{width:100%;height:400px;font:13px/1.4 monospace}button{padding:12px;margin:10px;font:inherit}.note{background:#fff0cc;padding:16px}</style>
+<h1>先保全旧页面的8张标注</h1><div class="note">不要关闭或刷新仍显示你标注结果的旧 annotate.html。这个助手不能隔着另一个网页读取笔画。需要把下方代码放进旧页面自己的控制台。</div>
+<ol><li>点击“复制备份代码”。</li><li>切回仍有标注的旧页面，按 F12 打开开发者工具，选择 Console／控制台。</li><li>粘贴下方代码并按 Enter；旧页面右上角会出现绿色“保存全部已有标注JSON”按钮。</li><li>点击绿色按钮并确认JSON文件已下载。未保存成功前不要关闭旧页面。</li><li>打开新包的 annotate.html，导入这个JSON。它会把原笔画按坐标迁回四张完整RGB。</li></ol>
+<p>代码只读取本页现有标注并在本机生成备份；不请求网络、不刷新页面、不清除或改写原有像素和分类。</p>
+<button id="copy">复制备份代码</button><span id="status"></span><textarea id="code" readonly>/* Run ONLY in the already-open 0353-2-B3 annotate.html console.
+   No network requests, refreshes, deletion, relabelling, or changes to RGB pixels.
+   Adds a download panel and snapshots every loaded annotation state, including current strokes. */
+(async()=&gt;{
+ &#x27;use strict&#x27;;
+ if(typeof states===&#x27;undefined&#x27;||!(states instanceof Map)||typeof active===&#x27;undefined&#x27;||typeof files===&#x27;undefined&#x27;)throw Error(&#x27;请在仍显示已标注结果的旧 annotate.html 页面中运行，不是在新标签页运行。&#x27;);
+ if(typeof remember===&#x27;function&#x27;)remember();
+ const snapshot=new Map(states);if(active&amp;&amp;typeof index===&#x27;number&#x27;&amp;&amp;files[index])snapshot.set(files[index].name,active);
+ const length=typeof N===&#x27;number&#x27;?N:448*448;
+ const runs=a=&gt;{const out=[];let value=a[0],count=1;for(let i=1;i&lt;a.length;i++){if(a[i]===value)count++;else{out.push(value,count);value=a[i];count=1}}out.push(value,count);return out};
+ const hash=async bytes=&gt;[...new Uint8Array(await crypto.subtle.digest(&#x27;SHA-256&#x27;,bytes))].map(v=&gt;v.toString(16).padStart(2,&#x27;0&#x27;)).join(&#x27;&#x27;);
+ const records=[];
+ for(const [name,s] of snapshot){
+  if(!(s.mask instanceof Uint8Array)||s.mask.length!==length)throw Error(&#x27;标注数组尺寸异常：&#x27;+name+&#x27;；未改动原标注。&#x27;);
+  const f=[...files].find(x=&gt;x.name===name);let digest=null,hashBasis=&#x27;unavailable_annotations_still_preserved&#x27;;
+  if(f)try{digest=await hash(await f.arrayBuffer());hashBasis=&#x27;fresh_file_sha256&#x27;}catch(e){/* A removed temporary image must not prevent recovering its annotations. */}
+  if(!digest&amp;&amp;typeof expectedImages!==&#x27;undefined&#x27;&amp;&amp;expectedImages[name]){digest=expectedImages[name];hashBasis=&#x27;legacy_expected_image_hash&#x27;}
+  const arrays={};for(const k of [&#x27;mask&#x27;,&#x27;color&#x27;,&#x27;temporal&#x27;,&#x27;viability&#x27;,&#x27;cohort&#x27;,&#x27;scene&#x27;,&#x27;instance&#x27;]){
+   if(s[k]){if(s[k].length!==length)throw Error(&#x27;属性数组尺寸异常：&#x27;+name+&#x27;/&#x27;+k);arrays[k]=s[k].slice()}
+   else arrays[k]=new Uint8Array(length);
+  }
+  if(!s.scene)for(let i=0;i&lt;length;i++)arrays.scene[i]=s.mask[i]===255?1:s.mask[i]===128?5:s.mask[i]===0?4:0;
+  if(!s.cohort&amp;&amp;/_T1\.png$/i.test(name))for(let i=0;i&lt;length;i++)if(s.mask[i]===255)arrays.cohort[i]=1;
+  records.push({name,image_sha256:digest,image_hash_basis:hashBasis,...Object.fromEntries(Object.entries(arrays).map(([k,a])=&gt;[k,runs(a)])),
+   reviewed:s.reviewed===true,evidence:s.evidence||&#x27;&#x27;,annotator:s.annotator||&#x27;&#x27;,prefill_origin:s.prefill_origin||&#x27;existing_local_editor_state&#x27;,
+   review_status:s.review_status||&#x27;preserved_without_reclassification&#x27;,was_modified:s.modified===true});
+ }
+ if(!records.length)throw Error(&#x27;旧页面没有可备份的标注状态；请不要刷新。&#x27;);
+ const data={kind:&#x27;B3_reviewable_annotations&#x27;,version:2,encoding:&#x27;rle_value_count&#x27;,not_training_ground_truth:true,
+  saved_at:new Date().toISOString(),recovery:{from:&#x27;already_open_local_editor&#x27;,all_original_mask_values_preserved:true,all_original_attributes_preserved:true,new_review_status_not_created:true},records};
+ const text=JSON.stringify(data);window.B3_PRESERVED_PROJECT=data;window.B3_PRESERVED_PROJECT_JSON=text;
+ const previous=document.getElementById(&#x27;b3-preservation-panel&#x27;);if(previous)previous.remove();
+ const panel=document.createElement(&#x27;section&#x27;);panel.id=&#x27;b3-preservation-panel&#x27;;panel.style.cssText=&#x27;position:fixed;right:12px;top:12px;z-index:2147483647;width:350px;max-height:85vh;overflow:auto;background:#fff8df;color:#202d28;border:3px solid #376b50;padding:18px;font:15px/1.6 sans-serif;box-shadow:0 3px 20px #5558&#x27;;
+ const title=document.createElement(&#x27;strong&#x27;);title.textContent=&#x27;已整理 &#x27;+records.length+&#x27; 张页面标注，等待你保存&#x27;;panel.append(title);
+ const note=document.createElement(&#x27;p&#x27;);note.textContent=&#x27;原页面和标注没有被清除或重载。点击下面保存一个JSON；确认下载后，把它导入完整RGB大画布，或上传回聊天。未确认文件保存成功前，不要关闭旧页面。&#x27;;panel.append(note);
+ const link=document.createElement(&#x27;a&#x27;);link.textContent=&#x27;点击保存全部已有标注 JSON&#x27;;link.download=&#x27;0353-2-B3_existing_annotations_backup_&#x27;+Date.now()+&#x27;.json&#x27;;link.href=URL.createObjectURL(new Blob([text],{type:&#x27;application/json&#x27;}));link.style.cssText=&#x27;display:block;padding:12px;background:#376b50;color:white;border-radius:6px;text-align:center&#x27;;panel.append(link);
+ const detail=document.createElement(&#x27;details&#x27;),summary=document.createElement(&#x27;summary&#x27;);summary.textContent=&#x27;下载失败时：显示备份文本&#x27;;detail.append(summary);
+ const area=document.createElement(&#x27;textarea&#x27;);area.value=text;area.readOnly=true;area.style.cssText=&#x27;width:100%;height:180px&#x27;;detail.append(area);panel.append(detail);
+ const close=document.createElement(&#x27;button&#x27;);close.textContent=&#x27;收起此面板（不清除标注）&#x27;;close.onclick=()=&gt;panel.remove();panel.append(close);document.body.append(panel);
+ console.log(&#x27;B3_BACKUP_READY&#x27;,{images:records.length,bytes:new Blob([text]).size,download:&#x27;请点击页面右上角新出现的绿色保存按钮&#x27;});
+ return {images:records.length,bytes:new Blob([text]).size};
+})()
+</textarea>
+<script>document.getElementById('copy').onclick=async()=>{const t=document.getElementById('code');try{await navigator.clipboard.writeText(t.value);document.getElementById('status').textContent='已复制，切回旧页面执行。'}catch(e){t.focus();t.select();document.getElementById('status').textContent='请按Ctrl+C复制所选代码。'}};</script></html>

@@ -1,0 +1,27 @@
+{
+  "full_images": 4,
+  "source_RGB_unchanged": true,
+  "full_image_wh": [
+    2541,
+    1867
+  ],
+  "old_patches_verified_pixel_exact": 60,
+  "old_patch_size": [
+    448,
+    448
+  ],
+  "A_offset_xy": [
+    0,
+    0
+  ],
+  "B_offset_from_old_region_xy": [
+    -2,
+    1132
+  ],
+  "nondata_separator_y": [
+    1108,
+    1132
+  ],
+  "actual_user_annotations_received": false,
+  "legacy_file_address_not_remotely_accessible": true
+}

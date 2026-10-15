@@ -1,0 +1,30 @@
+[
+  {
+    "name": "T1_multiregion_RGB.png",
+    "period": 1,
+    "width": 2541,
+    "height": 1867,
+    "sha256": "4bbbe96d30015f8b1fb719095c2ce90bedca23291a03c6582d6bc65719f98e86"
+  },
+  {
+    "name": "T2_multiregion_RGB.png",
+    "period": 2,
+    "width": 2541,
+    "height": 1867,
+    "sha256": "98c4735809480b6bc6de54218d0e7d2a97d9f21a4ad75dc8d797fc7620249a0d"
+  },
+  {
+    "name": "T3_multiregion_RGB.png",
+    "period": 3,
+    "width": 2541,
+    "height": 1867,
+    "sha256": "0484e8cec9bc784c2190af4e1651055b71c51c22d31f385b24203471d28b9176"
+  },
+  {
+    "name": "T4_multiregion_RGB.png",
+    "period": 4,
+    "width": 2541,
+    "height": 1867,
+    "sha256": "257042bd6079ac405ef592b8df2fa895ca9142ad327b9a8cb5586776332c2376"
+  }
+]

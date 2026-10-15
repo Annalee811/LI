@@ -1,0 +1,7 @@
+{
+  "normal_images": 8,
+  "fallback_images": 8,
+  "missing_temporary_image_uses_existing_manifest": true,
+  "software_fixture_only": true,
+  "actual_user_annotations_received": false
+}
