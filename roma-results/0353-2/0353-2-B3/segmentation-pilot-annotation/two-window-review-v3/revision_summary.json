@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "windows": [
+    "B3_A0_C0",
+    "B3_A0_C1"
+  ],
+  "image_count": 8,
+  "periods": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "T1_all_existing_baseline": true,
+  "original_RGB_unchanged": true,
+  "independent_human_ground_truth": false,
+  "root_boundary_and_correspondence_review_pending": true,
+  "software_checks_passed": 26,
+  "scientific_accuracy_not_evaluated": true,
+  "biological_death_not_assessed": true
+}

@@ -1,0 +1,144 @@
+{
+  "checks": [
+    {
+      "name": "exactly two windows, eight original images and seven annotation layers",
+      "pass": true
+    },
+    {
+      "name": "all T1 roots are baseline, with no newborn or persistent claim",
+      "pass": true
+    },
+    {
+      "name": "T1 controls prohibit newborn, elongation and persistence",
+      "pass": true
+    },
+    {
+      "name": "root and scene labels agree, non-root pixels have no root attributes",
+      "pass": true
+    },
+    {
+      "name": "unpainted background remains unreviewed",
+      "pass": true
+    },
+    {
+      "name": "no biological death or birth inferred in supplied labels",
+      "pass": true
+    },
+    {
+      "name": "uncertainty hidden by default and opacity adjustable",
+      "pass": true
+    },
+    {
+      "name": "all eight originals open and every period has a distinct root mask",
+      "pass": true
+    },
+    {
+      "name": "root ID one has four-period panels in first window",
+      "pass": true
+    },
+    {
+      "name": "four-period tracking switches to second window",
+      "pass": true
+    },
+    {
+      "name": "render independent layer overview",
+      "pass": true
+    },
+    {
+      "name": "render independent layer cohort",
+      "pass": true
+    },
+    {
+      "name": "render independent layer scene",
+      "pass": true
+    },
+    {
+      "name": "render independent layer color",
+      "pass": true
+    },
+    {
+      "name": "render independent layer temporal",
+      "pass": true
+    },
+    {
+      "name": "render independent layer viability",
+      "pass": true
+    },
+    {
+      "name": "T1 paint forces baseline despite stale attribute controls",
+      "pass": true
+    },
+    {
+      "name": "Ctrl+Z restores all seven arrays",
+      "pass": true
+    },
+    {
+      "name": "object brush 2 clears root classification",
+      "pass": true
+    },
+    {
+      "name": "object brush 3 clears root classification",
+      "pass": true
+    },
+    {
+      "name": "object brush 4 clears root classification",
+      "pass": true
+    },
+    {
+      "name": "object brush 0 clears root classification",
+      "pass": true
+    },
+    {
+      "name": "all eight images round-trip every label array",
+      "pass": true
+    },
+    {
+      "name": "save project includes all eight without human review",
+      "pass": true
+    },
+    {
+      "name": "persistent root and T1 baseline origin are independent",
+      "pass": true
+    },
+    {
+      "name": "reviewed software fixture exports ZIP",
+      "pass": true
+    }
+  ],
+  "rgba_hashes": [
+    {
+      "name": "B3_A0_C0_T1.png",
+      "sha256": "65bb59404dba8b8a192fc316cef59b5ae5b70c139f5cbe1ecc94bc8f448f783c"
+    },
+    {
+      "name": "B3_A0_C0_T2.png",
+      "sha256": "c1ebc977ccd164516270cda82159f6cb797a54e3c12cdafce74d53ed82ba9f45"
+    },
+    {
+      "name": "B3_A0_C0_T3.png",
+      "sha256": "b09a280ff8000402b44c98015f8044df89e68c2fe6ea3b5fbdd49cac37bae591"
+    },
+    {
+      "name": "B3_A0_C0_T4.png",
+      "sha256": "8bd96ef8b795ff952d851ae3d8466b77b6efc8d74ffebb9b107f81924f719fde"
+    },
+    {
+      "name": "B3_A0_C1_T1.png",
+      "sha256": "cc5dcafe16b59633f9fe625ba330160edce6b924c00cbd81b5c6c0c7d9ed4208"
+    },
+    {
+      "name": "B3_A0_C1_T2.png",
+      "sha256": "9503353f213fa44e72992e09ce72f42054821ff6dfb0e110c233ac2ab3f6cdf6"
+    },
+    {
+      "name": "B3_A0_C1_T3.png",
+      "sha256": "df0dde7a2b66b6579023e6741f8292c3049d343f31b4ff00d917b4a559fa5fa7"
+    },
+    {
+      "name": "B3_A0_C1_T4.png",
+      "sha256": "a993b1f5e81790cf773b6a5278110bb786f7ed607e5e65b9b0dfe5d18e76bcf2"
+    }
+  ],
+  "software_only": true,
+  "scientific_accuracy_not_evaluated": true
+}
