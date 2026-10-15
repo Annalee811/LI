@@ -1,0 +1,93 @@
+{
+  "checks": [
+    {
+      "name": "same original 60 images load for fresh manual annotation",
+      "pass": true
+    },
+    {
+      "name": "maximum zoom input and slider are 60",
+      "pass": true
+    },
+    {
+      "name": "60x uses original-sized RGB and label buffers",
+      "pass": true
+    },
+    {
+      "name": "zoom cannot exceed 60",
+      "pass": true
+    },
+    {
+      "name": "period 2 keeps 10x and native center",
+      "pass": true
+    },
+    {
+      "name": "period 3 keeps 10x and native center",
+      "pass": true
+    },
+    {
+      "name": "period 4 keeps 10x and native center",
+      "pass": true
+    },
+    {
+      "name": "period 1 keeps 10x and native center",
+      "pass": true
+    },
+    {
+      "name": "another image keeps 60x and native center",
+      "pass": true
+    },
+    {
+      "name": "tools stay beside zoomed viewport",
+      "pass": true
+    },
+    {
+      "name": "pan moves viewport without painting or changing RGB",
+      "pass": true
+    },
+    {
+      "name": "choosing a class leaves pan mode and keeps magnification",
+      "pass": true
+    },
+    {
+      "name": "60x stroke hits correct native pixel and class",
+      "pass": true
+    },
+    {
+      "name": "undo at 60x restores labels without changing view",
+      "pass": true
+    },
+    {
+      "name": "same-window period shortcut keeps 60x and position",
+      "pass": true
+    },
+    {
+      "name": "typed zoom applies correctly",
+      "pass": true
+    },
+    {
+      "name": "slider supports high zoom",
+      "pass": true
+    }
+  ],
+  "rgba": [
+    {
+      "name": "B3_A0_C0_T1.png",
+      "rgba_sha256": "65bb59404dba8b8a192fc316cef59b5ae5b70c139f5cbe1ecc94bc8f448f783c"
+    },
+    {
+      "name": "B3_A0_C0_T2.png",
+      "rgba_sha256": "c1ebc977ccd164516270cda82159f6cb797a54e3c12cdafce74d53ed82ba9f45"
+    },
+    {
+      "name": "B3_A0_C0_T3.png",
+      "rgba_sha256": "b09a280ff8000402b44c98015f8044df89e68c2fe6ea3b5fbdd49cac37bae591"
+    },
+    {
+      "name": "B3_A0_C0_T4.png",
+      "rgba_sha256": "8bd96ef8b795ff952d851ae3d8466b77b6efc8d74ffebb9b107f81924f719fde"
+    }
+  ],
+  "scope": "UI only; original images and label schema",
+  "no_existing_annotations_cleared": true,
+  "software_only": true
+}

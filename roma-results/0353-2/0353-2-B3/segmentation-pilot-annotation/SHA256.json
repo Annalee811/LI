@@ -3,7 +3,7 @@
   "0353-2-B3_human_annotation_kit_v2.zip": "1b981f882c1a76985bc0f21bfea63741a78fa232187599cc68505b286a5688f9",
   "0353-2-B3_human_annotation_kit_v3.zip": "06bd659ab339020d22c20044047f564f26d4cae759b2576988071b2be006c4f6",
   "0353-2-B3_human_annotation_kit_v4.zip": "b527479c6e98e270f39100fbb96e7f840b1867a1dcc1ab597fb86f1509d7f066",
-  "README.md": "7dd5f9037aead81f9ab76b86604eadfe9e1214d0f01126972708cad9144deb87",
+  "README.md": "2b348c7d6e79a64259a4a8a9fd76189516caf1f35c1ba1a8cee5fb56a2220a5a",
   "annotate.html": "b2d7cac73f7eabc2c7c25d4e490162b02ed10959923e7cf72adb18197ae81380",
   "annotation_protocol.md": "442ffb3e7030fce842265aac4c1dd91c767c3f5d2e90624a088dea874be4fea0",
   "baseline-review-v2/0353-2-B3_baseline_review_v2.zip": "e94d5f9d6bde33b7c774f6750475c4f6ccb06773e71a88468df562f13274a1b3",
@@ -1511,5 +1511,13 @@
   "full-image-annotation-v1/recovery_validation.json": "dda9dabcfb1a6edd912ee314a744c5402c5d4a38b797a70c47661e0959fd0ec8",
   "full-image-annotation-v1/source_images.json": "a9add43696e312ef103536c0ef5d33514285629c9990f9da12818cebd221aa3a",
   "full-image-annotation-v1/toolbar_preview.png": "4fcc927314a5033cbcc18e71e53520f32e0e37936e17e544b4d7737de3c9c252",
-  "full-image-annotation-v1/\u5148\u4fdd\u5168\u65e7\u6807\u6ce8.html": "174adff9fe2179ce324fd008f4286eb2e83c8766a93e18bbb7d965927905f573"
+  "full-image-annotation-v1/\u5148\u4fdd\u5168\u65e7\u6807\u6ce8.html": "174adff9fe2179ce324fd008f4286eb2e83c8766a93e18bbb7d965927905f573",
+  "legacy-zoom60-v1/browser_validation.json": "ad8ceae2c76b03b8f42438d7be244a32be827464fd59f311f73258a0f44abb87",
+  "legacy-zoom60-v1/toolbar_preview.png": "0b38b4c89ee601ffa5f24450c7d85c021d0fcd3f82df32ee2e33c1b7a865520a",
+  "legacy-zoom60-v1/annotate.html": "a1299ffa452ccfd20bec04369777fcfc5fc0fcceb71e078f1bd6667e434cc7b5",
+  "legacy-zoom60-v1/SHA256.json": "5e3b429b815c252adbdc9fdc1534a2ec1347500971e7b549c1eabff806eca6cc",
+  "legacy-zoom60-v1/README.md": "84e282d3ce278ba4648903167eb64a407362659cfe226416551c9e837e478bd7",
+  "legacy-zoom60-v1/site_manifest.json": "74fc2ba760426d5b824df95accb97c36e82d68c3112af9ba9497c8dba46ee489",
+  "legacy-zoom60-v1/legacy_zoom60_patch.js": "eb9c27e2ae6f94a7596ccfbdd3b8f8d3d52cfcc11b32571e034ffc5f9b5fd4d1",
+  "legacy-zoom60-v1/0353-2-B3_legacy_zoom60_v1.zip": "fbd9ee0d17fc348ab8d7fdaa8c1cab6c2df4109ce61c5efe13094db4838e0ca9"
 }
