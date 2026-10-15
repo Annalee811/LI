@@ -1,0 +1,602 @@
+[
+  {
+    "image_id": "B3_A0_C0_T1",
+    "root_pixels": 5224,
+    "baseline_root_pixels": 5224,
+    "root_state_unclassified_pixels": 5224,
+    "water_pixels": 93404,
+    "soil_pixels": 47671,
+    "unreviewed_pixels": 54393,
+    "review_status": "example_retraced_pending_person_review"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "root_pixels": 4196,
+    "baseline_root_pixels": 3491,
+    "root_state_unclassified_pixels": 2375,
+    "water_pixels": 65036,
+    "soil_pixels": 101051,
+    "unreviewed_pixels": 30421,
+    "review_status": "example_retraced_pending_person_review"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "root_pixels": 4625,
+    "baseline_root_pixels": 3616,
+    "root_state_unclassified_pixels": 1357,
+    "water_pixels": 0,
+    "soil_pixels": 119023,
+    "unreviewed_pixels": 77056,
+    "review_status": "example_retraced_pending_person_review"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "root_pixels": 4501,
+    "baseline_root_pixels": 3500,
+    "root_state_unclassified_pixels": 2002,
+    "water_pixels": 0,
+    "soil_pixels": 119487,
+    "unreviewed_pixels": 76605,
+    "review_status": "example_retraced_pending_person_review"
+  },
+  {
+    "image_id": "B3_A0_C1_T1",
+    "root_pixels": 2309,
+    "baseline_root_pixels": 2309,
+    "root_state_unclassified_pixels": 2309,
+    "water_pixels": 185046,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 5678,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C1_T2",
+    "root_pixels": 4264,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4264,
+    "water_pixels": 173231,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 16638,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C1_T3",
+    "root_pixels": 7882,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 7882,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 189819,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C1_T4",
+    "root_pixels": 7207,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 7207,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 189778,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C2_T1",
+    "root_pixels": 3104,
+    "baseline_root_pixels": 3104,
+    "root_state_unclassified_pixels": 3104,
+    "water_pixels": 184688,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 4489,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C2_T2",
+    "root_pixels": 4846,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4846,
+    "water_pixels": 181751,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 6529,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C2_T3",
+    "root_pixels": 9556,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 9556,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 188163,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C2_T4",
+    "root_pixels": 9565,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 9565,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 188243,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C3_T1",
+    "root_pixels": 2731,
+    "baseline_root_pixels": 2731,
+    "root_state_unclassified_pixels": 2731,
+    "water_pixels": 187930,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 4380,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C3_T2",
+    "root_pixels": 3440,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 3440,
+    "water_pixels": 183526,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 8468,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C3_T3",
+    "root_pixels": 7631,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 7631,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 191745,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C3_T4",
+    "root_pixels": 7641,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 7641,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 191523,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C4_T1",
+    "root_pixels": 2752,
+    "baseline_root_pixels": 2752,
+    "root_state_unclassified_pixels": 2752,
+    "water_pixels": 47968,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 146291,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C4_T2",
+    "root_pixels": 3588,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 3588,
+    "water_pixels": 40573,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 153181,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C4_T3",
+    "root_pixels": 4958,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4958,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193909,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A0_C4_T4",
+    "root_pixels": 4469,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4469,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193723,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C0_T1",
+    "root_pixels": 2942,
+    "baseline_root_pixels": 2942,
+    "root_state_unclassified_pixels": 2942,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193778,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C0_T2",
+    "root_pixels": 3678,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 3678,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193500,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C0_T3",
+    "root_pixels": 4209,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4209,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193560,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C0_T4",
+    "root_pixels": 3668,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 3668,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193426,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C1_T1",
+    "root_pixels": 1905,
+    "baseline_root_pixels": 1905,
+    "root_state_unclassified_pixels": 1905,
+    "water_pixels": 173313,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 18754,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C1_T2",
+    "root_pixels": 4218,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4218,
+    "water_pixels": 66094,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 124989,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C1_T3",
+    "root_pixels": 6275,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 6275,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 191101,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C1_T4",
+    "root_pixels": 6127,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 6127,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 190786,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C2_T1",
+    "root_pixels": 2567,
+    "baseline_root_pixels": 2567,
+    "root_state_unclassified_pixels": 2567,
+    "water_pixels": 184918,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 4822,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C2_T2",
+    "root_pixels": 5542,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 5542,
+    "water_pixels": 155419,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 33198,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C2_T3",
+    "root_pixels": 8617,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 8617,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 188701,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C2_T4",
+    "root_pixels": 6963,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 6963,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 188688,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C3_T1",
+    "root_pixels": 1893,
+    "baseline_root_pixels": 1893,
+    "root_state_unclassified_pixels": 1893,
+    "water_pixels": 186768,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 5074,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C3_T2",
+    "root_pixels": 3543,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 3543,
+    "water_pixels": 168823,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 22461,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C3_T3",
+    "root_pixels": 8697,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 8697,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 190953,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C3_T4",
+    "root_pixels": 8448,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 8448,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 190908,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C4_T1",
+    "root_pixels": 3411,
+    "baseline_root_pixels": 3411,
+    "root_state_unclassified_pixels": 3411,
+    "water_pixels": 117923,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 75485,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C4_T2",
+    "root_pixels": 4167,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4167,
+    "water_pixels": 96424,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 96575,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C4_T3",
+    "root_pixels": 5591,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 5591,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193181,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_A1_C4_T4",
+    "root_pixels": 5630,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 5630,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193059,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C0_T1",
+    "root_pixels": 4852,
+    "baseline_root_pixels": 4852,
+    "root_state_unclassified_pixels": 4852,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 192170,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C0_T2",
+    "root_pixels": 6051,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 6051,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 191866,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C0_T3",
+    "root_pixels": 6327,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 6327,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 192267,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C0_T4",
+    "root_pixels": 4245,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4245,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 192450,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C1_T1",
+    "root_pixels": 3455,
+    "baseline_root_pixels": 3455,
+    "root_state_unclassified_pixels": 3455,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193616,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C1_T2",
+    "root_pixels": 5052,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 5052,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193293,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C1_T3",
+    "root_pixels": 4893,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4893,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193633,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C1_T4",
+    "root_pixels": 4408,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4408,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193779,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C2_T1",
+    "root_pixels": 2580,
+    "baseline_root_pixels": 2580,
+    "root_state_unclassified_pixels": 2580,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193788,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C2_T2",
+    "root_pixels": 3444,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 3444,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193434,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C2_T3",
+    "root_pixels": 4906,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4906,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193717,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C2_T4",
+    "root_pixels": 4237,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4237,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 193608,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C3_T1",
+    "root_pixels": 3667,
+    "baseline_root_pixels": 3667,
+    "root_state_unclassified_pixels": 3667,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 192188,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C3_T2",
+    "root_pixels": 4831,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4831,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 191933,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C3_T3",
+    "root_pixels": 6136,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 6136,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 192298,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C3_T4",
+    "root_pixels": 4854,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4854,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 192007,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C4_T1",
+    "root_pixels": 2757,
+    "baseline_root_pixels": 2757,
+    "root_state_unclassified_pixels": 2757,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 194618,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C4_T2",
+    "root_pixels": 2848,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 2848,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 194468,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C4_T3",
+    "root_pixels": 4144,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 4144,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 194577,
+    "review_status": "needs_detailed_root_review"
+  },
+  {
+    "image_id": "B3_B0_C4_T4",
+    "root_pixels": 3100,
+    "baseline_root_pixels": 0,
+    "root_state_unclassified_pixels": 3100,
+    "water_pixels": 0,
+    "soil_pixels": 0,
+    "unreviewed_pixels": 194602,
+    "review_status": "needs_detailed_root_review"
+  }
+]

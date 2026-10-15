@@ -1,3 +1,11 @@
+# 最新：T1已有根与示范窗补根修订v2
+
+[下载可编辑页面及示范四期结果](baseline-review-v2/0353-2-B3_baseline_review_v2.zip)
+
+示范窗4张重新描画；其余56张仅保守清理，尚未逐根精修。来源批次与持续状态已分开；T1统一为已有根。下方旧版不是合格人工精标结果。
+
+---
+
 最新：已内置60张待复核标注。直接打开 annotate.html 修改；下载完整结果用 reviewable-annotations/0353-2-B3_reviewable_annotations_v1.zip。保存全部修改为项目JSON，下次可恢复。详见 reviewable-annotations/README.md。
 
 # 0353-2-B3 待人工标注图包

@@ -1,3 +1,11 @@
+# 最新：T1已有根与示范窗补根修订v2
+
+[下载可编辑页面及示范四期结果](segmentation-pilot-annotation/baseline-review-v2/0353-2-B3_baseline_review_v2.zip)
+
+示范窗4张重新描画；其余56张仅保守清理，尚未逐根精修。来源批次与持续状态已分开；T1统一为已有根。下方旧版不是合格人工精标结果。
+
+---
+
 # 最新：60张根系待复核标注，可直接修改
 
 [下载原图、标注与可编辑页面](segmentation-pilot-annotation/reviewable-annotations/0353-2-B3_reviewable_annotations_v1.zip) · [使用说明](segmentation-pilot-annotation/reviewable-annotations/README.md)

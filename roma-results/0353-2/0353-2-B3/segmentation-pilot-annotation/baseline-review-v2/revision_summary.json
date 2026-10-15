@@ -1,0 +1,22 @@
+{
+  "position": "0353-2-B3",
+  "project_images": 60,
+  "period_specific_example_retraces": 4,
+  "example_window": "B3_A0_C0",
+  "remaining_images_not_fully_retraced": 56,
+  "T1_rule": "Every root visible in T1 is an existing baseline root. No newborn/growing/persistent state is assigned in T1.",
+  "independent_fields": [
+    "root_first_observed_cohort",
+    "current_temporal_state",
+    "object_scene_class",
+    "local_root_id"
+  ],
+  "confirmed_biological_birth_or_death": false,
+  "unreviewed_regions_are_not_background_truth": true,
+  "background_layer": "Droplet proposals constrained to selected wet zones and manually chosen soil interiors; not complete person-verified semantic segmentation.",
+  "revision_limitations": "Other 56 images only received fragment/water-rim retractions and removal of unsupported temporal claims. They have NOT received a complete root-by-root redraw. Example paths and apparent pixel widths still need person review.",
+  "source": "assistant visual tracing guided by user screenshots; not independent human truth",
+  "real_human_reviewed_images": 0,
+  "segmentation_accuracy_metrics": null,
+  "software_browser_checks": 24
+}

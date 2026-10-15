@@ -1,0 +1,714 @@
+[
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 1,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 2,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 3,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 4,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 5,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 6,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 7,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 8,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 9,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 10,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 11,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 12,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 13,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 14,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 15,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 16,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 17,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 18,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 19,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 20,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 21,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 22,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 23,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 28,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T1",
+    "local_root_id": 29,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "T1_visible_continuation_only",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 1,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 2,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 3,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 4,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 5,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 6,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 7,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 8,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 9,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 10,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 12,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 13,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 15,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 17,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 18,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 20,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 21,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 22,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 23,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 24,
+    "first_observed_cohort": 2,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 25,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T2",
+    "local_root_id": 26,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 1,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 2,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 3,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 4,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 5,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 6,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 7,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 8,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 9,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 10,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 12,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 13,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 14,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 15,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 17,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 18,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 20,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 22,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 23,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 24,
+    "first_observed_cohort": 2,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T3",
+    "local_root_id": 25,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 1,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 2,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 3,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 4,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 5,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 7,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 8,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 9,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 10,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 12,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 13,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 14,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 15,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 17,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 18,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 20,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 22,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 23,
+    "first_observed_cohort": 1,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 24,
+    "first_observed_cohort": 2,
+    "visible": true,
+    "correspondence_status": "visually_supported",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 25,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  },
+  {
+    "image_id": "B3_A0_C0_T4",
+    "local_root_id": 27,
+    "first_observed_cohort": 0,
+    "visible": true,
+    "correspondence_status": "needs_review",
+    "source": "period_specific_visual_trace_guided_by_user_examples"
+  }
+]

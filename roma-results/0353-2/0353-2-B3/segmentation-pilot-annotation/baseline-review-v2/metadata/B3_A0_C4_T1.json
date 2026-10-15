@@ -1,0 +1,26 @@
+{
+  "image_id": "B3_A0_C4_T1",
+  "status": "needs_detailed_root_review",
+  "label_origin": "prior_prefill_with_water_rim_and_fragment_retractions_temporal_claims_removed",
+  "reviewed_entire_image": false,
+  "original_byte_exact": true,
+  "root_first_observed_and_current_state_are_independent": true,
+  "unseen_roots_not_inferred": true,
+  "object_scene_encoding": {
+    "unreviewed": 0,
+    "root": 1,
+    "water_droplet": 2,
+    "soil": 3,
+    "other_background": 4,
+    "uncertain": 5
+  },
+  "source_cohort_encoding": {
+    "unknown": 0,
+    "T1_existing": 1,
+    "first_observed_T2": 2,
+    "first_observed_T3": 3,
+    "first_observed_T4": 4
+  },
+  "droplet_regions": "circle proposals restricted to visually wet zones; require review",
+  "no_birth_or_death_proven": true
+}
