@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "zip_masks_keep_original_dimensions": [
+    2541,
+    1867
+  ],
+  "export_during_image_switch_retains_source_frame": true,
+  "image_and_mask_sha256_valid": true,
+  "unfinished_progress_saved": true,
+  "test_data": "synthetic_only"
+}

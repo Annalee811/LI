@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>根系标注 · 自选图片版</title>
+<style>
+body{font:15px/1.6 system-ui,sans-serif;margin:0;background:#f3f5f4;color:#20372e}header{background:#fff;padding:18px 24px;border-bottom:1px solid #d5ded8}h1{font-size:22px;margin:0 0 6px}main{display:flex;gap:22px;padding:20px;flex-wrap:wrap}.controls{width:345px}label{display:block;margin:10px 0}input,select,button{font:inherit}button{border:1px solid #a9bbb0;border-radius:6px;background:white;padding:7px 12px;margin:4px;cursor:pointer}button.active{background:#335d49;color:white}select,input[type=text]{max-width:320px;width:100%;padding:5px;box-sizing:border-box}input[type=checkbox]{width:auto}.view{background:white;padding:12px;border-radius:8px}.stage{position:relative;width:672px;aspect-ratio:1;max-width:90vw;touch-action:none;background:#ccc;overflow:hidden}.stage canvas{position:absolute;width:100%;height:100%;image-rendering:auto}#overlay{cursor:crosshair;touch-action:none}small{display:block;color:#52645b}.status{white-space:pre-wrap;margin:10px 0;color:#354e41}.tip{padding:10px;background:#e7eee9;border-radius:6px}#queue{width:100%;min-height:85px}a{color:#315e47}.swatch{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;border:1px solid #777;vertical-align:middle}.palette button{padding:5px 8px}.palette button.active{outline:2px solid #20372e;background:white;color:#20372e}#legend{font-size:13px}#legend span{display:inline-block;margin:2px 8px 2px 0}
+</style>
+<header><h1>根系标注 · 自选图片版</h1><div>自行选择完整 RGB 或裁剪图 · 保持原始像素尺寸 · 最高60倍显示</div></header>
+<main><section class="controls">
+<label>选择图片文件夹<input id="files" type="file" accept="image/*" multiple webkitdirectory></label>
+<label>或选择一张／多张图片<input id="imagefiles" type="file" accept="image/*" multiple></label>
+<button id="saveProject">保存全部标注进度 JSON</button>
+<label>恢复已保存的标注进度<input id="projectfile" type="file" accept=".json,application/json"></label>
+<div id="importStatus" role="status" class="tip">请选择你自己的图片，可多选；不限定文件名、数量或448×448。</div>
+<select id="queue" size="4"></select>
+<div><button id="prev">上一张</button><button id="next">下一张</button><button id="undo" title="Ctrl+Z；Mac：⌘Z">撤销一笔（Ctrl+Z）</button></div>
+<div><button id="fg" class="active">根系</button><button id="bg">擦除／背景</button><button id="ignore">不确定</button></div>
+<div class="palette" id="palette" aria-label="根系分类画笔"></div>
+<small>点选分类颜色后描画；已有标注保留各自颜色。自定义组合可在下方属性中设置。</small>
+<div id="brushPreview" class="tip" role="status"></div>
+<label>笔刷直径：<span id="brushLabel">3</span> 个原始像素<input id="brush" type="range" min="1" max="60" value="3"></label>
+<label>显示放大倍数<select id="zoom"><option value="1">1 倍</option><option value="1.5" selected>1.5 倍</option><option value="2">2 倍</option><option value="3">3 倍</option></select></label>
+<label><input id="show" type="checkbox" checked> 显示标注覆盖层</label>
+<label>覆盖层显示<select id="displayLayer"><option value="overview">综合分类</option><option value="color">颜色／褐变属性</option><option value="temporal">时序属性</option><option value="viability">存活／死亡属性</option></select></label>
+<div id="legend" aria-label="当前分类色标"></div>
+<small>综合显示优先级：死亡判断 → 褐变 → 时序 → 其他颜色或存活属性。可切换属性层分别核对；切换显示不修改标注。</small>
+<details><summary>可选：颜色、时序与死亡属性</summary>
+<small>不确定时保持“未判定”。这些属性可以并存，不替代根系边界标注。</small>
+<label>颜色<select id="color"><option value="0">未判定</option><option value="1">白色／浅色</option><option value="2">褐变／深色</option></select></label>
+<label>时序<select id="temporal"><option value="0">未判定</option><option value="1">首次观察／新生候选</option><option value="2">延伸生长</option><option value="3">持续存在</option></select></label>
+<label>存活／死亡<select id="viability"><option value="0">未判定</option><option value="1">有存活证据</option><option value="2">疑似死亡</option><option value="3">人工确认死亡</option></select></label>
+<label>跨期对应或死亡判断依据<input id="evidence" type="text" placeholder="例如：相同根ID的连续观察或独立验证"></label>
+<small>褐变、反光、遮挡或一次未观察到均不能自动确认死亡。可见死亡根仍属于根系前景。</small>
+</details>
+<details><summary>以 T1 为基线：该怎样标？需要标多少？</summary>
+<small>T1：把全部可见根标为蓝色“未分类根”，作为基线；不因首次拍到就标为新生。T2—T4：先完整标出本期所有可见根；可靠对应的已有部分可标紫色持续根，首次出现的独立根标绿色新生候选，同一根新延伸的部分标黄色。褐变和存活属性可以另外叠加。</small>
+<small>空间以T1为基准；变化同时对照上一期，记录根ID及首次观察时期，避免把T2新生根在T3又算作新生。新生和延伸只画新增部分，不把整条旧根都算新增。消失、遮挡不自动等于死亡；无法判断时保留属性未判定。</small>
+<small>可以分批完成，但每张选中的图必须标全可辨认根的实际宽度，不只描中心线、不只挑几条。难以辨认的区域用灰色“不确定”；时序等属性可暂不分类。先完成完整 RGB 标注，再按空间位置划分和裁剪训练、验证、测试集；同一区域的四期应分在同一组。</small>
+</details>
+<label>标注者<input id="annotator" type="text" placeholder="姓名或实验室编号"></label>
+<label><input id="reviewed" type="checkbox"> 我已检查整张图，未画区域可确认为背景</label>
+<small>先标出可辨认的完整根系边界，将无法区分的区域标为“不确定”。勾选整图复核后才能导出。</small>
+<button id="export">导出本张人工标注 ZIP</button>
+<div class="tip">蓝色：未分类根；绿色：新生候选；黄色：延伸生长；紫色：持续根；棕色：褐变；橙色：疑似死亡；红色：确认死亡；灰色：不确定区域。尽量沿实际根宽标注，水滴亮边、裂缝和颗粒不能因为细长就标成根。选错可用“擦除／背景”。</div>
+<div id="status" class="status">请选择你自己的 PNG、JPG、WebP 或 BMP 图片。
+本页离线运行，不上传图片。关闭页面前请导出标注。</div>
+</section><section class="view"><div id="name"></div><div class="stage" id="stage"><canvas id="image" width="448" height="448"></canvas><canvas id="overlay" width="448" height="448" tabindex="0" aria-label="根系标注画布"></canvas></div><small>预览保持原始宽高比例；标注与导出均保持所选图片的原始宽高和像素坐标。</small></section></main>
+<script id="embedded-dataset" type="application/json">[]</script>
+<script id="expected-images" type="application/json">{}</script>
+<script>
+'use strict';
+let W=448,H=448,N=W*H;
+const $=id=>document.getElementById(id),imgctx=$('image').getContext('2d'),ovctx=$('overlay').getContext('2d');
+let files=[],index=-1,mode=255,painting=false,last=null,active=null,states=new Map(),selectionToken=0;
+const utf8=new TextEncoder();
+let previewWidth=W,previewHeight=W;
+function importStatus(text){$('importStatus').textContent=text}
+function editEnabled(enabled){for(const id of ['fg','bg','ignore','undo','reviewed','export','color','temporal','viability','evidence'])$(id).disabled=!enabled;document.querySelectorAll('#palette button').forEach(b=>b.disabled=!enabled)}
+function sizeStage(){const stage=$('stage');stage.style.width=(W*Number($('zoom').value))+'px';stage.style.height='auto';stage.style.aspectRatio=previewWidth+' / '+previewHeight}
+async function decodeImage(file){
+ if(typeof createImageBitmap==='function'){try{return await createImageBitmap(file)}catch(e){/* Use HTMLImageElement when bitmap decoding is unsupported. */}}
+ const url=URL.createObjectURL(file),im=new Image();
+ try{await new Promise((resolve,reject)=>{im.onload=resolve;im.onerror=()=>reject(Error('浏览器不能解码这张图片'));im.src=url});return im}finally{URL.revokeObjectURL(url)}
+}
+function fresh(key,name,hash){return{key,name,image_sha256:hash,width:W,height:H,mask:new Uint8Array(N).fill(64),color:new Uint8Array(N),temporal:new Uint8Array(N),viability:new Uint8Array(N),reviewed:false,evidence:'',undo:[],modified:false}}
+function status(message){$('status').textContent=message}
+function remember(){if(!active)return;active.reviewed=$('reviewed').checked;active.evidence=$('evidence').value;states.set(active.key,active)}
+async function select(i){
+ if(i<0||i>=files.length)return;
+ if(painting)end();remember();if(active&&index!==i)active.undo=[];
+ const token=++selectionToken;index=i;const f=files[i];active=null;editEnabled(false);
+ $('reviewed').checked=false;$('name').textContent=f.name;$('queue').value=String(i);
+ ovctx.clearRect(0,0,$('overlay').width,$('overlay').height);importStatus('正在打开：'+f.name);
+ try{
+  const im=await decodeImage(f);
+  if(token!==selectionToken){if(typeof im.close==='function')im.close();return}
+  previewWidth=im.width||im.naturalWidth;previewHeight=im.height||im.naturalHeight;W=previewWidth;H=previewHeight;N=W*H;
+  for(const id of ['image','overlay']){$(id).width=previewWidth;$(id).height=previewHeight}
+  imgctx.drawImage(im,0,0);if(typeof im.close==='function')im.close();sizeStage();
+  const hash=await sha(await f.arrayBuffer());if(token!==selectionToken)return;
+  const key=f.name+':'+hash;active=states.get(key)||fresh(key,f.name,hash);
+  $('reviewed').checked=active.reviewed;$('evidence').value=active.evidence;editEnabled(true);render();
+  importStatus('可标注：'+f.name+'（'+(i+1)+'/'+files.length+'）｜'+W+'×'+H+' 原始像素');
+  status('沿实际根宽标注。随时点“保存全部标注进度 JSON”，未完成也可保存；恢复时选择相同原图。');
+
+ }catch(e){
+  if(token!==selectionToken)return;active=null;editEnabled(false);imgctx.clearRect(0,0,$('image').width,$('image').height);
+  importStatus('无法打开 '+f.name+'：'+e.message+'。请选PNG/JPG/WebP，。');status('图片读取失败，未生成任何标注。');
+ }
+}
+async function loadFiles(input){
+ remember();active=null;editEnabled(false);++selectionToken;
+ const chosen=[...input];files=chosen.filter(f=>/\.(png|jpe?g|webp|bmp)$/i.test(f.name)).sort((a,b)=>a.name.localeCompare(b.name));index=-1;$('queue').innerHTML='';
+ files.forEach((f,i)=>{const o=document.createElement('option');o.value=String(i);o.textContent=f.name;$('queue').append(o)});
+ if(files.length){importStatus('读取到'+files.length+'张图片；其他'+(chosen.length-files.length)+'个文件未作为图片读取。');await select(0)}
+ else{imgctx.clearRect(0,0,$('image').width,$('image').height);ovctx.clearRect(0,0,$('overlay').width,$('overlay').height);$('name').textContent='';importStatus('未找到可预览的PNG/JPG/WebP/BMP图片。请先解压图片后再选择。')}
+}
+$('files').onchange=e=>loadFiles(e.target.files);
+$('imagefiles').onchange=e=>loadFiles(e.target.files);
+$('queue').onchange=e=>select(Number(e.target.value));$('prev').onclick=()=>select(index-1);$('next').onclick=()=>select(index+1);
+function setMode(v,id){mode=v;['fg','bg','ignore'].forEach(x=>$(x).classList.toggle('active',x===id));updateBrushPreview()}
+$('fg').onclick=()=>setMode(255,'fg');$('bg').onclick=()=>setMode(0,'bg');$('ignore').onclick=()=>setMode(128,'ignore');
+$('brush').oninput=()=>{$('brushLabel').textContent=$('brush').value};$('zoom').onchange=sizeStage;
+$('show').onchange=render;$('reviewed').onchange=()=>{if(active)active.reviewed=$('reviewed').checked};
+// Display colors never replace the scientific mask codes or attribute layers.
+const classes={root:{label:'未分类根',rgb:[37,99,235]},light:{label:'浅色根',rgb:[6,182,212],color:1},brown:{label:'褐变根',rgb:[166,92,39],color:2},new:{label:'新生候选',rgb:[22,163,74],temporal:1},growing:{label:'延伸生长',rgb:[234,179,8],temporal:2},persistent:{label:'持续根',rgb:[147,51,234],temporal:3},live:{label:'有存活证据',rgb:[13,148,136],viability:1},suspected:{label:'疑似死亡',rgb:[249,115,22],viability:2},dead:{label:'确认死亡',rgb:[220,38,38],viability:3},ignore:{label:'不确定区域',rgb:[148,163,184]}};
+const maps={color:['root','light','brown'],temporal:['root','new','growing','persistent'],viability:['root','live','suspected','dead']};
+function category(color,temporal,viability,layer){
+ if(layer!=='overview')return maps[layer][{color,temporal,viability}[layer]]||'root';
+ if(viability===3)return 'dead';if(viability===2)return 'suspected';if(color===2)return 'brown';
+ if(temporal)return maps.temporal[temporal]||'root';if(color===1)return 'light';if(viability===1)return 'live';return 'root';
+}
+function swatch(key){const c=classes[key];return '<i class="swatch" style="background:rgb('+c.rgb.join(',')+')"></i>'+c.label}
+function updateBrushPreview(){
+ const c=Number($('color').value),t=Number($('temporal').value),v=Number($('viability').value);
+ const key=mode===128?'ignore':category(c,t,v,$('displayLayer').value);
+ $('brushPreview').innerHTML=mode===0?'当前画笔：擦除／背景':'当前画笔：'+swatch(key);
+ document.querySelectorAll('#palette button').forEach(b=>{const x=classes[b.dataset.category];b.classList.toggle('active',mode===255&&c===(x.color||0)&&t===(x.temporal||0)&&v===(x.viability||0))});
+ const keys=$('displayLayer').value==='overview'?Object.keys(classes):[...maps[$('displayLayer').value],'ignore'];
+ $('legend').innerHTML=keys.map(k=>'<span>'+swatch(k)+'</span>').join('');
+}
+for(const key of Object.keys(classes).filter(k=>k!=='ignore')){
+ const b=document.createElement('button');b.type='button';b.dataset.category=key;b.innerHTML=swatch(key);
+ b.onclick=()=>{const c=classes[key];$('color').value=String(c.color||0);$('temporal').value=String(c.temporal||0);$('viability').value=String(c.viability||0);$('displayLayer').value='overview';setMode(255,'fg');render()};$('palette').append(b);
+}
+for(const id of ['color','temporal','viability','displayLayer'])$(id).onchange=()=>{updateBrushPreview();render()};
+function render(){
+ ovctx.clearRect(0,0,$('overlay').width,$('overlay').height);if(!active||!$('show').checked)return;
+ const im=ovctx.createImageData(W,H),layer=$('displayLayer').value;
+ for(let i=0;i<N;i++){const v=active.mask[i],j=4*i;if(v!==255&&v!==128)continue;
+ const key=v===128?'ignore':category(active.color[i],active.temporal[i],active.viability[i],layer);
+ im.data.set(classes[key].rgb,j);im.data[j+3]=175;
+ }ovctx.putImageData(im,0,0);
+}
+updateBrushPreview();
+function xy(e){const b=$('overlay').getBoundingClientRect();return[(e.clientX-b.left)*W/b.width,(e.clientY-b.top)*H/b.height]}
+function dot(x,y){if(Number($('brush').value)===1){const xx=Math.max(0,Math.min(W-1,Math.floor(x))),yy=Math.max(0,Math.min(H-1,Math.floor(y))),i=yy*W+xx;trackPixel(i);active.mask[i]=mode;active.color[i]=mode===255?Number($('color').value):0;active.temporal[i]=mode===255?Number($('temporal').value):0;active.viability[i]=mode===255?Number($('viability').value):0;return}const radius=Number($('brush').value)/2,x0=Math.max(0,Math.floor(x-radius)),x1=Math.min(W-1,Math.ceil(x+radius)),y0=Math.max(0,Math.floor(y-radius)),y1=Math.min(H-1,Math.ceil(y+radius));for(let yy=y0;yy<=y1;yy++)for(let xx=x0;xx<=x1;xx++){if((xx+.5-x)**2+(yy+.5-y)**2>radius**2)continue;const i=yy*W+xx;trackPixel(i);active.mask[i]=mode;active.color[i]=mode===255?Number($('color').value):0;active.temporal[i]=mode===255?Number($('temporal').value):0;active.viability[i]=mode===255?Number($('viability').value):0}}
+function line(a,b){const n=Math.max(1,Math.ceil(Math.hypot(b[0]-a[0],b[1]-a[1])*2));for(let k=0;k<=n;k++)dot(a[0]+(b[0]-a[0])*k/n,a[1]+(b[1]-a[1])*k/n)}
+let strokeBackup=null;
+function backup(){strokeBackup=new Map()}
+function trackPixel(i){if(strokeBackup&&!strokeBackup.has(i))strokeBackup.set(i,[active.mask[i],active.color[i],active.temporal[i],active.viability[i]])}
+function finishBackup(){if(!strokeBackup||!active)return;const n=strokeBackup.size;if(n){const idx=new Uint32Array(n),values=new Uint8Array(n*4);let j=0;for(const [i,v] of strokeBackup){idx[j]=i;values.set(v,j*4);j++}active.undo.push({idx,values});let bytes=active.undo.reduce((n,x)=>n+x.idx.byteLength+x.values.byteLength,0);while(active.undo.length>1&&(bytes>32*1024*1024||active.undo.length>30)){const x=active.undo.shift();bytes-=x.idx.byteLength+x.values.byteLength}}strokeBackup=null}
+$('overlay').onpointerdown=e=>{if(!active||e.button>0)return;e.preventDefault();$('overlay').focus({preventScroll:true});$('overlay').setPointerCapture(e.pointerId);backup();painting=true;last=xy(e);dot(...last);active.modified=true;active.reviewed=false;$('reviewed').checked=false;render()};
+$('overlay').onpointermove=e=>{if(!painting||!active)return;e.preventDefault();const p=xy(e);line(last,p);last=p;render()};
+function end(){finishBackup();painting=false;last=null;remember()};$('overlay').onpointerup=end;$('overlay').onpointercancel=end;
+function undoStroke(){if(!active||painting||!active.undo.length)return;const u=active.undo.pop();for(let j=0;j<u.idx.length;j++){const i=u.idx[j];active.mask[i]=u.values[j*4];active.color[i]=u.values[j*4+1];active.temporal[i]=u.values[j*4+2];active.viability[i]=u.values[j*4+3]}active.modified=true;active.reviewed=false;$('reviewed').checked=false;render();remember()}
+$('undo').onclick=undoStroke;
+window.addEventListener('keydown',e=>{
+ if(e.defaultPrevented||e.isComposing||e.repeat||e.altKey||e.shiftKey||!(e.ctrlKey||e.metaKey)||e.key.toLowerCase()!=='z')return;
+ const target=e.target;if(target instanceof Element&&(target.closest('input,textarea,select')||target.isContentEditable))return;
+ if(!active||painting||$('undo').disabled)return;
+ e.preventDefault();undoStroke();
+});
+async function sha(bytes){return [...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(x=>x.toString(16).padStart(2,'0')).join('')}
+async function png(values,width=W,height=H){const c=document.createElement('canvas');c.width=width;c.height=height;const ctx=c.getContext('2d'),im=ctx.createImageData(width,height);for(let i=0;i<width*height;i++){im.data[i*4]=im.data[i*4+1]=im.data[i*4+2]=values[i];im.data[i*4+3]=255}ctx.putImageData(im,0,0);const b=await new Promise(resolve=>c.toBlob(resolve,'image/png'));return new Uint8Array(await b.arrayBuffer())}
+const crcTable=(()=>{const t=new Uint32Array(256);for(let i=0;i<256;i++){let c=i;for(let k=0;k<8;k++)c=(c&1)?0xedb88320^(c>>>1):c>>>1;t[i]=c>>>0}return t})();
+function crc(data){let c=0xffffffff;for(const b of data)c=crcTable[(c^b)&255]^(c>>>8);return(c^0xffffffff)>>>0}
+function header(size){const a=new Uint8Array(size);return[a,new DataView(a.buffer)]}
+function zip(entries){const body=[],cent=[];let offset=0;for(const [name,data] of entries){const n=utf8.encode(name),c=crc(data),[a,v]=header(30);v.setUint32(0,0x04034b50,true);v.setUint16(4,20,true);v.setUint16(6,0x800,true);v.setUint16(12,33,true);v.setUint32(14,c,true);v.setUint32(18,data.length,true);v.setUint32(22,data.length,true);v.setUint16(26,n.length,true);body.push(a,n,data);const [b,w]=header(46);w.setUint32(0,0x02014b50,true);w.setUint16(4,20,true);w.setUint16(6,20,true);w.setUint16(8,0x800,true);w.setUint16(14,33,true);w.setUint32(16,c,true);w.setUint32(20,data.length,true);w.setUint32(24,data.length,true);w.setUint16(28,n.length,true);w.setUint32(42,offset,true);cent.push(b,n);offset+=30+n.length+data.length}const centralSize=cent.reduce((s,a)=>s+a.length,0),[end,v]=header(22);v.setUint32(0,0x06054b50,true);v.setUint16(8,entries.length,true);v.setUint16(10,entries.length,true);v.setUint32(12,centralSize,true);v.setUint32(16,offset,true);return new Blob([...body,...cent,end],{type:'application/zip'})}
+$('export').onclick=async()=>{if(!active)return;remember();const annotator=$('annotator').value.trim();if(!annotator||!active.reviewed){status('请填写标注者，并确认已检查整张图。未完成的标注不能导出为人工真值。');return}if(active.viability.includes(3)&&!active.evidence.trim()){status('存在“人工确认死亡”标注，请记录判断依据；只有褐变或未观察到时应选择“疑似死亡”或“未判定”。');return}try{const snapshot={...active,mask:active.mask.slice(),color:active.color.slice(),temporal:active.temporal.slice(),viability:active.viability.slice()},width=W,height=H,f=files[index],id=f.name.replace(/\.[^.]+$/,''),mask=snapshot.mask.slice();for(let i=0;i<width*height;i++)if(mask[i]===64)mask[i]=0;const bytes=await png(mask,width,height),imageHash=snapshot.image_sha256,maskHash=await sha(bytes);const review={image_id:id,image_sha256:imageHash,mask_sha256:maskHash,annotator,reviewed_entire_image:true,label_encoding:{background:0,root:255,ignore:128},editor:'custom-file root editor v1',width,height,color_encoding:{unclassified:0,light:1,brown:2},temporal_encoding:{unclassified:0,first_observed_candidate:1,elongating:2,persistent:3},viability_encoding:{unclassified:0,live_evidence:1,suspected_dead:2,human_confirmed_dead:3},visualization:{display_colors:Object.fromEntries(Object.entries(classes).map(([k,c])=>[k,c.rgb])),overview_priority:['death','brown','temporal','light_or_live','unclassified']},evidence:snapshot.evidence.trim(),label_origin:'manual_brush_and_explicit_whole_image_review',created_at:new Date().toISOString()};const entries=[[id+'.png',bytes],[id+'.json',utf8.encode(JSON.stringify(review,null,2))],[id+'_color.png',await png(snapshot.color,width,height)],[id+'_temporal.png',await png(snapshot.temporal,width,height)],[id+'_viability.png',await png(snapshot.viability,width,height)]];const blob=zip(entries),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=id+'_human_annotation.zip';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);status('已导出本张人工标注。请保留ZIP；同时请用“保存全部标注进度 JSON”保留可修改的进度。')}catch(e){status('导出失败：'+e.message+'。请使用支持本地文件和Web Crypto的Chrome或Edge浏览器。')}};
+window.addEventListener('beforeunload',e=>{remember();if([...states.values()].some(x=>x.modified)){e.preventDefault();e.returnValue=''}});
+editEnabled(false);
+
+function download(blob,name){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),30000)}
+function rleEncode(a){const out=[];for(let i=0;i<a.length;){let j=i+1;while(j<a.length&&a[j]===a[i])j++;out.push(a[i],j-i);i=j}return out}
+function rleDecode(v,n,allowed){if(!Array.isArray(v)||v.length%2)throw Error('进度编码无效');const a=new Uint8Array(n);let i=0;for(let j=0;j<v.length;j+=2){const value=v[j],count=v[j+1];if(!allowed.includes(value)||!Number.isSafeInteger(count)||count<1||i+count>n)throw Error('进度像素数据无效');a.fill(value,i,i+count);i+=count}if(i!==n)throw Error('进度尺寸不一致');return a}
+function projectObject(){if(painting)end();remember();return {kind:'custom_file_root_annotation',version:1,annotator:$('annotator').value,created_at:new Date().toISOString(),images:[...states.values()].map(s=>({name:s.name,image_sha256:s.image_sha256,width:s.width,height:s.height,reviewed:s.reviewed,evidence:s.evidence,layers:Object.fromEntries(['mask','color','temporal','viability'].map(k=>[k,rleEncode(s[k])]))}))}}
+function saveProject(){const obj=projectObject();if(!obj.images.length){status('请先选择图片并进行标注。');return}download(new Blob([JSON.stringify(obj)],{type:'application/json'}),'root_annotation_progress.json');status('已下载全部 '+obj.images.length+' 张图的标注进度 JSON；恢复时先选择原图，再导入该 JSON。无需整图复核即可保存进度。')}
+$('saveProject').onclick=saveProject;
+async function importProject(file){const obj=JSON.parse(await file.text());if(obj.kind!=='custom_file_root_annotation'||obj.version!==1||!Array.isArray(obj.images))throw Error('请选择本版导出的进度 JSON');const pending=new Map(),codes={mask:[0,64,128,255],color:[0,1,2],temporal:[0,1,2,3],viability:[0,1,2,3]};for(const v of obj.images){if(typeof v.name!=='string'||!v.name||!(/^[a-f0-9]{64}$/i.test(v.image_sha256))||!Number.isSafeInteger(v.width)||!Number.isSafeInteger(v.height)||v.width<=0||v.height<=0||v.width*v.height>100000000)throw Error('原图信息或尺寸无效');const key=v.name+':'+v.image_sha256,s={key,name:v.name,image_sha256:v.image_sha256,width:v.width,height:v.height,reviewed:!!v.reviewed,evidence:String(v.evidence||''),undo:[],modified:false};for(const k of Object.keys(codes))s[k]=rleDecode(v.layers?.[k],v.width*v.height,codes[k]);if(pending.has(key))throw Error('进度包含重复图像');pending.set(key,s)}
+ remember();for(const [key,s] of pending)states.set(key,s);$('annotator').value=String(obj.annotator||'');active=null;if(index>=0)await select(index);status('已恢复 '+pending.size+' 张图的标注进度。只有文件名和原图内容均相符才会应用；可继续修改和保存。');return pending.size}
+$('projectfile').onchange=async e=>{const f=e.target.files[0];if(!f)return;try{await importProject(f)}catch(err){status('恢复失败：'+err.message+'；原有标注未被替换。')}finally{e.target.value=''}};
+window.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='s'){e.preventDefault();saveProject()}});
+
+window.datasetReady=Promise.resolve();
+</script><script>
+/* UI-only update for the existing annotate.html. No mask, classification, or RGB edits. */
+window.zoom60Ready=(async()=>{
+ if(window.B3Zoom60Installed)return window.B3Zoom60Installed;
+ if(typeof select!=='function'||typeof sizeStage!=='function'||!document.getElementById('overlay'))throw Error('请在原版annotate.html中运行此更新');
+ if(window.datasetReady)await window.datasetReady;
+ const byId=id=>document.getElementById(id),controls=document.querySelector('.controls'),view=document.querySelector('.view'),stage=byId('stage');
+ const style=document.createElement('style');style.id='b3-zoom60-style';style.textContent=`
+ html,body{margin:0;height:100%;overflow:hidden}body.b3-zoom60{height:100dvh;display:flex;flex-direction:column}body.b3-zoom60 header{padding:8px 14px;flex:none}body.b3-zoom60 header h1{font-size:18px}body.b3-zoom60 main{display:grid;grid-template-columns:330px minmax(0,1fr);gap:12px;padding:10px;flex:1;min-height:0;overflow:hidden;box-sizing:border-box}body.b3-zoom60 .controls{width:auto;min-height:0;display:flex;flex-direction:column;background:white;border-radius:6px;overflow:hidden;padding:8px;box-sizing:border-box}#b3QuickTools{flex:none;max-height:66vh;overflow:auto;border-bottom:1px solid #cddbd1;padding-bottom:6px}#b3OtherControls{flex:1;min-height:70px;overflow:auto;padding-top:6px}#b3QuickTools label{margin:5px 0}#b3QuickTools button{padding:5px 8px;margin:3px}#b3QuickTools .tip{padding:5px}#b3QuickTools .palette button{font-size:12px}body.b3-zoom60 .view{display:flex;flex-direction:column;min-width:0;min-height:0;padding:8px;overflow:hidden}#b3ImageViewport{flex:1;min-height:0;overflow:auto;position:relative;overscroll-behavior:contain;scroll-behavior:auto!important;padding:0;border:0}body.b3-zoom60 .stage{max-width:none!important;aspect-ratio:auto!important;margin:0;flex:none;overflow:hidden}body.b3-zoom60 .stage canvas{width:100%;height:100%;max-width:none}#b3ZoomInputRow{display:flex;gap:8px;align-items:center}#zoom{width:100px;padding:4px}#b3ZoomRange{width:100%;margin:5px 0}#b3ViewInfo{font-size:13px;padding:5px 0;min-height:20px}#b3Pan.active{background:#335d49;color:white}body.b3-panning #overlay{cursor:grab}body.b3-dragging #overlay{cursor:grabbing}@media(max-width:800px){body.b3-zoom60 main{grid-template-columns:255px minmax(0,1fr);gap:6px;padding:6px}#b3QuickTools .palette button{font-size:11px;padding:4px}}
+ `;document.head.append(style);document.body.classList.add('b3-zoom60');
+ const viewport=document.createElement('div');viewport.id='b3ImageViewport';stage.before(viewport);viewport.append(stage);
+ const info=document.createElement('div');info.id='b3ViewInfo';viewport.before(info);
+ const quick=document.createElement('div');quick.id='b3QuickTools';const other=document.createElement('div');other.id='b3OtherControls';
+ const navigation=byId('prev').parentElement,brushModes=byId('fg').parentElement,palette=byId('palette'),brushLabel=byId('brush').closest('label'),zoomLabel=byId('zoom').closest('label'),brushPreview=byId('brushPreview');
+ for(const el of [navigation,brushModes,palette,brushPreview,brushLabel,zoomLabel])quick.append(el);
+ while(controls.firstChild)other.append(controls.firstChild);controls.append(quick,other);
+ const current=Number(byId('zoom').value)||1.5,input=document.createElement('input');input.id='zoom';input.type='number';input.min='.25';input.max='60';input.step='.25';input.value=String(Math.min(60,Math.max(.25,current)));input.setAttribute('aria-label','放大倍数，最高60倍');
+ zoomLabel.textContent='显示放大倍数（最高60倍）';const inputRow=document.createElement('div');inputRow.id='b3ZoomInputRow';inputRow.append(input,document.createTextNode('倍'));zoomLabel.append(inputRow);
+ const slider=document.createElement('input');slider.id='b3ZoomRange';slider.type='range';slider.min='.25';slider.max='60';slider.step='.25';slider.value=input.value;zoomLabel.append(slider);
+ const presets=document.createElement('div');for(const v of [1,2,5,10,20,40,60]){const b=document.createElement('button');b.textContent=v+'×';b.dataset.zoom=String(v);b.onclick=()=>setZoom(v);presets.append(b)}zoomLabel.append(presets);
+ const compare=document.createElement('div');compare.id='b3PeriodNav';const periodButtons=[];for(let p=1;p<=4;p++){const b=document.createElement('button');b.textContent='本窗T'+p;b.dataset.period=String(p);b.onclick=()=>{const currentFile=files[index];if(!currentFile)return;const n=currentFile.name.replace(/T[1-4](?!\d)/i,'T'+p),i=files.findIndex(f=>f.name===n);if(i>=0)select(i)};compare.append(b);periodButtons.push(b)}navigation.after(compare);
+ const panButton=document.createElement('button');panButton.id='b3Pan';panButton.textContent='平移／拖动图片';const centerButton=document.createElement('button');centerButton.textContent='图像居中';centerButton.onclick=()=>restoreCenter({x:previewWidth/2,y:previewHeight/2});const movement=document.createElement('div');movement.append(panButton,centerButton);zoomLabel.after(movement);
+ const hint=document.createElement('small');hint.textContent='切图保留倍率与局部位置。滚轮移动；Ctrl+滚轮缩放；空格拖动或点平移。60倍显示原始像素，不改变原图。';movement.after(hint);
+ document.querySelector('header h1').textContent='根系标注 · 自选图片 · 60倍';
+ let appliedZoom=Number(input.value),spaceDown=false,panEnabled=false,drag=null,navigationSerial=0;
+ const clampZoom=v=>Math.min(60,Math.max(.25,Number(v)||appliedZoom));
+ function captureCenter(){return {x:stage.offsetWidth<=viewport.clientWidth?previewWidth/2:(viewport.scrollLeft+viewport.clientWidth/2)/appliedZoom,y:stage.offsetHeight<=viewport.clientHeight?previewHeight/2:(viewport.scrollTop+viewport.clientHeight/2)/appliedZoom}}
+ function restoreCenter(p){viewport.scrollLeft=p.x*appliedZoom-viewport.clientWidth/2;viewport.scrollTop=p.y*appliedZoom-viewport.clientHeight/2;updateInfo()}
+ function updateInfo(){const p=captureCenter();info.textContent='放大 '+appliedZoom.toFixed(2).replace(/\.00$/,'')+' 倍 · 视野中心原图像素 ('+p.x.toFixed(1)+', '+p.y.toFixed(1)+')';}
+ function updatePeriods(){for(const b of periodButtons){const f=files[index],name=f?.name.replace(/T[1-4](?!\d)/i,'T'+b.dataset.period);b.disabled=!f||!/T[1-4](?!\d)/i.test(f.name)||!files.some(f=>f.name===name)}}
+ sizeStage=function(){appliedZoom=clampZoom(input.value);input.value=String(appliedZoom);slider.value=input.value;stage.style.width=(previewWidth*appliedZoom)+'px';stage.style.height=(previewHeight*appliedZoom)+'px';stage.style.aspectRatio='auto';for(const c of stage.querySelectorAll('canvas'))c.style.imageRendering=appliedZoom>=8?'pixelated':'auto';updateInfo()};
+ function setZoom(value,client=null){const r=viewport.getBoundingClientRect(),anchor=client?{x:client.x-r.left,y:client.y-r.top}:{x:viewport.clientWidth/2,y:viewport.clientHeight/2},focus=client?{x:(viewport.scrollLeft+anchor.x)/appliedZoom,y:(viewport.scrollTop+anchor.y)/appliedZoom}:captureCenter();input.value=String(clampZoom(value));sizeStage();viewport.scrollLeft=focus.x*appliedZoom-anchor.x;viewport.scrollTop=focus.y*appliedZoom-anchor.y;updateInfo()}
+ input.onchange=()=>setZoom(input.value);input.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();setZoom(input.value);input.blur()}};slider.oninput=()=>setZoom(slider.value);
+ const originalSelect=select;select=async function(i){if(i<0||i>=files.length)return;const center=captureCenter(),serial=++navigationSerial;await originalSelect(i);if(serial===navigationSerial&&index===i){sizeStage();restoreCenter(center);updatePeriods()}};
+ byId('zoom').oninput=()=>{if(Number(input.value)>60||Number(input.value)<.25)return;setZoom(input.value)};
+ viewport.addEventListener('wheel',e=>{if(!(e.ctrlKey||e.metaKey))return;e.preventDefault();setZoom(appliedZoom*Math.exp(-e.deltaY*.002),{x:e.clientX,y:e.clientY})},{passive:false});
+ viewport.addEventListener('scroll',updateInfo,{passive:true});
+ function setPan(value){panEnabled=value;panButton.classList.toggle('active',value);document.body.classList.toggle('b3-panning',value||spaceDown)}panButton.onclick=()=>setPan(!panEnabled);
+ for(const el of [brushModes,palette])el.addEventListener('click',e=>{if(e.target.closest('button'))setPan(false)},true);
+ viewport.addEventListener('pointerdown',e=>{if(!(panEnabled||spaceDown||e.button===1))return;e.preventDefault();e.stopImmediatePropagation();drag={x:e.clientX,y:e.clientY,left:viewport.scrollLeft,top:viewport.scrollTop};viewport.setPointerCapture(e.pointerId);document.body.classList.add('b3-dragging')},true);
+ viewport.addEventListener('pointermove',e=>{if(!drag)return;e.preventDefault();e.stopImmediatePropagation();viewport.scrollLeft=drag.left+drag.x-e.clientX;viewport.scrollTop=drag.top+drag.y-e.clientY},true);
+ function stopPan(e){if(!drag)return;if(e){e.preventDefault();e.stopImmediatePropagation()}drag=null;document.body.classList.remove('b3-dragging')}
+ viewport.addEventListener('pointerup',stopPan,true);viewport.addEventListener('pointercancel',stopPan,true);viewport.addEventListener('lostpointercapture',()=>stopPan(),true);
+ document.addEventListener('keydown',e=>{if(e.code!=='Space'||e.target.closest?.('input,textarea,select')||e.target.isContentEditable)return;spaceDown=true;document.body.classList.add('b3-panning');e.preventDefault()});document.addEventListener('keyup',e=>{if(e.code==='Space'){spaceDown=false;document.body.classList.toggle('b3-panning',panEnabled)}});window.addEventListener('blur',()=>{spaceDown=false;stopPan();document.body.classList.toggle('b3-panning',panEnabled)});
+ let previousSize={width:viewport.clientWidth,height:viewport.clientHeight};const observer=new ResizeObserver(()=>{const center={x:(viewport.scrollLeft+previousSize.width/2)/appliedZoom,y:(viewport.scrollTop+previousSize.height/2)/appliedZoom};previousSize={width:viewport.clientWidth,height:viewport.clientHeight};restoreCenter(center)});observer.observe(viewport);
+ sizeStage();restoreCenter({x:previewWidth/2,y:previewHeight/2});updatePeriods();
+ window.B3Zoom60Installed={version:1,viewport,captureCenter,setZoom,get zoom(){return appliedZoom},get pan(){return panEnabled}};
+ return window.B3Zoom60Installed;
+})()
+
+</script></html>

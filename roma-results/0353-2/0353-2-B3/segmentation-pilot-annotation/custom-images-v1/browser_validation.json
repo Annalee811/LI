@@ -1,0 +1,83 @@
+{
+  "checks": [
+    {
+      "name": "starts empty with no fixed 60-patch dataset",
+      "pass": true
+    },
+    {
+      "name": "actual file picker enables full 2541x1867 RGB annotation",
+      "pass": true
+    },
+    {
+      "name": "60x keeps rectangular native-size canvases",
+      "pass": true
+    },
+    {
+      "name": "real pointer stroke paints the correct native pixel at 60x",
+      "pass": true
+    },
+    {
+      "name": "root annotation leaves original RGB unchanged",
+      "pass": true
+    },
+    {
+      "name": "Ctrl+Z restores all brush attribute layers",
+      "pass": true
+    },
+    {
+      "name": "period 2 editable at same 60x and native view center",
+      "pass": true
+    },
+    {
+      "name": "period 3 editable at same 60x and native view center",
+      "pass": true
+    },
+    {
+      "name": "period 4 editable at same 60x and native view center",
+      "pass": true
+    },
+    {
+      "name": "period 1 editable at same 60x and native view center",
+      "pass": true
+    },
+    {
+      "name": "switching periods preserves prior annotations",
+      "pass": true
+    },
+    {
+      "name": "unfinished annotations can be saved without whole-image review",
+      "pass": true
+    },
+    {
+      "name": "arbitrary non-square image is editable without a known filename",
+      "pass": true
+    },
+    {
+      "name": "rectangular brush uses height correctly, including y beyond 448",
+      "pass": true
+    },
+    {
+      "name": "different-content same-name images never share annotations",
+      "pass": true
+    },
+    {
+      "name": "reselecting identical original RGB restores in-page labels",
+      "pass": true
+    },
+    {
+      "name": "fixed tools remain beside the image at high zoom",
+      "pass": true
+    },
+    {
+      "name": "save/import round-trip preserves every annotation layer and dimension",
+      "pass": true
+    },
+    {
+      "name": "invalid project import rejects atomically without erasing labels",
+      "pass": true
+    }
+  ],
+  "passed": 19,
+  "failed": 0,
+  "scope": "Browser UI and pixel/annotation integrity tests using synthetic RGB; no scientific root-identification claim."
+}
