@@ -1,0 +1,205 @@
+{
+  "editor": "v3",
+  "synthetic_software_checks_only": true,
+  "checks": [
+    {
+      "name": "60 embedded images load and verified editing enabled",
+      "pass": true
+    },
+    {
+      "name": "paint root color and attribute encoding",
+      "pass": true
+    },
+    {
+      "name": "paint light color and attribute encoding",
+      "pass": true
+    },
+    {
+      "name": "paint brown color and attribute encoding",
+      "pass": true
+    },
+    {
+      "name": "paint new color and attribute encoding",
+      "pass": true
+    },
+    {
+      "name": "paint growing color and attribute encoding",
+      "pass": true
+    },
+    {
+      "name": "paint persistent color and attribute encoding",
+      "pass": true
+    },
+    {
+      "name": "paint live color and attribute encoding",
+      "pass": true
+    },
+    {
+      "name": "paint suspected color and attribute encoding",
+      "pass": true
+    },
+    {
+      "name": "paint dead color and attribute encoding",
+      "pass": true
+    },
+    {
+      "name": "different colors coexist",
+      "pass": true
+    },
+    {
+      "name": "mixed attributes display overview",
+      "pass": true
+    },
+    {
+      "name": "mixed attributes display color",
+      "pass": true
+    },
+    {
+      "name": "mixed attributes display temporal",
+      "pass": true
+    },
+    {
+      "name": "mixed attributes display viability",
+      "pass": true
+    },
+    {
+      "name": "changing view preserves existing annotations",
+      "pass": true
+    },
+    {
+      "name": "erase clears all attributes",
+      "pass": true
+    },
+    {
+      "name": "undo restores all attributes",
+      "pass": true
+    },
+    {
+      "name": "uncertainty is distinct gray, not a death label",
+      "pass": true
+    },
+    {
+      "name": "original RGB pixels unchanged by colored annotation",
+      "pass": true
+    },
+    {
+      "name": "unreviewed export rejected",
+      "pass": true
+    },
+    {
+      "name": "confirmed death requires evidence",
+      "pass": true
+    },
+    {
+      "name": "reviewed synthetic export succeeds",
+      "pass": true
+    }
+  ],
+  "marks": [
+    {
+      "key": "root",
+      "x": 20,
+      "y": 20,
+      "rgb": [
+        36,
+        99,
+        235,
+        175
+      ]
+    },
+    {
+      "key": "light",
+      "x": 40,
+      "y": 20,
+      "rgb": [
+        6,
+        182,
+        211,
+        175
+      ]
+    },
+    {
+      "key": "brown",
+      "x": 60,
+      "y": 20,
+      "rgb": [
+        166,
+        92,
+        39,
+        175
+      ]
+    },
+    {
+      "key": "new",
+      "x": 80,
+      "y": 20,
+      "rgb": [
+        22,
+        163,
+        74,
+        175
+      ]
+    },
+    {
+      "key": "growing",
+      "x": 100,
+      "y": 20,
+      "rgb": [
+        235,
+        179,
+        7,
+        175
+      ]
+    },
+    {
+      "key": "persistent",
+      "x": 120,
+      "y": 20,
+      "rgb": [
+        147,
+        51,
+        235,
+        175
+      ]
+    },
+    {
+      "key": "live",
+      "x": 140,
+      "y": 20,
+      "rgb": [
+        13,
+        149,
+        136,
+        175
+      ]
+    },
+    {
+      "key": "suspected",
+      "x": 160,
+      "y": 20,
+      "rgb": [
+        249,
+        115,
+        22,
+        175
+      ]
+    },
+    {
+      "key": "dead",
+      "x": 180,
+      "y": 20,
+      "rgb": [
+        220,
+        38,
+        38,
+        175
+      ]
+    }
+  ],
+  "export_validation": {
+    "zip_crc": "passed",
+    "scientific_main_mask_and_all_3_attribute_layers": "passed",
+    "unchanged_training_label_validator": "passed",
+    "no_human_labels_created": true
+  }
+}
