@@ -1,17 +1,17 @@
 <!doctype html>
 <html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>0353-2-B3 人工根系标注 v3</title>
+<title>0353-2-B3 人工根系标注 v4</title>
 <style>
 body{font:15px/1.6 system-ui,sans-serif;margin:0;background:#f3f5f4;color:#20372e}header{background:#fff;padding:18px 24px;border-bottom:1px solid #d5ded8}h1{font-size:22px;margin:0 0 6px}main{display:flex;gap:22px;padding:20px;flex-wrap:wrap}.controls{width:345px}label{display:block;margin:10px 0}input,select,button{font:inherit}button{border:1px solid #a9bbb0;border-radius:6px;background:white;padding:7px 12px;margin:4px;cursor:pointer}button.active{background:#335d49;color:white}select,input[type=text]{max-width:320px;width:100%;padding:5px;box-sizing:border-box}input[type=checkbox]{width:auto}.view{background:white;padding:12px;border-radius:8px}.stage{position:relative;width:672px;aspect-ratio:1;max-width:90vw;touch-action:none;background:#ccc;overflow:hidden}.stage canvas{position:absolute;width:100%;height:100%;image-rendering:auto}#overlay{cursor:crosshair;touch-action:none}small{display:block;color:#52645b}.status{white-space:pre-wrap;margin:10px 0;color:#354e41}.tip{padding:10px;background:#e7eee9;border-radius:6px}#queue{width:100%;min-height:85px}a{color:#315e47}.swatch{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;border:1px solid #777;vertical-align:middle}.palette button{padding:5px 8px}.palette button.active{outline:2px solid #20372e;background:white;color:#20372e}#legend{font-size:13px}#legend span{display:inline-block;margin:2px 8px 2px 0}
 </style>
-<header><h1>0353-2-B3 人工根系标注 v3</h1><div>内置60张原色图像，打开自动显示 · 细笔刷 · 未使用模型预标注</div></header>
+<header><h1>0353-2-B3 人工根系标注 v4</h1><div>内置60张原色图像，打开自动显示 · 细笔刷 · 未使用模型预标注</div></header>
 <main><section class="controls">
 <label>选择图片文件夹<input id="files" type="file" accept="image/*" multiple webkitdirectory></label>
 <label>或选择一张／多张图片<input id="imagefiles" type="file" accept="image/*" multiple></label>
 <button id="builtin">恢复内置60张标注图</button>
 <div id="importStatus" role="status" class="tip">正在载入内置图像…</div>
 <select id="queue" size="4"></select>
-<div><button id="prev">上一张</button><button id="next">下一张</button><button id="undo">撤销一笔</button></div>
+<div><button id="prev">上一张</button><button id="next">下一张</button><button id="undo" title="Ctrl+Z；Mac：⌘Z">撤销一笔（Ctrl+Z）</button></div>
 <div><button id="fg" class="active">根系</button><button id="bg">擦除／背景</button><button id="ignore">不确定</button></div>
 <div class="palette" id="palette" aria-label="根系分类画笔"></div>
 <small>点选分类颜色后描画；已有标注保留各自颜色。自定义组合可在下方属性中设置。</small>
@@ -30,6 +30,11 @@ body{font:15px/1.6 system-ui,sans-serif;margin:0;background:#f3f5f4;color:#20372
 <label>跨期对应或死亡判断依据<input id="evidence" type="text" placeholder="例如：相同根ID的连续观察或独立验证"></label>
 <small>褐变、反光、遮挡或一次未观察到均不能自动确认死亡。可见死亡根仍属于根系前景。</small>
 </details>
+<details><summary>以 T1 为基线：该怎样标？需要标多少？</summary>
+<small>T1：把全部可见根标为蓝色“未分类根”，作为基线；不因首次拍到就标为新生。T2—T4：先完整标出本期所有可见根；可靠对应的已有部分可标紫色持续根，首次出现的独立根标绿色新生候选，同一根新延伸的部分标黄色。褐变和存活属性可以另外叠加。</small>
+<small>空间以T1为基准；变化同时对照上一期，记录根ID及首次观察时期，避免把T2新生根在T3又算作新生。新生和延伸只画新增部分，不把整条旧根都算新增。消失、遮挡不自动等于死亡；无法判断时保留属性未判定。</small>
+<small>可以分批完成，但每张选中的448×448小图必须标全可辨认根的实际宽度，不只描中心线、不只挑几条。难以辨认的区域用灰色“不确定”；时序等属性可暂不分类。先用训练组同一窗四期练习，正式固定方案为训练36、验证12、留出测试12张；少量练习图不能代替完整比较。</small>
+</details>
 <label>标注者<input id="annotator" type="text" placeholder="姓名或实验室编号"></label>
 <label><input id="reviewed" type="checkbox"> 我已检查整张图，未画区域可确认为背景</label>
 <small>先标出可辨认的完整根系边界，将无法区分的区域标为“不确定”。勾选整图复核后才能导出。</small>
@@ -37,7 +42,7 @@ body{font:15px/1.6 system-ui,sans-serif;margin:0;background:#f3f5f4;color:#20372
 <div class="tip">蓝色：未分类根；绿色：新生候选；黄色：延伸生长；紫色：持续根；棕色：褐变；橙色：疑似死亡；红色：确认死亡；灰色：不确定区域。尽量沿实际根宽标注，水滴亮边、裂缝和颗粒不能因为细长就标成根。选错可用“擦除／背景”。</div>
 <div id="status" class="status">请选择原始 448×448 标注小图。
 本页离线运行，不上传图片。关闭页面前请导出标注。</div>
-</section><section class="view"><div id="name"></div><div class="stage" id="stage"><canvas id="image" width="448" height="448"></canvas><canvas id="overlay" width="448" height="448"></canvas></div><small>预览保持原始宽高比例；本实验标注图保持448×448原始像素坐标。</small></section></main>
+</section><section class="view"><div id="name"></div><div class="stage" id="stage"><canvas id="image" width="448" height="448"></canvas><canvas id="overlay" width="448" height="448" tabindex="0" aria-label="根系标注画布"></canvas></div><small>预览保持原始宽高比例；本实验标注图保持448×448原始像素坐标。</small></section></main>
 <script id="embedded-dataset" type="application/json">[]</script>
 <script id="expected-images" type="application/json">{}</script>
 <script>
@@ -147,17 +152,24 @@ function xy(e){const b=$('overlay').getBoundingClientRect();return[(e.clientX-b.
 function dot(x,y){if(Number($('brush').value)===1){const xx=Math.max(0,Math.min(W-1,Math.floor(x))),yy=Math.max(0,Math.min(W-1,Math.floor(y))),i=yy*W+xx;active.mask[i]=mode;active.color[i]=mode===255?Number($('color').value):0;active.temporal[i]=mode===255?Number($('temporal').value):0;active.viability[i]=mode===255?Number($('viability').value):0;return}const radius=Number($('brush').value)/2,x0=Math.max(0,Math.floor(x-radius)),x1=Math.min(W-1,Math.ceil(x+radius)),y0=Math.max(0,Math.floor(y-radius)),y1=Math.min(W-1,Math.ceil(y+radius));for(let yy=y0;yy<=y1;yy++)for(let xx=x0;xx<=x1;xx++){if((xx+.5-x)**2+(yy+.5-y)**2>radius**2)continue;const i=yy*W+xx;active.mask[i]=mode;active.color[i]=mode===255?Number($('color').value):0;active.temporal[i]=mode===255?Number($('temporal').value):0;active.viability[i]=mode===255?Number($('viability').value):0}}
 function line(a,b){const n=Math.max(1,Math.ceil(Math.hypot(b[0]-a[0],b[1]-a[1])*2));for(let k=0;k<=n;k++)dot(a[0]+(b[0]-a[0])*k/n,a[1]+(b[1]-a[1])*k/n)}
 function backup(){active.undo.push({mask:active.mask.slice(),color:active.color.slice(),temporal:active.temporal.slice(),viability:active.viability.slice()});if(active.undo.length>20)active.undo.shift()}
-$('overlay').onpointerdown=e=>{if(!active)return;e.preventDefault();$('overlay').setPointerCapture(e.pointerId);backup();painting=true;last=xy(e);dot(...last);active.modified=true;active.reviewed=false;$('reviewed').checked=false;render()};
+$('overlay').onpointerdown=e=>{if(!active)return;e.preventDefault();$('overlay').focus({preventScroll:true});$('overlay').setPointerCapture(e.pointerId);backup();painting=true;last=xy(e);dot(...last);active.modified=true;active.reviewed=false;$('reviewed').checked=false;render()};
 $('overlay').onpointermove=e=>{if(!painting||!active)return;e.preventDefault();const p=xy(e);line(last,p);last=p;render()};
 function end(){painting=false;last=null;remember()};$('overlay').onpointerup=end;$('overlay').onpointercancel=end;
-$('undo').onclick=()=>{if(active&&active.undo.length){Object.assign(active,active.undo.pop());active.reviewed=false;$('reviewed').checked=false;render()}};
+function undoStroke(){if(!active||painting||!active.undo.length)return;Object.assign(active,active.undo.pop());active.modified=true;active.reviewed=false;$('reviewed').checked=false;render();remember()}
+$('undo').onclick=undoStroke;
+window.addEventListener('keydown',e=>{
+ if(e.defaultPrevented||e.isComposing||e.repeat||e.altKey||e.shiftKey||!(e.ctrlKey||e.metaKey)||e.key.toLowerCase()!=='z')return;
+ const target=e.target;if(target instanceof Element&&(target.closest('input,textarea,select')||target.isContentEditable))return;
+ if(!active||painting||$('undo').disabled)return;
+ e.preventDefault();undoStroke();
+});
 async function sha(bytes){return [...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(x=>x.toString(16).padStart(2,'0')).join('')}
 async function png(values){const c=document.createElement('canvas');c.width=c.height=W;const ctx=c.getContext('2d'),im=ctx.createImageData(W,W);for(let i=0;i<N;i++){im.data[i*4]=im.data[i*4+1]=im.data[i*4+2]=values[i];im.data[i*4+3]=255}ctx.putImageData(im,0,0);const b=await new Promise(resolve=>c.toBlob(resolve,'image/png'));return new Uint8Array(await b.arrayBuffer())}
 const crcTable=(()=>{const t=new Uint32Array(256);for(let i=0;i<256;i++){let c=i;for(let k=0;k<8;k++)c=(c&1)?0xedb88320^(c>>>1):c>>>1;t[i]=c>>>0}return t})();
 function crc(data){let c=0xffffffff;for(const b of data)c=crcTable[(c^b)&255]^(c>>>8);return(c^0xffffffff)>>>0}
 function header(size){const a=new Uint8Array(size);return[a,new DataView(a.buffer)]}
 function zip(entries){const body=[],cent=[];let offset=0;for(const [name,data] of entries){const n=utf8.encode(name),c=crc(data),[a,v]=header(30);v.setUint32(0,0x04034b50,true);v.setUint16(4,20,true);v.setUint16(6,0x800,true);v.setUint16(12,33,true);v.setUint32(14,c,true);v.setUint32(18,data.length,true);v.setUint32(22,data.length,true);v.setUint16(26,n.length,true);body.push(a,n,data);const [b,w]=header(46);w.setUint32(0,0x02014b50,true);w.setUint16(4,20,true);w.setUint16(6,20,true);w.setUint16(8,0x800,true);w.setUint16(14,33,true);w.setUint32(16,c,true);w.setUint32(20,data.length,true);w.setUint32(24,data.length,true);w.setUint16(28,n.length,true);w.setUint32(42,offset,true);cent.push(b,n);offset+=30+n.length+data.length}const centralSize=cent.reduce((s,a)=>s+a.length,0),[end,v]=header(22);v.setUint32(0,0x06054b50,true);v.setUint16(8,entries.length,true);v.setUint16(10,entries.length,true);v.setUint32(12,centralSize,true);v.setUint32(16,offset,true);return new Blob([...body,...cent,end],{type:'application/zip'})}
-$('export').onclick=async()=>{if(!active)return;remember();const annotator=$('annotator').value.trim();if(!annotator||!active.reviewed){status('请填写标注者，并确认已检查整张图。未完成的标注不能导出为人工真值。');return}if(active.viability.includes(3)&&!active.evidence.trim()){status('存在“人工确认死亡”标注，请记录判断依据；只有褐变或未观察到时应选择“疑似死亡”或“未判定”。');return}try{const f=files[index],id=f.name.replace(/\.png$/,''),mask=active.mask.slice();for(let i=0;i<N;i++)if(mask[i]===64)mask[i]=0;const bytes=await png(mask),imageHash=await sha(await f.arrayBuffer()),maskHash=await sha(bytes);const review={image_id:id,image_sha256:imageHash,mask_sha256:maskHash,annotator,reviewed_entire_image:true,label_encoding:{background:0,root:255,ignore:128},editor:'0353-2-B3 offline human editor v3',color_encoding:{unclassified:0,light:1,brown:2},temporal_encoding:{unclassified:0,first_observed_candidate:1,elongating:2,persistent:3},viability_encoding:{unclassified:0,live_evidence:1,suspected_dead:2,human_confirmed_dead:3},visualization:{display_colors:Object.fromEntries(Object.entries(classes).map(([k,c])=>[k,c.rgb])),overview_priority:['death','brown','temporal','light_or_live','unclassified']},evidence:active.evidence.trim(),label_origin:'manual_brush_and_explicit_whole_image_review',created_at:new Date().toISOString()};const entries=[[id+'.png',bytes],[id+'.json',utf8.encode(JSON.stringify(review,null,2))],[id+'_color.png',await png(active.color)],[id+'_temporal.png',await png(active.temporal)],[id+'_viability.png',await png(active.viability)]];const blob=zip(entries),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=id+'_human_annotation.zip';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);status('已导出本张人工标注。请保留ZIP；随后解压到评估图包的 labels 文件夹。')}catch(e){status('导出失败：'+e.message+'。请使用支持本地文件和Web Crypto的Chrome或Edge浏览器。')}};
+$('export').onclick=async()=>{if(!active)return;remember();const annotator=$('annotator').value.trim();if(!annotator||!active.reviewed){status('请填写标注者，并确认已检查整张图。未完成的标注不能导出为人工真值。');return}if(active.viability.includes(3)&&!active.evidence.trim()){status('存在“人工确认死亡”标注，请记录判断依据；只有褐变或未观察到时应选择“疑似死亡”或“未判定”。');return}try{const f=files[index],id=f.name.replace(/\.png$/,''),mask=active.mask.slice();for(let i=0;i<N;i++)if(mask[i]===64)mask[i]=0;const bytes=await png(mask),imageHash=await sha(await f.arrayBuffer()),maskHash=await sha(bytes);const review={image_id:id,image_sha256:imageHash,mask_sha256:maskHash,annotator,reviewed_entire_image:true,label_encoding:{background:0,root:255,ignore:128},editor:'0353-2-B3 offline human editor v4',color_encoding:{unclassified:0,light:1,brown:2},temporal_encoding:{unclassified:0,first_observed_candidate:1,elongating:2,persistent:3},viability_encoding:{unclassified:0,live_evidence:1,suspected_dead:2,human_confirmed_dead:3},visualization:{display_colors:Object.fromEntries(Object.entries(classes).map(([k,c])=>[k,c.rgb])),overview_priority:['death','brown','temporal','light_or_live','unclassified']},evidence:active.evidence.trim(),label_origin:'manual_brush_and_explicit_whole_image_review',created_at:new Date().toISOString()};const entries=[[id+'.png',bytes],[id+'.json',utf8.encode(JSON.stringify(review,null,2))],[id+'_color.png',await png(active.color)],[id+'_temporal.png',await png(active.temporal)],[id+'_viability.png',await png(active.viability)]];const blob=zip(entries),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=id+'_human_annotation.zip';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);status('已导出本张人工标注。请保留ZIP；随后解压到评估图包的 labels 文件夹。')}catch(e){status('导出失败：'+e.message+'。请使用支持本地文件和Web Crypto的Chrome或Edge浏览器。')}};
 window.addEventListener('beforeunload',e=>{if([...states.values()].some(x=>x.modified)){e.preventDefault();e.returnValue=''}});
 editEnabled(false);
 window.datasetReady=loadEmbedded();
