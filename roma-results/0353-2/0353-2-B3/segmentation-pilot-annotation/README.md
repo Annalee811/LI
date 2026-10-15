@@ -1,3 +1,5 @@
+最新：已内置60张待复核标注。直接打开 annotate.html 修改；下载完整结果用 reviewable-annotations/0353-2-B3_reviewable_annotations_v1.zip。保存全部修改为项目JSON，下次可恢复。详见 reviewable-annotations/README.md。
+
 # 0353-2-B3 待人工标注图包
 
 多色修复版v4：先阅读 annotation_protocol.md。解压后打开 annotate.html，60张图自动显示，不需要选择文件夹。也支持选择一张/多张图片或文件夹进行原图预览，保持原始宽高比例。点击“恢复内置60张标注图”继续固定实验标注。原色图60张；训练36、验证12、空间留出测试12。当前没有人工真值、没有真实模型训练或指标。包含褐变、时序和疑似/确认死亡的可选独立属性；可见死亡根仍标为根系。图块来自同一位置，留出测试不代表不同位置独立测试。标注完成导出各图ZIP并解压到 labels。根长独立人工测量填写 manual_lengths.csv，缺少标尺先用T1像素。

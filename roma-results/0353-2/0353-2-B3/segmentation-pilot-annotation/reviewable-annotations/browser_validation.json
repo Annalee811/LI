@@ -1,0 +1,963 @@
+{
+  "checks": [
+    {
+      "name": "60 native source images and 60 nonempty prefills load",
+      "pass": true
+    },
+    {
+      "name": "all prefilled images await person review",
+      "pass": true
+    },
+    {
+      "name": "neutral pending-review heading",
+      "pass": true
+    },
+    {
+      "name": "verified original image remains editable",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C0_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C0_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C0_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C0_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C1_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C1_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C1_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C1_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C2_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C2_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C2_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C2_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C3_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C3_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C3_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C3_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C4_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C4_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C4_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A0_C4_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C0_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C0_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C0_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C0_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C1_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C1_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C1_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C1_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C2_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C2_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C2_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C2_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C3_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C3_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C3_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C3_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C4_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C4_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C4_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_A1_C4_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C0_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C0_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C0_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C0_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C1_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C1_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C1_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C1_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C2_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C2_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C2_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C2_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C3_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C3_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C3_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C3_T4.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C4_T1.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C4_T2.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C4_T3.png",
+      "pass": true
+    },
+    {
+      "name": "prefill remains present after switching B3_B0_C4_T4.png",
+      "pass": true
+    },
+    {
+      "name": "existing prefill can be edited with class and pixel width",
+      "pass": true
+    },
+    {
+      "name": "Ctrl+Z restores original prefill and all attributes",
+      "pass": true
+    },
+    {
+      "name": "same-window period navigation retains T4 annotations",
+      "pass": true
+    },
+    {
+      "name": "unreviewed prefill cannot be exported as completed human truth",
+      "pass": true
+    },
+    {
+      "name": "saving all 60 images does not require whole-image review",
+      "pass": true
+    },
+    {
+      "name": "project restores all 4 layers byte-for-byte",
+      "pass": true
+    },
+    {
+      "name": "source provenance retained in saved project",
+      "pass": true
+    },
+    {
+      "name": "wrong-source project rejected",
+      "pass": true
+    },
+    {
+      "name": "reviewed software fixture generates a ZIP",
+      "pass": true
+    }
+  ],
+  "rgba_hashes": [
+    {
+      "name": "B3_A0_C0_T1.png",
+      "rgba_sha256": "65bb59404dba8b8a192fc316cef59b5ae5b70c139f5cbe1ecc94bc8f448f783c"
+    },
+    {
+      "name": "B3_A0_C0_T2.png",
+      "rgba_sha256": "c1ebc977ccd164516270cda82159f6cb797a54e3c12cdafce74d53ed82ba9f45"
+    },
+    {
+      "name": "B3_A0_C0_T3.png",
+      "rgba_sha256": "b09a280ff8000402b44c98015f8044df89e68c2fe6ea3b5fbdd49cac37bae591"
+    },
+    {
+      "name": "B3_A0_C0_T4.png",
+      "rgba_sha256": "8bd96ef8b795ff952d851ae3d8466b77b6efc8d74ffebb9b107f81924f719fde"
+    },
+    {
+      "name": "B3_A0_C1_T1.png",
+      "rgba_sha256": "cc5dcafe16b59633f9fe625ba330160edce6b924c00cbd81b5c6c0c7d9ed4208"
+    },
+    {
+      "name": "B3_A0_C1_T2.png",
+      "rgba_sha256": "9503353f213fa44e72992e09ce72f42054821ff6dfb0e110c233ac2ab3f6cdf6"
+    },
+    {
+      "name": "B3_A0_C1_T3.png",
+      "rgba_sha256": "df0dde7a2b66b6579023e6741f8292c3049d343f31b4ff00d917b4a559fa5fa7"
+    },
+    {
+      "name": "B3_A0_C1_T4.png",
+      "rgba_sha256": "a993b1f5e81790cf773b6a5278110bb786f7ed607e5e65b9b0dfe5d18e76bcf2"
+    },
+    {
+      "name": "B3_A0_C2_T1.png",
+      "rgba_sha256": "6c98563dc2b4f7891a80603796d72297775906eedbfe3f4a1ac107e19d94a4e2"
+    },
+    {
+      "name": "B3_A0_C2_T2.png",
+      "rgba_sha256": "c7f1d491c4427c49b3072010c90949e1236745e4a9f860dd44c065c52f47f227"
+    },
+    {
+      "name": "B3_A0_C2_T3.png",
+      "rgba_sha256": "2310292ce8af8ac8a8b73e3b3e137887d6a3f4f4ce338930bd7a59d23b230e47"
+    },
+    {
+      "name": "B3_A0_C2_T4.png",
+      "rgba_sha256": "488af86e02e585a1e4c2c54cbcdc4c1f1e839d88ac971d40e840745f0d9662bd"
+    },
+    {
+      "name": "B3_A0_C3_T1.png",
+      "rgba_sha256": "3479a1e1d0a10a15e0aef2172db7ad4d94c122dbbf1922b188b265e9d8fd3726"
+    },
+    {
+      "name": "B3_A0_C3_T2.png",
+      "rgba_sha256": "697cbc06b948b792aa7bfd73e8788dcdf9b5d5f962e2df86153b54bf1258bfd6"
+    },
+    {
+      "name": "B3_A0_C3_T3.png",
+      "rgba_sha256": "1f196c7a5c93dac3cbf5d0fc1e914f76fcdfa882ce243af033684c8daf989fac"
+    },
+    {
+      "name": "B3_A0_C3_T4.png",
+      "rgba_sha256": "08fe5b556c85452edc7f22b6514da5a9d26fe7a25ae7fd645c64ccc946994270"
+    },
+    {
+      "name": "B3_A0_C4_T1.png",
+      "rgba_sha256": "d3340b4bf87e8ba58791419c51cb01fc1ce8af3084a0552e9abc4503e57cec74"
+    },
+    {
+      "name": "B3_A0_C4_T2.png",
+      "rgba_sha256": "c1eb8408aaf1c535cd1167a9182ecb88fea7b5fc383e2a6089fbf2b249534e03"
+    },
+    {
+      "name": "B3_A0_C4_T3.png",
+      "rgba_sha256": "fbba32165cf6116673b7b8d90835a3d2895bdddc2a9f06a9d0df87bda43b9f74"
+    },
+    {
+      "name": "B3_A0_C4_T4.png",
+      "rgba_sha256": "72718713cb93ebdb8568117139e46c388bf01ad0263894e3b03080e72ddd11aa"
+    },
+    {
+      "name": "B3_A1_C0_T1.png",
+      "rgba_sha256": "1595e912dde1dace7afe5a64bef5263d32b0c93813661b3e217704327d260544"
+    },
+    {
+      "name": "B3_A1_C0_T2.png",
+      "rgba_sha256": "5f5ad62cb04e7a1ca9ff50ba7c46ee6ae3d9a363dc9865644d6f82c630d025c7"
+    },
+    {
+      "name": "B3_A1_C0_T3.png",
+      "rgba_sha256": "b56f39f314f174c6ecec49004d5faa362782e21b8e548dd2f3d2f3e151809371"
+    },
+    {
+      "name": "B3_A1_C0_T4.png",
+      "rgba_sha256": "eb3657c0be44210bef40e4d520f66c61d97e885f7bd74288af2811eeee49e57e"
+    },
+    {
+      "name": "B3_A1_C1_T1.png",
+      "rgba_sha256": "b3d84165cfe30f1c07f550ac8091614c8b092bfa69ced8294fd52c4897e6ced0"
+    },
+    {
+      "name": "B3_A1_C1_T2.png",
+      "rgba_sha256": "aaab6deacb4c09b99700126b2a7ff6bff5189f1a0bafb96f95f75c5a4bee82ee"
+    },
+    {
+      "name": "B3_A1_C1_T3.png",
+      "rgba_sha256": "d2f8d0d97ee97932323919ed5ec7dc92fcb297b64979050ebf315668f2bacd88"
+    },
+    {
+      "name": "B3_A1_C1_T4.png",
+      "rgba_sha256": "72f8b1eb60304ff22aad8325ff5f7b344614a12e70d12d78316befae22c8de2b"
+    },
+    {
+      "name": "B3_A1_C2_T1.png",
+      "rgba_sha256": "0ba6f3b9f8b58348c0b87db24cb8d0c56db74c75bf9bcc6e58b393c51f45783f"
+    },
+    {
+      "name": "B3_A1_C2_T2.png",
+      "rgba_sha256": "51f2d04a87bd35b34b9ad1ee4c7bb3e3d0ad8f4291e00e74125fb91938f7906d"
+    },
+    {
+      "name": "B3_A1_C2_T3.png",
+      "rgba_sha256": "1426579ad3a10a22f8b67216a82919f595ac67cd8ae561422f40f3920af3d197"
+    },
+    {
+      "name": "B3_A1_C2_T4.png",
+      "rgba_sha256": "bb850e24492938eec83de92723dce11eddc7c461f2bc5b887dfe32db0a709867"
+    },
+    {
+      "name": "B3_A1_C3_T1.png",
+      "rgba_sha256": "76176e0df37a284b5b58c0b2b4bc01b12db27662c162824bb5b867940439813b"
+    },
+    {
+      "name": "B3_A1_C3_T2.png",
+      "rgba_sha256": "658471da0eb342a6d72675021604c0b67635e58d504619d32519614b6e716923"
+    },
+    {
+      "name": "B3_A1_C3_T3.png",
+      "rgba_sha256": "ef03b49a207474c8b56eb42bea76cdbb9ac050d7b0dd5a79f258f95e45764502"
+    },
+    {
+      "name": "B3_A1_C3_T4.png",
+      "rgba_sha256": "223e5098195ff24fe3fb079a92bc697f32afc1ab6b3e9fb623fb866d98065cba"
+    },
+    {
+      "name": "B3_A1_C4_T1.png",
+      "rgba_sha256": "f6467314dc690e22068690c0438b6c558a639a69c4274541392546c3e48ffa27"
+    },
+    {
+      "name": "B3_A1_C4_T2.png",
+      "rgba_sha256": "0f987805fbf955ef1e2d29eac9d4b792edd95a845d8eb4d063453542ca2c5eca"
+    },
+    {
+      "name": "B3_A1_C4_T3.png",
+      "rgba_sha256": "a7fdfd2d7642ff05462a950c68e2da2dbd2aa14f04ef4dab13a8fd0601e02282"
+    },
+    {
+      "name": "B3_A1_C4_T4.png",
+      "rgba_sha256": "577d390a64f17267c688b3f57734ac2890aadadc679d6971021532f087ce3136"
+    },
+    {
+      "name": "B3_B0_C0_T1.png",
+      "rgba_sha256": "7acec48923f25d57751397a702e1146243b64b03ffa8c536703313f372ba4445"
+    },
+    {
+      "name": "B3_B0_C0_T2.png",
+      "rgba_sha256": "eec93534e932e001d9a83eed7e07c892ab606a6e8d2409e3a784f0dbb629d475"
+    },
+    {
+      "name": "B3_B0_C0_T3.png",
+      "rgba_sha256": "c840f68b18a3d0e31331cc3a23625cfd749f928bddb53aaa8c694315eab89374"
+    },
+    {
+      "name": "B3_B0_C0_T4.png",
+      "rgba_sha256": "c9602841b69eb60673e58b14d0abc71327510e021f6847c6107c24c73db984a0"
+    },
+    {
+      "name": "B3_B0_C1_T1.png",
+      "rgba_sha256": "8748a0dfd0558200d1c98d570876f902736da449da0ad358c3edcdda387afb52"
+    },
+    {
+      "name": "B3_B0_C1_T2.png",
+      "rgba_sha256": "5b07e542e38597e4b848b3103a87f95a4da8db43d290027cf1025badc5bc0b5d"
+    },
+    {
+      "name": "B3_B0_C1_T3.png",
+      "rgba_sha256": "344cac5159ec49c569effce325edac0e356a84eb44c9ba35301df5ebd9aee14a"
+    },
+    {
+      "name": "B3_B0_C1_T4.png",
+      "rgba_sha256": "33de26c38560c1fdf06ef40c48812241167728fcc28d6cc9847e1f9f40e4ae93"
+    },
+    {
+      "name": "B3_B0_C2_T1.png",
+      "rgba_sha256": "076df17bad847ab7fc6f4a99af0295995a0d1fad2d256de918d3a82bafb68849"
+    },
+    {
+      "name": "B3_B0_C2_T2.png",
+      "rgba_sha256": "acf8a32c548aa427f248adbdb3a1c96a53ac20a962e22552908b8989586a172a"
+    },
+    {
+      "name": "B3_B0_C2_T3.png",
+      "rgba_sha256": "188843e0c6d4249726fd1129e7cda5f051a9a2b75c04a5e9218310eb2392eb81"
+    },
+    {
+      "name": "B3_B0_C2_T4.png",
+      "rgba_sha256": "325b83f9a6c7b6f18aa1d8a4b673acb0ed18164021f0c3d7df8924436d53c5df"
+    },
+    {
+      "name": "B3_B0_C3_T1.png",
+      "rgba_sha256": "da1dd20b5f732f1bbd74182207d05c7cabc291af1b8eb57e55e7a95c9a3dc3db"
+    },
+    {
+      "name": "B3_B0_C3_T2.png",
+      "rgba_sha256": "558c54dcb14b526ec1bc6d9a9ae8dcbc19fb222a7f0cc75d77919b4a6ea8d72f"
+    },
+    {
+      "name": "B3_B0_C3_T3.png",
+      "rgba_sha256": "11f4932309953c06b7410ceb20e9cf0757033557fbd0ff498c6d2b993b9085d9"
+    },
+    {
+      "name": "B3_B0_C3_T4.png",
+      "rgba_sha256": "88b7754b3e556e962069a45188c2df42a3e0a2312fe5119576167d945b463ac8"
+    },
+    {
+      "name": "B3_B0_C4_T1.png",
+      "rgba_sha256": "533817cc4f14cb5c2b3ec6f37a96ee7a8d606c3b6254a178365137eac2b8c2ff"
+    },
+    {
+      "name": "B3_B0_C4_T2.png",
+      "rgba_sha256": "65f1c12c599dd211d7f878c398e7cedbb5fc9cf64d7c7225edf92cabdce4030c"
+    },
+    {
+      "name": "B3_B0_C4_T3.png",
+      "rgba_sha256": "f75fce588b727d5cb3f11eb0831c437a4edbdf70ab4b61689ccd150e7f19d860"
+    },
+    {
+      "name": "B3_B0_C4_T4.png",
+      "rgba_sha256": "2b76352d022688f63f160281a1f430c40636d995a26e9d6a2194714a96ed9fe2"
+    }
+  ],
+  "scientific_metrics_not_evaluated": true,
+  "source_and_annotation_validation": [
+    {
+      "image_id": "B3_A0_C0_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C0_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C0_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C0_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C1_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C1_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C1_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C1_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C2_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C2_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C2_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C2_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C3_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C3_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C3_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C3_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C4_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C4_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C4_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A0_C4_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C0_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C0_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C0_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C0_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C1_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C1_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C1_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C1_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C2_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C2_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C2_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C2_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C3_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C3_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C3_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C3_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C4_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C4_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C4_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_A1_C4_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C0_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C0_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C0_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C0_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C1_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C1_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C1_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C1_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C2_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C2_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C2_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C2_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C3_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C3_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C3_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C3_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C4_T1",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C4_T2",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C4_T3",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    },
+    {
+      "image_id": "B3_B0_C4_T4",
+      "original_png_sha256": "matched",
+      "browser_rgba_sha256": "matched",
+      "four_layers_rle_equals_png": true,
+      "reviewed": false
+    }
+  ],
+  "software_export_fixture": "ZIP CRC and existing label checker passed; fixture excluded from distributed annotations",
+  "actual_human_reviewed_images": 0
+}

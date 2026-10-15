@@ -1,0 +1,19 @@
+{
+  "image_id": "B3_A0_C4_T2",
+  "image_sha256": "66be1650dcf4428b00a0b20557d1111680cd46abb390e0fa2f0f93de9c985587",
+  "mask_sha256": "38fe7ece35972c33434becc0aa1cdda657e8acd1859c908103e7701e0ac219a5",
+  "source_period": "T2",
+  "status": "pending_person_review",
+  "label_origin": "assistant_visual_T3_corridor_seeds_plus_automated_temporal_flow_and_local_profile_fit",
+  "reviewed_entire_image": false,
+  "not_training_ground_truth": true,
+  "label_encoding": {
+    "unreviewed": 64,
+    "root_candidate": 255,
+    "uncertain": 128,
+    "background": 0
+  },
+  "no_confirmed_death_from_rgb": true,
+  "unclassified_colour_is_not_no_browning": true,
+  "trace_ids_are_provisional_not_verified_biological_roots": true
+}

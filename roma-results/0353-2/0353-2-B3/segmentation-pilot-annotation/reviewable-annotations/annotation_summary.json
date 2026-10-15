@@ -1,0 +1,32 @@
+{
+  "position": "0353-2-B3",
+  "images": 60,
+  "periods": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "physical_windows": 15,
+  "split": {
+    "train": 36,
+    "val": 12,
+    "test": 12
+  },
+  "status": "pending_person_review",
+  "generation_source": "assistant visually selected 431 T3 polylines, bounded optical flow, local cross-section ridge fitting; not independently manual labels",
+  "originals_byte_exact": true,
+  "apparent_width_unit": "native T1 pixel; not physical diameter",
+  "unreviewed_outside_traces_encoding": 64,
+  "root_encoding": 255,
+  "uncertain_encoding": 128,
+  "background_encoding": 0,
+  "confirmed_death_assigned": 0,
+  "new_roots_confirmed": 0,
+  "uncertain_colour_or_viability": "left unclassified; absence or browning alone does not establish death",
+  "scientific_segmentation_metrics": null,
+  "source_reference_limitation": "T3-guided traces can miss roots visible only in another period; water and soil texture may still cause false positives. Check original RGB, entire root width and each period before declaring an image complete.",
+  "root_ids": "provisional geometric trace IDs, not validated biological root identities",
+  "browser_software_checks": 73,
+  "source_images_checked": 60
+}

@@ -1,3 +1,11 @@
+# 最新：60张根系待复核标注，可直接修改
+
+[下载原图、标注与可编辑页面](segmentation-pilot-annotation/reviewable-annotations/0353-2-B3_reviewable_annotations_v1.zip) · [使用说明](segmentation-pilot-annotation/reviewable-annotations/README.md)
+
+打开包内 annotate.html 即显示60张现有标注。尚未经人员逐图复核，分类和粗细均可修改；没有真实模型评估指标。
+
+---
+
 # 最新：根系分割人工标注预实验准备
 
 [下载60张原色图、人工标注工具及评估脚本](segmentation-pilot-annotation/0353-2-B3_human_annotation_kit_v4.zip) · [查看标注窗位置](segmentation-pilot-annotation/views/0353-2-B3_annotation_windows.png) · [标注规则](segmentation-pilot-annotation/annotation_protocol.md)
