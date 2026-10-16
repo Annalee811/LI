@@ -1,0 +1,172 @@
+{
+  "periods": [
+    {
+      "period": "T1",
+      "origin": "original manual annotation, not model prediction",
+      "previous_reference": null,
+      "previous_reference_origin": null,
+      "previous_probability_sha256": null,
+      "current_probability_sha256": "6084b7f93f14af3ca110e662845cfb9423147f01769a536ee3a5a80a44d94ed5",
+      "root_pixels": 85574,
+      "class_pixels": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 85574,
+        "255": 0
+      },
+      "upper_original_rgb_pixels_sha256": "cc0492f33e2b6510059a9e5e3726542682e356406ed19263bbc4c642d1875bc4",
+      "uncertainty_rule": null,
+      "manual_labels_used_to_draw_this_period": true,
+      "change_observations": null,
+      "width": 2541,
+      "height": 1108
+    },
+    {
+      "period": "T2",
+      "origin": "original manual annotation, not model prediction",
+      "previous_reference": "T1",
+      "previous_reference_origin": "manual",
+      "previous_probability_sha256": "6084b7f93f14af3ca110e662845cfb9423147f01769a536ee3a5a80a44d94ed5",
+      "current_probability_sha256": "a9e918c48831dd70996a65a8dd50e7a19e2c59f360b389a9902f996a761c73d1",
+      "root_pixels": 112385,
+      "class_pixels": {
+        "1": 69201,
+        "2": 37360,
+        "3": 5824,
+        "4": 0,
+        "255": 0
+      },
+      "upper_original_rgb_pixels_sha256": "322f114deaa6c9b3c5f1b49493475797e2c3a32bc6d0aa288846f3101d3b43ae",
+      "uncertainty_rule": null,
+      "manual_labels_used_to_draw_this_period": true,
+      "change_observations": {
+        "new_total_by_labels_pixels": 43184,
+        "new_total_definition": "new lateral plus tip elongation; classified segments only",
+        "first_visible_geometry_candidate_pixels": 36853,
+        "previous_not_observed_candidate_pixels": 9499,
+        "geometry_displacement_tolerance_pixels": 8,
+        "geometry_border_exclusion_pixels": 8,
+        "geometry_not_validated": true,
+        "interpretation": "Image-coordinate candidates only. Displacement, occlusion, missed segmentation or appearance changes can create these signals; they do not prove birth or death.",
+        "browning_status": "not evaluated; no labelled examples",
+        "death_status": "not evaluated; missing roots are not labelled dead"
+      },
+      "width": 2541,
+      "height": 1108
+    },
+    {
+      "period": "T3",
+      "origin": "model prediction, unreviewed",
+      "previous_reference": "T2",
+      "previous_reference_origin": "manual",
+      "previous_probability_sha256": "a9e918c48831dd70996a65a8dd50e7a19e2c59f360b389a9902f996a761c73d1",
+      "current_probability_sha256": "0fbffd49896fa438e28561df0b39cdc2077049372738f7ba5617029877d5a3cf",
+      "root_pixels": 89213,
+      "class_pixels": {
+        "1": 50869,
+        "2": 6226,
+        "3": 9203,
+        "4": 0,
+        "255": 22915
+      },
+      "upper_original_rgb_pixels_sha256": "cbac9c422ac9fd8f8f785589096ad2adb9a454c015147173dfc75ce5b141b506",
+      "uncertainty_rule": "max conditional probability <0.55 or top-two margin <0.15; additionally abstain when persistent pixels >12px from previous support, new pixels <=2px from old support, or an elongating component has no previous tip within 24px. All thresholds are exploratory native-pixel display rules, not validated anatomical decisions; reported metrics use raw unfiltered predictions.",
+      "manual_labels_used_to_draw_this_period": false,
+      "change_observations": {
+        "new_total_by_labels_pixels": 33484,
+        "new_total_definition": "new lateral plus tip elongation; classified segments only",
+        "first_visible_geometry_candidate_pixels": 20852,
+        "previous_not_observed_candidate_pixels": 25124,
+        "geometry_displacement_tolerance_pixels": 8,
+        "geometry_border_exclusion_pixels": 8,
+        "geometry_not_validated": true,
+        "interpretation": "Image-coordinate candidates only. Displacement, occlusion, missed segmentation or appearance changes can create these signals; they do not prove birth or death.",
+        "browning_status": "not evaluated; no labelled examples",
+        "death_status": "not evaluated; missing roots are not labelled dead"
+      },
+      "width": 2541,
+      "height": 1108
+    },
+    {
+      "period": "T4",
+      "origin": "model prediction, unreviewed",
+      "previous_reference": "T3",
+      "previous_reference_origin": "model prediction",
+      "previous_probability_sha256": "0fbffd49896fa438e28561df0b39cdc2077049372738f7ba5617029877d5a3cf",
+      "current_probability_sha256": "0d406960a802e5bb8a596e306481436f9f44e0b05e05b46c34ad7b869c6b4dac",
+      "root_pixels": 51888,
+      "class_pixels": {
+        "1": 46103,
+        "2": 2710,
+        "3": 199,
+        "4": 0,
+        "255": 2876
+      },
+      "upper_original_rgb_pixels_sha256": "607d0b567a4ca577f27d5bf1a261d06b3639d951a735e90e3c447f318afb7ba3",
+      "uncertainty_rule": "max conditional probability <0.55 or top-two margin <0.15; additionally abstain when persistent pixels >12px from previous support, new pixels <=2px from old support, or an elongating component has no previous tip within 24px. All thresholds are exploratory native-pixel display rules, not validated anatomical decisions; reported metrics use raw unfiltered predictions.",
+      "manual_labels_used_to_draw_this_period": false,
+      "change_observations": {
+        "new_total_by_labels_pixels": 4375,
+        "new_total_definition": "new lateral plus tip elongation; classified segments only",
+        "first_visible_geometry_candidate_pixels": 4783,
+        "previous_not_observed_candidate_pixels": 24818,
+        "geometry_displacement_tolerance_pixels": 8,
+        "geometry_border_exclusion_pixels": 8,
+        "geometry_not_validated": true,
+        "interpretation": "Image-coordinate candidates only. Displacement, occlusion, missed segmentation or appearance changes can create these signals; they do not prove birth or death.",
+        "browning_status": "not evaluated; no labelled examples",
+        "death_status": "not evaluated; missing roots are not labelled dead"
+      },
+      "width": 2541,
+      "height": 1108
+    }
+  ],
+  "encoding": {
+    "0": "background",
+    "1": "persistent previous root segment",
+    "2": "newly visible root segment, including new lateral roots",
+    "3": "elongation from previous root tip",
+    "4": "T1 baseline root",
+    "255": "undetermined"
+  },
+  "palette_rgb": {
+    "0": [
+      255,
+      255,
+      255
+    ],
+    "1": [
+      147,
+      51,
+      234
+    ],
+    "2": [
+      22,
+      163,
+      74
+    ],
+    "3": [
+      234,
+      179,
+      8
+    ],
+    "4": [
+      37,
+      99,
+      235
+    ],
+    "255": [
+      148,
+      163,
+      184
+    ]
+  },
+  "scope": "Only upper 2541x1108; T1/T2 manual, T3/T4 predictions; lower region excluded",
+  "root_model": "single_frame_unet",
+  "temporal_model": "balanced_temporal_unet",
+  "T3_T4_accuracy": "not measured; no complete reference labels",
+  "individual_root_identity_tracking": false,
+  "phenotype_definition_limit": "Model learns user-labelled tip elongation versus new lateral segments; tip/branch cues are not proof of biological identity",
+  "browning_death_inferred": false
+}

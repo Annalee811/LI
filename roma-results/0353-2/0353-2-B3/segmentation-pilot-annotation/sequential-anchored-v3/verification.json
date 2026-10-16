@@ -1,0 +1,82 @@
+{
+  "passed": 19,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "T1 complete original progress object unchanged",
+      "passed": true
+    },
+    {
+      "name": "T2 complete original progress object unchanged",
+      "passed": true
+    },
+    {
+      "name": "T1 upper editable project matches native cropped layers",
+      "passed": true
+    },
+    {
+      "name": "T2 upper editable project matches native cropped layers",
+      "passed": true
+    },
+    {
+      "name": "T3 upper editable project matches native cropped layers",
+      "passed": true
+    },
+    {
+      "name": "T4 upper editable project matches native cropped layers",
+      "passed": true
+    },
+    {
+      "name": "T3 reads T2 manual probability",
+      "passed": true
+    },
+    {
+      "name": "T4 reads T3 predicted probability",
+      "passed": true
+    },
+    {
+      "name": "T3 editable roots equal predictions with no old strokes",
+      "passed": true
+    },
+    {
+      "name": "T3 excluded lower region remains unknown",
+      "passed": true
+    },
+    {
+      "name": "T3 classes contained inside roots",
+      "passed": true
+    },
+    {
+      "name": "T4 editable roots equal predictions with no old strokes",
+      "passed": true
+    },
+    {
+      "name": "T4 excluded lower region remains unknown",
+      "passed": true
+    },
+    {
+      "name": "T4 classes contained inside roots",
+      "passed": true
+    },
+    {
+      "name": "val root metrics reproduce on unique native pixels",
+      "passed": true
+    },
+    {
+      "name": "test root metrics reproduce on unique native pixels",
+      "passed": true
+    },
+    {
+      "name": "test elongation absent is NA, not zero",
+      "passed": true
+    },
+    {
+      "name": "joint model responds to previous root input",
+      "passed": true
+    },
+    {
+      "name": "selected balanced model responds to previous root input",
+      "passed": true
+    }
+  ]
+}

@@ -1,4 +1,12 @@
-# 当前：原标注核对、三模型比较与四期预测
+# 当前：人工T1/T2锚定的连续预测 v3
+
+[下载连续图像与可编辑结果](sequential-anchored-v3/0353-2-B3_sequential_T1T2_manual_T3T4_results_v3.zip) · [下载新增模型与训练记录](sequential-anchored-v3/0353-2-B3_sequential_models_and_training_v3.zip)
+
+保留用户T1/T2原人工标签；T3参考T2人工根，T4参考T3预测根。前期未见部分属于新增，保留新生与根尖延伸子类；消失候选单列，不能等同死亡。没有褐变/死亡监督标签，未训练这两类。只使用原上部区域。
+
+新联合分割未胜过原U-Net，最终根分割继续使用原模型；新增均衡时序分支在同一T1人工参考协议下验证持续、新生、延伸Dice为0.7156、0.6367、0.2400，延伸识别仍弱。验证T2根Dice为0.7399，空间留出0.5493；不是跨位置独立验证，T3/T4类别未经定量验证。可在包内annotate.html选择images四张RGB并导入editable_upper_RGB_sequential.json继续修改。
+
+# 先前：原标注核对、三模型比较与四期预测
 
 [下载原始人工标注核对图](three-model-progress-v2/0353-2-B3_original_manual_label_review.zip) · [下载三模型训练与评估](three-model-progress-v2/0353-2-B3_three_models_training_v2.zip) · [下载四期预测](three-model-progress-v2/0353-2-B3_four_period_predictions_v2.zip)
 

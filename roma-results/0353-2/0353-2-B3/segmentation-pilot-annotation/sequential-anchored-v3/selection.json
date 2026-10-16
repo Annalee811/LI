@@ -1,0 +1,192 @@
+{
+  "selection_data": "validation T1 to T2 only, same C3 spatial column as earlier pilot",
+  "selected_root_model": "single_frame_unet",
+  "selected_temporal_model": "balanced_temporal_unet",
+  "frozen_root_threshold": 0.8,
+  "root_candidates": [
+    {
+      "model": "single_frame_unet",
+      "threshold": 0.8,
+      "TP": 16968,
+      "FP": 7511,
+      "FN": 4421,
+      "TN": 467484,
+      "Precision": 0.6931655704889905,
+      "Recall": 0.7933049698443125,
+      "Dice": 0.7398622133077527,
+      "IoU": 0.587128027681661
+    },
+    {
+      "model": "sequential_joint_unet",
+      "threshold": 0.75,
+      "TP": 17056,
+      "FP": 8148,
+      "FN": 4333,
+      "TN": 466847,
+      "Precision": 0.6767179812728138,
+      "Recall": 0.7974192341857964,
+      "Dice": 0.7321271435623377,
+      "IoU": 0.5774452381758473
+    }
+  ],
+  "temporal_candidates": [
+    {
+      "model": "previous_temporal_unet",
+      "per_class": [
+        {
+          "class_id": 1,
+          "name": "persistent",
+          "support_pixels": 11035,
+          "TP": 8346,
+          "FP": 3926,
+          "FN": 2689,
+          "Precision": 0.6800847457627118,
+          "Recall": 0.7563207974626189,
+          "Dice": 0.7161796885055992,
+          "IoU": 0.5578504110687789,
+          "assessable": true
+        },
+        {
+          "class_id": 2,
+          "name": "newly_observed",
+          "support_pixels": 9340,
+          "TP": 6891,
+          "FP": 5316,
+          "FN": 2449,
+          "Precision": 0.5645121651511428,
+          "Recall": 0.7377944325481799,
+          "Dice": 0.6396250058012717,
+          "IoU": 0.47018286026200873,
+          "assessable": true
+        },
+        {
+          "class_id": 3,
+          "name": "elongating",
+          "support_pixels": 1014,
+          "TP": 0,
+          "FP": 0,
+          "FN": 1014,
+          "Precision": null,
+          "Recall": 0.0,
+          "Dice": 0.0,
+          "IoU": 0.0,
+          "assessable": true
+        }
+      ],
+      "macro_Dice_supported_classes": 0.4519348981022903,
+      "classes_with_ground_truth": 3,
+      "meaning": "Compared to user labels; absent classes are not reported as zero or perfect recognition"
+    },
+    {
+      "model": "sequential_joint_unet",
+      "per_class": [
+        {
+          "class_id": 1,
+          "name": "persistent",
+          "support_pixels": 11035,
+          "TP": 8126,
+          "FP": 4077,
+          "FN": 2909,
+          "Precision": 0.665901827419487,
+          "Recall": 0.7363842319891255,
+          "Dice": 0.6993717187365522,
+          "IoU": 0.537718369507676,
+          "assessable": true
+        },
+        {
+          "class_id": 2,
+          "name": "newly_observed",
+          "support_pixels": 9340,
+          "TP": 6802,
+          "FP": 5474,
+          "FN": 2538,
+          "Precision": 0.5540892798957315,
+          "Recall": 0.7282655246252676,
+          "Dice": 0.6293486306439674,
+          "IoU": 0.45916025381395975,
+          "assessable": true
+        },
+        {
+          "class_id": 3,
+          "name": "elongating",
+          "support_pixels": 1014,
+          "TP": 0,
+          "FP": 0,
+          "FN": 1014,
+          "Precision": null,
+          "Recall": 0.0,
+          "Dice": 0.0,
+          "IoU": 0.0,
+          "assessable": true
+        }
+      ],
+      "macro_Dice_supported_classes": 0.4429067831268399,
+      "classes_with_ground_truth": 3,
+      "meaning": "Compared to user labels; absent classes are not reported as zero or perfect recognition"
+    },
+    {
+      "model": "balanced_temporal_unet",
+      "per_class": [
+        {
+          "class_id": 1,
+          "name": "persistent",
+          "support_pixels": 11035,
+          "TP": 8332,
+          "FP": 3919,
+          "FN": 2703,
+          "Precision": 0.680107746306424,
+          "Recall": 0.7550521069324876,
+          "Dice": 0.7156231211886971,
+          "IoU": 0.557175337702287,
+          "assessable": true
+        },
+        {
+          "class_id": 2,
+          "name": "newly_observed",
+          "support_pixels": 9340,
+          "TP": 6677,
+          "FP": 4957,
+          "FN": 2663,
+          "Precision": 0.5739212652570054,
+          "Recall": 0.714882226980728,
+          "Dice": 0.6366930485362831,
+          "IoU": 0.4670210533678394,
+          "assessable": true
+        },
+        {
+          "class_id": 3,
+          "name": "elongating",
+          "support_pixels": 1014,
+          "TP": 193,
+          "FP": 401,
+          "FN": 821,
+          "Precision": 0.32491582491582494,
+          "Recall": 0.1903353057199211,
+          "Dice": 0.24004975124378108,
+          "IoU": 0.1363957597173145,
+          "assessable": true
+        }
+      ],
+      "macro_Dice_supported_classes": 0.5307886403229204,
+      "classes_with_ground_truth": 3,
+      "meaning": "Compared to user labels; absent classes are not reported as zero or perfect recognition"
+    }
+  ],
+  "input_check": {
+    "validation_joint_root_mean_absolute_change_when_previous_root_removed": 0.008722946047782898,
+    "validation_joint_class_mean_absolute_change_when_previous_root_removed": 0.03778570517897606,
+    "validation_balanced_class_mean_absolute_change_when_previous_root_removed": 0.10069824010133743
+  },
+  "manual_anchor_evaluation": "T1 manual mask is provided as an earlier-period input; no T2 validation annotation enters model input",
+  "comparison_note": "This anchored protocol differs from v2, which used a predicted T1 prior and a threshold chosen from both periods. Compare v3 alternatives within this protocol. Repeated exploratory use of the same validation split does not provide independent confirmation.",
+  "T3_T4_used_for_model_selection": false,
+  "class_definition": {
+    "0": "background",
+    "1": "persistent previous root segment",
+    "2": "newly visible root segment, including new lateral roots",
+    "3": "elongation from previous root tip",
+    "4": "T1 baseline root",
+    "255": "undetermined"
+  },
+  "browning_or_death_inferred": false
+}
