@@ -1,0 +1,71 @@
+{
+  "models": [
+    "U-Net",
+    "Uploaded TensorFlow 1.12 DeepLabV3+"
+  ],
+  "scores": [
+    {
+      "model": "U-Net",
+      "split": "val",
+      "Precision": 0.7130812667516719,
+      "Recall": 0.7783174278573052,
+      "Dice": 0.7442725803604167,
+      "IoU": 0.5927023402690661,
+      "threshold": 0.7,
+      "training_epochs": 51,
+      "best_epoch": 33,
+      "n_tile_images": 20,
+      "n_unique_evaluated_pixels": 992768
+    },
+    {
+      "model": "DeepLabV3+ (uploaded TF1.12 / ResNet-v2-50)",
+      "split": "val",
+      "Precision": 0.5612649105923954,
+      "Recall": 0.7123097023403772,
+      "Dice": 0.6278304189458137,
+      "IoU": 0.4575457928920674,
+      "threshold": 0.7,
+      "training_epochs": 40,
+      "best_epoch": 39,
+      "n_tile_images": 20,
+      "n_unique_evaluated_pixels": 992768
+    },
+    {
+      "model": "U-Net",
+      "split": "test",
+      "Precision": 0.6381266008049762,
+      "Recall": 0.5498975248305218,
+      "Dice": 0.5907358794140063,
+      "IoU": 0.41918038697271964,
+      "threshold": 0.7,
+      "training_epochs": 51,
+      "best_epoch": 33,
+      "n_tile_images": 20,
+      "n_unique_evaluated_pixels": 992768
+    },
+    {
+      "model": "DeepLabV3+ (uploaded TF1.12 / ResNet-v2-50)",
+      "split": "test",
+      "Precision": 0.4855251457365873,
+      "Recall": 0.5164748541699511,
+      "Dice": 0.5005220136996766,
+      "IoU": 0.33379750704751554,
+      "threshold": 0.7,
+      "training_epochs": 40,
+      "best_epoch": 39,
+      "n_tile_images": 20,
+      "n_unique_evaluated_pixels": 992768
+    }
+  ],
+  "shared_manifest_sha256": "940cba6274011f3ec5e944f2b825193caf42121b228ffdb87e746ddb738ebe29",
+  "same_test_masks": true,
+  "test_independence": "within-position spatial holdout only",
+  "ground_truth_limitations": [
+    "Only one microtube position and two periods; no independent-site or biological replicate test.",
+    "Human masks are used exactly as supplied. Unlabelled fine roots may be encoded as background.",
+    "Root-level independence cannot be guaranteed: a root may span different guarded columns.",
+    "T2 temporal attributes are preserved but this model learns root/background only.",
+    "No independently measured root lengths or physical pixel scale are available."
+  ],
+  "deep_checkpoint_reloaded_before_scoring": true
+}

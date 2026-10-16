@@ -1,0 +1,43 @@
+{
+  "passed": 9,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "DeepLab checkpoint hash, variable count, dtype and finite values",
+      "passed": true
+    },
+    {
+      "name": "Actual uploaded TF1.12 architecture with only documented loading guard",
+      "passed": true
+    },
+    {
+      "name": "val_T1_identical_ground_truth",
+      "passed": true
+    },
+    {
+      "name": "val_T2_identical_ground_truth",
+      "passed": true
+    },
+    {
+      "name": "val_DeepLab_counts_reproduce_and_overlap_counted_once",
+      "passed": true
+    },
+    {
+      "name": "test_T1_identical_ground_truth",
+      "passed": true
+    },
+    {
+      "name": "test_T2_identical_ground_truth",
+      "passed": true
+    },
+    {
+      "name": "test_DeepLab_counts_reproduce_and_overlap_counted_once",
+      "passed": true
+    },
+    {
+      "name": "Independent DeepLab checkpoint restore reproduces held-out probabilities",
+      "passed": true,
+      "max_absolute_error_to_float16_saved_reference": 0.00024086236953735352
+    }
+  ]
+}

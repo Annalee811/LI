@@ -1,0 +1,14 @@
+[
+  {
+    "file": "0353-2-B3_upper_T1T2_data_and_results.zip",
+    "bytes": 84356479,
+    "sha256": "45561da6ed824f2ff0a37b8cb133af5491fa62f542e62f481f9ea98e9701c97e",
+    "entries": 590
+  },
+  {
+    "file": "0353-2-B3_DeepLabV3plus_TF112_model.zip",
+    "bytes": 74600141,
+    "sha256": "2c1d9c46caa3f2feee2a9d79f35a7d1bcc8e2ca06b287f8106b823fc90391b25",
+    "entries": 37
+  }
+]

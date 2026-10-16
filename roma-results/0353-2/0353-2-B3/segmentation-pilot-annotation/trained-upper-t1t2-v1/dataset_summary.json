@@ -1,0 +1,90 @@
+{
+  "original_acquisitions": 2,
+  "microtube_positions": 1,
+  "upper_roi_xyxy": [
+    0,
+    0,
+    2541,
+    1108
+  ],
+  "patch_size": [
+    256,
+    256
+  ],
+  "resize": false,
+  "color_enhancement": false,
+  "label_modification": false,
+  "seed": 20261016,
+  "image_patches": {
+    "train": 60,
+    "val": 20,
+    "test": 20
+  },
+  "physical_windows": {
+    "train": 30,
+    "val": 10,
+    "test": 10
+  },
+  "paired_periods_same_group": true,
+  "min_cross_split_guard_pixels": 64,
+  "columns": [
+    22,
+    534,
+    1046,
+    1558,
+    2070
+  ],
+  "column_splits": {
+    "0": "train",
+    "1": "train",
+    "2": "train",
+    "3": "val",
+    "4": "test"
+  },
+  "source_records": [
+    {
+      "period": "T1",
+      "annotation_zip_sha256": "b2bb08cbbceeabf1b2a50c3f0c050f3e01e0cdabbeb3c3fae09c28f0bb6e8f9b",
+      "original_rgb_sha256": "4bbbe96d30015f8b1fb719095c2ce90bedca23291a03c6582d6bc65719f98e86",
+      "full_mask_sha256": "b9017e1ec6c22bd47a562e9b39e16bd188d47c870bd2411a2117d526d0e60158",
+      "source_editor": "custom-file root editor v1",
+      "annotator": "111",
+      "source_created_at": "2026-10-16T03:22:49.885Z",
+      "crop_xyxy_exclusive": [
+        0,
+        0,
+        2541,
+        1108
+      ],
+      "root_pixels": 85574,
+      "original_full_image_review_flag": true,
+      "scope": "Only upper region accepted by user; lower region is excluded, not background"
+    },
+    {
+      "period": "T2",
+      "annotation_zip_sha256": "a8250d78c7621bfd5e4a1cd87be1fcf13643ea519c70c017d0423f1b9d857a9b",
+      "original_rgb_sha256": "98c4735809480b6bc6de54218d0e7d2a97d9f21a4ad75dc8d797fc7620249a0d",
+      "full_mask_sha256": "da768fb7a0629410114fad8980779d84a4bbc5b6d7e13e873726b5f60f90edad",
+      "source_editor": "custom-file root editor v1",
+      "annotator": "111",
+      "source_created_at": "2026-10-16T03:22:44.093Z",
+      "crop_xyxy_exclusive": [
+        0,
+        0,
+        2541,
+        1108
+      ],
+      "root_pixels": 112385,
+      "original_full_image_review_flag": true,
+      "scope": "Only upper region accepted by user; lower region is excluded, not background"
+    }
+  ],
+  "overlap": "Tiles overlap only within a split. Evaluation fuses overlapping probabilities before counting each pixel once.",
+  "limitations": [
+    "Only one microtube position and two periods; no independent-site or biological replicate test.",
+    "Human masks are used exactly as supplied. Unlabelled fine roots may be encoded as background.",
+    "Root-level independence cannot be guaranteed: a root may span different guarded columns.",
+    "T2 temporal attributes are preserved but this model learns root/background only.",
+    "No independently measured root lengths or physical pixel scale are available."
+  ]
+}

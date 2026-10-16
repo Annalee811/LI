@@ -1,0 +1,71 @@
+{
+  "passed": 16,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "100 tile images with counts 60/20/20",
+      "pass_check": true
+    },
+    {
+      "name": "50 paired spatial windows; T1/T2 always same split",
+      "pass_check": true
+    },
+    {
+      "name": "no cross-split pixel overlap; at least 64px guard",
+      "pass_check": true
+    },
+    {
+      "name": "T1 upper crop and label dimensions exactly 2541x1108",
+      "pass_check": true
+    },
+    {
+      "name": "T1 all 50 RGB tiles and four label layers exactly match upper sources",
+      "pass_check": true
+    },
+    {
+      "name": "T1 temporal/color/viability layers stay inside the root mask",
+      "pass_check": true
+    },
+    {
+      "name": "T2 upper crop and label dimensions exactly 2541x1108",
+      "pass_check": true
+    },
+    {
+      "name": "T2 all 50 RGB tiles and four label layers exactly match upper sources",
+      "pass_check": true
+    },
+    {
+      "name": "T2 temporal/color/viability layers stay inside the root mask",
+      "pass_check": true
+    },
+    {
+      "name": "checkpoint, manifest and chosen epoch agree",
+      "pass_check": true
+    },
+    {
+      "name": "threshold frozen from validation only",
+      "pass_check": true
+    },
+    {
+      "name": "val scores exactly reproduce from saved prediction masks",
+      "pass_check": true
+    },
+    {
+      "name": "val overlapping patches counted only once per source pixel",
+      "pass_check": true
+    },
+    {
+      "name": "test scores exactly reproduce from saved prediction masks",
+      "pass_check": true
+    },
+    {
+      "name": "test overlapping patches counted only once per source pixel",
+      "pass_check": true
+    },
+    {
+      "name": "no fabricated manual-length or three-model comparison",
+      "pass_check": true
+    }
+  ],
+  "scope": "Software, pixel integrity, geometry and actual training outputs; not expert adjudication of labels."
+}

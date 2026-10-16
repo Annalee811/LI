@@ -1,3 +1,11 @@
+# T1/T2 上部根系分割试训
+
+[下载切块数据与两模型结果](trained-upper-t1t2-v1/0353-2-B3_upper_T1T2_data_and_results.zip) · [下载上传的DeepLabV3+模型权重](trained-upper-t1t2-v1/0353-2-B3_DeepLabV3plus_TF112_model.zip)
+
+只用用户指定的上部2541×1108区域。原始256×256图块训练60、验证20、空间留出测试20；同区T1/T2同组，跨组至少64像素间隔。
+
+本轮二分类试训的验证／空间留出Dice：U-Net 0.7443／0.5907；上传的TensorFlow 1.12 DeepLabV3+（ResNet-v2-50）0.6278／0.5005。指标针对现有人工掩膜，非跨位置验证。详细Precision、Recall、Dice、IoU、预测图、权重、来源校验及完整脚本均已保存。
+
 # 当前：自选图片标注版
 
 [下载离线标注工具 ZIP](custom-images-v1/root_annotation_custom_images_v1.zip)
