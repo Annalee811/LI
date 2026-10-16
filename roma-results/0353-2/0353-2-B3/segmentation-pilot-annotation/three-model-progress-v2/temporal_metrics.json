@@ -1,0 +1,94 @@
+{
+  "val": {
+    "per_class": [
+      {
+        "class_id": 1,
+        "name": "persistent",
+        "support_pixels": 11035,
+        "TP": 8335,
+        "FP": 4405,
+        "FN": 2700,
+        "Precision": 0.6542386185243328,
+        "Recall": 0.7553239691889443,
+        "Dice": 0.7011566771819138,
+        "IoU": 0.5398316062176166,
+        "assessable": true
+      },
+      {
+        "class_id": 2,
+        "name": "newly_observed",
+        "support_pixels": 9340,
+        "TP": 7162,
+        "FP": 6847,
+        "FN": 2178,
+        "Precision": 0.5112427725033907,
+        "Recall": 0.7668094218415418,
+        "Dice": 0.6134738104415607,
+        "IoU": 0.442453820967443,
+        "assessable": true
+      },
+      {
+        "class_id": 3,
+        "name": "elongating",
+        "support_pixels": 1014,
+        "TP": 0,
+        "FP": 0,
+        "FN": 1014,
+        "Precision": null,
+        "Recall": 0.0,
+        "Dice": 0.0,
+        "IoU": 0.0,
+        "assessable": true
+      }
+    ],
+    "macro_Dice_supported_classes": 0.43821016254115813,
+    "classes_with_ground_truth": 3,
+    "meaning": "Compared to user labels; absent classes are not reported as zero or perfect recognition"
+  },
+  "test": {
+    "per_class": [
+      {
+        "class_id": 1,
+        "name": "persistent",
+        "support_pixels": 6471,
+        "TP": 3296,
+        "FP": 3104,
+        "FN": 3175,
+        "Precision": 0.515,
+        "Recall": 0.5093494050378612,
+        "Dice": 0.5121591173956958,
+        "IoU": 0.34422976501305486,
+        "assessable": true
+      },
+      {
+        "class_id": 2,
+        "name": "newly_observed",
+        "support_pixels": 1955,
+        "TP": 1091,
+        "FP": 2119,
+        "FN": 864,
+        "Precision": 0.3398753894080997,
+        "Recall": 0.5580562659846547,
+        "Dice": 0.422458857696031,
+        "IoU": 0.26779577810505645,
+        "assessable": true
+      },
+      {
+        "class_id": 3,
+        "name": "elongating",
+        "support_pixels": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "Precision": null,
+        "Recall": null,
+        "Dice": null,
+        "IoU": null,
+        "assessable": false
+      }
+    ],
+    "macro_Dice_supported_classes": 0.46730898754586336,
+    "classes_with_ground_truth": 2,
+    "meaning": "Compared to user labels; absent classes are not reported as zero or perfect recognition"
+  }
+}

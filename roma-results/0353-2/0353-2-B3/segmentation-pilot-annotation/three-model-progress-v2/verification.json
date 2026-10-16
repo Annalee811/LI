@@ -1,0 +1,135 @@
+{
+  "passed": 32,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "winner selected only from validation scores",
+      "passed": true
+    },
+    {
+      "name": "same training data for all three models",
+      "passed": true
+    },
+    {
+      "name": "T1 and T2 always same spatial group",
+      "passed": true
+    },
+    {
+      "name": "T1 native RGB/mask/state dimensions correct",
+      "passed": true
+    },
+    {
+      "name": "T1 states only inside predicted roots",
+      "passed": true
+    },
+    {
+      "name": "T1 correct class codes",
+      "passed": true
+    },
+    {
+      "name": "T1 all predicted roots are baseline, never newly born",
+      "passed": true
+    },
+    {
+      "name": "T2 native RGB/mask/state dimensions correct",
+      "passed": true
+    },
+    {
+      "name": "T2 states only inside predicted roots",
+      "passed": true
+    },
+    {
+      "name": "T2 correct class codes",
+      "passed": true
+    },
+    {
+      "name": "T3 native RGB/mask/state dimensions correct",
+      "passed": true
+    },
+    {
+      "name": "T3 states only inside predicted roots",
+      "passed": true
+    },
+    {
+      "name": "T3 correct class codes",
+      "passed": true
+    },
+    {
+      "name": "T4 native RGB/mask/state dimensions correct",
+      "passed": true
+    },
+    {
+      "name": "T4 states only inside predicted roots",
+      "passed": true
+    },
+    {
+      "name": "T4 correct class codes",
+      "passed": true
+    },
+    {
+      "name": "T1 all original manual labels retained exactly",
+      "passed": true
+    },
+    {
+      "name": "T2 all original manual labels retained exactly",
+      "passed": true
+    },
+    {
+      "name": "T3 editable roots equal model prediction with no old strokes",
+      "passed": true
+    },
+    {
+      "name": "T3 editable classes equal model prediction with no old attributes",
+      "passed": true
+    },
+    {
+      "name": "T3 excluded lower region remains unlabelled",
+      "passed": true
+    },
+    {
+      "name": "T4 editable roots equal model prediction with no old strokes",
+      "passed": true
+    },
+    {
+      "name": "T4 editable classes equal model prediction with no old attributes",
+      "passed": true
+    },
+    {
+      "name": "T4 excluded lower region remains unlabelled",
+      "passed": true
+    },
+    {
+      "name": "T1 original annotation review root pixels exactly match training mask",
+      "passed": true
+    },
+    {
+      "name": "T1 original annotation temporal classes exactly match training",
+      "passed": true
+    },
+    {
+      "name": "T2 original annotation review root pixels exactly match training mask",
+      "passed": true
+    },
+    {
+      "name": "T2 original annotation temporal classes exactly match training",
+      "passed": true
+    },
+    {
+      "name": "no complete T3/T4 labels used for training",
+      "passed": true
+    },
+    {
+      "name": "no fabricated elongating-root test score without labels",
+      "passed": true
+    },
+    {
+      "name": "SegFormer val scores reproduce and pixels counted once",
+      "passed": true
+    },
+    {
+      "name": "SegFormer test scores reproduce and pixels counted once",
+      "passed": true
+    }
+  ],
+  "scope": "Software, provenance and actual score checks, not independent anatomical annotation adjudication"
+}

@@ -213,7 +213,7 @@ def evaluate_maps(maps, threshold):
     return metrics(total), rows
 
 
-def train(args, rows, arrays):
+def train(args, rows, arrays, model_factory=None, model_name="Small U-Net") :
     random.seed(SEED); np.random.seed(SEED); torch.manual_seed(SEED)
     torch.set_num_threads(args.threads)
     if torch.cuda.is_available():
@@ -231,12 +231,12 @@ def train(args, rows, arrays):
     roots = sum((cache[r['image_id']][1] == 255).sum() for r in tr)
     valid = sum((cache[r['image_id']][1] != 128).sum() for r in tr)
     pos_weight = min(6., math.sqrt((valid-roots)/max(roots, 1)))
-    model = SmallUNet(args.width).to(device)
+    model = (model_factory or SmallUNet)(args.width).to(device)
     opt = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=1e-4)
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(opt, T_max=args.epochs, eta_min=args.lr*0.05)
     history = []; best = -1; bad = 0; start = time.monotonic()
-    config = dict(seed=SEED, device=str(device), cuda_available=torch.cuda.is_available(), model='Small U-Net', width=args.width,
-                  architecture='4 encoder levels, bridge, 4 transposed-convolution upsamplers and skip connections; GroupNorm',
+    config = dict(seed=SEED, device=str(device), cuda_available=torch.cuda.is_available(), model=model_name, width=args.width,
+                  architecture=getattr(model,'architecture_description','4 encoder levels, bridge, 4 transposed-convolution upsamplers and skip connections; GroupNorm'),
                   parameters=sum(p.numel() for p in model.parameters()), from_scratch=True, pretrained_weights=None,
                   patch_size=SIDE, epochs_max=args.epochs, batch_size=args.batch, learning_rate=args.lr, threads=args.threads,
                   positive_bce_weight=float(pos_weight), loss='weighted binary cross entropy + soft Dice loss',

@@ -1,0 +1,58 @@
+{
+  "selection_metric": "validation Dice only; holdout never selects winner",
+  "winner": "unet",
+  "scores": [
+    {
+      "model_id": "unet",
+      "validation_Dice": 0.7442725803604167,
+      "validation_IoU": 0.5927023402690661,
+      "spatial_holdout_Dice": 0.5907358794140063,
+      "spatial_holdout_IoU": 0.41918038697271964,
+      "validation_Precision": 0.7130812667516719,
+      "validation_Recall": 0.7783174278573052,
+      "holdout_Precision": 0.6381266008049762,
+      "holdout_Recall": 0.5498975248305218,
+      "epochs_completed": 51,
+      "best_epoch": 33,
+      "threshold": 0.7,
+      "reused_completed_training": true
+    },
+    {
+      "model_id": "deeplab",
+      "validation_Dice": 0.6278304189458137,
+      "validation_IoU": 0.4575457928920674,
+      "spatial_holdout_Dice": 0.5005220136996766,
+      "spatial_holdout_IoU": 0.33379750704751554,
+      "validation_Precision": 0.5612649105923954,
+      "validation_Recall": 0.7123097023403772,
+      "holdout_Precision": 0.4855251457365873,
+      "holdout_Recall": 0.5164748541699511,
+      "epochs_completed": 40,
+      "best_epoch": 39,
+      "threshold": 0.7,
+      "reused_completed_training": true
+    },
+    {
+      "model_id": "segformer",
+      "validation_Dice": 0.6797282142621545,
+      "validation_IoU": 0.5148396122714101,
+      "spatial_holdout_Dice": 0.485008025682183,
+      "spatial_holdout_IoU": 0.32013900661129,
+      "validation_Precision": 0.6346859831965901,
+      "validation_Recall": 0.731651897296069,
+      "holdout_Precision": 0.6232159062783599,
+      "holdout_Recall": 0.3969730411477219,
+      "epochs_completed": 67,
+      "best_epoch": 49,
+      "threshold": 0.75,
+      "reused_completed_training": false
+    }
+  ],
+  "manifest_sha256": "940cba6274011f3ec5e944f2b825193caf42121b228ffdb87e746ddb738ebe29",
+  "training_images": 60,
+  "validation_images": 20,
+  "spatial_holdout_images": 20,
+  "original_acquisitions": 2,
+  "independent_microtube_positions": 1,
+  "temporal_classification_separately_trained": true
+}

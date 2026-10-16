@@ -1,0 +1,92 @@
+{
+  "position": "0353-2-B3",
+  "winner": "unet",
+  "root_threshold": 0.7,
+  "roi": [
+    0,
+    0,
+    2541,
+    1108
+  ],
+  "state_encoding": {
+    "0": "background",
+    "1": "persistent relative to previous period",
+    "2": "newly observed since previous period",
+    "3": "elongating since previous period",
+    "4": "T1 baseline roots",
+    "255": "undetermined"
+  },
+  "periods": [
+    {
+      "period": "T1",
+      "root_pixels": 69471,
+      "root_area_fraction": 0.02467511156385459,
+      "predicted_state_pixels": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 69471,
+        "255": 0
+      },
+      "undetermined_fraction_within_predicted_root": 0.0,
+      "human_annotation_status": "reviewed upper mask available",
+      "comparison_reference": "baseline",
+      "original_upper_rgb_file_sha256": "c8548de563b4d5ac0b223235758f7cdf6f118ac70614a7792a86f12fb9eb295b"
+    },
+    {
+      "period": "T2",
+      "root_pixels": 118624,
+      "root_area_fraction": 0.04213355837904574,
+      "predicted_state_pixels": {
+        "1": 65399,
+        "2": 44217,
+        "3": 0,
+        "4": 0,
+        "255": 9008
+      },
+      "undetermined_fraction_within_predicted_root": 0.07593741570002698,
+      "human_annotation_status": "reviewed upper mask available",
+      "comparison_reference": "T1 to T2",
+      "original_upper_rgb_file_sha256": "e65b91ef07abea8527b71a97a37e2ff19ca1a6527ff0090970cf084bba338b3c"
+    },
+    {
+      "period": "T3",
+      "root_pixels": 108143,
+      "root_area_fraction": 0.03841085618243478,
+      "predicted_state_pixels": {
+        "1": 65575,
+        "2": 9021,
+        "3": 0,
+        "4": 0,
+        "255": 33547
+      },
+      "undetermined_fraction_within_predicted_root": 0.3102096298419685,
+      "human_annotation_status": "not fully reviewed; prediction not quantitatively validated",
+      "comparison_reference": "T2 to T3",
+      "original_upper_rgb_file_sha256": "3df9bca33ebd9ee88a2eab874143569d5f8d9cdb7cd49d326754791f1b58e8e6"
+    },
+    {
+      "period": "T4",
+      "root_pixels": 64944,
+      "root_area_fraction": 0.023067185522059167,
+      "predicted_state_pixels": {
+        "1": 56779,
+        "2": 3897,
+        "3": 0,
+        "4": 0,
+        "255": 4268
+      },
+      "undetermined_fraction_within_predicted_root": 0.06571815718157181,
+      "human_annotation_status": "not fully reviewed; prediction not quantitatively validated",
+      "comparison_reference": "T3 to T4",
+      "original_upper_rgb_file_sha256": "d43a5d5fd491ed05579f2f32bc853808165431ef15c30eac48f143b20160bdea"
+    }
+  ],
+  "temporal_model_trained_transition": "T1 to T2 only",
+  "T3_T4_temporal_accuracy": "not evaluated; no complete human labels",
+  "persistent_definition": "Present relative to the preceding period; does not imply origin in T1",
+  "individual_root_ID_tracking": false,
+  "death_inference": false,
+  "temporal_uncertainty_rule": "max conditional probability <0.55 or top two margin <0.15 or paired root mass <0.20",
+  "human_progress_preserved": true
+}

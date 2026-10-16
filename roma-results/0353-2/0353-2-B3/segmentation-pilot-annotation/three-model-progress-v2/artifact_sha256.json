@@ -1,0 +1,17 @@
+[
+  {
+    "file": "0353-2-B3_three_models_training_v2.zip",
+    "bytes": 69449381,
+    "sha256": "1c97bdb6af665499be316ae4823b7b8b724ddeac611de2dac7421943e10444f9"
+  },
+  {
+    "file": "0353-2-B3_four_period_predictions_v2.zip",
+    "bytes": 90268818,
+    "sha256": "f701bf9734ef11f876cbdd5d0ae6231dff9e733a669651564e51bc41d742a59a"
+  },
+  {
+    "file": "0353-2-B3_original_manual_label_review.zip",
+    "bytes": 10903135,
+    "sha256": "4404b08bc5f4dc7ad2f766fc18976fadb64f539775ea71c52246b0d91e94b3b5"
+  }
+]

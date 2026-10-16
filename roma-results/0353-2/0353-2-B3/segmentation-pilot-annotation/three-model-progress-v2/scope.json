@@ -1,0 +1,25 @@
+{
+  "position": "0353-2-B3",
+  "prediction_periods": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "roi_xyxy": [
+    0,
+    0,
+    2541,
+    1108
+  ],
+  "lower_region_excluded": true,
+  "training_periods": [
+    "T1",
+    "T2"
+  ],
+  "T3_T4_used_as_negative_labels": false,
+  "same_region_periods_same_split": true,
+  "reused_models_reason": "T1/T2 upper masks exactly identical to previous completed training; no retraining required merely for file format change",
+  "winner_selection": "validation only, not test score",
+  "temporal_task": "paired adjacent-period RGB; assess separately from root/background"
+}

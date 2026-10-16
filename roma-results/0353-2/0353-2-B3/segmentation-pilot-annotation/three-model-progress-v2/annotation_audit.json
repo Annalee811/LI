@@ -1,0 +1,36 @@
+[
+  {
+    "period": "T1",
+    "reviewed": true,
+    "same_prior_layers": {
+      "mask": true,
+      "color": true,
+      "temporal": true,
+      "viability": true
+    },
+    "train_allowed": true
+  },
+  {
+    "period": "T2",
+    "reviewed": true,
+    "same_prior_layers": {
+      "mask": true,
+      "color": true,
+      "temporal": true,
+      "viability": true
+    },
+    "train_allowed": true
+  },
+  {
+    "period": "T3",
+    "reviewed": false,
+    "same_prior_layers": {},
+    "train_allowed": false
+  },
+  {
+    "period": "T4",
+    "reviewed": false,
+    "same_prior_layers": {},
+    "train_allowed": false
+  }
+]
