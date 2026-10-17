@@ -1,0 +1,26 @@
+[
+  {
+    "filename": "0353-2-B3_root_background_v5_data.zip",
+    "bytes": 48284468,
+    "sha256": "169fcdc8cd2f443ea15ccec6c83dd1faf6cfa5d6da95f0f75194ef69e2da60cb",
+    "files": 1042
+  },
+  {
+    "filename": "0353-2-B3_root_background_v5_results.zip",
+    "bytes": 89689551,
+    "sha256": "c9ad3a91dbd0d0391c4aceab6bd89f977389c23ac20d415d3e957f8e6b3fac2c",
+    "files": 114
+  },
+  {
+    "filename": "0353-2-B3_root_background_v5_models.zip",
+    "bytes": 92544436,
+    "sha256": "2ca64eb8f5ee8930b2183d907cb55676ba1f8fc22a3fd5bc6c5d0c0979056d90",
+    "files": 65
+  },
+  {
+    "filename": "0353-2-B3_root_background_v5_initialization.zip",
+    "bytes": 96123021,
+    "sha256": "ac1bcfa79f6b18a3bc29368ad476af275562ecfa6d39315e2b3771c32f666809",
+    "files": 9
+  }
+]

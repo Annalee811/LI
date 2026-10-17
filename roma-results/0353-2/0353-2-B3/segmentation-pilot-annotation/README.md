@@ -1,4 +1,16 @@
-# 当前：人工T1/T2锚定的连续预测 v3
+# 当前：先训练四期上部根／背景二分类 v5
+
+[下载根／背景分割与评估](root-background-stage-v5/0353-2-B3_root_background_v5_results.zip) · [下载人工标注切块数据](root-background-stage-v5/0353-2-B3_root_background_v5_data.zip) · [下载三个模型与完整脚本](root-background-stage-v5/0353-2-B3_root_background_v5_models.zip)
+
+使用最新四期上部人工标注，独立训练 U-Net、上传的原版 TensorFlow DeepLabV3+、SegFormer-B0 根／背景二分类。输入只有当前 RGB，保留全部原始时序属性，死亡不纳入。256×256原像素切块训练120、验证40、空间留出40张，同一位置的四期同组，跨组64像素隔离。
+
+**本轮尚未达标：验证集选中 U-Net，验证 Dice 0.7399，空间留出 Dice 0.5718；留出 Precision 0.5771、Recall 0.5665、IoU 0.4003。因此不启动时序追踪。**
+
+本阶段先检查根覆盖、背景误检和严格 Precision／Recall／Dice／IoU。只有验证及空间留出均达到根 Dice≥0.95、Precision≥0.90、Recall≥0.95 才允许进入后续时序阶段；本轮没有启动时序训练或预测其他位置。实际指标、门槛判定、根长一致性和原像素核对图见结果包。仅一个位置，独立外部测试图像为0。
+
+[本轮详细说明与全部下载文件](root-background-stage-v5/README.md)
+
+# 先前：人工T1/T2锚定的连续预测 v3
 
 [下载连续图像与可编辑结果](sequential-anchored-v3/0353-2-B3_sequential_T1T2_manual_T3T4_results_v3.zip) · [下载新增模型与训练记录](sequential-anchored-v3/0353-2-B3_sequential_models_and_training_v3.zip)
 
