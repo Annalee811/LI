@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "verified_600dpi_raster_files": [
+    "unet_root_length_regression_repeated_C4.png",
+    "Fig4_three_models_validation.tif",
+    "Fig4_three_models_validation.png",
+    "Fig4_three_models_repeated_C4.png",
+    "deeplab_root_length_regression_repeated_C4.png",
+    "unet_root_length_regression_repeated_C4.tif",
+    "segformer_root_length_regression_repeated_C4.tif",
+    "Fig4_three_models_repeated_C4.tif",
+    "segformer_root_length_regression_repeated_C4.png",
+    "deeplab_root_length_regression_repeated_C4.tif"
+  ]
+}

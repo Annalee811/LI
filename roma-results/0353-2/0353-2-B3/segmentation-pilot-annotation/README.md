@@ -1,5 +1,7 @@
 # 当前：根／背景细节优化与论文格式图片 v6
 
+[新增：三模型根长回归与一致性图片 ZIP](paper-refinement-v6/three-model-root-length/0353-2-B3_three_model_root_length_regression_v6.zip)：U-Net、DeepLabV3+、SegFormer-B0 均有单独回归图和同坐标综合图，验证与重复空间留出分开。
+
 [下载论文图 ZIP](paper-refinement-v6/0353-2-B3_paper_figures_v6.zip) · [下载四期分割结果 ZIP](paper-refinement-v6/0353-2-B3_root_results_v6.zip) · [下载模型与脚本 ZIP](paper-refinement-v6/0353-2-B3_refined_models_v6.zip) · [下载384像素训练数据 ZIP](paper-refinement-v6/0353-2-B3_native384_training_data_v6.zip)
 
 新增 ImageNet 预训练 U-Net、原像素384上下文、翻转平均和保护细根的保守去噪。按 C3 验证选择的等权 U-Net 集成，验证 Dice **0.7539**，重复空间留出 Dice **0.6227**、Precision **0.6340**、Recall **0.6118**、IoU **0.4521**；上一版原 U-Net 留出 Dice 为0.5718。原始预测和去噪结果均保留。人工标注及原始 RGB 不变。

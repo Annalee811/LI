@@ -1,5 +1,7 @@
 # 0353-2-B3 根／背景分割与论文图 v6
 
+**新增：[下载三模型根长回归图 ZIP](three-model-root-length/0353-2-B3_three_model_root_length_regression_v6.zip)**。已补齐 U-Net、DeepLabV3+、SegFormer-B0 的验证及重复 C4 回归／Bland–Altman 综合图与各模型独立回归图；同时标注一致性 R²、回归拟合 R² 和 RMSE，包含原始成对数据。此补充图替代原图包仅比较 U-Net 与集成版本的根长图。
+
 本次交付四期上部原像素 RGB、原始人工掩膜、原始预测、保守去噪掩膜、透明背景根系图和叠加图；另附六幅主图、两幅补充图及全部实际评估表。颜色表示根／背景和误差，不表示新生、持续或延伸；死亡未纳入。
 
 |配置／数据范围|Precision|Recall|Dice|IoU|

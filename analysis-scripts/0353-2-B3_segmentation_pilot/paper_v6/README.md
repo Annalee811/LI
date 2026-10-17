@@ -1,5 +1,7 @@
 # 0353-2-B3 native-pixel refinement v6
 
+Three-model root-length supplement: `three_model_regression.py` reads the unchanged v6 masks and length pairs, verifies the skeleton lengths and existing agreement statistics, and exports U-Net/DeepLabV3+/SegFormer-B0 regression and Bland–Altman figures. The archive carries a minimal `run_snapshot` for exact reproduction. Agreement R² and OLS regression R² are explicitly distinct. No model fitting, image selection or predictions are changed by this figure supplement.
+
 RGB-only root/background segmentation; temporal labels and death are not trained. Original RGB and human references remain unchanged. This is a single-position exploratory experiment; C4 is a repeatedly inspected spatial benchmark, not a fresh independent test. The actual delivered validation/repeated-C4 Dice values are 0.7539/0.6227, below the established 0.95 gate.
 
 The four downloadable archives contain publication-format figures, native RGB/root products and isolated-column probabilities, model weights/scripts, and the lossless 384-pixel training export. Source annotations are preserved in full. Exported patches number120/40/40 (train/validation/repeated benchmark), from30/10/10 spatial windows×4 dates; overlapping patches are not biological replicates.
