@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "fresh_extraction": true,
+  "constructors_and_native_RGB_inference": [
+    "pretrained U-Net",
+    "legacy U-Net",
+    "SegFormer-B0"
+  ],
+  "deepLab": "Frozen original TF baseline arrays; no new TensorFlow run",
+  "native_input_shape": [
+    1,
+    384,
+    384,
+    3
+  ],
+  "original_progress_SHA256_unchanged": true
+}

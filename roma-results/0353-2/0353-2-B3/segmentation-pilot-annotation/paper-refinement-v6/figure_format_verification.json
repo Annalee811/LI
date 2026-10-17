@@ -1,0 +1,181 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "Fig1_four_period_root_segmentation.png",
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "size": [
+        4320,
+        2790
+      ]
+    },
+    {
+      "file": "Fig1_four_period_root_segmentation.tif",
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "size": [
+        4320,
+        2790
+      ]
+    },
+    {
+      "file": "Fig2_fixed_repeated_benchmark_details.png",
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "size": [
+        3840,
+        3840
+      ]
+    },
+    {
+      "file": "Fig2_fixed_repeated_benchmark_details.tif",
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "size": [
+        3840,
+        3840
+      ]
+    },
+    {
+      "file": "Fig3_foreground_model_comparison.png",
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "size": [
+        4320,
+        1680
+      ]
+    },
+    {
+      "file": "Fig3_foreground_model_comparison.tif",
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "size": [
+        4320,
+        1680
+      ]
+    },
+    {
+      "file": "Fig4_root_length_agreement.png",
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "size": [
+        3720,
+        3300
+      ]
+    },
+    {
+      "file": "Fig4_root_length_agreement.tif",
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "size": [
+        3720,
+        3300
+      ]
+    },
+    {
+      "file": "Fig5_precision_recall_and_training.png",
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "size": [
+        4320,
+        1860
+      ]
+    },
+    {
+      "file": "Fig5_precision_recall_and_training.tif",
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "size": [
+        4320,
+        1860
+      ]
+    },
+    {
+      "file": "Fig6_refinement_detail.png",
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "size": [
+        4320,
+        1230
+      ]
+    },
+    {
+      "file": "Fig6_refinement_detail.tif",
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "size": [
+        4320,
+        1230
+      ]
+    },
+    {
+      "file": "FigS1_period_specific_metrics.png",
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "size": [
+        4320,
+        1350
+      ]
+    },
+    {
+      "file": "FigS1_period_specific_metrics.tif",
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "size": [
+        4320,
+        1350
+      ]
+    },
+    {
+      "file": "FigS2_foreground_scores.png",
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "size": [
+        4320,
+        2220
+      ]
+    },
+    {
+      "file": "FigS2_foreground_scores.tif",
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "size": [
+        4320,
+        2220
+      ]
+    }
+  ]
+}

@@ -1,4 +1,16 @@
-# 当前：先训练四期上部根／背景二分类 v5
+# 当前：根／背景细节优化与论文格式图片 v6
+
+[下载论文图 ZIP](paper-refinement-v6/0353-2-B3_paper_figures_v6.zip) · [下载四期分割结果 ZIP](paper-refinement-v6/0353-2-B3_root_results_v6.zip) · [下载模型与脚本 ZIP](paper-refinement-v6/0353-2-B3_refined_models_v6.zip) · [下载384像素训练数据 ZIP](paper-refinement-v6/0353-2-B3_native384_training_data_v6.zip)
+
+新增 ImageNet 预训练 U-Net、原像素384上下文、翻转平均和保护细根的保守去噪。按 C3 验证选择的等权 U-Net 集成，验证 Dice **0.7539**，重复空间留出 Dice **0.6227**、Precision **0.6340**、Recall **0.6118**、IoU **0.4521**；上一版原 U-Net 留出 Dice 为0.5718。原始预测和去噪结果均保留。人工标注及原始 RGB 不变。
+
+六幅主图、两幅补充图统一白底／灰色／青绿色，提供600dpi PNG、LZW TIFF、PDF，定量图另有SVG。根长一致性 R²=0.8556、RMSE=155.97原像素，参考长度由人工笔刷掩膜骨架得到，并非独立人工测量。训练／验证／重复留出切块120／40／40张，同一区域四期同组。
+
+**仍未达到近1指标：只有一个位置、四张原始时期图，C4已多次查看，独立外部测试图像为0，未启动时序分类或预测其他位置。** 新增清理参数只从既有 C3 网格选择，但在初次排名评估后追加；完整选择记录、像素级得失、原始排名和全部测得指标均已保存。图片采用论文格式不代表模型准确率已经达到发表要求。
+
+[详细结果与全部下载](paper-refinement-v6/README.md)
+
+# 先前：四期上部根／背景二分类 v5
 
 [下载根／背景分割与评估](root-background-stage-v5/0353-2-B3_root_background_v5_results.zip) · [下载人工标注切块数据](root-background-stage-v5/0353-2-B3_root_background_v5_data.zip) · [下载三个模型与完整脚本](root-background-stage-v5/0353-2-B3_root_background_v5_models.zip)
 

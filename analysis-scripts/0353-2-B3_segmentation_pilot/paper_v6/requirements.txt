@@ -1,0 +1,9 @@
+# Recorded v6 runtime; choose the torch wheel matching the host CPU/CUDA.
+torch==2.8.0
+torchvision==0.23.0
+numpy==2.2.6
+Pillow==11.3.0
+scipy==1.16.2
+scikit-image==0.25.2
+transformers==4.57.1
+matplotlib==3.10.6

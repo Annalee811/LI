@@ -1,0 +1,30 @@
+{
+  "archives": [
+    {
+      "file": "0353-2-B3_paper_figures_v6.zip",
+      "bytes": 55255205,
+      "SHA256": "a2b34be08a7e02c3e26ada3d287e035d1ee1e8689718bee81d527ab300abc25f",
+      "CRC_verified": true
+    },
+    {
+      "file": "0353-2-B3_root_results_v6.zip",
+      "bytes": 68168023,
+      "SHA256": "82121ab3c3b17f44a7b254d5df43afce56a863b27cebf04d49f54e7ca20b29aa",
+      "CRC_verified": true
+    },
+    {
+      "file": "0353-2-B3_refined_models_v6.zip",
+      "bytes": 92840990,
+      "SHA256": "9330c54d892efdc8ae02c4ab8cd741d7cee57f735281a82d64256eb104e440c0",
+      "CRC_verified": true
+    },
+    {
+      "file": "0353-2-B3_native384_training_data_v6.zip",
+      "bytes": 70214769,
+      "SHA256": "ebb95baf7c937cc86cdff3cfd8c7fc40a435b2e8dcb5bd5e058b33e68cb44caa",
+      "CRC_verified": true
+    }
+  ],
+  "original_progress_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "RGB_and_ground_truth_unchanged": true
+}
