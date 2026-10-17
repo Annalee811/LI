@@ -1,0 +1,162 @@
+{
+  "passed": true,
+  "exact_saved_mask_reproductions": 24,
+  "checks": [
+    {
+      "model": "unet",
+      "partition": "val",
+      "period": "T1",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "unet",
+      "partition": "val",
+      "period": "T2",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "unet",
+      "partition": "val",
+      "period": "T3",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "unet",
+      "partition": "val",
+      "period": "T4",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "unet",
+      "partition": "test",
+      "period": "T1",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "unet",
+      "partition": "test",
+      "period": "T2",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "unet",
+      "partition": "test",
+      "period": "T3",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "unet",
+      "partition": "test",
+      "period": "T4",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "deeplab",
+      "partition": "val",
+      "period": "T1",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "deeplab",
+      "partition": "val",
+      "period": "T2",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "deeplab",
+      "partition": "val",
+      "period": "T3",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "deeplab",
+      "partition": "val",
+      "period": "T4",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "deeplab",
+      "partition": "test",
+      "period": "T1",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "deeplab",
+      "partition": "test",
+      "period": "T2",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "deeplab",
+      "partition": "test",
+      "period": "T3",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "deeplab",
+      "partition": "test",
+      "period": "T4",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "segformer",
+      "partition": "val",
+      "period": "T1",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "segformer",
+      "partition": "val",
+      "period": "T2",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "segformer",
+      "partition": "val",
+      "period": "T3",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "segformer",
+      "partition": "val",
+      "period": "T4",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "segformer",
+      "partition": "test",
+      "period": "T1",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "segformer",
+      "partition": "test",
+      "period": "T2",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "segformer",
+      "partition": "test",
+      "period": "T3",
+      "exact_final_mask_reproduction": true
+    },
+    {
+      "model": "segformer",
+      "partition": "test",
+      "period": "T4",
+      "exact_final_mask_reproduction": true
+    }
+  ],
+  "metrics_recomputed": true,
+  "manual_progress_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "annotation_changed": false,
+  "package_checks": {
+    "fresh_extraction_annotation_and_source_hashes_verified": true,
+    "all_three_packaged_models_predict_without_human_labels": true,
+    "all_three_packaged_smoke_masks_match_local_results": true,
+    "all_three_framework_setups_preserve_python_crop_sampler_rng": true,
+    "native_training_replay_arrays_verified": 256,
+    "600dpi_raster_figures_verified": 16,
+    "zip_CRC_verified": 7
+  }
+}
