@@ -1,0 +1,123 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "model": "unet",
+      "split": "validation",
+      "saved_masks_reproduce_metrics": true
+    },
+    {
+      "model": "unet",
+      "split": "repeated_benchmark",
+      "saved_masks_reproduce_metrics": true
+    },
+    {
+      "model": "unet",
+      "period": "T1",
+      "root_support_exact_v9": true,
+      "native_size_preserved": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "unet",
+      "period": "T2",
+      "root_support_exact_v9": true,
+      "native_size_preserved": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "unet",
+      "period": "T3",
+      "root_support_exact_v9": true,
+      "native_size_preserved": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "unet",
+      "period": "T4",
+      "root_support_exact_v9": true,
+      "native_size_preserved": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "deeplab",
+      "split": "validation",
+      "saved_masks_reproduce_metrics": true
+    },
+    {
+      "model": "deeplab",
+      "split": "repeated_benchmark",
+      "saved_masks_reproduce_metrics": true
+    },
+    {
+      "model": "deeplab",
+      "period": "T1",
+      "root_support_exact_v9": true,
+      "native_size_preserved": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "deeplab",
+      "period": "T2",
+      "root_support_exact_v9": true,
+      "native_size_preserved": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "deeplab",
+      "period": "T3",
+      "root_support_exact_v9": true,
+      "native_size_preserved": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "deeplab",
+      "period": "T4",
+      "root_support_exact_v9": true,
+      "native_size_preserved": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "segformer",
+      "split": "validation",
+      "saved_masks_reproduce_metrics": true
+    },
+    {
+      "model": "segformer",
+      "split": "repeated_benchmark",
+      "saved_masks_reproduce_metrics": true
+    },
+    {
+      "model": "segformer",
+      "period": "T1",
+      "root_support_exact_v9": true,
+      "native_size_preserved": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "segformer",
+      "period": "T2",
+      "root_support_exact_v9": true,
+      "native_size_preserved": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "segformer",
+      "period": "T3",
+      "root_support_exact_v9": true,
+      "native_size_preserved": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "segformer",
+      "period": "T4",
+      "root_support_exact_v9": true,
+      "native_size_preserved": true,
+      "original_root_RGB_unchanged": true
+    }
+  ],
+  "source_annotation_unchanged": true,
+  "source_annotation_sha256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "background_not_assigned_temporal_classes": true,
+  "external_independent_test_images": 0
+}

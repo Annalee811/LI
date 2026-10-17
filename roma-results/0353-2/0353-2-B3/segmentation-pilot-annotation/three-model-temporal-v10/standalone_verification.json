@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "model": "unet",
+      "standalone_without_human_targets": true,
+      "all_three_validation_class_maps_exact": true,
+      "predicted_root_support_unchanged": true,
+      "RGB_background_zero_before_head": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "deeplab",
+      "standalone_without_human_targets": true,
+      "all_three_validation_class_maps_exact": true,
+      "predicted_root_support_unchanged": true,
+      "RGB_background_zero_before_head": true,
+      "original_root_RGB_unchanged": true
+    },
+    {
+      "model": "segformer",
+      "standalone_without_human_targets": true,
+      "all_three_validation_class_maps_exact": true,
+      "predicted_root_support_unchanged": true,
+      "RGB_background_zero_before_head": true,
+      "original_root_RGB_unchanged": true
+    }
+  ],
+  "three_distinct_evaluation_heads": true,
+  "three_distinct_final_heads": true,
+  "root_backbone_weights_unchanged": true,
+  "matched_training_crop_sequences": true
+}
