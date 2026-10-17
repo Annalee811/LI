@@ -1,0 +1,28 @@
+{
+  "consulted_client_date": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "references": [
+    {
+      "title": "RootPainter: Deep Learning Segmentation of Biological Images with Corrective Annotation",
+      "URL": "https://doi.org/10.1111/nph.18387",
+      "official_repository": "https://github.com/Abe404/root_painter",
+      "consulted": "Official project README and mini guide",
+      "guide": "https://github.com/Abe404/root_painter/blob/master/docs/mini_guide.md"
+    },
+    {
+      "title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
+      "journal": "Nature Methods",
+      "year": 2021,
+      "URL": "https://github.com/MIC-DKFZ/nnUNet",
+      "consulted": "Official project and train-models guide; usual5fold CV is a workflow reference, not a root-study sample-size rule"
+    },
+    {
+      "title": "clDice-a Novel Topology-Preserving Loss Function for Tubular Structure Segmentation",
+      "venue": "CVPR",
+      "year": 2021,
+      "URL": "https://github.com/jocpae/clDice",
+      "consulted": "Official repository abstract and loss documentation"
+    }
+  ],
+  "scope": "Protocol recommendations combine source methods with this dataset audit; no claim that these papers used the proposed9tube split."
+}

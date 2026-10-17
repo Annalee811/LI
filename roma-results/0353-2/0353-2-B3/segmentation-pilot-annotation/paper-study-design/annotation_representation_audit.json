@@ -1,0 +1,46 @@
+{
+  "original_progress_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "source_annotation_edited": false,
+  "images": [
+    {
+      "image": "T1_multiregion_RGB.png",
+      "pixels_by_original_value": {
+        "0": 4117,
+        "64": 2725165,
+        "255": 86146
+      },
+      "unpainted_value64_fraction": 0.9679398656261144,
+      "interpretation": "Previous v5-v9 binary targets interpreted upper unpainted64 as background under user completeness declaration; formal ground-truth QA must verify this assumption. Source annotation is unchanged."
+    },
+    {
+      "image": "T2_multiregion_RGB.png",
+      "pixels_by_original_value": {
+        "0": 5122,
+        "64": 2691856,
+        "255": 118450
+      },
+      "unpainted_value64_fraction": 0.9561089823643155,
+      "interpretation": "Previous v5-v9 binary targets interpreted upper unpainted64 as background under user completeness declaration; formal ground-truth QA must verify this assumption. Source annotation is unchanged."
+    },
+    {
+      "image": "T3_multiregion_RGB.png",
+      "pixels_by_original_value": {
+        "0": 9318,
+        "64": 2672367,
+        "255": 133743
+      },
+      "unpainted_value64_fraction": 0.9491867666301536,
+      "interpretation": "Previous v5-v9 binary targets interpreted upper unpainted64 as background under user completeness declaration; formal ground-truth QA must verify this assumption. Source annotation is unchanged."
+    },
+    {
+      "image": "T4_multiregion_RGB.png",
+      "pixels_by_original_value": {
+        "0": 1909,
+        "64": 2701848,
+        "255": 111671
+      },
+      "unpainted_value64_fraction": 0.9596579987128068,
+      "interpretation": "Previous v5-v9 binary targets interpreted upper unpainted64 as background under user completeness declaration; formal ground-truth QA must verify this assumption. Source annotation is unchanged."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿fold,role,tubes,n_tubes,n_positions,n_available_date_images,n_verified_manual_images
+0,train,0353-2;A017-2;Q1-1;Q1-3,4,8,28,4
+0,val,0353-1;A017-1,2,4,14,0
+0,holdout,0353-3;A017-3;Q1-2,3,7,26,0
+1,train,0353-1;A017-1;A017-2;Q1-3,4,7,25,0
+1,val,0353-2;Q1-1,2,5,17,4
+1,holdout,0353-3;A017-3;Q1-2,3,7,26,0
+2,train,0353-1;0353-2;A017-1;Q1-1,4,9,31,4
+2,val,A017-2;Q1-3,2,3,11,0
+2,holdout,0353-3;A017-3;Q1-2,3,7,26,0

@@ -1,0 +1,40 @@
+{
+  "status": "DESIGN_PROPOSAL_ONLY_NOT_NEW_TRAINING_RESULTS",
+  "inventory_positions": 19,
+  "tube_groups": 9,
+  "available_position_date_records": 68,
+  "position_period_counts": {
+    "4": 12,
+    "3": 6,
+    "2": 1
+  },
+  "development_tubes": 6,
+  "development_positions": 12,
+  "development_date_images": 42,
+  "proposed_heldout_tubes": [
+    "0353-3",
+    "A017-3",
+    "Q1-2"
+  ],
+  "heldout_tubes": 3,
+  "heldout_positions": 7,
+  "heldout_date_images": 26,
+  "heldout_period_records": {
+    "T1": 7,
+    "T2": 6,
+    "T3": 6,
+    "T4": 7
+  },
+  "heldout_is_same_experiment_not_external_site": true,
+  "verified_annotated_tubes": 1,
+  "verified_manual_date_images": 4,
+  "verified_manual_heldout_images": 0,
+  "split_rule": "User confirmed multiple tubes with several positions each; tube IDs parsed before final hyphen. All positions/available periods of each tube stay together. Merge higher plant/pot/plot unit if shared.",
+  "holdout_choice": "One tube per recorded leading-code stratum, with all4 periods represented within every heldout tube. Q1-2 supplies T4 absent from Q1-3. Metadata only, no model score/image difficulty selection; leading codes have no asserted treatment meaning.",
+  "old_B3_models_reusable_for_CV": false,
+  "reason": "Fold1 validates0353-2; old root networks trained on0353-2-B3 would leak validation labels. Initialize each fold independently from documented general pretraining.",
+  "missing_period_policy": "No invented frames or negative masks; available images remain useful for binary segmentation. Incomplete observation intervals must be named explicitly in later temporal studies.",
+  "training_ready": false,
+  "blocking_prerequisite": "Verified manual labels currently cover only0353-2-B3; multi-tube development/validation/test ROI annotation and QA are needed.",
+  "source_inventory_SHA256": "5528963f20411648a61b83f2e8007d6bba7c23ed6ccdfacb6ba56ba33b90f04b"
+}
