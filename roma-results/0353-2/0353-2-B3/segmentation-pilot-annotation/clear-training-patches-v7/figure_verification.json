@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "verified_600dpi_files": [
+    "Fig1_clear_patch_ablation.png",
+    "Fig2_matched_training_curves.png",
+    "Fig1_clear_patch_ablation.tif",
+    "Fig2_matched_training_curves.tif",
+    "Fig3_four_period_qualitative.png",
+    "Fig3_four_period_qualitative.tif"
+  ]
+}

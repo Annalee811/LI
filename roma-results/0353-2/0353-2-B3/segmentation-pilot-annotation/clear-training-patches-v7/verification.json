@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "saved_prediction_and_RGB_checks": 32,
+  "all_original_provenance_hashes_unchanged": true,
+  "training_selected_root_patches": 70,
+  "validation_or_C4_filtered": false,
+  "selection_uses_C4": false,
+  "original_progress_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "training_manifest_SHA256": "5fd7da2f3a3ce9bf8c9cd89923531013a78f76a9585b7d1f53ee92bbfbe9f62e",
+  "frozen_selection_SHA256": "3f75b3f50ff631683198008d3668df59f166deb628006642115e8a644547535e"
+}

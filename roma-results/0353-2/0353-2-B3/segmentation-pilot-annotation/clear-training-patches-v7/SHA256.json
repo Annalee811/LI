@@ -1,0 +1,30 @@
+{
+  "archives": [
+    {
+      "file": "0353-2-B3_clear_patch_v7_results.zip",
+      "bytes": 87614690,
+      "SHA256": "983ef69ac908e8c36294537c4e4c537af65d733dad31fa31af285f769d104666",
+      "CRC_verified": true
+    },
+    {
+      "file": "0353-2-B3_clear_patch_v7_models.zip",
+      "bytes": 92896478,
+      "SHA256": "97953fe18390060ba6382a385075c9bf34281a339ef38871add594ef35779b79",
+      "CRC_verified": true
+    },
+    {
+      "file": "0353-2-B3_clear_patch_v7_data.zip",
+      "bytes": 66710474,
+      "SHA256": "93d9e0e61e7190c43fe3343ae651db75882330e94b8df98d02a6bdb0a76a39be",
+      "CRC_verified": true
+    },
+    {
+      "file": "0353-2-B3_clear_patch_v7_scores.zip",
+      "bytes": 42072784,
+      "SHA256": "5a929eb32b7352c54dc64c6794c556a92058023123de059ff893cb95d13f4f89",
+      "CRC_verified": true
+    }
+  ],
+  "ground_truth_unchanged": true,
+  "original_progress_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09"
+}

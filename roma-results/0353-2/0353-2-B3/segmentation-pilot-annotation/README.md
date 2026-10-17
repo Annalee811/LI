@@ -1,5 +1,7 @@
 # 当前：根／背景细节优化与论文格式图片 v6
 
+[新增：清晰训练图块筛选对照 v7](clear-training-patches-v7/README.md)。120张训练候选窗口筛为70张根系窗口及4张背景窗口，验证与重复空间留出不筛选、人工标注不变。原采样与筛选采样均从同一权重继续训练20轮，均未超过起始模型，未替换已发布的v6集成。筛选数据、实际训练曲线和全部结果已保存。
+
 [新增：三模型根长回归与一致性图片 ZIP](paper-refinement-v6/three-model-root-length/0353-2-B3_three_model_root_length_regression_v6.zip)：U-Net、DeepLabV3+、SegFormer-B0 均有单独回归图和同坐标综合图，验证与重复空间留出分开。
 
 [下载论文图 ZIP](paper-refinement-v6/0353-2-B3_paper_figures_v6.zip) · [下载四期分割结果 ZIP](paper-refinement-v6/0353-2-B3_root_results_v6.zip) · [下载模型与脚本 ZIP](paper-refinement-v6/0353-2-B3_refined_models_v6.zip) · [下载384像素训练数据 ZIP](paper-refinement-v6/0353-2-B3_native384_training_data_v6.zip)

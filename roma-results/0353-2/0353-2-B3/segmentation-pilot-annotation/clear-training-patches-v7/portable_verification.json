@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "extracted_data_and_models_verified": true,
+  "selected_root_patches": 70,
+  "background_patches": 4,
+  "both_best_parameter_states_equal_start": true,
+  "both_best_epoch": 0,
+  "both_arms_completed_epochs": 20,
+  "original_masks_and_source_progress_preserved": true
+}
