@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": {
+    "weak_score_supported_gap_reconnected": true,
+    "all_existing_root_pixels_retained": true,
+    "input_probability_unchanged": true,
+    "unsupported_background_not_bridged": true,
+    "third_component_contact_rejected": true,
+    "formal_component_reductions_equal_intended_merges": true
+  }
+}

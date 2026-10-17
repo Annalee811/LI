@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "saved_mask_count_checks": 16,
+  "original_RGB_and_manual_masks_unchanged": true,
+  "all_baseline_root_pixels_retained": true,
+  "SVG_centerline_display_only": true,
+  "maximum_SVG_vertex_displacement_native_px": 0.5,
+  "selection_uses_C4": false
+}

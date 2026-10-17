@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "verified_600dpi_files": [
+    "Fig1_fixed_validation_detail.tif",
+    "Fig2_native_four_period_masks.png",
+    "Fig3_continuity_and_accuracy.png",
+    "Fig1_fixed_validation_detail.png",
+    "Fig3_continuity_and_accuracy.tif",
+    "Fig2_native_four_period_masks.tif"
+  ]
+}

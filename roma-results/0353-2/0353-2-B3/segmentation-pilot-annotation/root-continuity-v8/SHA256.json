@@ -1,0 +1,24 @@
+{
+  "archives": [
+    {
+      "file": "0353-2-B3_continuity_v8_images.zip",
+      "bytes": 42607551,
+      "SHA256": "afea13e78f8ac164651925f99c96c96fb2c6b70d9371c39f5d779bdd925894a5",
+      "CRC_verified": true
+    },
+    {
+      "file": "0353-2-B3_continuity_v8_comparison.zip",
+      "bytes": 7649335,
+      "SHA256": "32f569230fe2e55d8295e6c6f1d74e19185caed92e8899cee442e77e0e073aec",
+      "CRC_verified": true
+    },
+    {
+      "file": "0353-2-B3_continuity_v8_probabilities.zip",
+      "bytes": 74353182,
+      "SHA256": "a3d992bda44d3176aa524fce2f9aa33e858fb4826d1551f83c96074890838f5a",
+      "CRC_verified": true
+    }
+  ],
+  "original_progress_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "manual_annotations_unchanged": true
+}
