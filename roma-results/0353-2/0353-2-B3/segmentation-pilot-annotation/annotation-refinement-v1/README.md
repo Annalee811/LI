@@ -26,3 +26,17 @@ U-Net、原上传TensorFlow DeepLabV3+及SegFormer均从对应旧权重微调20�
 
 表中是相对修订参考的一致性，不是独立人工准确率。主图Fig2三模型指标、Fig3四期带背景对比、Fig4三模型根长回归；S1训练曲线、S2逐期Dice、S3根长偏差、S4图块差异、S5误差定位。S5绿色TP、粉色FP、橙色FN均相对修订参考。根长由修订掩膜骨架推导，单位像素，不是独立人工尺量。外部独立测试图像数为0。
 ZIP包含CRC和SHA256校验，完整脚本、可编辑矢量统计图及600dpiTIFF。没有Word文件。公开下载的逐字节验证见public_download_verification.json。
+
+## 固定版本直接下载
+
+- [0353-2-B3_final_paper_figures.zip](https://raw.githubusercontent.com/Annalee811/LI/2f3fa0bdca49e37833cb1a83b3b0a75464b59dcf/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/annotation-refinement-v1/0353-2-B3_final_paper_figures.zip)
+- [0353-2-B3_final_four_period_RGB_comparison.zip](https://raw.githubusercontent.com/Annalee811/LI/2f3fa0bdca49e37833cb1a83b3b0a75464b59dcf/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/annotation-refinement-v1/0353-2-B3_final_four_period_RGB_comparison.zip)
+- [0353-2-B3_final_full_upper_RGB_comparison.zip](https://raw.githubusercontent.com/Annalee811/LI/2f3fa0bdca49e37833cb1a83b3b0a75464b59dcf/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/annotation-refinement-v1/0353-2-B3_final_full_upper_RGB_comparison.zip)
+- [0353-2-B3_final_background_removed_full_local.zip](https://raw.githubusercontent.com/Annalee811/LI/2f3fa0bdca49e37833cb1a83b3b0a75464b59dcf/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/annotation-refinement-v1/0353-2-B3_final_background_removed_full_local.zip)
+- [0353-2-B3_final_PlantPhenomics_guide.zip](https://raw.githubusercontent.com/Annalee811/LI/2f3fa0bdca49e37833cb1a83b3b0a75464b59dcf/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/annotation-refinement-v1/0353-2-B3_final_PlantPhenomics_guide.zip)
+- [0353-2-B3_final_training_tiles_annotations_RGB.zip](https://raw.githubusercontent.com/Annalee811/LI/2f3fa0bdca49e37833cb1a83b3b0a75464b59dcf/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/annotation-refinement-v1/0353-2-B3_final_training_tiles_annotations_RGB.zip)
+- [0353-2-B3_final_evaluation_unet.zip](https://raw.githubusercontent.com/Annalee811/LI/2f3fa0bdca49e37833cb1a83b3b0a75464b59dcf/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/annotation-refinement-v1/0353-2-B3_final_evaluation_unet.zip)
+- [0353-2-B3_final_evaluation_deeplab.zip](https://raw.githubusercontent.com/Annalee811/LI/2f3fa0bdca49e37833cb1a83b3b0a75464b59dcf/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/annotation-refinement-v1/0353-2-B3_final_evaluation_deeplab.zip)
+- [0353-2-B3_final_evaluation_segformer.zip](https://raw.githubusercontent.com/Annalee811/LI/2f3fa0bdca49e37833cb1a83b3b0a75464b59dcf/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/annotation-refinement-v1/0353-2-B3_final_evaluation_segformer.zip)
+- [0353-2-B3_final_models_torch_scripts.zip](https://raw.githubusercontent.com/Annalee811/LI/2f3fa0bdca49e37833cb1a83b3b0a75464b59dcf/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/annotation-refinement-v1/0353-2-B3_final_models_torch_scripts.zip)
+- [0353-2-B3_final_model_deeplab_scripts.zip](https://raw.githubusercontent.com/Annalee811/LI/2f3fa0bdca49e37833cb1a83b3b0a75464b59dcf/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/annotation-refinement-v1/0353-2-B3_final_model_deeplab_scripts.zip)
