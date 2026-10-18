@@ -1,0 +1,83 @@
+{
+  "original_RGB_images": 4,
+  "original_annotated_location": 1,
+  "train_date_region_views": 12,
+  "validation_C3_date_region_views": 4,
+  "repeated_benchmark_C4_date_region_views": 4,
+  "external_independent_test_RGB_images": 0,
+  "training_draws_per_model": 256,
+  "unique_training_date_xy_side_windows": 189,
+  "patch_manifest_counts": [
+    {
+      "partition": "train",
+      "side": 256,
+      "count": 256
+    },
+    {
+      "partition": "val",
+      "side": 256,
+      "count": 40
+    },
+    {
+      "partition": "test",
+      "side": 256,
+      "count": 40
+    },
+    {
+      "partition": "val",
+      "side": 384,
+      "count": 40
+    },
+    {
+      "partition": "test",
+      "side": 384,
+      "count": 40
+    }
+  ],
+  "native_upper_size": [
+    2541,
+    1108
+  ],
+  "columns": [
+    {
+      "name": "C0",
+      "left": 22,
+      "right_exclusive": 470,
+      "width": 448,
+      "role": "train"
+    },
+    {
+      "name": "C1",
+      "left": 534,
+      "right_exclusive": 982,
+      "width": 448,
+      "role": "train"
+    },
+    {
+      "name": "C2",
+      "left": 1046,
+      "right_exclusive": 1494,
+      "width": 448,
+      "role": "train"
+    },
+    {
+      "name": "C3",
+      "left": 1558,
+      "right_exclusive": 2006,
+      "width": 448,
+      "role": "validation_selection"
+    },
+    {
+      "name": "C4",
+      "left": 2070,
+      "right_exclusive": 2518,
+      "width": 448,
+      "role": "repeated_same_position_benchmark"
+    }
+  ],
+  "guard_width": 64,
+  "grouping": "All dates of a spatial column share the same group; no random splitting of temporal neighbours or overlapping crops",
+  "primary": "C4 four-period pixel-count pooled descriptive benchmark; C3 separately reported; not independent external validation",
+  "mean_policy": "Never use mixed C3+C4 mean as the primary reported performance",
+  "uncertainty": "No p-values or biological confidence intervals; dates,spatial blocks,pixels,crops are correlated"
+}

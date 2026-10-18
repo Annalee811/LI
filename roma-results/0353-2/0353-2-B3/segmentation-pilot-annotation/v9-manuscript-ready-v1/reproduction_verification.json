@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "archive_extracted_and_executed_from_separate_directory": true,
+  "all_six_key_numeric_tables_bit_identical": true,
+  "all10_figure_groups_rebuilt": true,
+  "captions_exact": true,
+  "all_three_DOCX_documents_rebuilt_and_text_identical": true,
+  "no_GPU_or_training_required": true,
+  "source_v9_unmodified": true
+}

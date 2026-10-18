@@ -1,0 +1,68 @@
+{
+  "new_archives": [
+    {
+      "file": "0353-2-B3_v9_PlantPhenomics_figures_tables.zip",
+      "bytes": 53198848,
+      "sha256": "1c3a6a264d840d38a228b1f7000e517b799da8bc54cdbb107ac2f3848a31e5e5"
+    },
+    {
+      "file": "0353-2-B3_v9_PlantPhenomics_guide.zip",
+      "bytes": 335976,
+      "sha256": "6ef84f864f89bf71ca5bada747dc42ffbd6c6b479090a9f21c70f8a9539461e4"
+    },
+    {
+      "file": "0353-2-B3_v9_analysis_data_full_scripts.zip",
+      "bytes": 63187814,
+      "sha256": "8d98c3f90ef4862a3fb45ca4150e5fb8bcd9236fc24a31229c4307c7df321da8"
+    }
+  ],
+  "resaved_original_archives": [
+    {
+      "file": "original_v9_archives/0353-2-B3_v9_paper_figures.zip",
+      "bytes": 52430279,
+      "sha256": "d460bd3e331f9d4a2b7d2f68d0174bb507fb69a6e8586780d13f7f8cf40c5087",
+      "unchanged": true
+    },
+    {
+      "file": "original_v9_archives/0353-2-B3_v9_training_data.zip",
+      "bytes": 78718064,
+      "sha256": "7ede4287f399700a5fecf85ce5071da060a3ad5aeb2310921097521013cc4a6a",
+      "unchanged": true
+    },
+    {
+      "file": "original_v9_archives/0353-2-B3_v9_segmentation_unet.zip",
+      "bytes": 87605818,
+      "sha256": "0d5e350b26e6613bd3c97c0f2760eb465501ea9e96592ddeb52f30177cbf3b82",
+      "unchanged": true
+    },
+    {
+      "file": "original_v9_archives/0353-2-B3_v9_segmentation_deeplab.zip",
+      "bytes": 91342438,
+      "sha256": "8a3e1f46d732968b1c61084b073a9b27a1347489b73c285f09294559d47ca356",
+      "unchanged": true
+    },
+    {
+      "file": "original_v9_archives/0353-2-B3_v9_segmentation_segformer.zip",
+      "bytes": 91600484,
+      "sha256": "ee33f2e1b6b61431e17b9e62a794e922bbb6254678195ea7f7fba5031ef2c1c0",
+      "unchanged": true
+    },
+    {
+      "file": "original_v9_archives/0353-2-B3_v9_models_torch.zip",
+      "bytes": 60509294,
+      "sha256": "73e99fd6002757a9dd2f399d9af2679c3ef4ea8f3eb4133ba1703fa6421f8a9f",
+      "unchanged": true
+    },
+    {
+      "file": "original_v9_archives/0353-2-B3_v9_model_deeplab.zip",
+      "bytes": 74844153,
+      "sha256": "7ac4160b55842ec6c8cdbe699f5ee8dfb935812844598665090e83db7de37d8d",
+      "unchanged": true
+    }
+  ],
+  "source_commit": "608659941cd720a8292efbebda782e5277e30f08",
+  "original_annotation_sha256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "original_v9_outputs_unchanged": true,
+  "reanalysis_only_no_training_or_threshold_changes": true,
+  "all_archive_CRC_verified": true
+}

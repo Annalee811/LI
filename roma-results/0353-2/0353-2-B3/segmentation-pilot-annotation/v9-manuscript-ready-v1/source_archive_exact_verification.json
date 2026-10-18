@@ -1,0 +1,292 @@
+{
+  "passed": true,
+  "source_commit": "608659941cd720a8292efbebda782e5277e30f08",
+  "all57_native_files_and_annotations_bit_identical_to_original_v9_archives": true,
+  "checks": [
+    {
+      "file": "predictions/unet/C3/T1_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/unet/evaluation/val/T1_after.png",
+      "sha256": "02ca11019a857249425aeac215d7511c615a59bbb8e2ec4e9a722f7405a0fd93"
+    },
+    {
+      "file": "predictions/unet/C3/T1_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/unet/probabilities/val/T1_probability.npy",
+      "sha256": "e51b39cbe35d8103ed1bd605742d8cc270d01d72a8e7dd9702f3bad9aca1def4"
+    },
+    {
+      "file": "predictions/unet/C3/T2_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/unet/evaluation/val/T2_after.png",
+      "sha256": "81be5ecfcf8a441a3a4d9c53d6a72d58379ac85babad26697f940c97885f05f5"
+    },
+    {
+      "file": "predictions/unet/C3/T2_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/unet/probabilities/val/T2_probability.npy",
+      "sha256": "c2dbc77fbb3980782bc9edd568c1ca1ebde167bc1323282c551cd6eb7116f6a8"
+    },
+    {
+      "file": "predictions/unet/C3/T3_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/unet/evaluation/val/T3_after.png",
+      "sha256": "a34054ff998d2cdd34187087d15318514fe8a10e24d430ab4ec9fda21c6bd00f"
+    },
+    {
+      "file": "predictions/unet/C3/T3_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/unet/probabilities/val/T3_probability.npy",
+      "sha256": "439f4a4bf9891723c3d1810e2f3f5a9731229c0d58f584a7565a90626a4d84a7"
+    },
+    {
+      "file": "predictions/unet/C3/T4_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/unet/evaluation/val/T4_after.png",
+      "sha256": "0ff5fa6f1a983de99d8de1921e95aec49314dded034b37c4f93166dbabf3130b"
+    },
+    {
+      "file": "predictions/unet/C3/T4_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/unet/probabilities/val/T4_probability.npy",
+      "sha256": "e40ba872236fa285644d93e649fab7b2b54336aeec96a71ae34211ddf8083921"
+    },
+    {
+      "file": "predictions/unet/C4/T1_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/unet/evaluation/test/T1_after.png",
+      "sha256": "f24e080d12b2b7e010e95cd3c381ea5c9f1976e981a2b61cb9c2f2d4587f34a7"
+    },
+    {
+      "file": "predictions/unet/C4/T1_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/unet/probabilities/test/C4/T1_probability.npy",
+      "sha256": "4b748eb330808d92b26f7ad6ac6b47835bd55eecc45cb7908db45a9476787756"
+    },
+    {
+      "file": "predictions/unet/C4/T2_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/unet/evaluation/test/T2_after.png",
+      "sha256": "8e4ffa4e02dc0da36e84587568a83bceff4730ac229a4bb8087236f1d105cae5"
+    },
+    {
+      "file": "predictions/unet/C4/T2_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/unet/probabilities/test/C4/T2_probability.npy",
+      "sha256": "bfeb3da70a3a893f1c0ead0c6d084a0467240ba8a148a2676a3be2fea5545b2d"
+    },
+    {
+      "file": "predictions/unet/C4/T3_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/unet/evaluation/test/T3_after.png",
+      "sha256": "a26cca721aff376e6ce8ec3b753dd832ff56f9b76aa92f602a8aac7741e0519c"
+    },
+    {
+      "file": "predictions/unet/C4/T3_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/unet/probabilities/test/C4/T3_probability.npy",
+      "sha256": "167acb79987742d368b914c7d77e32a24d5742ec1bf909ee9f32ded2804fbce9"
+    },
+    {
+      "file": "predictions/unet/C4/T4_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/unet/evaluation/test/T4_after.png",
+      "sha256": "9b3cbfeec80d802a759cf6070a4fc032a0b4516c9d1c7d2333f388f5831b57a8"
+    },
+    {
+      "file": "predictions/unet/C4/T4_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/unet/probabilities/test/C4/T4_probability.npy",
+      "sha256": "5168ae102eaa77029deba676ef20a654412ac32316c2273141f20b46d821a717"
+    },
+    {
+      "file": "predictions/deeplab/C3/T1_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/evaluation/val/T1_after.png",
+      "sha256": "18a1b009e1ecc0f524470c02d30c452abab3ec019ae77059a9afae20e81a6f93"
+    },
+    {
+      "file": "predictions/deeplab/C3/T1_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/probabilities/val/T1_probability.npy",
+      "sha256": "c3cf06eb49b025d7ba5ecf876387528e98f2eff7abaae396bc742fa334b4ec0c"
+    },
+    {
+      "file": "predictions/deeplab/C3/T2_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/evaluation/val/T2_after.png",
+      "sha256": "f914292ed801e7af0c185cbf90bf0595d3a1b12eae027f3434ede290ef2db958"
+    },
+    {
+      "file": "predictions/deeplab/C3/T2_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/probabilities/val/T2_probability.npy",
+      "sha256": "48e3112ab6e5fb5716020476236608166469101a4db6f50f411e8608008b57a0"
+    },
+    {
+      "file": "predictions/deeplab/C3/T3_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/evaluation/val/T3_after.png",
+      "sha256": "9dcda3280a35edb897ecb7e0ca85fe29914ce81a6bd06975d29672a4a2ab671c"
+    },
+    {
+      "file": "predictions/deeplab/C3/T3_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/probabilities/val/T3_probability.npy",
+      "sha256": "f992d99601f67c116ff317f96ee93d47d0283a0d7d0ede79a9e4dc3a786f1cbe"
+    },
+    {
+      "file": "predictions/deeplab/C3/T4_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/evaluation/val/T4_after.png",
+      "sha256": "1dd9b31191c440b24bfa4e553b45811287f16bd36bf4a6aeac623cbf9f985e16"
+    },
+    {
+      "file": "predictions/deeplab/C3/T4_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/probabilities/val/T4_probability.npy",
+      "sha256": "798b95a3f694252424409fd2c3354c406ef2d2d6c4170c1ff1f78b6c45f7da8c"
+    },
+    {
+      "file": "predictions/deeplab/C4/T1_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/evaluation/test/T1_after.png",
+      "sha256": "f89c5b769fcf0b4bdac7f2e8b4755f8745d66519d4104ece91bbb444867a0b6d"
+    },
+    {
+      "file": "predictions/deeplab/C4/T1_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/probabilities/test/C4/T1_probability.npy",
+      "sha256": "441e3ec59544892f363d5c2625a64edd28d3d3f9ba575e9fbe3775011a57d53f"
+    },
+    {
+      "file": "predictions/deeplab/C4/T2_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/evaluation/test/T2_after.png",
+      "sha256": "b40e694028680489063815c6442960add6cf16ffc2a1e9e9e3eab326b1e1fb4f"
+    },
+    {
+      "file": "predictions/deeplab/C4/T2_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/probabilities/test/C4/T2_probability.npy",
+      "sha256": "2856308e515a30e55235062ea9792eda703db36dc943ccdd0147cc059c28a094"
+    },
+    {
+      "file": "predictions/deeplab/C4/T3_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/evaluation/test/T3_after.png",
+      "sha256": "3b13a9e9d39ce46196f95d28051ce3f658fa792ca0414add6ff5b105e59d42c8"
+    },
+    {
+      "file": "predictions/deeplab/C4/T3_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/probabilities/test/C4/T3_probability.npy",
+      "sha256": "4130015bd4067d34fc0a7729ff89b47fbdb05338f5195aba0593be16e8f09a30"
+    },
+    {
+      "file": "predictions/deeplab/C4/T4_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/evaluation/test/T4_after.png",
+      "sha256": "51529222f062dfaee4dfbe3e47e0d36fa9ebcbc90b062870d8a418e65e6d18dd"
+    },
+    {
+      "file": "predictions/deeplab/C4/T4_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/deeplab/probabilities/test/C4/T4_probability.npy",
+      "sha256": "9be72d8702d498d5ec8734e922a2bac041924cb6222017e75bf30c7dc97d7fce"
+    },
+    {
+      "file": "predictions/segformer/C3/T1_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/segformer/evaluation/val/T1_after.png",
+      "sha256": "4a033dc8985566ab9cc8f46d64ccdb8ae58890f6d153cc83a70ee48f2e5d2cea"
+    },
+    {
+      "file": "predictions/segformer/C3/T1_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/segformer/probabilities/val/T1_probability.npy",
+      "sha256": "8f602bde2172d71785950f6d80b54c17801fabccc7d4c698835a2a2ad94d9668"
+    },
+    {
+      "file": "predictions/segformer/C3/T2_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/segformer/evaluation/val/T2_after.png",
+      "sha256": "755cdd24a32e718df2da7026930fbe890d258fc1fa601d175fcec37584d4db83"
+    },
+    {
+      "file": "predictions/segformer/C3/T2_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/segformer/probabilities/val/T2_probability.npy",
+      "sha256": "4a7c1e5a5e9747b6a8faf2d74cf37be6f9964aee5a4acc4fb0908a18b9517f75"
+    },
+    {
+      "file": "predictions/segformer/C3/T3_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/segformer/evaluation/val/T3_after.png",
+      "sha256": "0e246d86c0eabfae274274245271ac9b29574d1ff2ec8a10299c90b0dddc87e6"
+    },
+    {
+      "file": "predictions/segformer/C3/T3_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/segformer/probabilities/val/T3_probability.npy",
+      "sha256": "ee7f49e3254a1a81cf182d0633954e426480e20497501349aa3b8120c9ae4241"
+    },
+    {
+      "file": "predictions/segformer/C3/T4_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/segformer/evaluation/val/T4_after.png",
+      "sha256": "6aa4919ad0103315c0d10f1e44bbb2620b29a6a0383b74bfb457e47da596a8a8"
+    },
+    {
+      "file": "predictions/segformer/C3/T4_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/segformer/probabilities/val/T4_probability.npy",
+      "sha256": "da1e2b021d3332b36bc1deb8165df4ab5bd73706fb160db5b1c9f544f7233c24"
+    },
+    {
+      "file": "predictions/segformer/C4/T1_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/segformer/evaluation/test/T1_after.png",
+      "sha256": "40075aafe9655cf771a0cd3e6aeffd8a993c51dd6f3383433f190a1c91952bf0"
+    },
+    {
+      "file": "predictions/segformer/C4/T1_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/segformer/probabilities/test/C4/T1_probability.npy",
+      "sha256": "0264212d61db3cd3048cda0d5e6f151464d3319760855b71b5cc0a435faaa6fc"
+    },
+    {
+      "file": "predictions/segformer/C4/T2_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/segformer/evaluation/test/T2_after.png",
+      "sha256": "04beab624ce54dd9e721f3d512cf65c55afd1436dcfd1d1a144bc052aa2a39ed"
+    },
+    {
+      "file": "predictions/segformer/C4/T2_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/segformer/probabilities/test/C4/T2_probability.npy",
+      "sha256": "0ab25ccba05230130ecb0f1558fb641440a7fe62031d89fabd6c06d38cf760da"
+    },
+    {
+      "file": "predictions/segformer/C4/T3_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/segformer/evaluation/test/T3_after.png",
+      "sha256": "be974dd98efab1465565baec853fa73e683b697a8b2966fc3380b1b928ce2c08"
+    },
+    {
+      "file": "predictions/segformer/C4/T3_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/segformer/probabilities/test/C4/T3_probability.npy",
+      "sha256": "9b111b227def0b9c62649b725bfcfa18653139190770c4554acedf2cd5f6c9aa"
+    },
+    {
+      "file": "predictions/segformer/C4/T4_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/segformer/evaluation/test/T4_after.png",
+      "sha256": "94cc8d58eaac8ef09bc085b8902cdbae79790fd596af423bfeb521592cfc7ecf"
+    },
+    {
+      "file": "predictions/segformer/C4/T4_probability.npy",
+      "original_member": "0353-2-B3_three_model_v9/segformer/probabilities/test/C4/T4_probability.npy",
+      "sha256": "97950a524713cbf3b073fb79d82fd9d58a5d8c0277ffe7290b03e8fdf266dc6d"
+    },
+    {
+      "file": "upper/T1_RGB.png",
+      "original_member": "0353-2-B3_three_model_v9/data/dataset/upper/T1_RGB.png",
+      "sha256": "c8548de563b4d5ac0b223235758f7cdf6f118ac70614a7792a86f12fb9eb295b"
+    },
+    {
+      "file": "upper/T1_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/data/dataset/upper/T1_mask.png",
+      "sha256": "84bbdb422c4d0133b72cf1826f80a0b87e79587155cbdd90c5da0ddfd0678302"
+    },
+    {
+      "file": "upper/T2_RGB.png",
+      "original_member": "0353-2-B3_three_model_v9/data/dataset/upper/T2_RGB.png",
+      "sha256": "e65b91ef07abea8527b71a97a37e2ff19ca1a6527ff0090970cf084bba338b3c"
+    },
+    {
+      "file": "upper/T2_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/data/dataset/upper/T2_mask.png",
+      "sha256": "8fa7962ecc62c99e4a688e62f46f20f916ebf1ae5ea2c921953126f4a0242fd5"
+    },
+    {
+      "file": "upper/T3_RGB.png",
+      "original_member": "0353-2-B3_three_model_v9/data/dataset/upper/T3_RGB.png",
+      "sha256": "3df9bca33ebd9ee88a2eab874143569d5f8d9cdb7cd49d326754791f1b58e8e6"
+    },
+    {
+      "file": "upper/T3_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/data/dataset/upper/T3_mask.png",
+      "sha256": "b3cde187cd392c0e12195a7985b8fc3e5191fa95ecfe94ddff61ba46e5705121"
+    },
+    {
+      "file": "upper/T4_RGB.png",
+      "original_member": "0353-2-B3_three_model_v9/data/dataset/upper/T4_RGB.png",
+      "sha256": "d43a5d5fd491ed05579f2f32bc853808165431ef15c30eac48f143b20160bdea"
+    },
+    {
+      "file": "upper/T4_mask.png",
+      "original_member": "0353-2-B3_three_model_v9/data/dataset/upper/T4_mask.png",
+      "sha256": "157e65750ebf7ea36c34399baee94e00777f4d85d5d908d6750d4dafc12dcbe3"
+    },
+    {
+      "file": "original_human_progress.json",
+      "original_member": "0353-2-B3_three_model_v9/data/original_human_progress.json",
+      "sha256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09"
+    }
+  ]
+}

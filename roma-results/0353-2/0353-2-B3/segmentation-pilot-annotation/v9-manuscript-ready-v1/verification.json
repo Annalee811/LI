@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "original_inputs_unchanged": true,
+  "original_v9_archive_metrics_reproduced": true,
+  "all24_native_masks_evaluated": true,
+  "all192_block_date_model_lengths_reproduced": true,
+  "checks": [
+    {
+      "model": "unet",
+      "region": "C3",
+      "pooled_counts_and_all_period_metrics_exact": true,
+      "length_block_pairs_and_R2_RMSE_exact": true
+    },
+    {
+      "model": "unet",
+      "region": "C4",
+      "pooled_counts_and_all_period_metrics_exact": true,
+      "length_block_pairs_and_R2_RMSE_exact": true
+    },
+    {
+      "model": "deeplab",
+      "region": "C3",
+      "pooled_counts_and_all_period_metrics_exact": true,
+      "length_block_pairs_and_R2_RMSE_exact": true
+    },
+    {
+      "model": "deeplab",
+      "region": "C4",
+      "pooled_counts_and_all_period_metrics_exact": true,
+      "length_block_pairs_and_R2_RMSE_exact": true
+    },
+    {
+      "model": "segformer",
+      "region": "C3",
+      "pooled_counts_and_all_period_metrics_exact": true,
+      "length_block_pairs_and_R2_RMSE_exact": true
+    },
+    {
+      "model": "segformer",
+      "region": "C4",
+      "pooled_counts_and_all_period_metrics_exact": true,
+      "length_block_pairs_and_R2_RMSE_exact": true
+    }
+  ],
+  "original_annotation_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "new_training": false,
+  "temporal_v13_not_used": true
+}
