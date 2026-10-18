@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "model": "unet",
+      "checkpoint_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+      "archive": "0353-2-B3_final_models_torch_scripts.zip",
+      "matched": true
+    },
+    {
+      "model": "segformer",
+      "checkpoint_SHA256": "7ef91f106a3b5f7675e8443faed42a339dfba5d4624515239ab6c38a61fe91a9",
+      "archive": "0353-2-B3_final_models_torch_scripts.zip",
+      "matched": true
+    },
+    {
+      "model": "deeplab",
+      "checkpoint_SHA256": "d0a606f9fd335959f9612bd7bd9750839c0750ceceb878913abed99abb61473f",
+      "archive": "0353-2-B3_final_model_deeplab_scripts.zip",
+      "matched": true
+    }
+  ],
+  "original_human_JSON_hash_unchanged": true,
+  "training_RGB_files": 200,
+  "required_S1_S5_TIFF_and_PDF": true,
+  "final_zip_count": 11,
+  "total_zip_bytes": 671413785,
+  "no_Word": true
+}

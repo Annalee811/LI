@@ -1,0 +1,26 @@
+[
+  {
+    "file": "0353-2-B3_random_tiles_v1_training_tiles_labels_RGB.zip",
+    "bytes": 40814697,
+    "sha256": "d6931e14fcb1af5a8354390a2e3f338bf07601ac0b2370934a419f6beaa0ce3a",
+    "url": "https://raw.githubusercontent.com/Annalee811/LI/d0f862968abc613dc761f12ffc4ae0cd70de8c49/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/random-tiles-v1/0353-2-B3_random_tiles_v1_training_tiles_labels_RGB.zip"
+  },
+  {
+    "file": "0353-2-B3_random_tiles_v1_evaluation_unet.zip",
+    "bytes": 97105687,
+    "sha256": "55a4a3d81e970a74ffa1e3317e670154e9e4e740f6a6edeb1e83eb487d0c250c",
+    "url": "https://raw.githubusercontent.com/Annalee811/LI/d0f862968abc613dc761f12ffc4ae0cd70de8c49/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/random-tiles-v1/0353-2-B3_random_tiles_v1_evaluation_unet.zip"
+  },
+  {
+    "file": "0353-2-B3_random_tiles_v1_models_torch_scripts.zip",
+    "bytes": 60326366,
+    "sha256": "201a469e3b092e869f94544599fdc3156f479c64acb21bfa39dbcd4053862d13",
+    "url": "https://raw.githubusercontent.com/Annalee811/LI/d0f862968abc613dc761f12ffc4ae0cd70de8c49/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/random-tiles-v1/0353-2-B3_random_tiles_v1_models_torch_scripts.zip"
+  },
+  {
+    "file": "0353-2-B3_random_tiles_v1_model_deeplab_scripts.zip",
+    "bytes": 68086847,
+    "sha256": "59f42b8614db9878cf14ddd2fbe6f5f020110bcffe7efde5b850b896344c124c",
+    "url": "https://raw.githubusercontent.com/Annalee811/LI/d0f862968abc613dc761f12ffc4ae0cd70de8c49/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/random-tiles-v1/0353-2-B3_random_tiles_v1_model_deeplab_scripts.zip"
+  }
+]

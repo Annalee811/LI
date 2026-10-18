@@ -1,0 +1,27 @@
+{
+  "version": "annotation_refinement_v1",
+  "reference_type": "U-Net-assisted revised binary reference, not independent human ground truth",
+  "original_human_progress_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "teacher_checkpoint_SHA256": "92ddbd3a440417dc47ff21045ba23318a81176fd61c10478c0da8713ee3e928b",
+  "RGB_policy": "Native 2541x1108 upper images; no resizing or color changes; overlays saved separately",
+  "reference_policy": "Only training targets revised. Original validation/test targets frozen for selection and primary accuracy.",
+  "temporal_classes_modified": false,
+  "death_included": false,
+  "original_strokes_preserved": true,
+  "review": "Assistant inspected four full-field RGB/human/U-Net contact sheets and four 512px native crops per date. Bulk pixel edits use disclosed image/model rules; not exhaustive human pixel adjudication.",
+  "parameters": {
+    "near_radius_px": 6,
+    "near_probability": 0.275,
+    "near_ridge_support": 0.06,
+    "far_probability": 0.6,
+    "far_ridge_support": 0.16,
+    "min_far_area": 18,
+    "min_far_eccentricity": 0.92,
+    "min_far_major_axis": 18
+  },
+  "warnings": [
+    "Revised-reference scores measure agreement with model-assisted targets, not independent human accuracy.",
+    "No guaranteed Dice or target accuracy; uncertain and occluded roots cannot be inferred as verified anatomy.",
+    "Original temporal stroke JSON retained; binary revision does not assign new/persistent/extension classes."
+  ]
+}

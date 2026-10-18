@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "all_244_RGB_checks": true,
+  "original_44_validation_test_masks_unchanged": true,
+  "original_human_JSON_unchanged": true,
+  "paired_dates_and_split_unchanged": true,
+  "actual_three_model_training_draws_equal": true,
+  "cross_split_rectangle_checks": 1160,
+  "whole_field_mask_probability_checks": 12,
+  "revised_RGB_background_pixels_unchanged": true,
+  "final_revised_report_counts_verified": true,
+  "models": [
+    {
+      "model": "unet",
+      "epochs_completed": 20,
+      "optimizer_updates": 640,
+      "selected_finetune_epoch": 18,
+      "checkpoint_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e"
+    },
+    {
+      "model": "deeplab",
+      "epochs_completed": 20,
+      "optimizer_updates": 640,
+      "selected_finetune_epoch": 12,
+      "checkpoint_SHA256": "d0a606f9fd335959f9612bd7bd9750839c0750ceceb878913abed99abb61473f"
+    },
+    {
+      "model": "segformer",
+      "epochs_completed": 20,
+      "optimizer_updates": 640,
+      "selected_finetune_epoch": 16,
+      "checkpoint_SHA256": "7ef91f106a3b5f7675e8443faed42a339dfba5d4624515239ab6c38a61fe91a9"
+    }
+  ],
+  "reference_revision_is_not_independent_manual_truth": true
+}

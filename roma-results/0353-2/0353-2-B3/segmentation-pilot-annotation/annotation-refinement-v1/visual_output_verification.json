@@ -1,0 +1,137 @@
+{
+  "passed": true,
+  "native_upper_comparison_checks": [
+    {
+      "period": "T1",
+      "model": "Reference",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T1",
+      "model": "unet",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T1",
+      "model": "deeplab",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T1",
+      "model": "segformer",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T2",
+      "model": "Reference",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T2",
+      "model": "unet",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T2",
+      "model": "deeplab",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T2",
+      "model": "segformer",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T3",
+      "model": "Reference",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T3",
+      "model": "unet",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T3",
+      "model": "deeplab",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T3",
+      "model": "segformer",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T4",
+      "model": "Reference",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T4",
+      "model": "unet",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T4",
+      "model": "deeplab",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    },
+    {
+      "period": "T4",
+      "model": "segformer",
+      "foreground_RGB_identical": true,
+      "white_background": true,
+      "black_root_mask_exact": true
+    }
+  ],
+  "neutral_figure_captions": true,
+  "source_documented_in_Methods": true,
+  "T1_T4_all_present": true,
+  "S5_palette": {
+    "TP": [
+      0,
+      158,
+      115
+    ],
+    "FP": [
+      204,
+      121,
+      167
+    ],
+    "FN": [
+      230,
+      159,
+      0
+    ]
+  }
+}
