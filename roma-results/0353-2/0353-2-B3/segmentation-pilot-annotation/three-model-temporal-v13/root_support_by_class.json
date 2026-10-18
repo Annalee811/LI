@@ -1,0 +1,146 @@
+[
+  {
+    "model": "unet",
+    "column": 3,
+    "root_class": "persistent",
+    "human_pixels": 56202,
+    "detected_by_frozen_root_model": 46090,
+    "root_detection_recall": 0.820077577310416
+  },
+  {
+    "model": "unet",
+    "column": 3,
+    "root_class": "newly_observed",
+    "human_pixels": 14353,
+    "detected_by_frozen_root_model": 11948,
+    "root_detection_recall": 0.8324392113147078
+  },
+  {
+    "model": "unet",
+    "column": 3,
+    "root_class": "tip_growth",
+    "human_pixels": 1425,
+    "detected_by_frozen_root_model": 1083,
+    "root_detection_recall": 0.76
+  },
+  {
+    "model": "unet",
+    "column": 4,
+    "root_class": "persistent",
+    "human_pixels": 25812,
+    "detected_by_frozen_root_model": 16320,
+    "root_detection_recall": 0.6322640632264063
+  },
+  {
+    "model": "unet",
+    "column": 4,
+    "root_class": "newly_observed",
+    "human_pixels": 2810,
+    "detected_by_frozen_root_model": 2167,
+    "root_detection_recall": 0.7711743772241992
+  },
+  {
+    "model": "unet",
+    "column": 4,
+    "root_class": "tip_growth",
+    "human_pixels": 152,
+    "detected_by_frozen_root_model": 11,
+    "root_detection_recall": 0.07236842105263158
+  },
+  {
+    "model": "deeplab",
+    "column": 3,
+    "root_class": "persistent",
+    "human_pixels": 56202,
+    "detected_by_frozen_root_model": 42809,
+    "root_detection_recall": 0.761698871926266
+  },
+  {
+    "model": "deeplab",
+    "column": 3,
+    "root_class": "newly_observed",
+    "human_pixels": 14353,
+    "detected_by_frozen_root_model": 11042,
+    "root_detection_recall": 0.7693165191945934
+  },
+  {
+    "model": "deeplab",
+    "column": 3,
+    "root_class": "tip_growth",
+    "human_pixels": 1425,
+    "detected_by_frozen_root_model": 1059,
+    "root_detection_recall": 0.7431578947368421
+  },
+  {
+    "model": "deeplab",
+    "column": 4,
+    "root_class": "persistent",
+    "human_pixels": 25812,
+    "detected_by_frozen_root_model": 12652,
+    "root_detection_recall": 0.4901596156826282
+  },
+  {
+    "model": "deeplab",
+    "column": 4,
+    "root_class": "newly_observed",
+    "human_pixels": 2810,
+    "detected_by_frozen_root_model": 1800,
+    "root_detection_recall": 0.6405693950177936
+  },
+  {
+    "model": "deeplab",
+    "column": 4,
+    "root_class": "tip_growth",
+    "human_pixels": 152,
+    "detected_by_frozen_root_model": 0,
+    "root_detection_recall": 0.0
+  },
+  {
+    "model": "segformer",
+    "column": 3,
+    "root_class": "persistent",
+    "human_pixels": 56202,
+    "detected_by_frozen_root_model": 42790,
+    "root_detection_recall": 0.7613608056652789
+  },
+  {
+    "model": "segformer",
+    "column": 3,
+    "root_class": "newly_observed",
+    "human_pixels": 14353,
+    "detected_by_frozen_root_model": 11500,
+    "root_detection_recall": 0.8012262244826865
+  },
+  {
+    "model": "segformer",
+    "column": 3,
+    "root_class": "tip_growth",
+    "human_pixels": 1425,
+    "detected_by_frozen_root_model": 986,
+    "root_detection_recall": 0.6919298245614035
+  },
+  {
+    "model": "segformer",
+    "column": 4,
+    "root_class": "persistent",
+    "human_pixels": 25812,
+    "detected_by_frozen_root_model": 11011,
+    "root_detection_recall": 0.4265845343251201
+  },
+  {
+    "model": "segformer",
+    "column": 4,
+    "root_class": "newly_observed",
+    "human_pixels": 2810,
+    "detected_by_frozen_root_model": 1337,
+    "root_detection_recall": 0.47580071174377225
+  },
+  {
+    "model": "segformer",
+    "column": 4,
+    "root_class": "tip_growth",
+    "human_pixels": 152,
+    "detected_by_frozen_root_model": 0,
+    "root_detection_recall": 0.0
+  }
+]

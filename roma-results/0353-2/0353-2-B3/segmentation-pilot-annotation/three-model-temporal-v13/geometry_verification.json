@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "weak_short_flicker_removed": true,
+  "genuine_terminal_growth_retained": true,
+  "parallel_roots_not_merged": true,
+  "root_support_exact": true,
+  "junctions_split_chains": true,
+  "X_crossing_incident_classes_separate": true
+}

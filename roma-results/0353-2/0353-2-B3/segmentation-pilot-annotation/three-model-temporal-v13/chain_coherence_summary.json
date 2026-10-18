@@ -1,0 +1,151 @@
+{
+  "records": [
+    {
+      "model": "unet",
+      "split": "validation",
+      "version": "v12",
+      "chain_count": 649,
+      "chain_edges": 25354,
+      "class_switches": 136,
+      "runs_shorter_than_5px": 138,
+      "same_human_class_chain_edges": 20154,
+      "false_switches_on_same_human_class": 91,
+      "switches_per_1000_edges": 5.3640451210854305
+    },
+    {
+      "model": "unet",
+      "split": "validation",
+      "version": "v13",
+      "chain_count": 649,
+      "chain_edges": 25354,
+      "class_switches": 136,
+      "runs_shorter_than_5px": 138,
+      "same_human_class_chain_edges": 20154,
+      "false_switches_on_same_human_class": 91,
+      "switches_per_1000_edges": 5.3640451210854305
+    },
+    {
+      "model": "unet",
+      "split": "repeated_benchmark",
+      "version": "v12",
+      "chain_count": 273,
+      "chain_edges": 10149,
+      "class_switches": 28,
+      "runs_shorter_than_5px": 34,
+      "same_human_class_chain_edges": 6365,
+      "false_switches_on_same_human_class": 15,
+      "switches_per_1000_edges": 2.7588925017243078
+    },
+    {
+      "model": "unet",
+      "split": "repeated_benchmark",
+      "version": "v13",
+      "chain_count": 273,
+      "chain_edges": 10149,
+      "class_switches": 28,
+      "runs_shorter_than_5px": 34,
+      "same_human_class_chain_edges": 6365,
+      "false_switches_on_same_human_class": 15,
+      "switches_per_1000_edges": 2.7588925017243078
+    },
+    {
+      "model": "deeplab",
+      "split": "validation",
+      "version": "v12",
+      "chain_count": 657,
+      "chain_edges": 23285,
+      "class_switches": 77,
+      "runs_shorter_than_5px": 121,
+      "same_human_class_chain_edges": 16219,
+      "false_switches_on_same_human_class": 46,
+      "switches_per_1000_edges": 3.306849903371269
+    },
+    {
+      "model": "deeplab",
+      "split": "validation",
+      "version": "v13",
+      "chain_count": 657,
+      "chain_edges": 23285,
+      "class_switches": 77,
+      "runs_shorter_than_5px": 121,
+      "same_human_class_chain_edges": 16219,
+      "false_switches_on_same_human_class": 46,
+      "switches_per_1000_edges": 3.306849903371269
+    },
+    {
+      "model": "deeplab",
+      "split": "repeated_benchmark",
+      "version": "v12",
+      "chain_count": 409,
+      "chain_edges": 8933,
+      "class_switches": 24,
+      "runs_shorter_than_5px": 60,
+      "same_human_class_chain_edges": 4560,
+      "false_switches_on_same_human_class": 15,
+      "switches_per_1000_edges": 2.6866674129631702
+    },
+    {
+      "model": "deeplab",
+      "split": "repeated_benchmark",
+      "version": "v13",
+      "chain_count": 409,
+      "chain_edges": 8933,
+      "class_switches": 24,
+      "runs_shorter_than_5px": 60,
+      "same_human_class_chain_edges": 4560,
+      "false_switches_on_same_human_class": 15,
+      "switches_per_1000_edges": 2.6866674129631702
+    },
+    {
+      "model": "segformer",
+      "split": "validation",
+      "version": "v12",
+      "chain_count": 794,
+      "chain_edges": 24068,
+      "class_switches": 155,
+      "runs_shorter_than_5px": 155,
+      "same_human_class_chain_edges": 18300,
+      "false_switches_on_same_human_class": 107,
+      "switches_per_1000_edges": 6.440086421804886
+    },
+    {
+      "model": "segformer",
+      "split": "validation",
+      "version": "v13",
+      "chain_count": 794,
+      "chain_edges": 24068,
+      "class_switches": 155,
+      "runs_shorter_than_5px": 155,
+      "same_human_class_chain_edges": 18300,
+      "false_switches_on_same_human_class": 107,
+      "switches_per_1000_edges": 6.440086421804886
+    },
+    {
+      "model": "segformer",
+      "split": "repeated_benchmark",
+      "version": "v12",
+      "chain_count": 272,
+      "chain_edges": 7331,
+      "class_switches": 16,
+      "runs_shorter_than_5px": 27,
+      "same_human_class_chain_edges": 4680,
+      "false_switches_on_same_human_class": 12,
+      "switches_per_1000_edges": 2.1825126176510707
+    },
+    {
+      "model": "segformer",
+      "split": "repeated_benchmark",
+      "version": "v13",
+      "chain_count": 272,
+      "chain_edges": 7331,
+      "class_switches": 16,
+      "runs_shorter_than_5px": 27,
+      "same_human_class_chain_edges": 4680,
+      "false_switches_on_same_human_class": 12,
+      "switches_per_1000_edges": 2.1825126176510707
+    }
+  ],
+  "switches_include_real_class_boundaries": true,
+  "false_switch_definition": "Adjacent predicted skeleton nodes both on the same typed human class but with different predicted labels",
+  "cannot_prove_root_identity": true
+}

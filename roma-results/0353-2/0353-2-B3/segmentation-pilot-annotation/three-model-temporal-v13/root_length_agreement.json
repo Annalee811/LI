@@ -1,0 +1,224 @@
+{
+  "unet": {
+    "validation_all_roots": {
+      "n_correlated_block_date_pairs": 32,
+      "R2_agreement": 0.9868068328868341,
+      "RMSE_px": 70.76361061910893,
+      "MAE_px": 52.31529803887011,
+      "mean_bias_px": -26.58861155624009,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "validation_1": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.9784418111621076,
+      "RMSE_px": 85.30411683921442,
+      "MAE_px": 65.60677605455264,
+      "mean_bias_px": -21.594249027953158,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "validation_2": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.9392062687146295,
+      "RMSE_px": 70.28053312198126,
+      "MAE_px": 47.066248771655545,
+      "mean_bias_px": -12.775423877302758,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "validation_3": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.286294780517822,
+      "RMSE_px": 42.093725542154225,
+      "MAE_px": 24.3231000300021,
+      "mean_bias_px": 12.034096910707477,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "repeated_benchmark_all_roots": {
+      "n_correlated_block_date_pairs": 32,
+      "R2_agreement": 0.8843399615694066,
+      "RMSE_px": 139.57553963040314,
+      "MAE_px": 96.3835790286623,
+      "mean_bias_px": -63.420375593065884,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "repeated_benchmark_1": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.8495285799251696,
+      "RMSE_px": 154.60341118694558,
+      "MAE_px": 102.28148442538861,
+      "mean_bias_px": -81.89455262170047,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "repeated_benchmark_2": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.9276276371319319,
+      "RMSE_px": 28.261803028616345,
+      "MAE_px": 15.112734478532142,
+      "mean_bias_px": 2.6047799427400613,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "repeated_benchmark_3": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": -1.813397665968504,
+      "RMSE_px": 17.917131352629493,
+      "MAE_px": 8.211084049082588,
+      "mean_bias_px": 1.8708122890254855,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    }
+  },
+  "deeplab": {
+    "validation_all_roots": {
+      "n_correlated_block_date_pairs": 32,
+      "R2_agreement": 0.9050451237927595,
+      "RMSE_px": 189.8427814716349,
+      "MAE_px": 142.5688040000554,
+      "mean_bias_px": -126.9759739141655,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "validation_1": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.8784399381557088,
+      "RMSE_px": 202.56262264578916,
+      "MAE_px": 158.29714694757024,
+      "mean_bias_px": -134.16224736201875,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "validation_2": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.917540121259159,
+      "RMSE_px": 81.85156610326423,
+      "MAE_px": 63.000261505131625,
+      "mean_bias_px": 15.906556638036703,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "validation_3": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": -0.19010876905239305,
+      "RMSE_px": 54.35647138571332,
+      "MAE_px": 21.72496090253013,
+      "mean_bias_px": -21.72496090253013,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "repeated_benchmark_all_roots": {
+      "n_correlated_block_date_pairs": 32,
+      "R2_agreement": 0.6607487005367038,
+      "RMSE_px": 239.0443093413047,
+      "MAE_px": 168.856558775109,
+      "mean_bias_px": -124.35703227203554,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "repeated_benchmark_1": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.5175635702780236,
+      "RMSE_px": 276.829335079598,
+      "MAE_px": 190.44960304300966,
+      "mean_bias_px": -169.38496560333377,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "repeated_benchmark_2": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.6699264604048627,
+      "RMSE_px": 60.35577688638502,
+      "MAE_px": 39.093828141796195,
+      "mean_bias_px": 31.253977267896044,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "repeated_benchmark_3": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": -0.08807444655791952,
+      "RMSE_px": 11.142489196015646,
+      "MAE_px": 3.1701358800285515,
+      "mean_bias_px": -3.1701358800285515,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    }
+  },
+  "segformer": {
+    "validation_all_roots": {
+      "n_correlated_block_date_pairs": 32,
+      "R2_agreement": 0.958194829805022,
+      "RMSE_px": 125.96516221051365,
+      "MAE_px": 100.00422974644664,
+      "mean_bias_px": -65.16992917588232,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "validation_1": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.9479567513191764,
+      "RMSE_px": 132.53972172782719,
+      "MAE_px": 105.77281139198391,
+      "mean_bias_px": -74.41028735653023,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "validation_2": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.9004515146614995,
+      "RMSE_px": 89.93380653024902,
+      "MAE_px": 65.65956885891758,
+      "mean_bias_px": -3.2845177968644172,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "validation_3": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": -0.2963336843708131,
+      "RMSE_px": 56.730463472847546,
+      "MAE_px": 36.87221317792669,
+      "mean_bias_px": 5.73130410634253,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "repeated_benchmark_all_roots": {
+      "n_correlated_block_date_pairs": 32,
+      "R2_agreement": 0.49924457083440776,
+      "RMSE_px": 290.4226492531165,
+      "MAE_px": 207.92004406550197,
+      "mean_bias_px": -186.95950791620987,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "repeated_benchmark_1": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.4600366058648283,
+      "RMSE_px": 292.86955106188384,
+      "MAE_px": 210.95450925159676,
+      "mean_bias_px": -193.24139298437754,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "repeated_benchmark_2": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": 0.45541626981997585,
+      "RMSE_px": 77.52572215481442,
+      "MAE_px": 38.19471798501743,
+      "mean_bias_px": -17.918996496258973,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    },
+    "repeated_benchmark_3": {
+      "n_correlated_block_date_pairs": 24,
+      "R2_agreement": -0.08843960632886216,
+      "RMSE_px": 11.144358759031048,
+      "MAE_px": 3.211802546695218,
+      "mean_bias_px": -3.128469213361885,
+      "reference": "Human annotation-derived skeleton length; no separate manual root-length measurements or physical calibration",
+      "units": "native pixels"
+    }
+  }
+}

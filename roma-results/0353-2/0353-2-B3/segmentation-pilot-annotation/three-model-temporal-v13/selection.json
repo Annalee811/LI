@@ -1,0 +1,23 @@
+{
+  "winner": "unet",
+  "criterion": "C3 end-to-end temporal macro Dice; C4 excluded",
+  "candidates": [
+    {
+      "model": "unet",
+      "validation_macro_Dice": 0.49389958085465263
+    },
+    {
+      "model": "deeplab",
+      "validation_macro_Dice": 0.39037811814177203
+    },
+    {
+      "model": "segformer",
+      "validation_macro_Dice": 0.441898524303393
+    }
+  ],
+  "C4_used": false,
+  "final_fits_have_no_independent_accuracy": true,
+  "validation_scores_apply_to": "evaluation_head.pt",
+  "all_upper_revised_24epoch_fit": "final_head.pt",
+  "new_position_transfer_accuracy_not_established": true
+}

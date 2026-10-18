@@ -1,0 +1,9 @@
+{
+  "ROI": "Fixed prediction-only v9 root masks; correct diagonal-aware skeleton junctions within12px and previous predicted tips within20px",
+  "same_mask_both_versions": true,
+  "manual_time_labels_revised": true,
+  "both_versions_scored_against_identical_revised_labels": true,
+  "all_class_pairs_reported": true,
+  "C4": "Previously inspected same-position benchmark, not independent tube test",
+  "previous_head": "v12 evaluation head used for evaluation warm start; final-head annotations do not enter evaluation"
+}

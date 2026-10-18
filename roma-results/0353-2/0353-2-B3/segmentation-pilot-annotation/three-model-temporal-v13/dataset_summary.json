@@ -1,0 +1,29 @@
+{
+  "original_RGB_files": 4,
+  "locations": 1,
+  "external_independent_test_RGB_files": 0,
+  "train_date_region_views": 12,
+  "validation_date_region_views": 4,
+  "repeated_benchmark_date_region_views": 4,
+  "reference_grid_pair_counts": {
+    "train": 216,
+    "validation": 72,
+    "repeated_benchmark": 72
+  },
+  "exported_actual_training_pairs": 288,
+  "interpretation": "Spatial views,overlapping crops and augmentations are correlated derivatives of the same4 images,not new independent images",
+  "models": {
+    "unet": {
+      "evaluation_training_draws": 1152,
+      "final_training_draws": 1152
+    },
+    "deeplab": {
+      "evaluation_training_draws": 1152,
+      "final_training_draws": 1152
+    },
+    "segformer": {
+      "evaluation_training_draws": 1152,
+      "final_training_draws": 1152
+    }
+  }
+}

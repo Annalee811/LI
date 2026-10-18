@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "changed_time_pixels": 328,
+  "original_annotation_sha256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "active_progress_sha256": "1032190e9d0f18efc27f416e9641a458d6eac6c3a9ecafd0a8e09fd2f4fc7a8f",
+  "only_new_to_persistent": true,
+  "root_background_color_viability_layers_unchanged": true,
+  "lower_part_unchanged": true,
+  "both_versions_scored_against_same_revised_reference": true,
+  "review_origin": "Assistant visual revisions authorized by user; not independent human expert adjudication"
+}

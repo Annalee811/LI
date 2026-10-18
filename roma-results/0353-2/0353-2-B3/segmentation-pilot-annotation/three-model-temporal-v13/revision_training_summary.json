@@ -1,0 +1,28 @@
+{
+  "original_user_annotation_preserved": true,
+  "reviewed_time_label_corrections": 4,
+  "changed_pixels": 328,
+  "training_reference": "Revised4period upper annotations, no death",
+  "models": [
+    {
+      "model": "unet",
+      "trial_epochs": 24,
+      "selected_continuation_epoch": 0,
+      "all_upper_revised_fit_epochs": 24
+    },
+    {
+      "model": "deeplab",
+      "trial_epochs": 24,
+      "selected_continuation_epoch": 0,
+      "all_upper_revised_fit_epochs": 24
+    },
+    {
+      "model": "segformer",
+      "trial_epochs": 24,
+      "selected_continuation_epoch": 0,
+      "all_upper_revised_fit_epochs": 24
+    }
+  ],
+  "no_further_held_region_network_update_accepted": true,
+  "important": "Validation metrics belong to retained evaluation heads. Revised-label24epoch final heads are separately trained all-upper fits, not independent accuracy. Original and revised reference evaluations are both supplied."
+}
