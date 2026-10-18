@@ -1,0 +1,2462 @@
+{
+  "unet": {
+    "validation": {
+      "junction": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 18393,
+            "TP": 14186,
+            "FP": 7354,
+            "FN": 4207,
+            "Precision": 0.6585886722376973,
+            "Recall": 0.7712716794432665,
+            "Dice": 0.7104900708687051,
+            "IoU": 0.5509768128325631
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 4393,
+            "TP": 2570,
+            "FP": 2649,
+            "FN": 1823,
+            "Precision": 0.4924315002874114,
+            "Recall": 0.585021625312998,
+            "Dice": 0.5347482313774449,
+            "IoU": 0.36495313831297926
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 374,
+            "TP": 113,
+            "FP": 991,
+            "FN": 261,
+            "Precision": 0.10235507246376811,
+            "Recall": 0.30213903743315507,
+            "Dice": 0.15290933694181327,
+            "IoU": 0.08278388278388278
+          }
+        ],
+        "macro_Dice": 0.4660492130626544,
+        "confusion_matrix": [
+          [
+            71160,
+            6434,
+            1811,
+            385
+          ],
+          [
+            3260,
+            14186,
+            664,
+            283
+          ],
+          [
+            611,
+            889,
+            2570,
+            323
+          ],
+          [
+            56,
+            31,
+            174,
+            113
+          ]
+        ]
+      },
+      "end_to_end": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 56099,
+            "TP": 44370,
+            "FP": 21432,
+            "FN": 11729,
+            "Precision": 0.6742956141150724,
+            "Recall": 0.7909231893616642,
+            "Dice": 0.7279677771306224,
+            "IoU": 0.5722872141465994
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 14456,
+            "TP": 9649,
+            "FP": 8004,
+            "FN": 4807,
+            "Precision": 0.5465926471421289,
+            "Recall": 0.6674737133370227,
+            "Dice": 0.6010152916627737,
+            "IoU": 0.42960819234194125
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 1425,
+            "TP": 191,
+            "FP": 2423,
+            "FN": 1234,
+            "Precision": 0.07306809487375669,
+            "Recall": 0.13403508771929826,
+            "Dice": 0.09457786580836841,
+            "IoU": 0.04963617463617464
+          }
+        ],
+        "macro_Dice": 0.47452031153392155,
+        "confusion_matrix": [
+          [
+            1390014,
+            19703,
+            6261,
+            984
+          ],
+          [
+            10071,
+            44370,
+            1051,
+            607
+          ],
+          [
+            2446,
+            1529,
+            9649,
+            832
+          ],
+          [
+            342,
+            200,
+            692,
+            191
+          ]
+        ]
+      },
+      "classification_on_detected_human_roots": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 46028,
+            "TP": 44370,
+            "FP": 1729,
+            "FN": 1658,
+            "Precision": 0.9624937634222,
+            "Recall": 0.9639784479012775,
+            "Dice": 0.9632355335569377,
+            "IoU": 0.9290784597022426
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 12010,
+            "TP": 9649,
+            "FP": 1743,
+            "FN": 2361,
+            "Precision": 0.846997893258427,
+            "Recall": 0.8034138218151541,
+            "Dice": 0.8246303734723528,
+            "IoU": 0.7015923798443976
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 1083,
+            "TP": 191,
+            "FP": 1439,
+            "FN": 892,
+            "Precision": 0.11717791411042945,
+            "Recall": 0.17636195752539244,
+            "Dice": 0.14080353851824548,
+            "IoU": 0.07573354480570975
+          }
+        ],
+        "macro_Dice": 0.642889815182512,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            44370,
+            1051,
+            607
+          ],
+          [
+            0,
+            1529,
+            9649,
+            832
+          ],
+          [
+            0,
+            200,
+            692,
+            191
+          ]
+        ]
+      },
+      "by_period": [
+        {
+          "period": "T2",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 11551,
+              "TP": 9332,
+              "FP": 5177,
+              "FN": 2219,
+              "Precision": 0.643186987387139,
+              "Recall": 0.8078954203099299,
+              "Dice": 0.7161933998465081,
+              "IoU": 0.5578670492587279
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 9782,
+              "TP": 6689,
+              "FP": 4915,
+              "FN": 3093,
+              "Precision": 0.5764391589107204,
+              "Recall": 0.6838069924350848,
+              "Dice": 0.6255494248573833,
+              "IoU": 0.45512689664557393
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 1014,
+              "TP": 118,
+              "FP": 1160,
+              "FN": 896,
+              "Precision": 0.09233176838810642,
+              "Recall": 0.11637080867850098,
+              "Dice": 0.10296684118673648,
+              "IoU": 0.05427782888684453
+            }
+          ],
+          "macro_Dice": 0.4815698886302093,
+          "confusion_matrix": [
+            [
+              465590,
+              4002,
+              4050,
+              395
+            ],
+            [
+              1723,
+              9332,
+              231,
+              265
+            ],
+            [
+              1505,
+              1088,
+              6689,
+              500
+            ],
+            [
+              175,
+              87,
+              634,
+              118
+            ]
+          ]
+        },
+        {
+          "period": "T3",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 22389,
+              "TP": 17206,
+              "FP": 7933,
+              "FN": 5183,
+              "Precision": 0.6844345439357175,
+              "Recall": 0.7685023895663049,
+              "Dice": 0.7240363575155697,
+              "IoU": 0.5674427808192072
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 3235,
+              "TP": 2033,
+              "FP": 2307,
+              "FN": 1202,
+              "Precision": 0.4684331797235023,
+              "Recall": 0.6284389489953632,
+              "Dice": 0.5367656765676567,
+              "IoU": 0.36683507758931794
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 411,
+              "TP": 73,
+              "FP": 1011,
+              "FN": 338,
+              "Precision": 0.06734317343173432,
+              "Recall": 0.17761557177615572,
+              "Dice": 0.09765886287625418,
+              "IoU": 0.051336146272855133
+            }
+          ],
+          "macro_Dice": 0.45282029898649356,
+          "confusion_matrix": [
+            [
+              460806,
+              7580,
+              1518,
+              445
+            ],
+            [
+              4168,
+              17206,
+              731,
+              284
+            ],
+            [
+              680,
+              240,
+              2033,
+              282
+            ],
+            [
+              167,
+              113,
+              58,
+              73
+            ]
+          ]
+        },
+        {
+          "period": "T4",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 22159,
+              "TP": 17832,
+              "FP": 8322,
+              "FN": 4327,
+              "Precision": 0.6818077540720349,
+              "Recall": 0.8047294553003295,
+              "Dice": 0.7381864094550121,
+              "IoU": 0.5850201765033956
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 1439,
+              "TP": 927,
+              "FP": 782,
+              "FN": 512,
+              "Precision": 0.5424224692802808,
+              "Recall": 0.6441973592772758,
+              "Dice": 0.5889453621346887,
+              "IoU": 0.4173795587573165
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 0,
+              "TP": 0,
+              "FP": 252,
+              "FN": 0,
+              "Precision": 0.0,
+              "Recall": null,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.44237725719656695,
+          "confusion_matrix": [
+            [
+              463618,
+              8121,
+              693,
+              144
+            ],
+            [
+              4180,
+              17832,
+              89,
+              58
+            ],
+            [
+              261,
+              201,
+              927,
+              50
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "repeated_benchmark": {
+      "junction": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 4708,
+            "TP": 3557,
+            "FP": 2616,
+            "FN": 1151,
+            "Precision": 0.576219018305524,
+            "Recall": 0.7555225148683092,
+            "Dice": 0.653800202187299,
+            "IoU": 0.4856635718186783
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 555,
+            "TP": 221,
+            "FP": 458,
+            "FN": 334,
+            "Precision": 0.32547864506627394,
+            "Recall": 0.3981981981981982,
+            "Dice": 0.3581847649918963,
+            "IoU": 0.21816386969397827
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 3,
+            "TP": 0,
+            "FP": 50,
+            "FN": 3,
+            "Precision": 0.0,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.33732832239306504,
+        "confusion_matrix": [
+          [
+            21241,
+            2436,
+            406,
+            28
+          ],
+          [
+            1089,
+            3557,
+            52,
+            10
+          ],
+          [
+            142,
+            180,
+            221,
+            12
+          ],
+          [
+            3,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "end_to_end": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 25812,
+            "TP": 16090,
+            "FP": 11865,
+            "FN": 9722,
+            "Precision": 0.5755678769450904,
+            "Recall": 0.6233534790020145,
+            "Dice": 0.598508378745327,
+            "IoU": 0.42705098601268676
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 2810,
+            "TP": 1825,
+            "FP": 2013,
+            "FN": 985,
+            "Precision": 0.47550807712350185,
+            "Recall": 0.6494661921708185,
+            "Dice": 0.5490373044524669,
+            "IoU": 0.37839518971594444
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 152,
+            "TP": 0,
+            "FP": 434,
+            "FN": 152,
+            "Precision": 0.0,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.382515227732598,
+        "confusion_matrix": [
+          [
+            1446649,
+            11565,
+            1856,
+            308
+          ],
+          [
+            9492,
+            16090,
+            157,
+            73
+          ],
+          [
+            643,
+            289,
+            1825,
+            53
+          ],
+          [
+            141,
+            11,
+            0,
+            0
+          ]
+        ]
+      },
+      "classification_on_detected_human_roots": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 16320,
+            "TP": 16090,
+            "FP": 300,
+            "FN": 230,
+            "Precision": 0.9816961561928005,
+            "Recall": 0.9859068627450981,
+            "Dice": 0.9837970039743198,
+            "IoU": 0.9681107099879663
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 2167,
+            "TP": 1825,
+            "FP": 157,
+            "FN": 342,
+            "Precision": 0.920787083753784,
+            "Recall": 0.8421781264420858,
+            "Dice": 0.8797300554350446,
+            "IoU": 0.7852839931153184
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 11,
+            "TP": 0,
+            "FP": 126,
+            "FN": 11,
+            "Precision": 0.0,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.6211756864697882,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            16090,
+            157,
+            73
+          ],
+          [
+            0,
+            289,
+            1825,
+            53
+          ],
+          [
+            0,
+            11,
+            0,
+            0
+          ]
+        ]
+      },
+      "by_period": [
+        {
+          "period": "T2",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 7280,
+              "TP": 5179,
+              "FP": 4620,
+              "FN": 2101,
+              "Precision": 0.5285233187059905,
+              "Recall": 0.7114010989010989,
+              "Dice": 0.6064757889806195,
+              "IoU": 0.43521008403361344
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 2434,
+              "TP": 1536,
+              "FP": 1321,
+              "FN": 898,
+              "Precision": 0.5376268813440672,
+              "Recall": 0.6310599835661462,
+              "Dice": 0.5806085806085806,
+              "IoU": 0.40905459387483356
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 104,
+              "TP": 0,
+              "FP": 37,
+              "FN": 104,
+              "Precision": 0.0,
+              "Recall": 0.0,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.3956947898630667,
+          "confusion_matrix": [
+            [
+              480934,
+              4342,
+              1258,
+              32
+            ],
+            [
+              2038,
+              5179,
+              63,
+              0
+            ],
+            [
+              615,
+              278,
+              1536,
+              5
+            ],
+            [
+              104,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "period": "T3",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 9805,
+              "TP": 6534,
+              "FP": 4450,
+              "FN": 3271,
+              "Precision": 0.5948652585579024,
+              "Recall": 0.6663946965833758,
+              "Dice": 0.6286016643417192,
+              "IoU": 0.45836548579445807
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 305,
+              "TP": 274,
+              "FP": 498,
+              "FN": 31,
+              "Precision": 0.3549222797927461,
+              "Recall": 0.898360655737705,
+              "Dice": 0.5088207985143919,
+              "IoU": 0.3412204234122042
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 0,
+              "TP": 0,
+              "FP": 286,
+              "FN": 0,
+              "Precision": 0.0,
+              "Recall": null,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.37914082095203705,
+          "confusion_matrix": [
+            [
+              481212,
+              4450,
+              404,
+              208
+            ],
+            [
+              3107,
+              6534,
+              94,
+              70
+            ],
+            [
+              23,
+              0,
+              274,
+              8
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "period": "T4",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 8727,
+              "TP": 4377,
+              "FP": 2795,
+              "FN": 4350,
+              "Precision": 0.6102900167317346,
+              "Recall": 0.5015469233413544,
+              "Dice": 0.550600666708598,
+              "IoU": 0.37988196493664295
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 71,
+              "TP": 15,
+              "FP": 194,
+              "FN": 56,
+              "Precision": 0.07177033492822966,
+              "Recall": 0.2112676056338028,
+              "Dice": 0.10714285714285714,
+              "IoU": 0.05660377358490566
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 48,
+              "TP": 0,
+              "FP": 111,
+              "FN": 48,
+              "Precision": 0.0,
+              "Recall": 0.0,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.21924784128381836,
+          "confusion_matrix": [
+            [
+              484503,
+              2773,
+              194,
+              68
+            ],
+            [
+              4347,
+              4377,
+              0,
+              3
+            ],
+            [
+              5,
+              11,
+              15,
+              40
+            ],
+            [
+              37,
+              11,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "deeplab": {
+    "validation": {
+      "junction": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 14769,
+            "TP": 10601,
+            "FP": 9212,
+            "FN": 4168,
+            "Precision": 0.5350527431484379,
+            "Recall": 0.7177872570925588,
+            "Dice": 0.6130935168584812,
+            "IoU": 0.44205829615111963
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 4036,
+            "TP": 2134,
+            "FP": 3943,
+            "FN": 1902,
+            "Precision": 0.3511601118973178,
+            "Recall": 0.5287413280475719,
+            "Dice": 0.42203104914466527,
+            "IoU": 0.26745206166186236
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 350,
+            "TP": 0,
+            "FP": 0,
+            "FN": 350,
+            "Precision": null,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.3450415220010488,
+        "confusion_matrix": [
+          [
+            52835,
+            8214,
+            2792,
+            0
+          ],
+          [
+            3261,
+            10601,
+            907,
+            0
+          ],
+          [
+            950,
+            952,
+            2134,
+            0
+          ],
+          [
+            60,
+            46,
+            244,
+            0
+          ]
+        ]
+      },
+      "end_to_end": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 56099,
+            "TP": 41205,
+            "FP": 32613,
+            "FN": 14894,
+            "Precision": 0.5581971876778021,
+            "Recall": 0.7345050713916469,
+            "Dice": 0.6343280709991764,
+            "IoU": 0.4644805663269907
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 14456,
+            "TP": 9194,
+            "FP": 12631,
+            "FN": 5262,
+            "Precision": 0.4212600229095074,
+            "Recall": 0.6359988931931378,
+            "Dice": 0.5068217524324027,
+            "IoU": 0.33942481633255805
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 1425,
+            "TP": 0,
+            "FP": 0,
+            "FN": 1425,
+            "Precision": null,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.38038327447719306,
+        "confusion_matrix": [
+          [
+            1376229,
+            30504,
+            10229,
+            0
+          ],
+          [
+            13320,
+            41205,
+            1574,
+            0
+          ],
+          [
+            3384,
+            1878,
+            9194,
+            0
+          ],
+          [
+            366,
+            231,
+            828,
+            0
+          ]
+        ]
+      },
+      "classification_on_detected_human_roots": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 42779,
+            "TP": 41205,
+            "FP": 2109,
+            "FN": 1574,
+            "Precision": 0.9513090455741793,
+            "Recall": 0.9632062460553075,
+            "Dice": 0.9572206799623663,
+            "IoU": 0.9179513455711994
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 11072,
+            "TP": 9194,
+            "FP": 2402,
+            "FN": 1878,
+            "Precision": 0.792859606760952,
+            "Recall": 0.8303829479768786,
+            "Dice": 0.811187577201341,
+            "IoU": 0.6823511948938696
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 1059,
+            "TP": 0,
+            "FP": 0,
+            "FN": 1059,
+            "Precision": null,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.5894694190545691,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            41205,
+            1574,
+            0
+          ],
+          [
+            0,
+            1878,
+            9194,
+            0
+          ],
+          [
+            0,
+            231,
+            828,
+            0
+          ]
+        ]
+      },
+      "by_period": [
+        {
+          "period": "T2",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 11551,
+              "TP": 9116,
+              "FP": 7885,
+              "FN": 2435,
+              "Precision": 0.5362037527204282,
+              "Recall": 0.789195740628517,
+              "Dice": 0.6385542168674698,
+              "IoU": 0.4690265486725664
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 9782,
+              "TP": 6421,
+              "FP": 7182,
+              "FN": 3361,
+              "Precision": 0.47202822906711756,
+              "Recall": 0.6564097321611122,
+              "Dice": 0.5491554415223434,
+              "IoU": 0.3785074274935157
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 1014,
+              "TP": 0,
+              "FP": 0,
+              "FN": 1014,
+              "Precision": null,
+              "Recall": 0.0,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.39590321946327106,
+          "confusion_matrix": [
+            [
+              461488,
+              6526,
+              6023,
+              0
+            ],
+            [
+              1954,
+              9116,
+              481,
+              0
+            ],
+            [
+              2126,
+              1235,
+              6421,
+              0
+            ],
+            [
+              212,
+              124,
+              678,
+              0
+            ]
+          ]
+        },
+        {
+          "period": "T3",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 22389,
+              "TP": 16815,
+              "FP": 12052,
+              "FN": 5574,
+              "Precision": 0.5824990473551114,
+              "Recall": 0.7510384563848318,
+              "Dice": 0.6561183081005151,
+              "IoU": 0.48822624197903663
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 3235,
+              "TP": 1965,
+              "FP": 3665,
+              "FN": 1270,
+              "Precision": 0.34902309058614567,
+              "Recall": 0.60741885625966,
+              "Dice": 0.4433164128595601,
+              "IoU": 0.2847826086956522
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 411,
+              "TP": 0,
+              "FP": 0,
+              "FN": 411,
+              "Precision": null,
+              "Recall": 0.0,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.3664782403200251,
+          "confusion_matrix": [
+            [
+              455995,
+              11599,
+              2755,
+              0
+            ],
+            [
+              4814,
+              16815,
+              760,
+              0
+            ],
+            [
+              924,
+              346,
+              1965,
+              0
+            ],
+            [
+              154,
+              107,
+              150,
+              0
+            ]
+          ]
+        },
+        {
+          "period": "T4",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 22159,
+              "TP": 15274,
+              "FP": 12676,
+              "FN": 6885,
+              "Precision": 0.5464758497316636,
+              "Recall": 0.6892910329888533,
+              "Dice": 0.6096310044103853,
+              "IoU": 0.4384670589923927
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 1439,
+              "TP": 808,
+              "FP": 1784,
+              "FN": 631,
+              "Precision": 0.3117283950617284,
+              "Recall": 0.561501042390549,
+              "Dice": 0.40089307864053586,
+              "IoU": 0.2506981073533975
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 0,
+              "TP": 0,
+              "FP": 0,
+              "FN": 0,
+              "Precision": null,
+              "Recall": null,
+              "Dice": null,
+              "IoU": null
+            }
+          ],
+          "macro_Dice": 0.5052620415254606,
+          "confusion_matrix": [
+            [
+              458746,
+              12379,
+              1451,
+              0
+            ],
+            [
+              6552,
+              15274,
+              333,
+              0
+            ],
+            [
+              334,
+              297,
+              808,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "repeated_benchmark": {
+      "junction": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 2902,
+            "TP": 2054,
+            "FP": 2791,
+            "FN": 848,
+            "Precision": 0.4239422084623323,
+            "Recall": 0.7077877325982082,
+            "Dice": 0.5302697818510391,
+            "IoU": 0.36079395749165644
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 512,
+            "TP": 208,
+            "FP": 620,
+            "FN": 304,
+            "Precision": 0.25120772946859904,
+            "Recall": 0.40625,
+            "Dice": 0.31044776119402984,
+            "IoU": 0.18374558303886926
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "Precision": null,
+            "Recall": null,
+            "Dice": null,
+            "IoU": null
+          }
+        ],
+        "macro_Dice": 0.4203587715225345,
+        "confusion_matrix": [
+          [
+            16869,
+            2680,
+            516,
+            0
+          ],
+          [
+            744,
+            2054,
+            104,
+            0
+          ],
+          [
+            193,
+            111,
+            208,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "end_to_end": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 25812,
+            "TP": 11747,
+            "FP": 13524,
+            "FN": 14065,
+            "Precision": 0.46484112223497287,
+            "Recall": 0.45509840384317374,
+            "Dice": 0.4599181723861167,
+            "IoU": 0.2986322961155176
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 2810,
+            "TP": 1572,
+            "FP": 4546,
+            "FN": 1238,
+            "Precision": 0.2569467146126185,
+            "Recall": 0.5594306049822064,
+            "Dice": 0.3521505376344086,
+            "IoU": 0.2137030995106036
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 152,
+            "TP": 0,
+            "FP": 0,
+            "FN": 152,
+            "Precision": null,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.27068957000684174,
+        "confusion_matrix": [
+          [
+            1443441,
+            13296,
+            3641,
+            0
+          ],
+          [
+            13160,
+            11747,
+            905,
+            0
+          ],
+          [
+            1010,
+            228,
+            1572,
+            0
+          ],
+          [
+            152,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "classification_on_detected_human_roots": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 12652,
+            "TP": 11747,
+            "FP": 228,
+            "FN": 905,
+            "Precision": 0.9809603340292276,
+            "Recall": 0.9284698071451154,
+            "Dice": 0.9539935842774191,
+            "IoU": 0.9120341614906833
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 1800,
+            "TP": 1572,
+            "FP": 905,
+            "FN": 228,
+            "Precision": 0.6346386758175212,
+            "Recall": 0.8733333333333333,
+            "Dice": 0.7350946925415011,
+            "IoU": 0.5811460258780037
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "Precision": null,
+            "Recall": null,
+            "Dice": null,
+            "IoU": null
+          }
+        ],
+        "macro_Dice": 0.8445441384094601,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            11747,
+            905,
+            0
+          ],
+          [
+            0,
+            228,
+            1572,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "by_period": [
+        {
+          "period": "T2",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 7280,
+              "TP": 3620,
+              "FP": 4651,
+              "FN": 3660,
+              "Precision": 0.4376738000241809,
+              "Recall": 0.49725274725274726,
+              "Dice": 0.46556491543952155,
+              "IoU": 0.3034112815354958
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 2434,
+              "TP": 1236,
+              "FP": 2076,
+              "FN": 1198,
+              "Precision": 0.37318840579710144,
+              "Recall": 0.5078060805258833,
+              "Dice": 0.43021232161503653,
+              "IoU": 0.27405764966740576
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 104,
+              "TP": 0,
+              "FP": 0,
+              "FN": 104,
+              "Precision": null,
+              "Recall": 0.0,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.29859241235151934,
+          "confusion_matrix": [
+            [
+              480445,
+              4425,
+              1696,
+              0
+            ],
+            [
+              3280,
+              3620,
+              380,
+              0
+            ],
+            [
+              972,
+              226,
+              1236,
+              0
+            ],
+            [
+              104,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "period": "T3",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 9805,
+              "TP": 5265,
+              "FP": 5818,
+              "FN": 4540,
+              "Precision": 0.47505188125958675,
+              "Recall": 0.5369709331973483,
+              "Dice": 0.5041171964764458,
+              "IoU": 0.3370031364014594
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 305,
+              "TP": 275,
+              "FP": 2103,
+              "FN": 30,
+              "Precision": 0.11564339781328847,
+              "Recall": 0.9016393442622951,
+              "Dice": 0.20499440924338427,
+              "IoU": 0.11420265780730897
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 0,
+              "TP": 0,
+              "FP": 0,
+              "FN": 0,
+              "Precision": null,
+              "Recall": null,
+              "Dice": null,
+              "IoU": null
+            }
+          ],
+          "macro_Dice": 0.35455580285991506,
+          "confusion_matrix": [
+            [
+              478876,
+              5816,
+              1582,
+              0
+            ],
+            [
+              4019,
+              5265,
+              521,
+              0
+            ],
+            [
+              28,
+              2,
+              275,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "period": "T4",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 8727,
+              "TP": 2862,
+              "FP": 3055,
+              "FN": 5865,
+              "Precision": 0.48369105965861076,
+              "Recall": 0.32794774836713647,
+              "Dice": 0.3908768096148593,
+              "IoU": 0.24291291801052453
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 71,
+              "TP": 61,
+              "FP": 367,
+              "FN": 10,
+              "Precision": 0.1425233644859813,
+              "Recall": 0.8591549295774648,
+              "Dice": 0.24448897795591182,
+              "IoU": 0.13926940639269406
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 48,
+              "TP": 0,
+              "FP": 0,
+              "FN": 48,
+              "Precision": null,
+              "Recall": 0.0,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.2117885958569237,
+          "confusion_matrix": [
+            [
+              484120,
+              3055,
+              363,
+              0
+            ],
+            [
+              5861,
+              2862,
+              4,
+              0
+            ],
+            [
+              10,
+              0,
+              61,
+              0
+            ],
+            [
+              48,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "segformer": {
+    "validation": {
+      "junction": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 20127,
+            "TP": 15058,
+            "FP": 9680,
+            "FN": 5069,
+            "Precision": 0.6086991672730213,
+            "Recall": 0.7481492522482238,
+            "Dice": 0.6712582191017497,
+            "IoU": 0.5051833461938471
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 5225,
+            "TP": 2438,
+            "FP": 2754,
+            "FN": 2787,
+            "Precision": 0.46956856702619415,
+            "Recall": 0.46660287081339713,
+            "Dice": 0.46808102140731495,
+            "IoU": 0.30555207419476127
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 466,
+            "TP": 121,
+            "FP": 1793,
+            "FN": 345,
+            "Precision": 0.06321839080459771,
+            "Recall": 0.259656652360515,
+            "Dice": 0.10168067226890756,
+            "IoU": 0.053563523683045594
+          }
+        ],
+        "macro_Dice": 0.4136733042593241,
+        "confusion_matrix": [
+          [
+            87095,
+            8598,
+            2158,
+            680
+          ],
+          [
+            4375,
+            15058,
+            345,
+            349
+          ],
+          [
+            968,
+            1055,
+            2438,
+            764
+          ],
+          [
+            67,
+            27,
+            251,
+            121
+          ]
+        ]
+      },
+      "end_to_end": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 56099,
+            "TP": 41516,
+            "FP": 22895,
+            "FN": 14583,
+            "Precision": 0.644548291440903,
+            "Recall": 0.7400488422253516,
+            "Dice": 0.6890050618205958,
+            "IoU": 0.5255589032078386
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 14456,
+            "TP": 9076,
+            "FP": 8584,
+            "FN": 5380,
+            "Precision": 0.513929784824462,
+            "Recall": 0.627836192584394,
+            "Dice": 0.5652011458463071,
+            "IoU": 0.3939236111111111
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 1425,
+            "TP": 121,
+            "FP": 2476,
+            "FN": 1304,
+            "Precision": 0.04659222179437813,
+            "Recall": 0.08491228070175438,
+            "Dice": 0.06016907011437096,
+            "IoU": 0.03101768777236606
+          }
+        ],
+        "macro_Dice": 0.4381250925937579,
+        "confusion_matrix": [
+          [
+            1387570,
+            21323,
+            7089,
+            980
+          ],
+          [
+            13352,
+            41516,
+            752,
+            479
+          ],
+          [
+            2913,
+            1450,
+            9076,
+            1017
+          ],
+          [
+            439,
+            122,
+            743,
+            121
+          ]
+        ]
+      },
+      "classification_on_detected_human_roots": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 42747,
+            "TP": 41516,
+            "FP": 1572,
+            "FN": 1231,
+            "Precision": 0.9635165243223172,
+            "Recall": 0.9712026574964325,
+            "Dice": 0.9673443234111959,
+            "IoU": 0.9367539881315011
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 11543,
+            "TP": 9076,
+            "FP": 1495,
+            "FN": 2467,
+            "Precision": 0.858575347649229,
+            "Recall": 0.7862773975569609,
+            "Dice": 0.8208374785203943,
+            "IoU": 0.6961190366620648
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 986,
+            "TP": 121,
+            "FP": 1496,
+            "FN": 865,
+            "Precision": 0.07482993197278912,
+            "Recall": 0.12271805273833672,
+            "Dice": 0.09296965040338072,
+            "IoU": 0.048751007252215955
+          }
+        ],
+        "macro_Dice": 0.627050484111657,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            41516,
+            752,
+            479
+          ],
+          [
+            0,
+            1450,
+            9076,
+            1017
+          ],
+          [
+            0,
+            122,
+            743,
+            121
+          ]
+        ]
+      },
+      "by_period": [
+        {
+          "period": "T2",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 11551,
+              "TP": 9144,
+              "FP": 5265,
+              "FN": 2407,
+              "Precision": 0.6346033728919426,
+              "Recall": 0.7916197731798112,
+              "Dice": 0.7044684129429892,
+              "IoU": 0.543767840152236
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 9782,
+              "TP": 6807,
+              "FP": 5766,
+              "FN": 2975,
+              "Precision": 0.5413982343116202,
+              "Recall": 0.6958699652422817,
+              "Dice": 0.6089912771192127,
+              "IoU": 0.437805505531258
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 1014,
+              "TP": 121,
+              "FP": 1379,
+              "FN": 893,
+              "Precision": 0.08066666666666666,
+              "Recall": 0.11932938856015779,
+              "Dice": 0.09626093874303898,
+              "IoU": 0.05056414542415378
+            }
+          ],
+          "macro_Dice": 0.4699068762684136,
+          "confusion_matrix": [
+            [
+              464156,
+              4524,
+              4757,
+              600
+            ],
+            [
+              1777,
+              9144,
+              329,
+              301
+            ],
+            [
+              1759,
+              738,
+              6807,
+              478
+            ],
+            [
+              210,
+              3,
+              680,
+              121
+            ]
+          ]
+        },
+        {
+          "period": "T3",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 22389,
+              "TP": 16695,
+              "FP": 8759,
+              "FN": 5694,
+              "Precision": 0.6558890547654592,
+              "Recall": 0.7456786814953772,
+              "Dice": 0.6979077398992538,
+              "IoU": 0.5359894696288686
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 3235,
+              "TP": 1387,
+              "FP": 1552,
+              "FN": 1848,
+              "Precision": 0.471929227628445,
+              "Recall": 0.42874806800618237,
+              "Dice": 0.44930353093618397,
+              "IoU": 0.28974305410486734
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 411,
+              "TP": 0,
+              "FP": 657,
+              "FN": 411,
+              "Precision": 0.0,
+              "Recall": 0.0,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.38240375694514595,
+          "confusion_matrix": [
+            [
+              460729,
+              8188,
+              1254,
+              178
+            ],
+            [
+              5418,
+              16695,
+              235,
+              41
+            ],
+            [
+              958,
+              452,
+              1387,
+              438
+            ],
+            [
+              229,
+              119,
+              63,
+              0
+            ]
+          ]
+        },
+        {
+          "period": "T4",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 22159,
+              "TP": 15677,
+              "FP": 8871,
+              "FN": 6482,
+              "Precision": 0.6386263646732931,
+              "Recall": 0.7074777742677919,
+              "Dice": 0.6712912411415848,
+              "IoU": 0.5052207541089269
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 1439,
+              "TP": 882,
+              "FP": 1266,
+              "FN": 557,
+              "Precision": 0.4106145251396648,
+              "Recall": 0.6129256428075052,
+              "Dice": 0.4917758572623362,
+              "IoU": 0.32606284658040663
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 0,
+              "TP": 0,
+              "FP": 440,
+              "FN": 0,
+              "Precision": 0.0,
+              "Recall": null,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.38768903280130695,
+          "confusion_matrix": [
+            [
+              462685,
+              8611,
+              1078,
+              202
+            ],
+            [
+              6157,
+              15677,
+              188,
+              137
+            ],
+            [
+              196,
+              260,
+              882,
+              101
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    "repeated_benchmark": {
+      "junction": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 3223,
+            "TP": 2061,
+            "FP": 1723,
+            "FN": 1162,
+            "Precision": 0.544661733615222,
+            "Recall": 0.6394663357120695,
+            "Dice": 0.5882688739831597,
+            "IoU": 0.41670036393044885
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 355,
+            "TP": 34,
+            "FP": 131,
+            "FN": 321,
+            "Precision": 0.20606060606060606,
+            "Recall": 0.09577464788732394,
+            "Dice": 0.13076923076923078,
+            "IoU": 0.06995884773662552
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 4,
+            "TP": 0,
+            "FP": 0,
+            "FN": 4,
+            "Precision": null,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.23967936825079683,
+        "confusion_matrix": [
+          [
+            17397,
+            1568,
+            66,
+            0
+          ],
+          [
+            1097,
+            2061,
+            65,
+            0
+          ],
+          [
+            166,
+            155,
+            34,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "end_to_end": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 25812,
+            "TP": 10676,
+            "FP": 8531,
+            "FN": 15136,
+            "Precision": 0.5558390170250429,
+            "Recall": 0.4136060746939408,
+            "Dice": 0.4742886336879984,
+            "IoU": 0.310863931514428
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 2810,
+            "TP": 857,
+            "FP": 966,
+            "FN": 1953,
+            "Precision": 0.4701042238069117,
+            "Recall": 0.30498220640569396,
+            "Dice": 0.3699546729980574,
+            "IoU": 0.22695974576271186
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 152,
+            "TP": 0,
+            "FP": 38,
+            "FN": 152,
+            "Precision": 0.0,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.28141443556201856,
+        "confusion_matrix": [
+          [
+            1451658,
+            8073,
+            632,
+            15
+          ],
+          [
+            14801,
+            10676,
+            334,
+            1
+          ],
+          [
+            1473,
+            458,
+            857,
+            22
+          ],
+          [
+            152,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "classification_on_detected_human_roots": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "support_pixels": 11011,
+            "TP": 10676,
+            "FP": 458,
+            "FN": 335,
+            "Precision": 0.9588647386384049,
+            "Recall": 0.9695758786667877,
+            "Dice": 0.9641905622036577,
+            "IoU": 0.9308570930333944
+          },
+          {
+            "class_id": 2,
+            "name": "newly_observed",
+            "support_pixels": 1337,
+            "TP": 857,
+            "FP": 334,
+            "FN": 480,
+            "Precision": 0.7195633921074727,
+            "Recall": 0.6409872849663426,
+            "Dice": 0.678006329113924,
+            "IoU": 0.5128665469778576
+          },
+          {
+            "class_id": 3,
+            "name": "tip_growth",
+            "support_pixels": 0,
+            "TP": 0,
+            "FP": 23,
+            "FN": 0,
+            "Precision": 0.0,
+            "Recall": null,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.5473989637725273,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            10676,
+            334,
+            1
+          ],
+          [
+            0,
+            458,
+            857,
+            22
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "by_period": [
+        {
+          "period": "T2",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 7280,
+              "TP": 2865,
+              "FP": 2352,
+              "FN": 4415,
+              "Precision": 0.5491661874640598,
+              "Recall": 0.39354395604395603,
+              "Dice": 0.45851004241017845,
+              "IoU": 0.2974460132890365
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 2434,
+              "TP": 692,
+              "FP": 254,
+              "FN": 1742,
+              "Precision": 0.7315010570824524,
+              "Recall": 0.28430566967953985,
+              "Dice": 0.40946745562130177,
+              "IoU": 0.25744047619047616
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 104,
+              "TP": 0,
+              "FP": 23,
+              "FN": 104,
+              "Precision": 0.0,
+              "Recall": 0.0,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.2893258326771601,
+          "confusion_matrix": [
+            [
+              484305,
+              2023,
+              232,
+              6
+            ],
+            [
+              4393,
+              2865,
+              22,
+              0
+            ],
+            [
+              1396,
+              329,
+              692,
+              17
+            ],
+            [
+              104,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "period": "T3",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 9805,
+              "TP": 4886,
+              "FP": 3881,
+              "FN": 4919,
+              "Precision": 0.5573172122732976,
+              "Recall": 0.49831718510963796,
+              "Dice": 0.526168425586905,
+              "IoU": 0.3570071606020751
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 305,
+              "TP": 153,
+              "FP": 703,
+              "FN": 152,
+              "Precision": 0.17873831775700935,
+              "Recall": 0.5016393442622951,
+              "Dice": 0.26356589147286824,
+              "IoU": 0.15178571428571427
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 0,
+              "TP": 0,
+              "FP": 15,
+              "FN": 0,
+              "Precision": 0.0,
+              "Recall": null,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.26324477235325777,
+          "confusion_matrix": [
+            [
+              482076,
+              3798,
+              391,
+              9
+            ],
+            [
+              4606,
+              4886,
+              312,
+              1
+            ],
+            [
+              64,
+              83,
+              153,
+              5
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "period": "T4",
+          "classes": [
+            {
+              "class_id": 1,
+              "name": "persistent",
+              "support_pixels": 8727,
+              "TP": 2925,
+              "FP": 2298,
+              "FN": 5802,
+              "Precision": 0.5600229753015509,
+              "Recall": 0.33516672396012376,
+              "Dice": 0.41935483870967744,
+              "IoU": 0.2653061224489796
+            },
+            {
+              "class_id": 2,
+              "name": "newly_observed",
+              "support_pixels": 71,
+              "TP": 12,
+              "FP": 9,
+              "FN": 59,
+              "Precision": 0.5714285714285714,
+              "Recall": 0.16901408450704225,
+              "Dice": 0.2608695652173913,
+              "IoU": 0.15
+            },
+            {
+              "class_id": 3,
+              "name": "tip_growth",
+              "support_pixels": 48,
+              "TP": 0,
+              "FP": 0,
+              "FN": 48,
+              "Precision": null,
+              "Recall": 0.0,
+              "Dice": 0.0,
+              "IoU": 0.0
+            }
+          ],
+          "macro_Dice": 0.2267414679756896,
+          "confusion_matrix": [
+            [
+              485277,
+              2252,
+              9,
+              0
+            ],
+            [
+              5802,
+              2925,
+              0,
+              0
+            ],
+            [
+              13,
+              46,
+              12,
+              0
+            ],
+            [
+              48,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

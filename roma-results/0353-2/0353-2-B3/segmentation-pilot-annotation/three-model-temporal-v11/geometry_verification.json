@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "L_bend_not_false_junction": true,
+  "X_cross_geometry_not_identity": true,
+  "parallel_orientation_high": true,
+  "perpendicular_orientation_low": true,
+  "empty_roots_finite": true
+}

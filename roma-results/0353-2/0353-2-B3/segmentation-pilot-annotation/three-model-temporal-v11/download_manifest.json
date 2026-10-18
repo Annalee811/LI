@@ -1,0 +1,84 @@
+{
+  "archives": [
+    {
+      "file": "0353-2-B3_temporal_v11_paper_figures.zip",
+      "bytes": 40415741,
+      "sha256": "d0db9102657439c57ffb1c22f37cd7d2c208c27ccb03e14001e67818aadfb0ae"
+    },
+    {
+      "file": "0353-2-B3_temporal_v11_results_unet.zip",
+      "bytes": 57926320,
+      "sha256": "f9c7b5698b79fb5e0c294d76a692d092fd940fe36d4e514d64d140c6781be860"
+    },
+    {
+      "file": "0353-2-B3_temporal_v11_results_deeplab.zip",
+      "bytes": 57025877,
+      "sha256": "804e85fc15500c3b9924f168a0169311da111fa09fdfbe17c6dc0540ef201fe1"
+    },
+    {
+      "file": "0353-2-B3_temporal_v11_results_segformer.zip",
+      "bytes": 57345393,
+      "sha256": "703c8ea95ac97fda3660967ced24766da1c6497b13f864240fc05010f18e3219"
+    },
+    {
+      "file": "0353-2-B3_temporal_v11_training_data.zip",
+      "bytes": 90096685,
+      "sha256": "129a616190e820f0122e6129d07c0d2a17a872658853053b508f19f493baa416"
+    },
+    {
+      "file": "0353-2-B3_temporal_v11_weights_and_scripts.zip",
+      "bytes": 67448155,
+      "sha256": "8695813310f680bdd7c58efcbfadd3e249132dd008445796123b892442bf3e6e"
+    }
+  ],
+  "unchanged_external_inputs": [
+    {
+      "file": "0353-2-B3_temporal_v10_frozen_features_unet.zip",
+      "bytes": 74596153,
+      "sha256": "b147a15f7bfa443d0678a57884e6038000652edfe60ccc384b2a505fdc1c2b69",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/685ae232bdcc29806944947d658a3d6779313b1c/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v10/0353-2-B3_temporal_v10_frozen_features_unet.zip"
+    },
+    {
+      "file": "0353-2-B3_temporal_v10_frozen_features_deeplab.zip",
+      "bytes": 78619770,
+      "sha256": "fb67d6fc5881fecec46635d414dab4c5ff18c6c01a6dccccec98d9f2fb8bc9ea",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/685ae232bdcc29806944947d658a3d6779313b1c/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v10/0353-2-B3_temporal_v10_frozen_features_deeplab.zip"
+    },
+    {
+      "file": "0353-2-B3_temporal_v10_frozen_features_segformer.zip",
+      "bytes": 79305451,
+      "sha256": "5a13afb5f4b3c3b16c15b2079f3954fdabe065979b4a3f32a1bcceba15ee910f",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/685ae232bdcc29806944947d658a3d6779313b1c/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v10/0353-2-B3_temporal_v10_frozen_features_segformer.zip"
+    },
+    {
+      "file": "0353-2-B3_temporal_v10_results_unet.zip",
+      "bytes": 56506375,
+      "sha256": "1d47367d11e52e442725c85be0e9666983011c20bb2708e92a87db7b11b9715c",
+      "members": 70,
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/685ae232bdcc29806944947d658a3d6779313b1c/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v10/0353-2-B3_temporal_v10_results_unet.zip"
+    },
+    {
+      "file": "0353-2-B3_temporal_v10_results_deeplab.zip",
+      "bytes": 57028110,
+      "sha256": "ed04178b4a2e6fb954029b1c9dffaa8a7dd1d7237306cc274b521233f18dadd0",
+      "members": 70,
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/685ae232bdcc29806944947d658a3d6779313b1c/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v10/0353-2-B3_temporal_v10_results_deeplab.zip"
+    },
+    {
+      "file": "0353-2-B3_temporal_v10_results_segformer.zip",
+      "bytes": 57532823,
+      "sha256": "a4f850d189184883ed1af00a003f98bf65059f40c3f15aa31873980dc0970f87",
+      "members": 70,
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/685ae232bdcc29806944947d658a3d6779313b1c/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v10/0353-2-B3_temporal_v10_results_segformer.zip"
+    },
+    {
+      "file": "0353-2-B3_temporal_v10_frozen_DeepLab_weights.zip",
+      "bytes": 74198053,
+      "sha256": "19814000c8cf5635e9d8708f17d534074bf92dc0e7a4743d6ccbf8283ddb958f",
+      "members": 5,
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/685ae232bdcc29806944947d658a3d6779313b1c/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v10/0353-2-B3_temporal_v10_frozen_DeepLab_weights.zip"
+    }
+  ],
+  "all_zip_crc_verified": true,
+  "annotation_sha256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09"
+}

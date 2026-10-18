@@ -1,0 +1,133 @@
+{
+  "passed": true,
+  "all18_validation_pair_counts_do_not_increase": true,
+  "checks": [
+    {
+      "model": "unet",
+      "region": "junction",
+      "pair": "persistent_new_swaps",
+      "before": 1597,
+      "after": 1553
+    },
+    {
+      "model": "unet",
+      "region": "junction",
+      "pair": "persistent_growth_swaps",
+      "before": 357,
+      "after": 314
+    },
+    {
+      "model": "unet",
+      "region": "junction",
+      "pair": "new_growth_swaps",
+      "before": 707,
+      "after": 497
+    },
+    {
+      "model": "unet",
+      "region": "previous_tip",
+      "pair": "persistent_new_swaps",
+      "before": 1261,
+      "after": 1180
+    },
+    {
+      "model": "unet",
+      "region": "previous_tip",
+      "pair": "persistent_growth_swaps",
+      "before": 392,
+      "after": 353
+    },
+    {
+      "model": "unet",
+      "region": "previous_tip",
+      "pair": "new_growth_swaps",
+      "before": 283,
+      "after": 282
+    },
+    {
+      "model": "deeplab",
+      "region": "junction",
+      "pair": "persistent_new_swaps",
+      "before": 1859,
+      "after": 1859
+    },
+    {
+      "model": "deeplab",
+      "region": "junction",
+      "pair": "persistent_growth_swaps",
+      "before": 46,
+      "after": 46
+    },
+    {
+      "model": "deeplab",
+      "region": "junction",
+      "pair": "new_growth_swaps",
+      "before": 244,
+      "after": 244
+    },
+    {
+      "model": "deeplab",
+      "region": "previous_tip",
+      "pair": "persistent_new_swaps",
+      "before": 2150,
+      "after": 2150
+    },
+    {
+      "model": "deeplab",
+      "region": "previous_tip",
+      "pair": "persistent_growth_swaps",
+      "before": 199,
+      "after": 199
+    },
+    {
+      "model": "deeplab",
+      "region": "previous_tip",
+      "pair": "new_growth_swaps",
+      "before": 162,
+      "after": 162
+    },
+    {
+      "model": "segformer",
+      "region": "junction",
+      "pair": "persistent_new_swaps",
+      "before": 1400,
+      "after": 1400
+    },
+    {
+      "model": "segformer",
+      "region": "junction",
+      "pair": "persistent_growth_swaps",
+      "before": 376,
+      "after": 376
+    },
+    {
+      "model": "segformer",
+      "region": "junction",
+      "pair": "new_growth_swaps",
+      "before": 1015,
+      "after": 1015
+    },
+    {
+      "model": "segformer",
+      "region": "previous_tip",
+      "pair": "persistent_new_swaps",
+      "before": 1259,
+      "after": 1259
+    },
+    {
+      "model": "segformer",
+      "region": "previous_tip",
+      "pair": "persistent_growth_swaps",
+      "before": 352,
+      "after": 352
+    },
+    {
+      "model": "segformer",
+      "region": "previous_tip",
+      "pair": "new_growth_swaps",
+      "before": 319,
+      "after": 319
+    }
+  ],
+  "C4_not_used_for_selection": true
+}
