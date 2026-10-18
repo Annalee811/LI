@@ -1,0 +1,36 @@
+{
+  "python": "3.12.14",
+  "machine": "x86_64",
+  "torch": "2.8.0+cu128",
+  "cuda_available": false,
+  "training_device": "CPU",
+  "torch_training_threads": {
+    "unet": 3,
+    "segformer": 1
+  },
+  "TF_training_threads": 3,
+  "tensorflow": "1.12.0 Intel MKL in verified Docker image",
+  "source_manifest": {
+    "README.md": "bd4999e871026d53fe43725aba7d2041c0cd13fdc486bece63b4fd5db5ecefe2",
+    "analyze.py": "e035854b1e53d99bca3816a4084bd3fb61d2fff271b66c9190d7edeea6d8fafe",
+    "common.py": "46d9aee3f4167c34a5ad9ba7d77cf86bd182f7f470d564d25126c8e3bb71a441",
+    "comparison.py": "5e3802127006ea2833f546e8be89ced5b957fb28ac2c7c09295d410b8ccefa87",
+    "container_entry.sh": "44ea5f1c0d24abb0c38dbc4db673f26497d2d7c48f20deaa03a0fccbbc196c9d",
+    "figures.py": "444bf8759b2e6a3f80fb9d092f307d66036cd72fbb1cd8b74dae47073f51680f",
+    "large_local_comparison.py": "ef53cb298d95c33c6c16de1d0ec6b48516ab6f6ce42ef0049c7170acbb903e4d",
+    "models.py": "18f17b210714bd7f2b036c4546239b19ccc8c40861ccf3d083d1ac240f241949",
+    "native_RGB.py": "177e30e6b4a1b658b2f93436dcf174d342fc458a5534198336ab0bc056f35968",
+    "package.py": "548f76c93b0b13cf657bbc91fef0862462ca6e543ac749b051f260152b8f947f",
+    "predict_TF_RGB.py": "cd18b881edf8328dc1b00b4d49defca2ec8903b76b7f68569089ccb52587070c",
+    "predict_torch_RGB.py": "e5a26b8115dab2a4f59e0f17f83aebab82797c1a6b83fa943bdc9a188ad994df",
+    "prepare.py": "e32cb5b25feaed8e3d7ce6eeb97861210967096e6700a5f63110c25dac8126b3",
+    "report.py": "ac869019dfb8b1aac8347f5791e74bb988ab83997b0f3891febef55a577954e3",
+    "requirements.txt": "ea4a1ba46f19e4c4fc0b804e2919d7e63c7670f6d48aacf10aa74ec50169267f",
+    "run_analysis.py": "769d82f7f58dd03bdd6ef26a2a194f10803b1793d73f58dba8be64ce47559003",
+    "train_tf.py": "7fbb2ce6b60c6d8b1a9048ec9bae0428dcec6475a2b692092a4cb751b4abe8a6",
+    "train_torch.py": "b0cd375f6a7d9aebb40dfe565feb229fa76dbc767a5d762a20190acc99cfdc96",
+    "verify_outputs.py": "68e42c162acbc2af7fa3a564577850e1128abcaa3b40abd3b657d789dcc40b42",
+    "verify_public_downloads.py": "62fc79b4e4c63753564477165bfa1b1c7f7f4345074410e2322389755c0838ec",
+    "verify_torch.py": "739297f3ad76cd07d6e356677351d0adf9a246e4c795e1928529ce9f8e6f3df5"
+  }
+}

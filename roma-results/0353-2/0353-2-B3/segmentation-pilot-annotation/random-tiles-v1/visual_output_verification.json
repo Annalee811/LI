@@ -1,0 +1,13 @@
+{
+  "input_RGB_and_mask_SHA_checks": 288,
+  "local_overlay_background_checks": 96,
+  "local_root_RGB_checks": 96,
+  "local_black_root_checks": 96,
+  "upper_root_RGB_checks": 16,
+  "upper_black_root_checks": 16,
+  "passed": true,
+  "publication_figure_groups": 11,
+  "all_publication_TIFFs_600dpi": true,
+  "Word_files": 0,
+  "original_annotation_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09"
+}

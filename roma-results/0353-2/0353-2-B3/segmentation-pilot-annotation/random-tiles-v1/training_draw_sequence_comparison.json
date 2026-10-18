@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "all_three_native_draw_sequences_equal": true,
+  "comparison": "Parsed epoch/draw/image_id/tile_id; CSV column order may differ between Python versions",
+  "draws_per_model": {
+    "unet": 3200,
+    "deeplab": 3200,
+    "segformer": 3200
+  },
+  "unique_training_images": {
+    "unet": 100,
+    "deeplab": 100,
+    "segformer": 100
+  }
+}

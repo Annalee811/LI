@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "ZIPs": 10,
+  "required_reanalysis_paths_checked": 464,
+  "missing": [],
+  "Word_files": 0,
+  "all_archive_SHA256s_match": true
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "file": "0353-2-B3_random_tiles_v1_paper_figures.zip",
+    "bytes": 87510611,
+    "sha256": "fd704a842535e3f77a5914bfb8d9a0db5085e65ca42bfafdd6ee5a1b16fc5f59"
+  },
+  {
+    "file": "0353-2-B3_random_tiles_v1_four_period_RGB_comparison.zip",
+    "bytes": 69283694,
+    "sha256": "e3fef25976d06b9dd82255ffb83584ccbc0a9683ff72f589a7743e7f6e0d23bf"
+  },
+  {
+    "file": "0353-2-B3_random_tiles_v1_background_removed_full_and_local.zip",
+    "bytes": 33596736,
+    "sha256": "7ce9cbbcf4069b5d7d43fee3ead1f88c574255b303617e26a01ca7171ade8755"
+  },
+  {
+    "file": "0353-2-B3_random_tiles_v1_PlantPhenomics_guide.zip",
+    "bytes": 34299,
+    "sha256": "db54a98bdf5eaaf57bb0384665ccea1fd56eeb39ffce66c0403ac96190f1a506"
+  },
+  {
+    "file": "0353-2-B3_random_tiles_v1_training_tiles_labels_RGB.zip",
+    "bytes": 40814697,
+    "sha256": "d6931e14fcb1af5a8354390a2e3f338bf07601ac0b2370934a419f6beaa0ce3a"
+  },
+  {
+    "file": "0353-2-B3_random_tiles_v1_evaluation_unet.zip",
+    "bytes": 97105687,
+    "sha256": "55a4a3d81e970a74ffa1e3317e670154e9e4e740f6a6edeb1e83eb487d0c250c"
+  },
+  {
+    "file": "0353-2-B3_random_tiles_v1_evaluation_deeplab.zip",
+    "bytes": 98096833,
+    "sha256": "4ff5a049dd7080900728f73d9c98ea215b924572ab83af6b261a511a2a3e47cf"
+  },
+  {
+    "file": "0353-2-B3_random_tiles_v1_evaluation_segformer.zip",
+    "bytes": 97727748,
+    "sha256": "c32b9f8adc199064942c0ce7d0ce6cce21a76f854d8de11092f280d5e89dec86"
+  },
+  {
+    "file": "0353-2-B3_random_tiles_v1_models_torch_scripts.zip",
+    "bytes": 60326366,
+    "sha256": "201a469e3b092e869f94544599fdc3156f479c64acb21bfa39dbcd4053862d13"
+  },
+  {
+    "file": "0353-2-B3_random_tiles_v1_model_deeplab_scripts.zip",
+    "bytes": 68086847,
+    "sha256": "59f42b8614db9878cf14ddd2fbe6f5f020110bcffe7efde5b850b896344c124c"
+  }
+]

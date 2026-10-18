@@ -1,0 +1,129 @@
+{
+  "passed": true,
+  "original_vendor_used": true,
+  "independent_process": true,
+  "images_checked": 24,
+  "checkpoint_SHA256": "dcffc0aab642bcd23827082eb13fdecee8d3ef21bb66ad21516d5d4dcc6501c3",
+  "records": [
+    {
+      "file": "P16_T1_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P16_T2_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P16_T3_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P16_T4_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P22_T1_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P22_T2_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P22_T3_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P22_T4_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P23_T1_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P23_T2_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P23_T3_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P23_T4_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P28_T1_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P28_T2_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P28_T3_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P28_T4_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P30_T1_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P30_T2_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P30_T3_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P30_T4_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P33_T1_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P33_T2_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P33_T3_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    },
+    {
+      "file": "P33_T4_probability.npy",
+      "max_probability_difference": 5.960464477539063e-08,
+      "mask_difference_pixels": 0
+    }
+  ]
+}

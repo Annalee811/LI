@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "device": "cpu",
+  "reports": [
+    {
+      "model": "unet",
+      "split": "val",
+      "checkpoint_reload_passed": true,
+      "largest_probability_difference": 0.0,
+      "changed_mask_pixels": 0,
+      "counts": {
+        "TP": 18451,
+        "FP": 12644,
+        "FN": 9386,
+        "TN": 1270239,
+        "Precision": 0.5933751406978613,
+        "Recall": 0.6628228616589431,
+        "Dice": 0.6261793253241024,
+        "IoU": 0.45579407623329465
+      }
+    },
+    {
+      "model": "unet",
+      "split": "test",
+      "checkpoint_reload_passed": true,
+      "largest_probability_difference": 0.0,
+      "changed_mask_pixels": 0,
+      "counts": {
+        "TP": 67212,
+        "FP": 34904,
+        "FN": 19096,
+        "TN": 1451652,
+        "Precision": 0.6581926436601512,
+        "Recall": 0.7787458868239329,
+        "Dice": 0.7134123041650745,
+        "IoU": 0.5544995544995545
+      }
+    },
+    {
+      "model": "segformer",
+      "split": "val",
+      "checkpoint_reload_passed": true,
+      "largest_probability_difference": 5.960464477539062e-07,
+      "changed_mask_pixels": 0,
+      "counts": {
+        "TP": 13416,
+        "FP": 15749,
+        "FN": 14421,
+        "TN": 1267134,
+        "Precision": 0.4600034287673581,
+        "Recall": 0.48194848582821426,
+        "Dice": 0.47072032560261046,
+        "IoU": 0.3078052585692654
+      }
+    },
+    {
+      "model": "segformer",
+      "split": "test",
+      "checkpoint_reload_passed": true,
+      "largest_probability_difference": 7.152557373046875e-07,
+      "changed_mask_pixels": 0,
+      "counts": {
+        "TP": 54175,
+        "FP": 37634,
+        "FN": 32133,
+        "TN": 1448922,
+        "Precision": 0.5900837608513326,
+        "Recall": 0.6276938406636696,
+        "Dice": 0.6083080222550347,
+        "IoU": 0.43709961110842166
+      }
+    }
+  ]
+}
