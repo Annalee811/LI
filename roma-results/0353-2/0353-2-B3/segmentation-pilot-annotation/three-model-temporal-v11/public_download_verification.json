@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "immutable_data_commit": "613606a12c2d42b37fa01841991c4515d8f29bd3",
+  "archive_count": 6,
+  "total_bytes": 370258171,
+  "all_complete_downloads_match_SHA256": true,
+  "checks": [
+    {
+      "file": "0353-2-B3_temporal_v11_paper_figures.zip",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/613606a12c2d42b37fa01841991c4515d8f29bd3/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v11/0353-2-B3_temporal_v11_paper_figures.zip",
+      "bytes": 40415741,
+      "sha256": "d0db9102657439c57ffb1c22f37cd7d2c208c27ccb03e14001e67818aadfb0ae",
+      "verified": true
+    },
+    {
+      "file": "0353-2-B3_temporal_v11_results_deeplab.zip",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/613606a12c2d42b37fa01841991c4515d8f29bd3/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v11/0353-2-B3_temporal_v11_results_deeplab.zip",
+      "bytes": 57025877,
+      "sha256": "804e85fc15500c3b9924f168a0169311da111fa09fdfbe17c6dc0540ef201fe1",
+      "verified": true
+    },
+    {
+      "file": "0353-2-B3_temporal_v11_results_segformer.zip",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/613606a12c2d42b37fa01841991c4515d8f29bd3/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v11/0353-2-B3_temporal_v11_results_segformer.zip",
+      "bytes": 57345393,
+      "sha256": "703c8ea95ac97fda3660967ced24766da1c6497b13f864240fc05010f18e3219",
+      "verified": true
+    },
+    {
+      "file": "0353-2-B3_temporal_v11_results_unet.zip",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/613606a12c2d42b37fa01841991c4515d8f29bd3/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v11/0353-2-B3_temporal_v11_results_unet.zip",
+      "bytes": 57926320,
+      "sha256": "f9c7b5698b79fb5e0c294d76a692d092fd940fe36d4e514d64d140c6781be860",
+      "verified": true
+    },
+    {
+      "file": "0353-2-B3_temporal_v11_training_data.zip",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/613606a12c2d42b37fa01841991c4515d8f29bd3/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v11/0353-2-B3_temporal_v11_training_data.zip",
+      "bytes": 90096685,
+      "sha256": "129a616190e820f0122e6129d07c0d2a17a872658853053b508f19f493baa416",
+      "verified": true
+    },
+    {
+      "file": "0353-2-B3_temporal_v11_weights_and_scripts.zip",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/613606a12c2d42b37fa01841991c4515d8f29bd3/roma-results/0353-2/0353-2-B3/segmentation-pilot-annotation/three-model-temporal-v11/0353-2-B3_temporal_v11_weights_and_scripts.zip",
+      "bytes": 67448155,
+      "sha256": "8695813310f680bdd7c58efcbfadd3e249132dd008445796123b892442bf3e6e",
+      "verified": true
+    }
+  ]
+}
