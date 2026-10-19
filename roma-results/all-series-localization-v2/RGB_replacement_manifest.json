@@ -1,0 +1,530 @@
+[
+  {
+    "position": "0353-1-B3",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-1-B3/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-1/0353-1-B3/same-region-localization/T1_common_region_RGB.png",
+    "SHA256": "548d9bef6ecb3a06ef82a6624ff8285ac5d3aee38c5fc7449a51be41cd9ff039",
+    "bytes": 4304828
+  },
+  {
+    "position": "0353-1-B3",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-1-B3/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-1/0353-1-B3/same-region-localization/T2_common_region_RGB.png",
+    "SHA256": "0d4e3d8f15b10adadafc64f2ee87136878d3bd8ccb427179fca906d0c8860304",
+    "bytes": 3309932
+  },
+  {
+    "position": "0353-1-B3",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-1-B3/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-1/0353-1-B3/same-region-localization/T3_common_region_RGB.png",
+    "SHA256": "3cbf24b53422da0c81d7807eca6ee16a668e6fc12ddb622d402cad6164831bff",
+    "bytes": 3389565
+  },
+  {
+    "position": "0353-1-B3",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-1-B3/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-1/0353-1-B3/same-region-localization/T4_common_region_RGB.png",
+    "SHA256": "a5f9b547551a876b22ae541b8eab9ebd037860fd6d1458dbb0e993d575faf894",
+    "bytes": 3511410
+  },
+  {
+    "position": "0353-1-Z2",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-1-Z2/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-1/0353-1-Z2/same-region-localization/T1_common_region_RGB.png",
+    "SHA256": "1d4c2301ce2dba64db309c42da341976c80a510f049970fbbe4af72436d2bb26",
+    "bytes": 2561255
+  },
+  {
+    "position": "0353-1-Z2",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-1-Z2/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-1/0353-1-Z2/same-region-localization/T2_common_region_RGB.png",
+    "SHA256": "d24791fd2cb619057740b3def16288ccf034fd92727cd19f006a1bc1f8b9ba50",
+    "bytes": 1944410
+  },
+  {
+    "position": "0353-1-Z2",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-1-Z2/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-1/0353-1-Z2/same-region-localization/T3_common_region_RGB.png",
+    "SHA256": "29a739c6c8754ebaed2b0b2b3dd8d96c9b2ff2cfa56680434f7f4b5959f967d0",
+    "bytes": 1818733
+  },
+  {
+    "position": "0353-1-Z2",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-1-Z2/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-1/0353-1-Z2/same-region-localization/T4_common_region_RGB.png",
+    "SHA256": "f8c42a5955a2471de15d093f2ef5a5f4367ea2b3ccd8585e1d8c315f77c3eb6d",
+    "bytes": 2160601
+  },
+  {
+    "position": "0353-2-B3",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-2-B3/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-2/0353-2-B3/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "d8541ef348263d9551d0526b56e84839960a3aedc2d61cf2ebc0df11036f0d5d",
+    "bytes": 6034998
+  },
+  {
+    "position": "0353-2-B3",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-2-B3/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-2/0353-2-B3/multiregion-review/T2_multiregion_RGB.png",
+    "SHA256": "700d6deb14c4bdad6fd2f96eec839d791261ed3c829cbe7d827784b3b0673293",
+    "bytes": 4367033
+  },
+  {
+    "position": "0353-2-B3",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-2-B3/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-2/0353-2-B3/multiregion-review/T3_multiregion_RGB.png",
+    "SHA256": "feddee57c19f6b1371b3f980f330e96498e3fd657978e99ab75b1c0f3a256bf0",
+    "bytes": 3901402
+  },
+  {
+    "position": "0353-2-B3",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-2-B3/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-2/0353-2-B3/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "272302b28020ae8d628bf5340552bb1c5916392069311fcb83695b28f4bb4790",
+    "bytes": 4521321
+  },
+  {
+    "position": "0353-2-LB2",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-2-LB2/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-2/0353-2-LB2/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "210fa750f76178187243f1f211f6a94217a00f998c85348b0bea10658d74f4ce",
+    "bytes": 8933699
+  },
+  {
+    "position": "0353-2-LB2",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-2-LB2/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-2/0353-2-LB2/multiregion-review/T2_multiregion_RGB.png",
+    "SHA256": "f134f24512f743d111924d974291b1a6e6db6c808a7e77b9ffec046db21e9960",
+    "bytes": 6192161
+  },
+  {
+    "position": "0353-2-LB2",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-2-LB2/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-2/0353-2-LB2/multiregion-review/T3_multiregion_RGB.png",
+    "SHA256": "f85c9121bbd391d802eb4a0cb3a5278c866c801ff26995f6d69841f8a862c517",
+    "bytes": 6472889
+  },
+  {
+    "position": "0353-2-LB2",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-2-LB2/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-2/0353-2-LB2/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "1a972c16c197e9db8809bff3627addb2728acf0490de5039a9c5d11f994a1ea2",
+    "bytes": 7477981
+  },
+  {
+    "position": "0353-2-LB3",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-2-LB3/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-2/0353-2-LB3/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "23f8074bddfa7bfcec43eec02434f70f4c4b67c476de98c23ab48b5ef4736cde",
+    "bytes": 9346286
+  },
+  {
+    "position": "0353-2-LB3",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-2-LB3/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-2/0353-2-LB3/multiregion-review/T2_multiregion_RGB.png",
+    "SHA256": "8908153050334b7dee43ce66404a10c7df364785d23a68bda577172986b35dc4",
+    "bytes": 6184910
+  },
+  {
+    "position": "0353-2-LB3",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-2-LB3/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-2/0353-2-LB3/multiregion-review/T3_multiregion_RGB.png",
+    "SHA256": "e7fa28e3c59a211916904bd6624297f0a2c67de934f7402db96357a0dd3b1847",
+    "bytes": 6428818
+  },
+  {
+    "position": "0353-2-LB3",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-2-LB3/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-2/0353-2-LB3/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "a0cf560e114afc5c59a0867ee82483530b8d94c3a20467cf2c45963c14ea3771",
+    "bytes": 7620736
+  },
+  {
+    "position": "0353-3-LB2",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-3-LB2/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-3/0353-3-LB2/same-region-localization/T1_common_region_RGB.png",
+    "SHA256": "7ff1ee7903ed66632c81edbb97e16b3735196d4dcb414b81c699cc7df43fc24b",
+    "bytes": 4095067
+  },
+  {
+    "position": "0353-3-LB2",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-3-LB2/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-3/0353-3-LB2/same-region-localization/T2_common_region_RGB.png",
+    "SHA256": "b8d2a50b0f62d8a9cec4f4781b6d27c4f1b07ababc45a90b55e7c88424a1f7d7",
+    "bytes": 2431485
+  },
+  {
+    "position": "0353-3-LB2",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-3-LB2/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-3/0353-3-LB2/same-region-localization/T3_common_region_RGB.png",
+    "SHA256": "929e1cc1ede6168125c0eac439d26f0dee8f10d614b2f197f9aff1db633aee27",
+    "bytes": 2875135
+  },
+  {
+    "position": "0353-3-LB2",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-3-LB2/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-3/0353-3-LB2/same-region-localization/T4_common_region_RGB.png",
+    "SHA256": "0b553ec6d2623d3489fa62d8469773b17bf07ae5a71625a37bb45e4436a71742",
+    "bytes": 3096077
+  },
+  {
+    "position": "0353-3-LB3",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-3-LB3/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-3/0353-3-LB3/same-region-localization/T1_common_region_RGB.png",
+    "SHA256": "282e562004358be1448c1abef8e38d8b838296408219f83d283bfcdc3ff45b93",
+    "bytes": 7854675
+  },
+  {
+    "position": "0353-3-LB3",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-3-LB3/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-3/0353-3-LB3/same-region-localization/T2_common_region_RGB.png",
+    "SHA256": "e6a3dae6e7744a496fe3510ff1c3ca1a5fee231acaed77f098a07d8aaf5a89d2",
+    "bytes": 5379629
+  },
+  {
+    "position": "0353-3-LB3",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-3-LB3/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-3/0353-3-LB3/same-region-localization/T3_common_region_RGB.png",
+    "SHA256": "f18b4d0a75c6cc2d6b9fb4239d4b87bb31bd6f10793b1401b08134ec60b99f97",
+    "bytes": 5268568
+  },
+  {
+    "position": "0353-3-LB3",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/0353-3-LB3/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/0353-3/0353-3-LB3/same-region-localization/T4_common_region_RGB.png",
+    "SHA256": "b3f772e34d88391ef448371b1267297436f7c6f512004ffd01db12d27591d4f1",
+    "bytes": 5922782
+  },
+  {
+    "position": "A017-1-B2",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-1-B2/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-1/A017-1-B2/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "96499d5b77947cfa2ddb223cb1a42f79575c07135f8f7a41b2d184a55233d0f5",
+    "bytes": 8078331
+  },
+  {
+    "position": "A017-1-B2",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-1-B2/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-1/A017-1-B2/multiregion-review/T2_multiregion_RGB.png",
+    "SHA256": "ead4bd401f69f9eeabde6b9f839915c0099ee4b3bb49322108f6d26c14b0d0fc",
+    "bytes": 5904539
+  },
+  {
+    "position": "A017-1-B2",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-1-B2/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-1/A017-1-B2/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "e67c1c4cdb494adbcc38c8c6e894f6df61d8294985d77b7669d84f6ec464994f",
+    "bytes": 6367551
+  },
+  {
+    "position": "A017-1-Z2",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-1-Z2/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-1/A017-1-Z2/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "ad714f11318ef18e1350d427e22b431bd66671c362cfa0d4b2eb0b168f6a8764",
+    "bytes": 2445466
+  },
+  {
+    "position": "A017-1-Z2",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-1-Z2/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-1/A017-1-Z2/multiregion-review/T2_multiregion_RGB.png",
+    "SHA256": "fcdf15c4508144dbda0deea45c8d44ec7ab9d98e1a9e7fabcdefb3167fbba4b5",
+    "bytes": 1745438
+  },
+  {
+    "position": "A017-1-Z2",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-1-Z2/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-1/A017-1-Z2/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "4ff6a016cc294e7329985484b14743452f5539769011713aae9d7327bd75b760",
+    "bytes": 2111020
+  },
+  {
+    "position": "A017-2-2",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-2-2/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-2/A017-2-2/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "80bb63f3600811875a0ecf47d00b321007e4080e30556e2aa358802b03fcaacc",
+    "bytes": 6092694
+  },
+  {
+    "position": "A017-2-2",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-2-2/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-2/A017-2-2/multiregion-review/T2_multiregion_RGB.png",
+    "SHA256": "81c0453bcce25a0f7a05c0cca290fd5c9c8df7b4aee9728a44ac8d0eb0cd2ae9",
+    "bytes": 3857880
+  },
+  {
+    "position": "A017-2-2",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-2-2/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-2/A017-2-2/multiregion-review/T3_multiregion_RGB.png",
+    "SHA256": "ce00152f5b801ab829acd1d684aaf6108d1ff1b3a057b9d4d26196f3dca29237",
+    "bytes": 4916103
+  },
+  {
+    "position": "A017-2-2",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-2-2/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-2/A017-2-2/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "f654e04ef35609a44acf12c6c6ff4e4947f88ef49513121ca5ce5ca2ea38ab8d",
+    "bytes": 4999055
+  },
+  {
+    "position": "A017-2-3",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-2-3/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-2/A017-2-3/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "2831ac0ba1c9182333f24e1eb7c107e3a7b2cf47d441ed25c1be060326322080",
+    "bytes": 7388100
+  },
+  {
+    "position": "A017-2-3",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-2-3/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-2/A017-2-3/multiregion-review/T2_multiregion_RGB.png",
+    "SHA256": "8eead5fc98f100136e538c65420c358e4dbc60db5c74004b5322e2969740dafd",
+    "bytes": 4181601
+  },
+  {
+    "position": "A017-2-3",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-2-3/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-2/A017-2-3/multiregion-review/T3_multiregion_RGB.png",
+    "SHA256": "bb552cd6b6232ae6c10c404eac4bf6f4aad5143cfbceed6848dd60dde12b9db5",
+    "bytes": 5415851
+  },
+  {
+    "position": "A017-2-3",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-2-3/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-2/A017-2-3/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "0bf19baa1619c7c7bbb5fa97489c8d3eef552faee12016844f03a215bcbad291",
+    "bytes": 5956894
+  },
+  {
+    "position": "A017-3-B3",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-3-B3/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-3/A017-3-B3/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "e059371d0225f353da906a36ca1a99e92fcde70e26d70db94f0eef54120b7cf1",
+    "bytes": 8390060
+  },
+  {
+    "position": "A017-3-B3",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-3-B3/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-3/A017-3-B3/multiregion-review/T2_multiregion_RGB.png",
+    "SHA256": "67a8be958eb62b045209c12f8fbadabd8708ca0fce46a5340c6e517c853154c3",
+    "bytes": 5539973
+  },
+  {
+    "position": "A017-3-B3",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-3-B3/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-3/A017-3-B3/multiregion-review/T3_multiregion_RGB.png",
+    "SHA256": "45e6203d04f53e294028e0ea8383963ad495cbae93020a2503d215253b24fa6d",
+    "bytes": 5950261
+  },
+  {
+    "position": "A017-3-B3",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-3-B3/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-3/A017-3-B3/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "11b0b6c58130c9d3d9dd52d9dc922934bcdc6e0b262ba82726cae54ae2a0302e",
+    "bytes": 7170610
+  },
+  {
+    "position": "A017-3-Z2",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-3-Z2/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-3/A017-3-Z2/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "2989606600779fce2665ed303a8ddf7fdc92354e7a1162c9a19a1c8266a9843d",
+    "bytes": 9114237
+  },
+  {
+    "position": "A017-3-Z2",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-3-Z2/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-3/A017-3-Z2/multiregion-review/T2_multiregion_RGB.png",
+    "SHA256": "ba6709c1a3304c0b7fedf011c4aa1fa9a8964f771be840eee9278f7244539e84",
+    "bytes": 6032962
+  },
+  {
+    "position": "A017-3-Z2",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-3-Z2/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-3/A017-3-Z2/multiregion-review/T3_multiregion_RGB.png",
+    "SHA256": "12ea44c869789b706c9e8814c2632bb59e25b4c11469c199d49e4f6d96897ada",
+    "bytes": 6167337
+  },
+  {
+    "position": "A017-3-Z2",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/A017-3-Z2/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/A017-3/A017-3-Z2/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "44b2800b461a350e67f792cf1f6d3cb46fb4073e93aae2e18850f751dfb27c98",
+    "bytes": 7362004
+  },
+  {
+    "position": "Q1-1-B2",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-1-B2/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-1/Q1-1-B2/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "275fd3d3ddba4040915e4d4e197f0231e5a9dbf0fc3225c69a5ad1ec085f713b",
+    "bytes": 2505398
+  },
+  {
+    "position": "Q1-1-B2",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-1-B2/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-1/Q1-1-B2/multiregion-review/T3_multiregion_RGB.png",
+    "SHA256": "5b780de67bd16730e778277352e88b69267d9f7176737ce62ac8496976a9c1a3",
+    "bytes": 2573406
+  },
+  {
+    "position": "Q1-1-B2",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-1-B2/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-1/Q1-1-B2/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "aa9c7802bb135cc3ea46c9abaf441b2e63c4aa839ea6a81e93eead4c60d4b914",
+    "bytes": 2290982
+  },
+  {
+    "position": "Q1-1-Z3",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-1-Z3/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-1/Q1-1-Z3/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "27070e2eac5e409eabb2c327cfbaa575f65ffe9436ab331f395ea72d208eb688",
+    "bytes": 7309421
+  },
+  {
+    "position": "Q1-1-Z3",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-1-Z3/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-1/Q1-1-Z3/multiregion-review/T2_multiregion_RGB.png",
+    "SHA256": "b6de51de3430065e81acc1f3a4254699fd883b491b912293f66dd1f0048ca844",
+    "bytes": 4767558
+  },
+  {
+    "position": "Q1-1-Z3",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-1-Z3/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-1/Q1-1-Z3/multiregion-review/T3_multiregion_RGB.png",
+    "SHA256": "17aea2ec1fbace7ac7dcb91a3643673740e0626ac44e8c4734c04e85bb4e0b19",
+    "bytes": 5205865
+  },
+  {
+    "position": "Q1-2-B3",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-2-B3/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-2/Q1-2-B3/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "ef8f3f46f1d79f158bbfd5d814f55eebd7f00e581e4e29f41754695050299bdd",
+    "bytes": 9492011
+  },
+  {
+    "position": "Q1-2-B3",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-2-B3/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-2/Q1-2-B3/multiregion-review/T2_multiregion_RGB.png",
+    "SHA256": "7be21a3826c69ab8a05c180075877299403f4e24a59a8aded11e0f31a18c0084",
+    "bytes": 7038094
+  },
+  {
+    "position": "Q1-2-B3",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-2-B3/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-2/Q1-2-B3/multiregion-review/T3_multiregion_RGB.png",
+    "SHA256": "f474f0e2e0f8d71477be58d9602458b0e3365bf5d94fca9b4df74822c9ffed01",
+    "bytes": 6388876
+  },
+  {
+    "position": "Q1-2-B3",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-2-B3/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-2/Q1-2-B3/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "537243563c10d4829646cea2b9b144f9ee01e081f41ab9896f512afd1bd52b84",
+    "bytes": 7561845
+  },
+  {
+    "position": "Q1-2-Z2",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-2-Z2/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-2/Q1-2-Z2/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "023154dca7912500012be4f235e34125b0c4e3e2ccbda21f353ad2a96787e9ba",
+    "bytes": 9121020
+  },
+  {
+    "position": "Q1-2-Z2",
+    "period": "T3",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-2-Z2/T3_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-2/Q1-2-Z2/multiregion-review/T3_multiregion_RGB.png",
+    "SHA256": "8ddcc274e32f834eec5c8b7be14203201f1112f8c08578f625f0a5271f0d1f27",
+    "bytes": 6936771
+  },
+  {
+    "position": "Q1-2-Z2",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-2-Z2/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-2/Q1-2-Z2/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "da38de000bbb2fb78485bd8337f346bddd3c0d4be69a0c275a7fbdbf5084808b",
+    "bytes": 7476270
+  },
+  {
+    "position": "Q1-2-Z3",
+    "period": "T1",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-2-Z3/T1_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-2/Q1-2-Z3/multiregion-review/T1_multiregion_RGB.png",
+    "SHA256": "eb8e0d46c3e0af0da36fec15cf1b116aacb3f4fd76111795699bcc09e3f0ac73",
+    "bytes": 10433490
+  },
+  {
+    "position": "Q1-2-Z3",
+    "period": "T2",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-2-Z3/T2_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-2/Q1-2-Z3/multiregion-review/T2_multiregion_RGB.png",
+    "SHA256": "1dc54d9941b23c17b0e583cf48e343ddb22b9b06a86e21a8cd3c27f08a8dd52c",
+    "bytes": 7958804
+  },
+  {
+    "position": "Q1-2-Z3",
+    "period": "T4",
+    "canonical_path": "roma-results/all-series-localization-v2/RGB/Q1-2-Z3/T4_independent_RGB.png",
+    "replacement_alias": "roma-results/Q1-2/Q1-2-Z3/multiregion-review/T4_multiregion_RGB.png",
+    "SHA256": "fc6ac24f40db88dcf536164df55ddc02e719979bee6e7d8d5206fc90cf1c5429",
+    "bytes": 8710793
+  }
+]
