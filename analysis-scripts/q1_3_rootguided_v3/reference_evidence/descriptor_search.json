@@ -1,0 +1,281 @@
+{
+  "position": "Q1-3-Z3",
+  "per_mode": {
+    "T1_to_T2": [
+      {
+        "mode": "clahe",
+        "mutual_matches": 26,
+        "hypotheses": []
+      },
+      {
+        "mode": "blur",
+        "mutual_matches": 32,
+        "hypotheses": []
+      },
+      {
+        "mode": "ridge",
+        "mutual_matches": 26,
+        "hypotheses": []
+      }
+    ],
+    "T1_to_T3": [
+      {
+        "mode": "clahe",
+        "mutual_matches": 32,
+        "hypotheses": []
+      },
+      {
+        "mode": "blur",
+        "mutual_matches": 31,
+        "hypotheses": []
+      },
+      {
+        "mode": "ridge",
+        "mutual_matches": 23,
+        "hypotheses": []
+      }
+    ],
+    "T2_to_T3": [
+      {
+        "mode": "clahe",
+        "mutual_matches": 48,
+        "hypotheses": [
+          {
+            "matrix_analysis1600": [
+              [
+                0.9876320507428484,
+                0.0055964405422984234,
+                -52.967749698235295
+              ],
+              [
+                -0.0055964405422984234,
+                0.9876320507428484,
+                544.1169435523865
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "anchors": 13,
+            "source_span_xy": [
+              674.021240234375,
+              850.6287231445312
+            ],
+            "residual_median_analysis1600": 1.3774547027684427,
+            "conditional_spatial_CV_median_analysis1600": 1.5879520647854786,
+            "region_evidence_pass": false
+          }
+        ]
+      },
+      {
+        "mode": "blur",
+        "mutual_matches": 136,
+        "hypotheses": [
+          {
+            "matrix_analysis1600": [
+              [
+                0.9899340166822501,
+                0.009134451067253576,
+                -54.55616701799361
+              ],
+              [
+                -0.009134451067253576,
+                0.9899340166822501,
+                545.2793127663624
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "anchors": 48,
+            "source_span_xy": [
+              748.76220703125,
+              852.2119750976562
+            ],
+            "residual_median_analysis1600": 1.5006251308182537,
+            "conditional_spatial_CV_median_analysis1600": 1.9187214569726079,
+            "region_evidence_pass": true
+          },
+          {
+            "matrix_analysis1600": [
+              [
+                1.0019883113661947,
+                0.003762810202844722,
+                -63.896598574526685
+              ],
+              [
+                -0.003762810202844722,
+                1.0019883113661947,
+                -1009.3467910439165
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "anchors": 20,
+            "source_span_xy": [
+              1184.2142333984375,
+              274.1265869140625
+            ],
+            "residual_median_analysis1600": 1.5090957852311924,
+            "conditional_spatial_CV_median_analysis1600": 2.2064620011453746,
+            "region_evidence_pass": true
+          },
+          {
+            "matrix_analysis1600": [
+              [
+                1.0007080256250949,
+                -0.0022861550005002546,
+                -57.17080854870308
+              ],
+              [
+                0.0022861550005002546,
+                1.0007080256250949,
+                526.2069700219342
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "anchors": 15,
+            "source_span_xy": [
+              1027.778076171875,
+              232.19183349609375
+            ],
+            "residual_median_analysis1600": 1.2996669626078339,
+            "conditional_spatial_CV_median_analysis1600": 1.8754625441437414,
+            "region_evidence_pass": false
+          }
+        ]
+      },
+      {
+        "mode": "ridge",
+        "mutual_matches": 41,
+        "hypotheses": []
+      }
+    ]
+  },
+  "combined_hypotheses": {
+    "T1_to_T2": [],
+    "T1_to_T3": [],
+    "T2_to_T3": [
+      {
+        "matrix_analysis1600": [
+          [
+            0.9901986378359103,
+            0.008052530797035648,
+            -54.67309874495308
+          ],
+          [
+            -0.008052530797035648,
+            0.9901986378359103,
+            544.4581142569334
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "anchors": 64,
+        "source_span_xy": [
+          1048.85009765625,
+          855.5606079101562
+        ],
+        "residual_median_analysis1600": 1.7702611451263173,
+        "conditional_spatial_CV_median_analysis1600": 2.705317291802727,
+        "region_evidence_pass": true
+      },
+      {
+        "matrix_analysis1600": [
+          [
+            1.0016866004229878,
+            0.003311955931039611,
+            -63.11743903333431
+          ],
+          [
+            -0.003311955931039611,
+            1.0016866004229878,
+            -1009.3182077144868
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "anchors": 34,
+        "source_span_xy": [
+          1218.751220703125,
+          274.1265869140625
+        ],
+        "residual_median_analysis1600": 1.4031062943754355,
+        "conditional_spatial_CV_median_analysis1600": 1.8019595874992274,
+        "region_evidence_pass": true
+      },
+      {
+        "matrix_analysis1600": [
+          [
+            0.9815283569667543,
+            -0.00599463412172165,
+            -46.76565932840133
+          ],
+          [
+            0.00599463412172165,
+            0.9815283569667543,
+            539.8119705485408
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "anchors": 15,
+        "source_span_xy": [
+          324.79010009765625,
+          849.728759765625
+        ],
+        "residual_median_analysis1600": 1.0203940904973194,
+        "conditional_spatial_CV_median_analysis1600": 1.864174452255066,
+        "region_evidence_pass": false
+      },
+      {
+        "matrix_analysis1600": [
+          [
+            1.0001655028991232,
+            0.00046402287333547417,
+            -58.62096143660281
+          ],
+          [
+            -0.00046402287333547417,
+            1.0001655028991232,
+            -1022.2870949605916
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "anchors": 13,
+        "source_span_xy": [
+          1153.410400390625,
+          79.11572265625
+        ],
+        "residual_median_analysis1600": 1.055820641608224,
+        "conditional_spatial_CV_median_analysis1600": 1.6456297991147586,
+        "region_evidence_pass": false
+      }
+    ]
+  },
+  "validation": "Conditional descriptor cross-validation, not manual TRE."
+}

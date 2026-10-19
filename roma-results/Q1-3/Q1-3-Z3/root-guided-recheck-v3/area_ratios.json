@@ -1,0 +1,35 @@
+[
+  {
+    "period": "T1",
+    "original_width": 2550,
+    "original_height": 2273,
+    "original_area_px2": 5796150,
+    "T1_T2_T3_common_area_px2": null,
+    "T1_T2_T3_common_area_percent": null,
+    "T2_T3_pair_native_common_area_px2": null,
+    "T2_T3_pair_area_percent": null,
+    "status": "T1_connection_unresolved"
+  },
+  {
+    "period": "T2",
+    "original_width": 1328,
+    "original_height": 1184,
+    "original_area_px2": 1572352,
+    "T1_T2_T3_common_area_px2": null,
+    "T1_T2_T3_common_area_percent": null,
+    "T2_T3_pair_native_common_area_px2": 544637,
+    "T2_T3_pair_area_percent": 34.638363419895796,
+    "status": "T2_T3_pair_only"
+  },
+  {
+    "period": "T3",
+    "original_width": 1328,
+    "original_height": 1184,
+    "original_area_px2": 1572352,
+    "T1_T2_T3_common_area_px2": null,
+    "T1_T2_T3_common_area_percent": null,
+    "T2_T3_pair_native_common_area_px2": 544928.8523975735,
+    "T2_T3_pair_area_percent": 34.65692493777307,
+    "status": "T2_T3_pair_only"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "object_SHA256": "94c6156f6d7295ec7f8315e55f26cfd5a363767772a19a2d3dfbb5193ab0be33",
+    "bytes": 109619483,
+    "download_SHA256": "94c6156f6d7295ec7f8315e55f26cfd5a363767772a19a2d3dfbb5193ab0be33",
+    "transfer_host": "github-cloud.githubusercontent.com",
+    "HTTP_status": 200,
+    "full_download_verified": true
+  },
+  {
+    "object_SHA256": "42e8c7f59d1495f04226d4dbdf3eec025e7ca12da4db9d6b0300f5e55326a8b9",
+    "bytes": 1079085,
+    "download_SHA256": "42e8c7f59d1495f04226d4dbdf3eec025e7ca12da4db9d6b0300f5e55326a8b9",
+    "transfer_host": "github-cloud.githubusercontent.com",
+    "HTTP_status": 200,
+    "full_download_verified": true
+  },
+  {
+    "object_SHA256": "68738b03147733ecc0c1d21867f6fb0a69f7281bf8fb11b25c3f7faf7b6e7bbd",
+    "bytes": 1169847,
+    "download_SHA256": "68738b03147733ecc0c1d21867f6fb0a69f7281bf8fb11b25c3f7faf7b6e7bbd",
+    "transfer_host": "github-cloud.githubusercontent.com",
+    "HTTP_status": 200,
+    "full_download_verified": true
+  },
+  {
+    "object_SHA256": "01ce4849d83d73dbf5aa4ec9134153fb64fd36b904340d0a7d14d4c6b5f925d7",
+    "bytes": 1088989,
+    "download_SHA256": "01ce4849d83d73dbf5aa4ec9134153fb64fd36b904340d0a7d14d4c6b5f925d7",
+    "transfer_host": "github-cloud.githubusercontent.com",
+    "HTTP_status": 200,
+    "full_download_verified": true
+  },
+  {
+    "object_SHA256": "ff6baffc3e8af50b121dbe025349fecad9b8b642e22b53eb7a3f8c472589fba3",
+    "bytes": 5072221,
+    "download_SHA256": "ff6baffc3e8af50b121dbe025349fecad9b8b642e22b53eb7a3f8c472589fba3",
+    "transfer_host": "github-cloud.githubusercontent.com",
+    "HTTP_status": 200,
+    "full_download_verified": true
+  }
+]

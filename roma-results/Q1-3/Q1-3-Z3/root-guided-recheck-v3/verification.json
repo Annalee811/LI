@@ -1,0 +1,11 @@
+{
+  "original_file_hashes_exact": true,
+  "T2_native_crop_pixel_exact": true,
+  "T3_single_similarity_pixel_exact": true,
+  "no_elastic_RGB_warp": true,
+  "confidence_png_matches_float32": true,
+  "mask_counts_verified": true,
+  "area_uses_native_scale_determinant": true,
+  "T1_unknown_not_zero": true,
+  "only_Q1_3_Z3_scope": true
+}

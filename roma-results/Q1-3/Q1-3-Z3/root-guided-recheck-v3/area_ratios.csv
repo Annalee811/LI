@@ -1,0 +1,4 @@
+﻿period,original_width,original_height,original_area_px2,T1_T2_T3_common_area_px2,T1_T2_T3_common_area_percent,T2_T3_pair_native_common_area_px2,T2_T3_pair_area_percent,status
+T1,2550,2273,5796150,,,,,T1_connection_unresolved
+T2,1328,1184,1572352,,,544637,34.638363419895796,T2_T3_pair_only
+T3,1328,1184,1572352,,,544928.8523975735,34.65692493777307,T2_T3_pair_only

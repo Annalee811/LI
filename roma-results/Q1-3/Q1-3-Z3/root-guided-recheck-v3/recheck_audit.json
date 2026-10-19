@@ -1,0 +1,184 @@
+{
+  "position": "Q1-3-Z3",
+  "input_sha256": {
+    "T1": "9046fbcb230965d6c0b7372ef394ecf73f5738cae9effd524fcf46e99380cd8a",
+    "T2": "add19453dec0d0b30c15933257c3d41084fc587ea24e2403c2feb222cb998ebb",
+    "T3": "3601e81b7b25b46c03ee6fc70cd0b8c561484e21dd30051aec83500768bb4017"
+  },
+  "periods": [
+    1,
+    2,
+    3
+  ],
+  "missing_periods": [
+    4
+  ],
+  "T1_link": {
+    "status": "unresolved",
+    "reason": "No reliable bidirectional T1 links in either RGB-region or CLAHE-region RoMa checks; source region guidance is not point correspondence ground truth.",
+    "T1_to_T2_transform": null,
+    "T1_to_T3_cumulative_transform": null,
+    "T1_cumulative_confidence": null,
+    "three_period_common_area": null
+  },
+  "T2_to_T3_root_similarity": {
+    "root_ridge_threshold": 0.1,
+    "anchors": 211,
+    "span_native": [
+      805.0,
+      231.39814814814804
+    ],
+    "median_fit_error_native_px": 0.5893004636730896,
+    "external_descriptor_median_px": 2.571039455539616,
+    "external_descriptor_n": 68,
+    "matrix_native": [
+      [
+        1.0002678810880843,
+        -0.0001787907040936059,
+        -47.94807274387044
+      ],
+      [
+        0.0001787907040936059,
+        1.0002678810880843,
+        438.1993637880329
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "T2_reference_box": [
+    102,
+    296,
+    1315,
+    745
+  ],
+  "RGB_output_wh": [
+    1213,
+    449
+  ],
+  "source_search_priors": {
+    "fraction_boxes": {
+      "1": [
+        0.02,
+        0.39,
+        0.99,
+        0.86
+      ],
+      "2": [
+        0.02,
+        0.25,
+        0.99,
+        0.88
+      ],
+      "3": [
+        0.04,
+        0.57,
+        0.99,
+        1.0
+      ]
+    },
+    "native_boxes": {
+      "1": [
+        51,
+        886,
+        2524,
+        1955
+      ],
+      "2": [
+        27,
+        296,
+        1315,
+        1042
+      ],
+      "3": [
+        53,
+        675,
+        1315,
+        1184
+      ]
+    },
+    "original_wh": {
+      "1": [
+        2550,
+        2273
+      ],
+      "2": [
+        1328,
+        1184
+      ],
+      "3": [
+        1328,
+        1184
+      ]
+    },
+    "source": "User supplied root/layer region guidance; broad search prior, not point correspondence truth."
+  },
+  "scope": "Only Q1-3-Z3 is updated; all other locations and the previous full-series archive are unchanged.",
+  "root_ridge_note": "Frangi saliency prioritizes elongated structures; it is not a biological root segmentation ground truth.",
+  "validation_note": "Descriptor points were not used for this RoMa refit, but were selected by an earlier consensus. These are conditional automatic errors, not manual TRE or external validation.",
+  "RGB_rendering": "T2 is an exact native crop. T3 is sampled once with a global uniform similarity. Original colors preserved; no elastic deformation. T1 saved as an unaligned user-guided native crop only.",
+  "search_audit": [
+    {
+      "pair": "T1_to_T2",
+      "matching_view": "original_RGB_crop",
+      "sampled_queries": 46656,
+      "median_bidirectional_confidence": 0.00782349705696106,
+      "maximum_bidirectional_confidence": 0.21871916949748993,
+      "bidirectional_c_ge_0_3_cycle_le_10_analysis1600": 0
+    },
+    {
+      "pair": "T1_to_T3",
+      "matching_view": "original_RGB_crop",
+      "sampled_queries": 46656,
+      "median_bidirectional_confidence": 0.00542397191748023,
+      "maximum_bidirectional_confidence": 0.12009812146425247,
+      "bidirectional_c_ge_0_3_cycle_le_10_analysis1600": 0
+    },
+    {
+      "pair": "T2_to_T3",
+      "matching_view": "original_RGB_crop",
+      "sampled_queries": 46656,
+      "median_bidirectional_confidence": 0.003474840894341469,
+      "maximum_bidirectional_confidence": 0.8192641735076904,
+      "bidirectional_c_ge_0_3_cycle_le_10_analysis1600": 1223
+    },
+    {
+      "pair": "T1_to_T2",
+      "matching_view": "CLAHE_grayscale",
+      "sampled_queries": 46656,
+      "median_bidirectional_confidence": 0.0059814900159835815,
+      "maximum_bidirectional_confidence": 0.11069335043430328,
+      "bidirectional_c_ge_0_3_cycle_le_10_analysis1600": 0
+    },
+    {
+      "pair": "T1_to_T3",
+      "matching_view": "CLAHE_grayscale",
+      "sampled_queries": 46656,
+      "median_bidirectional_confidence": 0.0032987198792397976,
+      "maximum_bidirectional_confidence": 0.08336997777223587,
+      "bidirectional_c_ge_0_3_cycle_le_10_analysis1600": 0
+    }
+  ],
+  "pair_QC": {
+    "input_view": "fixed aligned original-color RGB",
+    "conditional_on_saved_similarity": true,
+    "not_independent_localization_validation": true,
+    "confidence_threshold": 0.5,
+    "cycle_limit_T2_px": 10,
+    "RoMa_vs_similarity_limit_T3_px": 15,
+    "effective_pixels": 18479,
+    "common_geometric_pixels": 544637,
+    "effective_percent": 3.392902061372988,
+    "low_confidence_percent": 96.607097938627,
+    "mean_confidence": 0.14593295753002167
+  },
+  "adjacent_pair_localization": {
+    "available_pairs": 2,
+    "supported_pairs": 1,
+    "fraction": 0.5,
+    "denominator": "T1→T2 and T2→T3; region/correspondence evidence only, not manual accuracy"
+  }
+}
