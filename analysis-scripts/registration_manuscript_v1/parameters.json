@@ -1,0 +1,31 @@
+{
+  "active_positions": 18,
+  "source_images": 66,
+  "complete_four_date_positions": 12,
+  "tube_groups": 8,
+  "reference": "Native T1 pixel coordinate frame",
+  "RGB_transform": "Per-observation-band uniform similarity; no dense RGB warp",
+  "T1_sampling": "Exact original pixel slice",
+  "later_RGB_sampling": "One OpenCV bilinear remap from original RGB",
+  "non_data_seam_rows": 24,
+  "confidence": {
+    "forward_reverse": "min",
+    "accumulation": "product along transported path",
+    "threshold": 0.5,
+    "displacement_max_T1_pixels": 15,
+    "cycle_max_T1_pixels": 10,
+    "calibrated_probability": false
+  },
+  "output": {
+    "TIFF_dpi": 600,
+    "page_mm": [
+      297,
+      210
+    ],
+    "TIFF_frames": 1
+  },
+  "unverified_bridge": "Q1-1-Z2 T2-to-T3",
+  "manual_landmark_TRE": null,
+  "model_training": "None: use official pretrained RoMa",
+  "current_frozen_geometry": true
+}
