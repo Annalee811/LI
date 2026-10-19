@@ -1,6 +1,6 @@
 # Registration manuscript source code
 
-[Download the original registration and manuscript-figure scripts](registration_manuscript_original_scripts_v1.zip) (0.28 MiB; 97 files).
+[Download the original registration and manuscript-figure scripts](registration_manuscript_original_scripts_v1.zip) (0.29 MiB; 98 files).
 
 [Current reproducible entry point](../../analysis-scripts/registration_manuscript_v1/README.md). Includes RoMa source/license, RootSIFT/RANSAC/region-localization source, canonical frozen geometry, model SHA256 pins, dependencies, four single-page TIFF scripts, and published table snapshot. No images or model weights are duplicated.
 
