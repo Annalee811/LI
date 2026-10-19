@@ -1,6 +1,6 @@
 # 0353-1-Z2：按框选根系带重新定位与裁剪
 
-[下载此位置完整结果 ZIP（约393 MB）](https://github.com/Annalee811/LI/raw/registration-results/roma-results/0353-1/0353-1-Z2/root-guided-localization-v3/0353-1-Z2_root_guided_localization_v3.zip)
+[下载此位置完整结果 ZIP（约393 MB）](https://github.com/Annalee811/LI/raw/db1e3938045d83ccbbd6b7e717473ad9cb9c2599/roma-results/0353-1/0353-1-Z2/root-guided-localization-v3/0353-1-Z2_root_guided_localization_v3.zip)
 
 仅更新 0353-1-Z2，原来的全系列 ZIP、其他位置与历史结果不改动。本版单独提供：
 
