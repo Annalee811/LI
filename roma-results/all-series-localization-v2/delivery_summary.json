@@ -1,0 +1,21 @@
+{
+  "positions": 19,
+  "source_images": 69,
+  "complete_four_date_positions": 12,
+  "three_date_positions": 7,
+  "positions_with_localized_regions": 18,
+  "positions_without_review_flag": 10,
+  "positions_with_review_flag": 8,
+  "unresolved_positions": [
+    "Q1-3-Z3"
+  ],
+  "independent_RGB_images": 66,
+  "posed_RoMa_observed_date_pairs": 48,
+  "CUDA_used": false,
+  "runtime_devices": [
+    "cpu"
+  ],
+  "Q1_source_SHA256": "de74de5504474af5ef4f6e1cc28265a87ac7039032593e465ff9128336d394e2",
+  "confidence_is_conditional_on_localization": true,
+  "manual_landmark_TRE_evaluated": false
+}

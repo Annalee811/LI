@@ -1,0 +1,7 @@
+{
+  "C_values": "All cumulative C values retained bit-for-bit as float32 NPZ; compressed by outer ZIP",
+  "bottleneck": "Mean retained in CSV; auxiliary matrix reproducible with included scripts",
+  "confidence_images": "Native T1 16-bit PNG, stitched color previews and colorbar PDF overview retained",
+  "duplicate_images_omitted": "Joined 16-bit C PNG and per-position PNG overview duplicate retained fields and PDF",
+  "originals_and_independent_RGB": "All requested images preserved without numerical or color changes"
+}

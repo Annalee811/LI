@@ -72,7 +72,8 @@ def render_position(work,entry,force=False):
         if regions:
             rgb=join(crops,ids,width);stitched_wh=list(rgb.shape[1::-1]);Image.fromarray(rgb).save(out/'RGB'/f'T{t}_independent_stitched_RGB.png',dpi=(600,600))
             for k in ids:Image.fromarray(crops[k]).save(out/'RGB'/f'T{t}_region_{k}_RGB.png',dpi=(600,600))
-            if t==1:Image.fromarray(join(geomparts,ids,width,value=0)).save(out/'masks'/'stitched_geometric_overlap_mask.png')
+            if t==1:
+                joined_mask=join(geomparts,ids,width,value=0);Image.fromarray(joined_mask).save(out/'masks'/'stitched_geometric_overlap_mask.png');Image.fromarray(joined_mask).save(out/'masks'/'effective_common_observation_mask.png')
             m=native_mask(list(polys[t].values()),wh[t]);accepted=native_mask([polys[t][k] for k in ids if not review[k]],wh[t]);domain=sbox(-.5,-.5,wh[t][0]-.5,wh[t][1]-.5)
             area=unary_union([Polygon(edge_polys[t][k]) for k in ids]).intersection(domain).area
             aa=unary_union([Polygon(edge_polys[t][k]) for k in ids if not review[k]]).intersection(domain).area if any(not review[k] for k in ids) else 0.
@@ -168,6 +169,9 @@ def aggregate(work):
         if p.exists():
             for row in json.loads(p.read_text())['rows']:
                 low=np.array(Image.open(folder/'masks'/f"T1_to_{row['target_period']}_low_confidence_mask.png"))>0
+                import shutil
+                source_mask=folder/'masks'/f"T1_to_{row['target_period']}_effective_overlap_mask.png"
+                if source_mask.exists():shutil.copy2(source_mask,folder/'masks'/f"T1_to_{row['target_period']}_confidence_filtered_correspondence_mask.png")
                 row=dict(row,low_cumulative_confidence_pixels_T1=int(low.sum()),low_cumulative_confidence_percent_of_original_T1=100*int(low.sum())/(meta['original_wh']['T1'][0]*meta['original_wh']['T1'][1]))
                 confidence.append(row)
         im=Image.open(folder/'localization'/(folder.name+'_localization_overview.jpg')).convert('RGB');im=im.resize((2200,round(im.height*2200/im.width)),Image.Resampling.LANCZOS);images.append(im)

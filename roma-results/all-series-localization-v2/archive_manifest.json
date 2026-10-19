@@ -1,0 +1,10 @@
+{
+  "file": "all_series_original_and_stitched_RGB_v2.zip",
+  "bytes": 1988389003,
+  "sha256": "944740881b8f43846cdd76bdb82b6067b6565b5762ffca6dd6aad43f0fd65654",
+  "files": 875,
+  "ZIP_CRC_verified": true,
+  "positions": 19,
+  "original_period_images": 69,
+  "C_float32_values_bit_exact": true
+}

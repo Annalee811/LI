@@ -1,3 +1,5 @@
+> 当前独立RGB及定位结果已更新，见[全系列结果](../../all-series-localization-v2/README.md)。本目录旧图表/ZIP和下方旧说明属于历史记录；当前数据与质量状态以新总包及汇总表为准。
+
 # 最新：A017-2-2 共同区域复核
 
 [查看定位、原色裁剪与下载](multiregion-review/README.md) · [下载分区结果](multiregion-review/A017-2-2_reviewed_regions_and_RGB.zip) · [下载独立拼接RGB](multiregion-review/A017-2-2_available_period_stitched_RGB.zip)

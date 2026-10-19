@@ -8,7 +8,7 @@ from shapely.ops import unary_union
 from render_results import grid,proj,join,sha,corners
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--work',type=Path,required=True);a=p.parse_args();cv2.setNumThreads(1)
+    p=argparse.ArgumentParser();p.add_argument('--work',type=Path,required=True);p.add_argument('--geometry-only',action='store_true');a=p.parse_args();cv2.setNumThreads(1)
     # Catch using a T1-pixel crop area against a differently scaled native canvas.
     p0=Polygon(corners([0,0,100,50],True));p1=Polygon(proj(corners([0,0,100,50],True),np.diag([2,2,1])))
     assert np.isclose(p1.area,4*p0.area) and np.isclose(unary_union([p0,p0]).area,p0.area)
@@ -35,9 +35,15 @@ def main():
             if regions:
                 assert np.array_equal(join(parts,ids,width),np.array(Image.open(folder/'RGB'/f'T{t}_independent_stitched_RGB.png')))
                 exact=unary_union(polys).intersection(box(-.5,-.5,rgb.shape[1]-.5,rgb.shape[0]-.5)).area;assert np.isclose(exact,row['common_area_native_px2'])
-        if regions:
+        if regions and not a.geometry_only:
             geom=np.array(Image.open(folder/'masks/stitched_geometric_overlap_mask.png'))>0;assert int(geom.sum())==sum((b[2]-b[0])*(b[3]-b[1]) for b in boxes.values())
+            assert np.array_equal(np.array(Image.open(folder/'masks/effective_common_observation_mask.png'))>0,geom)
             summary=json.loads((folder/'confidence/confidence_summary.json').read_text())
+            assert 'Transport coordinates' in summary['confidence_definition'] and summary['input_space'].startswith('Already localized')
+            for s,t in zip(meta['periods'],meta['periods'][1:]):
+                cache=json.loads((a.work/'posed_roma_evidence'/pos/f'T{s}_to_T{t}'/'completed.json').read_text())
+                assert cache['input_view']=='posed' and cache['coarse_resolution']==560 and cache['upsample_resolution']==864
+                assert cache['input_sha256']==[sha(folder/'RGB'/f'T{k}_independent_stitched_RGB.png') for k in [s,t]]
             for r in summary['rows']:
                 t=r['target_period'];stem=f'T1_to_{t}'
                 with np.load(folder/'confidence'/(stem+'_cumulative_confidence_float32.npz')) as z:c=z['confidence'];bn=z['bottleneck_confidence']
@@ -45,9 +51,10 @@ def main():
                 assert np.max(np.abs(encoded.astype('float64')/65535-c))<=.5/65535+1e-7;assert np.all(c<=bn+1e-6)
                 valid=np.array(Image.open(folder/'masks'/(stem+'_effective_overlap_mask.png')))>0;assert not (valid&~geom).any();assert valid.sum()==r['effective_overlap_pixels_T1'];assert geom.sum()==r['geometric_common_pixels_T1']
                 low=np.array(Image.open(folder/'masks'/(stem+'_low_confidence_mask.png')))>0;assert np.array_equal(low,(c<.5)&geom)
-        records.append(dict(position=pos,images=len(meta['periods']),regions=len(regions),RGB_source_sampling_exact=True,area_jacobian_and_union_verified=True,confidence_encoding_and_mask_counts_verified=bool(regions)))
+        records.append(dict(position=pos,images=len(meta['periods']),regions=len(regions),RGB_source_sampling_exact=True,area_jacobian_and_union_verified=True,confidence_encoding_and_mask_counts_verified=bool(regions) and not a.geometry_only))
         print('VERIFIED',pos,len(regions),flush=True)
     assert len(records)==19 and sum(r['images'] for r in records)==69
-    (root/'verification.json').write_text(json.dumps(dict(passed=True,positions=records,original_images=69,synthetic_native_scale_and_union_checks=True,manual_landmark_accuracy_claimed=False),indent=2))
-    print('PASS all actual RGBs, original bytes, area unions, masks and confidence')
+    name='geometry_verification.json' if a.geometry_only else 'verification.json'
+    (root/name).write_text(json.dumps(dict(passed=True,scope='geometry_only' if a.geometry_only else 'full',positions=records,original_images=69,synthetic_native_scale_and_union_checks=True,manual_landmark_accuracy_claimed=False),indent=2))
+    print('PASS all actual RGBs, original bytes, area unions'+(' (geometry only)' if a.geometry_only else ', masks and confidence'))
 if __name__=='__main__':main()

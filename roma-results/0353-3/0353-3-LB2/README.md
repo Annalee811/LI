@@ -1,3 +1,5 @@
+> 当前独立RGB及定位结果已更新，见[全系列结果](../../all-series-localization-v2/README.md)。本目录旧图表/ZIP和下方旧说明属于历史记录；当前数据与质量状态以新总包及汇总表为准。
+
 # 最新：同一区域定位与四期统一尺寸RGB
 
 [查看定位图与独立裁剪图](same-region-localization/README.md) · [下载五张结果图](same-region-localization/0353-3-LB2_same_region_map_and_four_RGB.zip)

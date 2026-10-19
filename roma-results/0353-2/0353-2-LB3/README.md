@@ -1,3 +1,5 @@
+> 当前独立RGB及定位结果已更新，见[全系列结果](../../all-series-localization-v2/README.md)。本目录旧图表/ZIP和下方旧说明属于历史记录；当前数据与质量状态以新总包及汇总表为准。
+
 # 最新：0353-2-LB3 多段共同区域复核
 
 [查看定位、根系对照和原色裁剪](multiregion-review/README.md) · [下载分区结果](multiregion-review/0353-2-LB3_reviewed_regions_and_RGB.zip) · [下载四期拼接RGB](multiregion-review/0353-2-LB3_four_stitched_RGB.zip)

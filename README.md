@@ -1,3 +1,12 @@
+<!-- all-series-localization-v2-current -->
+# 当前全系列定位与原图/RGB总包
+
+[下载完整单个ZIP（约1.99GB）](https://github.com/Annalee811/LI/raw/refs/heads/registration-results/roma-results/all-series-localization-v2/all_series_original_and_stitched_RGB_v2.zip) · [面积统计及完整脚本](roma-results/all-series-localization-v2/README.md)
+
+Q1采用更正数据；0353-2-B3仅为上半观察区。19个位置、69张输入原图，18个位置输出66张独立RGB。8个位置保留待复核标记；Q1-3-Z3未连通T1，保留原图及T2/T3局部结果。下面旧包属于历史版本。
+
+---
+
 # 根系时序配准结果（水珠排除版）
 
 以 T1 为固定坐标系，RoMa 对 T2、T3 提取跨时期对应，再由 RANSAC 估计几何变换。原始图像没有修改；水珠只从变换拟合、质量指标和根系/土壤对比中排除，完整配准图仍保留原像素。

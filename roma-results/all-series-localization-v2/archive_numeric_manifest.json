@@ -1,0 +1,722 @@
+{
+  "0353-1-B3/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "07b95615580f112664e4d262105c63fcb7accf1403e8de8ba6ff09ce14c1bb9d",
+    "archive_NPZ_SHA256": "4f00310439f3e72651b41dc17c79dc12e0c29f1ddd0dc6ea99ffab78445fa890",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1028,
+      2382
+    ],
+    "C_values_SHA256": "1b98bb4d468ff8a41fb7df8c69652d3577066ce02b89e5e1449228ed8686a0b0",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-1-B3/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "36dc1bfa457e0f741bc12114150409e19db682163cc0d8950e90dcc05fe923e7",
+    "archive_NPZ_SHA256": "aadd2342efbbb57deb70f92353f21149128a23c31513abbfa17b477aa91388f8",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1028,
+      2382
+    ],
+    "C_values_SHA256": "78a5f8f43ab13257a0d060dfc92bd009df62cf9d748991a45e35ae8254ace042",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-1-B3/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "d168c48ff236e415d08b12c3297667c0f4658dee3039ff2cbeda7f53dec43304",
+    "archive_NPZ_SHA256": "0e66d615f7a97cb3b7cb35725599edd8d5ee9e6376c6b8fce0ed2769dd1b4a2c",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1028,
+      2382
+    ],
+    "C_values_SHA256": "f672426991a728ac96587c995ede22994c7e73feb9bff311bf56457f17fa5d17",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-1-Z2/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "c76f0f9aed12bae9886c5e30f256d876d9aa73c06f095fc40dcaa1757777a658",
+    "archive_NPZ_SHA256": "11b272579a7252537a06ae8b87c941881ad447fa9753d403077731f9cf263967",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      575,
+      2347
+    ],
+    "C_values_SHA256": "a56d91ad584c5b64ee5089f416535a790f9ce91bc50c302e8839b42e65bcb69c",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-1-Z2/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "5f6179bcce632ba4becd1a2ae807f7d7ad974898765b724f34e3ca95b98e6627",
+    "archive_NPZ_SHA256": "e3f717f69245dcd329b4e13e8fddbd7fd9227d45124f6b97f9df8751c1ce0014",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      575,
+      2347
+    ],
+    "C_values_SHA256": "2a5440f227808881cc9c859c93289f1e7477dab0a20cc9302800086b9258efb6",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-1-Z2/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "839cc1cc6bb3268eaed71b01ced69d8866b2764aa81cea94f1c62e5f2eb284a6",
+    "archive_NPZ_SHA256": "bff0f6c7e1407724edc27922b25f967f8607fab21201d3aa63664cdf76b76235",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      575,
+      2347
+    ],
+    "C_values_SHA256": "71bb95b8a82ad173f3cc45e1a2d1355262e165031b9375840bc1562094212e5f",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-2-B3/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "1c65418fe468a142543761c57aa8072f72ac22c661de6f92e670cbf7ece34638",
+    "archive_NPZ_SHA256": "88a3e483348c93e1f822159d21441a33efa7741d33ba36ce1753287b6e54fb7e",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1108,
+      2541
+    ],
+    "C_values_SHA256": "f37d16bb521fcd8e49643f37ff8d493820719208ff2cd7a0764298ad0d8e0f99",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-2-B3/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "7705754958b7429e7c26be4d4aa9bfaf6b067015c3e1abf21a471fd289e8f3aa",
+    "archive_NPZ_SHA256": "97136d27e842d61233f50ba1fd26a11e3dcf9e52168abfdd1a1c9640c2fc2828",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1108,
+      2541
+    ],
+    "C_values_SHA256": "139cb0ee9b6274fa4023c5460184f3394f3d56f6203d21b8b21baec029001328",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-2-B3/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "db93cee6bacfa3cc01ecb5a7fac7ce87518e1ecea72bd581207227bfab84a310",
+    "archive_NPZ_SHA256": "e3598c78c07c9c286d276f4ddd4d6dad56c8ae36396c1b8c3c5a3c44831462a0",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1108,
+      2541
+    ],
+    "C_values_SHA256": "cf087b7ea334c9e7187cca6dc1864400fbfe0fca7bce7a788b01c12db112ed47",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-2-LB2/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "48849ab134f58ed70ec3efe882f4ad6b276ebb1a0d69a7a8d93e63fe0139de27",
+    "archive_NPZ_SHA256": "797ff597d578e24c96eb79e6d3f51af716322073fd66c258c666042352004618",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1897,
+      2463
+    ],
+    "C_values_SHA256": "be215610f1f2398225feb9389b2fb242a7cb3d66f1936a1229315386ecd375eb",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-2-LB2/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "a788ce81a50d94cf7dc09ff4d899b1a3be800e49db4af68d4d5d9f46a32739cb",
+    "archive_NPZ_SHA256": "4d1d683aac6bba1c7c1f09e4856f2295fe53d755edfd1a191104d353b30c7232",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1897,
+      2463
+    ],
+    "C_values_SHA256": "d959ac491200cacba105078898ebb449d806516187f60b316dde72c1fcf3421b",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-2-LB2/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "3721758e7c4e2b47097b76b5a814dd98597355f0cd35e8879d6f0937bb240fd5",
+    "archive_NPZ_SHA256": "e3443ad0f95c1b2bfa1d96c662dd9b4b6ba19ca9b86a0f3c69e6c22f59ca098b",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1897,
+      2463
+    ],
+    "C_values_SHA256": "9c90922574449111bae960995a5cc203d4580e88765edfd0412c98263b87eebc",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-2-LB3/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "eff8ddfb70a715d7777a3bcf8e103b7b69506e7f2076fcf8351ec76d815c8895",
+    "archive_NPZ_SHA256": "72e1d0d70876e33aacf2255ea4656b42d13764267911d07357174806067e4d30",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1875,
+      2541
+    ],
+    "C_values_SHA256": "7722b6f7b410be3bc809e75e991c2fab44e050eb8bf30df535924c35b35942a4",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-2-LB3/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "f9dcd9cb37ccf25e905f8196668b3179cdfe3dfe79fa1a0e12f8a0c84b84dbc6",
+    "archive_NPZ_SHA256": "7a991da92a9b043d79ad3d6a9a0ad3633297f99f88a1483ecf302c31f0f8db68",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1875,
+      2541
+    ],
+    "C_values_SHA256": "d1515ccad561bf60839157ab6f4829430b7e96dcb883ad364ed93ffd395cd22c",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-2-LB3/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "d1776a682f75d879b267c3eaea4ab5302b94a1643cf66950a795f0401272959a",
+    "archive_NPZ_SHA256": "c056b81a5bcfd210bbd127dda9714f8c99c8243499b2074b20ccdcebe412266c",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1875,
+      2541
+    ],
+    "C_values_SHA256": "f8563fd156b7a8e2d6a161a71d1c890cca4481625106c5b13a6e10b9372fb09a",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-3-LB2/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "b894c8fd438b939a0007b34480987dd25f8476b70030f0fc1098556530889ac1",
+    "archive_NPZ_SHA256": "0f69af27cdb11f533700206f89b27a4d3d4f89d2986272aa33f9ea479bc85509",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      816,
+      2526
+    ],
+    "C_values_SHA256": "848476def5fc20369399a7315907e0ae880839f9ea1e2fbf73b90a09bc891062",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-3-LB2/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "80004e131de2716bd9995adfd79e14673adc3f22e37d50c13cc34a2c1fd617f2",
+    "archive_NPZ_SHA256": "b363288d99d801c4b95698c645022cf9e159c2a43581a529dd3f406fcef114d5",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      816,
+      2526
+    ],
+    "C_values_SHA256": "b5a7ad10f2f6dbf3d3df4014f81c357a130ce5e593bb2e0d31a9ae3773f74c07",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-3-LB2/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "a4acf7c27762146d49d94d552484cc257dfd921445b01ac8a2efe961b34c592f",
+    "archive_NPZ_SHA256": "72cd711aed4af1e596dc541356cab3c4b07d893149c4cf9b5c3f87896a460878",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      816,
+      2526
+    ],
+    "C_values_SHA256": "27a5ad0ff388ed2cb0ec29df68e3d3ed9efe71151eba648a2dd4608f59672f9d",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-3-LB3/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "d8d3d76424ac28e74b1a2d3aa7f149e6579a94f0abea82edda7360e5d9022873",
+    "archive_NPZ_SHA256": "e431d31bbdad2db347167567ab246d2d087fbb3ac52179ce91bc047e97b7e050",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1621,
+      2538
+    ],
+    "C_values_SHA256": "f050088366449e89ee75d12d7e74a96a21871911d660bbb797a9170674616624",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-3-LB3/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "6e859a8025cb0ffed0f4b7467c52de5da8ce23eabf00a0dba7b471f63c9047bb",
+    "archive_NPZ_SHA256": "db362ad5fe47e79e8519eab1e171afb264171a2fdad51d964098d04ef8aaa9a6",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1621,
+      2538
+    ],
+    "C_values_SHA256": "0b164a82b7086021fe5785da65b59632ad690539e7303b173f4ca1df3f15dced",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "0353-3-LB3/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "272e975091ed5531b62f23c5396dfd6e40f173966e890aade4794f3d4e440915",
+    "archive_NPZ_SHA256": "a165ebe3d95a0ebedc7a7864eb8b57e5aafa7066226f4be41a86a2bb47c70e28",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1621,
+      2538
+    ],
+    "C_values_SHA256": "ae23522a3002467e1ecf16e8e4d9e56911b74686cf08015fa08eaf84824ed03e",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-1-B2/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "2a8a4c06ced79bee598d8b835fe0d6b5c3a0ba84854b84eff74b3012d9e4d1d3",
+    "archive_NPZ_SHA256": "86f7096b18f69c710c39b80a958c0a38abb764c63da5f7c194b71e74f68ff2df",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1904,
+      2300
+    ],
+    "C_values_SHA256": "ff84b226c6e4b6256b8c6bfcfd1c34b65e3249b69ef9b418ce6a43e479143c99",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-1-B2/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "5ec5ec6dfe3c12dd96301d1962694abaddeeec8bd1ef64bdf00fba299f634e5a",
+    "archive_NPZ_SHA256": "5333cb8e30db297b379cc7e7779e2ecb0aba4986c6a58e37069a18c14b4a84f2",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1904,
+      2300
+    ],
+    "C_values_SHA256": "034a77034e31af83c04e1bdb174ebb2afc21f3db7fd66ab2c49284a1c118974f",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-1-Z2/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "bc17aa251b943e30ed13b9a23e600be56ad2ae9da2db32c481afbf780bb919cb",
+    "archive_NPZ_SHA256": "0a9894f0352dec348bf6f459d7391c03f8fa18afde5d08a08ec47ab0a8ae232b",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      612,
+      2142
+    ],
+    "C_values_SHA256": "f622d5a47b93f1323a94c6da41af795ba3748ffaad355dc79c321766742fb120",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-1-Z2/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "308e4e7f99a7b2a9ffd9235f349e1a2115e7439c6f4d759553a996fc62b9836d",
+    "archive_NPZ_SHA256": "9e382a1dc72325243fd4e8aab631b7f869ce2044c8c17966c3c115e6dc607f7f",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      612,
+      2142
+    ],
+    "C_values_SHA256": "accf6bb7dd54728d9f7755b7defd6b7a177bc05a041ab183093a8e82a5c96c54",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-2-2/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "2e050b681e5f23e3284c37870d371928536a239a7d976a4ed89c29b43df1ab1f",
+    "archive_NPZ_SHA256": "81bc99214da117060d6726e0335332afb3fe9adcf858f406f36f4b2fc193f5ff",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1637,
+      2104
+    ],
+    "C_values_SHA256": "46e1864382e98689aa0128419b4933be287bd55aa8ededa959ecc33e308c0dd3",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-2-2/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "bf7a44af04f06cb7f6bd3434f458d9bdc6451afdcb8dd2437435d5e50fdb5a35",
+    "archive_NPZ_SHA256": "c6e8a7b86f869323bef43d3e765ec83910a401a0d64e730f7d5d7d06a3a35656",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1637,
+      2104
+    ],
+    "C_values_SHA256": "beed1f8ad7c1fc40ce4afd4e63b820acbf2ef591cdbe35e6151766161c113be9",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-2-2/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "d348376f9e4bacaf49edfe367c6920831baa83889739196d615f6b7cf78b71cc",
+    "archive_NPZ_SHA256": "b8445bfb9ab87bf075051f6a1227c5d275fbfc5d7d83a51d5cbb397a9476b3c5",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1637,
+      2104
+    ],
+    "C_values_SHA256": "7be675ae3c53464d1b8accbef3be850f49c38d15c1a09fe5e91d9f998ef40919",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-2-3/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "25e28f2ec6155ba6620828045fdf40eaeeb6f7938f6f86a73157c64d605ddcca",
+    "archive_NPZ_SHA256": "bc2f567c3b1de1035bb0e9c9140fb3bf57ad385dddda12ec825efdd4a21968c6",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1615,
+      2525
+    ],
+    "C_values_SHA256": "b9850cf75b001580e4f503d321a3dc7e305ee8e1d3a5093113d85502a8e2ec37",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-2-3/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "972b5d6d4f7b2aa985f6957b563ea8e73c9744deb220974060dc74755c80c6ae",
+    "archive_NPZ_SHA256": "eb9b1abb5daf83f707ea131e5da6904e16770b3800d2d806bf9a3091475513ad",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1615,
+      2525
+    ],
+    "C_values_SHA256": "9ad2296fffbccf18bed991d7b38b68706d54663373c7cdc379e278e86f086927",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-2-3/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "2f09acc0f86743a095730c327c32b6b634a6b21292833ce907620e1b233bbda9",
+    "archive_NPZ_SHA256": "5a9bba59b6a2c0fc456a37b11f9e75aaf8522f3f2903d4b92cee2d42ad3cd0c3",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1615,
+      2525
+    ],
+    "C_values_SHA256": "c29e67e33f01b8d2032e612ac57b2ae1ea52521cbe463d6cd049b1b0c25cbf24",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-3-B3/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "0c8bb999223e6d874e06f9aa99ee7fec49d960604b0d4f26c3d5fa70791d96cc",
+    "archive_NPZ_SHA256": "881ff0e89c5467b90b375b658baf9e90240ed0e633d6fa972f5283aa1a6d4ca5",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1874,
+      2539
+    ],
+    "C_values_SHA256": "c5b4d24d0bb826adbc3bcb07953eca60bba96d7d7958aa36b1feafb7d32c3464",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-3-B3/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "8ddb64606f00bcd79c958bbef4a11cc2e7035a6aeecffe31fd29143cbd6565ba",
+    "archive_NPZ_SHA256": "e9d433b4685ec6fb547d31e5fad0d86797711490376cec32a2579480cd76438e",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1874,
+      2539
+    ],
+    "C_values_SHA256": "7778e9c8266aa0e642b30f91a3dacb3331a5b8840fba3ce391ff3cb78d139b6d",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-3-B3/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "9d78b85d35ee258fd956f8efc901cc8d08f3127a0c95bb8f665fc4a9a6cdb998",
+    "archive_NPZ_SHA256": "6bbe4431be14b9811df1e970563d125dfefec3500131e81e600a81332838a993",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1874,
+      2539
+    ],
+    "C_values_SHA256": "1b1331433802cbc3055184d2077150f0df47dac8ab759891b2d8715fd180c3ac",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "Q1-1-B2/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "f2f90141ce3c0c8c7ef55c104c6a01f758ca67f6d3ae744efa300d016bb4f1d5",
+    "archive_NPZ_SHA256": "2f839df09978e7e87300d7dd3b8bfb221331ebd988edab94e27d083c8f2a2736",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1075,
+      1316
+    ],
+    "C_values_SHA256": "a6c186f396163e3115a04aec6dd0f845aeff26c4e06d9fcdfb3b4b356493970a",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "Q1-1-B2/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "c7d671577a78517019bb7274b9255bf32d1a85e12575d23c1c49226fe656ce19",
+    "archive_NPZ_SHA256": "e53324f1ef1b81c974ed731ab721e8f7db08949ced01b16931dbc380f1757b0e",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1075,
+      1316
+    ],
+    "C_values_SHA256": "604cfb19c5b6b1fadfe78eec8d41d2445ef5474aefdda4464ee249bfa611e9de",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "Q1-1-Z3/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "c4d2a8b2092335684468fc26abb670f918673f7b9831bb69bf11772c97223ade",
+    "archive_NPZ_SHA256": "0b15242c2de17aa370c3cb173ed05c46e185c6e6225cdbfb7eff8db41d931576",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1515,
+      2536
+    ],
+    "C_values_SHA256": "684762a7cae0f64bf625ff0d69fa48faad33d084349f3f970228f596da0d23df",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "Q1-1-Z3/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "ec5c482b7ddd4e3b61df37a2aa27810b94be73a315f9b840f6908e86276f52b3",
+    "archive_NPZ_SHA256": "7c5f74e83c8fc2a8c2c46744bc8a23f8b4e9a9f7a422e04c4bbe01e1610e2e55",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1515,
+      2536
+    ],
+    "C_values_SHA256": "3bf86c176a043fd14713a6fbda8d44cea06719b77538aa32652c308b47d90fa9",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "Q1-2-B3/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "07a1cb3f24f8020acb0cc47ae9227d6b7a8de8e7c2382065226039a27f7e9152",
+    "archive_NPZ_SHA256": "d794d29d36fd8b6568a20091b38727a8b979ab767c6daba3eaa3e141043aad45",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1895,
+      2482
+    ],
+    "C_values_SHA256": "fc97bf1f1f26e7e2d368775a716d9c54b2cf7ff7484113655f20e1d79718e659",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "Q1-2-B3/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "adcc5347c68a8fee9a28cf954895310b9fdf863a53d0fa9ed78dbdaab6ae0a76",
+    "archive_NPZ_SHA256": "bb4d15dd7160149c8095edec1c1f83c682fb4ec69e47b93ffac63c27565c2394",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1895,
+      2482
+    ],
+    "C_values_SHA256": "1f9d43834cecd790254b7333324035c7ce753c246b41460fdd592ffc78a95f7f",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "Q1-2-B3/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "57853d6be903c6115d5a7beb69f11dcd12a126403d56a500966ec7034df77e0b",
+    "archive_NPZ_SHA256": "332e848d1999dc7d687ae7512661f3ab76b8639f8a4115fd3bfa7aba91335e1f",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1895,
+      2482
+    ],
+    "C_values_SHA256": "d79df44a6017c86a880197aecf30dbbf1995fb44621e42d920b3dc38bef032b4",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "Q1-2-Z2/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "67324a954683c59f671e5307a2c3fab2b912e25ccfbc0e5db9d1ad47934f4a04",
+    "archive_NPZ_SHA256": "fd384c0ee95c7ed9b3fdae39337a97c6be8f501834581a2a90e3109601af09eb",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1856,
+      2487
+    ],
+    "C_values_SHA256": "b3118aece41ea502d2710cd2d0f44469652bfd44269d5b0c918838f81e848ec0",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "Q1-2-Z2/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "d5aabc817750138421422191d6981ecd79445531f52075ca69edb00e670a5a6f",
+    "archive_NPZ_SHA256": "f79f85d610eaa14ec3ef39f90fb983bc3047447da835b5717ffa1e6331f07c83",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1856,
+      2487
+    ],
+    "C_values_SHA256": "ab2a056dd4797007b616bcbfbcdffa91548a446253c17157da3fb3c3665cdaff",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "Q1-2-Z3/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "d818dbe9b066a0eeffb6ac0822d9768ae46238e3bbb0171509c569634e56b3c7",
+    "archive_NPZ_SHA256": "fa5971f75dd763fcf5de483a1ed0e5ba521c8a91bac857e579f92ff9a43f4806",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1916,
+      2537
+    ],
+    "C_values_SHA256": "3bec0105eba6c3e1b6cd9f700a38edd3a0c113e187eb052ea8458dde41ac7136",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "Q1-2-Z3/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "1f76b658fcf39ad629668f6560e8ac1b02ccc7e70f5cc9f1c144d4273e988ea8",
+    "archive_NPZ_SHA256": "aa7775ac32b48b96efa34792fff0be3ef10c6dc87d5b3012b81deebf88a23a35",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      1916,
+      2537
+    ],
+    "C_values_SHA256": "3a4e691759d9792716667265e3ea776b224033c74e022289b6e380aa4a0ff379",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-3-Z2/confidence/T1_to_T2_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "6298f39941649609f0f9ce2f2dd8be1497ee86d8258de49ab0abfa1bee4ef140",
+    "archive_NPZ_SHA256": "f86223081f72faa2b5049c831aa9b4965796b7ef58ebf832c87204f43a90f749",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      2040,
+      2444
+    ],
+    "C_values_SHA256": "b71fa9546a74c10d220d093c56975923e009231b3eaf2c64ba9a8af78f66bb53",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-3-Z2/confidence/T1_to_T3_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "c8d09243129ac803b656ff5001b2cfb12cb424f6fa8ba3ac7e626a675077a2ce",
+    "archive_NPZ_SHA256": "6cb814343ae0940ebac311fa5b4ef4746dd092aa1b727e7eefe68676548b2199",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      2040,
+      2444
+    ],
+    "C_values_SHA256": "1980a31e8ccbbb5f41e30f2c3301731a474890f7784eca9099a391256154f29b",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  },
+  "A017-3-Z2/confidence/T1_to_T4_cumulative_confidence_float32.npz": {
+    "source_NPZ_SHA256": "1e682bd6c09137140cfc1e43ece76892bd8efe45bac28fc4bbda2e1dcb534914",
+    "archive_NPZ_SHA256": "823f007ee3800afc79bf257d7ec00dd3fbea09a0a462984f7c5a6c8f21b80e4f",
+    "retained_fields": [
+      "confidence"
+    ],
+    "dtype": "float32",
+    "shape": [
+      2040,
+      2444
+    ],
+    "C_values_SHA256": "6e29248282fd06e30ab488daeb4013c38822170a380c76a5b96014cb6ab9bfa9",
+    "C_values_bit_exact": true,
+    "omitted_auxiliary_field": "bottleneck_confidence matrix; mean retained in CSV and matrix reproducible"
+  }
+}

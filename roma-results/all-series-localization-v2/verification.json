@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "scope": "full",
+  "positions": [
+    {
+      "position": "0353-1-B3",
+      "images": 4,
+      "regions": 1,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "0353-1-Z2",
+      "images": 4,
+      "regions": 1,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "0353-2-B3",
+      "images": 4,
+      "regions": 1,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "0353-2-LB2",
+      "images": 4,
+      "regions": 3,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "0353-2-LB3",
+      "images": 4,
+      "regions": 3,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "0353-3-LB2",
+      "images": 4,
+      "regions": 1,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "0353-3-LB3",
+      "images": 4,
+      "regions": 2,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "A017-1-B2",
+      "images": 3,
+      "regions": 3,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "A017-1-Z2",
+      "images": 3,
+      "regions": 1,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "A017-2-2",
+      "images": 4,
+      "regions": 3,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "A017-2-3",
+      "images": 4,
+      "regions": 3,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "A017-3-B3",
+      "images": 4,
+      "regions": 2,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "A017-3-Z2",
+      "images": 4,
+      "regions": 1,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "Q1-1-B2",
+      "images": 3,
+      "regions": 2,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "Q1-1-Z3",
+      "images": 3,
+      "regions": 1,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "Q1-2-B3",
+      "images": 4,
+      "regions": 3,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "Q1-2-Z2",
+      "images": 3,
+      "regions": 2,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "Q1-2-Z3",
+      "images": 3,
+      "regions": 1,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": true
+    },
+    {
+      "position": "Q1-3-Z3",
+      "images": 3,
+      "regions": 0,
+      "RGB_source_sampling_exact": true,
+      "area_jacobian_and_union_verified": true,
+      "confidence_encoding_and_mask_counts_verified": false
+    }
+  ],
+  "original_images": 69,
+  "synthetic_native_scale_and_union_checks": true,
+  "manual_landmark_accuracy_claimed": false
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "canonical_path": "roma-results/all-series-localization-v2/all_series_localization_overview.png",
+    "oid": "05e24449da8989cfbc0d1fcbdeb8f7bb1fccb911c77dd0cd9325596294a39a06",
+    "size": 36142918
+  },
+  {
+    "canonical_path": "roma-results/all-series-localization-v2/all_series_localization_overview.jpg",
+    "oid": "15177a960d259085d8de987b8ec53d7aa5cf3fb1336e4711c73623865bf9679b",
+    "size": 11837438
+  },
+  {
+    "canonical_path": "roma-results/all-series-localization-v2/all_series_area_and_confidence_summary.png",
+    "oid": "8d90ba76599bad26991b17c79b05a0cbece53529c2eba6ba9ef2d4bb644af2dd",
+    "size": 964402
+  },
+  {
+    "canonical_path": "roma-results/all-series-localization-v2/all_series_area_and_confidence_summary.tif",
+    "oid": "8ceba9bc18dd0110ac0594cbb51f735a943cc13be482ce2872c14687e7bb10f6",
+    "size": 5078514
+  },
+  {
+    "canonical_path": "roma-results/all-series-localization-v2/all_series_area_and_confidence_summary.pdf",
+    "oid": "20466b08afd89fc4aa06c2163328b5ffbdab0e28cd3922898d9f47da91596414",
+    "size": 117729
+  },
+  {
+    "canonical_path": "roma-results/all-series-localization-v2/all_series_area_and_confidence_summary.svg",
+    "oid": "7db1e92762d46b5f38f8a067ce2b793fce2d01eaee9d5e0fbf166caec7d4145f",
+    "size": 169245
+  }
+]

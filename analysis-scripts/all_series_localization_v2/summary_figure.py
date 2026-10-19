@@ -23,7 +23,7 @@ def main():
         ax.set_xticks(range(4),['T1','T2','T3','T4']);ax.set_yticks(range(len(positions)),[pos+(' †' if pos=='0353-2-B3' else '')+(' *' if rev else '') for pos,rev in zip(positions,review)] if j==0 else ['']*len(positions));ax.tick_params(length=0)
         for y in range(len(positions)):
             for x in range(4):
-                value=data[y,x];text='—' if not np.isfinite(value) else f'{value:.1f}'
+                value=data[y,x];text='—' if not np.isfinite(value) else ('<0.1' if 0<value<.1 else f'{value:.1f}')
                 color='#777777' if not np.isfinite(value) else ('white' if (value>55 if j==0 else value<40) else '#192D35');ax.text(x,y,text,ha='center',va='center',color=color,fontsize=8.8)
         ax.set_xticks(np.arange(-.5,4,.999999),minor=True);ax.set_yticks(np.arange(-.5,len(positions),1),minor=True);ax.grid(which='minor',color='white',lw=.8);ax.tick_params(which='minor',bottom=False,left=False)
         for spine in ax.spines.values():spine.set_visible(False)
