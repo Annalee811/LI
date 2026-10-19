@@ -1,5 +1,6 @@
 """Native RGB inference for additional positions with a frozen trained Torch model."""
 import argparse
+import sys
 from pathlib import Path
 import numpy as np
 from PIL import Image
@@ -7,11 +8,14 @@ import torch
 import common as c
 from models import create
 from comparison import overlay,root_only
+sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
+from dataset_identity import normalize_prediction_io,policy
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--model',choices=['unet','segformer'],required=True)
     p.add_argument('--model-dir',type=Path,required=True);p.add_argument('--input',type=Path,required=True);p.add_argument('--output',type=Path,required=True)
     p.add_argument('--threads',type=int,default=3);p.add_argument('--batch',type=int,default=2);a=p.parse_args()
+    a.output,position_id=normalize_prediction_io(a.input,a.output)
     torch.set_num_threads(a.threads);device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     sel=c.read(a.model_dir/'selection.json');th=sel['threshold'];checkpoint=a.model_dir/'best.pt'
     assert c.sha(checkpoint)==sel['checkpoint_SHA256'];net=create(a.model).to(device)
@@ -41,7 +45,7 @@ def main():
         records.append(dict(input_file=str(path),input_SHA256=c.sha(path),size_wh=[w,h],root_pixels=int(mask.sum()),
             threshold=th,probability_SHA256=c.sha(a.output/(stem+'_probability.npy'))))
         print('PREDICTED',path.name,w,h,flush=True)
-    c.js(a.output/'prediction_provenance.json',dict(model=a.model,checkpoint_SHA256=c.sha(checkpoint),device=str(device),
+    c.js(a.output/'prediction_provenance.json',dict(model=a.model,position_id=position_id,dataset_identity_policy=policy()['version'],checkpoint_SHA256=c.sha(checkpoint),device=str(device),
         threshold_selected_on='Original training-run validation only; not adapted on these images',RGB_resized=False,
         RGB_recolored=False,background_only_changed_in_overlay_and_root_only_visuals=True,
         evaluation_on_new_images='Not measured without corresponding human labels',files=records))

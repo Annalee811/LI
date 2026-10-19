@@ -153,3 +153,6 @@
 /roma-results/0353-1/0353-1-Z2/root-guided-localization-v3/RGB/T2_independent_stitched_RGB.png filter=lfs diff=lfs merge=lfs -text
 /roma-results/0353-1/0353-1-Z2/root-guided-localization-v3/RGB/T3_independent_stitched_RGB.png filter=lfs diff=lfs merge=lfs -text
 /roma-results/0353-1/0353-1-Z2/root-guided-localization-v3/RGB/T4_independent_stitched_RGB.png filter=lfs diff=lfs merge=lfs -text
+
+# Individual manuscript TIFF figures
+/roma-results/registration-paper-tif-v1/**/*.tif filter=lfs diff=lfs merge=lfs -text

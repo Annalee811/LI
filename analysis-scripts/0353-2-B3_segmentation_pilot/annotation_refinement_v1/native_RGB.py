@@ -1,12 +1,15 @@
 """Framework-independent, original-size RGB prediction/export (Python3.5 compatible)."""
 from pathlib import Path
+import sys
 import numpy as np
 from PIL import Image
 import common as c
 from comparison import overlay,root_only
+sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
+from dataset_identity import normalize_prediction_io
 
 def predict_files(infer,input_path,output_path,threshold,batch=2):
-    input_path=Path(input_path);output_path=Path(output_path)
+    input_path=Path(input_path);output_path,_=normalize_prediction_io(input_path,output_path)
     paths=[input_path] if input_path.is_file() else sorted(f for f in input_path.iterdir() if f.suffix.lower() in ['.png','.jpg','.jpeg','.tif','.tiff'])
     assert paths,'No input RGB files';assert len({f.stem for f in paths})==len(paths),'Duplicate input basenames'
     output_path.mkdir(parents=True,exist_ok=True);records=[]

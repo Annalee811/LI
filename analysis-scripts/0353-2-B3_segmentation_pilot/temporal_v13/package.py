@@ -35,6 +35,8 @@ def main():
   for name in ['evaluation_training_draws.csv','final_training_draws.csv']:files.append((run/n/name,'draws/'+n+'/'+name))
  records.append(writezip(out/'0353-2-B3_temporal_v13_training_data.zip',files+common))
  sources=[]
+ sources.append((repo/'analysis-scripts/dataset_identity.py','source/dataset_identity.py'))
+ sources += [(repo/'dataset/current'/name,'dataset/current/'+name) for name in ['identity_policy.json','README.md','active_positions.csv','active_images.csv','dataset_summary.json']]
  for name in ['temporal_v13','temporal_v12','temporal_v11','temporal_v10','paper_v6','root_background_v5']:
   sources += [(f,arc) for f,arc in tree(src.parent/name,'source/'+name) if f.suffix in ['.py','.md','.txt','.json']]
  sources += [(f,arc) for f,arc in tree(repo/'results/B3_uploaded_deeplab_v1/vendor','vendor') if f.suffix not in ['.png','.jpg']]

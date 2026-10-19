@@ -1,0 +1,15 @@
+{
+  "policy_version": "2026-10-19-canonical-v1",
+  "active_positions": 18,
+  "original_images": 66,
+  "tubes": 8,
+  "four_date_positions": 12,
+  "three_date_positions": 6,
+  "review_required_positions": 9,
+  "aliases": {
+    "0353-1-Z2": "Q1-1-Z2"
+  },
+  "excluded": [
+    "Q1-3-Z3"
+  ]
+}

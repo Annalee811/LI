@@ -1,11 +1,15 @@
 """Label-free pair prediction after each model's root/background segmentation."""
 import argparse
+import sys
 from pathlib import Path
 import numpy as np
 from PIL import Image
 import torch
 import common as c
 from model import TemporalHead
+for identity_parent in [Path(__file__).resolve().parents[2],Path(__file__).resolve().parents[1]]:
+    sys.path.insert(0,str(identity_parent))
+from dataset_identity import normalize_prediction_io,policy
 
 def load_head(path,device):
     ck=torch.load(path,map_location=device,weights_only=True);m=TemporalHead().to(device,memory_format=torch.channels_last);m.load_state_dict(ck['state_dict'])
@@ -32,7 +36,9 @@ def products(out,period,rgb,gate,classes,probability=None):
         conf=np.take_along_axis(masked,np.clip(classes.astype(int)-1,0,2)[None],axis=0)[0];Image.fromarray(np.rint(conf*65535).astype(np.uint16)).save(out/f'{period}_class_confidence_uint16.png')
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--head',type=Path,required=True);p.add_argument('--rgb-dir',type=Path,required=True);p.add_argument('--root-dir',type=Path,required=True);p.add_argument('--output',type=Path,required=True);a=p.parse_args();torch.set_num_threads(3);device=torch.device('cuda' if torch.cuda.is_available() else 'cpu');model=load_head(a.head,device)
+    p=argparse.ArgumentParser();p.add_argument('--head',type=Path,required=True);p.add_argument('--rgb-dir',type=Path,required=True);p.add_argument('--root-dir',type=Path,required=True);p.add_argument('--output',type=Path,required=True);a=p.parse_args()
+    a.output,position_id=normalize_prediction_io(a.rgb_dir,a.output)
+    torch.set_num_threads(3);device=torch.device('cuda' if torch.cuda.is_available() else 'cpu');model=load_head(a.head,device)
     files={t:a.rgb_dir/f'{t}_RGB.png' for t in c.PERIODS};records=[];previous=None
     for t in c.PERIODS:
         if not files[t].exists():continue
@@ -45,5 +51,5 @@ def main():
             pt,pi,pp,pm=previous;assert c.PERIODS.index(t)-c.PERIODS.index(pt)==1,'Missing intermediate period: provide a declared nonadjacent comparison separately'
             x=c.features(pi,rgb,pp,prob,pm,gate);pr=c.predict(model,x,device);classes=c.classify(model,pr,gate)
         products(a.output,t,rgb,gate,classes,pr);records.append(dict(period=t,previous=previous[0] if previous else None,RGB_sha256=c.sha(files[t]),root_mask_sha256=c.sha(a.root_dir/f'{t}_root_mask.png'),size=[rgb.shape[1],rgb.shape[0]],human_labels_read=False,class_pixels={str(k):int((classes==k).sum()) for k in [1,2,3,4]}));previous=(t,rgb,prob,gate)
-    c.js(a.output/'inference.json',dict(head_sha256=c.sha(a.head),manual_masks_used=False,background_removed_before_temporal_head=True,unobserved_is_not_proven_death=True,records=records))
+    c.js(a.output/'inference.json',dict(position_id=position_id,dataset_identity_policy=policy()['version'],head_sha256=c.sha(a.head),manual_masks_used=False,background_removed_before_temporal_head=True,unobserved_is_not_proven_death=True,records=records))
 if __name__=='__main__':main()
