@@ -1,6 +1,6 @@
 # Q1-3-Z3：根据根系与用户框选区域重新核查
 
-[下载此位置完整ZIP（约110 MB）](https://github.com/Annalee811/LI/raw/registration-results/roma-results/Q1-3/Q1-3-Z3/root-guided-recheck-v3/Q1-3-Z3_root_guided_recheck_v3.zip)
+[下载此位置完整ZIP（约110 MB）](https://github.com/Annalee811/LI/raw/8dcf915812fd7985fe97525c53f38cd7b234cca6/roma-results/Q1-3/Q1-3-Z3/root-guided-recheck-v3/Q1-3-Z3_root_guided_recheck_v3.zip)
 
 仅更新 Q1-3-Z3。其他位置及原来的全系列 ZIP 保持不变。
 
