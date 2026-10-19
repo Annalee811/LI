@@ -1,0 +1,20 @@
+{
+  "original_hashes_verified": {
+    "T1": "3f0d0375d711a17adf5a3d3ff66e1e078846922b159a15e4eb84285000b85af6",
+    "T2": "bcc8b22a6ac3e07aec5151d66f9b20eecb11ae204265a2746980d07e1c45847b",
+    "T3": "6e4613764b85caf8a9965690490dd759d0c4b4f68593dca8c95412b6e74ccd5f",
+    "T4": "f45263c8f813134a8a4c3b6bebfe4a09e197a8e76756259983b59470e213a604"
+  },
+  "all_four_RGB_exact_saved_sampling": true,
+  "T1_native_crop_pixel_exact": true,
+  "all_transforms_uniform_similarity": true,
+  "all_RGB_original_colors": true,
+  "no_dense_RGB_deformation": true,
+  "area_matches_native_similarity_determinants": true,
+  "cumulative_confidence_monotone_and_finite": true,
+  "confidence_16bit_and_low_masks_match_float32": true,
+  "posed_inference_input_hashes_verified": true,
+  "coarse_T2_T3_not_counted_as_point_success": true,
+  "manual_TRE_not_fabricated": true,
+  "position": "0353-1-Z2"
+}

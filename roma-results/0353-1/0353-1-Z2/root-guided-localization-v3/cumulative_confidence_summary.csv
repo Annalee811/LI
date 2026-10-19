@@ -1,0 +1,4 @@
+﻿position,reference_period,target_period,observed_sequence,geometric_common_pixels_T1,effective_overlap_pixels_T1,effective_overlap_percent_of_common,effective_overlap_percent_of_original_T1,low_cumulative_confidence_percent_of_common,mean_cumulative_confidence_on_common,mean_bottleneck_confidence_on_common
+0353-1-Z2,T1,T2,T1→T2,2013180,0,0.0,0.0,100.0,0.01180940866470337,0.01180940866470337
+0353-1-Z2,T1,T3,T1→T2→T3,2013180,0,0.0,0.0,100.0,7.010879926383495e-05,0.004403322469443083
+0353-1-Z2,T1,T4,T1→T2→T3→T4,2013180,0,0.0,0.0,100.0,2.3525375581812114e-05,0.004402614198625088

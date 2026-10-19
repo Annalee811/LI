@@ -1,0 +1,41 @@
+{
+  "position": "0353-1-Z2",
+  "periods": 4,
+  "common_T1_box_xyxy": [
+    26,
+    438,
+    2340,
+    1308
+  ],
+  "RGB_common_wh": [
+    2314,
+    870
+  ],
+  "point_supported_adjacent_pairs": 2,
+  "total_adjacent_pairs": 3,
+  "point_supported_fraction": 0.6666666666666666,
+  "manual_validated_pair_fraction": null,
+  "region_localization_status": "FOUR_PERIOD_CANDIDATE_ROI_WITH_UNVERIFIED_T2_T3_COARSE_LINK",
+  "review_required": true,
+  "area_percent": [
+    34.733055562744234,
+    34.61684895857183,
+    34.61684872651431,
+    34.68623296985192
+  ],
+  "meanings": {
+    "geometric_common_area": "Conditional on the saved observation-window transforms; not independently validated area or registration accuracy.",
+    "point_supported_pairs": "Original RGB band RoMa supports a coherent point-fit similarity for T1/T2 and T3/T4. The T2/T3 ridge correlation bridge is not counted as successful point registration.",
+    "confidence": "RoMa was rerun on the saved aligned original-color crops. These scores are conditional on that pose, not independent validation or calibrated probability.",
+    "manual_landmarks": "None; no manual TRE is available.",
+    "root_guidance": "Root-like line saliency is an algorithmic localization cue, not a verified segmentation."
+  },
+  "originals_byte_exact": true,
+  "RGB_nonrigid_warp": false,
+  "local_detail_box_common_xyxy": [
+    1157,
+    200,
+    1897,
+    765
+  ]
+}

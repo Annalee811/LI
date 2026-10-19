@@ -1,0 +1,758 @@
+{
+  "position": "0353-1-Z2",
+  "priors": {
+    "T1": {
+      "original_file": "T1.jpg",
+      "original_sha256": "3f0d0375d711a17adf5a3d3ff66e1e078846922b159a15e4eb84285000b85af6",
+      "original_wh": [
+        2550,
+        2273
+      ],
+      "fraction_box": [
+        0.01,
+        0.06,
+        0.995,
+        0.75
+      ],
+      "native_box": [
+        26,
+        136,
+        2537,
+        1705
+      ],
+      "search_crop_sha256": "18f60e3ac248e9884e58c03126dd5b277849031328913243ad37ba4f27563472",
+      "scope": "Broad root-layer search prior inferred from user boxed reference images; not point correspondence truth."
+    },
+    "T2": {
+      "original_file": "T2.png",
+      "original_sha256": "bcc8b22a6ac3e07aec5151d66f9b20eecb11ae204265a2746980d07e1c45847b",
+      "original_wh": [
+        1328,
+        1184
+      ],
+      "fraction_box": [
+        0.01,
+        0.015,
+        0.995,
+        0.56
+      ],
+      "native_box": [
+        13,
+        18,
+        1321,
+        663
+      ],
+      "search_crop_sha256": "6b6b2e481dbd555858cc40e05cc41d9770658d7b1feba424c26e9ef8f302f3b5",
+      "scope": "Broad root-layer search prior inferred from user boxed reference images; not point correspondence truth."
+    },
+    "T3": {
+      "original_file": "T3.png",
+      "original_sha256": "6e4613764b85caf8a9965690490dd759d0c4b4f68593dca8c95412b6e74ccd5f",
+      "original_wh": [
+        1328,
+        1184
+      ],
+      "fraction_box": [
+        0.005,
+        0.43,
+        0.995,
+        0.995
+      ],
+      "native_box": [
+        7,
+        509,
+        1321,
+        1178
+      ],
+      "search_crop_sha256": "05d9a0f519b9ca5fffb9e610646652382289d5740436370363b1b0f04280f49a",
+      "scope": "Broad root-layer search prior inferred from user boxed reference images; not point correspondence truth."
+    },
+    "T4": {
+      "original_file": "T4.jpg",
+      "original_sha256": "f45263c8f813134a8a4c3b6bebfe4a09e197a8e76756259983b59470e213a604",
+      "original_wh": [
+        5100,
+        4547
+      ],
+      "fraction_box": [
+        0.005,
+        0.53,
+        0.995,
+        0.995
+      ],
+      "native_box": [
+        26,
+        2410,
+        5074,
+        4524
+      ],
+      "search_crop_sha256": "3a15ed9da448ad8403a35ea2374f3585df14c5b334604c603d6cefbebe22f06d",
+      "scope": "Broad root-layer search prior inferred from user boxed reference images; not point correspondence truth."
+    }
+  },
+  "pair_records": [
+    {
+      "pair": "T1_to_T2",
+      "total_sampled_points": 11664,
+      "bidirectional_c_ge_0_3_cycle_le_10_analysis1600": 87,
+      "root_salient_eligible_points": 14,
+      "max_sampled_bidirectional_confidence": 0.7483177185058594,
+      "candidates": [
+        {
+          "matrix_analysis1600": [
+            [
+              1.0011241724258588,
+              0.005910203316012919,
+              117.55638307507637
+            ],
+            [
+              -0.005910203316012919,
+              1.0011241724258588,
+              -233.93893132271546
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "anchors": 13,
+          "source_span_xy": [
+            598.1176470588236,
+            391.9651416122005
+          ],
+          "residual_median_analysis1600": 0.7408142548302151,
+          "conditional_spatial_CV_median_analysis1600": 1.363375374649076,
+          "region_evidence_pass": false,
+          "source": "root_RoMa",
+          "native_matrix": [
+            [
+              0.5213697650908002,
+              0.0030779411779079044,
+              97.57179795231337
+            ],
+            [
+              -0.0030779411779079044,
+              0.5213697650908002,
+              -194.16931299785384
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "matrix_analysis1600": [
+            [
+              0.9984283989412648,
+              0.0034112705968280454,
+              121.64317018818588
+            ],
+            [
+              -0.0034112705968280454,
+              0.9984283989412648,
+              -235.1991076984872
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "anchors": 83,
+          "source_span_xy": [
+            744.0,
+            492.2352941176471
+          ],
+          "residual_median_analysis1600": 1.0061775173715444,
+          "conditional_spatial_CV_median_analysis1600": 1.004820632135807,
+          "region_evidence_pass": true,
+          "source": "all_RoMa",
+          "native_matrix": [
+            [
+              0.5199658485466665,
+              0.0017765362167010369,
+              100.96383125619427
+            ],
+            [
+              -0.0017765362167010369,
+              0.5199658485466665,
+              -195.21525938974438
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "selected": {
+        "matrix_analysis1600": [
+          [
+            0.9984283989412648,
+            0.0034112705968280454,
+            121.64317018818588
+          ],
+          [
+            -0.0034112705968280454,
+            0.9984283989412648,
+            -235.1991076984872
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "anchors": 83,
+        "source_span_xy": [
+          744.0,
+          492.2352941176471
+        ],
+        "residual_median_analysis1600": 1.0061775173715444,
+        "conditional_spatial_CV_median_analysis1600": 1.004820632135807,
+        "region_evidence_pass": true,
+        "source": "all_RoMa",
+        "native_matrix": [
+          [
+            0.5199658485466665,
+            0.0017765362167010369,
+            100.96383125619427
+          ],
+          [
+            -0.0017765362167010369,
+            0.5199658485466665,
+            -195.21525938974438
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "automatic_descriptor_check": null,
+      "manual_landmark_TRE": null
+    },
+    {
+      "pair": "T2_to_T3",
+      "total_sampled_points": 11664,
+      "bidirectional_c_ge_0_3_cycle_le_10_analysis1600": 2,
+      "root_salient_eligible_points": 0,
+      "max_sampled_bidirectional_confidence": 0.3595314025878906,
+      "candidates": [],
+      "selected": {
+        "source": "user_guided_root_ridge_coarse_translation",
+        "anchors": 0,
+        "native_matrix": [
+          [
+            1.0,
+            0.0,
+            -6.64
+          ],
+          [
+            0.0,
+            1.0,
+            692.22
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "status": "COARSE_UNVERIFIED",
+        "mandatory_review": true,
+        "coarse_evidence": {
+          "pair": "T2_to_T3",
+          "status": "user_guided_coarse_translation_UNVERIFIED",
+          "native_matrix": [
+            [
+              1.0,
+              0.0,
+              -6.64
+            ],
+            [
+              0.0,
+              1.0,
+              692.22
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "method": "Masked root-like ridge normalized correlation inside user supplied observation bands; translation only; no scale/shear/elastic deformation",
+          "source": "User-region prior plus ridge-pattern coarse localization; not a successful RoMa point match",
+          "peaks": [
+            {
+              "dx_native": -6.64,
+              "dy_native": 692.22,
+              "ridge_NCC": 0.16535820066928864,
+              "overlapping_search_pixels_analysis800": 222216
+            },
+            {
+              "dx_native": -152.72,
+              "dy_native": 283.86,
+              "ridge_NCC": 0.03399723023176193,
+              "overlapping_search_pixels_analysis800": 184100
+            },
+            {
+              "dx_native": -73.04,
+              "dy_native": 672.3,
+              "ridge_NCC": 0.03219040483236313,
+              "overlapping_search_pixels_analysis800": 219912
+            },
+            {
+              "dx_native": 99.6,
+              "dy_native": 705.5,
+              "ridge_NCC": 0.03141820803284645,
+              "overlapping_search_pixels_analysis800": 199472
+            },
+            {
+              "dx_native": -89.64,
+              "dy_native": 310.42,
+              "ridge_NCC": 0.026907391846179962,
+              "overlapping_search_pixels_analysis800": 205902
+            }
+          ],
+          "seed_dy_native": 503.0,
+          "manual_TRE": null,
+          "automatic_point_TRE": null,
+          "mandatory_review": true,
+          "limitation": "Ridge responses include some non-root elongated structures. Pattern correlation does not establish root identity or pixel-accurate registration."
+        }
+      },
+      "automatic_descriptor_check": null,
+      "manual_landmark_TRE": null
+    },
+    {
+      "pair": "T3_to_T4",
+      "total_sampled_points": 11664,
+      "bidirectional_c_ge_0_3_cycle_le_10_analysis1600": 5348,
+      "root_salient_eligible_points": 579,
+      "max_sampled_bidirectional_confidence": 0.9413537979125977,
+      "candidates": [
+        {
+          "matrix_analysis1600": [
+            [
+              1.000987951063768,
+              0.005485061370219205,
+              -6.79657690298697
+            ],
+            [
+              -0.005485061370219205,
+              1.000987951063768,
+              -104.16793069186201
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "anchors": 446,
+          "source_span_xy": [
+            1553.8152610441769,
+            544.8125836680055
+          ],
+          "residual_median_analysis1600": 1.4727437977158853,
+          "conditional_spatial_CV_median_analysis1600": 0.7951585800116103,
+          "region_evidence_pass": true,
+          "source": "root_RoMa",
+          "native_matrix": [
+            [
+              3.844155534958748,
+              0.021064618213944238,
+              -21.664088878270967
+            ],
+            [
+              -0.021064618213944238,
+              3.844155534958748,
+              -332.03527908031015
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "matrix_analysis1600": [
+            [
+              1.0008108429952558,
+              -0.003540150120554669,
+              3.822885799870152
+            ],
+            [
+              0.003540150120554669,
+              1.0008108429952558,
+              -109.35450666476257
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "anchors": 133,
+          "source_span_xy": [
+            1524.4979919678715,
+            529.8862115127175
+          ],
+          "residual_median_analysis1600": 0.8091127660062364,
+          "conditional_spatial_CV_median_analysis1600": 0.8320253685160078,
+          "region_evidence_pass": true,
+          "source": "root_RoMa",
+          "native_matrix": [
+            [
+              3.843475375960696,
+              -0.01359545603526266,
+              12.18544848708611
+            ],
+            [
+              0.01359545603526266,
+              3.843475375960696,
+              -348.5674899939307
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "matrix_analysis1600": [
+            [
+              1.0004759744530498,
+              0.00027241757995216345,
+              -0.5606021912930397
+            ],
+            [
+              -0.00027241757995216345,
+              1.0004759744530498,
+              -108.83536896577094
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "anchors": 4455,
+          "source_span_xy": [
+            1568.4738955823293,
+            544.8125836680055
+          ],
+          "residual_median_analysis1600": 1.4568960091167462,
+          "conditional_spatial_CV_median_analysis1600": 0.701054242514101,
+          "region_evidence_pass": true,
+          "source": "all_RoMa",
+          "native_matrix": [
+            [
+              3.842189359721803,
+              0.0010461819712018327,
+              -1.786919484746564
+            ],
+            [
+              -0.0010461819712018327,
+              3.842189359721803,
+              -346.91273857839485
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "matrix_analysis1600": [
+            [
+              0.9988425983261503,
+              -0.0003113061497053977,
+              1.6825038563013033
+            ],
+            [
+              0.0003113061497053977,
+              0.9988425983261503,
+              -101.19170299195774
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "anchors": 892,
+          "source_span_xy": [
+            1099.397590361446,
+            171.65327978581013
+          ],
+          "residual_median_analysis1600": 0.4517875582287618,
+          "conditional_spatial_CV_median_analysis1600": 0.44886788665095395,
+          "region_evidence_pass": true,
+          "source": "all_RoMa",
+          "native_matrix": [
+            [
+              3.8359166050175957,
+              -0.0011955281351638018,
+              5.3629810419604045
+            ],
+            [
+              0.0011955281351638018,
+              3.8359166050175957,
+              -322.5485532868653
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "matrix_analysis1600": [
+            [
+              1.0005152917039322,
+              0.0009803900316070183,
+              -1.2962628493275785
+            ],
+            [
+              -0.0009803900316070183,
+              1.0005152917039322,
+              -254.20146546274174
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "anchors": 292,
+          "source_span_xy": [
+            1590.66162109375,
+            517.1737060546875
+          ],
+          "residual_median_analysis1600": 1.751928278781846,
+          "conditional_spatial_CV_median_analysis1600": 1.300793154825524,
+          "region_evidence_pass": true,
+          "native_matrix": [
+            [
+              3.8436843169874044,
+              0.00376636901031372,
+              -6.912581334790019
+            ],
+            [
+              -0.00376636901031372,
+              3.8436843169874044,
+              -348.4145762984667
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source": "RootSIFT"
+        },
+        {
+          "matrix_analysis1600": [
+            [
+              0.9987024803842318,
+              0.00014120259218453274,
+              0.8122577380608746
+            ],
+            [
+              -0.00014120259218453274,
+              0.9987024803842318,
+              -247.70971754346732
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "anchors": 69,
+          "source_span_xy": [
+            1448.486328125,
+            157.60650634765625
+          ],
+          "residual_median_analysis1600": 0.8512344990204712,
+          "conditional_spatial_CV_median_analysis1600": 0.9137223599922925,
+          "region_evidence_pass": true,
+          "native_matrix": [
+            [
+              3.836720031186912,
+              0.0005424586646480375,
+              1.4295214849678253
+            ],
+            [
+              -0.0005424586646480375,
+              3.836720031186912,
+              -324.4108575131245
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source": "RootSIFT"
+        }
+      ],
+      "selected": {
+        "matrix_analysis1600": [
+          [
+            1.000987951063768,
+            0.005485061370219205,
+            -6.79657690298697
+          ],
+          [
+            -0.005485061370219205,
+            1.000987951063768,
+            -104.16793069186201
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "anchors": 446,
+        "source_span_xy": [
+          1553.8152610441769,
+          544.8125836680055
+        ],
+        "residual_median_analysis1600": 1.4727437977158853,
+        "conditional_spatial_CV_median_analysis1600": 0.7951585800116103,
+        "region_evidence_pass": true,
+        "source": "root_RoMa",
+        "native_matrix": [
+          [
+            3.844155534958748,
+            0.021064618213944238,
+            -21.664088878270967
+          ],
+          [
+            -0.021064618213944238,
+            3.844155534958748,
+            -332.03527908031015
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "automatic_descriptor_check": {
+        "n": 290,
+        "median_error_native_target_px": 7.6671149898888835,
+        "RMSE_native_target_px": 10.638592427984982,
+        "selection": "Held from neural fitting, conditional on earlier descriptor consensus; not manual TRE."
+      },
+      "manual_landmark_TRE": null
+    }
+  ],
+  "model_rule": "Prespecified root-ridge saliency>=0.1 on both ends, bidirectional confidence>=0.3, cycle<=10 at analysis width1600; then coherent uniform similarity. Prefer eligible root-RoMa, then all-RoMa, then descriptor evidence.",
+  "manual_TRE": null,
+  "common_T1_box": [
+    26,
+    438,
+    2340,
+    1308
+  ],
+  "poses_T1_to_native": {
+    "T1": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2": [
+      [
+        0.5199658485466665,
+        0.0017765362167010369,
+        100.96383125619427
+      ],
+      [
+        -0.0017765362167010369,
+        0.5199658485466665,
+        -195.21525938974438
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T3": [
+      [
+        0.5199658485466665,
+        0.0017765362167010369,
+        94.32383125619427
+      ],
+      [
+        -0.0017765362167010369,
+        0.5199658485466665,
+        497.0047406102557
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T4": [
+      [
+        1.9987921726230422,
+        0.017782163614411046,
+        351.4006042352186
+      ],
+      [
+        -0.017782163614411046,
+        1.9987921726230422,
+        1576.5413499434528
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "redundant_route_checks": [
+    {
+      "pair": "T1_to_T3",
+      "available": false
+    },
+    {
+      "pair": "T1_to_T4",
+      "available": false
+    },
+    {
+      "pair": "T2_to_T4",
+      "available": false
+    }
+  ],
+  "review_required": true
+}

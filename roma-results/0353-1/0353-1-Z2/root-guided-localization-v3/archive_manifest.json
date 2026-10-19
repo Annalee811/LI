@@ -1,0 +1,9 @@
+{
+  "file": "0353-1-Z2_root_guided_localization_v3.zip",
+  "bytes": 392889207,
+  "sha256": "f8822cc3b24048266d6e15a1ef9710688cec9f50f4a11ccdda72bf338e2ac027",
+  "files": 202,
+  "CRC_test_passed": true,
+  "position": "0353-1-Z2",
+  "four_period_crop_status": "candidate observation ROI; T2/T3 coarse link unverified"
+}

@@ -1,0 +1,5 @@
+﻿position,period,original_width,original_height,original_area_px2,common_area_native_px2,common_area_percent,region_review_pass_area_native_px2,region_review_pass_area_percent,stitched_width,stitched_height,seam_area_excluded_px,region_count,review_required_regions,localization_status,original_SHA256
+0353-1-Z2,T1,2550,2273,5796150,2013180.0,34.733055562744234,0.0,0.0,2314,870,0,1,A,review_required,3f0d0375d711a17adf5a3d3ff66e1e078846922b159a15e4eb84285000b85af6
+0353-1-Z2,T2,1328,1184,1572352,544298.7169370833,34.61684895857183,0.0,0.0,2314,870,0,1,A,review_required,bcc8b22a6ac3e07aec5151d66f9b20eecb11ae204265a2746980d07e1c45847b
+0353-1-Z2,T3,1328,1184,1572352,544298.7132883223,34.61684872651431,0.0,0.0,2314,870,0,1,A,review_required,6e4613764b85caf8a9965690490dd759d0c4b4f68593dca8c95412b6e74ccd5f
+0353-1-Z2,T4,5100,4547,23189700,8043633.3670097515,34.68623296985192,0.0,0.0,2314,870,0,1,A,review_required,f45263c8f813134a8a4c3b6bebfe4a09e197a8e76756259983b59470e213a604

@@ -146,3 +146,10 @@
 /roma-results/Q1-3/Q1-3-Z3/root-guided-recheck-v3/RGB/T2_confirmed_common_RGB.png filter=lfs diff=lfs merge=lfs -text
 /roma-results/Q1-3/Q1-3-Z3/root-guided-recheck-v3/RGB/T3_aligned_to_T2_common_RGB.png filter=lfs diff=lfs merge=lfs -text
 /roma-results/Q1-3/Q1-3-Z3/root-guided-recheck-v3/RGB/T1_user_guided_search_ROI_unaligned_RGB.png filter=lfs diff=lfs merge=lfs -text
+
+/roma-results/0353-1/0353-1-Z2/root-guided-localization-v3/0353-1-Z2_root_guided_localization_v3.zip filter=lfs diff=lfs merge=lfs -text
+/roma-results/0353-1/0353-1-Z2/root-guided-localization-v3/0353-1-Z2_localization_overview.jpg filter=lfs diff=lfs merge=lfs -text
+/roma-results/0353-1/0353-1-Z2/root-guided-localization-v3/RGB/T1_independent_stitched_RGB.png filter=lfs diff=lfs merge=lfs -text
+/roma-results/0353-1/0353-1-Z2/root-guided-localization-v3/RGB/T2_independent_stitched_RGB.png filter=lfs diff=lfs merge=lfs -text
+/roma-results/0353-1/0353-1-Z2/root-guided-localization-v3/RGB/T3_independent_stitched_RGB.png filter=lfs diff=lfs merge=lfs -text
+/roma-results/0353-1/0353-1-Z2/root-guided-localization-v3/RGB/T4_independent_stitched_RGB.png filter=lfs diff=lfs merge=lfs -text

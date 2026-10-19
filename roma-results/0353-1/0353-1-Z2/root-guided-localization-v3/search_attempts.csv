@@ -1,0 +1,6 @@
+﻿pair,view,sampled_queries,good_bidirectional_samples,maximum_bidirectional_confidence
+T1_to_T2,original_RGB_band,11664,87,0.7483177185058594
+T1_to_T3,original_RGB_band,11664,0,0.018292104825377464
+T2_to_T3,original_RGB_band,11664,2,0.3595314025878906
+T3_to_T4,original_RGB_band,11664,5348,0.9413537979125977
+T2_to_T3,tight_CLAHE_gray,11664,0,0.21544817090034485
