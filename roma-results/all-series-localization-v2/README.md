@@ -1,6 +1,6 @@
 # 全系列原图、独立拼接RGB与定位质量（Q1已更正）
 
-[下载单个完整ZIP（约1.99GB）](https://github.com/Annalee811/LI/raw/refs/heads/registration-results/roma-results/all-series-localization-v2/all_series_original_and_stitched_RGB_v2.zip)
+[下载单个完整ZIP（约1.99GB）](https://github.com/Annalee811/LI/raw/9ec7dc3c4dd5b58cad58fd1ea9b0aea4e7138edb/roma-results/all-series-localization-v2/all_series_original_and_stitched_RGB_v2.zip)
 
 包含各期原图、66张独立拼接RGB、全系列与各位置定位总览、共同面积统计、累计置信度图和原生float32数值、观察区域与对应质控掩膜，以及完整Python脚本。0353-2-B3仅输出此前标注使用的上半观察区，四期RGB均2541×1108。其余原图保留原始文件字节。
 

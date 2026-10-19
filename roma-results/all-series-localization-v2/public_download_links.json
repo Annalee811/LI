@@ -1,0 +1,17 @@
+{
+  "data_commit": "9ec7dc3c4dd5b58cad58fd1ea9b0aea4e7138edb",
+  "ZIP_download_url": "https://github.com/Annalee811/LI/raw/9ec7dc3c4dd5b58cad58fd1ea9b0aea4e7138edb/roma-results/all-series-localization-v2/all_series_original_and_stitched_RGB_v2.zip",
+  "ZIP_public_redirect_status": 302,
+  "ZIP_media_url": "https://media.githubusercontent.com/media/Annalee811/LI/9ec7dc3c4dd5b58cad58fd1ea9b0aea4e7138edb/roma-results/all-series-localization-v2/all_series_original_and_stitched_RGB_v2.zip",
+  "ZIP_full_download_verified_via_official_LFS": {
+    "object_SHA256": "944740881b8f43846cdd76bdb82b6067b6565b5762ffca6dd6aad43f0fd65654",
+    "bytes": 1988389003,
+    "download_SHA256": "944740881b8f43846cdd76bdb82b6067b6565b5762ffca6dd6aad43f0fd65654",
+    "transfer_host": "github-cloud.githubusercontent.com",
+    "HTTP_status": 200,
+    "full_download_verified": true
+  },
+  "position_summary_url": "https://raw.githubusercontent.com/Annalee811/LI/9ec7dc3c4dd5b58cad58fd1ea9b0aea4e7138edb/roma-results/all-series-localization-v2/all_series_position_summary.csv",
+  "position_summary_bytes": 5511,
+  "position_summary_SHA256": "24a8bdd16d08d6baa431fc188d5a2dee079df9523d5a915dc24fca2e80474309"
+}
