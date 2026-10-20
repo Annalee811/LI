@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "checks": {
+    "original_human_JSON_byte_identical": true,
+    "selective_semantic_changes_all_logged": true,
+    "changes_meet_joint_U_Net_manual_previous_period_rules": true,
+    "frozen_V17_evaluation_reference_byte_identical": true,
+    "root_geometry_and_RGB_preserved": true,
+    "dates_grouped_and_no_cross_split_pixel_overlap": true,
+    "identical_training_draws_three_models": true,
+    "all_root_weights_frozen": true,
+    "all_heads_trained_stage1_32_and_stage2_16": true,
+    "all_test_confusions_recomputed": true,
+    "label_free_reload_all_four_dates_exact": true,
+    "no_NEW_GROWTH_or_NEW_PERSISTENT_mixture_in_any_accepted_axis": true,
+    "real_browser_editor_checked": true
+  },
+  "morphology_audit": [
+    {
+      "period": "T1",
+      "semantic_pixels_changed": 0,
+      "unknown_pixels_unchanged": true,
+      "root_geometry_unchanged": true
+    },
+    {
+      "period": "T2",
+      "semantic_pixels_changed": 2142,
+      "unknown_pixels_unchanged": true,
+      "root_geometry_unchanged": true
+    },
+    {
+      "period": "T3",
+      "semantic_pixels_changed": 885,
+      "unknown_pixels_unchanged": true,
+      "root_geometry_unchanged": true
+    },
+    {
+      "period": "T4",
+      "semantic_pixels_changed": 554,
+      "unknown_pixels_unchanged": true,
+      "root_geometry_unchanged": true
+    }
+  ],
+  "models": {
+    "unet": {
+      "stage1_epochs": 32,
+      "stage2_epochs": 16,
+      "selected_epoch": 0,
+      "head_SHA256": "26ce244cac491abaddae6500ff92e8f411cc2e76a94b156bf577cb2a9e57d05b",
+      "warm_head_SHA256": "0f44c630d1b94fe323b96781ec0b63e3e318c6fccb5e71ae625aa257803bdfae",
+      "root_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+      "selected_decoder": "identity",
+      "new_head_blend_weight": 0.0,
+      "reference_test_macro_Dice": 0.6585267384204933,
+      "original_audit_test_macro_Dice": 0.4654815371152136,
+      "review_counts": [
+        {
+          "period": "T2",
+          "review_root_pixels": 94685
+        },
+        {
+          "period": "T3",
+          "review_root_pixels": 104589
+        },
+        {
+          "period": "T4",
+          "review_root_pixels": 78995
+        }
+      ],
+      "label_free_reload_all_dates_exact": true
+    },
+    "deeplab": {
+      "stage1_epochs": 32,
+      "stage2_epochs": 16,
+      "selected_epoch": 16,
+      "head_SHA256": "8c14f327b275da79c55ab9c6431e5fd3d8fc79fb90d872895bdcdae659ce8db6",
+      "warm_head_SHA256": "4c8659abe75dca8c45726a97e9bc7f5e702c87f109a0a67ef537c7e9407f6227",
+      "root_SHA256": "d0a606f9fd335959f9612bd7bd9750839c0750ceceb878913abed99abb61473f",
+      "selected_decoder": "identity",
+      "new_head_blend_weight": 0.0,
+      "reference_test_macro_Dice": 0.6021383310481466,
+      "original_audit_test_macro_Dice": 0.47217289009399277,
+      "review_counts": [
+        {
+          "period": "T2",
+          "review_root_pixels": 63744
+        },
+        {
+          "period": "T3",
+          "review_root_pixels": 117337
+        },
+        {
+          "period": "T4",
+          "review_root_pixels": 55044
+        }
+      ],
+      "label_free_reload_all_dates_exact": true
+    },
+    "segformer": {
+      "stage1_epochs": 32,
+      "stage2_epochs": 16,
+      "selected_epoch": 0,
+      "head_SHA256": "8baf292b5ad9e808e466dd5d84a1d8b62aeed9135e44035618fa50ce25fbc5c1",
+      "warm_head_SHA256": "3c9b45b70f4dec99eb6db750f2af4bcd92ce7ac25a5425c4c4d707eb8d8e1275",
+      "root_SHA256": "7ef91f106a3b5f7675e8443faed42a339dfba5d4624515239ab6c38a61fe91a9",
+      "selected_decoder": "identity",
+      "new_head_blend_weight": 0.0,
+      "reference_test_macro_Dice": 0.5733292083610978,
+      "original_audit_test_macro_Dice": 0.4500471772606267,
+      "review_counts": [
+        {
+          "period": "T2",
+          "review_root_pixels": 81129
+        },
+        {
+          "period": "T3",
+          "review_root_pixels": 106151
+        },
+        {
+          "period": "T4",
+          "review_root_pixels": 59433
+        }
+      ],
+      "label_free_reload_all_dates_exact": true
+    }
+  },
+  "biological_root_instance_accuracy_not_independently_measured": true,
+  "independent_external_test_images": 0,
+  "whole_field_context_crosses_internal_windows": true,
+  "historical_same_field_exposure": true
+}

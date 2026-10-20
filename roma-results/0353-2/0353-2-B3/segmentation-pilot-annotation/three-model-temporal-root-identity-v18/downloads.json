@@ -1,0 +1,105 @@
+{
+  "version": "temporal_root_identity_v18",
+  "packages": [
+    {
+      "file": "0353-2-B3_v18_annotation_review.zip",
+      "bytes": 71542624,
+      "SHA256": "e000a68854447916118f0b08e544874384ae7f9e32a096debe59633da5361353",
+      "files": 41
+    },
+    {
+      "file": "0353-2-B3_v18_training_data.zip",
+      "bytes": 80499122,
+      "SHA256": "6fb63881a7819bd0f9826ef50d8123beda775dfc4d69aff3c41fd20060e0e1fc",
+      "files": 1093
+    },
+    {
+      "file": "0353-2-B3_v18_stage1_training_data_and_history.zip",
+      "bytes": 55788891,
+      "SHA256": "e4e7b7e1e1d3f68bd45692814086effb3498bddc6845300e2f90c19e25a27ba7",
+      "files": 1071
+    },
+    {
+      "file": "0353-2-B3_v18_segmentation_unet.zip",
+      "bytes": 89148895,
+      "SHA256": "8099b829f4d17930768c19397e137593550006b350a991aa548e8b0fdba8306d",
+      "files": 138
+    },
+    {
+      "file": "0353-2-B3_v18_segmentation_deeplab.zip",
+      "bytes": 90737458,
+      "SHA256": "a0988b4786c7bc0e981418bf076a5f2a9e1c70715dd447b96db57925a2b137ba",
+      "files": 138
+    },
+    {
+      "file": "0353-2-B3_v18_segmentation_segformer.zip",
+      "bytes": 90181565,
+      "SHA256": "cc4b8ad62bd2939df1eb7ddec18cd859211180dc52891c008ce005292b2ee073",
+      "files": 138
+    },
+    {
+      "file": "0353-2-B3_v18_weights_torch_and_temporal.zip",
+      "bytes": 68138735,
+      "SHA256": "2ff904c16b040ac3734a84e98ee7b14a629d57de4f4835a634670d4470c692b9",
+      "files": 63
+    },
+    {
+      "file": "0353-2-B3_v18_weights_deeplab.zip",
+      "bytes": 67829179,
+      "SHA256": "e3e0701de9024d201a2170cef9b14004d93b9f20d87cc27702f6c1c639e063ef",
+      "files": 7
+    },
+    {
+      "file": "0353-2-B3_v18_complete_scripts.zip",
+      "bytes": 505285,
+      "SHA256": "22a2c80e4b32e4726feaa79138678b90dbe33a29176a7642e066bd4cd20f2d28",
+      "files": 201
+    },
+    {
+      "file": "0353-2-B3_v18_paper_figures.zip",
+      "bytes": 26399516,
+      "SHA256": "35c44fc0780826c81fafff8031a44983e16d228b70fb223d516580b136c91095",
+      "files": 62
+    }
+  ],
+  "direct_figures": [
+    {
+      "file": "0353-2-B3_temporal_integrated_v18.tif",
+      "bytes": 32605718,
+      "SHA256": "4f46007f3d8d60cef11b8cbf30610fc49f1652c8a25104c8032684373f9686af",
+      "dimensions": [
+        9924,
+        7014
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "FigS7_user_detail_before_after.tif",
+      "bytes": 1716136,
+      "SHA256": "ef837749fcf41cf5dbe6d4f0c4de59d132d2caf49d89684806a50b4821828995",
+      "dimensions": [
+        9924,
+        3060
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "FigS8_individual_root_routes.tif",
+      "bytes": 978166,
+      "SHA256": "18b0bbf6ee36ebb88aa1eb5a897553c4974d877cf54624c6d4e490f26a6b61a5",
+      "dimensions": [
+        6480,
+        3360
+      ],
+      "DPI": 600
+    }
+  ],
+  "all_ZIP_CRC_verified": true,
+  "temporal_reference_selectively_U_Net_supported": true,
+  "reference_morphology_is_U_Net_derived": true,
+  "semantic_pixels_changed": 3581,
+  "original_human_preserved_separately": true,
+  "V17_preserved": true,
+  "all_three_final_emission_blends_retain_stage1_head": true,
+  "independent_external_test_images": 0
+}

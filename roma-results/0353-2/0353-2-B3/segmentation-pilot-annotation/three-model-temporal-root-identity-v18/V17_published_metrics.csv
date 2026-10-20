@@ -1,0 +1,7 @@
+﻿model,published_V17_reference,macro_Dice,evaluation
+unet,revised,0.6871520409506533,"Original V17 saved full-frame metrics, fixed published values"
+unet,original,0.48724001759016494,"Original V17 saved full-frame metrics, fixed published values"
+deeplab,revised,0.5042232229695246,"Original V17 saved full-frame metrics, fixed published values"
+deeplab,original,0.3912981193162846,"Original V17 saved full-frame metrics, fixed published values"
+segformer,revised,0.5660045451789381,"Original V17 saved full-frame metrics, fixed published values"
+segformer,original,0.4377177868882461,"Original V17 saved full-frame metrics, fixed published values"

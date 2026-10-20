@@ -1,0 +1,7 @@
+{
+  "candidate_IDs_only": true,
+  "inheritance_requires_predicted_previous_root_support": true,
+  "NEW_roots_never_inherit_old_track_id": true,
+  "unmatched_root_identity_not_called_death": true,
+  "no_independent_instance_labels": true
+}

@@ -1,0 +1,29 @@
+{
+  "references": {
+    "frozen": "Unchanged V17 manual-temporal/U-Net-morphology reference, primary comparison",
+    "original": "Original human temporal/geometry labels, same-field development audit",
+    "revised": "Selectively U-Net/preceding-human-supported temporal correction; not independent manual truth"
+  },
+  "checkpoint_selection": "Manual-temporal/morphology-reference full-frame validation whole-axis macroDice every4epochs; decoder strength on same validation windows",
+  "root_stage_frozen": true,
+  "temporal_heads_stage1_epochs": 32,
+  "temporal_heads_final_stage_epochs": 16,
+  "selection_includes_epoch_zero": true,
+  "validation_pairs": 15,
+  "internal_test_pairs": 18,
+  "independent_external_test_images": 0,
+  "historical_same_field_warmstart_exposure_possible": true,
+  "U_Net_temporal_teacher_used_for_selective_correction": true,
+  "original_human_preserved_separately": true,
+  "whole_axis_prediction_context_crosses_split_windows": true,
+  "no_independent_manual_length_measurement": true,
+  "length_units": "skeleton pixel counts, not calibrated physical root lengths",
+  "full_upper_maps_include_training_pixels": true,
+  "root_frameworks": {
+    "unet": "PyTorch",
+    "deeplab": "TensorFlow1.12",
+    "segformer": "PyTorch"
+  },
+  "temporal_framework": "PyTorch",
+  "T1_baseline_not_inflated_into_temporal_macro_Dice": true
+}

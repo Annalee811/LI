@@ -1,0 +1,17 @@
+{
+  "version": "temporal_root_identity_v18",
+  "position_id": "0353-2-B3",
+  "reference_type": "Conservative U-Net/preceding-human-supported temporal corrections, pending user review",
+  "original_human_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "previous_V17_progress_SHA256": "c80fc005303958fdbe32b0378bc3e2591b40c800ac62c5b982141bd5fda8a6f9",
+  "root_geometry_unchanged": true,
+  "RGB_unchanged": true,
+  "semantic_replacement_is_selective_not_whole_field": true,
+  "semantic_correction_rules": "Persistent old core requires joint prior manual and U-Net support; NEW correction requires absence in both plus current model novel-root evidence and no old-tip continuation",
+  "originals_retained": true,
+  "unknown_labels_preserved": true,
+  "validation_selection_reference": "Frozen unchanged V17 manual-temporal/U-Net-morphology reference",
+  "corrected_reference_is_not_independent_human_truth": true,
+  "independent_external_test_images": 0,
+  "death_included": false
+}

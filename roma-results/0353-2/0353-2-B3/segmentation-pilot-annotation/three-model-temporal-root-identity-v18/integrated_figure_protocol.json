@@ -1,0 +1,249 @@
+{
+  "version": "temporal_root_identity_v18",
+  "position": "0353-2-B3",
+  "task": "Temporal root classes on the four registered upper RGB fields",
+  "reference": "Selective U-Net/preceding-human-supported temporal corrections; original and frozen V17 references preserved",
+  "RGB_enhanced": false,
+  "native_RGB_size_wh": [
+    2541,
+    1108
+  ],
+  "figure_size_pixels": [
+    9924,
+    7014
+  ],
+  "figure_page_mm": [
+    420,
+    297
+  ],
+  "DPI": 600,
+  "TIF_mode": "RGB",
+  "TIF_compression": "lossless Adobe Deflate",
+  "figure_panels": 72,
+  "period_block_order": "T1 top-left, T2 top-right, T3 bottom-left, T4 bottom-right",
+  "method_columns": [
+    "Selective reference",
+    "U-Net",
+    "DeepLabV3+",
+    "SegFormer-B0"
+  ],
+  "rows": [
+    "Full overlay",
+    "Full temporal roots, background removed",
+    "Local overlay",
+    "Local temporal roots, background removed"
+  ],
+  "ROI_xyxy": [
+    1428,
+    852,
+    1684,
+    1108
+  ],
+  "ROI_selection": "Maximum median reference root content across dates among the same six internal test windows; no prediction score used",
+  "ROI_candidates": [
+    {
+      "tile_id": "P16",
+      "x": 1714,
+      "y": 284,
+      "root_pixels_by_period": [
+        3184,
+        4771,
+        5610,
+        5335
+      ],
+      "median_root_pixels": 5053.0
+    },
+    {
+      "tile_id": "P22",
+      "x": 857,
+      "y": 568,
+      "root_pixels_by_period": [
+        1499,
+        3225,
+        4684,
+        4227
+      ],
+      "median_root_pixels": 3726.0
+    },
+    {
+      "tile_id": "P23",
+      "x": 1142,
+      "y": 568,
+      "root_pixels_by_period": [
+        2154,
+        5324,
+        5685,
+        3203
+      ],
+      "median_root_pixels": 4263.5
+    },
+    {
+      "tile_id": "P28",
+      "x": 0,
+      "y": 852,
+      "root_pixels_by_period": [
+        5124,
+        3888,
+        2807,
+        3209
+      ],
+      "median_root_pixels": 3548.5
+    },
+    {
+      "tile_id": "P30",
+      "x": 571,
+      "y": 852,
+      "root_pixels_by_period": [
+        3101,
+        2754,
+        3558,
+        3150
+      ],
+      "median_root_pixels": 3125.5
+    },
+    {
+      "tile_id": "P33",
+      "x": 1428,
+      "y": 852,
+      "root_pixels_by_period": [
+        5037,
+        8996,
+        9115,
+        8430
+      ],
+      "median_root_pixels": 8713.0
+    }
+  ],
+  "chosen_tile": "P33",
+  "scale_bars": "Pixels only",
+  "whole_fields_include_training_pixels": true,
+  "independent_external_test_images": 0,
+  "sources": [
+    {
+      "period": "T1",
+      "kind": "RGB",
+      "path": "results/B3_temporal_root_identity_v18/data/upper/T1_RGB.png",
+      "SHA256": "c8548de563b4d5ac0b223235758f7cdf6f118ac70614a7792a86f12fb9eb295b"
+    },
+    {
+      "period": "T1",
+      "kind": "manual_classes_U_Net_morphology_reference",
+      "path": "results/B3_temporal_root_identity_v18/data/revised/T1_classes.png",
+      "SHA256": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f"
+    },
+    {
+      "period": "T1",
+      "kind": "unet",
+      "path": "results/B3_temporal_root_identity_v18/unet/four_period_prediction/T1_temporal_classes.png",
+      "SHA256": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f"
+    },
+    {
+      "period": "T1",
+      "kind": "deeplab",
+      "path": "results/B3_temporal_root_identity_v18/deeplab/four_period_prediction/T1_temporal_classes.png",
+      "SHA256": "d90a338946882f573b48f1dd4f26aa45e1c13b61fdec43bbfba3f795909c7130"
+    },
+    {
+      "period": "T1",
+      "kind": "segformer",
+      "path": "results/B3_temporal_root_identity_v18/segformer/four_period_prediction/T1_temporal_classes.png",
+      "SHA256": "75e7dd88270f995a0916326fd40e1bd0a9b106a85ae8487e007f6562ed6445cb"
+    },
+    {
+      "period": "T2",
+      "kind": "RGB",
+      "path": "results/B3_temporal_root_identity_v18/data/upper/T2_RGB.png",
+      "SHA256": "e65b91ef07abea8527b71a97a37e2ff19ca1a6527ff0090970cf084bba338b3c"
+    },
+    {
+      "period": "T2",
+      "kind": "manual_classes_U_Net_morphology_reference",
+      "path": "results/B3_temporal_root_identity_v18/data/revised/T2_classes.png",
+      "SHA256": "39bc43e54c6d2bedb67fd1f55890d8a0598bc0541a9fa7fccccadb8d34e0d361"
+    },
+    {
+      "period": "T2",
+      "kind": "unet",
+      "path": "results/B3_temporal_root_identity_v18/unet/four_period_prediction/T2_temporal_classes.png",
+      "SHA256": "aac119b180399f1a4baa83d952554f4d7a3bd62497f888d5655c9b31c8b5e35a"
+    },
+    {
+      "period": "T2",
+      "kind": "deeplab",
+      "path": "results/B3_temporal_root_identity_v18/deeplab/four_period_prediction/T2_temporal_classes.png",
+      "SHA256": "b4b41b9d055826aa2369647bd0fbb98a7a59d8f6ee0c1696c417544e173d11ff"
+    },
+    {
+      "period": "T2",
+      "kind": "segformer",
+      "path": "results/B3_temporal_root_identity_v18/segformer/four_period_prediction/T2_temporal_classes.png",
+      "SHA256": "6da51af5a2fadaaba84ef0b14f41f11fd98e579ba1574b26dca143c44028148e"
+    },
+    {
+      "period": "T3",
+      "kind": "RGB",
+      "path": "results/B3_temporal_root_identity_v18/data/upper/T3_RGB.png",
+      "SHA256": "3df9bca33ebd9ee88a2eab874143569d5f8d9cdb7cd49d326754791f1b58e8e6"
+    },
+    {
+      "period": "T3",
+      "kind": "manual_classes_U_Net_morphology_reference",
+      "path": "results/B3_temporal_root_identity_v18/data/revised/T3_classes.png",
+      "SHA256": "6362ec6c539fbc9af51362032933c920734b6c5af5b63f7da96bc975c0402dfe"
+    },
+    {
+      "period": "T3",
+      "kind": "unet",
+      "path": "results/B3_temporal_root_identity_v18/unet/four_period_prediction/T3_temporal_classes.png",
+      "SHA256": "c308574997ad67cf22ebe6738c2a492a679299092a2c7d0fb9fd0fbeebe6f18c"
+    },
+    {
+      "period": "T3",
+      "kind": "deeplab",
+      "path": "results/B3_temporal_root_identity_v18/deeplab/four_period_prediction/T3_temporal_classes.png",
+      "SHA256": "75bc79f472bfba4b3b2a23c38fe7f5f412bb2a05b41f8a8b5d62bd7f725d8833"
+    },
+    {
+      "period": "T3",
+      "kind": "segformer",
+      "path": "results/B3_temporal_root_identity_v18/segformer/four_period_prediction/T3_temporal_classes.png",
+      "SHA256": "2b03f09dc4e03b34a4a7d47e322e54d96eaee53adab61bc4c057e89a51f97266"
+    },
+    {
+      "period": "T4",
+      "kind": "RGB",
+      "path": "results/B3_temporal_root_identity_v18/data/upper/T4_RGB.png",
+      "SHA256": "d43a5d5fd491ed05579f2f32bc853808165431ef15c30eac48f143b20160bdea"
+    },
+    {
+      "period": "T4",
+      "kind": "manual_classes_U_Net_morphology_reference",
+      "path": "results/B3_temporal_root_identity_v18/data/revised/T4_classes.png",
+      "SHA256": "d62f2a6b3fbfc4156c4f902358d23b17ce94f7c6bdb506a9dc23bbc4bebc114d"
+    },
+    {
+      "period": "T4",
+      "kind": "unet",
+      "path": "results/B3_temporal_root_identity_v18/unet/four_period_prediction/T4_temporal_classes.png",
+      "SHA256": "f43a219ffea8a4b899b79ccef69b550852a269f14f8296c8cbc0923892e96052"
+    },
+    {
+      "period": "T4",
+      "kind": "deeplab",
+      "path": "results/B3_temporal_root_identity_v18/deeplab/four_period_prediction/T4_temporal_classes.png",
+      "SHA256": "c48bb8107094c409e54771fddf55fc48c0162f1054fcddf135de57a6c6873d2c"
+    },
+    {
+      "period": "T4",
+      "kind": "segformer",
+      "path": "results/B3_temporal_root_identity_v18/segformer/four_period_prediction/T4_temporal_classes.png",
+      "SHA256": "fb1096d511fd1c12f69cda9acf7f813b059031d0268bdd6b63877a4776fdb785"
+    }
+  ],
+  "output": {
+    "file": "0353-2-B3_temporal_integrated_v18.tif",
+    "bytes": 32605718,
+    "SHA256": "4f46007f3d8d60cef11b8cbf30610fc49f1652c8a25104c8032684373f9686af"
+  },
+  "root_only_panels": "Categorical colors on near-white background; native RGB root cutouts additionally retained in model results"
+}

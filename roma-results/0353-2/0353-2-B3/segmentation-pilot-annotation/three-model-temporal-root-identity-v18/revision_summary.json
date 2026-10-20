@@ -1,0 +1,30 @@
+[
+  {
+    "period": "T1",
+    "semantic_pixels_changed": 0,
+    "root_pixels": 104518,
+    "untyped_pixels": 0,
+    "root_geometry_unchanged": true
+  },
+  {
+    "period": "T2",
+    "semantic_pixels_changed": 2142,
+    "root_pixels": 152193,
+    "untyped_pixels": 5405,
+    "root_geometry_unchanged": true
+  },
+  {
+    "period": "T3",
+    "semantic_pixels_changed": 885,
+    "root_pixels": 168984,
+    "untyped_pixels": 6576,
+    "root_geometry_unchanged": true
+  },
+  {
+    "period": "T4",
+    "semantic_pixels_changed": 554,
+    "root_pixels": 147533,
+    "untyped_pixels": 5630,
+    "root_geometry_unchanged": true
+  }
+]

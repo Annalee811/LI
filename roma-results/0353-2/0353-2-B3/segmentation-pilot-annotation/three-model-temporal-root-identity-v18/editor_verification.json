@@ -1,0 +1,10 @@
+{
+  "browser": "Chromium via Playwright",
+  "preloaded_four_RGB": true,
+  "baseline_only_in_T1": true,
+  "real_pointer_brush_and_CtrlZ": true,
+  "zoom_preserved_across_dates": true,
+  "saved_JSON_retains_source_and_four_images": true,
+  "saved_JSON_reimport": true,
+  "page_errors": []
+}

@@ -1,0 +1,19 @@
+﻿model,version,period,scope,eligible_axes_20_owned_nodes,axes_with_new_and_growth,axes_with_new_and_persistent,direct_new_growth_switches,class_switches,switches_per_1000_edges,runs_shorter_than5px
+unet,V17,T2,"Full upper field, includes training pixels; same learned routes for before/after",303,7,18,5,72,2.089439623900868,6
+unet,V17,T3,"Full upper field, includes training pixels; same learned routes for before/after",333,4,6,2,63,1.5915923502513705,5
+unet,V17,T4,"Full upper field, includes training pixels; same learned routes for before/after",321,0,1,0,4,0.11177555468619013,0
+unet,root_identity_v18,T2,"Full upper field, includes training pixels; same learned routes for before/after",303,0,0,0,23,0.6674598798572217,1
+unet,root_identity_v18,T3,"Full upper field, includes training pixels; same learned routes for before/after",333,0,0,0,18,0.4547406715003916,0
+unet,root_identity_v18,T4,"Full upper field, includes training pixels; same learned routes for before/after",321,0,0,0,2,0.055887777343095066,0
+deeplab,V17,T2,"Full upper field, includes training pixels; same learned routes for before/after",321,4,10,4,44,1.509433962264151,1
+deeplab,V17,T3,"Full upper field, includes training pixels; same learned routes for before/after",333,2,12,0,50,1.3560057494643778,3
+deeplab,V17,T4,"Full upper field, includes training pixels; same learned routes for before/after",286,0,1,0,7,0.2447039082709921,2
+deeplab,root_identity_v18,T2,"Full upper field, includes training pixels; same learned routes for before/after",321,0,0,0,21,0.7204116638078902,1
+deeplab,root_identity_v18,T3,"Full upper field, includes training pixels; same learned routes for before/after",333,0,0,0,18,0.48816206980717597,2
+deeplab,root_identity_v18,T4,"Full upper field, includes training pixels; same learned routes for before/after",286,0,0,0,2,0.0699154023631406,0
+segformer,V17,T2,"Full upper field, includes training pixels; same learned routes for before/after",312,8,17,8,83,2.946187704103365,7
+segformer,V17,T3,"Full upper field, includes training pixels; same learned routes for before/after",339,1,6,0,41,1.2682504330611235,4
+segformer,V17,T4,"Full upper field, includes training pixels; same learned routes for before/after",314,2,2,2,12,0.4667263039166116,3
+segformer,root_identity_v18,T2,"Full upper field, includes training pixels; same learned routes for before/after",312,0,0,0,24,0.8519096975720574,0
+segformer,root_identity_v18,T3,"Full upper field, includes training pixels; same learned routes for before/after",339,0,0,0,18,0.5567928730512249,0
+segformer,root_identity_v18,T4,"Full upper field, includes training pixels; same learned routes for before/after",314,0,0,0,2,0.07778771731943526,0
