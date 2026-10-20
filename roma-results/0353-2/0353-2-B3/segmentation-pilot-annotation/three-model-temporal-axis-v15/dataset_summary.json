@@ -1,0 +1,24 @@
+{
+  "RGB_size_wh": [
+    2541,
+    1108
+  ],
+  "train_validation_internal_test_RGBs": [
+    200,
+    20,
+    24
+  ],
+  "paired_examples": [
+    150,
+    15,
+    18
+  ],
+  "base_train_validation_test_locations": [
+    25,
+    5,
+    6
+  ],
+  "shifted_training_views": 25,
+  "all_four_dates_same_split": true,
+  "independent_external_test_images": 0
+}

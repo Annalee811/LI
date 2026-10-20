@@ -1,0 +1,81 @@
+{
+  "version": "temporal_axis_v15",
+  "packages": [
+    {
+      "file": "0353-2-B3_v15_annotation_review.zip",
+      "bytes": 20561306,
+      "SHA256": "d5222bb73db2ae5cd4cd806643617d571a25e5d48f8fd0a6b016bf332c4c2df3",
+      "files": 8
+    },
+    {
+      "file": "0353-2-B3_v15_training_data.zip",
+      "bytes": 67686730,
+      "SHA256": "8d2496a880a13b2c2385c4559893581df9ccb5107c35b8852262c23f4e2d4c27",
+      "files": 777
+    },
+    {
+      "file": "0353-2-B3_v15_segmentation_unet.zip",
+      "bytes": 88444708,
+      "SHA256": "918108dc823b1333b8b3b8927b303349b1bac614bad2ccd9f551563f9e7181fd",
+      "files": 126
+    },
+    {
+      "file": "0353-2-B3_v15_segmentation_deeplab.zip",
+      "bytes": 89844571,
+      "SHA256": "bee8a6447802010244d70761f3a75db7bf8422e09bfd572c58557105aabbb080",
+      "files": 126
+    },
+    {
+      "file": "0353-2-B3_v15_segmentation_segformer.zip",
+      "bytes": 89335304,
+      "SHA256": "8a6d98854f210e47ae97e72a1a4d2db770d5076d3ac63c2e1716d12fa99fcf9a",
+      "files": 126
+    },
+    {
+      "file": "0353-2-B3_v15_weights_torch_and_temporal.zip",
+      "bytes": 63601176,
+      "SHA256": "ff9fa52bbbd7e5c3fab41ff38141af5b790719f000d973344e674db626297b3a",
+      "files": 18
+    },
+    {
+      "file": "0353-2-B3_v15_weights_deeplab.zip",
+      "bytes": 67830292,
+      "SHA256": "1cd59b08ef913aed14e03210a49140a65719b96be740287f40e62bbcce339810",
+      "files": 7
+    },
+    {
+      "file": "0353-2-B3_v15_complete_scripts.zip",
+      "bytes": 281230,
+      "SHA256": "767e906fd4f8ecba054d30f1204f276b926ee41aabeafc7b822fa6ab03c78e84",
+      "files": 103
+    },
+    {
+      "file": "0353-2-B3_v15_paper_RGB_full.zip",
+      "bytes": 38160084,
+      "SHA256": "bb402fa5710060fb021de2ecb3456ffd1fcedb62294e8c6151c2c223460c2e71",
+      "files": 3
+    },
+    {
+      "file": "0353-2-B3_v15_paper_RGB_local.zip",
+      "bytes": 61548174,
+      "SHA256": "9d327811567a22996b77bbf18ec51274787172237e7ad73f99b33492f2ef0d08",
+      "files": 3
+    },
+    {
+      "file": "0353-2-B3_v15_paper_axes_and_evaluation.zip",
+      "bytes": 83832791,
+      "SHA256": "bca8aeec7e87b38670d1b29792e1c67153419c64b0d10b4090bcbbb8d0d20371",
+      "files": 49
+    }
+  ],
+  "direct_figures": [
+    {
+      "file": "Fig6_RGB_root_axis_continuity.tif",
+      "bytes": 66213928,
+      "SHA256": "0ffa3405fbdb03dc88a5b6e0f234315036d1b6924dd312ce673ce0567d59b8d1"
+    }
+  ],
+  "all_ZIP_CRC_verified": true,
+  "original_human_temporal_pixels_changed": 0,
+  "independent_external_test_images": 0
+}

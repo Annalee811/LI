@@ -1,0 +1,31 @@
+{
+  "version": "temporal_axis_v15",
+  "position_id": "0353-2-B3",
+  "original_progress_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "reference_type": "Original human temporal semantics with narrow U-Net morphology expansion",
+  "teacher_temporal_predictions_used": false,
+  "human_original_typed_pixels_reclassified": 0,
+  "all_original_root_pixels_retained": true,
+  "morphology_max_expansion_native_pixels": 6,
+  "untraced_model_only_roots_not_promoted_to_human_temporal_truth": true,
+  "T1": "all baseline",
+  "later_dates": "relative to immediately preceding period",
+  "death_included": false,
+  "model_codes": {
+    "0": "background",
+    "1": "persistent",
+    "2": "newly_observed",
+    "3": "tip_growth",
+    "4": "baseline",
+    "255": "untyped/ignore"
+  },
+  "UI_codes": {
+    "1": "new",
+    "2": "growth",
+    "3": "persistent",
+    "4": "baseline"
+  },
+  "independent_external_test_images": 0,
+  "historical_same_field_exposure": true,
+  "original_RGB_unchanged": true
+}

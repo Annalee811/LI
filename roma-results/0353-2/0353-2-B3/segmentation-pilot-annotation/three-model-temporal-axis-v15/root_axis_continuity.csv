@@ -1,0 +1,10 @@
+﻿model,period,traced_axes,new_growth_mixed_axes_before,new_growth_mixed_axes_after,unresolved_crossing_axes,temporal_review_pixels,growth_continuation_fragments
+unet,T2,650,103,0,294,13141,0
+unet,T3,709,72,0,344,12979,1
+unet,T4,713,9,0,303,6789,1
+deeplab,T2,1251,0,0,444,7953,0
+deeplab,T3,1041,0,0,429,9600,0
+deeplab,T4,872,0,0,266,2662,0
+segformer,T2,1473,75,0,563,11933,0
+segformer,T3,1309,52,0,541,13534,0
+segformer,T4,1071,21,0,384,5737,0
