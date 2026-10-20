@@ -1,0 +1,26 @@
+[
+  {
+    "model": "unet",
+    "file": "unet/best.pt",
+    "bytes": 50039511,
+    "sha256": "92ddbd3a440417dc47ff21045ba23318a81176fd61c10478c0da8713ee3e928b"
+  },
+  {
+    "model": "segformer",
+    "file": "segformer/best.pt",
+    "bytes": 14944565,
+    "sha256": "f014d062a7849cbd42bd1ac7adc36d95dd323f770b82db7153ca2579615cd1e6"
+  },
+  {
+    "model": "deeplab",
+    "file": "deeplab/best_weights_fp16.npz",
+    "bytes": 67624935,
+    "sha256": "dcffc0aab642bcd23827082eb13fdecee8d3ef21bb66ad21516d5d4dcc6501c3"
+  },
+  {
+    "model": "deeplab",
+    "file": "deeplab/weight_names.json",
+    "bytes": 20614,
+    "sha256": "727347b69a48c57e16beb088025a72a0ab47eafc8068bb4e9ba2c2fcfd879884"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "README.md": "2e34001ded135d86256eb3f87ff4b0e19ad5fd4e444a8dd109744a351ff2659b",
+  "common.py": "5952ecdd7382798642426c965f94e98e3cfce27d6168f17b7b572305168a8a17",
+  "configuration.json": "778e8fcc21391023ce66aa2c8da2003c330006e1600bec8f573858821d1cc3e3",
+  "fetch_initialization.py": "c519de9f4db9ed234993d9917f355097f9a753bb1bac62582039e01b81d61f19",
+  "inference_inputs.json": "eb4247657548ef897166c70cbdd932aa63f82f1362461bd7435a9be11c53f815",
+  "initialization.json": "5b95829d75bfaaccbafa0400af08d1e39c5b179f241fb4b63bd945b077dd3583",
+  "models.py": "22aea055ec28d6b733c68e2b62b9cc3c14ac88689a438dec5ae3c3f3924a3adf",
+  "prepare_data.py": "6ea496dac8008ea591f655dee55749392d7dfd62fc5a1a73e1da603f9b0466c8",
+  "requirements.txt": "ea4a1ba46f19e4c4fc0b804e2919d7e63c7670f6d48aacf10aa74ec50169267f",
+  "runtime/Dockerfile": "d860872d67168bfe0b823bee1dfbd2633ae3be809897e2f3cfdb51e19322d493",
+  "runtime/prepare_runtime.py": "105044a6c770f059fcbaea6429a2bf98794f00ef6aab595734fa693fc0074b8d",
+  "tf_python.sh": "180d9fbf830d5e83da4703c594554bbe26ea2c33c3990b636ff2d992b4314a29",
+  "train_all.py": "835eb2d622784a53f3dc921e227f0cebbd5982cb9775816d0c047bf61fd54155",
+  "train_tf.py": "951dfd9acc1b0fb0926c1f2c2da5bf0c606164659d8086883ebf27dc9bbbfb19",
+  "train_torch.py": "56b3bc711a1d8c70c5b2e6538d621d17510a3edbc015223b4da82726d16653a0",
+  "training_manifest.csv": "be751056b6ed998aed8b56c16f363d6b0cb1b10063794397fa3d99bb1780e4e1",
+  "vendor/deeplab/LICENSE": "ca917c77c54489e564d4c20319a99c3d822c67125f54c831214d1c5cf91a0a42",
+  "vendor/deeplab/deeplab_model.py": "ba0e931160d08519b9c8f3fe23c61b0678c4faa0b8818c38e04d533ef75ad361",
+  "vendor/deeplab/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "vendor/deeplab/utils/dataset_util.py": "abdae52be403f436d61884a3a2b60870666127cc11c1a7ee3cd378fda16091a3",
+  "vendor/deeplab/utils/preprocessing.py": "44e221cf60e483a717652731db24e59f7bcc7e10e03ea2684c7ef0f47099121d"
+}

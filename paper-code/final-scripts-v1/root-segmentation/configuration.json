@@ -1,0 +1,27 @@
+{
+  "seed": 20261018,
+  "epochs": 20,
+  "batch_size": 2,
+  "samples_per_epoch": 64,
+  "threads": {
+    "unet": 3,
+    "segformer": 3,
+    "deeplab": 2
+  },
+  "learning_rate": 8e-05,
+  "weight_decay": 0.0001,
+  "patch_size": 256,
+  "manifest_sha256": "be751056b6ed998aed8b56c16f363d6b0cb1b10063794397fa3d99bb1780e4e1",
+  "mask_values": {
+    "background": 0,
+    "ignore": 128,
+    "root": 255
+  },
+  "model_selection": "Maximum validation Dice at threshold 0.5, measured every two epochs; epoch zero eligible",
+  "threshold_selection": "Validation only, 0.1 to 0.9 inclusive in steps of 0.025",
+  "initial_checkpoint_sha256": {
+    "unet": "92ddbd3a440417dc47ff21045ba23318a81176fd61c10478c0da8713ee3e928b",
+    "segformer": "f014d062a7849cbd42bd1ac7adc36d95dd323f770b82db7153ca2579615cd1e6",
+    "deeplab": "dcffc0aab642bcd23827082eb13fdecee8d3ef21bb66ad21516d5d4dcc6501c3"
+  }
+}
