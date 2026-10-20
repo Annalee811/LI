@@ -1,0 +1,33 @@
+{
+  "version": "temporal_reference_v14",
+  "position_id": "0353-2-B3",
+  "scope": "Four 2541x1108 upper RGBs only; lower source images and original progress untouched",
+  "reference_type": "Model-derived U-Net temporal revised reference, not independent human truth",
+  "teacher_root_checkpoint_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+  "teacher_temporal_head_SHA256": "131bec02f1c2230e66f328547e3e09d6a4f968a32ed9f39e468bc6127294e36c",
+  "teacher_temporal_head_was_all_upper_fit": true,
+  "teacher_inference_sha256": "7cdf0e057c6e92e965a78d1243892cf656e72d7a16200debd8fc87b249e30513",
+  "original_progress_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "T1": "all teacher roots baseline",
+  "later_dates": "relative to immediately preceding date",
+  "death_included": false,
+  "root_and_temporal_masks_replaced_in_upper_reference": true,
+  "model_weights_modified": false,
+  "training_uses_revised_references": true,
+  "checkpoint_selection": "Revised validation agreement; original labels retained as audit",
+  "evaluation_warning": "Teacher saw same-field all-upper labels; v13 warm starts used a different same-field split. Neither comparison is a new blind or external independent test.",
+  "raw_UI_temporal_codes": {
+    "0": "unclassified",
+    "1": "newly_observed",
+    "2": "tip_growth",
+    "3": "persistent",
+    "4": "T1_baseline"
+  },
+  "model_class_codes": {
+    "0": "background",
+    "1": "persistent",
+    "2": "newly_observed",
+    "3": "tip_growth",
+    "4": "T1_baseline"
+  }
+}

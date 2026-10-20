@@ -1,0 +1,31 @@
+{
+  "original_RGBs": 4,
+  "source_size_wh": [
+    2541,
+    1108
+  ],
+  "spatial_windows": {
+    "train": 50,
+    "val": 5,
+    "test": 6
+  },
+  "paired_examples": {
+    "train": 150,
+    "val": 15,
+    "test": 18
+  },
+  "train_base_spatial_positions": 25,
+  "train_shifted_positions": 25,
+  "validation_spatial_positions": 5,
+  "test_spatial_positions": 6,
+  "dates_always_same_split": true,
+  "cross_split_pixel_overlap": 0,
+  "temporal_pairs": [
+    "T1->T2",
+    "T2->T3",
+    "T3->T4"
+  ],
+  "T1_is_deterministic_baseline_not_a_temporal_training_pair": true,
+  "independent_external_test_images": 0,
+  "historical_warmstart_exposure_possible": true
+}

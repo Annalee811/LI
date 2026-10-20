@@ -1,0 +1,19 @@
+{
+  "references": {
+    "original": "Original retained user labels, same-field development audit",
+    "revised": "U-Net-derived pseudo-reference; agreement only"
+  },
+  "checkpoint_selection": "Revised validation macroDice; original data not used for selection this round",
+  "root_stage_frozen": true,
+  "temporal_heads_all_trained_24_epochs": true,
+  "selection_includes_epoch_zero": true,
+  "validation_pairs": 15,
+  "internal_test_pairs": 18,
+  "independent_external_test_images": 0,
+  "historical_same_field_warmstart_exposure_possible": true,
+  "teacher_used_all_upper_human_labels_in_previous_fit": true,
+  "no_independent_manual_length_measurement": true,
+  "length_units": "skeleton pixel counts, not calibrated physical root lengths",
+  "full_upper_maps_include_training_pixels": true,
+  "T1_baseline_not_inflated_into_temporal_macro_Dice": true
+}

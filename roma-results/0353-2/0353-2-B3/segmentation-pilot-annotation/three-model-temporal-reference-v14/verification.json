@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "checks": {
+    "original_human_JSON_byte_preserved": true,
+    "source_provenance_preserved": true,
+    "four_RGB_and_UI_class_mapping": true,
+    "all_dates_grouped_zero_cross_split_pixels": true,
+    "identical_three_model_draws": true,
+    "actual_trained_heads_reload_all_18_test_pairs": true,
+    "root_weights_RGB_and_foreground_pixels_unchanged": true,
+    "full_outputs_match_calibrated_head_hash": true,
+    "browser_brush_undo_zoom_save_reimport": true
+  },
+  "models": {
+    "unet": {
+      "epochs": 24,
+      "optimizer_updates": 384,
+      "selected_epoch": 24,
+      "selected_head_SHA256": "51bebe4276b71df5f2ed14de237a298426285bc48246f647251296226db487c4",
+      "frozen_root_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+      "all_test_metrics_reproduced_by_checkpoint_reload": true,
+      "revised_test_macro_Dice": 0.7979552193302739,
+      "original_test_macro_Dice": 0.47464840143403325
+    },
+    "deeplab": {
+      "epochs": 24,
+      "optimizer_updates": 384,
+      "selected_epoch": 20,
+      "selected_head_SHA256": "628cf2b309be24a99d0f6f468e4842164c5c83e3982e9057925bc8d7780b94ec",
+      "frozen_root_SHA256": "d0a606f9fd335959f9612bd7bd9750839c0750ceceb878913abed99abb61473f",
+      "all_test_metrics_reproduced_by_checkpoint_reload": true,
+      "revised_test_macro_Dice": 0.4741962334523153,
+      "original_test_macro_Dice": 0.3614123524928287
+    },
+    "segformer": {
+      "epochs": 24,
+      "optimizer_updates": 384,
+      "selected_epoch": 12,
+      "selected_head_SHA256": "0f110868545e945225537000a7d6d3bf892e24aad3c5b5e72d70df9def83afcc",
+      "frozen_root_SHA256": "7ef91f106a3b5f7675e8443faed42a339dfba5d4624515239ab6c38a61fe91a9",
+      "all_test_metrics_reproduced_by_checkpoint_reload": true,
+      "revised_test_macro_Dice": 0.5238008688045153,
+      "original_test_macro_Dice": 0.3586143587310793
+    }
+  },
+  "limitations": "Same-field model-derived reference agreement; no independent external test or manual physical length truth"
+}
