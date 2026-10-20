@@ -1,0 +1,27 @@
+{
+  "references": {
+    "original": "Original human temporal/geometry labels, same-field development audit",
+    "revised": "Latest v15 U-Net-derived morphology and temporal classes; not independent human truth"
+  },
+  "checkpoint_selection": "U-Net-reference full-frame validation whole-axis macroDice every4epochs; decoder strength on same validation windows",
+  "root_stage_frozen": true,
+  "temporal_heads_all_trained_24_epochs": true,
+  "selection_includes_epoch_zero": true,
+  "validation_pairs": 15,
+  "internal_test_pairs": 18,
+  "independent_external_test_images": 0,
+  "historical_same_field_warmstart_exposure_possible": true,
+  "U_Net_temporal_teacher_used": true,
+  "original_human_preserved_separately": true,
+  "whole_axis_prediction_context_crosses_split_windows": true,
+  "no_independent_manual_length_measurement": true,
+  "length_units": "skeleton pixel counts, not calibrated physical root lengths",
+  "full_upper_maps_include_training_pixels": true,
+  "root_frameworks": {
+    "unet": "PyTorch",
+    "deeplab": "TensorFlow1.12",
+    "segformer": "PyTorch"
+  },
+  "temporal_framework": "PyTorch",
+  "T1_baseline_not_inflated_into_temporal_macro_Dice": true
+}

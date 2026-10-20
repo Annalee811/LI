@@ -1,0 +1,31 @@
+{
+  "version": "temporal_reference_v16",
+  "position_id": "0353-2-B3",
+  "reference_type": "U-Net-derived temporal and morphology reference; pending user review",
+  "teacher_head_SHA256": "843cbd2cabc25aeeec79aafc020c73f64e880322754cfe76619e771d83bd33e2",
+  "original_human_progress_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "original_human_preserved_separately": true,
+  "teacher_uses_same_field_historical_training": true,
+  "reference_is_independent_human_truth": false,
+  "T1": "baseline only",
+  "T2_T3_T4": "Relative to the immediately preceding date",
+  "death_included": false,
+  "model_codes": {
+    "0": "background",
+    "1": "persistent",
+    "2": "new",
+    "3": "tip_growth",
+    "4": "baseline",
+    "255": "ignore"
+  },
+  "UI_codes": {
+    "1": "new",
+    "2": "growth",
+    "3": "persistent",
+    "4": "baseline"
+  },
+  "independent_external_test_images": 0,
+  "RGB_native_unchanged": true,
+  "teacher_confidence_filter": false,
+  "all_reference_root_pixels_included": true
+}

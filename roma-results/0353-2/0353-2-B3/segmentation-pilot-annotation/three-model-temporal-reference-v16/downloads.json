@@ -1,0 +1,70 @@
+{
+  "version": "temporal_reference_v16",
+  "packages": [
+    {
+      "file": "0353-2-B3_v16_annotation_review.zip",
+      "bytes": 61949688,
+      "SHA256": "7b8520b1c12e06b6fc98ffccab38df0102b22640c7ee28105857d66aebd9b09c",
+      "files": 36
+    },
+    {
+      "file": "0353-2-B3_v16_training_data.zip",
+      "bytes": 70144252,
+      "SHA256": "1fe92098bcadeb1d64371bf96a91c6d6c83947eb2c785320ac4d363d1104caeb",
+      "files": 789
+    },
+    {
+      "file": "0353-2-B3_v16_segmentation_unet.zip",
+      "bytes": 88440781,
+      "SHA256": "e54e87254532599daf0639852d0c9aa0ed15b7857356e9742a70339fb2c019b0",
+      "files": 128
+    },
+    {
+      "file": "0353-2-B3_v16_segmentation_deeplab.zip",
+      "bytes": 89844597,
+      "SHA256": "cc27d64529f6d893e12a6e334090bd7069083761e42df9c200be38cf3b4f924c",
+      "files": 128
+    },
+    {
+      "file": "0353-2-B3_v16_segmentation_segformer.zip",
+      "bytes": 89309971,
+      "SHA256": "03b4d7e5d8d79e181ccfd150b8ef347f09c8d22f8f430eaed8196287f3be7988",
+      "files": 128
+    },
+    {
+      "file": "0353-2-B3_v16_weights_torch_and_temporal.zip",
+      "bytes": 63615782,
+      "SHA256": "f1c4024f8b49afe2dfc24985b88b2bcfeb79ba6d3c1b4d34ca6d73384509da48",
+      "files": 27
+    },
+    {
+      "file": "0353-2-B3_v16_weights_deeplab.zip",
+      "bytes": 67827720,
+      "SHA256": "8b7869dd3f0b01cc5389642906e76ad9dee32041737549c135442816610032b0",
+      "files": 7
+    },
+    {
+      "file": "0353-2-B3_v16_complete_scripts.zip",
+      "bytes": 344849,
+      "SHA256": "0ca571b188e98de8ed64f2d8d1f77cf7dc93f065d1ee52a4ec70e33c32c7e695",
+      "files": 129
+    },
+    {
+      "file": "0353-2-B3_v16_paper_figures.zip",
+      "bytes": 83180711,
+      "SHA256": "7558a3c36263650d1b96467ea65d1d443171c7772e4311355fc9150dbdce11d8",
+      "files": 53
+    }
+  ],
+  "direct_figures": [
+    {
+      "file": "0353-2-B3_temporal_integrated_v16.tif",
+      "bytes": 32232798,
+      "SHA256": "01c87bdd5ca630ca0a4d14e312c38a0f4c7e117ffce2372162c351e58aabe077"
+    }
+  ],
+  "all_ZIP_CRC_verified": true,
+  "reference_is_U_Net_derived": true,
+  "original_human_preserved_separately": true,
+  "independent_external_test_images": 0
+}

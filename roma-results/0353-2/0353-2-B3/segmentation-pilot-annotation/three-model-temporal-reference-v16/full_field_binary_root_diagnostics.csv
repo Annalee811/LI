@@ -1,0 +1,13 @@
+﻿model,period,scope,root_Dice,root_Recall,reference_root_pixels,predicted_root_pixels
+unet,T1,"Full upper field, descriptive and includes training pixels",1.0,1.0,104518,104518
+unet,T2,"Full upper field, descriptive and includes training pixels",1.0,1.0,152193,152193
+unet,T3,"Full upper field, descriptive and includes training pixels",1.0,1.0,168984,168984
+unet,T4,"Full upper field, descriptive and includes training pixels",1.0,1.0,147533,147533
+deeplab,T1,"Full upper field, descriptive and includes training pixels",0.747481432458269,0.6807918253315218,104518,85868
+deeplab,T2,"Full upper field, descriptive and includes training pixels",0.7898194736077546,0.7859428488826687,152193,150699
+deeplab,T3,"Full upper field, descriptive and includes training pixels",0.8202059209118885,0.8848530038346826,168984,195622
+deeplab,T4,"Full upper field, descriptive and includes training pixels",0.7726530390048723,0.7696312011549958,147533,146379
+segformer,T1,"Full upper field, descriptive and includes training pixels",0.718498950961528,0.6323695440019901,104518,79460
+segformer,T2,"Full upper field, descriptive and includes training pixels",0.7901320540596306,0.8051618668401306,152193,157983
+segformer,T3,"Full upper field, descriptive and includes training pixels",0.7936092044041093,0.815550584670738,168984,178328
+segformer,T4,"Full upper field, descriptive and includes training pixels",0.7728260830509753,0.7289419994170796,147533,130778

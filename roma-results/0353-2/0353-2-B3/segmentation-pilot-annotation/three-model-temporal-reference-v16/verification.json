@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "checks": {
+    "original_JSON_byte_preserved": true,
+    "U_Net_teacher_reference_exact_and_separately_versioned": true,
+    "native_RGB_byte_preserved": true,
+    "all_dates_grouped_and_cross_split_pixel_overlap_zero": true,
+    "identical_draws_three_models": true,
+    "root_weights_frozen": true,
+    "label_free_actual_head_reload_all_four_frames": true,
+    "all_val_test_confusions_recomputed": true,
+    "no_new_growth_mixture_inside_any_traced_axis": true,
+    "browser_brush_undo_zoom_save_reimport": true
+  },
+  "reference_revision": [
+    {
+      "period": "T1",
+      "teacher_reference_exact": true,
+      "root_pixels": 104518
+    },
+    {
+      "period": "T2",
+      "teacher_reference_exact": true,
+      "root_pixels": 152193
+    },
+    {
+      "period": "T3",
+      "teacher_reference_exact": true,
+      "root_pixels": 168984
+    },
+    {
+      "period": "T4",
+      "teacher_reference_exact": true,
+      "root_pixels": 147533
+    }
+  ],
+  "models": {
+    "unet": {
+      "selected_epoch": 0,
+      "epochs": 24,
+      "optimizer_updates": 384,
+      "head_SHA256": "06e6c2e2b084073dc82c0032bc7d7ea2cca360392cb4d1f6507b6f72bb868361",
+      "root_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+      "label_free_reload_all_four_periods_identical": true,
+      "original_test_macro_Dice": 0.4335199802423377,
+      "human_morphology_reference_test_macro_Dice": 1.0
+    },
+    "deeplab": {
+      "selected_epoch": 0,
+      "epochs": 24,
+      "optimizer_updates": 384,
+      "head_SHA256": "384cdada2d4fc0d5e21f2a259b8712a42072db57d451c54e8fe53e907eecea12",
+      "root_SHA256": "d0a606f9fd335959f9612bd7bd9750839c0750ceceb878913abed99abb61473f",
+      "label_free_reload_all_four_periods_identical": true,
+      "original_test_macro_Dice": 0.37741006359958423,
+      "human_morphology_reference_test_macro_Dice": 0.460368490314423
+    },
+    "segformer": {
+      "selected_epoch": 4,
+      "epochs": 24,
+      "optimizer_updates": 384,
+      "head_SHA256": "47db32ef2daf73c37826f223abeefa403457326f0d5e2c4db64ca246fbc345b9",
+      "root_SHA256": "7ef91f106a3b5f7675e8443faed42a339dfba5d4624515239ab6c38a61fe91a9",
+      "label_free_reload_all_four_periods_identical": true,
+      "original_test_macro_Dice": 0.32586104976198865,
+      "human_morphology_reference_test_macro_Dice": 0.4163750486948061
+    }
+  },
+  "grammar_is_a_constraint_not_proof_of_biological_identity": true,
+  "independent_external_test_images": 0,
+  "full_axis_context_crosses_internal_split_windows": true
+}
