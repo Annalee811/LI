@@ -1,0 +1,19 @@
+﻿model,version,period,scope,eligible_axes_20_owned_nodes,axes_with_new_and_growth,direct_new_growth_switches,class_switches,switches_per_1000_edges,runs_shorter_than5px
+unet,V14,T2,"Full upper field, includes training pixels; same learned routes for before/after",354,89,144,402,11.719774933675403,103
+unet,V14,T3,"Full upper field, includes training pixels; same learned routes for before/after",423,45,69,279,7.097069597069597,66
+unet,V14,T4,"Full upper field, includes training pixels; same learned routes for before/after",377,5,7,59,1.6669962987031335,17
+unet,manual_continuity_v17,T2,"Full upper field, includes training pixels; same learned routes for before/after",354,0,0,48,1.3993761114836303,4
+unet,manual_continuity_v17,T3,"Full upper field, includes training pixels; same learned routes for before/after",423,0,0,57,1.44993894993895,5
+unet,manual_continuity_v17,T4,"Full upper field, includes training pixels; same learned routes for before/after",377,0,0,3,0.0847625236628712,0
+deeplab,V14,T2,"Full upper field, includes training pixels; same learned routes for before/after",355,36,52,214,7.414336694037349,61
+deeplab,V14,T3,"Full upper field, includes training pixels; same learned routes for before/after",394,6,11,175,4.764757133522108,48
+deeplab,V14,T4,"Full upper field, includes training pixels; same learned routes for before/after",317,0,0,26,0.914816508919461,12
+deeplab,manual_continuity_v17,T2,"Full upper field, includes training pixels; same learned routes for before/after",355,0,0,31,1.0740394276409244,0
+deeplab,manual_continuity_v17,T3,"Full upper field, includes training pixels; same learned routes for before/after",394,0,0,36,0.980178610324548,3
+deeplab,manual_continuity_v17,T4,"Full upper field, includes training pixels; same learned routes for before/after",317,0,0,6,0.21111150205833715,2
+segformer,V14,T2,"Full upper field, includes training pixels; same learned routes for before/after",345,35,72,341,12.256928219690161,80
+segformer,V14,T3,"Full upper field, includes training pixels; same learned routes for before/after",399,14,25,194,6.0606060606060606,43
+segformer,V14,T4,"Full upper field, includes training pixels; same learned routes for before/after",335,0,0,29,1.1447067182442567,14
+segformer,manual_continuity_v17,T2,"Full upper field, includes training pixels; same learned routes for before/after",345,0,0,55,1.976923906401639,9
+segformer,manual_continuity_v17,T3,"Full upper field, includes training pixels; same learned routes for before/after",399,0,0,32,0.999687597625742,6
+segformer,manual_continuity_v17,T4,"Full upper field, includes training pixels; same learned routes for before/after",335,0,0,8,0.31578116365358805,1

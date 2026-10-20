@@ -1,0 +1,72 @@
+{
+  "version": "temporal_manual_continuity_v17",
+  "packages": [
+    {
+      "file": "0353-2-B3_v17_annotation_review.zip",
+      "bytes": 61954353,
+      "SHA256": "b9b9ee6586803aa8281ed283f04ba7e12ddfc1346db45816ccd6d7a0684d3cf1",
+      "files": 36
+    },
+    {
+      "file": "0353-2-B3_v17_training_data.zip",
+      "bytes": 72955172,
+      "SHA256": "17780fc5bb2f3a949a7b34b95b8e3920be14c9bc9c79eadce6f42224c31330a3",
+      "files": 1059
+    },
+    {
+      "file": "0353-2-B3_v17_segmentation_unet.zip",
+      "bytes": 88812409,
+      "SHA256": "911e3064d7a6cbed1bdc07041261f6844ff84f19eeaa2e48a015c04bc533c8d2",
+      "files": 133
+    },
+    {
+      "file": "0353-2-B3_v17_segmentation_deeplab.zip",
+      "bytes": 90229998,
+      "SHA256": "ceaaa54360ce9e577f231ee80df9c9d9f69c9cbf700382afac4a7d4726cb2c9c",
+      "files": 133
+    },
+    {
+      "file": "0353-2-B3_v17_segmentation_segformer.zip",
+      "bytes": 89690702,
+      "SHA256": "d584bc8b2605fe3f7eb9080e4e4ff4a7c253460fc6067366f9682d252941218e",
+      "files": 133
+    },
+    {
+      "file": "0353-2-B3_v17_weights_torch_and_temporal.zip",
+      "bytes": 63617944,
+      "SHA256": "d048266013520037c2797cb6433262a61a54c3530ca6fe30d2b2d669425bccee",
+      "files": 27
+    },
+    {
+      "file": "0353-2-B3_v17_weights_deeplab.zip",
+      "bytes": 67829079,
+      "SHA256": "24b3053d838f652ab38f2d7e367963db17f29713b799e12c784fed2a2d9222ba",
+      "files": 7
+    },
+    {
+      "file": "0353-2-B3_v17_complete_scripts.zip",
+      "bytes": 337766,
+      "SHA256": "9775af1230e51b9e00188c5ffc421cca533d9cb33b0017a0bb19d8dfde14358c",
+      "files": 129
+    },
+    {
+      "file": "0353-2-B3_v17_paper_figures.zip",
+      "bytes": 20160278,
+      "SHA256": "fb50c9ba0e47c57bdd7c7166d843c49d375681b88b5bca4234ca3774ace61162",
+      "files": 60
+    }
+  ],
+  "direct_figures": [
+    {
+      "file": "0353-2-B3_temporal_integrated_v17.tif",
+      "bytes": 32713568,
+      "SHA256": "07780adf5d2f4795a9fc2da7cc92c737bff969cbb05700d23ce1c380a43a6c74"
+    }
+  ],
+  "all_ZIP_CRC_verified": true,
+  "reference_temporal_classes_are_human": true,
+  "reference_morphology_is_U_Net_derived": true,
+  "V14_preserved": true,
+  "original_human_preserved_separately": true,
+  "independent_external_test_images": 0
+}

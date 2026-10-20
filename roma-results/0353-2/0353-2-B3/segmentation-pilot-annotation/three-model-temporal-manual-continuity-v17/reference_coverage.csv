@@ -1,0 +1,5 @@
+﻿period,reference_root_pixels,typed_reference_root_pixels,untyped_root_pixels,typed_root_fraction,description
+T1,104518,104518,0,1.0,Unknown model-added roots are explicitly untyped; no teacher temporal labels propagated
+T2,152193,146788,5405,0.9644858830563824,Unknown model-added roots are explicitly untyped; no teacher temporal labels propagated
+T3,168984,162408,6576,0.9610850731430195,Unknown model-added roots are explicitly untyped; no teacher temporal labels propagated
+T4,147533,141903,5630,0.9618390461794988,Unknown model-added roots are explicitly untyped; no teacher temporal labels propagated

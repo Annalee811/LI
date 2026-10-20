@@ -1,0 +1,7 @@
+﻿model,published_V14_reference,macro_Dice,evaluation
+unet,revised,0.7979552193302739,"Original V14 tilewise probabilities and chain decoder, fixed published values"
+unet,original,0.47464840143403325,"Original V14 tilewise probabilities and chain decoder, fixed published values"
+deeplab,revised,0.4741962334523153,"Original V14 tilewise probabilities and chain decoder, fixed published values"
+deeplab,original,0.3614123524928287,"Original V14 tilewise probabilities and chain decoder, fixed published values"
+segformer,revised,0.5238008688045153,"Original V14 tilewise probabilities and chain decoder, fixed published values"
+segformer,original,0.3586143587310793,"Original V14 tilewise probabilities and chain decoder, fixed published values"

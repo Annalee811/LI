@@ -1,0 +1,8 @@
+{
+  "user_requested_baseline": "V14",
+  "baseline_files_overwritten": false,
+  "V16_used": false,
+  "new_refinement_version": "temporal_manual_continuity_v17",
+  "manual_temporal_replacement": false,
+  "morphology_U_Net_adjusted": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": "temporal_manual_continuity_v17",
+  "position_id": "0353-2-B3",
+  "warm_start_version": "v14",
+  "reference_type": "Original human temporal semantics, U-Net-adjusted root morphology; unknown added roots untyped",
+  "temporal_teacher_replacement": false,
+  "original_human_typed_semantics_changed": 0,
+  "morphology_source_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+  "root_support_exact_U_Net": true,
+  "semantic_expansion_max_pixels": 8,
+  "ambiguous_class_boundaries_ignored": true,
+  "untraced_roots_not_assigned_a_temporal_class": true,
+  "original_progress_SHA256": "27943e5f9d087bf718668bba0a39058dc9a4871de6c75c5ccc27febad4c06a09",
+  "T1": "all roots baseline",
+  "later_dates": "relative to immediately preceding period",
+  "model_codes": {
+    "0": "background",
+    "1": "persistent",
+    "2": "newly_observed",
+    "3": "tip_growth",
+    "4": "baseline",
+    "255": "untyped/ignore"
+  },
+  "UI_codes": {
+    "1": "new",
+    "2": "growth",
+    "3": "persistent",
+    "4": "baseline"
+  },
+  "independent_external_test_images": 0,
+  "RGB_unchanged": true,
+  "death_included": false
+}

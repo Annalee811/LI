@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "checks": {
+    "original_human_JSON_byte_identical": true,
+    "typed_manual_classes_not_replaced": true,
+    "root_morphology_exact_U_Net": true,
+    "RGB_exact_source_bytes": true,
+    "V14_teacher_reference_retained_separately": true,
+    "dates_grouped_and_no_cross_split_pixel_overlap": true,
+    "identical_training_draws_three_models": true,
+    "all_root_weights_frozen": true,
+    "all_heads_actually_trained32_epochs": true,
+    "all_test_confusions_recomputed": true,
+    "label_free_reload_all_four_dates_exact": true,
+    "no_NEW_GROWTH_mixture_in_any_accepted_axis": true,
+    "real_browser_editor_checked": true
+  },
+  "morphology_audit": [
+    {
+      "period": "T1",
+      "retained_manual_typed_pixels": 71312,
+      "retained_manual_pixels_reclassified": 0,
+      "untyped_added_root_pixels": 0
+    },
+    {
+      "period": "T2",
+      "retained_manual_typed_pixels": 97238,
+      "retained_manual_pixels_reclassified": 0,
+      "untyped_added_root_pixels": 5405
+    },
+    {
+      "period": "T3",
+      "retained_manual_typed_pixels": 107827,
+      "retained_manual_pixels_reclassified": 0,
+      "untyped_added_root_pixels": 6576
+    },
+    {
+      "period": "T4",
+      "retained_manual_typed_pixels": 86390,
+      "retained_manual_pixels_reclassified": 0,
+      "untyped_added_root_pixels": 5630
+    }
+  ],
+  "models": {
+    "unet": {
+      "epochs": 32,
+      "selected_epoch": 16,
+      "head_SHA256": "9a5061841cd8f87c6a23edf744861ad1573e905fac87e12aa2fb3d071cf0cefe",
+      "baseline_V14_head_SHA256": "51bebe4276b71df5f2ed14de237a298426285bc48246f647251296226db487c4",
+      "root_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+      "selected_decoder": "learned",
+      "new_head_blend_weight": 1.0,
+      "reference_test_macro_Dice": 0.6871520409506533,
+      "original_audit_test_macro_Dice": 0.48724001759016494,
+      "review_counts": [
+        {
+          "period": "T2",
+          "review_root_pixels": 73584
+        },
+        {
+          "period": "T3",
+          "review_root_pixels": 91690
+        },
+        {
+          "period": "T4",
+          "review_root_pixels": 60130
+        }
+      ],
+      "label_free_reload_all_dates_exact": true
+    },
+    "deeplab": {
+      "epochs": 32,
+      "selected_epoch": 16,
+      "head_SHA256": "3f6ec2065dff2823e3ccad7b93ef6438216411d348cb77083a488e96b3e6730a",
+      "baseline_V14_head_SHA256": "628cf2b309be24a99d0f6f468e4842164c5c83e3982e9057925bc8d7780b94ec",
+      "root_SHA256": "d0a606f9fd335959f9612bd7bd9750839c0750ceceb878913abed99abb61473f",
+      "selected_decoder": "learned",
+      "new_head_blend_weight": 0.0,
+      "reference_test_macro_Dice": 0.5042232229695246,
+      "original_audit_test_macro_Dice": 0.3912981193162846,
+      "review_counts": [
+        {
+          "period": "T2",
+          "review_root_pixels": 55968
+        },
+        {
+          "period": "T3",
+          "review_root_pixels": 80182
+        },
+        {
+          "period": "T4",
+          "review_root_pixels": 22999
+        }
+      ],
+      "label_free_reload_all_dates_exact": true
+    },
+    "segformer": {
+      "epochs": 32,
+      "selected_epoch": 16,
+      "head_SHA256": "7ca1bca37ac4db02e53845d8731cbddeeb2c7314f52c86ca4340528d192e36a2",
+      "baseline_V14_head_SHA256": "0f110868545e945225537000a7d6d3bf892e24aad3c5b5e72d70df9def83afcc",
+      "root_SHA256": "7ef91f106a3b5f7675e8443faed42a339dfba5d4624515239ab6c38a61fe91a9",
+      "selected_decoder": "learned",
+      "new_head_blend_weight": 0.0,
+      "reference_test_macro_Dice": 0.5660045451789381,
+      "original_audit_test_macro_Dice": 0.4377177868882461,
+      "review_counts": [
+        {
+          "period": "T2",
+          "review_root_pixels": 66204
+        },
+        {
+          "period": "T3",
+          "review_root_pixels": 72844
+        },
+        {
+          "period": "T4",
+          "review_root_pixels": 39899
+        }
+      ],
+      "label_free_reload_all_dates_exact": true
+    }
+  },
+  "biological_root_instance_accuracy_not_independently_measured": true,
+  "independent_external_test_images": 0,
+  "whole_field_context_crosses_internal_windows": true,
+  "historical_same_field_exposure": true
+}
