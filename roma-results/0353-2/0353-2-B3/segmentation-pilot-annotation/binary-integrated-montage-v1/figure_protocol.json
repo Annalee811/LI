@@ -1,0 +1,290 @@
+{
+  "position": "0353-2-B3",
+  "task": "Binary root/background comparison, NOT temporal classification",
+  "periods": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "reference": "Prior annotation_refinement_v1 full-field U-Net-assisted revised binary reference; not independent manual truth",
+  "new_model_training": false,
+  "new_label_revision": false,
+  "root_mask_dilation": false,
+  "overlay_color": [
+    0,
+    158,
+    115
+  ],
+  "overlay_alpha": 0.75,
+  "isolated_background_RGB": [
+    27,
+    34,
+    41
+  ],
+  "isolated_root_original_RGB_verified": true,
+  "background_outside_overlay_masks_unchanged_before_display_scaling": true,
+  "native_RGB_size_wh": [
+    2541,
+    1108
+  ],
+  "figure_size_pixels": [
+    9924,
+    7014
+  ],
+  "figure_page_mm": [
+    420,
+    297
+  ],
+  "DPI": 600,
+  "TIF_mode": "RGB",
+  "TIF_compression": "lossless Adobe Deflate",
+  "figure_panels": 72,
+  "period_block_order": "T1 top-left, T2 top-right, T3 bottom-left, T4 bottom-right",
+  "method_columns": [
+    "Revised annotation",
+    "U-Net",
+    "DeepLabV3+",
+    "SegFormer-B0"
+  ],
+  "rows": [
+    "Full overlay",
+    "Full isolated original root RGB",
+    "Local overlay",
+    "Local isolated original root RGB"
+  ],
+  "ROI_xyxy": [
+    1428,
+    852,
+    1684,
+    1108
+  ],
+  "ROI_selection": "Maximum median revised-reference root-pixel count across the four periods among the six existing internal-test spatial windows; no model score used",
+  "ROI_candidates": [
+    {
+      "tile_id": "P16",
+      "x": 1714,
+      "y": 284,
+      "root_pixels_by_period": [
+        3358,
+        4605,
+        5619,
+        5354
+      ],
+      "median_root_pixels": 4979.5
+    },
+    {
+      "tile_id": "P22",
+      "x": 857,
+      "y": 568,
+      "root_pixels_by_period": [
+        1548,
+        3298,
+        5177,
+        4886
+      ],
+      "median_root_pixels": 4092.0
+    },
+    {
+      "tile_id": "P23",
+      "x": 1142,
+      "y": 568,
+      "root_pixels_by_period": [
+        2234,
+        5868,
+        5979,
+        4597
+      ],
+      "median_root_pixels": 5232.5
+    },
+    {
+      "tile_id": "P28",
+      "x": 0,
+      "y": 852,
+      "root_pixels_by_period": [
+        5156,
+        4156,
+        3568,
+        3667
+      ],
+      "median_root_pixels": 3911.5
+    },
+    {
+      "tile_id": "P30",
+      "x": 571,
+      "y": 852,
+      "root_pixels_by_period": [
+        3566,
+        3433,
+        4766,
+        3871
+      ],
+      "median_root_pixels": 3718.5
+    },
+    {
+      "tile_id": "P33",
+      "x": 1428,
+      "y": 852,
+      "root_pixels_by_period": [
+        5961,
+        9892,
+        9818,
+        9571
+      ],
+      "median_root_pixels": 9694.5
+    }
+  ],
+  "chosen_tile": "P33",
+  "scale_bars": "Pixels only; no unprovided physical calibration invented",
+  "whole_field_qualitative": true,
+  "whole_fields_include_training_pixels": true,
+  "independent_external_test_images": 0,
+  "sources": [
+    {
+      "period": "T1",
+      "kind": "RGB",
+      "path": "results/B3_annotation_refinement_v1/revised_report/data/upper/T1_RGB.png",
+      "SHA256": "c8548de563b4d5ac0b223235758f7cdf6f118ac70614a7792a86f12fb9eb295b",
+      "root_pixels": null
+    },
+    {
+      "period": "T1",
+      "kind": "revised_binary_reference",
+      "path": "results/B3_annotation_refinement_v1/revised_report/data/upper/T1_mask.png",
+      "SHA256": "d108f1f13c7833bcffa5a3de6f8714dfa96ad447421534596b8c7980eed9215a",
+      "root_pixels": null
+    },
+    {
+      "period": "T1",
+      "kind": "unet",
+      "path": "results/B3_annotation_refinement_v1/revised_report/native_predictions/unet/upper/T1_root_mask.png",
+      "SHA256": "a8894068fa4781a854b0ce580b0d0518b4569da18c7db0fd40cb73babbfcfa3a",
+      "root_pixels": 104518
+    },
+    {
+      "period": "T1",
+      "kind": "deeplab",
+      "path": "results/B3_annotation_refinement_v1/revised_report/native_predictions/deeplab/upper/T1_root_mask.png",
+      "SHA256": "2468f4d7c743e407cf4dd5666718ae02c2ed73c9cf874fde6b57f61b3df50722",
+      "root_pixels": 85868
+    },
+    {
+      "period": "T1",
+      "kind": "segformer",
+      "path": "results/B3_annotation_refinement_v1/revised_report/native_predictions/segformer/upper/T1_root_mask.png",
+      "SHA256": "c0fd259ea5472e3efd06879ddfe6addeb2ab0c5554979ccc431799a13bb0a71e",
+      "root_pixels": 79460
+    },
+    {
+      "period": "T2",
+      "kind": "RGB",
+      "path": "results/B3_annotation_refinement_v1/revised_report/data/upper/T2_RGB.png",
+      "SHA256": "e65b91ef07abea8527b71a97a37e2ff19ca1a6527ff0090970cf084bba338b3c",
+      "root_pixels": null
+    },
+    {
+      "period": "T2",
+      "kind": "revised_binary_reference",
+      "path": "results/B3_annotation_refinement_v1/revised_report/data/upper/T2_mask.png",
+      "SHA256": "c84816045513ef1feee799104fec35a49d44583171469a21c7eb0954e6effd22",
+      "root_pixels": null
+    },
+    {
+      "period": "T2",
+      "kind": "unet",
+      "path": "results/B3_annotation_refinement_v1/revised_report/native_predictions/unet/upper/T2_root_mask.png",
+      "SHA256": "3b35954636e942fb4cca8ca5d5be3474464e1fc365126ff11e8085e328b0fd01",
+      "root_pixels": 152193
+    },
+    {
+      "period": "T2",
+      "kind": "deeplab",
+      "path": "results/B3_annotation_refinement_v1/revised_report/native_predictions/deeplab/upper/T2_root_mask.png",
+      "SHA256": "593e37a46bc7d3e2e1c0c69fa0340d3f89817d949155b2e698cfc55664abc1a5",
+      "root_pixels": 150699
+    },
+    {
+      "period": "T2",
+      "kind": "segformer",
+      "path": "results/B3_annotation_refinement_v1/revised_report/native_predictions/segformer/upper/T2_root_mask.png",
+      "SHA256": "ce17a36a31a427cc4d19a44a2ca35dd814d9cfca0cfb84c7694485cd92234159",
+      "root_pixels": 157983
+    },
+    {
+      "period": "T3",
+      "kind": "RGB",
+      "path": "results/B3_annotation_refinement_v1/revised_report/data/upper/T3_RGB.png",
+      "SHA256": "3df9bca33ebd9ee88a2eab874143569d5f8d9cdb7cd49d326754791f1b58e8e6",
+      "root_pixels": null
+    },
+    {
+      "period": "T3",
+      "kind": "revised_binary_reference",
+      "path": "results/B3_annotation_refinement_v1/revised_report/data/upper/T3_mask.png",
+      "SHA256": "f7c81e26d548da085a82796f6c33469b14658a13aa6dacea19713fdfd74b513c",
+      "root_pixels": null
+    },
+    {
+      "period": "T3",
+      "kind": "unet",
+      "path": "results/B3_annotation_refinement_v1/revised_report/native_predictions/unet/upper/T3_root_mask.png",
+      "SHA256": "459845cc4fd543a49a06abaab9315004c65c87339600d5b17294872014055af6",
+      "root_pixels": 168984
+    },
+    {
+      "period": "T3",
+      "kind": "deeplab",
+      "path": "results/B3_annotation_refinement_v1/revised_report/native_predictions/deeplab/upper/T3_root_mask.png",
+      "SHA256": "822fc56c3dc3372aca3ca0b2b50edbd8c541442903c18bf2d3895e769c497e90",
+      "root_pixels": 195622
+    },
+    {
+      "period": "T3",
+      "kind": "segformer",
+      "path": "results/B3_annotation_refinement_v1/revised_report/native_predictions/segformer/upper/T3_root_mask.png",
+      "SHA256": "f4057dcb561e4aa5528bf1ff202ad6c4c401ff4d2a188bb569a6c31a4d3c9d9f",
+      "root_pixels": 178328
+    },
+    {
+      "period": "T4",
+      "kind": "RGB",
+      "path": "results/B3_annotation_refinement_v1/revised_report/data/upper/T4_RGB.png",
+      "SHA256": "d43a5d5fd491ed05579f2f32bc853808165431ef15c30eac48f143b20160bdea",
+      "root_pixels": null
+    },
+    {
+      "period": "T4",
+      "kind": "revised_binary_reference",
+      "path": "results/B3_annotation_refinement_v1/revised_report/data/upper/T4_mask.png",
+      "SHA256": "8f03657b268abbf1af6c102590b2a7e41439dca72fc0e7fee034afa3418c4ed8",
+      "root_pixels": null
+    },
+    {
+      "period": "T4",
+      "kind": "unet",
+      "path": "results/B3_annotation_refinement_v1/revised_report/native_predictions/unet/upper/T4_root_mask.png",
+      "SHA256": "3c460444a758117a1034d69624be373f20fc6c2057687a16f22b4d8cef0620d9",
+      "root_pixels": 147533
+    },
+    {
+      "period": "T4",
+      "kind": "deeplab",
+      "path": "results/B3_annotation_refinement_v1/revised_report/native_predictions/deeplab/upper/T4_root_mask.png",
+      "SHA256": "59d530955635295aaa6b8aebe5c09ec36598a4d2f1204ab20f87dff94ee8cd86",
+      "root_pixels": 146379
+    },
+    {
+      "period": "T4",
+      "kind": "segformer",
+      "path": "results/B3_annotation_refinement_v1/revised_report/native_predictions/segformer/upper/T4_root_mask.png",
+      "SHA256": "0a5340410bd7f264db4674b60863060e659ace5e031282dc941feb396f5f7594",
+      "root_pixels": 130778
+    }
+  ],
+  "output": {
+    "file": "0353-2-B3_binary_segmentation_integrated.tif",
+    "bytes": 34868164,
+    "SHA256": "7f76da4ff9451d4bd8b30f043b1119cec7dc418913a44beb7f91bc62151b8d78"
+  },
+  "all_native_masks_unchanged": true
+}
