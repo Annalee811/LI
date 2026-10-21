@@ -1,0 +1,120 @@
+{
+  "current_reference_only_in_figures": true,
+  "reference_manifest_SHA256": "5f2bcf28c584c291732586f4d5c828164c73d2557ddc8ddf620f1fa73c52d0ec",
+  "curves_are_new_measured_replay": true,
+  "epochs_each": 30,
+  "phase_boundary": 20.5,
+  "training_views": 200,
+  "validation_views": 20,
+  "test_views": 24,
+  "source_original_RGB_images": 4,
+  "external_independent_test_images": 0,
+  "reported_final_models_unchanged": true,
+  "reported_final_model_scores": "../retained_models_current_reference_scores.csv",
+  "histories": [
+    {
+      "model": "unet",
+      "path": "results/B3_current_reference_learning_v26_20261021/unet/history.csv",
+      "SHA256": "edd63815b56eb218dd7c53b7442ec6ea6ddd23ae99048b3b6e56fe2a52c18878",
+      "reference_manifest_SHA256": "5f2bcf28c584c291732586f4d5c828164c73d2557ddc8ddf620f1fa73c52d0ec"
+    },
+    {
+      "model": "deeplab",
+      "path": "results/B3_current_reference_learning_v26_20261021/deeplab/history.csv",
+      "SHA256": "6e55387200c5ffb483908ee803bfb36c009a21d748e2122520c99fd599ea6297",
+      "reference_manifest_SHA256": "5f2bcf28c584c291732586f4d5c828164c73d2557ddc8ddf620f1fa73c52d0ec"
+    },
+    {
+      "model": "segformer",
+      "path": "results/B3_current_reference_learning_v26_20261021/segformer/history.csv",
+      "SHA256": "37b85ec175446f5ebd5edaa4c269a00f82312ac25391feac0c5b7b51df010202",
+      "reference_manifest_SHA256": "5f2bcf28c584c291732586f4d5c828164c73d2557ddc8ddf620f1fa73c52d0ec"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "Fig01_three_model_training_validation_loss.tif",
+      "bytes": 498858,
+      "SHA256": "66f9c5477fe7f9c69d986116a2f755346a86612eec3dee924ea3488ffe875b8d",
+      "size": [
+        4320,
+        1710
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig02_three_model_learning_dynamics_composite.tif",
+      "bytes": 832678,
+      "SHA256": "64c2605674f7e5460934d3b4141fb4a4aec38fee8caf2e77283d7656b4b7b9a4",
+      "size": [
+        4320,
+        3120
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig03_three_model_learning_rate_schedules.tif",
+      "bytes": 426228,
+      "SHA256": "70af6962ea68921b7a3594e112274db18cb1a418778f92400fd121845b0b2475",
+      "size": [
+        4320,
+        1710
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig04_current_reference_validation_metrics.tif",
+      "bytes": 714140,
+      "SHA256": "a532bdef9293a9fc22e1ba776b67abf55fc492ab209cd09e68ff7b4f534c9f6e",
+      "size": [
+        4320,
+        3060
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig05_final_model_validation_test_comparison.tif",
+      "bytes": 399210,
+      "SHA256": "5628594b11bd6dfb17d3f18f12985f6e7f2ea369ba4a668db10fa35c2131dddf",
+      "size": [
+        4320,
+        1920
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig06_final_test_metric_comparison.tif",
+      "bytes": 485280,
+      "SHA256": "b728d9c5c5f32b28fb533929fa6f2d85db19be8dcb3580a1fb1a51c92aa610f2",
+      "size": [
+        4320,
+        1920
+      ],
+      "DPI": 600,
+      "unchanged_current_reference_test_result": true
+    },
+    {
+      "file": "Fig07_final_test_confusion_matrices.tif",
+      "bytes": 653486,
+      "SHA256": "1cdb4cf60bc93971478cdaceca48b85b983e229fb8fcd590c461170449599cd7",
+      "size": [
+        4320,
+        1920
+      ],
+      "DPI": 600,
+      "unchanged_current_reference_test_result": true
+    },
+    {
+      "file": "Fig08_final_test_ROC_AUC_and_PR.tif",
+      "bytes": 591994,
+      "SHA256": "985d78d5a8aa7cc6bc6c7183f97ea98ba27dc7831b0f1018fc634cbc949e5b48",
+      "size": [
+        4320,
+        2130
+      ],
+      "DPI": 600,
+      "unchanged_current_reference_test_result": true
+    }
+  ],
+  "old_reference_metrics_displayed": false
+}

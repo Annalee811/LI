@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "reference_manifest_SHA256": "5f2bcf28c584c291732586f4d5c828164c73d2557ddc8ddf620f1fa73c52d0ec",
+  "models": {
+    "unet": {
+      "epochs": 30,
+      "per_epoch_checkpoints": 30,
+      "training_draws": 1920,
+      "optimizer_updates": 960,
+      "current_validation_positive_pixels": 38050,
+      "current_validation_valid_pixels": 1310720,
+      "draw_order_and_LR_match_recorded_trajectory": true,
+      "reported_final_checkpoint_unchanged": true,
+      "reported_final_checkpoint_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+      "maximum_training_loss_difference_from_trajectory": 0.0
+    },
+    "deeplab": {
+      "epochs": 30,
+      "per_epoch_checkpoints": 30,
+      "training_draws": 1920,
+      "optimizer_updates": 960,
+      "current_validation_positive_pixels": 38050,
+      "current_validation_valid_pixels": 1310720,
+      "draw_order_and_LR_match_recorded_trajectory": true,
+      "reported_final_checkpoint_unchanged": true,
+      "reported_final_checkpoint_SHA256": "d0a606f9fd335959f9612bd7bd9750839c0750ceceb878913abed99abb61473f",
+      "maximum_training_loss_difference_from_trajectory": 0.029741144739091396
+    },
+    "segformer": {
+      "epochs": 30,
+      "per_epoch_checkpoints": 30,
+      "training_draws": 1920,
+      "optimizer_updates": 960,
+      "current_validation_positive_pixels": 38050,
+      "current_validation_valid_pixels": 1310720,
+      "draw_order_and_LR_match_recorded_trajectory": true,
+      "reported_final_checkpoint_unchanged": true,
+      "reported_final_checkpoint_SHA256": "7ef91f106a3b5f7675e8443faed42a339dfba5d4624515239ab6c38a61fe91a9",
+      "maximum_training_loss_difference_from_trajectory": 0.0
+    }
+  },
+  "every_displayed_validation_score_uses_current_reference": true,
+  "old_reference_curves_displayed": false,
+  "all90_epoch_checkpoints_saved": true,
+  "all_8_TIFFs_RGB_600dpi": true,
+  "reported_final_test_Dice_unchanged": true,
+  "external_independent_test_images": 0
+}

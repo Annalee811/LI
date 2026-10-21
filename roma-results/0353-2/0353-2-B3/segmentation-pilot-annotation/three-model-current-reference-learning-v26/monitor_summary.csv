@@ -1,0 +1,4 @@
+﻿model,epochs,last_current_validation_Dice,maximum_current_validation_Dice,final_reported_model_unchanged
+unet,30,0.8117803622056355,0.8146335976604241,True
+deeplab,30,0.6454961113806437,0.658664776921487,True
+segformer,30,0.5930431314455017,0.5956187750906389,True

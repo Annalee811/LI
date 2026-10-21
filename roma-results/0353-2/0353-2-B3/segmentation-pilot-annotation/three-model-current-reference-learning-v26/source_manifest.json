@@ -1,0 +1,52 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 5600,
+    "SHA256": "58295391a9fbbd4862612bfd279fc06e5440a27c9e9751bdbbbda054000821ce"
+  },
+  {
+    "path": "common.py",
+    "bytes": 5697,
+    "SHA256": "7ba17d4028fb3915c9379bdda1b1a5abd81adb6e0be5fb31bf2c3d1ca663c967"
+  },
+  {
+    "path": "container_entry.sh",
+    "bytes": 1058,
+    "SHA256": "4b271887cd5ca6693fd2a58104129e6eedc6bbb50d1b26b2f5a9d3d464279175"
+  },
+  {
+    "path": "figures.py",
+    "bytes": 13062,
+    "SHA256": "be8295dc2aa16922076660fb42c4854d4d9409113461f3a279dca67f83a2ef3c"
+  },
+  {
+    "path": "finalize.py",
+    "bytes": 5647,
+    "SHA256": "abc5964f0e6d62455250ed3beb2f24332311a5c1123d8e5aa155e470f7ca94a1"
+  },
+  {
+    "path": "models.py",
+    "bytes": 3202,
+    "SHA256": "3a0cc4bea85a7087b20ca8036e18d26252a6f9f41fe46b5658ec7390af108d24"
+  },
+  {
+    "path": "monitor_tf.py",
+    "bytes": 11237,
+    "SHA256": "e2d96e48ed81da43e27e45be1bb853cae1ae7ecd08a770c376e43c2d5de298c7"
+  },
+  {
+    "path": "monitor_torch.py",
+    "bytes": 8778,
+    "SHA256": "c0ecc8323ff2c0eca45e5d449481a4a9ba6ae39482fe37db6eb54d2ad9427291"
+  },
+  {
+    "path": "prepare.py",
+    "bytes": 3718,
+    "SHA256": "838a4094dd3ebf747b6493d7db45873bcb8af35ea5137dd7664780dec2131500"
+  },
+  {
+    "path": "reference_scores.py",
+    "bytes": 2038,
+    "SHA256": "fc8db9b29570ab3de8c6a5bb5c8ce507e201e559e4906a8a7308af6121a88e48"
+  }
+]

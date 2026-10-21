@@ -1,0 +1,13 @@
+{
+  "state": "complete",
+  "figures": "report/figures",
+  "models": [
+    "unet",
+    "deeplab",
+    "segformer"
+  ],
+  "reference": "current user-confirmed annotation",
+  "epochs": 30,
+  "actual_replay_measurements": true,
+  "reported_final_models_unchanged": true
+}
