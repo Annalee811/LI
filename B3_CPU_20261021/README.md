@@ -1,4 +1,4 @@
-# B3 三模型 CPU 训练结果（本地待确认上传）
+# B3 三模型 CPU 训练结果（公开下载）
 
 **本轮结果尚不能可靠识别新出现根和延伸段，不建议直接迁移到其他微根管。**
 
@@ -25,6 +25,6 @@
 | [README_中文.md](https://github.com/Annalee811/LI/raw/refs/heads/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/README_中文.md) | 0.0 |
 | [verification.json](https://github.com/Annalee811/LI/raw/refs/heads/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/verification.json) | 0.0 |
 
-上传状态以远端分支是否存在为准；本地文件清单不表示已上传。
+用户已明确授权将本轮训练数据、标注、权重和结果公开到本分支。
 
 完整总包含三个模型权重、恢复检查点、完整脚本、数据、标注、切片及训练/预测/交叉检查结果。源项目路径和既有实验不在本提交中修改。

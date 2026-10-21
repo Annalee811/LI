@@ -74,5 +74,6 @@
   "branch": "b3-cpu-artifacts-20261021-v1",
   "base_url": "https://github.com/Annalee811/LI/raw/refs/heads/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/",
   "visibility_if_pushed": "public",
-  "currently_uploaded": false
+  "visibility": "public",
+  "public_upload_authorized": true
 }
