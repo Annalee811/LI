@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": [
+    "original_source_and_class_maps_preserved",
+    "four_revised_frames_roundtrip_to_editable_JSON",
+    "root_geometry_exact_U_Net",
+    "typed_classes_exact_teacher_no_random_errors",
+    "unchanged_no_cross_split_spatial_pixels",
+    "all_three_16_epoch_runs_completed",
+    "saved_checkpoints_finite_and_readable",
+    "binary_weights_unchanged",
+    "identical_sampling_and_augmentation_across_models",
+    "metrics_recomputed_from_saved_confusions",
+    "no_new_extension_mix_within_decoded_candidate_axes",
+    "background_zero_in_transparent_RGB",
+    "standalone_editable_HTML_contains_RGB_and_proposal"
+  ],
+  "external_independent_images": 0,
+  "teacher_agreement_is_not_independent_accuracy": true,
+  "random_errors_added": false,
+  "source_progress_SHA256": "a5589528711ed49f542a86dc9363efd6bc2c115575e0bf5e7db34d1a758f41b0"
+}

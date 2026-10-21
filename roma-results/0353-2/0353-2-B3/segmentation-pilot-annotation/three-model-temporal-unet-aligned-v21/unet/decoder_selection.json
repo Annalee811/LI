@@ -1,0 +1,23 @@
+{
+  "selected_strength": 0.0,
+  "candidates": [
+    {
+      "strength": 0.0,
+      "validation_macro_Dice": 0.9207559849299459
+    },
+    {
+      "strength": 0.5,
+      "validation_macro_Dice": 0.9137472327600741
+    },
+    {
+      "strength": 1.0,
+      "validation_macro_Dice": 0.9130448921734965
+    },
+    {
+      "strength": 2.0,
+      "validation_macro_Dice": 0.9121112125355482
+    }
+  ],
+  "test_used_for_selection": false,
+  "reference": "U-Net-derived proposal validation consistency; not independent manual accuracy"
+}

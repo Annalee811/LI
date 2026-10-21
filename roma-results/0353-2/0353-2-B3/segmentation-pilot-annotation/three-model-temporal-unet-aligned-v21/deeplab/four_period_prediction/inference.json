@@ -1,0 +1,37 @@
+{
+  "version": "unet_aligned_v21",
+  "head_SHA256": "75159b8e0125b71259a8033b677215443c4f7ee58b21844c892e76079f6419d2",
+  "reference_SHA256": "a5589528711ed49f542a86dc9363efd6bc2c115575e0bf5e7db34d1a758f41b0",
+  "manual_labels_used_as_inference_features": false,
+  "root_networks_frozen": true,
+  "single_raster_label_per_pixel": true,
+  "continuity_grammar": "Entire candidate root NEW, or PERSISTENT shaft with terminal EXTENSION; ambiguous geometry remains flagged",
+  "identity_not_independently_verified": true,
+  "historical_same_field_exposure": true,
+  "independent_external_test_images": 0,
+  "selected_strength": 0.5,
+  "continuity": [
+    {
+      "period": "T2",
+      "candidate_axes": 1195,
+      "mixed_new_extension_axes": 0,
+      "unresolved_crossing_axes": 428
+    },
+    {
+      "period": "T3",
+      "candidate_axes": 970,
+      "mixed_new_extension_axes": 0,
+      "unresolved_crossing_axes": 422
+    },
+    {
+      "period": "T4",
+      "candidate_axes": 827,
+      "mixed_new_extension_axes": 0,
+      "unresolved_crossing_axes": 284
+    }
+  ],
+  "proposal_used_for_student_training_and_validation": true,
+  "original_manual_labels_used_for_student_selection": false,
+  "teacher_previously_fitted_source_annotations": true,
+  "proposal_SHA256": "66b551f15363c2c87060bb3e96534ffe4ec32d942cd49ad9e816743202acf589"
+}

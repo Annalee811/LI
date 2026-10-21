@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "models": [
+    "unet",
+    "deeplab",
+    "segformer"
+  ],
+  "evaluation": "Teacher consistency and original annotation audit separately; external independent images 0"
+}

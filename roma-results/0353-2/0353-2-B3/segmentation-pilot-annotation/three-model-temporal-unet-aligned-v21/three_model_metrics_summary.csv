@@ -1,0 +1,13 @@
+﻿model,reference,split,Precision,Recall,Dice,IoU,selected_epoch,interpretation
+U-Net,U_Net_derived_proposal,val,0.8804090195349165,0.9809528068570058,0.9207559849299459,0.8709478348288724,8,"Teacher consistency, not independent accuracy"
+U-Net,U_Net_derived_proposal,test,0.9685424561236413,0.990926733902899,0.9791867228113554,0.9602569026913518,8,"Teacher consistency, not independent accuracy"
+U-Net,preserved_original_annotation,val,0.6295515954299244,0.6257418418534301,0.6249192911585898,0.5605855691944209,8,"Original-label agreement, historical same-field exposure"
+U-Net,preserved_original_annotation,test,0.666518292972505,0.705893421191035,0.6649940390056809,0.5796439346049608,8,"Original-label agreement, historical same-field exposure"
+DeepLabV3+,U_Net_derived_proposal,val,0.39302480552526814,0.4054106597481936,0.3990155598985474,0.29530100878803833,10,"Teacher consistency, not independent accuracy"
+DeepLabV3+,U_Net_derived_proposal,test,0.5930956393720815,0.5658120161964457,0.5767628918595341,0.433141633530903,10,"Teacher consistency, not independent accuracy"
+DeepLabV3+,preserved_original_annotation,val,0.38557285690586723,0.408269116847537,0.3958485048456993,0.2928821443661843,10,"Original-label agreement, historical same-field exposure"
+DeepLabV3+,preserved_original_annotation,test,0.4953538076933015,0.4902265510319655,0.48886678813269707,0.3678784342604256,10,"Original-label agreement, historical same-field exposure"
+SegFormer-B0,U_Net_derived_proposal,val,0.36803232816008946,0.37533133588953355,0.36424686778544973,0.2574441876362363,8,"Teacher consistency, not independent accuracy"
+SegFormer-B0,U_Net_derived_proposal,test,0.46616944780755537,0.47154517510001615,0.46702560255080305,0.3499757372023407,8,"Teacher consistency, not independent accuracy"
+SegFormer-B0,preserved_original_annotation,val,0.34519596823005005,0.3472573105747365,0.3437272966965299,0.24111106863886458,8,"Original-label agreement, historical same-field exposure"
+SegFormer-B0,preserved_original_annotation,test,0.5016229270585131,0.5139768890056394,0.501737509788911,0.3789483845211598,8,"Original-label agreement, historical same-field exposure"

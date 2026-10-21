@@ -1,0 +1,37 @@
+{
+  "version": "unet_aligned_v21",
+  "roots": "/workspace/LI/results/B3_annotation_refinement_v1",
+  "previous": "/workspace/LI/results/B3_temporal_current_annotation_v19_20261021",
+  "source_progress": "/workspace/LI/results/B3_temporal_current_annotation_v19_20261021/data/selected_progress.json",
+  "progress_SHA256": "a5589528711ed49f542a86dc9363efd6bc2c115575e0bf5e7db34d1a758f41b0",
+  "training_reference_SHA256": "66b551f15363c2c87060bb3e96534ffe4ec32d942cd49ad9e816743202acf589",
+  "revision_policy": {
+    "reference_type": "Full-field U-Net-derived temporal annotation proposal, pending user review",
+    "source_progress_SHA256": "a5589528711ed49f542a86dc9363efd6bc2c115575e0bf5e7db34d1a758f41b0",
+    "teacher_temporal_head_SHA256": "02b2fc69a4bffb833e8eb9e4c0bbbf30d6e7a76c25204059ef5e4c1f8d51dd0e",
+    "teacher_binary_checkpoint_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+    "scope": "All four upper RGB frames; no lower frames",
+    "original_labels_preserved": true,
+    "root_geometry": "U-Net frozen binary root masks",
+    "semantics": "T1 baseline; subsequent persistent shaft, terminal extension, newly observed root/side root relative to adjacent previous period",
+    "ambiguity_rule": "Only teacher-flagged crossing root pixels with assigned score <0.5 AND top-two margin <0.1 are temporally untyped; no background removal there",
+    "random_label_perturbation": false,
+    "human_reviewed": false,
+    "validation_reference": "Teacher-derived proposal; consistency only, not independent accuracy",
+    "original_audit_reference": "Byte-preserved user-selected (6) labels; historical same-field model exposure",
+    "historical_same_field_exposure": true,
+    "external_independent_test_images": 0
+  },
+  "train_val_test_pairs": {
+    "train": 150,
+    "val": 15,
+    "test": 18
+  },
+  "total_changed_pixels": 30784,
+  "total_review_pixels": 501,
+  "frozen_original_audit": true,
+  "root_networks_frozen": true,
+  "feature_and_geometry_cache": "Exact V19 RGB/root-only caches and V19 train-only routers reused",
+  "death_included": false,
+  "independent_external_test_images": 0
+}

@@ -1,0 +1,5 @@
+﻿period,changed_pixels,geometry_changed_pixels,review_pixels,root_pixels,teacher_class_agreement_on_typed_roots,train_changed_pixels,val_changed_pixels,test_changed_pixels
+T1,673,673,0,104518,1.0,3,0,642
+T2,17840,2564,339,152193,1.0,10022,1462,4758
+T3,10541,1864,134,168984,1.0,7451,186,1807
+T4,1730,306,28,147533,1.0,929,28,666

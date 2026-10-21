@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "tested_via": "local HTTP; file URL blocked by browser administrator policy",
+  "embedded_frames": 4,
+  "max_zoom": 60,
+  "zoom_retained_on_period_switch": true,
+  "category_constraints": true,
+  "painting": true,
+  "Ctrl_Z": true,
+  "saved_JSON_download": true,
+  "source_provenance_preserved": true,
+  "page_errors": [],
+  "annotate_html_SHA256": "fc3792fb4244b32954e70aa3699e03b633e65adc964e8bcae02198004bcd4877"
+}
