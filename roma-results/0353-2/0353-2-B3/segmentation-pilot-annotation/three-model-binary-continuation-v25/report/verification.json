@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "preserved_baseline_models_match_old_scores": true,
+  "all_new_final_counts_recomputed_from_probabilities": true,
+  "all_epoch_counts_reproduce_logged_scores": true,
+  "all_AUC_AP_use_continuous_probabilities": true,
+  "validation_loss_fabricated": false,
+  "additional_training_completed": true,
+  "figure_count": 11,
+  "DPI": 600
+}

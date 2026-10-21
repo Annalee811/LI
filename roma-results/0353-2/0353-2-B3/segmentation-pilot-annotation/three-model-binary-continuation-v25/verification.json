@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "models": {
+    "unet": {
+      "history_and_original_draw_order_verified": true,
+      "checkpoint_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+      "baseline_retained": true,
+      "old_prediction_files_verified_byte_identical": 52,
+      "ROC_AUC_checked_by_independent_rank_method": 0.9841739209038844
+    },
+    "deeplab": {
+      "history_and_original_draw_order_verified": true,
+      "checkpoint_SHA256": "d0a606f9fd335959f9612bd7bd9750839c0750ceceb878913abed99abb61473f",
+      "baseline_retained": true,
+      "old_prediction_files_verified_byte_identical": 52,
+      "ROC_AUC_checked_by_independent_rank_method": 0.9654577237965984
+    },
+    "segformer": {
+      "history_and_original_draw_order_verified": true,
+      "checkpoint_SHA256": "7ef91f106a3b5f7675e8443faed42a339dfba5d4624515239ab6c38a61fe91a9",
+      "baseline_retained": true,
+      "old_prediction_files_verified_byte_identical": 52,
+      "ROC_AUC_checked_by_independent_rank_method": 0.9634853107380603
+    }
+  },
+  "all_TIFFs_RGB_600dpi": true,
+  "figure_count": 11,
+  "unmatched_replays_not_used_to_impute_original_validation_loss": [
+    "DeepLabV3+"
+  ],
+  "replay_epoch_sequences_complete": true,
+  "original_draw_order_checked": true,
+  "replay_measurements_not_original_historical_logs": true,
+  "annotations_and_split_unchanged": true,
+  "test_not_used_for_selection": true,
+  "external_independent_test_images": 0
+}

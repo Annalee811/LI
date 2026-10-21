@@ -1,0 +1,18 @@
+{
+  "model": "SegFormer-B0",
+  "source_run": "/workspace/LI/results/B3_annotation_refinement_v1",
+  "starting_final_checkpoint_SHA256": "7ef91f106a3b5f7675e8443faed42a339dfba5d4624515239ab6c38a61fe91a9",
+  "best_epoch": 16,
+  "epochs_completed": 30,
+  "extra_epochs_completed": 10,
+  "threshold": 0.475,
+  "validation_loss_available_all_epochs": true,
+  "historical_validation_loss_measured_on_replay": true,
+  "original_historical_validation_loss_exists": false,
+  "baseline_retained": true,
+  "checkpoint_SHA256": "7ef91f106a3b5f7675e8443faed42a339dfba5d4624515239ab6c38a61fe91a9",
+  "test_used_for_selection": false,
+  "threads": 1,
+  "training_draws_per_epoch": 64,
+  "not_full_dataset_pass": true
+}

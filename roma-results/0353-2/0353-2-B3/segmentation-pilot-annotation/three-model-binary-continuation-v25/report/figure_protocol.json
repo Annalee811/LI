@@ -1,0 +1,254 @@
+{
+  "source_final_package": "0353-2-B3_final_paper_figures.zip",
+  "source_run": "/workspace/LI/results/B3_annotation_refinement_v1",
+  "training_run": "/workspace/LI/results/B3_binary_continuation_v25_20261021",
+  "report_generator_performs_training": false,
+  "experiment_includes_continuation": true,
+  "annotations_modified": false,
+  "models": [
+    "unet",
+    "deeplab",
+    "segformer"
+  ],
+  "epochs_each": {
+    "unet": 30,
+    "deeplab": 30,
+    "segformer": 30
+  },
+  "selected_epochs": {
+    "unet": 18,
+    "deeplab": 12,
+    "segformer": 16
+  },
+  "available_figures": 11,
+  "replay_measurements_explicitly_identified": true,
+  "close_replays_only_used_in_primary_loss_figures": true,
+  "unmatched_replay_validation_not_imputed_into_original_history": true,
+  "loss_plot_point_provenance": "primary_loss_plot_data.csv",
+  "validation_loss_not_substituted_by_one_minus_Dice": true,
+  "history_reference": "original frozen selection-validation reference",
+  "final_test_reference": "revised reference exactly as archived final paper package",
+  "historical_same_position_model_exposure": true,
+  "external_independent_test_images": 0,
+  "original_validation_positive_pixels": 27837,
+  "original_validation_valid_pixels": 1310720,
+  "epoch_counts_verified_against_recorded_metrics": true,
+  "learning_rates_saved_each_measured_epoch": true,
+  "LR_reconstruction_formula": "lr0*(0.1+0.9*0.5*(1+cos(pi*(epoch-1)/epochs_max)))",
+  "source_history_and_configuration_hashes": [
+    {
+      "kind": "replay_and_continuation_history",
+      "model": "unet",
+      "path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/history.csv",
+      "history_SHA256": "869cc7ca0a90df4cfe66a17f217ee04f1eb20a6c544c07935b466fa12b6ef8f7",
+      "original_history_SHA256": "bdee51cfb61e2e435b6f2b3918805f3ca58d127adfc935e5a356c6a0c928a99a"
+    },
+    {
+      "kind": "replay_and_continuation_history",
+      "model": "deeplab",
+      "path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/history.csv",
+      "history_SHA256": "b9713e701db79cfd4294a6f8f7057e486ef4709d5be27a4d11427084f776bff5",
+      "original_history_SHA256": "22e291b08b6a3e620b3d5703ac3e970d04da46835e5501547c7ae7f955fda799"
+    },
+    {
+      "kind": "replay_and_continuation_history",
+      "model": "segformer",
+      "path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/history.csv",
+      "history_SHA256": "d2380bfbf87943a81ef7f4088c63b13505d4027b3bd998a5b84876818ae0dac3",
+      "original_history_SHA256": "4f7820aee33f9ac0fcc74df54f70812483a92cc7693570f4dddd1dde172b7b55"
+    }
+  ],
+  "probability_inputs": "source_probability_manifest.json",
+  "outputs": [
+    {
+      "file": "Fig01_unet_training_and_validation_loss.tif",
+      "bytes": 299654,
+      "SHA256": "107e383eadd2210b7cf0fe51940cbba301c0863f35f298ef88c314ed0a5160d8",
+      "size": [
+        2190,
+        1800
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig02_unet_learning_rate.tif",
+      "bytes": 191454,
+      "SHA256": "2d8845c3831c3ff906c5370927bc63948a40dccdad4822a3127ba0a3331b5dca",
+      "size": [
+        2190,
+        1710
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig01_deeplab_training_and_validation_loss.tif",
+      "bytes": 290374,
+      "SHA256": "6795be3447e15629528fbfcf61e16bd7c9926ee044a41de6054db89ad79ffbc3",
+      "size": [
+        2190,
+        1800
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "FigS01_deeplab_separate_measured_replay.tif",
+      "bytes": 267608,
+      "SHA256": "28dc469665423d4d2f59596aab4494132fc5c7c8d99745f995cb23fbd5ddca0f",
+      "size": [
+        2190,
+        1800
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig02_deeplab_learning_rate.tif",
+      "bytes": 194364,
+      "SHA256": "49ab9c5505914e01952ce30849a81f8d796834d5f165f7b776f39804dbd2ba3c",
+      "size": [
+        2190,
+        1710
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig01_segformer_training_and_validation_loss.tif",
+      "bytes": 306202,
+      "SHA256": "4555289524448770b170571f33e18baf6d6e40bf61f1374e27665db26e212c9f",
+      "size": [
+        2190,
+        1800
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig02_segformer_learning_rate.tif",
+      "bytes": 197554,
+      "SHA256": "8d1f7b229ac68e34945be0eb6bc51d7fedf9a67f433dd6fc8c2dd0939eae5d6b",
+      "size": [
+        2190,
+        1710
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig03_validation_metrics_vs_epoch.tif",
+      "bytes": 762840,
+      "SHA256": "408b4c5b9f826f54aada33d8158cc291aa169450d28d95a9c9d6e2e740d3d174",
+      "size": [
+        4320,
+        3060
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig04_final_test_metric_comparison.tif",
+      "bytes": 485280,
+      "SHA256": "b728d9c5c5f32b28fb533929fa6f2d85db19be8dcb3580a1fb1a51c92aa610f2",
+      "size": [
+        4320,
+        1920
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig05_final_test_confusion_matrices.tif",
+      "bytes": 653486,
+      "SHA256": "1cdb4cf60bc93971478cdaceca48b85b983e229fb8fcd590c461170449599cd7",
+      "size": [
+        4320,
+        1920
+      ],
+      "DPI": 600
+    },
+    {
+      "file": "Fig06_final_test_ROC_AUC_and_PR.tif",
+      "bytes": 591994,
+      "SHA256": "985d78d5a8aa7cc6bc6c7183f97ea98ba27dc7831b0f1018fc634cbc949e5b48",
+      "size": [
+        4320,
+        2130
+      ],
+      "DPI": 600
+    }
+  ],
+  "metrics": [
+    {
+      "model": "unet",
+      "name": "U-Net",
+      "threshold": 0.45,
+      "TP": 98791,
+      "FP": 5771,
+      "FN": 20005,
+      "TN": 1448297,
+      "Precision": 0.9448078651900308,
+      "Recall": 0.8316020741439105,
+      "Dice": 0.884597820539224,
+      "IoU": 0.7930752125362255,
+      "Accuracy": 0.983612060546875,
+      "Specificity": 0.9960311347199718,
+      "Balanced_accuracy": 0.9138166044319411,
+      "ROC_AUC": 0.9841739209038846,
+      "Average_precision": 0.9384887629094683,
+      "root_prevalence": 0.07552846272786458,
+      "valid_test_pixels": 1572864,
+      "test_RGB_patches": 24,
+      "test_spatial_positions": 6,
+      "selected_epoch": 18,
+      "old_final_Dice": 0.884597820539224,
+      "Dice_change": 0.0,
+      "baseline_retained": true
+    },
+    {
+      "model": "deeplab",
+      "name": "DeepLabV3+",
+      "threshold": 0.4,
+      "TP": 81757,
+      "FP": 22433,
+      "FN": 37039,
+      "TN": 1431635,
+      "Precision": 0.7846914291198771,
+      "Recall": 0.6882134078588504,
+      "Dice": 0.733292673082615,
+      "IoU": 0.5788966855249276,
+      "Accuracy": 0.962188720703125,
+      "Specificity": 0.9845722483405178,
+      "Balanced_accuracy": 0.8363928280996842,
+      "ROC_AUC": 0.9654577237965986,
+      "Average_precision": 0.8080675423741925,
+      "root_prevalence": 0.07552846272786458,
+      "valid_test_pixels": 1572864,
+      "test_RGB_patches": 24,
+      "test_spatial_positions": 6,
+      "selected_epoch": 12,
+      "old_final_Dice": 0.733292673082615,
+      "Dice_change": 0.0,
+      "baseline_retained": true
+    },
+    {
+      "model": "segformer",
+      "name": "SegFormer-B0",
+      "threshold": 0.475,
+      "TP": 77800,
+      "FP": 17867,
+      "FN": 40996,
+      "TN": 1436201,
+      "Precision": 0.813237584538033,
+      "Recall": 0.6549042055288057,
+      "Dice": 0.7255330756354242,
+      "IoU": 0.5692835661444575,
+      "Accuracy": 0.9625759124755859,
+      "Specificity": 0.9877124040966447,
+      "Balanced_accuracy": 0.8213083048127252,
+      "ROC_AUC": 0.9634853107380601,
+      "Average_precision": 0.8030983354699947,
+      "root_prevalence": 0.07552846272786458,
+      "valid_test_pixels": 1572864,
+      "test_RGB_patches": 24,
+      "test_spatial_positions": 6,
+      "selected_epoch": 16,
+      "old_final_Dice": 0.7255330756354242,
+      "Dice_change": 0.0,
+      "baseline_retained": true
+    }
+  ]
+}

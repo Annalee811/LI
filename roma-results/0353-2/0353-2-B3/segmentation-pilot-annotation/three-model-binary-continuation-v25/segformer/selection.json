@@ -1,0 +1,15 @@
+{
+  "threshold": 0.475,
+  "TP": 14136,
+  "FP": 16067,
+  "FN": 13701,
+  "TN": 1266816,
+  "Precision": 0.46803297685660367,
+  "Recall": 0.5078133419549521,
+  "Dice": 0.48711233631977946,
+  "IoU": 0.3219752186588921,
+  "selected_epoch": 16,
+  "checkpoint_SHA256": "7ef91f106a3b5f7675e8443faed42a339dfba5d4624515239ab6c38a61fe91a9",
+  "test_seen": false,
+  "baseline_retained": true
+}

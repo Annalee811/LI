@@ -1,0 +1,32 @@
+{
+  "source_run": "/workspace/LI/results/B3_annotation_refinement_v1",
+  "source_package": "0353-2-B3_final_paper_figures.zip",
+  "annotation_and_split_unchanged": true,
+  "start": "Selected final weights, optimizer reset because old optimizer state was not archived",
+  "history": "Epochs1-20 are new measured replays compared with the preserved original log; epochs21 onward reload the exact old selected final checkpoint and start a new optimizer. Stage boundary explicitly marked.",
+  "max_total_epoch": 60,
+  "min_extra_epochs": 10,
+  "early_stopping_patience": 8,
+  "initial_learning_rate": 1e-05,
+  "LR_strategy": "Halve LR after four consecutive validation-loss checks without improvement of1e-4; min1e-7.",
+  "batch": 2,
+  "training_draws_per_epoch": 64,
+  "epoch_definition": "32 minibatches /64augmented draws, retained from the original run; not a full200-view sweep",
+  "best_rule": "Original selected model remains eligible. Require original-validation fixed-threshold Dice gain>1e-4, original-baseline Precision/Recall decrease<=0.005 and validation loss<=baseline+0.01",
+  "validation_loss": "Actual unaugmented full original-validation eval-mode data objective measured on every replay and continuation epoch. Original historical validation-loss records did not exist and remain absent from the preserved old histories.",
+  "test_not_used_for_selection": true,
+  "external_independent_test_images": 0,
+  "historical_loss_policy": "All original histories retained unchanged. Replayed train/validation losses are separately labelled actual replay measurements, never original historical loss records. All20epochs and deviations are reported, regardless of whether better.",
+  "replay_consistency_description": "Training relative-loss difference <=1% and archived validation Dice difference <=0.005 classify near replay; actual differences are reported and are not tuned to meet a score.",
+  "replay_threads": {
+    "unet": 1,
+    "segformer": 1,
+    "deeplab": "See runtime_updates for completed-epoch thread configurations."
+  },
+  "runtime_updates": [
+    "TF completed replay epoch1: intra2/OMP2; epochs2-3: intra4/OMP4; epoch4: intra4/OMP1.",
+    "From completed checkpoint4, remaining TF work uses intra1/OMP4/MKL4. Completed checkpoint epochs were not replayed again.",
+    "Checkpoint files use uncompressed NPZ for faster atomic saves. Original data/objective and optimization schedules are unchanged; numerical replay differences are reported."
+  ],
+  "figure_policy": "Use explicitly labelled20epoch replay in the primary loss figure only if both advance proximity flags pass. Otherwise retain archived original training loss and leave original validation loss missing; provide a separate full measured replay+continuation audit figure. All deviations remain in the tables."
+}

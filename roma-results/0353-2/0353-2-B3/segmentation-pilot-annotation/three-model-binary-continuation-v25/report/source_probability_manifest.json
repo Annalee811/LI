@@ -1,0 +1,578 @@
+[
+  {
+    "model": "unet",
+    "image_id": "P16_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P16_T1_probability.npy",
+    "probability_SHA256": "c2853afa3ad99d17db55fb9b6d4b75aa91bfcf3ef0af5ed72a305e60022b957c",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P16_T1.png",
+    "reference_SHA256": "33badb436a1f358819181aa4b7c9954d9b8041cc35994c121c451065e13721bd"
+  },
+  {
+    "model": "unet",
+    "image_id": "P16_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P16_T2_probability.npy",
+    "probability_SHA256": "f4c4b4e75d0c768f7fac362fbe6a50d6854bab12b905c5cccab0e6c9d57669e4",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P16_T2.png",
+    "reference_SHA256": "e0bd33a77ef69350bf78a09b31e3a2d274ad04f532cb0b10ecf16389aa3f453c"
+  },
+  {
+    "model": "unet",
+    "image_id": "P16_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P16_T3_probability.npy",
+    "probability_SHA256": "506a98fa791a65e45a03ed65ea542269447ce4a3c745b3dc23413cf376c2135a",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P16_T3.png",
+    "reference_SHA256": "25a90c487fc50bed9bdde29b0c6942c419c5700e8ca460f303f2e4e38e5240e7"
+  },
+  {
+    "model": "unet",
+    "image_id": "P16_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P16_T4_probability.npy",
+    "probability_SHA256": "6e610dded15b2afb678603733508341bec8f70a35e778ea5a15c2564fd3bb0ee",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P16_T4.png",
+    "reference_SHA256": "5254a6ee33939a5bc6fe352dc8d4845ba4eb0cefd60ecf177a9fc71e680d781e"
+  },
+  {
+    "model": "unet",
+    "image_id": "P22_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P22_T1_probability.npy",
+    "probability_SHA256": "992cd219cf1d5be5fff28b530b1fe162700b4e911e42fbf2cf9629902bd676e1",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P22_T1.png",
+    "reference_SHA256": "214d33b44cc9d05c8c4fe34e2426b9c8030da66e2ab2eaefc698691c93a02348"
+  },
+  {
+    "model": "unet",
+    "image_id": "P22_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P22_T2_probability.npy",
+    "probability_SHA256": "f197cb07f77b1c235e10311e8e1ce327cf761c0615ee6c26a758ff2b2295b409",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P22_T2.png",
+    "reference_SHA256": "e7077e1cb3c15b37bae10d2bd78f66831c3e36786bfb320db7b268bcb99a65ae"
+  },
+  {
+    "model": "unet",
+    "image_id": "P22_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P22_T3_probability.npy",
+    "probability_SHA256": "cb787d26985c3fa5cf9269ccdbd06dfca88efbe0f32937d31b590968f877cbd4",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P22_T3.png",
+    "reference_SHA256": "1da01c1ccfae7580d119fca942b84581a2717b45163430325c8216ae429f3d30"
+  },
+  {
+    "model": "unet",
+    "image_id": "P22_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P22_T4_probability.npy",
+    "probability_SHA256": "ff4e13eb7ba08c33a6190f00c88e879ae19ffda93ac50417330c8b13144a13c1",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P22_T4.png",
+    "reference_SHA256": "023ee1e5f505945421b3c82bf4d944c6750bad489b1cdddc1d6d946b70613cad"
+  },
+  {
+    "model": "unet",
+    "image_id": "P23_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P23_T1_probability.npy",
+    "probability_SHA256": "2db270ba3aaf67132d55e74e6efdcb24474de332710840790376861cad95f849",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P23_T1.png",
+    "reference_SHA256": "86a93122e6987b35be1dac4808c515eecc38879386d2cd5c4a588e6c63fdd885"
+  },
+  {
+    "model": "unet",
+    "image_id": "P23_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P23_T2_probability.npy",
+    "probability_SHA256": "c71e1e1090d6ce7208962f7f657c310cf0761f9d37ce60cc956805fc5dd39717",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P23_T2.png",
+    "reference_SHA256": "6bd557974c761d46212a673d514a566f232788c5084f20e38f916c297ea11493"
+  },
+  {
+    "model": "unet",
+    "image_id": "P23_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P23_T3_probability.npy",
+    "probability_SHA256": "1c5961bfcfe3c986ca8217f315b3da488ea452c722c9c388c17c4c30205e5b27",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P23_T3.png",
+    "reference_SHA256": "6f3779c637e4c7e0860fbbf972af87fa954c102ff067158f881aa17908785ac7"
+  },
+  {
+    "model": "unet",
+    "image_id": "P23_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P23_T4_probability.npy",
+    "probability_SHA256": "b2d5e5a7dae4219a4b6d8630f7ccd6de12c87f69e068f68a8fe9e8e3b539c5f1",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P23_T4.png",
+    "reference_SHA256": "da60e62aa894f91d54f383bbda7ff3cec7e69d0c4e8813226e4ca04878320aee"
+  },
+  {
+    "model": "unet",
+    "image_id": "P28_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P28_T1_probability.npy",
+    "probability_SHA256": "eed4247de7c3089244bafaf53bfc8aa1483b35f0d74ece42b882cff5f4c1f34b",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P28_T1.png",
+    "reference_SHA256": "f50b06f1ef6cd7eb626f8944a211980b756c95b1ce2ba1d679ca5eb370fe9cc2"
+  },
+  {
+    "model": "unet",
+    "image_id": "P28_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P28_T2_probability.npy",
+    "probability_SHA256": "dcb23d921cb4d0043e081df759236baffa43498f3b462d39cc30626030b2aa68",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P28_T2.png",
+    "reference_SHA256": "d5d17ca7561796a4eae4adbace7efed32873ee5cdee55f14c4c926a1e33d7c56"
+  },
+  {
+    "model": "unet",
+    "image_id": "P28_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P28_T3_probability.npy",
+    "probability_SHA256": "58fd4f92b9d69bd9bfd10ed506708c94f3a93b9a5844f86c6e7d6d201e4eab6b",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P28_T3.png",
+    "reference_SHA256": "bfbcd94d31d94fc1b72ec28a5c3febc5fc143377ec31b54b943c1bdefadcb999"
+  },
+  {
+    "model": "unet",
+    "image_id": "P28_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P28_T4_probability.npy",
+    "probability_SHA256": "265ddeea82b6cdc3881a2222ef1c4e70dcc32b29cfb5d8de44c217007b2516f8",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P28_T4.png",
+    "reference_SHA256": "d16b33066bebd7e84a9856ba030a13ceefcfd8689f774f11c05c61afaf35bc0b"
+  },
+  {
+    "model": "unet",
+    "image_id": "P30_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P30_T1_probability.npy",
+    "probability_SHA256": "826286b8cfb2605ba41f87ea892fa958d07d5b89d801d3bc3d59a0d04ff36082",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P30_T1.png",
+    "reference_SHA256": "a587911ecea228ad07503c2e9d424b05f1bb4bac886d9550707f874aa26a5ca6"
+  },
+  {
+    "model": "unet",
+    "image_id": "P30_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P30_T2_probability.npy",
+    "probability_SHA256": "57a9368fb586afbaf27c399bd29a9b16edc02d4ab36e00fa28acd9177622c687",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P30_T2.png",
+    "reference_SHA256": "94c04359ac8e07681f3e5e85c79163dace849f8657ef2802ad9b733a43d8b2b1"
+  },
+  {
+    "model": "unet",
+    "image_id": "P30_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P30_T3_probability.npy",
+    "probability_SHA256": "1dbdbf8957deb40a2caa0f628931f391d1b64afa57541692f614892c095db54d",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P30_T3.png",
+    "reference_SHA256": "633449d08e927dbbf49f40766d2a9a1fd2020aad809abc667ef50c1ff12d4f72"
+  },
+  {
+    "model": "unet",
+    "image_id": "P30_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P30_T4_probability.npy",
+    "probability_SHA256": "cecf1d829f8ad8df555f48dc680769dd929811342a3163c2c0396eb2955cacf9",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P30_T4.png",
+    "reference_SHA256": "2065ccee2656627c43a3b55f521efda8f7f44151c1df2143e04b4aa3fec88f70"
+  },
+  {
+    "model": "unet",
+    "image_id": "P33_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P33_T1_probability.npy",
+    "probability_SHA256": "e5b694bfcef91a191260c27b873b955fdd1e879863951c981b40f1af26145c85",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P33_T1.png",
+    "reference_SHA256": "6e327e6c9830570acdf83768321ffcc8013f4d82a9b075324469f24f7d58c652"
+  },
+  {
+    "model": "unet",
+    "image_id": "P33_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P33_T2_probability.npy",
+    "probability_SHA256": "72b7ce308e4b5421cc81d123c322e23c9d997ef58068d9fcc7921214773c7a18",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P33_T2.png",
+    "reference_SHA256": "685bb0544e9ea63d966c20f03866d2e0d51accad03771b36a426b886a2b83c61"
+  },
+  {
+    "model": "unet",
+    "image_id": "P33_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P33_T3_probability.npy",
+    "probability_SHA256": "ac0fe61dff8fe064ecc14d96296551c97edf450a86cb6646cdf378a2024b65e3",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P33_T3.png",
+    "reference_SHA256": "5f53a17c67229c73141fae68144a1edb668c0707f7eeab3ae464d57a86cb2a32"
+  },
+  {
+    "model": "unet",
+    "image_id": "P33_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/unet/probabilities/test/P33_T4_probability.npy",
+    "probability_SHA256": "7b195ad97cb98e5a98b89764f3b8a445b0a4360fdc9c485ee8c89ca1264303e4",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P33_T4.png",
+    "reference_SHA256": "95b7d9ecaf5c2047e671a39d4f157c29cbf6b32a0952c16176afef7bb109b2d1"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P16_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P16_T1_probability.npy",
+    "probability_SHA256": "703ba9090e64743e33da1cbea1ee35770697c337b8c8a556d1cc3c2de7ac6f4a",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P16_T1.png",
+    "reference_SHA256": "33badb436a1f358819181aa4b7c9954d9b8041cc35994c121c451065e13721bd"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P16_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P16_T2_probability.npy",
+    "probability_SHA256": "95b4fc2e5fdb4ffa5498a079ab25bec965a24a25359adfe0ebea4c0ca50169d4",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P16_T2.png",
+    "reference_SHA256": "e0bd33a77ef69350bf78a09b31e3a2d274ad04f532cb0b10ecf16389aa3f453c"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P16_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P16_T3_probability.npy",
+    "probability_SHA256": "7478a20f3be8c03e3db70a34eb4c21e24dc3005568ba51899cd71ca16b971336",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P16_T3.png",
+    "reference_SHA256": "25a90c487fc50bed9bdde29b0c6942c419c5700e8ca460f303f2e4e38e5240e7"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P16_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P16_T4_probability.npy",
+    "probability_SHA256": "80b75d73a51b3d7fed2350d07ba487e7d517fd92799e64259be4162d7720063c",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P16_T4.png",
+    "reference_SHA256": "5254a6ee33939a5bc6fe352dc8d4845ba4eb0cefd60ecf177a9fc71e680d781e"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P22_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P22_T1_probability.npy",
+    "probability_SHA256": "8effc5a4f42928ec2e976b59f7804e60bb3b88741c7c8f9374cbe77e612bac53",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P22_T1.png",
+    "reference_SHA256": "214d33b44cc9d05c8c4fe34e2426b9c8030da66e2ab2eaefc698691c93a02348"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P22_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P22_T2_probability.npy",
+    "probability_SHA256": "07b1d08d3666bd9dc59280a77803fcc1969e450580093ab14dfa0e43a1066d34",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P22_T2.png",
+    "reference_SHA256": "e7077e1cb3c15b37bae10d2bd78f66831c3e36786bfb320db7b268bcb99a65ae"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P22_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P22_T3_probability.npy",
+    "probability_SHA256": "cb407a4be5aef99ce8defb4720c43518fd25446a24cc94ba743ecb1a6227959b",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P22_T3.png",
+    "reference_SHA256": "1da01c1ccfae7580d119fca942b84581a2717b45163430325c8216ae429f3d30"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P22_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P22_T4_probability.npy",
+    "probability_SHA256": "5992346cbd85940f90676266014454f3104ce3b1502470a85ed4d6a06b26c8c5",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P22_T4.png",
+    "reference_SHA256": "023ee1e5f505945421b3c82bf4d944c6750bad489b1cdddc1d6d946b70613cad"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P23_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P23_T1_probability.npy",
+    "probability_SHA256": "d4378b561ee20a9e5a183b4247c5f1f4db827c320e1ec85b22676c60ad2ab4bd",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P23_T1.png",
+    "reference_SHA256": "86a93122e6987b35be1dac4808c515eecc38879386d2cd5c4a588e6c63fdd885"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P23_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P23_T2_probability.npy",
+    "probability_SHA256": "c8896bf0ec01a8f8b5af7d6e41517ac8ce63d8e6cbfdfaee77958a4edfb1a024",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P23_T2.png",
+    "reference_SHA256": "6bd557974c761d46212a673d514a566f232788c5084f20e38f916c297ea11493"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P23_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P23_T3_probability.npy",
+    "probability_SHA256": "7664bdd93b31d703eba07b7ca7abaf0d47116506ad40c441ecfef7d1dcf229d6",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P23_T3.png",
+    "reference_SHA256": "6f3779c637e4c7e0860fbbf972af87fa954c102ff067158f881aa17908785ac7"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P23_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P23_T4_probability.npy",
+    "probability_SHA256": "4b689122473db39fb9689541a61a461d220b5aec8720caa13c43767a4c4b9d7f",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P23_T4.png",
+    "reference_SHA256": "da60e62aa894f91d54f383bbda7ff3cec7e69d0c4e8813226e4ca04878320aee"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P28_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P28_T1_probability.npy",
+    "probability_SHA256": "16b94f78a459956a8177532e2c742a416f584ef48f015b6d0a72367f3e12fa4b",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P28_T1.png",
+    "reference_SHA256": "f50b06f1ef6cd7eb626f8944a211980b756c95b1ce2ba1d679ca5eb370fe9cc2"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P28_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P28_T2_probability.npy",
+    "probability_SHA256": "dea0c1cb1d67feb4cb0a4e523ffc2b72e190487e12852bdb3bcf9e615204aaa4",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P28_T2.png",
+    "reference_SHA256": "d5d17ca7561796a4eae4adbace7efed32873ee5cdee55f14c4c926a1e33d7c56"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P28_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P28_T3_probability.npy",
+    "probability_SHA256": "e56cb3ee935199185ccec4ebf1b55ca4a1df172cc81fed33098730ce3a02b3a9",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P28_T3.png",
+    "reference_SHA256": "bfbcd94d31d94fc1b72ec28a5c3febc5fc143377ec31b54b943c1bdefadcb999"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P28_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P28_T4_probability.npy",
+    "probability_SHA256": "78eb3ca9678641da6704f608634830054f1149b9f72e1bfa1123ff03e4976757",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P28_T4.png",
+    "reference_SHA256": "d16b33066bebd7e84a9856ba030a13ceefcfd8689f774f11c05c61afaf35bc0b"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P30_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P30_T1_probability.npy",
+    "probability_SHA256": "187db724bdf8d21021e680f1d4c4f322313b7fce5f4c11a8ae0b703fdf58a2e8",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P30_T1.png",
+    "reference_SHA256": "a587911ecea228ad07503c2e9d424b05f1bb4bac886d9550707f874aa26a5ca6"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P30_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P30_T2_probability.npy",
+    "probability_SHA256": "39105c1f142ef98504e232bf0a73055b6e167eb6e9d64bbba4cbc0acc72f07c1",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P30_T2.png",
+    "reference_SHA256": "94c04359ac8e07681f3e5e85c79163dace849f8657ef2802ad9b733a43d8b2b1"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P30_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P30_T3_probability.npy",
+    "probability_SHA256": "8775f8204e61ac801f8edbfa46a2d4f4e6fa7261f3f52afe66729798fce1e4a8",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P30_T3.png",
+    "reference_SHA256": "633449d08e927dbbf49f40766d2a9a1fd2020aad809abc667ef50c1ff12d4f72"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P30_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P30_T4_probability.npy",
+    "probability_SHA256": "e236db0895e2de76ad409cd7e9b1d79fe85cb56974d4632503c2e2fc5a8f3b99",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P30_T4.png",
+    "reference_SHA256": "2065ccee2656627c43a3b55f521efda8f7f44151c1df2143e04b4aa3fec88f70"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P33_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P33_T1_probability.npy",
+    "probability_SHA256": "e22e3c10039eee44ba43cb407c7c7932ca60cab42872cdffa7d1d15a400596d6",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P33_T1.png",
+    "reference_SHA256": "6e327e6c9830570acdf83768321ffcc8013f4d82a9b075324469f24f7d58c652"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P33_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P33_T2_probability.npy",
+    "probability_SHA256": "c0598ec3fe0e94c290d01091455b2792bb8e7fd9ee09cde09526cb8b154736a0",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P33_T2.png",
+    "reference_SHA256": "685bb0544e9ea63d966c20f03866d2e0d51accad03771b36a426b886a2b83c61"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P33_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P33_T3_probability.npy",
+    "probability_SHA256": "4ad1b85e7c16061c5a5a68855379ad265d4a4efa933337292ee9c198185bf98f",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P33_T3.png",
+    "reference_SHA256": "5f53a17c67229c73141fae68144a1edb668c0707f7eeab3ae464d57a86cb2a32"
+  },
+  {
+    "model": "deeplab",
+    "image_id": "P33_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/deeplab/probabilities/test/P33_T4_probability.npy",
+    "probability_SHA256": "2393e96c534acbfb1314fcbe2f3920969e4bfb99a2daf7804571a8ce24fd4b8f",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P33_T4.png",
+    "reference_SHA256": "95b7d9ecaf5c2047e671a39d4f157c29cbf6b32a0952c16176afef7bb109b2d1"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P16_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P16_T1_probability.npy",
+    "probability_SHA256": "01b0c00544fc453d40f8126a9f11f0c3d1f1c2c59fde8d245949a1b017a78186",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P16_T1.png",
+    "reference_SHA256": "33badb436a1f358819181aa4b7c9954d9b8041cc35994c121c451065e13721bd"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P16_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P16_T2_probability.npy",
+    "probability_SHA256": "f985fcaba2bd1b1ea94e09388b190c81bcda8ab0ac41f32a577807f6eb2ed3d1",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P16_T2.png",
+    "reference_SHA256": "e0bd33a77ef69350bf78a09b31e3a2d274ad04f532cb0b10ecf16389aa3f453c"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P16_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P16_T3_probability.npy",
+    "probability_SHA256": "de3708a9585402d5c5587b085f49d65df64cd0134171d3914f51cbd34a404e87",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P16_T3.png",
+    "reference_SHA256": "25a90c487fc50bed9bdde29b0c6942c419c5700e8ca460f303f2e4e38e5240e7"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P16_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P16_T4_probability.npy",
+    "probability_SHA256": "bf94524b8cc4f420688e245f4d924d00d17702362c658dce30d592a757171823",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P16_T4.png",
+    "reference_SHA256": "5254a6ee33939a5bc6fe352dc8d4845ba4eb0cefd60ecf177a9fc71e680d781e"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P22_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P22_T1_probability.npy",
+    "probability_SHA256": "b62aa34adb2169dc4f53aa663b155055fbcee85eb89281cb9b3d8fc6fe4cd709",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P22_T1.png",
+    "reference_SHA256": "214d33b44cc9d05c8c4fe34e2426b9c8030da66e2ab2eaefc698691c93a02348"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P22_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P22_T2_probability.npy",
+    "probability_SHA256": "bd6dc9de198657531e273173bca0dfae5f0b3c6f19bb9bd2ab205aa58001ef5a",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P22_T2.png",
+    "reference_SHA256": "e7077e1cb3c15b37bae10d2bd78f66831c3e36786bfb320db7b268bcb99a65ae"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P22_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P22_T3_probability.npy",
+    "probability_SHA256": "992f49535f288f26de42c6bfdf268c1c1a3f13791d5df524be19f7f8aa73ea33",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P22_T3.png",
+    "reference_SHA256": "1da01c1ccfae7580d119fca942b84581a2717b45163430325c8216ae429f3d30"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P22_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P22_T4_probability.npy",
+    "probability_SHA256": "8449174a6cb795115bc4766d23532ec715ab298d0879750cc600874926f92688",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P22_T4.png",
+    "reference_SHA256": "023ee1e5f505945421b3c82bf4d944c6750bad489b1cdddc1d6d946b70613cad"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P23_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P23_T1_probability.npy",
+    "probability_SHA256": "b30e96c2e9827ed5d450818eecb2845f7e416ab65e09c6562ba523e7569b6fb8",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P23_T1.png",
+    "reference_SHA256": "86a93122e6987b35be1dac4808c515eecc38879386d2cd5c4a588e6c63fdd885"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P23_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P23_T2_probability.npy",
+    "probability_SHA256": "92b0acd4ee16e9b6bc033b340592eae3affa16b90eaf74e19d3fcf141c8fbd44",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P23_T2.png",
+    "reference_SHA256": "6bd557974c761d46212a673d514a566f232788c5084f20e38f916c297ea11493"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P23_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P23_T3_probability.npy",
+    "probability_SHA256": "460097ff9709c591a6dc08a9dd4ba331c887fc5caa7f072752d7f469c8fcad43",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P23_T3.png",
+    "reference_SHA256": "6f3779c637e4c7e0860fbbf972af87fa954c102ff067158f881aa17908785ac7"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P23_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P23_T4_probability.npy",
+    "probability_SHA256": "0f84335edfee9740b663b6ccc446093a84f0bc207b84314521beb60656678ca2",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P23_T4.png",
+    "reference_SHA256": "da60e62aa894f91d54f383bbda7ff3cec7e69d0c4e8813226e4ca04878320aee"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P28_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P28_T1_probability.npy",
+    "probability_SHA256": "df8e41a42026188015aee1f07fc3c5201b552e607323c3af3ef51be6d9a2bc27",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P28_T1.png",
+    "reference_SHA256": "f50b06f1ef6cd7eb626f8944a211980b756c95b1ce2ba1d679ca5eb370fe9cc2"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P28_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P28_T2_probability.npy",
+    "probability_SHA256": "399e36327294670dd2b64b97dac403d4a2c3d1dc26e56198e6a0ba33a725b088",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P28_T2.png",
+    "reference_SHA256": "d5d17ca7561796a4eae4adbace7efed32873ee5cdee55f14c4c926a1e33d7c56"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P28_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P28_T3_probability.npy",
+    "probability_SHA256": "3ce6c6fa4837c72a8726ef59e3e13f9e87e865b578e6e708b545d9926e98037f",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P28_T3.png",
+    "reference_SHA256": "bfbcd94d31d94fc1b72ec28a5c3febc5fc143377ec31b54b943c1bdefadcb999"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P28_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P28_T4_probability.npy",
+    "probability_SHA256": "81d55e547d07aa7dcb9abe3d82b3c9ddc19f6c064cc281dfee210905abad5fc5",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P28_T4.png",
+    "reference_SHA256": "d16b33066bebd7e84a9856ba030a13ceefcfd8689f774f11c05c61afaf35bc0b"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P30_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P30_T1_probability.npy",
+    "probability_SHA256": "a41b3eb5cfe5a5543d861c1d7768aaf87e627abfbff198e696c070024ebd1581",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P30_T1.png",
+    "reference_SHA256": "a587911ecea228ad07503c2e9d424b05f1bb4bac886d9550707f874aa26a5ca6"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P30_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P30_T2_probability.npy",
+    "probability_SHA256": "41127bd008910811e43638f5d7a5e8586c67734f7ab14453457385fb01275762",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P30_T2.png",
+    "reference_SHA256": "94c04359ac8e07681f3e5e85c79163dace849f8657ef2802ad9b733a43d8b2b1"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P30_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P30_T3_probability.npy",
+    "probability_SHA256": "bb53945b2bc636352011acdc84dd3b7c749819f4b7a536c26755c77106fe70e8",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P30_T3.png",
+    "reference_SHA256": "633449d08e927dbbf49f40766d2a9a1fd2020aad809abc667ef50c1ff12d4f72"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P30_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P30_T4_probability.npy",
+    "probability_SHA256": "4fb7e37e1e88ec7d0d19018efd06d96d17f736e586c51fb196348cb25eed36dc",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P30_T4.png",
+    "reference_SHA256": "2065ccee2656627c43a3b55f521efda8f7f44151c1df2143e04b4aa3fec88f70"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P33_T1",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P33_T1_probability.npy",
+    "probability_SHA256": "0b03fc7146e9cfb49ed19007f5415d617c784973d3f0a012d3b914a40f793199",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P33_T1.png",
+    "reference_SHA256": "6e327e6c9830570acdf83768321ffcc8013f4d82a9b075324469f24f7d58c652"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P33_T2",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P33_T2_probability.npy",
+    "probability_SHA256": "49fd04a98f065797722072acc4b3b4a50a7aa03de922a8f1aa695dbfd0f4019b",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P33_T2.png",
+    "reference_SHA256": "685bb0544e9ea63d966c20f03866d2e0d51accad03771b36a426b886a2b83c61"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P33_T3",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P33_T3_probability.npy",
+    "probability_SHA256": "3c93bc0d529c461cc052a883fc8ebcd92808d1d658b7e271fa6ebbe7fee1779c",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P33_T3.png",
+    "reference_SHA256": "5f53a17c67229c73141fae68144a1edb668c0707f7eeab3ae464d57a86cb2a32"
+  },
+  {
+    "model": "segformer",
+    "image_id": "P33_T4",
+    "probability_path": "/workspace/LI/results/B3_binary_continuation_v25_20261021/segformer/probabilities/test/P33_T4_probability.npy",
+    "probability_SHA256": "56263073250ef2e5b4ca319ce506b28c293a035edec9b55dfabd884bb38e2d60",
+    "reference_path": "/workspace/LI/results/B3_annotation_refinement_v1/revision/tile_masks/test/P33_T4.png",
+    "reference_SHA256": "95b7d9ecaf5c2047e671a39d4f157c29cbf6b32a0952c16176afef7bb109b2d1"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "test_used_for_selection": false,
+  "historical_validation_loss_measured_on_replay": true,
+  "checkpoint_SHA256": "d0a606f9fd335959f9612bd7bd9750839c0750ceceb878913abed99abb61473f",
+  "source_run": "/work/results/B3_annotation_refinement_v1",
+  "validation_loss_available_all_epochs": true,
+  "not_full_dataset_pass": true,
+  "model": "DeepLabV3+",
+  "training_draws_per_epoch": 64,
+  "original_historical_validation_loss_exists": false,
+  "threshold": 0.4,
+  "epochs_completed": 30,
+  "best_epoch": 12,
+  "threads": 1,
+  "starting_final_checkpoint_SHA256": "d0a606f9fd335959f9612bd7bd9750839c0750ceceb878913abed99abb61473f",
+  "extra_epochs_completed": 10,
+  "baseline_retained": true
+}

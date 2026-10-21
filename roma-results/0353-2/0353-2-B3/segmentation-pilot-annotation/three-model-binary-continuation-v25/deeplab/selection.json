@@ -1,0 +1,15 @@
+{
+  "checkpoint_SHA256": "d0a606f9fd335959f9612bd7bd9750839c0750ceceb878913abed99abb61473f",
+  "Dice": 0.5508203281312525,
+  "IoU": 0.3800911224630678,
+  "FN": 11319,
+  "Precision": 0.5139550079342855,
+  "TN": 1267262,
+  "TP": 16518,
+  "FP": 15621,
+  "selected_epoch": 12,
+  "Recall": 0.5933829076409096,
+  "test_seen": false,
+  "threshold": 0.4,
+  "baseline_retained": true
+}

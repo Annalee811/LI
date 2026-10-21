@@ -1,0 +1,26 @@
+{
+  "original_final_checkpoint_SHA256": "d0a606f9fd335959f9612bd7bd9750839c0750ceceb878913abed99abb61473f",
+  "validation_at_original_threshold": {
+    "Dice": 0.5508203281312525,
+    "TP": 16518,
+    "FN": 11319,
+    "Recall": 0.5933829076409096,
+    "IoU": 0.3800911224630678,
+    "Precision": 0.5139550079342855,
+    "TN": 1267262,
+    "FP": 15621
+  },
+  "validation_at_05": {
+    "Accuracy": 0.9805313110351562,
+    "Dice": 0.5485936670794268,
+    "TP": 15506,
+    "FN": 12331,
+    "Recall": 0.5570284154183281,
+    "IoU": 0.3779738689547582,
+    "Precision": 0.540410553096574,
+    "TN": 1269696,
+    "FP": 13187
+  },
+  "threshold": 0.4,
+  "validation_loss": 1.5049035012722016
+}

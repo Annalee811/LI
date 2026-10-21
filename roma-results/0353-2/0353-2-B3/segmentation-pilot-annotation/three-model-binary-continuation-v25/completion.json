@@ -1,0 +1,12 @@
+{
+  "state": "complete",
+  "models": [
+    "unet",
+    "deeplab",
+    "segformer"
+  ],
+  "figures": "report/figures",
+  "historical_loss_origin": "Measured replay, not originally recorded validation loss",
+  "old_results_preserved": true,
+  "audit": "verification.json"
+}

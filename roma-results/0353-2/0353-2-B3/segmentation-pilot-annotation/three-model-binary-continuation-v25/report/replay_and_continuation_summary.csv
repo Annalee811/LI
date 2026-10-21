@@ -1,0 +1,4 @@
+﻿model,measured_replay_epochs,additional_training_epochs,total_monitoring_epochs,training_draws_per_epoch,total_training_draws,total_optimizer_updates,max_replay_training_loss_relative_difference,mean_replay_training_loss_relative_difference,max_replay_logged_Dice_absolute_difference,near_original_training_loss,near_original_logged_Dice,baseline_retained,selected_epoch,final_Dice,final_Dice_change
+U-Net,20,10,30,64,1920,960,0.001249299401337265,0.00035422555555956987,0.0007220248288842823,True,True,True,18,0.884597820539224,0.0
+DeepLabV3+,20,10,30,64,1920,960,0.011809020809121759,0.003928857332641906,0.013253230036820218,False,False,True,12,0.733292673082615,0.0
+SegFormer-B0,20,10,30,64,1920,960,0.0022405673087556297,0.00040382615018712655,0.0013995043279887431,True,True,True,16,0.7255330756354242,0.0
