@@ -1,0 +1,110 @@
+{
+  "repository": "Annalee811/LI",
+  "branch": "b3-cpu-artifacts-20261021-v1",
+  "commit": "5392a3744aec68a18492ce2e9ac26f5554e681d8",
+  "public_upload_authorized": true,
+  "pushed": true,
+  "remote_file_checks": [
+    {
+      "name": "four_period_composite.tif",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/four_period_composite.tif",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 54698832,
+      "sha256": "7623f8ba40a5e26eab2855c19611e654d741e4ad105b9b324d7b4d569975ad40"
+    },
+    {
+      "name": "four_period_layers.tif",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/four_period_layers.tif",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 27093076,
+      "sha256": "151542ccfc7930647d9079d0614f4ba352a3af8c95bf734bd2613b3ea2071710"
+    },
+    {
+      "name": "paper_figures.zip",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/paper_figures.zip",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 33684529,
+      "sha256": "a85b0aee15aee79423a14d1daec9df4fa7a83b591796c3c69119dd96299be9d5"
+    },
+    {
+      "name": "all_results_weights_scripts_data.zip",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/all_results_weights_scripts_data.zip",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 1230172305,
+      "sha256": "c299808b590a1df341caef2870e2767bbde32fbf02e072835d68de06a13c20fb"
+    },
+    {
+      "name": "training_data.zip",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/training_data.zip",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 45155551,
+      "sha256": "f83d247b8cfb78dcdf8b3bac2ef1d68c16edda761bc814ca34641fe4e475b0f9"
+    },
+    {
+      "name": "scripts_and_configs.zip",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/scripts_and_configs.zip",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 12174756,
+      "sha256": "3490da2d5aa7c2c768e73608e67ebe0baf8f9726d8e84d485dc4e2e92e920e6b"
+    },
+    {
+      "name": "weights_siamese_unet.zip",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/weights_siamese_unet.zip",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 28646131,
+      "sha256": "1067048fade7b14638093f2e9ac4686e1dbba9f4103e4ca22c4b4a301c047d44"
+    },
+    {
+      "name": "weights_stanet.zip",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/weights_stanet.zip",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 314360246,
+      "sha256": "7700e3ec73e247679257aacae9917fab0dfdc9a7c4a5d70d0386843dd9403974"
+    },
+    {
+      "name": "weights_changeformer.zip",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/weights_changeformer.zip",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 552549171,
+      "sha256": "653c0b26f040c1eafeddd8ed9c437f43c4cfb562a582d1028a925150bc9bed8d"
+    },
+    {
+      "name": "prediction_results.zip",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/prediction_results.zip",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 277265627,
+      "sha256": "7a8842cab3558ad206c8771dc18da4f2991af786754e06e6deef1dad8655deda"
+    },
+    {
+      "name": "training_data_download_index.json",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/training_data_download_index.json",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 90669,
+      "sha256": "6b46b03e5035ca26531e6eb11dacab1eadc1dbc3e1a33065ff22ff1c37c1c9a4"
+    },
+    {
+      "name": "model_comparison.csv",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/model_comparison.csv",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 603,
+      "sha256": "2f47e6eaffb521f50a061d680a02d5c29c14094651f8fc03e98cf30186ce4835"
+    },
+    {
+      "name": "README_中文.md",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/README_%E4%B8%AD%E6%96%87.md",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 2823,
+      "sha256": "5805206cd52359500037961fb8ff84dca466645b351dff27a14fff83086d2bcd"
+    },
+    {
+      "name": "verification.json",
+      "html_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/verification.json",
+      "remote_pointer_or_content_verified": true,
+      "bytes": 1422,
+      "sha256": "433fde41465b97946a493bd7fc89d6211ad4f7af90afd8d6fc4acbad37641d34"
+    }
+  ],
+  "paper_figures_remote_fetch_SHA256_verified": true,
+  "index_url": "https://github.com/Annalee811/LI/blob/b3-cpu-artifacts-20261021-v1/B3_CPU_20261021/README.md",
+  "scope": "B3 spatial diagnostic; selected ChangeFormer test macro foreground Dice=0.2412, tip-growth Dice=0."
+}
