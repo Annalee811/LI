@@ -1,0 +1,80 @@
+{
+  "script_syntax": true,
+  "siamese_unet": {
+    "last_checkpoint_strict_model_restore": true,
+    "optimizer_restore": true,
+    "scheduler_restore": true,
+    "sampler_restore": true,
+    "finite_prediction": true,
+    "epoch": 24
+  },
+  "stanet": {
+    "last_checkpoint_strict_model_restore": true,
+    "optimizer_restore": true,
+    "scheduler_restore": true,
+    "sampler_restore": true,
+    "finite_prediction": true,
+    "epoch": 18
+  },
+  "changeformer": {
+    "last_checkpoint_strict_model_restore": true,
+    "optimizer_restore": true,
+    "scheduler_restore": true,
+    "sampler_restore": true,
+    "finite_prediction": true,
+    "epoch": 24
+  },
+  "prediction_dimensions_and_ownership": true,
+  "layer_series": [
+    {
+      "shape": [
+        4,
+        1108,
+        2541,
+        3
+      ],
+      "dtype": "uint8"
+    },
+    {
+      "shape": [
+        4,
+        1108,
+        2541
+      ],
+      "dtype": "uint8"
+    },
+    {
+      "shape": [
+        4,
+        1108,
+        2541
+      ],
+      "dtype": "uint8"
+    },
+    {
+      "shape": [
+        4,
+        1108,
+        2541
+      ],
+      "dtype": "uint8"
+    },
+    {
+      "shape": [
+        4,
+        1108,
+        2541
+      ],
+      "dtype": "uint32"
+    }
+  ],
+  "paper_figures.zip": {
+    "CRC": true,
+    "entries": 18
+  },
+  "all_results_weights_scripts_data.zip": {
+    "CRC": true,
+    "entries": 1023
+  },
+  "download_hashes": true
+}
