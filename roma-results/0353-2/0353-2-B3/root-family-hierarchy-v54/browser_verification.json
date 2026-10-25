@@ -1,0 +1,184 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "four native-period images initialize with hierarchical editor",
+      "pass": true
+    },
+    {
+      "name": "original mask, color, temporal and viability layers remain exact",
+      "pass": true
+    },
+    {
+      "name": "hierarchical labels unique and mother graph acyclic",
+      "pass": true,
+      "detail": {
+        "entries": 1369,
+        "unique": true,
+        "acyclic": true,
+        "colors": true,
+        "existing": 127,
+        "newSides": 73
+      }
+    },
+    {
+      "name": "mother, existing sides and new sides share the exact family color",
+      "pass": true
+    },
+    {
+      "name": "root pixel geometry remains unchanged",
+      "pass": true
+    },
+    {
+      "name": "all serialized segments retain one lifetime hierarchical label",
+      "pass": true
+    },
+    {
+      "name": "side-root label retained in T1",
+      "pass": true
+    },
+    {
+      "name": "side-root label retained in T2",
+      "pass": true
+    },
+    {
+      "name": "side-root label retained in T3",
+      "pass": true
+    },
+    {
+      "name": "side-root label retained in T4",
+      "pass": true
+    },
+    {
+      "name": "new lateral has a permanent N-number",
+      "pass": true,
+      "detail": {
+        "id": "R0412",
+        "label": "0323-N1",
+        "periods": [
+          "T2",
+          "T3",
+          "T4"
+        ]
+      }
+    },
+    {
+      "name": "new lateral keeps same N-number in T2",
+      "pass": true
+    },
+    {
+      "name": "new lateral keeps same N-number in T3",
+      "pass": true
+    },
+    {
+      "name": "new lateral keeps same N-number in T4",
+      "pass": true
+    },
+    {
+      "name": "real keyboard/mouse can edit a hierarchical side-root number",
+      "pass": true
+    },
+    {
+      "name": "side rename synchronizes every observed period without pixel relabeling",
+      "pass": true
+    },
+    {
+      "name": "hierarchical rename can be undone",
+      "pass": true
+    },
+    {
+      "name": "mother rename cascades to all descendant labels",
+      "pass": true
+    },
+    {
+      "name": "cascade preserves family color and stable internal identities",
+      "pass": true
+    },
+    {
+      "name": "parent/child cycles are rejected with visible feedback",
+      "pass": true
+    },
+    {
+      "name": "new side 1 gets its own N-ID and mother color",
+      "pass": true
+    },
+    {
+      "name": "new side 2 gets its own N-ID and mother color",
+      "pass": true
+    },
+    {
+      "name": "N-counters are shared across periods and never reused",
+      "pass": true
+    },
+    {
+      "name": "existing lateral uses a numeric suffix rather than N",
+      "pass": true
+    },
+    {
+      "name": "incorrect side relationship can be detached",
+      "pass": true
+    },
+    {
+      "name": "all hierarchy edits preserve original temporal categories and boundaries",
+      "pass": true
+    },
+    {
+      "name": "fragment merging preserves a valid unique hierarchy",
+      "pass": true
+    },
+    {
+      "name": "splitting a false connection also creates valid editable identity metadata",
+      "pass": true
+    },
+    {
+      "name": "editing mode releases pan capture",
+      "pass": true
+    },
+    {
+      "name": "real canvas click can add a point",
+      "pass": true
+    },
+    {
+      "name": "save JSON includes editable hierarchy",
+      "pass": true
+    },
+    {
+      "name": "file-input restore recovers exact family labels and parentage",
+      "pass": true
+    },
+    {
+      "name": "invalid hierarchical import is rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "editable HTML can be saved",
+      "pass": true
+    },
+    {
+      "name": "saved HTML reopens with the exact edited hierarchy",
+      "pass": true
+    },
+    {
+      "name": "reopened page has no duplicate tools",
+      "pass": true
+    },
+    {
+      "name": "reopened page retains original pixel layers",
+      "pass": true
+    },
+    {
+      "name": "legacy V53 mother assignments are preserved during upgrade",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "exceptions": [],
+  "tested_editor_SHA256": "7e0d371332370ef473398647cb196689e2113db3b083c66e94f533ca3ca1cbcf",
+  "actual_browser": "Chromium; real keyboard, mouse, drag and file-picker interfaces",
+  "network_fixture": "Original PNG URLs remapped to identical local originals",
+  "training_modified": false
+}
