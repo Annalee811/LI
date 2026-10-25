@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "four upper-period original images and single editor initialize",
+      "pass": true,
+      "detail": {
+        "periods": 4,
+        "names": [
+          "T1_RGB.png",
+          "T2_RGB.png",
+          "T3_RGB.png",
+          "T4_RGB.png"
+        ],
+        "width": 2541,
+        "height": 1108,
+        "controls": 1,
+        "viewport": true
+      }
+    },
+    {
+      "name": "original four pixel-label layers are byte-equivalent",
+      "pass": true
+    },
+    {
+      "name": "root ownership covers exactly the unchanged masks; all proposals unconfirmed",
+      "pass": true,
+      "detail": [
+        {
+          "period": "T1",
+          "changed": 0,
+          "segments": 425,
+          "pending": true
+        },
+        {
+          "period": "T2",
+          "changed": 0,
+          "segments": 585,
+          "pending": true
+        },
+        {
+          "period": "T3",
+          "changed": 0,
+          "segments": 591,
+          "pending": true
+        },
+        {
+          "period": "T4",
+          "changed": 0,
+          "segments": 610,
+          "pending": true
+        }
+      ]
+    },
+    {
+      "name": "every crossing owner with visible arms belongs to an incident trace",
+      "pass": true
+    },
+    {
+      "name": "period navigation 1",
+      "pass": true
+    },
+    {
+      "name": "period navigation 2",
+      "pass": true
+    },
+    {
+      "name": "period navigation 3",
+      "pass": true
+    },
+    {
+      "name": "period navigation 4",
+      "pass": true
+    },
+    {
+      "name": "root list selects a full stored trajectory",
+      "pass": true
+    },
+    {
+      "name": "cross-period same-root association can be explicitly confirmed",
+      "pass": true
+    },
+    {
+      "name": "root ID can be edited without changing pixel labels",
+      "pass": true
+    },
+    {
+      "name": "structure undo restores root ID",
+      "pass": true
+    },
+    {
+      "name": "crossing arms connect with unique partners and common root ID",
+      "pass": true,
+      "detail": {
+        "pair": true,
+        "oneToOne": true,
+        "sameId": true
+      }
+    },
+    {
+      "name": "crossing owner is editable without recoloring temporal labels",
+      "pass": true
+    },
+    {
+      "name": "branch type, review status and note are saved",
+      "pass": true
+    },
+    {
+      "name": "native canvas pointer creates editable tip",
+      "pass": true
+    },
+    {
+      "name": "real pointer drag moves point in original coordinates",
+      "pass": true
+    },
+    {
+      "name": "point deletion works",
+      "pass": true
+    },
+    {
+      "name": "point deletion can be undone",
+      "pass": true
+    },
+    {
+      "name": "mistaken whole-root connection can be split with pixel geometry preserved",
+      "pass": true
+    },
+    {
+      "name": "split is reversible",
+      "pass": true
+    },
+    {
+      "name": "save JSON button includes all root structure edits",
+      "pass": true
+    },
+    {
+      "name": "real file-input restore retains edited identities and unchanged pixel layers",
+      "pass": true
+    },
+    {
+      "name": "mismatched structural source is rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "editable HTML export carries current annotation",
+      "pass": true
+    },
+    {
+      "name": "saved editable HTML reopens with edits and no duplicate controls",
+      "pass": true
+    },
+    {
+      "name": "reopened HTML retains all original pixel labels",
+      "pass": true
+    },
+    {
+      "name": "no browser script exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "exceptions": [],
+  "actual_browser": "Chromium with real DOM file input and pointer events",
+  "network_fixture": "Only original-image URLs remapped to exact local PNG bytes",
+  "training_modified": false
+}

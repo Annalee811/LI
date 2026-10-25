@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "original_pixel_annotation_unchanged": true,
+  "source_SHA256": "400b4760b4c5d414a6d8cd4b6958798a7728a6bc1f02dda2cd256e3a47bcf4f0",
+  "source_copy_SHA256": "400b4760b4c5d414a6d8cd4b6958798a7728a6bc1f02dda2cd256e3a47bcf4f0",
+  "root_geometry_unchanged": true,
+  "all_structure_annotations_pending_human_review": true,
+  "training_modified": false,
+  "root_IDs_are_candidates_not_confirmed_root_counts": true,
+  "periods": [
+    {
+      "period": "T1",
+      "root_trace_candidates": 425,
+      "matched_to_previous": 0,
+      "point_candidates": {
+        "junction_uncertain": 213,
+        "crossing": 25,
+        "boundary_endpoint": 40,
+        "tip": 250
+      },
+      "root_pixel_count": 104518,
+      "provisional_root_groups": 406,
+      "same_period_continuation_merges": 19
+    },
+    {
+      "period": "T2",
+      "root_trace_candidates": 585,
+      "matched_to_previous": 81,
+      "point_candidates": {
+        "junction_uncertain": 263,
+        "crossing": 86,
+        "branch": 92,
+        "boundary_endpoint": 44,
+        "tip": 353
+      },
+      "root_pixel_count": 152193,
+      "provisional_root_groups": 550,
+      "same_period_continuation_merges": 35
+    },
+    {
+      "period": "T3",
+      "root_trace_candidates": 591,
+      "matched_to_previous": 79,
+      "point_candidates": {
+        "junction_uncertain": 423,
+        "crossing": 122,
+        "branch": 44,
+        "boundary_endpoint": 51,
+        "tip": 340
+      },
+      "root_pixel_count": 168984,
+      "provisional_root_groups": 511,
+      "same_period_continuation_merges": 80
+    },
+    {
+      "period": "T4",
+      "root_trace_candidates": 610,
+      "matched_to_previous": 154,
+      "point_candidates": {
+        "junction_uncertain": 389,
+        "crossing": 102,
+        "branch": 13,
+        "boundary_endpoint": 49,
+        "tip": 347
+      },
+      "root_pixel_count": 147533,
+      "provisional_root_groups": 529,
+      "same_period_continuation_merges": 81
+    }
+  ],
+  "new_unique_track_IDs": 1682,
+  "cross_period_candidates": 314
+}
