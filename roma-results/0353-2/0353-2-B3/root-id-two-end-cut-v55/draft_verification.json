@@ -1,0 +1,270 @@
+{
+  "passed": true,
+  "original_pixel_annotation_unchanged": true,
+  "root_geometry_unchanged": true,
+  "training_modified": false,
+  "hierarchy_labels_unique": true,
+  "parent_graph_acyclic": true,
+  "side_labels_retained_across_dates": true,
+  "independent_family_roots": 1169,
+  "existing_lateral_candidates": 127,
+  "new_lateral_candidates": 73,
+  "lateral_candidates_present_multiple_periods": 107,
+  "root_tracks_all_four_periods": 53,
+  "additional_continuation_joins": 13,
+  "unresolved_parentage_cases": 461,
+  "same_lateral_cross_period_attachment_joins": 9,
+  "all_structure_annotations_pending_human_review": true,
+  "source_SHA256": "400b4760b4c5d414a6d8cd4b6958798a7728a6bc1f02dda2cd256e3a47bcf4f0",
+  "examples": [
+    {
+      "root_id": "R0014",
+      "label": "0001-3",
+      "parent_root_id": "R0002",
+      "family_root_id": "R0002",
+      "branch_kind": "existing",
+      "first_seen_period": "T1",
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "review_status": "pending",
+      "parentage_confirmed": false,
+      "first_observation_is_not_proven_birth": true,
+      "parent_evidence": [
+        {
+          "period": "T1",
+          "node_id": "T1-J0013",
+          "x": 1727,
+          "y": 92,
+          "score": 0.9585,
+          "main_arms": [
+            "A1",
+            "A3"
+          ],
+          "lateral_arm": "A2",
+          "endpoint_distance": 1.41,
+          "lateral_direction": [
+            0.9534000969318158,
+            0.30170889143411755
+          ],
+          "criterion": "Three arms, main root passes through, lateral ends at junction, no opposite-side continuation; RGB review still required"
+        },
+        {
+          "period": "T2",
+          "node_id": "T2-J0025",
+          "x": 1726,
+          "y": 94,
+          "score": 0.9483,
+          "main_arms": [
+            "A1",
+            "A3"
+          ],
+          "lateral_arm": "A2",
+          "endpoint_distance": 2.0,
+          "lateral_direction": [
+            0.9712523964957788,
+            0.2380520579646529
+          ],
+          "criterion": "Three arms, main root passes through, lateral ends at junction, no opposite-side continuation; RGB review still required"
+        }
+      ]
+    },
+    {
+      "root_id": "R0213",
+      "label": "0001-9",
+      "parent_root_id": "R0002",
+      "family_root_id": "R0002",
+      "branch_kind": "existing",
+      "first_seen_period": "T1",
+      "observed_periods": [
+        "T1"
+      ],
+      "review_status": "pending",
+      "parentage_confirmed": false,
+      "first_observation_is_not_proven_birth": true,
+      "parent_evidence": [
+        {
+          "period": "T1",
+          "node_id": "T1-J0027",
+          "x": 1696,
+          "y": 160,
+          "score": 0.9344,
+          "main_arms": [
+            "A1",
+            "A2"
+          ],
+          "lateral_arm": "A3",
+          "endpoint_distance": 1.41,
+          "lateral_direction": [
+            0.8595358880206597,
+            0.5110753928771528
+          ],
+          "criterion": "Three arms, main root passes through, lateral ends at junction, no opposite-side continuation; RGB review still required"
+        }
+      ]
+    },
+    {
+      "root_id": "R0080",
+      "label": "0001-6",
+      "parent_root_id": "R0002",
+      "family_root_id": "R0002",
+      "branch_kind": "existing",
+      "first_seen_period": "T1",
+      "observed_periods": [
+        "T1",
+        "T2"
+      ],
+      "review_status": "pending",
+      "parentage_confirmed": false,
+      "first_observation_is_not_proven_birth": true,
+      "parent_evidence": [
+        {
+          "period": "T1",
+          "node_id": "T1-J0055",
+          "x": 1494,
+          "y": 290,
+          "score": 0.9136,
+          "main_arms": [
+            "A2",
+            "A3"
+          ],
+          "lateral_arm": "A1",
+          "endpoint_distance": 1.41,
+          "lateral_direction": [
+            -0.5913636636275253,
+            -0.8064049958556997
+          ],
+          "criterion": "Three arms, main root passes through, lateral ends at junction, no opposite-side continuation; RGB review still required"
+        },
+        {
+          "period": "T2",
+          "node_id": "T2-J0086",
+          "x": 1493,
+          "y": 292,
+          "score": 0.8868,
+          "main_arms": [
+            "A2",
+            "A3"
+          ],
+          "lateral_arm": "A1",
+          "endpoint_distance": 1.41,
+          "lateral_direction": [
+            -0.5923904504775153,
+            -0.8056510126494267
+          ],
+          "criterion": "Three arms, main root passes through, lateral ends at junction, no opposite-side continuation; RGB review still required"
+        }
+      ]
+    },
+    {
+      "root_id": "R0015",
+      "label": "0001-4",
+      "parent_root_id": "R0002",
+      "family_root_id": "R0002",
+      "branch_kind": "existing",
+      "first_seen_period": "T1",
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "review_status": "pending",
+      "parentage_confirmed": false,
+      "first_observation_is_not_proven_birth": true,
+      "parent_evidence": [
+        {
+          "period": "T1",
+          "node_id": "T1-J0048",
+          "x": 1630,
+          "y": 243,
+          "score": 0.8992,
+          "main_arms": [
+            "A1",
+            "A3"
+          ],
+          "lateral_arm": "A2",
+          "endpoint_distance": 1.41,
+          "lateral_direction": [
+            0.9768392859009551,
+            -0.21397431976878037
+          ],
+          "criterion": "Three arms, main root passes through, lateral ends at junction, no opposite-side continuation; RGB review still required"
+        },
+        {
+          "period": "T2",
+          "node_id": "T2-J0064",
+          "x": 1621,
+          "y": 235,
+          "score": 0.8104,
+          "main_arms": [
+            "A1",
+            "A2"
+          ],
+          "lateral_arm": "A3",
+          "endpoint_distance": 12.81,
+          "lateral_direction": [
+            0.6522685681686845,
+            0.7579879385446541
+          ],
+          "criterion": "Three arms, main root passes through, lateral ends at junction, no opposite-side continuation; RGB review still required"
+        },
+        {
+          "period": "T2",
+          "node_id": "T2-J0068",
+          "x": 1625,
+          "y": 244,
+          "score": 0.8759,
+          "main_arms": [
+            "A1",
+            "A3"
+          ],
+          "lateral_arm": "A2",
+          "endpoint_distance": 4.12,
+          "lateral_direction": [
+            0.999801385883198,
+            0.019929595731891465
+          ],
+          "criterion": "Three arms, main root passes through, lateral ends at junction, no opposite-side continuation; RGB review still required"
+        }
+      ]
+    },
+    {
+      "root_id": "R0183",
+      "label": "0001-8",
+      "parent_root_id": "R0002",
+      "family_root_id": "R0002",
+      "branch_kind": "existing",
+      "first_seen_period": "T1",
+      "observed_periods": [
+        "T1"
+      ],
+      "review_status": "pending",
+      "parentage_confirmed": false,
+      "first_observation_is_not_proven_birth": true,
+      "parent_evidence": [
+        {
+          "period": "T1",
+          "node_id": "T1-J0046",
+          "x": 1594,
+          "y": 244,
+          "score": 0.8582,
+          "main_arms": [
+            "A1",
+            "A2"
+          ],
+          "lateral_arm": "A3",
+          "endpoint_distance": 3.16,
+          "lateral_direction": [
+            0.6742693640213302,
+            0.7384854939281277
+          ],
+          "criterion": "Three arms, main root passes through, lateral ends at junction, no opposite-side continuation; RGB review still required"
+        }
+      ]
+    }
+  ]
+}

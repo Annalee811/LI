@@ -1,0 +1,16 @@
+{
+  "occupiedTarget": {
+    "after": "0001",
+    "status": "编号已被另一根使用。同一条根请点“合并另一段为同一根”；侧根请设母根关系。"
+  },
+  "twoInputFields": {
+    "before": {
+      "left": "9000",
+      "top": "0002"
+    },
+    "after": "0001",
+    "status": "编号已被另一根使用。同一条根请点“合并另一段为同一根”；侧根请设母根关系。"
+  },
+  "occupiedReproduced": true,
+  "leftInputIgnoredReproduced": true
+}

@@ -1,0 +1,177 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "four-period editor initializes with original annotation",
+      "pass": true
+    },
+    {
+      "name": "typing in left number box synchronizes top box",
+      "pass": true
+    },
+    {
+      "name": "real apply click commits the value entered in left box",
+      "pass": true
+    },
+    {
+      "name": "rename updates saved graph and all descendant prefixes",
+      "pass": true
+    },
+    {
+      "name": "unapplied input survives refresh instead of reverting",
+      "pass": true
+    },
+    {
+      "name": "Enter applies a root number",
+      "pass": true
+    },
+    {
+      "name": "an occupied number can enroll the segment into the existing root",
+      "pass": true
+    },
+    {
+      "name": "merge retains unique labels and valid side hierarchy",
+      "pass": true
+    },
+    {
+      "name": "number-only exchange keeps the roots independent",
+      "pass": true
+    },
+    {
+      "name": "full-width keyboard digits are accepted and normalized",
+      "pass": true
+    },
+    {
+      "name": "two real endpoint clicks create a middle-segment preview",
+      "pass": true
+    },
+    {
+      "name": "Enter during cut preview applies only to the middle, not the complete original root",
+      "pass": true
+    },
+    {
+      "name": "middle segment automatically receives a registered ID",
+      "pass": true
+    },
+    {
+      "name": "two-end split retains all original pixels and temporal classes",
+      "pass": true
+    },
+    {
+      "name": "split result is structurally valid and serializable",
+      "pass": true
+    },
+    {
+      "name": "detached middle segment can immediately be renumbered",
+      "pass": true
+    },
+    {
+      "name": "manual correction pixels automatically inherit detached-root ownership",
+      "pass": true
+    },
+    {
+      "name": "pixel undo restores ownership and pixels together",
+      "pass": true
+    },
+    {
+      "name": "typing mother number in the front field enrolls the middle into mother itself",
+      "pass": true,
+      "detail": {
+        "result": true,
+        "oldRoot": "R0140",
+        "id": "R0002",
+        "label": "0001",
+        "status": "已断开两端，中间段编号 0001；已处理 T1。 可直接改号或设母根关系。"
+      }
+    },
+    {
+      "name": "existing-side mode creates an independent child ID under the entered mother",
+      "pass": true,
+      "detail": {
+        "result": true,
+        "oldRoot": "R0140",
+        "id": "R1392",
+        "label": "0001-10",
+        "status": "已断开两端，中间段编号 0001-10；已处理 T1。 可直接改号或设母根关系。"
+      }
+    },
+    {
+      "name": "newly registered side shares exact mother-family color",
+      "pass": true
+    },
+    {
+      "name": "new-side mode uses front mother input to allocate N-number",
+      "pass": true,
+      "detail": {
+        "result": true,
+        "oldRoot": "R0140",
+        "id": "R1392",
+        "label": "0001-N2",
+        "status": "已断开两端，中间段编号 0001-N2；已处理 T1。 可直接改号或设母根关系。"
+      }
+    },
+    {
+      "name": "N-side remains a distinct root rather than merging into mother",
+      "pass": true
+    },
+    {
+      "name": "a side can have its own newly born side with hierarchical numbering",
+      "pass": true,
+      "detail": {
+        "result": true,
+        "oldRoot": "R0140",
+        "id": "R1392",
+        "label": "0001-1-N2",
+        "status": "已断开两端，中间段编号 0001-1-N2；已处理 T1。 可直接改号或设母根关系。"
+      }
+    },
+    {
+      "name": "reliably matched periods share one automatically registered detached-root ID",
+      "pass": true,
+      "detail": {
+        "result": true,
+        "id": "R1392",
+        "periods": [
+          "T1",
+          "T2",
+          "T3",
+          "T4"
+        ]
+      }
+    },
+    {
+      "name": "all editing operations preserve the untouched original pixel layers",
+      "pass": true
+    },
+    {
+      "name": "saved JSON contains middle-root ownership, cut endpoints and hierarchy",
+      "pass": true
+    },
+    {
+      "name": "file-input restore preserves cut and numbering edits",
+      "pass": true
+    },
+    {
+      "name": "edited HTML can be exported",
+      "pass": true
+    },
+    {
+      "name": "saved HTML reopens cuts and numbering without duplicate controls",
+      "pass": true
+    },
+    {
+      "name": "reopened HTML retains original foreground and temporal labels",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "exceptions": [],
+  "tested_editor_SHA256": "cda24ed7c5da54229fa313d4e3a28871fcdfb26fbf8ea334ce5d5405398aabee",
+  "actual_browser": "Chromium; real mouse, keyboard and file picker",
+  "network_fixture": "Original PNG URLs remapped to identical local files",
+  "original_annotation_rebuilt": false
+}
