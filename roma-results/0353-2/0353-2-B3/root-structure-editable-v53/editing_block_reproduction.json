@@ -1,0 +1,12 @@
+{
+  "initial": {
+    "tool": "select",
+    "statusVisible": false,
+    "pixelToolsVisible": false
+  },
+  "panningAfterSelectingEdit": true,
+  "nodeCount": 528,
+  "statusVisible": false,
+  "nodeAdded": false,
+  "reproduced": true
+}

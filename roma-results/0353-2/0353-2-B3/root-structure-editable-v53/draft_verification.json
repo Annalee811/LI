@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "original_pixel_annotation_unchanged": true,
+  "root_geometry_unchanged": true,
+  "all_structure_annotations_pending_human_review": true,
+  "training_modified": false,
+  "source_SHA256": "400b4760b4c5d414a6d8cd4b6958798a7728a6bc1f02dda2cd256e3a47bcf4f0",
+  "root_tracks_all_four_periods": 49,
+  "new_first_visible_tracks_retained_later": 124,
+  "root_0001": {
+    "root_id": "R0001",
+    "first_seen_period": "T1",
+    "observed_periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "review_status": "pending",
+    "biological_identity_confirmed": false
+  },
+  "periods": [
+    {
+      "period": "T1",
+      "trace_segments": 425,
+      "root_groups": 388,
+      "continuation_groups_inheriting_old_ID": 0,
+      "explicit_new_groups": 0,
+      "unresolved_old_root_groups": 0,
+      "additional_same_period_joins": 18
+    },
+    {
+      "period": "T2",
+      "trace_segments": 585,
+      "root_groups": 506,
+      "continuation_groups_inheriting_old_ID": 146,
+      "explicit_new_groups": 231,
+      "unresolved_old_root_groups": 153,
+      "additional_same_period_joins": 20
+    },
+    {
+      "period": "T3",
+      "trace_segments": 591,
+      "root_groups": 469,
+      "continuation_groups_inheriting_old_ID": 157,
+      "explicit_new_groups": 128,
+      "unresolved_old_root_groups": 203,
+      "additional_same_period_joins": 23
+    },
+    {
+      "period": "T4",
+      "trace_segments": 610,
+      "root_groups": 455,
+      "continuation_groups_inheriting_old_ID": 221,
+      "explicit_new_groups": 47,
+      "unresolved_old_root_groups": 241,
+      "additional_same_period_joins": 20
+    }
+  ],
+  "note": "Track counts and correspondences are proposals, not independently verified root identities."
+}
