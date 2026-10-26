@@ -9,7 +9,7 @@ ROOT=Path('/workspace/LI')
 OUT=ROOT/'results/B3_root_continuity_review_v56_20261026'
 REPO='repos/Annalee811/LI'
 BRANCH='annotation-restore-v50-delivery'
-PARENT='bc6c92add8794d8e30fb8f0dd322dcdecbf172f4'
+PARENT='1221929f3895ef93581e858a0cabc06abb025695'
 PREFIX='roma-results/0353-2/0353-2-B3/root-continuity-t4-review-v56'
 EDITOR='roma-results/0353-2/0353-2-B3/original-annotation-restore-v50/annotate_restore_fixed_lite.html'
 
@@ -53,7 +53,7 @@ def main():
         records.append(dict(path=dest,bytes=len(data),SHA256=hashlib.sha256(data).hexdigest(),blob=blob))
         print('VERIFIED_BLOB',dest,len(data),flush=True)
     remote=api('git/ref/heads/'+BRANCH)['object']['sha']
-    pubpath=OUT/'publication_state.json'
+    pubpath=OUT/'publication_state_final.json'
     publication=json.loads(pubpath.read_text()) if pubpath.exists() else {}
     if publication.get('commit') and remote==publication['commit']:
         commit=remote

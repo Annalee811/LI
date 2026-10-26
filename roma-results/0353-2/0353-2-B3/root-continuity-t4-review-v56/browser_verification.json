@@ -206,7 +206,7 @@
     }
   ],
   "exceptions": [],
-  "tested_editor_SHA256": "9a679ac4b5002963f8cef77eee805a2e11c55f1ab47ec46ef4d95112cce58e4b",
+  "tested_editor_SHA256": "6f468022c0a48eccae1925acd2d681375e5e82f4764821424e27704771c27aed",
   "actual_browser": "Chromium; real mouse, keyboard and file picker",
   "network_fixture": "Original PNG URLs remapped to identical local files",
   "original_annotation_rebuilt": false,

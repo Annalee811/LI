@@ -31,9 +31,25 @@ def main():
     other=[x for x in candidates[1:] if x[1]!=candidates[0][1]]
     if other and candidates[0][0]-other[0][0]<.1:break
     winners.append(candidates[0])
-   if len(winners)==2 and winners[0][1]==winners[1][1]!=s['root_id']:
-    repairs.append(dict(period=f['period'],segment_id=s['id'],previous_root_id=s['root_id'],root_id=winners[0][1],point=s['points'][len(s['points'])//2],neighbors=[x[2] for x in winners],endpoint_distances=[round(x[3],3) for x in winners],tangent_agreements=[round(x[4],4) for x in winners],review_status='pending',basis='short identity island, both ends continue same other root with cosine >0.97; remote from its T1 axis'))
-    s['root_id']=winners[0][1];s['review_status']='pending';s['endpoint_repair_v56']=repairs[-1]
+   target=winners[0][1] if len(winners)==2 and winners[0][1]==winners[1][1]!=s['root_id'] else None;peer_evidence=[]
+   if not target and len(winners)==2:
+    # Beside a crossing the endpoint tangent can briefly prefer the other
+    # crossing root. Two separate dates covering >=85% of the actual short
+    # trace within 5px resolve this; a one-point junction match cannot.
+    proposed=[]
+    for candidate in {x[1] for x in winners if x[1]!=s['root_id']}:
+     evidence=[]
+     for peer in st['periods']:
+      if peer is f:continue
+      pp=[q['points'] for q in peer['segments'] if q['root_id']==candidate]
+      if not pp:continue
+      coverage=float(np.mean(cKDTree(np.concatenate(pp)).query(p)[0]<5))
+      if coverage>=.85:evidence.append(dict(period=peer['period'],coverage=round(coverage,4)))
+     if len(evidence)>=2:proposed.append((candidate,evidence))
+    if len(proposed)==1:target,peer_evidence=proposed[0]
+   if target:
+    repairs.append(dict(period=f['period'],segment_id=s['id'],previous_root_id=s['root_id'],root_id=target,point=s['points'][len(s['points'])//2],neighbors=[x[2] for x in winners],endpoint_distances=[round(x[3],3) for x in winners],tangent_agreements=[round(x[4],4) for x in winners],multi_date_evidence=peer_evidence,review_status='pending',basis='short identity island; two aligned same-root endpoints' if not peer_evidence else 'crossing-adjacent short island: one aligned endpoint plus two whole-trace matches in separate dates'))
+    s['root_id']=target;s['review_status']='pending';s['endpoint_repair_v56']=repairs[-1]
  for f in st['periods']:
   by={s['id']:s for s in f['segments']}
   for n in f['nodes']:

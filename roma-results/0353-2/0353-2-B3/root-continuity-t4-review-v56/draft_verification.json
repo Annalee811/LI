@@ -175,6 +175,6 @@
   "unique_owner_per_pixel": true,
   "hierarchy_acyclic_and_unique": true,
   "all_observation_dates_rebuilt": true,
-  "final_json_SHA256": "284b0b06de7de984c8324b5b10636f56a775a563ee3d2737f32983faaf82555b",
-  "endpoint_continuation_repairs": 8
+  "final_json_SHA256": "49488f0538f45ec42ebaa57284ede5d5a5970aea084d0d07d794eb1be123559f",
+  "endpoint_continuation_repairs": 9
 }
