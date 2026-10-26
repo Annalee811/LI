@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": {
+    "T1_pixel_layers_exact": true,
+    "T1_geometry_nodes_and_ownership_exact": true,
+    "T1_other_root_assignments_unchanged": true,
+    "T1_other_display_labels_unchanged": true,
+    "all_other_parent_edges_preserved": true,
+    "manual_assignments_unchanged_except_explicit_screenshot_family": true,
+    "all_trace_coordinates_and_owner_maps_exact": true,
+    "all_non_temporal_pixel_layers_exact": true,
+    "unique_global_labels": true,
+    "upper_and_lower_axes_have_distinct_fixed_ids_all_periods": true,
+    "lower_existing_root_has_no_false_N_prefix": true,
+    "lower_child_parent_is_local_not_remote_upper": true,
+    "N_candidates_retain_id_and_label_when_observed": true,
+    "lifetime_observation_states_are_actual": true,
+    "parent_cycles_absent": true,
+    "original_upload_hash_intact": true
+  },
+  "final_json_SHA256": "f0c5af7b471a6de75ec5012226f3b4653b33628984d1917906b373ca7f273b95"
+}
