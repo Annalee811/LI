@@ -1,0 +1,180 @@
+{
+  "passed": true,
+  "source_SHA256": "0a29fc6902cab2cf01024a3d9b5f40c4d3ba873b98abecc339a4aec9608c4997",
+  "pixel_layers_unchanged": true,
+  "T1_root_assignments_unchanged": true,
+  "protected_manual_segment_count": 663,
+  "canonical_manual_conflict_proposals": 43,
+  "identity_changes": 473,
+  "parent_changes": 15,
+  "new_lateral_splits": 1,
+  "renames": 92,
+  "unresolved_matches": 551,
+  "same_id_junction_reviews": 53,
+  "family0001_observations": {
+    "0001-9": [
+      "T1",
+      "T3",
+      "T4"
+    ],
+    "0001-6": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-8": [
+      "T1"
+    ],
+    "0001-5": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-2": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-1": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-12-1": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-7": [
+      "T1",
+      "T2"
+    ],
+    "0001-10": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-N7": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-N7-2": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-N1": [
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-6-N1": [
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-1-N1": [
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-N2": [
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-N3": [
+      "T2"
+    ],
+    "0001-5-1": [
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-N9": [
+      "T3",
+      "T4"
+    ],
+    "0001-N7-4": [
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-5-1-N1": [
+      "T3",
+      "T4"
+    ],
+    "0001-1-1": [
+      "T4"
+    ],
+    "0001-13": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-12": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-13-1": [
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-N4": [
+      "T2"
+    ],
+    "0001-14": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-N5": [
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-N6": [
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-N8": [
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "0001-N6-1": [
+      "T2",
+      "T3",
+      "T4"
+    ]
+  },
+  "independent_N_roots": 43,
+  "removed_contradictory_automatic_connections": 584,
+  "manual_connection_conflicts": 0,
+  "unique_owner_per_pixel": true,
+  "hierarchy_acyclic_and_unique": true,
+  "all_observation_dates_rebuilt": true,
+  "final_json_SHA256": "284b0b06de7de984c8324b5b10636f56a775a563ee3d2737f32983faaf82555b",
+  "endpoint_continuation_repairs": 8
+}

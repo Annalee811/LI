@@ -1,0 +1,215 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "four-period editor initializes with original annotation",
+      "pass": true
+    },
+    {
+      "name": "typing in left number box synchronizes top box",
+      "pass": true
+    },
+    {
+      "name": "real apply click commits the value entered in left box",
+      "pass": true
+    },
+    {
+      "name": "rename updates saved graph and all descendant prefixes",
+      "pass": true
+    },
+    {
+      "name": "unapplied input survives refresh instead of reverting",
+      "pass": true
+    },
+    {
+      "name": "Enter applies a root number",
+      "pass": true
+    },
+    {
+      "name": "an occupied number can enroll the segment into the existing root",
+      "pass": true
+    },
+    {
+      "name": "merge retains unique labels and valid side hierarchy",
+      "pass": true
+    },
+    {
+      "name": "number-only exchange keeps the roots independent",
+      "pass": true
+    },
+    {
+      "name": "full-width keyboard digits are accepted and normalized",
+      "pass": true
+    },
+    {
+      "name": "two real endpoint clicks create a middle-segment preview",
+      "pass": true
+    },
+    {
+      "name": "Enter during cut preview applies only to the middle, not the complete original root",
+      "pass": true
+    },
+    {
+      "name": "middle segment automatically receives a registered ID",
+      "pass": true
+    },
+    {
+      "name": "two-end split retains all original pixels and temporal classes",
+      "pass": true
+    },
+    {
+      "name": "split result is structurally valid and serializable",
+      "pass": true
+    },
+    {
+      "name": "detached middle segment can immediately be renumbered",
+      "pass": true
+    },
+    {
+      "name": "manual correction pixels automatically inherit detached-root ownership",
+      "pass": true
+    },
+    {
+      "name": "pixel undo restores ownership and pixels together",
+      "pass": true
+    },
+    {
+      "name": "typing mother number in the front field enrolls the middle into mother itself",
+      "pass": true,
+      "detail": {
+        "result": true,
+        "oldRoot": "R0140",
+        "id": "R0250",
+        "label": "0001",
+        "status": "已断开两端，中间段编号 0001；已处理 T1。 可直接改号或设母根关系。"
+      }
+    },
+    {
+      "name": "existing-side mode creates an independent child ID under the entered mother",
+      "pass": true,
+      "detail": {
+        "result": true,
+        "oldRoot": "R0140",
+        "id": "R1408",
+        "label": "0001-15",
+        "status": "已断开两端，中间段编号 0001-15；已处理 T1。 可直接改号或设母根关系。"
+      }
+    },
+    {
+      "name": "newly registered side shares exact mother-family color",
+      "pass": true
+    },
+    {
+      "name": "new-side mode uses front mother input to allocate N-number",
+      "pass": true,
+      "detail": {
+        "result": true,
+        "oldRoot": "R0140",
+        "id": "R1408",
+        "label": "0001-N10",
+        "status": "已断开两端，中间段编号 0001-N10；已处理 T1。 可直接改号或设母根关系。"
+      }
+    },
+    {
+      "name": "N-side remains a distinct root rather than merging into mother",
+      "pass": true
+    },
+    {
+      "name": "a side can have its own newly born side with hierarchical numbering",
+      "pass": true,
+      "detail": {
+        "result": true,
+        "oldRoot": "R0140",
+        "id": "R1408",
+        "label": "0001-1-N2",
+        "status": "已断开两端，中间段编号 0001-1-N2；已处理 T1。 可直接改号或设母根关系。"
+      }
+    },
+    {
+      "name": "reliably matched periods share one automatically registered detached-root ID",
+      "pass": true,
+      "detail": {
+        "result": true,
+        "id": "R1408",
+        "periods": [
+          "T1",
+          "T2",
+          "T3",
+          "T4"
+        ]
+      }
+    },
+    {
+      "name": "all editing operations preserve the untouched original pixel layers",
+      "pass": true
+    },
+    {
+      "name": "0001 identity is present in all four periods",
+      "pass": true
+    },
+    {
+      "name": "independent new roots use N-prefix without mother linkage",
+      "pass": true
+    },
+    {
+      "name": "full-width N-prefix rename commits as independent root",
+      "pass": true
+    },
+    {
+      "name": "renaming an independent root to N-prefix cascades existing side numbers",
+      "pass": true
+    },
+    {
+      "name": "a new lateral under N-prefixed mother receives separate nested N-side label",
+      "pass": true
+    },
+    {
+      "name": "new independent button detaches from mother and assigns N-0001 namespace",
+      "pass": true
+    },
+    {
+      "name": "N-prefixed root and side hierarchy passes validation and serialization",
+      "pass": true
+    },
+    {
+      "name": "T4 family focus selects same 0001 identity with family filter",
+      "pass": true
+    },
+    {
+      "name": "uncertain correspondence queue navigates actual saved candidates",
+      "pass": true
+    },
+    {
+      "name": "saved JSON contains middle-root ownership, cut endpoints and hierarchy",
+      "pass": true
+    },
+    {
+      "name": "file-input restore preserves cut and numbering edits",
+      "pass": true
+    },
+    {
+      "name": "edited HTML can be exported",
+      "pass": true
+    },
+    {
+      "name": "saved HTML reopens cuts and numbering without duplicate controls",
+      "pass": true
+    },
+    {
+      "name": "reopened HTML retains original foreground and temporal labels",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "exceptions": [],
+  "tested_editor_SHA256": "9a679ac4b5002963f8cef77eee805a2e11c55f1ab47ec46ef4d95112cce58e4b",
+  "actual_browser": "Chromium; real mouse, keyboard and file picker",
+  "network_fixture": "Original PNG URLs remapped to identical local files",
+  "original_annotation_rebuilt": false,
+  "uploaded_12_preserved": true,
+  "continuity_proposals_added": true
+}
