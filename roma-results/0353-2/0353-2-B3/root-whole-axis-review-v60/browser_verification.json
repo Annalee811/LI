@@ -94,6 +94,18 @@
       "pass": true
     },
     {
+      "name": "two real clicks preview the portion to separate at a crossing",
+      "pass": true
+    },
+    {
+      "name": "two-point separation yields an unassigned candidate without an invented formal number",
+      "pass": true
+    },
+    {
+      "name": "separated whole-path data remains valid for save and restore",
+      "pass": true
+    },
+    {
       "name": "reviewed formal root can be renumbered consistently",
       "pass": true
     },
@@ -125,6 +137,6 @@
   ],
   "exceptions": [],
   "actual_browser": "Chromium real mouse keyboard file inputs and save/reopen",
-  "tested_editor_SHA256": "cd4a8037e1bb0009f5f66439e6e9e53fcd6a822e3ee2f7e15d1ae42ea811ef03",
+  "tested_editor_SHA256": "9d11caf40d09ae9147d551c1668221bb9cf0bd62cbd21ad201c0462cf224faa9",
   "candidate_numbers_not_biological_ids": true
 }

@@ -9,7 +9,7 @@ ROOT=Path('/workspace/LI')
 OUT=ROOT/'results/B3_root_whole_trace_v60_20261026'
 REPO='repos/Annalee811/LI'
 BRANCH='annotation-restore-v50-delivery'
-PARENT='e1d35e35cb6e990608aee9aaf821f746648fdbde'
+PARENT='a674cd20babb6e1f5c30a370a0d19cdad70a0a8a'
 PREFIX='roma-results/0353-2/0353-2-B3/root-whole-axis-review-v60'
 EDITOR='roma-results/0353-2/0353-2-B3/original-annotation-restore-v50/annotate_restore_fixed_lite.html'
 
@@ -56,13 +56,14 @@ def main():
     remote=api('git/ref/heads/'+BRANCH)['object']['sha']
     pubpath=OUT/'publication_state_final.json'
     publication=json.loads(pubpath.read_text()) if pubpath.exists() else {}
-    if publication.get('commit') and remote==publication['commit']:
+    manifest_hash=hashlib.sha256(json.dumps(entries,sort_keys=True).encode()).hexdigest()
+    if publication.get('commit') and remote==publication['commit'] and publication.get('manifest_SHA256')==manifest_hash:
         commit=remote
     else:
         assert remote==PARENT, 'Branch changed: preserve concurrent edits; do not force-push'
         tree=api('git/trees',dict(base_tree=api('git/commits/'+PARENT)['tree']['sha'],tree=entries))['sha']
         commit=api('git/commits',dict(message='Only reviewed visible-axis numbers; selectable unassigned whole-root paths and user-defined four-period identities',tree=tree,parents=[PARENT]))['sha']
-        write(pubpath,dict(parent=PARENT,branch=BRANCH,commit=commit))
+        write(pubpath,dict(parent=PARENT,branch=BRANCH,commit=commit,manifest_SHA256=manifest_hash))
         api('git/refs/heads/'+BRANCH,dict(sha=commit,force=False),method='PATCH')
     assert api('git/ref/heads/'+BRANCH)['object']['sha']==commit
     # Confirm the committed paths resolve to exactly the already verified blobs.
