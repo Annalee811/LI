@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "upload15 editor initializes with all 62 user definitions and their parents preserved",
+      "pass": true
+    },
+    {
+      "name": "new path-independent detach controls are available",
+      "pass": true
+    },
+    {
+      "name": "actual disconnected-root two-point failure remains visible with correct remedy",
+      "pass": true
+    },
+    {
+      "name": "failed cut has not changed user definitions or foreground pixels",
+      "pass": true
+    },
+    {
+      "name": "one real click previews disconnected parts without requiring a continuous path",
+      "pass": true
+    },
+    {
+      "name": "clicking the same component again deselects it without mutation",
+      "pass": true
+    },
+    {
+      "name": "confirmation actually separates those previously uncuttable parts",
+      "pass": true
+    },
+    {
+      "name": "every selected segment is assigned to the new undefined candidate",
+      "pass": true
+    },
+    {
+      "name": "point-detach preserves foreground width pixel classes and single owner maps",
+      "pass": true
+    },
+    {
+      "name": "all existing manual numbers and mothers stay unchanged after detach",
+      "pass": true
+    },
+    {
+      "name": "other three periods retain all their original segment identity assignments",
+      "pass": true
+    },
+    {
+      "name": "detached project validates as complete editable data",
+      "pass": true
+    },
+    {
+      "name": "separated piece can enter the existing mother-root numbering system",
+      "pass": true
+    },
+    {
+      "name": "corrected progress exports a complete JSON file",
+      "pass": true
+    },
+    {
+      "name": "JSON restore keeps split identities and the user-assigned mother",
+      "pass": true
+    },
+    {
+      "name": "single-original-segment mode supports precise multi-part separation",
+      "pass": true
+    },
+    {
+      "name": "clicking a different root is rejected without accidentally moving it",
+      "pass": true
+    },
+    {
+      "name": "direction-based preview only selects parts of the chosen root",
+      "pass": true
+    },
+    {
+      "name": "cancellation discards preview without data changes",
+      "pass": true
+    },
+    {
+      "name": "changing period cancels unfinished selection and cut state",
+      "pass": true
+    },
+    {
+      "name": "undo restores the original upload15 root assignments and definitions",
+      "pass": true
+    },
+    {
+      "name": "continuous interior two-point cut still previews successfully",
+      "pass": true
+    },
+    {
+      "name": "continuous cut still creates an undefined candidate while preserving pixel layers",
+      "pass": true
+    },
+    {
+      "name": "split project exports an editable standalone HTML",
+      "pass": true
+    },
+    {
+      "name": "saved HTML reopens the actual split and all original manual definitions",
+      "pass": true
+    },
+    {
+      "name": "reopened saved preview never leaves root labels hidden by an unfinished selection",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "exceptions": [],
+  "source_upload": "root_annotation_progress (15).json",
+  "actual_browser": "Chromium real mouse, keyboard, file inputs and HTML reopening",
+  "tested_editor_SHA256": "c375342793977dd57527fbecaaa9ec55aa466292fa16068630041057c52f66e8"
+}

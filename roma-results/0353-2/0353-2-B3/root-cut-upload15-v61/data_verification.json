@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "upload15_byte_identical": true,
+  "source_SHA256": "45f9f0e20635266c8e8a7f4c5dd578c7de24f939c29d9b8864a4223961723dd1",
+  "all_pixel_layers_geometry_owner_maps_and_user_definitions_unchanged_on_load": true,
+  "user_defined_roots": 62,
+  "formal_definitions": 63,
+  "review_project_SHA256": "45f9f0e20635266c8e8a7f4c5dd578c7de24f939c29d9b8864a4223961723dd1"
+}
