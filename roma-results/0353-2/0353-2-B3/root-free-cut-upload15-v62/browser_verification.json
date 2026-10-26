@@ -1,0 +1,137 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "upload15 layers and all formal definitions are unchanged on load",
+      "pass": true
+    },
+    {
+      "name": "arbitrary cut controls are present",
+      "pass": true
+    },
+    {
+      "name": "real mouse click previews an interior cut without requiring two endpoints",
+      "pass": true
+    },
+    {
+      "name": "same cut click toggles preview off without editing",
+      "pass": true
+    },
+    {
+      "name": "two arbitrary locations on one native segment can both be previewed",
+      "pass": true
+    },
+    {
+      "name": "two interior cuts create three individually selectable pieces",
+      "pass": true
+    },
+    {
+      "name": "cut and detach button enters precise single-piece mode",
+      "pass": true
+    },
+    {
+      "name": "native centerline vertices are conserved exactly in order",
+      "pass": true
+    },
+    {
+      "name": "cutting keeps every pixel on its original biological root identity",
+      "pass": true
+    },
+    {
+      "name": "the three other periods remain structurally byte-exact",
+      "pass": true
+    },
+    {
+      "name": "clicking middle selects only that newly cut piece",
+      "pass": true
+    },
+    {
+      "name": "confirm detaches only the middle as undefined while both ends keep original identity",
+      "pass": true
+    },
+    {
+      "name": "foreground and pixel classes remain exact after cutting and detaching",
+      "pass": true
+    },
+    {
+      "name": "pixel ownership has no holes or duplicate owners",
+      "pass": true
+    },
+    {
+      "name": "full edited project validates",
+      "pass": true
+    },
+    {
+      "name": "cut piece can receive a mother-root side number",
+      "pass": true
+    },
+    {
+      "name": "cut and detached data exports",
+      "pass": true
+    },
+    {
+      "name": "JSON restore retains cuts separated identity and assigned mother",
+      "pass": true
+    },
+    {
+      "name": "single-point cut works and does not assign new formal identities",
+      "pass": true
+    },
+    {
+      "name": "one undo restores exact original segment geometry and owner map",
+      "pass": true
+    },
+    {
+      "name": "disconnected locations accept two independent cuts without a path search",
+      "pass": true
+    },
+    {
+      "name": "disconnected-location cuts commit and retain all formal definitions",
+      "pass": true
+    },
+    {
+      "name": "switching periods cancels cut preview",
+      "pass": true
+    },
+    {
+      "name": "cancel leaves original data unchanged",
+      "pass": true
+    },
+    {
+      "name": "existing root endpoint accepts a topological cut without deleting a segment",
+      "pass": true
+    },
+    {
+      "name": "crossing dropdown can explicitly choose the intended root segment",
+      "pass": true
+    },
+    {
+      "name": "endpoint cut removes only selected-arm connections and retains the other crossing root",
+      "pass": true
+    },
+    {
+      "name": "adjacent interior cuts can isolate a one-point piece without losing pixels",
+      "pass": true
+    },
+    {
+      "name": "single-point or occluded piece can be selected by segment list without hitting its pixels",
+      "pass": true
+    },
+    {
+      "name": "modified editor can export standalone HTML",
+      "pass": true
+    },
+    {
+      "name": "saved HTML restores confirmed cuts and discards preview-only modes",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "exceptions": [],
+  "actual_browser": "Chromium real mouse + actual file restore + saved HTML reopening",
+  "tested_editor_SHA256": "3828daa08705ce574de242e60ac43aaa95e175af462c8b186ecc00131e695124"
+}
