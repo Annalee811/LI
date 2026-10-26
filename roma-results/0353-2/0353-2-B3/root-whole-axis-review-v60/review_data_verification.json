@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "source_SHA256": "f0c5af7b471a6de75ec5012226f3b4653b33628984d1917906b373ca7f273b95",
+  "all_native_pixel_layers_exact": true,
+  "all_trace_coordinates_and_owners_exact": true,
+  "formal_reviewed_labels": [
+    "0030",
+    "0059"
+  ],
+  "unassigned_internal_candidates": 1569,
+  "no_automatic_new_biological_numbers": true,
+  "formal_T1_labels_within_0312": true,
+  "review_project_SHA256": "ceab48134f6ca46ef09fed722ea34c23d41ca69954035ff117248ea6167b6161"
+}

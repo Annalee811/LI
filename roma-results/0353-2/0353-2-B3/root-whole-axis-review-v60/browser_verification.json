@@ -1,0 +1,130 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "confidence editor initializes four native RGB periods",
+      "pass": true
+    },
+    {
+      "name": "only two visible-axis labels are formally assigned",
+      "pass": true
+    },
+    {
+      "name": "unassigned paths have no on-image U or invented numeric labels",
+      "pass": true
+    },
+    {
+      "name": "isolated short foreground candidates remain selectable rather than silently discarded",
+      "pass": true
+    },
+    {
+      "name": "unassigned native root pixels remain available without automatic numbers",
+      "pass": true
+    },
+    {
+      "name": "real click selects whole horizontal root across previously split IDs",
+      "pass": true
+    },
+    {
+      "name": "the same horizontal root is numbered 0059 in all four periods",
+      "pass": true
+    },
+    {
+      "name": "click renders four actual-dated whole-path previews",
+      "pass": true
+    },
+    {
+      "name": "legacy auto-numbered preview and root-number controls are hidden",
+      "pass": true
+    },
+    {
+      "name": "legacy automatic numbers import as unassigned rather than confirmed roots",
+      "pass": true
+    },
+    {
+      "name": "real click identifies an unnumbered whole-axis candidate",
+      "pass": true
+    },
+    {
+      "name": "user can define an existing root as 0001",
+      "pass": true
+    },
+    {
+      "name": "definition automatically enrolls every matched period under the same ID",
+      "pass": true
+    },
+    {
+      "name": "undo returns the whole candidate to unassigned",
+      "pass": true
+    },
+    {
+      "name": "a T1-present candidate cannot silently become a new root",
+      "pass": true
+    },
+    {
+      "name": "unexplained bare post-0312 numbering is rejected",
+      "pass": true
+    },
+    {
+      "name": "user-defined newly appearing independent root receives N-prefix",
+      "pass": true
+    },
+    {
+      "name": "formal definition can be withdrawn without erasing native roots",
+      "pass": true
+    },
+    {
+      "name": "user-defined new lateral enters the mother-Nx numbering system",
+      "pass": true
+    },
+    {
+      "name": "mother and lateral retain separate identities with exact shared family color",
+      "pass": true
+    },
+    {
+      "name": "join adds the other complete candidate across matched dates",
+      "pass": true
+    },
+    {
+      "name": "whole-path joining can be undone",
+      "pass": true
+    },
+    {
+      "name": "wrong-path removal produces an unassigned selectable whole candidate",
+      "pass": true
+    },
+    {
+      "name": "reviewed formal root can be renumbered consistently",
+      "pass": true
+    },
+    {
+      "name": "JSON progress exports complete editable candidate data",
+      "pass": true
+    },
+    {
+      "name": "JSON restore preserves formal definitions and unassigned paths",
+      "pass": true
+    },
+    {
+      "name": "editable standalone HTML can be saved",
+      "pass": true
+    },
+    {
+      "name": "saved HTML reopens one confidence panel with saved root definitions",
+      "pass": true
+    },
+    {
+      "name": "reopened editor never displays technical unknown handles as root labels",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "exceptions": [],
+  "actual_browser": "Chromium real mouse keyboard file inputs and save/reopen",
+  "tested_editor_SHA256": "cd4a8037e1bb0009f5f66439e6e9e53fcd6a822e3ee2f7e15d1ae42ea811ef03",
+  "candidate_numbers_not_biological_ids": true
+}
