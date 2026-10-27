@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "all 135 uploaded human definitions and their mothers/history are preserved",
+      "pass": true
+    },
+    {
+      "name": "original four period root pixel labels are unchanged",
+      "pass": true
+    },
+    {
+      "name": "all four single-owner maps are exact before editing",
+      "pass": true
+    },
+    {
+      "name": "all 12 proposals load visibly as assistant proposals rather than human confirmations",
+      "pass": true
+    },
+    {
+      "name": "two proposed laterals use actual pre-existing mothers",
+      "pass": true
+    },
+    {
+      "name": "real focus button selects the full reviewed axis with unconfirmed wording",
+      "pass": true
+    },
+    {
+      "name": "proposed root labels have distinct dashed frames",
+      "pass": true
+    },
+    {
+      "name": "explicit user confirmation records a real user action without changing earlier definitions",
+      "pass": true
+    },
+    {
+      "name": "undo restores an accepted proposal to its original pending status",
+      "pass": true
+    },
+    {
+      "name": "reject preserves the complete cross-period trace as unassigned rather than deleting pixels",
+      "pass": true
+    },
+    {
+      "name": "rejected proposal can be restored by undo",
+      "pass": true
+    },
+    {
+      "name": "unresolved T4 correspondence remains absent and explicitly marked",
+      "pass": true
+    },
+    {
+      "name": "same proposed root can be selected with the same identity in all four periods",
+      "pass": true
+    },
+    {
+      "name": "regional work exports as full editable JSON",
+      "pass": true
+    },
+    {
+      "name": "JSON restore retains the explicit decision and all original human annotations",
+      "pass": true
+    },
+    {
+      "name": "arbitrary cut preview works on a newly proposed root",
+      "pass": true
+    },
+    {
+      "name": "new regional data remains compatible with actual arbitrary cutting",
+      "pass": true
+    },
+    {
+      "name": "standalone editable HTML exports with the regional review",
+      "pass": true
+    },
+    {
+      "name": "saved HTML reopens one review panel and preserves all proposals and original definitions",
+      "pass": true
+    },
+    {
+      "name": "full project validates after save and restore",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "exceptions": [],
+  "actual_browser": "Chromium real buttons and native pointer, JSON file input and saved HTML reopening",
+  "tested_editor_SHA256": "e43e29c53e880089a6b63cf13183dc34f540c117b5c0277759488954fc494eed"
+}

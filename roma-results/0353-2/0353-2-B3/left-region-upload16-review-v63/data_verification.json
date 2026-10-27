@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "source_SHA256": "6c0462a8bc7a2ed62ddca38f4ae243dbec047a05adfada42c721576a8bd3605d",
+  "source_bytes": 13557913,
+  "preserved_user_definitions": 135,
+  "preserved_total_formal_definitions": 136,
+  "assistant_proposals": 12,
+  "retired_empty_technical_U_handles": 29,
+  "proposals_with_four_observed_periods": 11,
+  "proposed_laterals": 2,
+  "changed_segment_identity_assignments": 66,
+  "pixel_layers_byte_value_exact": true,
+  "all_segment_points_width_owner_maps_nodes_lengths_exact": true,
+  "all_original_formal_definitions_exact": true,
+  "no_original_formal_segment_changed": true,
+  "all_original_manual_cut_records_exact": true,
+  "all_changes_within_screenshot_region": true,
+  "unknown_T4_correspondence_not_invented": true,
+  "unresolved_crossings_not_renumbered": true,
+  "review_project_SHA256": "9effca4584f7ad13acb06d1619cdd4abe1193805196a9027b47b16ffbc151e75"
+}

@@ -1,0 +1,822 @@
+{
+  "proposals": [
+    {
+      "root_id": "R21627",
+      "label": "0004-1",
+      "mother": "0004",
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "selected_segments": {
+        "T1": [
+          "T1-S0065"
+        ],
+        "T2": [
+          "T2-S0104",
+          "T2-S0127"
+        ],
+        "T3": [
+          "T3-S0129"
+        ],
+        "T4": [
+          "T4-S0117"
+        ]
+      },
+      "evidence": "T1基部距0004现有轨迹约2.8px；四期同一向下转右的细根轴；未与邻近平行根85/139混并。",
+      "human_confirmed": false
+    },
+    {
+      "root_id": "R21628",
+      "label": "0007-7",
+      "mother": "0007",
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "selected_segments": {
+        "T1": [
+          "T1-S0124"
+        ],
+        "T2": [
+          "T2-S0222"
+        ],
+        "T3": [
+          "T3-S0225"
+        ],
+        "T4": [
+          "T4-S0214"
+        ]
+      },
+      "evidence": "T1基部距0007现有轨迹约5px；沿四期同一向右下弯曲侧根保留编号；上部遮挡不补画。",
+      "human_confirmed": false
+    },
+    {
+      "root_id": "R21629",
+      "label": "0031",
+      "mother": null,
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "selected_segments": {
+        "T1": [
+          "T1-S0139",
+          "T1-S0167",
+          "T1-S0168"
+        ],
+        "T2": [
+          "T2-S0219",
+          "T2-S0230"
+        ],
+        "T3": [
+          "T3-S0213"
+        ],
+        "T4": [
+          "T4-S0204"
+        ]
+      },
+      "evidence": "中央向右下的细根轴，四期可见片段同向对应；交叉处未吸收横向/向左下的157/165等根段。",
+      "human_confirmed": false
+    },
+    {
+      "root_id": "R21630",
+      "label": "0032",
+      "mother": null,
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "selected_segments": {
+        "T1": [
+          "T1-S0164"
+        ],
+        "T2": [
+          "T2-S0227"
+        ],
+        "T3": [
+          "T3-S0226"
+        ],
+        "T4": [
+          "T4-S0216"
+        ]
+      },
+      "evidence": "左中部向右下弯曲的独立可辨根轴；四期对应，不与旁边竖直166系列混号；母根归属尚未确定。",
+      "human_confirmed": false
+    },
+    {
+      "root_id": "R21631",
+      "label": "0033",
+      "mother": null,
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "selected_segments": {
+        "T1": [
+          "T1-S0166"
+        ],
+        "T2": [
+          "T2-S0233"
+        ],
+        "T3": [
+          "T3-S0235"
+        ],
+        "T4": []
+      },
+      "evidence": "左中部竖直细根前三期对应；T4仅有零星像素，不能可靠判断同一根，T4对应尚未确定。",
+      "human_confirmed": false
+    },
+    {
+      "root_id": "R21632",
+      "label": "0034",
+      "mother": null,
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "selected_segments": {
+        "T1": [
+          "T1-S0170"
+        ],
+        "T2": [
+          "T2-S0237",
+          "T2-S0673"
+        ],
+        "T3": [
+          "T3-S0238",
+          "T3-S0643"
+        ],
+        "T4": [
+          "T4-S0220",
+          "T4-S0679"
+        ]
+      },
+      "evidence": "从左边界进入、向右弯曲的基期根轴，后期沿同一曲线延续；不按长度增加另编新根。",
+      "human_confirmed": false
+    },
+    {
+      "root_id": "R21633",
+      "label": "0035",
+      "mother": null,
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "selected_segments": {
+        "T1": [
+          "T1-S0224",
+          "T1-S0239",
+          "T1-S0243"
+        ],
+        "T2": [
+          "T2-S0352",
+          "T2-S0368",
+          "T2-S0372",
+          "T2-S0387",
+          "T2-S0393"
+        ],
+        "T3": [
+          "T3-S0348"
+        ],
+        "T4": [
+          "T4-S0335",
+          "T4-S0361"
+        ]
+      },
+      "evidence": "下方从左边界进入、缓向右下的同一根轴；气泡/土壤造成中间缺段，仅串联已存在的对应片段；分支230/231等仍未定。",
+      "human_confirmed": false
+    },
+    {
+      "root_id": "R21634",
+      "label": "0036",
+      "mother": null,
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "selected_segments": {
+        "T1": [
+          "T1-S0268",
+          "T1-S0289"
+        ],
+        "T2": [
+          "T2-S0408",
+          "T2-S0453"
+        ],
+        "T3": [
+          "T3-S0416"
+        ],
+        "T4": [
+          "T4-S0414"
+        ]
+      },
+      "evidence": "左下偏右向右下的斜根轴四期对应；不合并旁边向左下的315/455系列；母根尚未确定。",
+      "human_confirmed": false
+    },
+    {
+      "root_id": "R21635",
+      "label": "0037",
+      "mother": null,
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "selected_segments": {
+        "T1": [
+          "T1-S0275"
+        ],
+        "T2": [
+          "T2-S0502"
+        ],
+        "T3": [
+          "T3-S0678"
+        ],
+        "T4": [
+          "T4-S0511"
+        ]
+      },
+      "evidence": "最下部从左下边界向右下穿过视野的根轴；各期边界附近可辨部分沿用编号，遮挡不补画。",
+      "human_confirmed": false
+    },
+    {
+      "root_id": "R21636",
+      "label": "0038",
+      "mother": null,
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "selected_segments": {
+        "T1": [
+          "T1-S0282"
+        ],
+        "T2": [
+          "T2-S0463",
+          "T2-S0527",
+          "T2-S0468"
+        ],
+        "T3": [
+          "T3-S0455",
+          "T3-S0679"
+        ],
+        "T4": [
+          "T4-S0471"
+        ]
+      },
+      "evidence": "底部较竖直、略向左弯的根轴，四期对应；未把附近斜向283/733等根段混入。",
+      "human_confirmed": false
+    },
+    {
+      "root_id": "R21637",
+      "label": "0039",
+      "mother": null,
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "selected_segments": {
+        "T1": [
+          "T1-S0315"
+        ],
+        "T2": [
+          "T2-S0455"
+        ],
+        "T3": [
+          "T3-S0478"
+        ],
+        "T4": [
+          "T4-S0472"
+        ]
+      },
+      "evidence": "底部向右上延伸的弯曲根轴，各期沿用基期身份；未吸收邻近垂直471或另一条平行334根。",
+      "human_confirmed": false
+    },
+    {
+      "root_id": "R21638",
+      "label": "0040",
+      "mother": null,
+      "observed_periods": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "selected_segments": {
+        "T1": [
+          "T1-S0334"
+        ],
+        "T2": [
+          "T2-S0492"
+        ],
+        "T3": [
+          "T3-S0496"
+        ],
+        "T4": [
+          "T4-S0486"
+        ]
+      },
+      "evidence": "底部另一条平行斜根，与0039保持独立身份；跨期均在右侧对应位置，不按距离近直接合并。",
+      "human_confirmed": false
+    }
+  ],
+  "unresolved": [
+    {
+      "region": "左下两条靠近并交叉的斜根，约x=0..260,y=958..1108",
+      "reason": "穿越关系和侧根归属尚未确定；保留完整候选供用户定义，未自动编号"
+    },
+    {
+      "region": "左中部0033在T4的对应",
+      "reason": "只有零星短像素，不能确认，未补画"
+    },
+    {
+      "region": "0001下方纵向细根与其余遮挡区域",
+      "reason": "后期连续性或连接归属尚未确定，不按缺失直接判新生"
+    }
+  ],
+  "changed_segments": [
+    {
+      "period": "T1",
+      "segment_id": "T1-S0065",
+      "old_root_id": "R20057",
+      "new_root_id": "R21627",
+      "proposed_label": "0004-1"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0104",
+      "old_root_id": "R20471",
+      "new_root_id": "R21627",
+      "proposed_label": "0004-1"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0127",
+      "old_root_id": "R20498",
+      "new_root_id": "R21627",
+      "proposed_label": "0004-1"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0129",
+      "old_root_id": "R20057",
+      "new_root_id": "R21627",
+      "proposed_label": "0004-1"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0117",
+      "old_root_id": "R20057",
+      "new_root_id": "R21627",
+      "proposed_label": "0004-1"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0124",
+      "old_root_id": "R20118",
+      "new_root_id": "R21628",
+      "proposed_label": "0007-7"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0222",
+      "old_root_id": "R20118",
+      "new_root_id": "R21628",
+      "proposed_label": "0007-7"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0225",
+      "old_root_id": "R20118",
+      "new_root_id": "R21628",
+      "proposed_label": "0007-7"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0214",
+      "old_root_id": "R21325",
+      "new_root_id": "R21628",
+      "proposed_label": "0007-7"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0139",
+      "old_root_id": "R20132",
+      "new_root_id": "R21629",
+      "proposed_label": "0031"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0167",
+      "old_root_id": "R20153",
+      "new_root_id": "R21629",
+      "proposed_label": "0031"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0168",
+      "old_root_id": "R20132",
+      "new_root_id": "R21629",
+      "proposed_label": "0031"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0219",
+      "old_root_id": "R20132",
+      "new_root_id": "R21629",
+      "proposed_label": "0031"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0230",
+      "old_root_id": "R20576",
+      "new_root_id": "R21629",
+      "proposed_label": "0031"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0213",
+      "old_root_id": "R20132",
+      "new_root_id": "R21629",
+      "proposed_label": "0031"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0204",
+      "old_root_id": "R20132",
+      "new_root_id": "R21629",
+      "proposed_label": "0031"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0164",
+      "old_root_id": "R20151",
+      "new_root_id": "R21630",
+      "proposed_label": "0032"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0227",
+      "old_root_id": "R20151",
+      "new_root_id": "R21630",
+      "proposed_label": "0032"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0226",
+      "old_root_id": "R20151",
+      "new_root_id": "R21630",
+      "proposed_label": "0032"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0216",
+      "old_root_id": "R20151",
+      "new_root_id": "R21630",
+      "proposed_label": "0032"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0166",
+      "old_root_id": "R20152",
+      "new_root_id": "R21631",
+      "proposed_label": "0033"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0233",
+      "old_root_id": "R20152",
+      "new_root_id": "R21631",
+      "proposed_label": "0033"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0235",
+      "old_root_id": "R20152",
+      "new_root_id": "R21631",
+      "proposed_label": "0033"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0170",
+      "old_root_id": "R20155",
+      "new_root_id": "R21632",
+      "proposed_label": "0034"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0237",
+      "old_root_id": "R20581",
+      "new_root_id": "R21632",
+      "proposed_label": "0034"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0673",
+      "old_root_id": "R20581",
+      "new_root_id": "R21632",
+      "proposed_label": "0034"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0238",
+      "old_root_id": "R20155",
+      "new_root_id": "R21632",
+      "proposed_label": "0034"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0643",
+      "old_root_id": "R20155",
+      "new_root_id": "R21632",
+      "proposed_label": "0034"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0220",
+      "old_root_id": "R20155",
+      "new_root_id": "R21632",
+      "proposed_label": "0034"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0679",
+      "old_root_id": "R20155",
+      "new_root_id": "R21632",
+      "proposed_label": "0034"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0224",
+      "old_root_id": "R20204",
+      "new_root_id": "R21633",
+      "proposed_label": "0035"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0239",
+      "old_root_id": "R20217",
+      "new_root_id": "R21633",
+      "proposed_label": "0035"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0243",
+      "old_root_id": "R20221",
+      "new_root_id": "R21633",
+      "proposed_label": "0035"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0352",
+      "old_root_id": "R20671",
+      "new_root_id": "R21633",
+      "proposed_label": "0035"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0368",
+      "old_root_id": "R20685",
+      "new_root_id": "R21633",
+      "proposed_label": "0035"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0372",
+      "old_root_id": "R20688",
+      "new_root_id": "R21633",
+      "proposed_label": "0035"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0387",
+      "old_root_id": "R20702",
+      "new_root_id": "R21633",
+      "proposed_label": "0035"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0393",
+      "old_root_id": "R20707",
+      "new_root_id": "R21633",
+      "proposed_label": "0035"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0348",
+      "old_root_id": "R20671",
+      "new_root_id": "R21633",
+      "proposed_label": "0035"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0335",
+      "old_root_id": "R20671",
+      "new_root_id": "R21633",
+      "proposed_label": "0035"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0361",
+      "old_root_id": "R20688",
+      "new_root_id": "R21633",
+      "proposed_label": "0035"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0268",
+      "old_root_id": "R20245",
+      "new_root_id": "R21634",
+      "proposed_label": "0036"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0289",
+      "old_root_id": "R20265",
+      "new_root_id": "R21634",
+      "proposed_label": "0036"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0408",
+      "old_root_id": "R20245",
+      "new_root_id": "R21634",
+      "proposed_label": "0036"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0453",
+      "old_root_id": "R20750",
+      "new_root_id": "R21634",
+      "proposed_label": "0036"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0416",
+      "old_root_id": "R20245",
+      "new_root_id": "R21634",
+      "proposed_label": "0036"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0414",
+      "old_root_id": "R20245",
+      "new_root_id": "R21634",
+      "proposed_label": "0036"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0275",
+      "old_root_id": "R20251",
+      "new_root_id": "R21635",
+      "proposed_label": "0037"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0502",
+      "old_root_id": "R20251",
+      "new_root_id": "R21635",
+      "proposed_label": "0037"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0678",
+      "old_root_id": "R20251",
+      "new_root_id": "R21635",
+      "proposed_label": "0037"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0511",
+      "old_root_id": "R20251",
+      "new_root_id": "R21635",
+      "proposed_label": "0037"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0282",
+      "old_root_id": "R20258",
+      "new_root_id": "R21636",
+      "proposed_label": "0038"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0463",
+      "old_root_id": "R20756",
+      "new_root_id": "R21636",
+      "proposed_label": "0038"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0527",
+      "old_root_id": "R20798",
+      "new_root_id": "R21636",
+      "proposed_label": "0038"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0468",
+      "old_root_id": "R20258",
+      "new_root_id": "R21636",
+      "proposed_label": "0038"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0455",
+      "old_root_id": "R20258",
+      "new_root_id": "R21636",
+      "proposed_label": "0038"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0679",
+      "old_root_id": "R20258",
+      "new_root_id": "R21636",
+      "proposed_label": "0038"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0471",
+      "old_root_id": "R20258",
+      "new_root_id": "R21636",
+      "proposed_label": "0038"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0315",
+      "old_root_id": "R20296",
+      "new_root_id": "R21637",
+      "proposed_label": "0039"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0455",
+      "old_root_id": "R20296",
+      "new_root_id": "R21637",
+      "proposed_label": "0039"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0478",
+      "old_root_id": "R20296",
+      "new_root_id": "R21637",
+      "proposed_label": "0039"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0472",
+      "old_root_id": "R20296",
+      "new_root_id": "R21637",
+      "proposed_label": "0039"
+    },
+    {
+      "period": "T1",
+      "segment_id": "T1-S0334",
+      "old_root_id": "R20312",
+      "new_root_id": "R21638",
+      "proposed_label": "0040"
+    },
+    {
+      "period": "T2",
+      "segment_id": "T2-S0492",
+      "old_root_id": "R20312",
+      "new_root_id": "R21638",
+      "proposed_label": "0040"
+    },
+    {
+      "period": "T3",
+      "segment_id": "T3-S0496",
+      "old_root_id": "R20312",
+      "new_root_id": "R21638",
+      "proposed_label": "0040"
+    },
+    {
+      "period": "T4",
+      "segment_id": "T4-S0486",
+      "old_root_id": "R20312",
+      "new_root_id": "R21638",
+      "proposed_label": "0040"
+    }
+  ]
+}
