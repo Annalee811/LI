@@ -1,0 +1,11 @@
+{
+  "threshold": 0.225,
+  "same_root_Precision": 0.7917070335206355,
+  "same_root_Recall": 0.9584799437016186,
+  "same_root_F1": 0.8671477079796265,
+  "same_root_AP": 0.8733663027419498,
+  "same_root_AUC": 0.8751928960290698,
+  "n_pairs": 7262,
+  "positive_pairs": 4263,
+  "relation_accuracy": 0.7606719911870008
+}

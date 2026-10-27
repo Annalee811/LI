@@ -1,0 +1,800 @@
+{
+  "temporal_classes": [
+    {
+      "model": "unet",
+      "variant": "archived",
+      "class_code": 1,
+      "class_name": "persistent",
+      "Precision": 0.9948774925442957,
+      "Recall": 0.9919655767526471,
+      "Dice": 0.993419400797613,
+      "IoU": 0.9869248439566559,
+      "TP": 85067,
+      "FP": 438,
+      "FN": 689,
+      "reference_pixels": 85756
+    },
+    {
+      "model": "unet",
+      "variant": "archived",
+      "class_code": 2,
+      "class_name": "newly_observed",
+      "Precision": 0.9528768818313055,
+      "Recall": 0.9412303931554288,
+      "Dice": 0.947017831522853,
+      "IoU": 0.8993673965936739,
+      "TP": 9241,
+      "FP": 457,
+      "FN": 577,
+      "reference_pixels": 9818
+    },
+    {
+      "model": "unet",
+      "variant": "archived",
+      "class_code": 3,
+      "class_name": "tip_extension",
+      "Precision": 0.757334659373446,
+      "Recall": 0.9332107843137255,
+      "Dice": 0.8361240735657425,
+      "IoU": 0.7183962264150944,
+      "TP": 1523,
+      "FP": 488,
+      "FN": 109,
+      "reference_pixels": 1632
+    },
+    {
+      "model": "unet",
+      "variant": "mlp",
+      "class_code": 1,
+      "class_name": "persistent",
+      "Precision": 0.9957143860799513,
+      "Recall": 0.9916040860114744,
+      "Dice": 0.9936549854520385,
+      "IoU": 0.9873899816539328,
+      "TP": 85036,
+      "FP": 366,
+      "FN": 720,
+      "reference_pixels": 85756
+    },
+    {
+      "model": "unet",
+      "variant": "mlp",
+      "class_code": 2,
+      "class_name": "newly_observed",
+      "Precision": 0.9534763236970262,
+      "Recall": 0.9372580973721736,
+      "Dice": 0.9452976526786173,
+      "IoU": 0.8962696016363105,
+      "TP": 9202,
+      "FP": 449,
+      "FN": 616,
+      "reference_pixels": 9818
+    },
+    {
+      "model": "unet",
+      "variant": "mlp",
+      "class_code": 3,
+      "class_name": "tip_extension",
+      "Precision": 0.7135585377140213,
+      "Recall": 0.9448529411764706,
+      "Dice": 0.8130767202741893,
+      "IoU": 0.6850288760550867,
+      "TP": 1542,
+      "FP": 619,
+      "FN": 90,
+      "reference_pixels": 1632
+    },
+    {
+      "model": "unet",
+      "variant": "gat",
+      "class_code": 1,
+      "class_name": "persistent",
+      "Precision": 0.996322926669321,
+      "Recall": 0.9921171696441066,
+      "Dice": 0.9942156003505697,
+      "IoU": 0.9884977344022308,
+      "TP": 85080,
+      "FP": 314,
+      "FN": 676,
+      "reference_pixels": 85756
+    },
+    {
+      "model": "unet",
+      "variant": "gat",
+      "class_code": 2,
+      "class_name": "newly_observed",
+      "Precision": 0.9619117186684755,
+      "Recall": 0.9388877571806885,
+      "Dice": 0.9502602958610381,
+      "IoU": 0.9052342138858882,
+      "TP": 9218,
+      "FP": 365,
+      "FN": 600,
+      "reference_pixels": 9818
+    },
+    {
+      "model": "unet",
+      "variant": "gat",
+      "class_code": 3,
+      "class_name": "tip_extension",
+      "Precision": 0.70317389360751,
+      "Recall": 0.9638480392156863,
+      "Dice": 0.8131300077539416,
+      "IoU": 0.6851045296167247,
+      "TP": 1573,
+      "FP": 664,
+      "FN": 59,
+      "reference_pixels": 1632
+    },
+    {
+      "model": "deeplab",
+      "variant": "archived",
+      "class_code": 1,
+      "class_name": "persistent",
+      "Precision": 0.7829391537719629,
+      "Recall": 0.8708778394514669,
+      "Dice": 0.8245705074415934,
+      "IoU": 0.7015057157080997,
+      "TP": 74683,
+      "FP": 20705,
+      "FN": 11073,
+      "reference_pixels": 85756
+    },
+    {
+      "model": "deeplab",
+      "variant": "archived",
+      "class_code": 2,
+      "class_name": "newly_observed",
+      "Precision": 0.6394331367700209,
+      "Recall": 0.684762680790385,
+      "Dice": 0.6613220539051741,
+      "IoU": 0.4940113160408553,
+      "TP": 6723,
+      "FP": 3791,
+      "FN": 3095,
+      "reference_pixels": 9818
+    },
+    {
+      "model": "deeplab",
+      "variant": "archived",
+      "class_code": 3,
+      "class_name": "tip_extension",
+      "Precision": 0.12657342657342657,
+      "Recall": 0.11090686274509803,
+      "Dice": 0.11822338340953625,
+      "IoU": 0.06282540784449844,
+      "TP": 181,
+      "FP": 1249,
+      "FN": 1451,
+      "reference_pixels": 1632
+    },
+    {
+      "model": "deeplab",
+      "variant": "mlp",
+      "class_code": 1,
+      "class_name": "persistent",
+      "Precision": 0.7873571046868615,
+      "Recall": 0.8762418956108028,
+      "Dice": 0.8294249777861176,
+      "IoU": 0.7085619990570485,
+      "TP": 75143,
+      "FP": 20294,
+      "FN": 10613,
+      "reference_pixels": 85756
+    },
+    {
+      "model": "deeplab",
+      "variant": "mlp",
+      "class_code": 2,
+      "class_name": "newly_observed",
+      "Precision": 0.6444134378018676,
+      "Recall": 0.6115298431452434,
+      "Dice": 0.6275411549516593,
+      "IoU": 0.4572385956895895,
+      "TP": 6004,
+      "FP": 3313,
+      "FN": 3814,
+      "reference_pixels": 9818
+    },
+    {
+      "model": "deeplab",
+      "variant": "mlp",
+      "class_code": 3,
+      "class_name": "tip_extension",
+      "Precision": 0.13149728471683475,
+      "Recall": 0.20772058823529413,
+      "Dice": 0.16104513064133016,
+      "IoU": 0.08757427021441488,
+      "TP": 339,
+      "FP": 2239,
+      "FN": 1293,
+      "reference_pixels": 1632
+    },
+    {
+      "model": "deeplab",
+      "variant": "gat",
+      "class_code": 1,
+      "class_name": "persistent",
+      "Precision": 0.7851725366129607,
+      "Recall": 0.8740029852138625,
+      "Dice": 0.8272098182259648,
+      "IoU": 0.7053348766739128,
+      "TP": 74951,
+      "FP": 20507,
+      "FN": 10805,
+      "reference_pixels": 85756
+    },
+    {
+      "model": "deeplab",
+      "variant": "gat",
+      "class_code": 2,
+      "class_name": "newly_observed",
+      "Precision": 0.6460042540261319,
+      "Recall": 0.6496231411692809,
+      "Dice": 0.6478086435427353,
+      "IoU": 0.4790805979118155,
+      "TP": 6378,
+      "FP": 3495,
+      "FN": 3440,
+      "reference_pixels": 9818
+    },
+    {
+      "model": "deeplab",
+      "variant": "gat",
+      "class_code": 3,
+      "class_name": "tip_extension",
+      "Precision": 0.07796101949025487,
+      "Recall": 0.09558823529411764,
+      "Dice": 0.08587943848059455,
+      "IoU": 0.04486626402070751,
+      "TP": 156,
+      "FP": 1845,
+      "FN": 1476,
+      "reference_pixels": 1632
+    },
+    {
+      "model": "segformer",
+      "variant": "archived",
+      "class_code": 1,
+      "class_name": "persistent",
+      "Precision": 0.8357989394137118,
+      "Recall": 0.8215401837772284,
+      "Dice": 0.8286082246881781,
+      "IoU": 0.7073707039368655,
+      "TP": 70452,
+      "FP": 13841,
+      "FN": 15304,
+      "reference_pixels": 85756
+    },
+    {
+      "model": "segformer",
+      "variant": "archived",
+      "class_code": 2,
+      "class_name": "newly_observed",
+      "Precision": 0.6377248013383522,
+      "Recall": 0.7765328987573844,
+      "Dice": 0.7003169062600468,
+      "IoU": 0.5388366669022546,
+      "TP": 7624,
+      "FP": 4331,
+      "FN": 2194,
+      "reference_pixels": 9818
+    },
+    {
+      "model": "segformer",
+      "variant": "archived",
+      "class_code": 3,
+      "class_name": "tip_extension",
+      "Precision": 0.054673721340388004,
+      "Recall": 0.018995098039215685,
+      "Dice": 0.02819463392451114,
+      "IoU": 0.01429889298892989,
+      "TP": 31,
+      "FP": 536,
+      "FN": 1601,
+      "reference_pixels": 1632
+    },
+    {
+      "model": "segformer",
+      "variant": "mlp",
+      "class_code": 1,
+      "class_name": "persistent",
+      "Precision": 0.8420996225156888,
+      "Recall": 0.8246303465646718,
+      "Dice": 0.8332734353366759,
+      "IoU": 0.7141977054213461,
+      "TP": 70717,
+      "FP": 13260,
+      "FN": 15039,
+      "reference_pixels": 85756
+    },
+    {
+      "model": "segformer",
+      "variant": "mlp",
+      "class_code": 2,
+      "class_name": "newly_observed",
+      "Precision": 0.6612218530823182,
+      "Recall": 0.7297820330006112,
+      "Dice": 0.6938123365933959,
+      "IoU": 0.5311735488175551,
+      "TP": 7165,
+      "FP": 3671,
+      "FN": 2653,
+      "reference_pixels": 9818
+    },
+    {
+      "model": "segformer",
+      "variant": "mlp",
+      "class_code": 3,
+      "class_name": "tip_extension",
+      "Precision": 0.25524475524475526,
+      "Recall": 0.3131127450980392,
+      "Dice": 0.28123280132085854,
+      "IoU": 0.16362471982068524,
+      "TP": 511,
+      "FP": 1491,
+      "FN": 1121,
+      "reference_pixels": 1632
+    },
+    {
+      "model": "segformer",
+      "variant": "gat",
+      "class_code": 1,
+      "class_name": "persistent",
+      "Precision": 0.8385210315295011,
+      "Recall": 0.8243038387984514,
+      "Dice": 0.8313516564936668,
+      "IoU": 0.7113788002294478,
+      "TP": 70689,
+      "FP": 13613,
+      "FN": 15067,
+      "reference_pixels": 85756
+    },
+    {
+      "model": "segformer",
+      "variant": "gat",
+      "class_code": 2,
+      "class_name": "newly_observed",
+      "Precision": 0.6487918215613383,
+      "Recall": 0.7110409452026889,
+      "Dice": 0.6784915929633589,
+      "IoU": 0.5134220783996469,
+      "TP": 6981,
+      "FP": 3779,
+      "FN": 2837,
+      "reference_pixels": 9818
+    },
+    {
+      "model": "segformer",
+      "variant": "gat",
+      "class_code": 3,
+      "class_name": "tip_extension",
+      "Precision": 0.06788362806617228,
+      "Recall": 0.07291666666666667,
+      "Dice": 0.07031019202363367,
+      "IoU": 0.03643600734843846,
+      "TP": 119,
+      "FP": 1634,
+      "FN": 1513,
+      "reference_pixels": 1632
+    }
+  ],
+  "temporal_macro": [
+    {
+      "model": "unet",
+      "variant": "archived",
+      "macro_Dice": 0.925520435295403,
+      "macro_IoU": 0.8682294889884749,
+      "accuracy_including_local_background": 0.9962113014439791,
+      "reference": "Uploaded17 temporal colors on held-out manually numbered families; local background buffers",
+      "confusion": [
+        [
+          267819,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          85067,
+          444,
+          245
+        ],
+        [
+          0,
+          334,
+          9241,
+          243
+        ],
+        [
+          0,
+          96,
+          13,
+          1523
+        ]
+      ]
+    },
+    {
+      "model": "unet",
+      "variant": "mlp",
+      "macro_Dice": 0.9173431194682817,
+      "macro_IoU": 0.8562294864484433,
+      "accuracy_including_local_background": 0.9960715880482038,
+      "reference": "Uploaded17 temporal colors on held-out manually numbered families; local background buffers",
+      "confusion": [
+        [
+          267819,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          85036,
+          449,
+          271
+        ],
+        [
+          0,
+          268,
+          9202,
+          348
+        ],
+        [
+          0,
+          90,
+          0,
+          1542
+        ]
+      ]
+    },
+    {
+      "model": "unet",
+      "variant": "gat",
+      "macro_Dice": 0.9192019679885165,
+      "macro_IoU": 0.8596121593016145,
+      "accuracy_including_local_background": 0.9963208805779203,
+      "reference": "Uploaded17 temporal colors on held-out manually numbered families; local background buffers",
+      "confusion": [
+        [
+          267819,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          85080,
+          365,
+          311
+        ],
+        [
+          0,
+          247,
+          9218,
+          353
+        ],
+        [
+          0,
+          59,
+          0,
+          1573
+        ]
+      ]
+    },
+    {
+      "model": "deeplab",
+      "variant": "archived",
+      "macro_Dice": 0.5347053149187679,
+      "macro_IoU": 0.4194474798644845,
+      "accuracy_including_local_background": 0.8978558102966033,
+      "reference": "Uploaded17 temporal colors on held-out manually numbered families; local background buffers",
+      "confusion": [
+        [
+          246160,
+          19307,
+          2014,
+          346
+        ],
+        [
+          10048,
+          74683,
+          818,
+          207
+        ],
+        [
+          1324,
+          1075,
+          6723,
+          696
+        ],
+        [
+          169,
+          323,
+          959,
+          181
+        ]
+      ]
+    },
+    {
+      "model": "deeplab",
+      "variant": "mlp",
+      "macro_Dice": 0.5393370877930356,
+      "macro_IoU": 0.41779162165368433,
+      "accuracy_including_local_background": 0.8975791229834015,
+      "reference": "Uploaded17 temporal colors on held-out manually numbered families; local background buffers",
+      "confusion": [
+        [
+          246160,
+          19307,
+          2014,
+          346
+        ],
+        [
+          10048,
+          75143,
+          355,
+          210
+        ],
+        [
+          1324,
+          807,
+          6004,
+          1683
+        ],
+        [
+          169,
+          180,
+          944,
+          339
+        ]
+      ]
+    },
+    {
+      "model": "deeplab",
+      "variant": "gat",
+      "macro_Dice": 0.5202993000830982,
+      "macro_IoU": 0.4097605795354786,
+      "accuracy_including_local_background": 0.897576383505053,
+      "reference": "Uploaded17 temporal colors on held-out manually numbered families; local background buffers",
+      "confusion": [
+        [
+          246160,
+          19307,
+          2014,
+          346
+        ],
+        [
+          10048,
+          74951,
+          547,
+          210
+        ],
+        [
+          1324,
+          827,
+          6378,
+          1289
+        ],
+        [
+          169,
+          373,
+          934,
+          156
+        ]
+      ]
+    },
+    {
+      "model": "segformer",
+      "variant": "archived",
+      "macro_Dice": 0.5190399216242453,
+      "macro_IoU": 0.42016875460935,
+      "accuracy_including_local_background": 0.9069234836302471,
+      "reference": "Uploaded17 temporal colors on held-out manually numbered families; local background buffers",
+      "confusion": [
+        [
+          252950,
+          12613,
+          2064,
+          200
+        ],
+        [
+          14022,
+          70452,
+          1202,
+          80
+        ],
+        [
+          1007,
+          931,
+          7624,
+          256
+        ],
+        [
+          239,
+          297,
+          1065,
+          31
+        ]
+      ]
+    },
+    {
+      "model": "segformer",
+      "variant": "mlp",
+      "macro_Dice": 0.6027728577503101,
+      "macro_IoU": 0.4696653246865288,
+      "accuracy_including_local_background": 0.9077069744379276,
+      "reference": "Uploaded17 temporal colors on held-out manually numbered families; local background buffers",
+      "confusion": [
+        [
+          252950,
+          12613,
+          2064,
+          200
+        ],
+        [
+          14022,
+          70717,
+          907,
+          110
+        ],
+        [
+          1007,
+          465,
+          7165,
+          1181
+        ],
+        [
+          239,
+          182,
+          700,
+          511
+        ]
+      ]
+    },
+    {
+      "model": "segformer",
+      "variant": "gat",
+      "macro_Dice": 0.5267178138268865,
+      "macro_IoU": 0.4204122953258444,
+      "accuracy_including_local_background": 0.9060523295154137,
+      "reference": "Uploaded17 temporal colors on held-out manually numbered families; local background buffers",
+      "confusion": [
+        [
+          252950,
+          12613,
+          2064,
+          200
+        ],
+        [
+          14022,
+          70689,
+          732,
+          313
+        ],
+        [
+          1007,
+          709,
+          6981,
+          1121
+        ],
+        [
+          239,
+          291,
+          983,
+          119
+        ]
+      ]
+    }
+  ],
+  "identity": [
+    {
+      "model": "unet",
+      "variant": "mlp",
+      "heldout_post_seed_root_dates": 69,
+      "heldout_post_seed_name_accuracy": 0.4492753623188406,
+      "heldout_mean_fragments": 1.3623188405797102,
+      "heldout_identity_switches": 3,
+      "heldout_pixel_adjusted_Rand": 0.42555476341799714,
+      "threshold": 0.225,
+      "same_root_Precision": 0.7917070335206355,
+      "same_root_Recall": 0.9584799437016186,
+      "same_root_F1": 0.8671477079796265,
+      "same_root_AP": 0.8733663027419498,
+      "same_root_AUC": 0.8751928960290698,
+      "n_pairs": 7262,
+      "positive_pairs": 4263,
+      "relation_accuracy": 0.7606719911870008
+    },
+    {
+      "model": "unet",
+      "variant": "gat",
+      "heldout_post_seed_root_dates": 69,
+      "heldout_post_seed_name_accuracy": 0.4057971014492754,
+      "heldout_mean_fragments": 1.2753623188405796,
+      "heldout_identity_switches": 2,
+      "heldout_pixel_adjusted_Rand": 0.6041074401379857,
+      "threshold": 0.17500000000000002,
+      "same_root_Precision": 0.7591642228739003,
+      "same_root_Recall": 0.9716162326999765,
+      "same_root_F1": 0.852351064924375,
+      "same_root_AP": 0.9028159623708378,
+      "same_root_AUC": 0.8816137164182571,
+      "n_pairs": 7262,
+      "positive_pairs": 4263,
+      "relation_accuracy": 0.7643899752134399
+    },
+    {
+      "model": "deeplab",
+      "variant": "mlp",
+      "heldout_post_seed_root_dates": 69,
+      "heldout_post_seed_name_accuracy": 0.4492753623188406,
+      "heldout_mean_fragments": 1.4202898550724639,
+      "heldout_identity_switches": 4,
+      "heldout_pixel_adjusted_Rand": 0.40871164749922473,
+      "threshold": 0.25,
+      "same_root_Precision": 0.7858796296296297,
+      "same_root_Recall": 0.9556650246305419,
+      "same_root_F1": 0.8624960304858685,
+      "same_root_AP": 0.8574279596933729,
+      "same_root_AUC": 0.8632368033851615,
+      "n_pairs": 7262,
+      "positive_pairs": 4263,
+      "relation_accuracy": 0.7603965849628201
+    },
+    {
+      "model": "deeplab",
+      "variant": "gat",
+      "heldout_post_seed_root_dates": 69,
+      "heldout_post_seed_name_accuracy": 0.2898550724637681,
+      "heldout_mean_fragments": 1.5507246376811594,
+      "heldout_identity_switches": 7,
+      "heldout_pixel_adjusted_Rand": 0.5505166338744566,
+      "threshold": 0.15000000000000002,
+      "same_root_Precision": 0.7114082305955896,
+      "same_root_Recall": 0.9610602861834389,
+      "same_root_F1": 0.8176012771901816,
+      "same_root_AP": 0.8833435345407776,
+      "same_root_AUC": 0.8602250871488402,
+      "n_pairs": 7262,
+      "positive_pairs": 4263,
+      "relation_accuracy": 0.6962269347287249
+    },
+    {
+      "model": "segformer",
+      "variant": "mlp",
+      "heldout_post_seed_root_dates": 69,
+      "heldout_post_seed_name_accuracy": 0.37681159420289856,
+      "heldout_mean_fragments": 1.4057971014492754,
+      "heldout_identity_switches": 2,
+      "heldout_pixel_adjusted_Rand": 0.44816707813022794,
+      "threshold": 0.225,
+      "same_root_Precision": 0.7934911242603551,
+      "same_root_Recall": 0.9437016185784659,
+      "same_root_F1": 0.8621022179363549,
+      "same_root_AP": 0.8533028040236775,
+      "same_root_AUC": 0.8638862496741232,
+      "n_pairs": 7262,
+      "positive_pairs": 4263,
+      "relation_accuracy": 0.7214266042412558
+    },
+    {
+      "model": "segformer",
+      "variant": "gat",
+      "heldout_post_seed_root_dates": 69,
+      "heldout_post_seed_name_accuracy": 0.30434782608695654,
+      "heldout_mean_fragments": 1.4927536231884058,
+      "heldout_identity_switches": 4,
+      "heldout_pixel_adjusted_Rand": 0.39684016066970984,
+      "threshold": 0.30000000000000004,
+      "same_root_Precision": 0.786593707250342,
+      "same_root_Recall": 0.9441707717569786,
+      "same_root_F1": 0.8582089552238806,
+      "same_root_AP": 0.8663660194999534,
+      "same_root_AUC": 0.8717160939642324,
+      "n_pairs": 7262,
+      "positive_pairs": 4263,
+      "relation_accuracy": 0.7438722115119801
+    }
+  ]
+}

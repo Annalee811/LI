@@ -1,0 +1,12 @@
+EPOCH unet gat 1 loss 0.46 valDice 0.92711 valLinkF1 0.79536 sec 5.1
+EPOCH unet gat 10 loss 0.31015 valDice 0.92152 valLinkF1 0.82794 sec 1.28
+EPOCH unet gat 20 loss 0.22437 valDice 0.92292 valLinkF1 0.89071 sec 3.15
+EPOCH unet gat 30 loss 0.17551 valDice 0.92503 valLinkF1 0.91044 sec 1.64
+EPOCH unet gat 40 loss 0.14563 valDice 0.9216 valLinkF1 0.91265 sec 1.46
+EPOCH unet gat 50 loss 0.1267 valDice 0.92289 valLinkF1 0.91566 sec 1.46
+EPOCH unet gat 60 loss 0.11163 valDice 0.92634 valLinkF1 0.91547 sec 1.35
+EPOCH unet gat 70 loss 0.10131 valDice 0.92552 valLinkF1 0.91621 sec 2.42
+EPOCH unet gat 80 loss 0.09926 valDice 0.92625 valLinkF1 0.91764 sec 1.39
+EPOCH unet gat 90 loss 0.09917 valDice 0.92778 valLinkF1 0.91775 sec 1.5
+EPOCH unet gat 100 loss 0.09665 valDice 0.927 valLinkF1 0.91758 sec 2.47
+COMPLETE unet gat epoch 90 testLinkF1 0.852351064924375

@@ -1,0 +1,10 @@
+﻿model,variant,macro_Dice,macro_IoU,accuracy_including_local_background,reference
+unet,archived,0.925520435295403,0.8682294889884749,0.9962113014439791,Uploaded17 temporal colors on held-out manually numbered families; local background buffers
+unet,mlp,0.9173431194682817,0.8562294864484433,0.9960715880482038,Uploaded17 temporal colors on held-out manually numbered families; local background buffers
+unet,gat,0.9192019679885165,0.8596121593016145,0.9963208805779203,Uploaded17 temporal colors on held-out manually numbered families; local background buffers
+deeplab,archived,0.5347053149187679,0.4194474798644845,0.8978558102966033,Uploaded17 temporal colors on held-out manually numbered families; local background buffers
+deeplab,mlp,0.5393370877930356,0.41779162165368433,0.8975791229834015,Uploaded17 temporal colors on held-out manually numbered families; local background buffers
+deeplab,gat,0.5202993000830982,0.4097605795354786,0.897576383505053,Uploaded17 temporal colors on held-out manually numbered families; local background buffers
+segformer,archived,0.5190399216242453,0.42016875460935,0.9069234836302471,Uploaded17 temporal colors on held-out manually numbered families; local background buffers
+segformer,mlp,0.6027728577503101,0.4696653246865288,0.9077069744379276,Uploaded17 temporal colors on held-out manually numbered families; local background buffers
+segformer,gat,0.5267178138268865,0.4204122953258444,0.9060523295154137,Uploaded17 temporal colors on held-out manually numbered families; local background buffers

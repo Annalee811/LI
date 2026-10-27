@@ -1,0 +1,14 @@
+{
+  "state": "six_new_heads_complete",
+  "epochs_each": 100,
+  "models": [
+    "unet",
+    "deeplab",
+    "segformer"
+  ],
+  "ablations": [
+    "mlp",
+    "gat"
+  ],
+  "finished_unix": 1793114743.7659066
+}

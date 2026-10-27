@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "tie-aware AUC/AP formulas match known cases",
+      "passed": true
+    },
+    {
+      "name": "GAT follows node permutation rather than numeric node identity",
+      "passed": true
+    },
+    {
+      "name": "GAT forward outputs are finite",
+      "passed": true
+    },
+    {
+      "name": "renaming root IDs and human numbers leaves geometric edges and supervised partition unchanged",
+      "passed": true
+    },
+    {
+      "name": "unet neural inputs are byte-value-identical after all root IDs/numbers are replaced",
+      "passed": true
+    },
+    {
+      "name": "deeplab neural inputs are byte-value-identical after all root IDs/numbers are replaced",
+      "passed": true
+    },
+    {
+      "name": "segformer neural inputs are byte-value-identical after all root IDs/numbers are replaced",
+      "passed": true
+    },
+    {
+      "name": "uploaded17 original file and model-assisted provenance remain preserved",
+      "passed": true
+    }
+  ],
+  "temporary_renamed_data_not_training_or_deliverable": true,
+  "audit_directory": "/tmp/gat65_label_input_audit_enqy406u"
+}

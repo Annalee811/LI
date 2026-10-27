@@ -1,0 +1,17 @@
+[
+  {
+    "class_code": 1,
+    "AUC": 0.9316374728363931,
+    "average_precision": 0.899886740922431
+  },
+  {
+    "class_code": 2,
+    "AUC": 0.9039006754426988,
+    "average_precision": 0.6803627085279559
+  },
+  {
+    "class_code": 3,
+    "AUC": 0.9129509697087717,
+    "average_precision": 0.09501390301974419
+  }
+]

@@ -1,0 +1,12 @@
+EPOCH segformer gat 1 loss 0.91634 valDice 0.57784 valLinkF1 0.79336 sec 4.27
+EPOCH segformer gat 10 loss 0.6588 valDice 0.61821 valLinkF1 0.80908 sec 3.06
+EPOCH segformer gat 20 loss 0.50133 valDice 0.62976 valLinkF1 0.87095 sec 1.79
+EPOCH segformer gat 30 loss 0.39175 valDice 0.63066 valLinkF1 0.87715 sec 1.64
+EPOCH segformer gat 40 loss 0.3222 valDice 0.63826 valLinkF1 0.88975 sec 1.39
+EPOCH segformer gat 50 loss 0.26018 valDice 0.636 valLinkF1 0.8994 sec 1.58
+EPOCH segformer gat 60 loss 0.23826 valDice 0.6367 valLinkF1 0.90232 sec 1.46
+EPOCH segformer gat 70 loss 0.23043 valDice 0.65567 valLinkF1 0.90209 sec 2.32
+EPOCH segformer gat 80 loss 0.21846 valDice 0.65505 valLinkF1 0.90464 sec 1.52
+EPOCH segformer gat 90 loss 0.21139 valDice 0.65182 valLinkF1 0.90207 sec 1.61
+EPOCH segformer gat 100 loss 0.21039 valDice 0.64797 valLinkF1 0.90367 sec 1.71
+COMPLETE segformer gat epoch 54 testLinkF1 0.8582089552238806

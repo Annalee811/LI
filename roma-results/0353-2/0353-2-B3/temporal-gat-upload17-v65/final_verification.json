@@ -1,0 +1,295 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "unet mlp has100 real epochs",
+      "passed": true
+    },
+    {
+      "name": "unet mlp selected weights checksum matches",
+      "passed": true
+    },
+    {
+      "name": "unet mlp was actually optimized",
+      "passed": true
+    },
+    {
+      "name": "unet mlp keeps native continuous segments whole",
+      "passed": true
+    },
+    {
+      "name": "unet mlp T1 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "unet mlp T2 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "unet mlp T3 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "unet mlp T4 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "unet gat has100 real epochs",
+      "passed": true
+    },
+    {
+      "name": "unet gat selected weights checksum matches",
+      "passed": true
+    },
+    {
+      "name": "unet gat was actually optimized",
+      "passed": true
+    },
+    {
+      "name": "unet gat keeps native continuous segments whole",
+      "passed": true
+    },
+    {
+      "name": "unet gat T1 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "unet gat T2 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "unet gat T3 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "unet gat T4 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "deeplab mlp has100 real epochs",
+      "passed": true
+    },
+    {
+      "name": "deeplab mlp selected weights checksum matches",
+      "passed": true
+    },
+    {
+      "name": "deeplab mlp was actually optimized",
+      "passed": true
+    },
+    {
+      "name": "deeplab mlp keeps native continuous segments whole",
+      "passed": true
+    },
+    {
+      "name": "deeplab mlp T1 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "deeplab mlp T2 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "deeplab mlp T3 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "deeplab mlp T4 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "deeplab gat has100 real epochs",
+      "passed": true
+    },
+    {
+      "name": "deeplab gat selected weights checksum matches",
+      "passed": true
+    },
+    {
+      "name": "deeplab gat was actually optimized",
+      "passed": true
+    },
+    {
+      "name": "deeplab gat keeps native continuous segments whole",
+      "passed": true
+    },
+    {
+      "name": "deeplab gat T1 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "deeplab gat T2 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "deeplab gat T3 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "deeplab gat T4 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "segformer mlp has100 real epochs",
+      "passed": true
+    },
+    {
+      "name": "segformer mlp selected weights checksum matches",
+      "passed": true
+    },
+    {
+      "name": "segformer mlp was actually optimized",
+      "passed": true
+    },
+    {
+      "name": "segformer mlp keeps native continuous segments whole",
+      "passed": true
+    },
+    {
+      "name": "segformer mlp T1 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "segformer mlp T2 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "segformer mlp T3 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "segformer mlp T4 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "segformer gat has100 real epochs",
+      "passed": true
+    },
+    {
+      "name": "segformer gat selected weights checksum matches",
+      "passed": true
+    },
+    {
+      "name": "segformer gat was actually optimized",
+      "passed": true
+    },
+    {
+      "name": "segformer gat keeps native continuous segments whole",
+      "passed": true
+    },
+    {
+      "name": "segformer gat T1 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "segformer gat T2 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "segformer gat T3 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "segformer gat T4 root outline unchanged",
+      "passed": true
+    },
+    {
+      "name": "root_target keeps all periods in one internal supervision mask",
+      "passed": true
+    },
+    {
+      "name": "family_target keeps all periods in one internal supervision mask",
+      "passed": true
+    },
+    {
+      "name": "all original input hashes unchanged",
+      "passed": true
+    },
+    {
+      "name": "root-number and root-ID replacement cannot alter model inputs",
+      "passed": true
+    },
+    {
+      "name": "interactive viewer is browser-tested at exact file hash",
+      "passed": true
+    },
+    {
+      "name": "Fig_New_roots_before_after_GAT.tif file hash matches",
+      "passed": true
+    },
+    {
+      "name": "Fig_New_roots_before_after_GAT.tif is600dpi RGB TIFF",
+      "passed": true
+    },
+    {
+      "name": "Fig_Persistent_roots_before_after_GAT.tif file hash matches",
+      "passed": true
+    },
+    {
+      "name": "Fig_Persistent_roots_before_after_GAT.tif is600dpi RGB TIFF",
+      "passed": true
+    },
+    {
+      "name": "Fig_Growing_tips_before_after_GAT.tif file hash matches",
+      "passed": true
+    },
+    {
+      "name": "Fig_Growing_tips_before_after_GAT.tif is600dpi RGB TIFF",
+      "passed": true
+    },
+    {
+      "name": "Fig_Three_class_Dice_before_after_GAT.tif file hash matches",
+      "passed": true
+    },
+    {
+      "name": "Fig_Three_class_Dice_before_after_GAT.tif is600dpi RGB TIFF",
+      "passed": true
+    },
+    {
+      "name": "Table_Three_classes_before_after_GAT.tif file hash matches",
+      "passed": true
+    },
+    {
+      "name": "Table_Three_classes_before_after_GAT.tif is600dpi RGB TIFF",
+      "passed": true
+    },
+    {
+      "name": "Fig_GAT_training_monitoring.tif file hash matches",
+      "passed": true
+    },
+    {
+      "name": "Fig_GAT_training_monitoring.tif is600dpi RGB TIFF",
+      "passed": true
+    },
+    {
+      "name": "Fig_Root_ID_comparison.tif file hash matches",
+      "passed": true
+    },
+    {
+      "name": "Fig_Root_ID_comparison.tif is600dpi RGB TIFF",
+      "passed": true
+    },
+    {
+      "name": "Fig_GAT_MLP_temporal_ablation.tif file hash matches",
+      "passed": true
+    },
+    {
+      "name": "Fig_GAT_MLP_temporal_ablation.tif is600dpi RGB TIFF",
+      "passed": true
+    },
+    {
+      "name": "Fig_Root_ID_tracking_ablation.tif file hash matches",
+      "passed": true
+    },
+    {
+      "name": "Fig_Root_ID_tracking_ablation.tif is600dpi RGB TIFF",
+      "passed": true
+    }
+  ],
+  "source_SHA256": "c5f82d8920e4faed263c206b4d85261dcdea99f102c4f75caf45fa6f57c4a270",
+  "inner_heldout_root_IDs": 26,
+  "epochs_each": 100,
+  "trained_new_modules": 6,
+  "original_manual_annotation_not_overwritten": true,
+  "all_four_B3_dates_belong_to_one_outer_development_position": true
+}

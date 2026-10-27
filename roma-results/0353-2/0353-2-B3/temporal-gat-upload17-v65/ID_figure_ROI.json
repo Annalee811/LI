@@ -1,0 +1,10 @@
+{
+  "ROI_xyxy": [
+    1296,
+    96,
+    1808,
+    608
+  ],
+  "selection": "Maximum held-out manually numbered root pixels across four periods; no model predictions used",
+  "labels_drawn": 242
+}

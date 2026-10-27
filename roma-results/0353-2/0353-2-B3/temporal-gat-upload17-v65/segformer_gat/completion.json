@@ -1,0 +1,147 @@
+{
+  "state": "complete",
+  "epochs_completed": 100,
+  "selected_epoch": 54,
+  "selected_validation_temporal": {
+    "classes": [
+      {
+        "class_name": "persistent",
+        "Precision": 0.966983811417211,
+        "Recall": 0.9511139046022767,
+        "Dice": 0.9589832059993663,
+        "IoU": 0.9211985930735931,
+        "support": 14319
+      },
+      {
+        "class_name": "newly_observed",
+        "Precision": 0.7369758576874206,
+        "Recall": 0.82679971489665,
+        "Dice": 0.7793080282163252,
+        "IoU": 0.6384149697303247,
+        "support": 2806
+      },
+      {
+        "class_name": "tip_extension",
+        "Precision": 0.2817258883248731,
+        "Recall": 0.2215568862275449,
+        "Dice": 0.24804469273743016,
+        "IoU": 0.14158163265306123,
+        "support": 501
+      }
+    ],
+    "macro_Dice": 0.6621119756510406,
+    "macro_IoU": 0.5670650651523264,
+    "confusion": [
+      [
+        13619,
+        536,
+        164
+      ],
+      [
+        367,
+        2320,
+        119
+      ],
+      [
+        98,
+        292,
+        111
+      ]
+    ]
+  },
+  "selected_validation_links": {
+    "threshold": 0.30000000000000004,
+    "same_root_Precision": 0.8817204301075269,
+    "same_root_Recall": 0.9164338328676658,
+    "same_root_F1": 0.8987420600323827,
+    "same_root_AP": 0.9565572765519246,
+    "same_root_AUC": 0.9223253697472645,
+    "n_pairs": 6009,
+    "positive_pairs": 3937,
+    "relation_accuracy": 0.7433849226160759
+  },
+  "test_identity": {
+    "threshold": 0.30000000000000004,
+    "same_root_Precision": 0.786593707250342,
+    "same_root_Recall": 0.9441707717569786,
+    "same_root_F1": 0.8582089552238806,
+    "same_root_AP": 0.8663660194999534,
+    "same_root_AUC": 0.8717160939642324,
+    "n_pairs": 7262,
+    "positive_pairs": 4263,
+    "relation_accuracy": 0.7438722115119801
+  },
+  "seconds": 202.73724147700705,
+  "checkpoint_SHA256": "3697ad23f0a8b1153ca18dd305c387781702476f5f07a2c7b6e74a4e057119ae",
+  "config": {
+    "model": "segformer",
+    "kind": "gat",
+    "epochs": 100,
+    "seed": 20261027,
+    "source_SHA256": "c5f82d8920e4faed263c206b4d85261dcdea99f102c4f75caf45fa6f57c4a270",
+    "input_features": [
+      "cx",
+      "cy",
+      "start_x",
+      "start_y",
+      "end_x",
+      "end_y",
+      "arc_length",
+      "chord_length",
+      "tangent_x",
+      "tangent_y",
+      "curvature",
+      "width_proxy",
+      "area_log",
+      "rgb_mean_0",
+      "rgb_mean_1",
+      "rgb_mean_2",
+      "rgb_std_0",
+      "rgb_std_1",
+      "rgb_std_2",
+      "rgb_delta_0",
+      "rgb_delta_1",
+      "rgb_delta_2",
+      "rgb_abs_delta_0",
+      "rgb_abs_delta_1",
+      "rgb_abs_delta_2",
+      "period_0",
+      "period_1",
+      "period_2",
+      "period_3",
+      "base_probability_mean_0",
+      "base_probability_mean_1",
+      "base_probability_mean_2",
+      "base_probability_std_0",
+      "base_probability_std_1",
+      "base_probability_std_2",
+      "base_probability_quantile_0",
+      "base_probability_quantile_1",
+      "base_probability_quantile_2",
+      "base_probability_quantile_3",
+      "base_probability_quantile_4",
+      "base_probability_quantile_5",
+      "base_entropy",
+      "base_support"
+    ],
+    "root_IDs_never_input": true,
+    "backbones_and_prior_head_frozen": true,
+    "initialization": "Random new graph/refinement and association heads; zero temporal residual starts at archived head probabilities",
+    "training": "Full transductive feature graph, losses only on training families; test labels never used for checkpoint or threshold",
+    "classifier_scope": "Persistent / newly observed / tip extension; T1 remains baseline",
+    "objective": "Weighted sampled-pixel CE + 0.12 soft Dice + 0.35 relation CE + 0.003 temporal-residual penalty",
+    "selection": "0.75 validation class macro Dice + 0.25 validation same-root pair F1; epochs1..100 only",
+    "parameter_count": 71462,
+    "optimizer": "AdamW .002 -> .00002 cosine",
+    "temporal_weights": [
+      1.0,
+      2.3281638622283936,
+      5.0
+    ],
+    "relation_weights": [
+      1.0,
+      1.0164519548416138,
+      1.840315580368042
+    ]
+  }
+}

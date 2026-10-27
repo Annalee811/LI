@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/workspace/LI/analysis-scripts/0353-2-B3_segmentation_pilot/temporal_gat_v65/train.py", line 9, in <module>
+    from sklearn.metrics import average_precision_score,roc_auc_score
+ModuleNotFoundError: No module named 'sklearn'
+EPOCH unet mlp 1 loss 0.44566 valDice 0.92812 valLinkF1 0.79171 sec 1.71
+EPOCH unet mlp 10 loss 0.373 valDice 0.91864 valLinkF1 0.83056 sec 0.69
+EPOCH unet mlp 20 loss 0.26481 valDice 0.92368 valLinkF1 0.88182 sec 0.54
+EPOCH unet mlp 30 loss 0.20801 valDice 0.92116 valLinkF1 0.91162 sec 0.9
+EPOCH unet mlp 40 loss 0.18249 valDice 0.92143 valLinkF1 0.91692 sec 0.48
+EPOCH unet mlp 50 loss 0.16594 valDice 0.92056 valLinkF1 0.91927 sec 0.44
+EPOCH unet mlp 60 loss 0.15128 valDice 0.92164 valLinkF1 0.91625 sec 0.44
+EPOCH unet mlp 70 loss 0.14327 valDice 0.92168 valLinkF1 0.91572 sec 0.73
+EPOCH unet mlp 80 loss 0.14023 valDice 0.92223 valLinkF1 0.91542 sec 0.98
+EPOCH unet mlp 90 loss 0.13954 valDice 0.92307 valLinkF1 0.9156 sec 0.38
+EPOCH unet mlp 100 loss 0.13862 valDice 0.92333 valLinkF1 0.91558 sec 0.51
+COMPLETE unet mlp epoch 44 testLinkF1 0.8671477079796265

@@ -1,0 +1,72 @@
+{
+  "model": "deeplab",
+  "variant": "archived",
+  "macro_Dice": 0.5347053149187679,
+  "macro_IoU": 0.4194474798644845,
+  "accuracy_including_local_background": 0.8978558102966033,
+  "reference": "Uploaded17 temporal colors on held-out manually numbered families; local background buffers",
+  "confusion": [
+    [
+      246160,
+      19307,
+      2014,
+      346
+    ],
+    [
+      10048,
+      74683,
+      818,
+      207
+    ],
+    [
+      1324,
+      1075,
+      6723,
+      696
+    ],
+    [
+      169,
+      323,
+      959,
+      181
+    ]
+  ],
+  "classes": [
+    {
+      "class_code": 1,
+      "class_name": "persistent",
+      "Precision": 0.7829391537719629,
+      "Recall": 0.8708778394514669,
+      "Dice": 0.8245705074415934,
+      "IoU": 0.7015057157080997,
+      "TP": 74683,
+      "FP": 20705,
+      "FN": 11073,
+      "reference_pixels": 85756
+    },
+    {
+      "class_code": 2,
+      "class_name": "newly_observed",
+      "Precision": 0.6394331367700209,
+      "Recall": 0.684762680790385,
+      "Dice": 0.6613220539051741,
+      "IoU": 0.4940113160408553,
+      "TP": 6723,
+      "FP": 3791,
+      "FN": 3095,
+      "reference_pixels": 9818
+    },
+    {
+      "class_code": 3,
+      "class_name": "tip_extension",
+      "Precision": 0.12657342657342657,
+      "Recall": 0.11090686274509803,
+      "Dice": 0.11822338340953625,
+      "IoU": 0.06282540784449844,
+      "TP": 181,
+      "FP": 1249,
+      "FN": 1451,
+      "reference_pixels": 1632
+    }
+  ]
+}

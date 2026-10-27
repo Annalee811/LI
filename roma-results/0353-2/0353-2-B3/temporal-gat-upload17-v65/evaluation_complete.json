@@ -1,0 +1,10 @@
+{
+  "state": "complete",
+  "all_six_models_100_epochs": true,
+  "source_upload_unchanged": true,
+  "old_backbones_heads_predictions_unchanged": true,
+  "all_new_binary_root_supports_exactly_preserved": true,
+  "test_families": 26,
+  "identity_seed_names_excluded_from_post_seed_accuracy": true,
+  "old_accuracy_numbers_not_reused_as_new_split_results": true
+}

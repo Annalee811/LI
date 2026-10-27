@@ -1,0 +1,12 @@
+EPOCH deeplab gat 1 loss 0.8607 valDice 0.63296 valLinkF1 0.79516 sec 2.06
+EPOCH deeplab gat 10 loss 0.61208 valDice 0.61654 valLinkF1 0.80993 sec 1.43
+EPOCH deeplab gat 20 loss 0.45152 valDice 0.64572 valLinkF1 0.87369 sec 1.7
+EPOCH deeplab gat 30 loss 0.36354 valDice 0.65902 valLinkF1 0.88671 sec 1.71
+EPOCH deeplab gat 40 loss 0.28786 valDice 0.61927 valLinkF1 0.9022 sec 2.59
+EPOCH deeplab gat 50 loss 0.23742 valDice 0.63414 valLinkF1 0.90445 sec 3.1
+EPOCH deeplab gat 60 loss 0.21159 valDice 0.62118 valLinkF1 0.90773 sec 1.63
+EPOCH deeplab gat 70 loss 0.19427 valDice 0.60505 valLinkF1 0.90841 sec 3.92
+EPOCH deeplab gat 80 loss 0.19492 valDice 0.63227 valLinkF1 0.91072 sec 2.0
+EPOCH deeplab gat 90 loss 0.18882 valDice 0.60934 valLinkF1 0.91079 sec 1.84
+EPOCH deeplab gat 100 loss 0.18826 valDice 0.61008 valLinkF1 0.9102 sec 2.57
+COMPLETE deeplab gat epoch 30 testLinkF1 0.8176012771901816

@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "figures": [
+    {
+      "file": "Fig_New_roots_before_after_GAT.tif",
+      "bytes": 5512764,
+      "SHA256": "730dd3a7f5249f096ac0a261c148ef80c30fd3f28f85e61a8c37f2d8d03fde25",
+      "dimensions": [
+        7000,
+        3800
+      ],
+      "dpi": 600
+    },
+    {
+      "file": "Fig_Persistent_roots_before_after_GAT.tif",
+      "bytes": 5721546,
+      "SHA256": "eacbe708d08f4d08aef8f8b6503881d3f6af50f3780c479c09364a2da7bb1738",
+      "dimensions": [
+        7000,
+        3800
+      ],
+      "dpi": 600
+    },
+    {
+      "file": "Fig_Growing_tips_before_after_GAT.tif",
+      "bytes": 5331786,
+      "SHA256": "a41082e5754fd789ed3c63edb7f8e9df1ca7c86d66157c800d06d88815566317",
+      "dimensions": [
+        7000,
+        3800
+      ],
+      "dpi": 600
+    },
+    {
+      "file": "Fig_Three_class_Dice_before_after_GAT.tif",
+      "bytes": 547806,
+      "SHA256": "2d8f3be1fbc383995570a5cd044e4a9599490ad37099474e3288fd39740e2f75",
+      "dimensions": [
+        6900,
+        2520
+      ],
+      "dpi": 600
+    },
+    {
+      "file": "Table_Three_classes_before_after_GAT.tif",
+      "bytes": 521780,
+      "SHA256": "691a00536096dce0ecfb6849a329314588667b7af9cba81f2b44bf1012093ae6",
+      "dimensions": [
+        6000,
+        3400
+      ],
+      "dpi": 600
+    },
+    {
+      "file": "Fig_GAT_training_monitoring.tif",
+      "bytes": 802658,
+      "SHA256": "f11138dcfcb4d855028b120e577ed40b52525f2b006fdbeed196f800fd490680",
+      "dimensions": [
+        6600,
+        3720
+      ],
+      "dpi": 600
+    },
+    {
+      "file": "Fig_Root_ID_comparison.tif",
+      "bytes": 11585362,
+      "SHA256": "227742bb78d06dcf55c034d3731b248849517f6993c1d3571e8c9ae24b27db7c",
+      "dimensions": [
+        6200,
+        6500
+      ],
+      "dpi": 600
+    }
+  ],
+  "typography": "Times New Roman Bold, all text black",
+  "dpi": 600
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "figures": [
+    {
+      "file": "Fig_GAT_MLP_temporal_ablation.tif",
+      "bytes": 570026,
+      "SHA256": "e9f992bc1d5f82f84d9c11731c2d3d10bca9cb320d2d621b1c97c0acc632162a",
+      "dimensions": [
+        6900,
+        2580
+      ],
+      "dpi": 600
+    },
+    {
+      "file": "Fig_Root_ID_tracking_ablation.tif",
+      "bytes": 419534,
+      "SHA256": "14622ff8c3fca6a060ed2a04a5a1b7fc7322ddd4898fb568c0ee4808419d4059",
+      "dimensions": [
+        5400,
+        2460
+      ],
+      "dpi": 600
+    }
+  ]
+}

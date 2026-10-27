@@ -1,0 +1,260 @@
+{
+  "position": "0353-2-B3",
+  "source_upload": "root_annotation_progress (17).json",
+  "source_SHA256": "c5f82d8920e4faed263c206b4d85261dcdea99f102c4f75caf45fa6f57c4a270",
+  "source_model_assistance": {
+    "reference_type": "Full-field U-Net-derived temporal annotation proposal, pending user review",
+    "source_progress_SHA256": "a5589528711ed49f542a86dc9363efd6bc2c115575e0bf5e7db34d1a758f41b0",
+    "teacher_temporal_head_SHA256": "02b2fc69a4bffb833e8eb9e4c0bbbf30d6e7a76c25204059ef5e4c1f8d51dd0e",
+    "teacher_binary_checkpoint_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+    "scope": "All four upper RGB frames; no lower frames",
+    "original_labels_preserved": true,
+    "root_geometry": "U-Net frozen binary root masks",
+    "semantics": "T1 baseline; subsequent persistent shaft, terminal extension, newly observed root/side root relative to adjacent previous period",
+    "ambiguity_rule": "Only teacher-flagged crossing root pixels with assigned score <0.5 AND top-two margin <0.1 are temporally untyped; no background removal there",
+    "random_label_perturbation": false,
+    "human_reviewed": false,
+    "validation_reference": "Teacher-derived proposal; consistency only, not independent accuracy",
+    "original_audit_reference": "Byte-preserved user-selected (6) labels; historical same-field model exposure",
+    "historical_same_field_exposure": true,
+    "external_independent_test_images": 0
+  },
+  "confirmed_human_root_IDs": 142,
+  "assistant_candidates_excluded": 12,
+  "unassigned_candidates_excluded": true,
+  "graph_nodes": 7539,
+  "graph_pairs": 79888,
+  "feature_names": [
+    "cx",
+    "cy",
+    "start_x",
+    "start_y",
+    "end_x",
+    "end_y",
+    "arc_length",
+    "chord_length",
+    "tangent_x",
+    "tangent_y",
+    "curvature",
+    "width_proxy",
+    "area_log",
+    "rgb_mean_0",
+    "rgb_mean_1",
+    "rgb_mean_2",
+    "rgb_std_0",
+    "rgb_std_1",
+    "rgb_std_2",
+    "rgb_delta_0",
+    "rgb_delta_1",
+    "rgb_delta_2",
+    "rgb_abs_delta_0",
+    "rgb_abs_delta_1",
+    "rgb_abs_delta_2",
+    "period_0",
+    "period_1",
+    "period_2",
+    "period_3",
+    "base_probability_mean_0",
+    "base_probability_mean_1",
+    "base_probability_mean_2",
+    "base_probability_std_0",
+    "base_probability_std_1",
+    "base_probability_std_2",
+    "base_probability_quantile_0",
+    "base_probability_quantile_1",
+    "base_probability_quantile_2",
+    "base_probability_quantile_3",
+    "base_probability_quantile_4",
+    "base_probability_quantile_5",
+    "base_entropy",
+    "base_support"
+  ],
+  "input_root_IDs_or_parent_IDs_or_label_colors": false,
+  "edges_from_geometry_only": true,
+  "human_connections_not_used_as_input": true,
+  "chunk_points": 24,
+  "graph_is_transductive_features_only": true,
+  "all_periods_of_each_manual_family_same_partition": true,
+  "family_split_seed": 20261159,
+  "node_histogram_by_split": [
+    [
+      152431,
+      28122,
+      3489
+    ],
+    [
+      83653,
+      16335,
+      3370
+    ],
+    [
+      85756,
+      9818,
+      1632
+    ]
+  ],
+  "root_counts_by_split": [
+    85,
+    31,
+    26
+  ],
+  "pair_targets": {
+    "0": {
+      "1": 6933,
+      "2": 2115,
+      "0": 7163
+    },
+    "1": {
+      "1": 3937,
+      "2": 904,
+      "0": 1168
+    },
+    "2": {
+      "1": 4263,
+      "0": 2250,
+      "2": 749
+    }
+  },
+  "temporal_classes": {
+    "1": "persistent",
+    "2": "newly_observed",
+    "3": "tip_extension"
+  },
+  "backbone_and_saved_head_frozen": true,
+  "base_version": "V44/V43 saved 100-epoch heads",
+  "training_epochs": 100,
+  "training_seed": 20261027,
+  "immutable_inputs": [
+    {
+      "path": "/workspace/attachments/408457f2-70e1-4765-8e75-cf3f3398c685/root_annotation_progress (17).json",
+      "bytes": 13594363,
+      "SHA256": "c5f82d8920e4faed263c206b4d85261dcdea99f102c4f75caf45fa6f57c4a270"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_initialization_v43_20261024/data/upper/T1_RGB.png",
+      "bytes": 6034977,
+      "SHA256": "c8548de563b4d5ac0b223235758f7cdf6f118ac70614a7792a86f12fb9eb295b"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_initialization_v43_20261024/data/upper/T2_RGB.png",
+      "bytes": 4367012,
+      "SHA256": "e65b91ef07abea8527b71a97a37e2ff19ca1a6527ff0090970cf084bba338b3c"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_initialization_v43_20261024/data/upper/T3_RGB.png",
+      "bytes": 3901381,
+      "SHA256": "3df9bca33ebd9ee88a2eab874143569d5f8d9cdb7cd49d326754791f1b58e8e6"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_initialization_v43_20261024/data/upper/T4_RGB.png",
+      "bytes": 4521300,
+      "SHA256": "d43a5d5fd491ed05579f2f32bc853808165431ef15c30eac48f143b20160bdea"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/unet/full/T1_classes.png",
+      "bytes": 50262,
+      "SHA256": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/unet/full/T2_classes.png",
+      "bytes": 77114,
+      "SHA256": "ec5edc1905e6975d69f9aba95011592f3a3a266a4911de8934fefdc9c078bfa7"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/unet/full/T2_probability.npz",
+      "bytes": 13536832,
+      "SHA256": "1a5067f0d3e58214112f571db64fcfd2116b3a3a8ee6d8a377f3d11d4223d7f0"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/unet/full/T3_classes.png",
+      "bytes": 81844,
+      "SHA256": "2def9a0f087e5a42c0fa5d678ca89b74e8f0338c8c83e0d974b6cac6211e5299"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/unet/full/T3_probability.npz",
+      "bytes": 13470744,
+      "SHA256": "99f62db5db540d4c661929465ff2a5f86f153d9079025a6c993739b42df6bb99"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/unet/full/T4_classes.png",
+      "bytes": 74450,
+      "SHA256": "8457dc8fae2b30fa442c3a2ddad1ede4c46c4a9a640cc171ecdf426a5881a620"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/unet/full/T4_probability.npz",
+      "bytes": 13427551,
+      "SHA256": "a227cef68ddb099e6d4ec9bc790151e92c436d7d830ab2f662a4680ed1c2fae6"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/deeplab/full/T1_classes.png",
+      "bytes": 44755,
+      "SHA256": "d90a338946882f573b48f1dd4f26aa45e1c13b61fdec43bbfba3f795909c7130"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/deeplab/full/T2_classes.png",
+      "bytes": 76980,
+      "SHA256": "10a5d3053316603fedbeedf96fd874788aef0d7f3e38b3cc3eda15d1f8c9b886"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/deeplab/full/T2_probability.npz",
+      "bytes": 13587727,
+      "SHA256": "3aef92519aea6fe8b83a4c4d91d3ec846179b86cd3d081caa763edbaf4f8bbdf"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/deeplab/full/T3_classes.png",
+      "bytes": 86226,
+      "SHA256": "1872fcc27976a8c2a5a049e6b0af94ec31981fa8ef1aff7999d92c3604dd4355"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/deeplab/full/T3_probability.npz",
+      "bytes": 13493860,
+      "SHA256": "308229c32ee19fd5411c7bb98c7d343176e4c2ec7a1917d3d64c1d14c47abffc"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/deeplab/full/T4_classes.png",
+      "bytes": 66462,
+      "SHA256": "fd5dc0339b25c6181f9bb4002581d0c77f73a814bede0d65b37d42e94904e729"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/deeplab/full/T4_probability.npz",
+      "bytes": 13342751,
+      "SHA256": "4fe02575f9f29988b5f870be2d6ccc6c012b7a404bf348f8bbe67b865ed52983"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/segformer/full/T1_classes.png",
+      "bytes": 45413,
+      "SHA256": "75e7dd88270f995a0916326fd40e1bd0a9b106a85ae8487e007f6562ed6445cb"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/segformer/full/T2_classes.png",
+      "bytes": 82260,
+      "SHA256": "7f9d8d84dd2fef0dd2d7a580888aa1db4e85956d496a66759f7fb583e4dd193b"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/segformer/full/T2_probability.npz",
+      "bytes": 13551666,
+      "SHA256": "9c1adee263343817f2a9cdcf47a0e93135eefc1ad66fb66f565ebd8e29de4d4c"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/segformer/full/T3_classes.png",
+      "bytes": 85187,
+      "SHA256": "91adc45943c53868350191d83dc0988c4f262062e92ae8bee8e73910b52d9d6a"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/segformer/full/T3_probability.npz",
+      "bytes": 13410677,
+      "SHA256": "6ff4f117e78adf2317ed521a5ea7b7d4f37a50428f37d42c3c24660e5c52b268"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/segformer/full/T4_classes.png",
+      "bytes": 68562,
+      "SHA256": "aea8e79ac44552f151d59d538dbdaaa5c8d07961afe568523a62555840287df0"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/segformer/full/T4_probability.npz",
+      "bytes": 13311775,
+      "SHA256": "cde5d37f81df0700105d67c0b385b8709918132855c424c68a27f2f3f8868524"
+    }
+  ],
+  "evaluation_scope": "Single B3 field; geometry-conditional association and transductive GAT refinement, not external generalization; model-assisted pixel reference retained"
+}

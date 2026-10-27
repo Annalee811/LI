@@ -1,0 +1,12 @@
+EPOCH deeplab mlp 1 loss 0.84759 valDice 0.63344 valLinkF1 0.79168 sec 0.77
+EPOCH deeplab mlp 10 loss 0.70431 valDice 0.6259 valLinkF1 0.81349 sec 0.37
+EPOCH deeplab mlp 20 loss 0.56376 valDice 0.63401 valLinkF1 0.85935 sec 0.41
+EPOCH deeplab mlp 30 loss 0.471 valDice 0.67294 valLinkF1 0.90132 sec 0.4
+EPOCH deeplab mlp 40 loss 0.4073 valDice 0.68233 valLinkF1 0.91731 sec 0.4
+EPOCH deeplab mlp 50 loss 0.37251 valDice 0.66849 valLinkF1 0.91761 sec 0.36
+EPOCH deeplab mlp 60 loss 0.34039 valDice 0.67441 valLinkF1 0.91549 sec 0.38
+EPOCH deeplab mlp 70 loss 0.31988 valDice 0.68088 valLinkF1 0.91561 sec 0.49
+EPOCH deeplab mlp 80 loss 0.30406 valDice 0.687 valLinkF1 0.91628 sec 0.48
+EPOCH deeplab mlp 90 loss 0.30181 valDice 0.67902 valLinkF1 0.9161 sec 0.41
+EPOCH deeplab mlp 100 loss 0.30247 valDice 0.67849 valLinkF1 0.91626 sec 0.58
+COMPLETE deeplab mlp epoch 78 testLinkF1 0.8624960304858685

@@ -1,0 +1,15 @@
+{
+  "outer_dataset_partition": {
+    "0353-2-B3": "development_only_all_four_periods"
+  },
+  "inner_supervision_masks": {
+    "train_root_IDs": 85,
+    "validation_root_IDs": 31,
+    "heldout_root_IDs": 26
+  },
+  "mask_unit": "entire manually defined mother-root family across all observed dates",
+  "not_independent_position_or_tube_test": true,
+  "transductive_unlabeled_features_visible": true,
+  "pixel_reference_model_assistance_preserved": true,
+  "legacy_backbone_exposure_to_same_field": true
+}

@@ -1,0 +1,758 @@
+[
+  {
+    "class_code": 2,
+    "period": "T2",
+    "method": "reference",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 5634
+  },
+  {
+    "class_code": 2,
+    "period": "T2",
+    "method": "unet_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 5744
+  },
+  {
+    "class_code": 2,
+    "period": "T2",
+    "method": "unet_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 5695
+  },
+  {
+    "class_code": 2,
+    "period": "T2",
+    "method": "deeplab_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 5715
+  },
+  {
+    "class_code": 2,
+    "period": "T2",
+    "method": "deeplab_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 6119
+  },
+  {
+    "class_code": 2,
+    "period": "T2",
+    "method": "segformer_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 6114
+  },
+  {
+    "class_code": 2,
+    "period": "T2",
+    "method": "segformer_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 6468
+  },
+  {
+    "class_code": 2,
+    "period": "T3",
+    "method": "reference",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 2012
+  },
+  {
+    "class_code": 2,
+    "period": "T3",
+    "method": "unet_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 2088
+  },
+  {
+    "class_code": 2,
+    "period": "T3",
+    "method": "unet_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 2125
+  },
+  {
+    "class_code": 2,
+    "period": "T3",
+    "method": "deeplab_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 2301
+  },
+  {
+    "class_code": 2,
+    "period": "T3",
+    "method": "deeplab_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 2319
+  },
+  {
+    "class_code": 2,
+    "period": "T3",
+    "method": "segformer_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 2352
+  },
+  {
+    "class_code": 2,
+    "period": "T3",
+    "method": "segformer_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 2217
+  },
+  {
+    "class_code": 2,
+    "period": "T4",
+    "method": "reference",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 99
+  },
+  {
+    "class_code": 2,
+    "period": "T4",
+    "method": "unet_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 76
+  },
+  {
+    "class_code": 2,
+    "period": "T4",
+    "method": "unet_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 84
+  },
+  {
+    "class_code": 2,
+    "period": "T4",
+    "method": "deeplab_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 21
+  },
+  {
+    "class_code": 2,
+    "period": "T4",
+    "method": "deeplab_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 48
+  },
+  {
+    "class_code": 2,
+    "period": "T4",
+    "method": "segformer_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 96
+  },
+  {
+    "class_code": 2,
+    "period": "T4",
+    "method": "segformer_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 38
+  },
+  {
+    "class_code": 1,
+    "period": "T2",
+    "method": "reference",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 8176
+  },
+  {
+    "class_code": 1,
+    "period": "T2",
+    "method": "unet_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 8050
+  },
+  {
+    "class_code": 1,
+    "period": "T2",
+    "method": "unet_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 8079
+  },
+  {
+    "class_code": 1,
+    "period": "T2",
+    "method": "deeplab_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 8882
+  },
+  {
+    "class_code": 1,
+    "period": "T2",
+    "method": "deeplab_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 8483
+  },
+  {
+    "class_code": 1,
+    "period": "T2",
+    "method": "segformer_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 8587
+  },
+  {
+    "class_code": 1,
+    "period": "T2",
+    "method": "segformer_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 8030
+  },
+  {
+    "class_code": 1,
+    "period": "T3",
+    "method": "reference",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 14027
+  },
+  {
+    "class_code": 1,
+    "period": "T3",
+    "method": "unet_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 14036
+  },
+  {
+    "class_code": 1,
+    "period": "T3",
+    "method": "unet_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 13975
+  },
+  {
+    "class_code": 1,
+    "period": "T3",
+    "method": "deeplab_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 15993
+  },
+  {
+    "class_code": 1,
+    "period": "T3",
+    "method": "deeplab_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 15960
+  },
+  {
+    "class_code": 1,
+    "period": "T3",
+    "method": "segformer_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 15381
+  },
+  {
+    "class_code": 1,
+    "period": "T3",
+    "method": "segformer_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 15483
+  },
+  {
+    "class_code": 1,
+    "period": "T4",
+    "method": "reference",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 14929
+  },
+  {
+    "class_code": 1,
+    "period": "T4",
+    "method": "unet_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 14958
+  },
+  {
+    "class_code": 1,
+    "period": "T4",
+    "method": "unet_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 14943
+  },
+  {
+    "class_code": 1,
+    "period": "T4",
+    "method": "deeplab_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 17365
+  },
+  {
+    "class_code": 1,
+    "period": "T4",
+    "method": "deeplab_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 17364
+  },
+  {
+    "class_code": 1,
+    "period": "T4",
+    "method": "segformer_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 13844
+  },
+  {
+    "class_code": 1,
+    "period": "T4",
+    "method": "segformer_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 13993
+  },
+  {
+    "class_code": 3,
+    "period": "T2",
+    "method": "reference",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 468
+  },
+  {
+    "class_code": 3,
+    "period": "T2",
+    "method": "unet_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 555
+  },
+  {
+    "class_code": 3,
+    "period": "T2",
+    "method": "unet_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 575
+  },
+  {
+    "class_code": 3,
+    "period": "T2",
+    "method": "deeplab_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 347
+  },
+  {
+    "class_code": 3,
+    "period": "T2",
+    "method": "deeplab_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 342
+  },
+  {
+    "class_code": 3,
+    "period": "T2",
+    "method": "segformer_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 108
+  },
+  {
+    "class_code": 3,
+    "period": "T2",
+    "method": "segformer_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 311
+  },
+  {
+    "class_code": 3,
+    "period": "T3",
+    "method": "reference",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 164
+  },
+  {
+    "class_code": 3,
+    "period": "T3",
+    "method": "unet_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 85
+  },
+  {
+    "class_code": 3,
+    "period": "T3",
+    "method": "unet_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 109
+  },
+  {
+    "class_code": 3,
+    "period": "T3",
+    "method": "deeplab_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 99
+  },
+  {
+    "class_code": 3,
+    "period": "T3",
+    "method": "deeplab_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 114
+  },
+  {
+    "class_code": 3,
+    "period": "T3",
+    "method": "segformer_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 283
+  },
+  {
+    "class_code": 3,
+    "period": "T3",
+    "method": "segformer_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 316
+  },
+  {
+    "class_code": 3,
+    "period": "T4",
+    "method": "reference",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 108
+  },
+  {
+    "class_code": 3,
+    "period": "T4",
+    "method": "unet_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 102
+  },
+  {
+    "class_code": 3,
+    "period": "T4",
+    "method": "unet_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 109
+  },
+  {
+    "class_code": 3,
+    "period": "T4",
+    "method": "deeplab_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 159
+  },
+  {
+    "class_code": 3,
+    "period": "T4",
+    "method": "deeplab_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 133
+  },
+  {
+    "class_code": 3,
+    "period": "T4",
+    "method": "segformer_archived",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 111
+  },
+  {
+    "class_code": 3,
+    "period": "T4",
+    "method": "segformer_gat",
+    "ROI_xyxy": [
+      1440,
+      120,
+      1824,
+      504
+    ],
+    "class_pixels": 20
+  }
+]

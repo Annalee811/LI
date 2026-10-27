@@ -1,0 +1,12 @@
+{
+  "state": "data_prepared",
+  "source_SHA256": "c5f82d8920e4faed263c206b4d85261dcdea99f102c4f75caf45fa6f57c4a270",
+  "confirmed_human_root_IDs": 142,
+  "graph_nodes": 7539,
+  "graph_pairs": 79888,
+  "root_counts_by_split": [
+    85,
+    31,
+    26
+  ]
+}

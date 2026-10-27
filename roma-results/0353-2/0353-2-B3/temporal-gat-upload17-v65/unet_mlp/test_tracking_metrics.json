@@ -1,0 +1,24 @@
+{
+  "scope": "Held-out manual families; first-observation seed names excluded from label agreement",
+  "canonical_numbers_are_seed_names_not_network_class_logits": true,
+  "first_observation_labels_not_used_as_neural_features": true,
+  "total_predicted_tracks": 736,
+  "heldout_post_seed_root_dates": 69,
+  "heldout_post_seed_name_accuracy": 0.4492753623188406,
+  "heldout_post_seed_mean_dominant_fraction": 0.9262208836819343,
+  "heldout_mean_fragments": 1.3623188405797102,
+  "heldout_identity_switches": 3,
+  "heldout_pixel_adjusted_Rand": 0.42555476341799714,
+  "selected_validation_pair_threshold": 0.225,
+  "test_pair": {
+    "threshold": 0.225,
+    "same_root_Precision": 0.7917070335206355,
+    "same_root_Recall": 0.9584799437016186,
+    "same_root_F1": 0.8671477079796265,
+    "same_root_AP": 0.8733663027419498,
+    "same_root_AUC": 0.8751928960290698,
+    "n_pairs": 7262,
+    "positive_pairs": 4263,
+    "relation_accuracy": 0.7606719911870008
+  }
+}

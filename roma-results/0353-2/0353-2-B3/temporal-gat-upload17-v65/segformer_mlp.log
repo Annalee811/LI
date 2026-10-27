@@ -1,0 +1,12 @@
+EPOCH segformer mlp 1 loss 0.90333 valDice 0.58078 valLinkF1 0.79168 sec 1.4
+EPOCH segformer mlp 10 loss 0.74411 valDice 0.62378 valLinkF1 0.81149 sec 0.7
+EPOCH segformer mlp 20 loss 0.61018 valDice 0.65625 valLinkF1 0.84704 sec 0.56
+EPOCH segformer mlp 30 loss 0.5242 valDice 0.66948 valLinkF1 0.89195 sec 0.54
+EPOCH segformer mlp 40 loss 0.46325 valDice 0.67262 valLinkF1 0.91233 sec 0.55
+EPOCH segformer mlp 50 loss 0.41951 valDice 0.66731 valLinkF1 0.919 sec 0.5
+EPOCH segformer mlp 60 loss 0.39135 valDice 0.65731 valLinkF1 0.91555 sec 0.57
+EPOCH segformer mlp 70 loss 0.36882 valDice 0.6571 valLinkF1 0.91635 sec 0.54
+EPOCH segformer mlp 80 loss 0.34746 valDice 0.65901 valLinkF1 0.91676 sec 0.52
+EPOCH segformer mlp 90 loss 0.35541 valDice 0.66085 valLinkF1 0.91637 sec 0.52
+EPOCH segformer mlp 100 loss 0.34615 valDice 0.66074 valLinkF1 0.91595 sec 0.65
+COMPLETE segformer mlp epoch 45 testLinkF1 0.8621022179363549

@@ -1,0 +1,72 @@
+{
+  "model": "segformer",
+  "variant": "archived",
+  "macro_Dice": 0.5190399216242453,
+  "macro_IoU": 0.42016875460935,
+  "accuracy_including_local_background": 0.9069234836302471,
+  "reference": "Uploaded17 temporal colors on held-out manually numbered families; local background buffers",
+  "confusion": [
+    [
+      252950,
+      12613,
+      2064,
+      200
+    ],
+    [
+      14022,
+      70452,
+      1202,
+      80
+    ],
+    [
+      1007,
+      931,
+      7624,
+      256
+    ],
+    [
+      239,
+      297,
+      1065,
+      31
+    ]
+  ],
+  "classes": [
+    {
+      "class_code": 1,
+      "class_name": "persistent",
+      "Precision": 0.8357989394137118,
+      "Recall": 0.8215401837772284,
+      "Dice": 0.8286082246881781,
+      "IoU": 0.7073707039368655,
+      "TP": 70452,
+      "FP": 13841,
+      "FN": 15304,
+      "reference_pixels": 85756
+    },
+    {
+      "class_code": 2,
+      "class_name": "newly_observed",
+      "Precision": 0.6377248013383522,
+      "Recall": 0.7765328987573844,
+      "Dice": 0.7003169062600468,
+      "IoU": 0.5388366669022546,
+      "TP": 7624,
+      "FP": 4331,
+      "FN": 2194,
+      "reference_pixels": 9818
+    },
+    {
+      "class_code": 3,
+      "class_name": "tip_extension",
+      "Precision": 0.054673721340388004,
+      "Recall": 0.018995098039215685,
+      "Dice": 0.02819463392451114,
+      "IoU": 0.01429889298892989,
+      "TP": 31,
+      "FP": 536,
+      "FN": 1601,
+      "reference_pixels": 1632
+    }
+  ]
+}

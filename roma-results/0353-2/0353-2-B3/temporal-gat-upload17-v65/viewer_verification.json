@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "four comparison panels load with the 142 manual reference numbers",
+      "passed": true
+    },
+    {
+      "name": "complete native segment geometry is rendered rather than computational chunk gaps",
+      "passed": true
+    },
+    {
+      "name": "all native RGB assets can be read by the actual browser",
+      "passed": true
+    },
+    {
+      "name": "period button changes all four views to T2",
+      "passed": true
+    },
+    {
+      "name": "root-number search filters the human reference precisely",
+      "passed": true
+    },
+    {
+      "name": "family option includes separately numbered lateral roots",
+      "passed": true
+    },
+    {
+      "name": "zoom changes all images while number text remains 14 screen pixels",
+      "passed": true
+    },
+    {
+      "name": "scrolling is synchronized across all four panels",
+      "passed": true
+    },
+    {
+      "name": "unnamed prediction IDs can be shown without inventing biological N numbers",
+      "passed": true
+    },
+    {
+      "name": "T4 is available with unchanged source geometry",
+      "passed": true
+    },
+    {
+      "name": "real clicking on a root line selects that number despite pointer capture",
+      "passed": true
+    },
+    {
+      "name": "no browser runtime exceptions",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "tested_viewer_SHA256": "aaaea92285ae28a61409eb046f6e610c53b2d66e19834b786064bcb533922cdd"
+}
