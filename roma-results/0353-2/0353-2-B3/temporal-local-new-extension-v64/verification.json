@@ -1,0 +1,1773 @@
+{
+  "passed": true,
+  "source_version": "V44 saved predictions from V43 100-epoch temporal heads",
+  "source_records": [
+    {
+      "path": "/workspace/LI/results/B3_temporal_initialization_v43_20261024/data/upper/T1_RGB.png",
+      "bytes": 6034977,
+      "SHA256": "c8548de563b4d5ac0b223235758f7cdf6f118ac70614a7792a86f12fb9eb295b"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_initialization_v43_20261024/data/upper/T2_RGB.png",
+      "bytes": 4367012,
+      "SHA256": "e65b91ef07abea8527b71a97a37e2ff19ca1a6527ff0090970cf084bba338b3c"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_initialization_v43_20261024/data/upper/T3_RGB.png",
+      "bytes": 3901381,
+      "SHA256": "3df9bca33ebd9ee88a2eab874143569d5f8d9cdb7cd49d326754791f1b58e8e6"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_initialization_v43_20261024/data/upper/T4_RGB.png",
+      "bytes": 4521300,
+      "SHA256": "d43a5d5fd491ed05579f2f32bc853808165431ef15c30eac48f143b20160bdea"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_initialization_v43_20261024/data/current/T1_classes.png",
+      "bytes": 50262,
+      "SHA256": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_initialization_v43_20261024/data/current/T2_classes.png",
+      "bytes": 76872,
+      "SHA256": "ab48d246b59c7c2f7d59c91d11f75d6217d8c61b4609205eb98fa81df792edab"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_initialization_v43_20261024/data/current/T3_classes.png",
+      "bytes": 81792,
+      "SHA256": "c4eeafa828472a1772f85c79abde507a67d4bf5f644434ebadea51f13f479ce0"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_initialization_v43_20261024/data/current/T4_classes.png",
+      "bytes": 74464,
+      "SHA256": "3de3003d13dd74d4467ab22781e8aa871a77fcc2e862b7524b4155b7ae24f247"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/unet/full/T1_classes.png",
+      "bytes": 50262,
+      "SHA256": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/unet/full/T2_classes.png",
+      "bytes": 77114,
+      "SHA256": "ec5edc1905e6975d69f9aba95011592f3a3a266a4911de8934fefdc9c078bfa7"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/unet/full/T3_classes.png",
+      "bytes": 81844,
+      "SHA256": "2def9a0f087e5a42c0fa5d678ca89b74e8f0338c8c83e0d974b6cac6211e5299"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/unet/full/T4_classes.png",
+      "bytes": 74450,
+      "SHA256": "8457dc8fae2b30fa442c3a2ddad1ede4c46c4a9a640cc171ecdf426a5881a620"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/deeplab/full/T1_classes.png",
+      "bytes": 44755,
+      "SHA256": "d90a338946882f573b48f1dd4f26aa45e1c13b61fdec43bbfba3f795909c7130"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/deeplab/full/T2_classes.png",
+      "bytes": 76980,
+      "SHA256": "10a5d3053316603fedbeedf96fd874788aef0d7f3e38b3cc3eda15d1f8c9b886"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/deeplab/full/T3_classes.png",
+      "bytes": 86226,
+      "SHA256": "1872fcc27976a8c2a5a049e6b0af94ec31981fa8ef1aff7999d92c3604dd4355"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/deeplab/full/T4_classes.png",
+      "bytes": 66462,
+      "SHA256": "fd5dc0339b25c6181f9bb4002581d0c77f73a814bede0d65b37d42e94904e729"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/segformer/full/T1_classes.png",
+      "bytes": 45413,
+      "SHA256": "75e7dd88270f995a0916326fd40e1bd0a9b106a85ae8487e007f6562ed6445cb"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/segformer/full/T2_classes.png",
+      "bytes": 82260,
+      "SHA256": "7f9d8d84dd2fef0dd2d7a580888aa1db4e85956d496a66759f7fb583e4dd193b"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/segformer/full/T3_classes.png",
+      "bytes": 85187,
+      "SHA256": "91adc45943c53868350191d83dc0988c4f262062e92ae8bee8e73910b52d9d6a"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/segformer/full/T4_classes.png",
+      "bytes": 68562,
+      "SHA256": "aea8e79ac44552f151d59d538dbdaaa5c8d07961afe568523a62555840287df0"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/metrics_table.json",
+      "bytes": 580,
+      "SHA256": "35fa2b24f52ac1b45aee8122fa9e3d6198b3d3a71989c8cc5dea5a277c7f288f"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_paper_v44_20261024/Fig1_Four_period_temporal_root_comparison.tif",
+      "bytes": 12824550,
+      "SHA256": "7fb5ae02315240bad5cff4ebbef5703d4bdf6b0aef10302306e4e190ba3f4ff8"
+    }
+  ],
+  "no_training": true,
+  "no_inference": true,
+  "reference_and_prediction_files_unchanged": true,
+  "metrics_unchanged": true,
+  "previous_figure_preserved": true,
+  "ROI_xyxy": [
+    1440,
+    120,
+    1824,
+    504
+  ],
+  "same_ROI_for_all_36_panels": true,
+  "each_T2_T3_T4_reference_has_new_and_extension": true,
+  "counts": [
+    {
+      "period": "T1",
+      "method": "reference",
+      "counts": {
+        "0": 139021,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 8435,
+        "255": 0
+      }
+    },
+    {
+      "period": "T1",
+      "method": "unet",
+      "counts": {
+        "0": 139021,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 8435,
+        "255": 0
+      }
+    },
+    {
+      "period": "T1",
+      "method": "deeplab",
+      "counts": {
+        "0": 139192,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 8264,
+        "255": 0
+      }
+    },
+    {
+      "period": "T1",
+      "method": "segformer",
+      "counts": {
+        "0": 139680,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 7776,
+        "255": 0
+      }
+    },
+    {
+      "period": "T2",
+      "method": "reference",
+      "counts": {
+        "0": 133107,
+        "1": 8076,
+        "2": 5740,
+        "3": 468,
+        "4": 0,
+        "255": 65
+      }
+    },
+    {
+      "period": "T2",
+      "method": "unet",
+      "counts": {
+        "0": 133107,
+        "1": 8050,
+        "2": 5744,
+        "3": 555,
+        "4": 0,
+        "255": 0
+      }
+    },
+    {
+      "period": "T2",
+      "method": "deeplab",
+      "counts": {
+        "0": 132512,
+        "1": 8882,
+        "2": 5715,
+        "3": 347,
+        "4": 0,
+        "255": 0
+      }
+    },
+    {
+      "period": "T2",
+      "method": "segformer",
+      "counts": {
+        "0": 132647,
+        "1": 8587,
+        "2": 6114,
+        "3": 108,
+        "4": 0,
+        "255": 0
+      }
+    },
+    {
+      "period": "T3",
+      "method": "reference",
+      "counts": {
+        "0": 131247,
+        "1": 13954,
+        "2": 2085,
+        "3": 164,
+        "4": 0,
+        "255": 6
+      }
+    },
+    {
+      "period": "T3",
+      "method": "unet",
+      "counts": {
+        "0": 131247,
+        "1": 14036,
+        "2": 2088,
+        "3": 85,
+        "4": 0,
+        "255": 0
+      }
+    },
+    {
+      "period": "T3",
+      "method": "deeplab",
+      "counts": {
+        "0": 129063,
+        "1": 15993,
+        "2": 2301,
+        "3": 99,
+        "4": 0,
+        "255": 0
+      }
+    },
+    {
+      "period": "T3",
+      "method": "segformer",
+      "counts": {
+        "0": 129440,
+        "1": 15381,
+        "2": 2352,
+        "3": 283,
+        "4": 0,
+        "255": 0
+      }
+    },
+    {
+      "period": "T4",
+      "method": "reference",
+      "counts": {
+        "0": 132320,
+        "1": 14929,
+        "2": 99,
+        "3": 108,
+        "4": 0,
+        "255": 0
+      }
+    },
+    {
+      "period": "T4",
+      "method": "unet",
+      "counts": {
+        "0": 132320,
+        "1": 14958,
+        "2": 76,
+        "3": 102,
+        "4": 0,
+        "255": 0
+      }
+    },
+    {
+      "period": "T4",
+      "method": "deeplab",
+      "counts": {
+        "0": 129911,
+        "1": 17365,
+        "2": 21,
+        "3": 159,
+        "4": 0,
+        "255": 0
+      }
+    },
+    {
+      "period": "T4",
+      "method": "segformer",
+      "counts": {
+        "0": 133405,
+        "1": 13844,
+        "2": 96,
+        "3": 111,
+        "4": 0,
+        "255": 0
+      }
+    }
+  ],
+  "reference_arrows": [
+    {
+      "period": "T2",
+      "class_code": 2,
+      "mark": "N",
+      "point_native_local": [
+        214,
+        286
+      ],
+      "component_pixels": 1731
+    },
+    {
+      "period": "T2",
+      "class_code": 3,
+      "mark": "E",
+      "point_native_local": [
+        60,
+        10
+      ],
+      "component_pixels": 311
+    },
+    {
+      "period": "T3",
+      "class_code": 2,
+      "mark": "N",
+      "point_native_local": [
+        308,
+        45
+      ],
+      "component_pixels": 367
+    },
+    {
+      "period": "T3",
+      "class_code": 3,
+      "mark": "E",
+      "point_native_local": [
+        300,
+        364
+      ],
+      "component_pixels": 118
+    },
+    {
+      "period": "T4",
+      "class_code": 2,
+      "mark": "N",
+      "point_native_local": [
+        364,
+        315
+      ],
+      "component_pixels": 99
+    },
+    {
+      "period": "T4",
+      "class_code": 3,
+      "mark": "E",
+      "point_native_local": [
+        322,
+        74
+      ],
+      "component_pixels": 108
+    }
+  ],
+  "all_labels_black_bold_Times_New_Roman": true,
+  "typography": [
+    {
+      "text": "Temporal root classification: matched local comparison",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        2284,
+        22,
+        4317,
+        98
+      ]
+    },
+    {
+      "text": "0353-2-B3 | Same 384 × 384 px illustrative window across periods and methods",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        2580,
+        130,
+        4020,
+        169
+      ]
+    },
+    {
+      "text": "T1",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        90,
+        230,
+        181,
+        282
+      ]
+    },
+    {
+      "text": "Original RGB",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        125,
+        320,
+        444,
+        368
+      ]
+    },
+    {
+      "text": "50 px",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        103.5,
+        1112,
+        163.5,
+        1135
+      ]
+    },
+    {
+      "text": "Overlay",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        543,
+        668,
+        667,
+        701
+      ]
+    },
+    {
+      "text": "Classes",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        549,
+        1254,
+        661,
+        1278
+      ]
+    },
+    {
+      "text": "Reference",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        907,
+        320,
+        1133,
+        357
+      ]
+    },
+    {
+      "text": "U-Net",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        1532,
+        320,
+        1668,
+        356
+      ]
+    },
+    {
+      "text": "DeepLabV3+",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        2029,
+        320,
+        2330,
+        366
+      ]
+    },
+    {
+      "text": "SegFormer-B0",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        2595,
+        320,
+        2926,
+        367
+      ]
+    },
+    {
+      "text": "T2",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        3370,
+        230,
+        3461,
+        282
+      ]
+    },
+    {
+      "text": "Original RGB",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        3405,
+        320,
+        3724,
+        368
+      ]
+    },
+    {
+      "text": "50 px",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        3383.5,
+        1112,
+        3443.5,
+        1135
+      ]
+    },
+    {
+      "text": "Overlay",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        3823,
+        668,
+        3947,
+        701
+      ]
+    },
+    {
+      "text": "Classes",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        3829,
+        1254,
+        3941,
+        1278
+      ]
+    },
+    {
+      "text": "Reference",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        4187,
+        320,
+        4413,
+        357
+      ]
+    },
+    {
+      "text": "U-Net",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        4812,
+        320,
+        4948,
+        356
+      ]
+    },
+    {
+      "text": "DeepLabV3+",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        5309,
+        320,
+        5610,
+        366
+      ]
+    },
+    {
+      "text": "SegFormer-B0",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        5875,
+        320,
+        6206,
+        367
+      ]
+    },
+    {
+      "text": "N",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        4225.083333333333,
+        737.0833333333333,
+        4258.083333333333,
+        769.0833333333333
+      ]
+    },
+    {
+      "text": "N",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        4225.083333333333,
+        1322.0833333333333,
+        4258.083333333333,
+        1354.0833333333333
+      ]
+    },
+    {
+      "text": "E",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        4182.5,
+        464.5833333333333,
+        4213.5,
+        495.5833333333333
+      ]
+    },
+    {
+      "text": "E",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        4182.5,
+        1049.5833333333335,
+        4213.5,
+        1080.5833333333335
+      ]
+    },
+    {
+      "text": "T3",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        90,
+        1800,
+        181,
+        1853
+      ]
+    },
+    {
+      "text": "Original RGB",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        125,
+        1890,
+        444,
+        1938
+      ]
+    },
+    {
+      "text": "50 px",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        103.5,
+        2682,
+        163.5,
+        2705
+      ]
+    },
+    {
+      "text": "Overlay",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        543,
+        2238,
+        667,
+        2271
+      ]
+    },
+    {
+      "text": "Classes",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        549,
+        2824,
+        661,
+        2848
+      ]
+    },
+    {
+      "text": "Reference",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        907,
+        1890,
+        1133,
+        1927
+      ]
+    },
+    {
+      "text": "U-Net",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        1532,
+        1890,
+        1668,
+        1926
+      ]
+    },
+    {
+      "text": "DeepLabV3+",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        2029,
+        1890,
+        2330,
+        1936
+      ]
+    },
+    {
+      "text": "SegFormer-B0",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        2595,
+        1890,
+        2926,
+        1937
+      ]
+    },
+    {
+      "text": "N",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        1082.1666666666667,
+        2085.625,
+        1115.1666666666667,
+        2117.625
+      ]
+    },
+    {
+      "text": "N",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        1082.1666666666667,
+        2670.625,
+        1115.1666666666667,
+        2702.625
+      ]
+    },
+    {
+      "text": "E",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        1072.5,
+        2420.8333333333335,
+        1103.5,
+        2451.8333333333335
+      ]
+    },
+    {
+      "text": "E",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        1072.5,
+        3005.8333333333335,
+        1103.5,
+        3036.8333333333335
+      ]
+    },
+    {
+      "text": "T4",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        3370,
+        1800,
+        3461,
+        1852
+      ]
+    },
+    {
+      "text": "Original RGB",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        3405,
+        1890,
+        3724,
+        1938
+      ]
+    },
+    {
+      "text": "50 px",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        3383.5,
+        2682,
+        3443.5,
+        2705
+      ]
+    },
+    {
+      "text": "Overlay",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        3823,
+        2238,
+        3947,
+        2271
+      ]
+    },
+    {
+      "text": "Classes",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        3829,
+        2824,
+        3941,
+        2848
+      ]
+    },
+    {
+      "text": "Reference",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        4187,
+        1890,
+        4413,
+        1927
+      ]
+    },
+    {
+      "text": "U-Net",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        4812,
+        1890,
+        4948,
+        1926
+      ]
+    },
+    {
+      "text": "DeepLabV3+",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        5309,
+        1890,
+        5610,
+        1936
+      ]
+    },
+    {
+      "text": "SegFormer-B0",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        5875,
+        1890,
+        6206,
+        1937
+      ]
+    },
+    {
+      "text": "N",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        4443.833333333333,
+        2349.375,
+        4476.833333333333,
+        2381.375
+      ]
+    },
+    {
+      "text": "N",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        4443.833333333333,
+        2934.375,
+        4476.833333333333,
+        2966.375
+      ]
+    },
+    {
+      "text": "E",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        4384.583333333333,
+        2000,
+        4415.583333333333,
+        2031
+      ]
+    },
+    {
+      "text": "E",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        4384.583333333333,
+        2585,
+        4415.583333333333,
+        2616
+      ]
+    },
+    {
+      "text": "T1 baseline",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        370,
+        3400,
+        608,
+        3434
+      ]
+    },
+    {
+      "text": "Persistent",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        1940,
+        3400,
+        2147,
+        3434
+      ]
+    },
+    {
+      "text": "Newly observed (N)",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        3510,
+        3400,
+        3921,
+        3444
+      ]
+    },
+    {
+      "text": "Tip extension (E)",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        5080,
+        3400,
+        5438,
+        3444
+      ]
+    },
+    {
+      "text": "N / E arrows mark reference locations; original masks and model predictions are unchanged.",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        2469,
+        3500,
+        4131,
+        3538
+      ]
+    },
+    {
+      "text": "T1 shows baseline roots; T2–T4 classes are relative to the immediately preceding period.",
+      "font": "Times New Roman Bold",
+      "color": "black",
+      "box": [
+        2512,
+        3572,
+        4089,
+        3610
+      ]
+    }
+  ],
+  "panels": [
+    {
+      "tag": "T1/local_RGB",
+      "box": [
+        90,
+        790,
+        390,
+        390
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T1/reference/overlay",
+      "box": [
+        740,
+        400,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T1/reference/white_classes",
+      "box": [
+        740,
+        985,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T1/unet/overlay",
+      "box": [
+        1320,
+        400,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T1/unet/white_classes",
+      "box": [
+        1320,
+        985,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T1/deeplab/overlay",
+      "box": [
+        1900,
+        400,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T1/deeplab/white_classes",
+      "box": [
+        1900,
+        985,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T1/segformer/overlay",
+      "box": [
+        2480,
+        400,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T1/segformer/white_classes",
+      "box": [
+        2480,
+        985,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T2/local_RGB",
+      "box": [
+        3370,
+        790,
+        390,
+        390
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T2/reference/overlay",
+      "box": [
+        4020,
+        400,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T2/reference/white_classes",
+      "box": [
+        4020,
+        985,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T2/unet/overlay",
+      "box": [
+        4600,
+        400,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T2/unet/white_classes",
+      "box": [
+        4600,
+        985,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T2/deeplab/overlay",
+      "box": [
+        5180,
+        400,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T2/deeplab/white_classes",
+      "box": [
+        5180,
+        985,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T2/segformer/overlay",
+      "box": [
+        5760,
+        400,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T2/segformer/white_classes",
+      "box": [
+        5760,
+        985,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T3/local_RGB",
+      "box": [
+        90,
+        2360,
+        390,
+        390
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T3/reference/overlay",
+      "box": [
+        740,
+        1970,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T3/reference/white_classes",
+      "box": [
+        740,
+        2555,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T3/unet/overlay",
+      "box": [
+        1320,
+        1970,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T3/unet/white_classes",
+      "box": [
+        1320,
+        2555,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T3/deeplab/overlay",
+      "box": [
+        1900,
+        1970,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T3/deeplab/white_classes",
+      "box": [
+        1900,
+        2555,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T3/segformer/overlay",
+      "box": [
+        2480,
+        1970,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T3/segformer/white_classes",
+      "box": [
+        2480,
+        2555,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T4/local_RGB",
+      "box": [
+        3370,
+        2360,
+        390,
+        390
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T4/reference/overlay",
+      "box": [
+        4020,
+        1970,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T4/reference/white_classes",
+      "box": [
+        4020,
+        2555,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T4/unet/overlay",
+      "box": [
+        4600,
+        1970,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T4/unet/white_classes",
+      "box": [
+        4600,
+        2555,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T4/deeplab/overlay",
+      "box": [
+        5180,
+        1970,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T4/deeplab/white_classes",
+      "box": [
+        5180,
+        2555,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    },
+    {
+      "tag": "T4/segformer/overlay",
+      "box": [
+        5760,
+        1970,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": false
+    },
+    {
+      "tag": "T4/segformer/white_classes",
+      "box": [
+        5760,
+        2555,
+        560,
+        560
+      ],
+      "native_shape": [
+        384,
+        384,
+        3
+      ],
+      "ROI_xyxy": [
+        1440,
+        120,
+        1824,
+        504
+      ],
+      "categorical_nearest_neighbor": true
+    }
+  ],
+  "output": {
+    "file": "Fig_Four_period_temporal_local_new_and_extension.tif",
+    "bytes": 5348062,
+    "SHA256": "654ff04d4e693e1d77ecfd6db411de2906681f316164018f83f35989be0a96dd",
+    "dimensions": [
+      6600,
+      3660
+    ],
+    "dpi": 600,
+    "mode": "RGB"
+  }
+}

@@ -1,0 +1,17 @@
+period,method,background,persistent,newly_observed,tip_extension,baseline,ignored
+T1,reference,139021,0,0,0,8435,0
+T1,unet,139021,0,0,0,8435,0
+T1,deeplab,139192,0,0,0,8264,0
+T1,segformer,139680,0,0,0,7776,0
+T2,reference,133107,8076,5740,468,0,65
+T2,unet,133107,8050,5744,555,0,0
+T2,deeplab,132512,8882,5715,347,0,0
+T2,segformer,132647,8587,6114,108,0,0
+T3,reference,131247,13954,2085,164,0,6
+T3,unet,131247,14036,2088,85,0,0
+T3,deeplab,129063,15993,2301,99,0,0
+T3,segformer,129440,15381,2352,283,0,0
+T4,reference,132320,14929,99,108,0,0
+T4,unet,132320,14958,76,102,0,0
+T4,deeplab,129911,17365,21,159,0,0
+T4,segformer,133405,13844,96,111,0,0

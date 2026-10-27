@@ -1,0 +1,140 @@
+{
+  "ROI_xyxy": [
+    1440,
+    120,
+    1824,
+    504
+  ],
+  "previous_ROI_xyxy": [
+    1428,
+    852,
+    1684,
+    1108
+  ],
+  "selected": {
+    "x": 1440,
+    "y": 120,
+    "size": 384,
+    "counts": {
+      "T2": {
+        "1": 8076,
+        "2": 5740,
+        "3": 468
+      },
+      "T3": {
+        "1": 13954,
+        "2": 2085,
+        "3": 164
+      },
+      "T4": {
+        "1": 14929,
+        "2": 99,
+        "3": 108
+      }
+    },
+    "score": 36.04052842007612,
+    "minimum_new_or_extension_pixels": 99
+  },
+  "selection": "Reference-only log coverage of new and extension across T2–T4; minimum 60 pixels per class/date; excludes old ROI; no model outputs used",
+  "qualitative_illustrative_window": true,
+  "prior_spatial_split_overlaps": [
+    {
+      "tile_id": "P06",
+      "split": "train",
+      "overlap_pixels": 33184
+    },
+    {
+      "tile_id": "P07",
+      "split": "train",
+      "overlap_pixels": 14960
+    },
+    {
+      "tile_id": "P15",
+      "split": "train",
+      "overlap_pixels": 53680
+    },
+    {
+      "tile_id": "P16",
+      "split": "test",
+      "overlap_pixels": 24200
+    },
+    {
+      "tile_id": "P06_S12",
+      "split": "train",
+      "overlap_pixels": 37888
+    },
+    {
+      "tile_id": "P07_S12",
+      "split": "train",
+      "overlap_pixels": 14504
+    },
+    {
+      "tile_id": "P15_S12",
+      "split": "train",
+      "overlap_pixels": 53248
+    }
+  ],
+  "not_claimed_as_independent_test_window": true,
+  "arrows": [
+    {
+      "period": "T2",
+      "class_code": 2,
+      "mark": "N",
+      "point_native_local": [
+        214,
+        286
+      ],
+      "component_pixels": 1731
+    },
+    {
+      "period": "T2",
+      "class_code": 3,
+      "mark": "E",
+      "point_native_local": [
+        60,
+        10
+      ],
+      "component_pixels": 311
+    },
+    {
+      "period": "T3",
+      "class_code": 2,
+      "mark": "N",
+      "point_native_local": [
+        308,
+        45
+      ],
+      "component_pixels": 367
+    },
+    {
+      "period": "T3",
+      "class_code": 3,
+      "mark": "E",
+      "point_native_local": [
+        300,
+        364
+      ],
+      "component_pixels": 118
+    },
+    {
+      "period": "T4",
+      "class_code": 2,
+      "mark": "N",
+      "point_native_local": [
+        364,
+        315
+      ],
+      "component_pixels": 99
+    },
+    {
+      "period": "T4",
+      "class_code": 3,
+      "mark": "E",
+      "point_native_local": [
+        322,
+        74
+      ],
+      "component_pixels": 108
+    }
+  ]
+}
