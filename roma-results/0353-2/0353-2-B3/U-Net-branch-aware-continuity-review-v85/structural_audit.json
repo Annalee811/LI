@@ -1,0 +1,23 @@
+{
+  "root_records": 158,
+  "new_extension_conflicts": {
+    "original_U_Net_V66": 24,
+    "previous_optimized_V83": 11,
+    "branch_aware_review_V85": 11
+  },
+  "confirmed_two_root_junctions": 80,
+  "third_type_junctions": {
+    "original_U_Net_V66": {
+      "junctions": 13,
+      "pixels": 202
+    },
+    "previous_optimized_V83": {
+      "junctions": 6,
+      "pixels": 52
+    },
+    "branch_aware_review_V85": {
+      "junctions": 5,
+      "pixels": 51
+    }
+  }
+}

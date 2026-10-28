@@ -1,0 +1,13 @@
+﻿scope,reference,period,changed,fixed,harmed,changed_still_wrong
+internal_fixed_root_spatial_holdout,source24_original,T2,0,0,0,0
+internal_fixed_root_spatial_holdout,source24_original,T3,119,88,0,31
+internal_fixed_root_spatial_holdout,source24_original,T4,25,0,0,25
+internal_fixed_root_spatial_holdout,source24_user_corrected,T2,0,0,0,0
+internal_fixed_root_spatial_holdout,source24_user_corrected,T3,119,88,0,31
+internal_fixed_root_spatial_holdout,source24_user_corrected,T4,25,0,0,25
+all_annotated_fixed_root_pixels,source24_original,T2,797,671,2,124
+all_annotated_fixed_root_pixels,source24_original,T3,294,220,1,73
+all_annotated_fixed_root_pixels,source24_original,T4,263,151,0,112
+all_annotated_fixed_root_pixels,source24_user_corrected,T2,797,671,2,124
+all_annotated_fixed_root_pixels,source24_user_corrected,T3,294,220,1,73
+all_annotated_fixed_root_pixels,source24_user_corrected,T4,263,151,0,112

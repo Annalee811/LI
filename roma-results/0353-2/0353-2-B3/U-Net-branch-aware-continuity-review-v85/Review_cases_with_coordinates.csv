@@ -1,0 +1,183 @@
+﻿status,period,predicted_axis,x0,y0,x1,y1,reason
+已修正根段,T2,34,677,0,857,143,new root axis with two stable new anchors; short internal persistent-class island
+已修正根段,T2,105,786,220,966,400,"established root, coherent aligned history: new-colored interval already present earlier"
+已修正根段,T2,158,1416,126,1596,306,"established root, coherent aligned history: new-colored interval already present earlier"
+已修正根段,T2,287,620,383,800,563,new root axis with two stable new anchors; short internal persistent-class island
+已修正根段,T2,476,1506,686,1686,866,"established root, coherent aligned history: new-colored interval already present earlier"
+已修正根段,T2,530,1116,813,1296,993,new root axis with two stable new anchors; short internal persistent-class island
+已修正根段,T2,594,804,938,984,1108,old root tip extends along the same learned root axis; new lateral is a separate unpaired axis
+已修正根段,T2,596,1193,881,1373,1061,new root axis with two stable new anchors; short internal persistent-class island
+已修正根段,T2,743,1234,1002,1414,1108,old root tip extends along the same learned root axis; new lateral is a separate unpaired axis
+已修正根段,T3,241,1964,254,2144,434,old root tip extends along the same learned root axis; new lateral is a separate unpaired axis
+已修正根段,T3,325,2387,447,2541,627,"established root, coherent aligned history: new-colored interval already present earlier"
+已修正根段,T3,373,989,560,1169,740,old root tip extends along the same learned root axis; new lateral is a separate unpaired axis
+已修正根段,T3,755,623,995,803,1108,"established root, coherent aligned history: new-colored interval already present earlier"
+已修正根段,T3,755,606,998,786,1108,old root tip extends along the same learned root axis; new lateral is a separate unpaired axis
+已修正根段,T4,47,0,0,154,178,"established root, coherent aligned history: new-colored interval already present earlier"
+已修正根段,T4,69,0,7,157,187,"established root, coherent aligned history: new-colored interval already present earlier"
+已修正根段,T4,69,0,25,166,205,"established root, coherent aligned history: new-colored interval already present earlier"
+已修正根段,T4,451,2188,563,2368,743,"established root, coherent aligned history: new-colored interval already present earlier"
+已修正根段,T4,716,0,889,128,1069,"established root, coherent aligned history: new-colored interval already present earlier"
+已修正根段,T4,785,1293,971,1473,1108,"established root, coherent aligned history: new-colored interval already present earlier"
+归属待复核,T2,9,1395,0,1575,110,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,11,44,0,224,95,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,12,1235,0,1415,132,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,57,1423,9,1603,189,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,66,547,0,727,174,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,80,1265,39,1445,219,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,109,1666,50,1921,230,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,127,1562,85,1742,265,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,134,1299,143,1493,425,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,135,1359,106,1539,286,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,152,1213,121,1393,301,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,164,1515,168,2126,467,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,181,739,167,919,347,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,235,1416,258,1611,438,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,242,687,251,867,431,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,245,480,270,660,450,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,248,679,291,859,471,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,258,1669,275,1849,455,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,260,711,280,891,460,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,261,695,287,875,467,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,279,691,326,871,506,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,286,2154,378,2334,558,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,298,1723,350,1903,530,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,301,1237,405,1720,799,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,311,1494,368,1674,548,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,322,2134,380,2314,560,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,354,1946,430,2126,610,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,359,2195,437,2375,617,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,365,0,448,103,628,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,379,1050,485,1230,665,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,383,2176,474,2356,654,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,413,1519,621,1836,820,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,433,1398,646,1583,943,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,444,944,671,1260,1070,possible mother elongation; no sufficiently clear earlier-tip/terminal-identity evidence
+归属待复核,T2,449,597,658,777,838,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,461,904,709,1084,958,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,479,1447,695,1627,875,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,482,1065,713,1279,893,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,486,1380,757,1578,943,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,487,1483,711,1663,891,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,518,1960,819,2263,1029,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,522,2216,774,2396,954,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,532,1198,818,1378,998,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,534,2193,820,2373,1000,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,542,1436,826,1616,1006,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,544,1329,811,1509,991,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,545,1477,849,1657,1029,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,557,1591,836,1771,1016,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,558,1592,840,1772,1020,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,576,1260,845,1440,1025,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,577,1201,848,1381,1028,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,578,1247,853,1427,1033,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,591,1429,869,1609,1049,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,595,1555,911,1735,1091,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,598,1517,880,1697,1060,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,608,1913,921,2189,1101,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,610,869,917,1049,1097,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,611,1479,891,1659,1071,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,612,1484,900,1664,1080,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,613,1334,901,1514,1081,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,620,1079,928,1259,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,628,2325,913,2505,1093,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,630,1509,953,1689,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,634,656,925,836,1105,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,636,671,922,851,1102,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,639,1891,963,2071,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,643,1267,938,1447,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,645,1314,924,1494,1104,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,650,973,969,1153,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,657,1033,935,1213,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,675,1786,968,1966,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,686,1295,962,1475,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,696,1222,976,1402,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,711,42,971,222,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,714,1743,981,1923,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,718,1314,989,1494,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,721,1342,989,1522,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,736,1716,985,1896,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,745,1382,1001,1601,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,752,1145,1003,1325,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,757,1176,997,1356,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,771,1728,1003,1908,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,776,1192,1004,1372,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T2,781,1285,1010,1465,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,8,753,0,933,101,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,11,1291,0,1471,148,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,16,723,0,903,106,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,19,870,0,1120,98,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,25,1403,0,1583,154,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,26,666,0,846,108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,47,845,0,1025,144,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,57,801,24,1011,216,possible mother elongation; no sufficiently clear earlier-tip/terminal-identity evidence
+归属待复核,T3,70,894,65,1158,609,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,83,1384,30,1564,210,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,86,2081,54,2261,234,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,88,1358,92,1548,322,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,106,1224,65,1404,245,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,112,1322,93,1547,273,possible mother elongation; no sufficiently clear earlier-tip/terminal-identity evidence
+归属待复核,T3,113,1394,89,1574,269,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,116,2074,71,2254,251,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,118,1660,74,1844,254,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,141,1598,94,1778,274,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,145,864,153,1080,336,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,149,1906,103,2086,283,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,161,804,121,984,301,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,170,1130,172,1331,352,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,177,763,164,943,344,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,189,1495,172,1675,352,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,207,1758,243,2029,502,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,256,972,274,1152,454,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,292,1955,359,2135,539,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,334,0,405,171,585,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,337,1638,404,1818,584,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,358,1034,469,1244,656,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,377,868,517,1048,697,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,390,1103,540,1283,720,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,394,723,554,1109,980,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,413,1440,581,1620,761,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,414,480,585,660,765,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,420,1525,593,1705,773,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,429,867,600,1047,780,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,433,1127,607,1307,787,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,455,936,645,1116,825,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,473,2350,730,2541,1108,possible mother elongation; no sufficiently clear earlier-tip/terminal-identity evidence
+归属待复核,T3,480,1364,705,1544,885,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,481,635,689,815,869,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,509,0,720,97,900,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,522,1633,746,1813,926,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,536,1153,805,1335,985,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,552,890,800,1070,980,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,560,1638,818,1818,998,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,581,1594,848,1774,1028,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,582,1684,882,1897,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,584,957,844,1137,1024,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,593,939,867,1126,1047,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,623,1794,875,1974,1055,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,663,1515,968,1695,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,709,1320,989,1500,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,732,1404,973,1584,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,734,1481,994,1677,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,735,1454,978,1634,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,739,1377,975,1557,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,751,2156,1000,2336,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,754,861,992,1041,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,768,2315,1000,2495,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T3,773,1735,1006,1915,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,19,0,0,114,111,possible mother elongation; no sufficiently clear earlier-tip/terminal-identity evidence
+归属待复核,T4,344,1724,348,1904,528,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,421,2177,471,2357,651,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,441,2062,521,2242,701,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,468,1128,572,1308,752,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,531,392,684,572,864,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,535,365,693,545,873,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,591,672,775,852,955,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,593,895,790,1075,970,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,597,1723,820,1940,1000,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,664,1729,866,1909,1046,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,680,1646,855,1826,1035,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,706,1982,901,2162,1081,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,745,1738,916,1918,1096,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,769,1158,963,1338,1108,mixed old/new root identity unresolved; retained original prediction
+归属待复核,T4,876,2229,1013,2409,1108,mixed old/new root identity unresolved; retained original prediction

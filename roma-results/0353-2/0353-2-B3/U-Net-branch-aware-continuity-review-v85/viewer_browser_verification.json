@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "all182cases",
+      "passed": true
+    },
+    {
+      "name": "last_unresolved_case_loads",
+      "passed": true
+    },
+    {
+      "name": "T4_comparison_loads",
+      "passed": true
+    },
+    {
+      "name": "native_zoom",
+      "passed": true
+    },
+    {
+      "name": "no_script_error",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "method": "Chromium inline document load; managed runtime blocks file URL navigation."
+}

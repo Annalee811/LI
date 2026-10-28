@@ -1,0 +1,118 @@
+{
+  "T2": {
+    "all_changes": 799,
+    "validation_edits": 2,
+    "validation_fixed": 2,
+    "validation_harmed": 0,
+    "validation_still_wrong": 0
+  },
+  "T3": {
+    "all_changes": 294,
+    "validation_edits": 0,
+    "validation_fixed": 0,
+    "validation_harmed": 0,
+    "validation_still_wrong": 0
+  },
+  "T4": {
+    "all_changes": 264,
+    "validation_edits": 0,
+    "validation_fixed": 0,
+    "validation_harmed": 0,
+    "validation_still_wrong": 0
+  },
+  "before": {
+    "classes": [
+      {
+        "name": "persistent",
+        "Precision": 0.9706024562421429,
+        "Recall": 0.9865827886174866,
+        "Dice": 0.9785273830705111,
+        "IoU": 0.9579575280362682,
+        "support": 20347
+      },
+      {
+        "name": "newly_observed",
+        "Precision": 0.9262337662337662,
+        "Recall": 0.8275702019029937,
+        "Dice": 0.8741267312170609,
+        "IoU": 0.7763988678423688,
+        "support": 4309
+      },
+      {
+        "name": "tip_extension",
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "Dice": 0.0,
+        "IoU": 0.0,
+        "support": 121
+      }
+    ],
+    "macro_Dice": 0.6175513714291907,
+    "confusion": [
+      [
+        20074,
+        241,
+        32
+      ],
+      [
+        530,
+        3566,
+        213
+      ],
+      [
+        78,
+        43,
+        0
+      ]
+    ],
+    "accuracy": 0.9541106671509868
+  },
+  "candidate": {
+    "classes": [
+      {
+        "name": "persistent",
+        "Precision": 0.9706963249516442,
+        "Recall": 0.9865827886174866,
+        "Dice": 0.9785750847003193,
+        "IoU": 0.9580489667350738,
+        "support": 20347
+      },
+      {
+        "name": "newly_observed",
+        "Precision": 0.9262720664589823,
+        "Recall": 0.8280343467161755,
+        "Dice": 0.8744026467344688,
+        "IoU": 0.7768343130851295,
+        "support": 4309
+      },
+      {
+        "name": "tip_extension",
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "Dice": 0.0,
+        "IoU": 0.0,
+        "support": 121
+      }
+    ],
+    "macro_Dice": 0.617659243811596,
+    "confusion": [
+      [
+        20074,
+        241,
+        32
+      ],
+      [
+        528,
+        3568,
+        213
+      ],
+      [
+        78,
+        43,
+        0
+      ]
+    ],
+    "accuracy": 0.9541913871735884
+  },
+  "scope": "Validation mask only, evaluated before opening test scores; human-label length uncertainty remains."
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "no_training": true,
+  "model_only_features_at_prediction": true,
+  "manual_IDs_or_reference_classes_prediction_input": false,
+  "all_four_full_fields": true,
+  "T1_unchanged": true,
+  "binary_geometry_unchanged": true,
+  "previous_prediction_and_checkpoint_sha256": {
+    "/workspace/LI/results/B3_root_axis_junction_v83_20261028/final/full/T1_classes.png": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "/workspace/LI/results/B3_root_axis_junction_v83_20261028/final/full/T2_classes.png": "9c99d3b6f637eaaec2edc0d7771b12a81afb0b55043dc7b606cf7e5d7230f921",
+    "/workspace/LI/results/B3_root_axis_junction_v83_20261028/final/full/T3_classes.png": "1920d814f9e4e10a9540cc998b85a760e8354d8c75fd2a8c964f7e3bec97e1e0",
+    "/workspace/LI/results/B3_root_axis_junction_v83_20261028/final/full/T4_classes.png": "ce6a7ab834e25e8dce275e7bc4282fca112e370640c6d93140215df592c292c3",
+    "/workspace/LI/results/B3_root_axis_junction_v83_20261028/joint_best.pt": "e835ab06aff540d6d820417e9abf6e5763245b4d20d3a6ea50acc30cf9d50ab3"
+  },
+  "proposed_intervals": 20,
+  "proposed_junctions": 5,
+  "unresolved_intervals": 162
+}

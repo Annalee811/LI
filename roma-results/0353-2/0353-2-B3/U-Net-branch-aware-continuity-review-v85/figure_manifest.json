@@ -1,0 +1,1120 @@
+{
+  "files": [
+    {
+      "file": "Fig1_Four_period_branch_aware_review.tif",
+      "sha256": "7fd2532fde950b2db2a50eb17d0060386e9082495c2fd0db5cad738d6006b955",
+      "dimensions": [
+        4100,
+        3820
+      ],
+      "typography": [
+        {
+          "text": "U-Net: branch-aware temporal continuity review",
+          "bounds": [
+            1381,
+            30,
+            2719,
+            88
+          ]
+        },
+        {
+          "text": "Frozen ConvLSTM + GAT | No retraining | Native root geometry unchanged",
+          "bounds": [
+            1495,
+            120,
+            2606,
+            150
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            518,
+            220,
+            592,
+            243
+          ]
+        },
+        {
+          "text": "User-corrected reference",
+          "bounds": [
+            1376,
+            220,
+            1734,
+            243
+          ]
+        },
+        {
+          "text": "Previous optimized V83",
+          "bounds": [
+            2383,
+            220,
+            2727,
+            250
+          ]
+        },
+        {
+          "text": "Branch-aware review V85",
+          "bounds": [
+            3366,
+            220,
+            3744,
+            243
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            30,
+            600,
+            84,
+            631
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            30,
+            1425,
+            84,
+            1456
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            30,
+            2250,
+            84,
+            2281
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            30,
+            3075,
+            84,
+            3106
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3700,
+            387,
+            3724
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1177,
+            3700,
+            1329,
+            3724
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2142,
+            3700,
+            2385,
+            3732
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3107,
+            3700,
+            3313,
+            3732
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_Mother_extension_and_new_lateral.tif",
+      "sha256": "bd66e4ad585f2499e54540b8796ceca160fa95e18a2f8bbac3ed78af4a174736",
+      "dimensions": [
+        3250,
+        3850
+      ],
+      "typography": [
+        {
+          "text": "Root-axis and branch detail across four periods",
+          "bounds": [
+            1078,
+            25,
+            2171,
+            74
+          ]
+        },
+        {
+          "text": "Native ROI: [750, 840, 1050, 1108] | Same images and unchanged segmentation",
+          "bounds": [
+            1088,
+            110,
+            2162,
+            139
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            25,
+            550,
+            74,
+            578
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            210,
+            513,
+            231
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            210,
+            1325,
+            231
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            210,
+            2153,
+            231
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            210,
+            2920,
+            238
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            25,
+            1400,
+            74,
+            1428
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            1060,
+            513,
+            1081
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            1060,
+            1325,
+            1081
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            1060,
+            2153,
+            1081
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            1060,
+            2920,
+            1088
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            25,
+            2250,
+            74,
+            2278
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            1910,
+            513,
+            1931
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            1910,
+            1325,
+            1931
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            1910,
+            2153,
+            1931
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            1910,
+            2920,
+            1938
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            25,
+            3100,
+            74,
+            3128
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            2760,
+            513,
+            2781
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            2760,
+            1325,
+            2781
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            2760,
+            2153,
+            2781
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            2760,
+            2920,
+            2788
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3690,
+            387,
+            3714
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            964,
+            3690,
+            1116,
+            3714
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1717,
+            3690,
+            1960,
+            3722
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2469,
+            3690,
+            2675,
+            3722
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig3_User_corrected_new_root.tif",
+      "sha256": "f656e9d6ee922006541636131f2375d77cc3c62a6186aadd1093c4042842e075",
+      "dimensions": [
+        3250,
+        3850
+      ],
+      "typography": [
+        {
+          "text": "Root-axis and branch detail across four periods",
+          "bounds": [
+            1078,
+            25,
+            2171,
+            74
+          ]
+        },
+        {
+          "text": "Native ROI: [1368, 50, 1599, 202] | Same images and unchanged segmentation",
+          "bounds": [
+            1095,
+            110,
+            2154,
+            139
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            25,
+            550,
+            74,
+            578
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            210,
+            513,
+            231
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            210,
+            1325,
+            231
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            210,
+            2153,
+            231
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            210,
+            2920,
+            238
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            25,
+            1400,
+            74,
+            1428
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            1060,
+            513,
+            1081
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            1060,
+            1325,
+            1081
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            1060,
+            2153,
+            1081
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            1060,
+            2920,
+            1088
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            25,
+            2250,
+            74,
+            2278
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            1910,
+            513,
+            1931
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            1910,
+            1325,
+            1931
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            1910,
+            2153,
+            1931
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            1910,
+            2920,
+            1938
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            25,
+            3100,
+            74,
+            3128
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            2760,
+            513,
+            2781
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            2760,
+            1325,
+            2781
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            2760,
+            2153,
+            2781
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            2760,
+            2920,
+            2788
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3690,
+            387,
+            3714
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            964,
+            3690,
+            1116,
+            3714
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1717,
+            3690,
+            1960,
+            3722
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2469,
+            3690,
+            2675,
+            3722
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig4_All_field_detail.tif",
+      "sha256": "22a86a9ab8e1cf756aea9898dfc435f816c69c027e44c2850a114a36f7e079b4",
+      "dimensions": [
+        3250,
+        3850
+      ],
+      "typography": [
+        {
+          "text": "Root-axis and branch detail across four periods",
+          "bounds": [
+            1078,
+            25,
+            2171,
+            74
+          ]
+        },
+        {
+          "text": "Native ROI: [2048, 320, 2304, 576] | Same images and unchanged segmentation",
+          "bounds": [
+            1087,
+            110,
+            2162,
+            139
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            25,
+            550,
+            74,
+            578
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            210,
+            513,
+            231
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            210,
+            1325,
+            231
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            210,
+            2153,
+            231
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            210,
+            2920,
+            238
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            25,
+            1400,
+            74,
+            1428
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            1060,
+            513,
+            1081
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            1060,
+            1325,
+            1081
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            1060,
+            2153,
+            1081
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            1060,
+            2920,
+            1088
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            25,
+            2250,
+            74,
+            2278
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            1910,
+            513,
+            1931
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            1910,
+            1325,
+            1931
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            1910,
+            2153,
+            1931
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            1910,
+            2920,
+            1938
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            25,
+            3100,
+            74,
+            3128
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            2760,
+            513,
+            2781
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            2760,
+            1325,
+            2781
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            2760,
+            2153,
+            2781
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            2760,
+            2920,
+            2788
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3690,
+            387,
+            3714
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            964,
+            3690,
+            1116,
+            3714
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1717,
+            3690,
+            1960,
+            3722
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2469,
+            3690,
+            2675,
+            3722
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig5_All_field_detail.tif",
+      "sha256": "62c95f2bbf01b1b6e8f5ca8aaa02de629d5154a22530a75d3daed158d4275104",
+      "dimensions": [
+        3250,
+        3850
+      ],
+      "typography": [
+        {
+          "text": "Root-axis and branch detail across four periods",
+          "bounds": [
+            1078,
+            25,
+            2171,
+            74
+          ]
+        },
+        {
+          "text": "Native ROI: [1984, 128, 2240, 384] | Same images and unchanged segmentation",
+          "bounds": [
+            1087,
+            110,
+            2162,
+            139
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            25,
+            550,
+            74,
+            578
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            210,
+            513,
+            231
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            210,
+            1325,
+            231
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            210,
+            2153,
+            231
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            210,
+            2920,
+            238
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            25,
+            1400,
+            74,
+            1428
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            1060,
+            513,
+            1081
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            1060,
+            1325,
+            1081
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            1060,
+            2153,
+            1081
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            1060,
+            2920,
+            1088
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            25,
+            2250,
+            74,
+            2278
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            1910,
+            513,
+            1931
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            1910,
+            1325,
+            1931
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            1910,
+            2153,
+            1931
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            1910,
+            2920,
+            1938
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            25,
+            3100,
+            74,
+            3128
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            377,
+            2760,
+            513,
+            2781
+          ]
+        },
+        {
+          "text": "Previous V83",
+          "bounds": [
+            1144,
+            2760,
+            1325,
+            2781
+          ]
+        },
+        {
+          "text": "Branch-aware V85",
+          "bounds": [
+            1896,
+            2760,
+            2153,
+            2781
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2711,
+            2760,
+            2920,
+            2788
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3690,
+            387,
+            3714
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            964,
+            3690,
+            1116,
+            3714
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1717,
+            3690,
+            1960,
+            3722
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2469,
+            3690,
+            2675,
+            3722
+          ]
+        }
+      ]
+    }
+  ],
+  "dpi": 600,
+  "black_bold_Times_New_Roman": true,
+  "categorical_nearest_neighbor": true,
+  "ROI_selection": "Two known user-feedback regions and two non-overlapping highest-change windows; not selected by favorable scores."
+}

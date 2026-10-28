@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "no_training": true,
+  "unchanged_model_checkpoint": true,
+  "U_Net_segmentation_geometry_unchanged": true,
+  "all_prior_outputs_unchanged": true,
+  "source24_preserved": true,
+  "T1_unchanged": true,
+  "four_full_fields_processed": true,
+  "predictions_frozen_before_test_scoring": true,
+  "manual_reference_or_IDs_in_prediction_inputs": false,
+  "changes": [
+    {
+      "period": "T1",
+      "changed_pixels": 0,
+      "foreground_pixels_changed": 0,
+      "new_to_persistent": 0,
+      "new_to_extension": 0,
+      "extension_to_new": 0,
+      "other_changes": 0
+    },
+    {
+      "period": "T2",
+      "changed_pixels": 799,
+      "foreground_pixels_changed": 0,
+      "new_to_persistent": 149,
+      "new_to_extension": 642,
+      "extension_to_new": 0,
+      "other_changes": 8
+    },
+    {
+      "period": "T3",
+      "changed_pixels": 294,
+      "foreground_pixels_changed": 0,
+      "new_to_persistent": 48,
+      "new_to_extension": 245,
+      "extension_to_new": 0,
+      "other_changes": 1
+    },
+    {
+      "period": "T4",
+      "changed_pixels": 264,
+      "foreground_pixels_changed": 0,
+      "new_to_persistent": 264,
+      "new_to_extension": 0,
+      "extension_to_new": 0,
+      "other_changes": 0
+    }
+  ],
+  "prediction_sha256": {
+    "T1": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "T2": "677a9f8acb5d829f0e98b03be39d89c7470f367cec446d58b2b6db8c440dc930",
+    "T3": "ff78c79350e167858516d885445ad30289e05450ddc3be32c68ff39e9bc68f6e",
+    "T4": "967ce22504bac3d9bb6a770fa7b036a0307cc873d38ed66fbba1e7cd1e224fe5"
+  },
+  "reference_correction": "Only 457 explicitly user-confirmed T2 pixels are corrected in separate V84; no other annotation is edited."
+}

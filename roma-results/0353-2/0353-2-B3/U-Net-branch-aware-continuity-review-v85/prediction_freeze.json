@@ -1,0 +1,11 @@
+{
+  "no_training": true,
+  "selection": "Fixed inference rules; validation macro nondecreasing. Only two validation pixels changed; this is weak support, not proof of generalization.",
+  "prediction_sha256": {
+    "T1": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "T2": "677a9f8acb5d829f0e98b03be39d89c7470f367cec446d58b2b6db8c440dc930",
+    "T3": "ff78c79350e167858516d885445ad30289e05450ddc3be32c68ff39e9bc68f6e",
+    "T4": "967ce22504bac3d9bb6a770fa7b036a0307cc873d38ed66fbba1e7cd1e224fe5"
+  },
+  "test_metrics_opened_after_this_freeze": true
+}

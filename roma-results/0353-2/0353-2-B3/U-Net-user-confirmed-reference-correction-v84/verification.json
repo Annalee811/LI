@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "no_training": true,
+  "no_prediction_edit": true,
+  "source24_preserved": true,
+  "root_geometries_and_IDs_unchanged": true,
+  "actual_changed_reference_pixels": 457,
+  "original_test_Dice_unchanged": true,
+  "immutable_input_sha256": {
+    "/workspace/LI/results/B3_original_UNet_latestCG_upload24_v82_20261028/data/source_progress_24.json": "cb5a9326b73003a81b44961300de88806378a771514e886faff168a715bf2c8e",
+    "/workspace/LI/results/B3_root_axis_junction_v83_20261028/joint_best.pt": "e835ab06aff540d6d820417e9abf6e5763245b4d20d3a6ea50acc30cf9d50ab3",
+    "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T1_classes.png": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T2_classes.png": "2adfd5a8cd9856e10af2b13a3f508e078745f8a4d5570cf23019fd37ee0ba43a",
+    "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T3_classes.png": "d106b7265e20995800779d7e41fd8e66c2a5f983afd7d249a1c55f4077926890",
+    "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T4_classes.png": "127a37d724eaf6f5a3034cd1bba14c033de3c9297050ef003a3f6008ed2321ac",
+    "/workspace/LI/results/B3_root_axis_junction_v83_20261028/final/full/T1_classes.png": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "/workspace/LI/results/B3_root_axis_junction_v83_20261028/final/full/T2_classes.png": "9c99d3b6f637eaaec2edc0d7771b12a81afb0b55043dc7b606cf7e5d7230f921",
+    "/workspace/LI/results/B3_root_axis_junction_v83_20261028/final/full/T3_classes.png": "1920d814f9e4e10a9540cc998b85a760e8354d8c75fd2a8c964f7e3bec97e1e0",
+    "/workspace/LI/results/B3_root_axis_junction_v83_20261028/final/full/T4_classes.png": "ce6a7ab834e25e8dce275e7bc4282fca112e370640c6d93140215df592c292c3",
+    "/workspace/LI/results/B3_original_UNet_latestCG_upload24_v82_20261028/data/reference/T1_classes.png": "00a70b4459e5b84fd71e2e435ce4e1b73539a8d5ed2e4d59711ecc1ebf9c4abb",
+    "/workspace/LI/results/B3_original_UNet_latestCG_upload24_v82_20261028/data/reference/T2_classes.png": "bc29c7c373c984058a0ca41c168490edd306c06d99c73de1fac947cd026fd057",
+    "/workspace/LI/results/B3_original_UNet_latestCG_upload24_v82_20261028/data/reference/T3_classes.png": "619d4a3dda8cd58a4ddb893567ceee32ddee181fa6c44f71107bbfa20f36a403",
+    "/workspace/LI/results/B3_original_UNet_latestCG_upload24_v82_20261028/data/reference/T4_classes.png": "6e439c1fbc3e52d7bc8813aca101d1c98ea1b4ace0c91cee541ac26664dd266e"
+  },
+  "corrected_JSON_sha256": "435ce2e2473c8e42b72db52e58ca0d1e7bdb0e239deee35ca28433026b06a910"
+}

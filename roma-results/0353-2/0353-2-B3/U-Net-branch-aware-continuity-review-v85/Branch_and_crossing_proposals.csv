@@ -1,0 +1,6 @@
+﻿period,hub,changed_core_pixels,reason,allowed_types
+T2,250,1,exact junction core restricted to its stable incident-root classes,1
+T2,296,1,exact junction core restricted to its stable incident-root classes,1
+T3,325,1,exact junction core restricted to its stable incident-root classes,1
+T3,627,1,new daughter attachment is new; separate persistent/extension mother kept,"1,2"
+T4,37,1,exact junction core restricted to its stable incident-root classes,1

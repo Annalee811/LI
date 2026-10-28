@@ -1,0 +1,34 @@
+{
+  "source_sha256": "cb5a9326b73003a81b44961300de88806378a771514e886faff168a715bf2c8e",
+  "period": "T2",
+  "pixels": 457,
+  "bbox_xyxy": [
+    1423,
+    105,
+    1544,
+    147
+  ],
+  "screenshot_context_ROI": [
+    1368,
+    50,
+    1599,
+    202
+  ],
+  "old_annotation_class": "tip_extension",
+  "corrected_annotation_class": "newly_observed",
+  "authority": "User explicitly confirmed this pictured extension interval is a new root.",
+  "mask_width_length_and_root_IDs_unchanged": true,
+  "training": false,
+  "prediction_edit": false,
+  "annotation_code_before": 2,
+  "annotation_code_after": 1,
+  "derived_PNG_code_before": 3,
+  "derived_PNG_code_after": 2,
+  "changed_pixels_by_split": {
+    "unassigned": 31,
+    "train": 426,
+    "validation": 0,
+    "internal_test": 0
+  },
+  "corrected_JSON_sha256": "435ce2e2473c8e42b72db52e58ca0d1e7bdb0e239deee35ca28433026b06a910"
+}

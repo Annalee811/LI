@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "no_training": true,
+  "class_detail_review": true,
+  "prior_checkpoint_preserved": true,
+  "all_four_fields": true,
+  "unresolved_cases_retained": true
+}
