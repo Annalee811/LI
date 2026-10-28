@@ -1,0 +1,1361 @@
+{
+  "passed": true,
+  "outputs": [
+    {
+      "file": "Fig1_UNet_four_period_temporal_comparison.tif",
+      "sha256": "ce4258a55e532dc2ff959184e6bc142e87aa8ccc7976284e994b0d3f4e9f76f0",
+      "dimensions": [
+        4200,
+        4680
+      ],
+      "panels": [
+        {
+          "tag": "T1/original",
+          "box": [
+            240,
+            600,
+            1390,
+            1101
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T1/reference/overlay",
+          "box": [
+            1540,
+            340,
+            2690,
+            841
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T1/reference/roots",
+          "box": [
+            1540,
+            853,
+            2690,
+            1354
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T1/unet/overlay",
+          "box": [
+            2840,
+            340,
+            3990,
+            841
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T1/unet/roots",
+          "box": [
+            2840,
+            853,
+            3990,
+            1354
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T2/original",
+          "box": [
+            240,
+            1630,
+            1390,
+            2131
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T2/reference/overlay",
+          "box": [
+            1540,
+            1370,
+            2690,
+            1871
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T2/reference/roots",
+          "box": [
+            1540,
+            1883,
+            2690,
+            2384
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T2/unet/overlay",
+          "box": [
+            2840,
+            1370,
+            3990,
+            1871
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T2/unet/roots",
+          "box": [
+            2840,
+            1883,
+            3990,
+            2384
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T3/original",
+          "box": [
+            240,
+            2660,
+            1390,
+            3161
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T3/reference/overlay",
+          "box": [
+            1540,
+            2400,
+            2690,
+            2901
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T3/reference/roots",
+          "box": [
+            1540,
+            2913,
+            2690,
+            3414
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T3/unet/overlay",
+          "box": [
+            2840,
+            2400,
+            3990,
+            2901
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T3/unet/roots",
+          "box": [
+            2840,
+            2913,
+            3990,
+            3414
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T4/original",
+          "box": [
+            240,
+            3690,
+            1390,
+            4191
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T4/reference/overlay",
+          "box": [
+            1540,
+            3430,
+            2690,
+            3931
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T4/reference/roots",
+          "box": [
+            1540,
+            3943,
+            2690,
+            4444
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T4/unet/overlay",
+          "box": [
+            2840,
+            3430,
+            3990,
+            3931
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T4/unet/roots",
+          "box": [
+            2840,
+            3943,
+            3990,
+            4444
+          ],
+          "native_shape": [
+            1108,
+            2541,
+            3
+          ],
+          "category_resampling": "nearest"
+        }
+      ],
+      "texts": [
+        {
+          "text": "U-Net temporal classification across four periods",
+          "box": [
+            1309,
+            35,
+            2891,
+            103
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Uploaded (18) reference | 100 training epochs | Validation-selected epoch 37 | No GAT",
+          "box": [
+            1409,
+            140,
+            2790,
+            174
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Each reference/model column: RGB overlay above; classified roots on white below",
+          "box": [
+            1468,
+            200,
+            2732,
+            232
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Original RGB",
+          "box": [
+            661,
+            265,
+            968,
+            312
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Reference annotation",
+          "box": [
+            1882,
+            265,
+            2347,
+            301
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "U-Net prediction",
+          "box": [
+            3232,
+            265,
+            3598,
+            311
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "T1",
+          "box": [
+            59,
+            786,
+            141,
+            834
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "500 px",
+          "box": [
+            329.0,
+            1036,
+            413.0,
+            1062
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "T2",
+          "box": [
+            59,
+            1816,
+            141,
+            1864
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "500 px",
+          "box": [
+            329.0,
+            2066,
+            413.0,
+            2092
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "T3",
+          "box": [
+            59,
+            2846,
+            141,
+            2895
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "500 px",
+          "box": [
+            329.0,
+            3096,
+            413.0,
+            3122
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "T4",
+          "box": [
+            59,
+            3876,
+            141,
+            3924
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "500 px",
+          "box": [
+            329.0,
+            4126,
+            413.0,
+            4152
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "T1 baseline",
+          "box": [
+            256,
+            4530,
+            441,
+            4556
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Persistent",
+          "box": [
+            1231,
+            4530,
+            1392,
+            4556
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Newly observed",
+          "box": [
+            2206,
+            4530,
+            2462,
+            4564
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Tip extension",
+          "box": [
+            3181,
+            4530,
+            3399,
+            4564
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Fixed binary root geometry; no dilation or forced temporal matches. Gray = untyped reference root.",
+          "box": [
+            1374,
+            4610,
+            2825,
+            4640
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        }
+      ]
+    },
+    {
+      "file": "Fig2_UNet_local_temporal_detail.tif",
+      "sha256": "c16bc2c6488108f075786e000a7ff1f3eb63be264bb0bf6c2f93a1b33dac7cdc",
+      "dimensions": [
+        5000,
+        4240
+      ],
+      "panels": [
+        {
+          "tag": "T1/ROI/original",
+          "box": [
+            205,
+            670,
+            775,
+            1240
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T1/ROI/reference/overlay",
+          "box": [
+            1005,
+            385,
+            1575,
+            955
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T1/ROI/reference/roots",
+          "box": [
+            1005,
+            975,
+            1575,
+            1545
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T1/ROI/unet/overlay",
+          "box": [
+            1785,
+            385,
+            2355,
+            955
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T1/ROI/unet/roots",
+          "box": [
+            1785,
+            975,
+            2355,
+            1545
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T2/ROI/original",
+          "box": [
+            2675,
+            670,
+            3245,
+            1240
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T2/ROI/reference/overlay",
+          "box": [
+            3475,
+            385,
+            4045,
+            955
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T2/ROI/reference/roots",
+          "box": [
+            3475,
+            975,
+            4045,
+            1545
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T2/ROI/unet/overlay",
+          "box": [
+            4255,
+            385,
+            4825,
+            955
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T2/ROI/unet/roots",
+          "box": [
+            4255,
+            975,
+            4825,
+            1545
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T3/ROI/original",
+          "box": [
+            205,
+            2040,
+            775,
+            2610
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T3/ROI/reference/overlay",
+          "box": [
+            1005,
+            1755,
+            1575,
+            2325
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T3/ROI/reference/roots",
+          "box": [
+            1005,
+            2345,
+            1575,
+            2915
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T3/ROI/unet/overlay",
+          "box": [
+            1785,
+            1755,
+            2355,
+            2325
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T3/ROI/unet/roots",
+          "box": [
+            1785,
+            2345,
+            2355,
+            2915
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T4/ROI/original",
+          "box": [
+            2675,
+            2040,
+            3245,
+            2610
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T4/ROI/reference/overlay",
+          "box": [
+            3475,
+            1755,
+            4045,
+            2325
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T4/ROI/reference/roots",
+          "box": [
+            3475,
+            2345,
+            4045,
+            2915
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T4/ROI/unet/overlay",
+          "box": [
+            4255,
+            1755,
+            4825,
+            2325
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T4/ROI/unet/roots",
+          "box": [
+            4255,
+            2345,
+            4825,
+            2915
+          ],
+          "native_shape": [
+            384,
+            384,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T4/tip_inset/Original RGB",
+          "box": [
+            135,
+            3225,
+            985,
+            4075
+          ],
+          "native_shape": [
+            256,
+            256,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T4/tip_inset/Reference overlay",
+          "box": [
+            1105,
+            3225,
+            1955,
+            4075
+          ],
+          "native_shape": [
+            256,
+            256,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T4/tip_inset/U-Net overlay",
+          "box": [
+            2075,
+            3225,
+            2925,
+            4075
+          ],
+          "native_shape": [
+            256,
+            256,
+            3
+          ],
+          "category_resampling": null
+        },
+        {
+          "tag": "T4/tip_inset/Reference roots",
+          "box": [
+            3045,
+            3225,
+            3895,
+            4075
+          ],
+          "native_shape": [
+            256,
+            256,
+            3
+          ],
+          "category_resampling": "nearest"
+        },
+        {
+          "tag": "T4/tip_inset/U-Net roots",
+          "box": [
+            4015,
+            3225,
+            4865,
+            4075
+          ],
+          "native_shape": [
+            256,
+            256,
+            3
+          ],
+          "category_resampling": "nearest"
+        }
+      ],
+      "texts": [
+        {
+          "text": "Local temporal detail: reference annotation and U-Net",
+          "box": [
+            1594,
+            35,
+            3406,
+            104
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Same 384 x 384 px window in T1-T4; additional T4 extension inset below",
+          "box": [
+            1879,
+            145,
+            3120,
+            181
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "T1",
+          "box": [
+            90,
+            240,
+            162,
+            282
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Original RGB",
+          "box": [
+            354,
+            315,
+            625,
+            358
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Reference",
+          "box": [
+            1194,
+            315,
+            1386,
+            348
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "U-Net",
+          "box": [
+            2013,
+            315,
+            2128,
+            347
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "50 px",
+          "box": [
+            225.0,
+            1175,
+            294.0,
+            1201
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "T2",
+          "box": [
+            2560,
+            240,
+            2632,
+            282
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Original RGB",
+          "box": [
+            2824,
+            315,
+            3095,
+            358
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Reference",
+          "box": [
+            3664,
+            315,
+            3856,
+            348
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "U-Net",
+          "box": [
+            4483,
+            315,
+            4598,
+            347
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "50 px",
+          "box": [
+            2695.0,
+            1175,
+            2764.0,
+            1201
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "T3",
+          "box": [
+            90,
+            1610,
+            162,
+            1652
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Original RGB",
+          "box": [
+            354,
+            1685,
+            625,
+            1728
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Reference",
+          "box": [
+            1194,
+            1685,
+            1386,
+            1718
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "U-Net",
+          "box": [
+            2013,
+            1685,
+            2128,
+            1717
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "50 px",
+          "box": [
+            225.0,
+            2545,
+            294.0,
+            2571
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "T4",
+          "box": [
+            2560,
+            1610,
+            2632,
+            1652
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Original RGB",
+          "box": [
+            2824,
+            1685,
+            3095,
+            1728
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Reference",
+          "box": [
+            3664,
+            1685,
+            3856,
+            1718
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "U-Net",
+          "box": [
+            4483,
+            1685,
+            4598,
+            1717
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "50 px",
+          "box": [
+            2695.0,
+            2545,
+            2764.0,
+            2571
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "T4: separate tip-extension window (256 x 256 px)",
+          "box": [
+            130,
+            3060,
+            1176,
+            3105
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Original RGB",
+          "box": [
+            433,
+            3160,
+            686,
+            3199
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Reference overlay",
+          "box": [
+            1369,
+            3160,
+            1691,
+            3198
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "U-Net overlay",
+          "box": [
+            2375,
+            3160,
+            2626,
+            3197
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Reference roots",
+          "box": [
+            3330,
+            3160,
+            3609,
+            3190
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "U-Net roots",
+          "box": [
+            4336,
+            3160,
+            4544,
+            3189
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "T1 baseline",
+          "box": [
+            256,
+            4125,
+            441,
+            4151
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Persistent",
+          "box": [
+            1431,
+            4125,
+            1592,
+            4151
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Newly observed",
+          "box": [
+            2606,
+            4125,
+            2862,
+            4159
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        },
+        {
+          "text": "Tip extension",
+          "box": [
+            3781,
+            4125,
+            3999,
+            4159
+          ],
+          "color": "black",
+          "font": "Times New Roman Bold"
+        }
+      ]
+    },
+    {
+      "file": "Fig3_UNet_100_epoch_training_curves.tif",
+      "sha256": "f909c20bfd0850f5791125b18bd69cdd77f359c466db571f8eae01145d3b2669",
+      "epochs": 101,
+      "smoothing": false
+    }
+  ],
+  "sources": [
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/data/upper/T1_RGB.png",
+      "sha256": "c8548de563b4d5ac0b223235758f7cdf6f118ac70614a7792a86f12fb9eb295b"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/data/current/T1_classes.png",
+      "sha256": "a5bc1e598d7a838beaa088dea2f16a6686540eb2a4f5a290828c605a20471e91"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_UNet_preview_v67_20261028/unet/full/T1_classes.png",
+      "sha256": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/data/upper/T2_RGB.png",
+      "sha256": "e65b91ef07abea8527b71a97a37e2ff19ca1a6527ff0090970cf084bba338b3c"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/data/current/T2_classes.png",
+      "sha256": "cd774c724dd169db288a9a7c4ee094f6df5065c51d003cf8e7145c30112dc0ef"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_UNet_preview_v67_20261028/unet/full/T2_classes.png",
+      "sha256": "2adfd5a8cd9856e10af2b13a3f508e078745f8a4d5570cf23019fd37ee0ba43a"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/data/upper/T3_RGB.png",
+      "sha256": "3df9bca33ebd9ee88a2eab874143569d5f8d9cdb7cd49d326754791f1b58e8e6"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/data/current/T3_classes.png",
+      "sha256": "949f9f09c373f2aa4cb0a90890e3466602a676a60155f23a3cc519e2a30fbd6a"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_UNet_preview_v67_20261028/unet/full/T3_classes.png",
+      "sha256": "d106b7265e20995800779d7e41fd8e66c2a5f983afd7d249a1c55f4077926890"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/data/upper/T4_RGB.png",
+      "sha256": "d43a5d5fd491ed05579f2f32bc853808165431ef15c30eac48f143b20160bdea"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/data/current/T4_classes.png",
+      "sha256": "53430a42babf07c2a8c9d7312822e44986bbbe0e9279d4eb56827f130d059ade"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_UNet_preview_v67_20261028/unet/full/T4_classes.png",
+      "sha256": "127a37d724eaf6f5a3034cd1bba14c033de3c9297050ef003a3f6008ed2321ac"
+    }
+  ],
+  "ROI": [
+    1472,
+    704,
+    1856,
+    1088
+  ],
+  "T4_extension_ROI": [
+    2180,
+    430,
+    2436,
+    686
+  ],
+  "native_predicted_geometry_unchanged": true,
+  "reference_classes_unchanged": true,
+  "source_input": "upload18",
+  "local_ROI_counts": [
+    {
+      "period": "T1",
+      "new": 0,
+      "extension": 0
+    },
+    {
+      "period": "T2",
+      "new": 4833,
+      "extension": 974
+    },
+    {
+      "period": "T3",
+      "new": 1362,
+      "extension": 394
+    },
+    {
+      "period": "T4",
+      "new": 1204,
+      "extension": 0
+    }
+  ],
+  "separate_T4_extension_reference_pixels": 48,
+  "ROI_scope": "Illustrative shared main field, not held-out-only; selection uses reference labels only",
+  "GAT": false
+}

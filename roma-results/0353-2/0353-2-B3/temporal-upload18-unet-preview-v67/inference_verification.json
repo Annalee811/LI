@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "run": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028",
+  "checkpoint_SHA256": "58a460c25b29ad4a0fdf3f5ca3e9cad3ec186af0c3827fecc942ba784955e382",
+  "epochs_completed": 100,
+  "selected_epoch": 37,
+  "uploaded_reference_SHA256": "3912127180ba12806b6bf990847f65556a1209e6fb978d9b63cf6b716fd4a370",
+  "GAT": false,
+  "new_training": false,
+  "changes_to_binary_geometry": false,
+  "full_native_dimensions": [
+    2541,
+    1108
+  ],
+  "periods": [
+    {
+      "period": "T1",
+      "root_pixels": 104518,
+      "changed_binary_pixels": 0,
+      "prediction_sha256": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+      "binary_sha256": "a8894068fa4781a854b0ce580b0d0518b4569da18c7db0fd40cb73babbfcfa3a"
+    },
+    {
+      "period": "T2",
+      "root_pixels": 152193,
+      "changed_binary_pixels": 0,
+      "prediction_sha256": "2adfd5a8cd9856e10af2b13a3f508e078745f8a4d5570cf23019fd37ee0ba43a",
+      "binary_sha256": "3b35954636e942fb4cca8ca5d5be3474464e1fc365126ff11e8085e328b0fd01"
+    },
+    {
+      "period": "T3",
+      "root_pixels": 168984,
+      "changed_binary_pixels": 0,
+      "prediction_sha256": "d106b7265e20995800779d7e41fd8e66c2a5f983afd7d249a1c55f4077926890",
+      "binary_sha256": "459845cc4fd543a49a06abaab9315004c65c87339600d5b17294872014055af6"
+    },
+    {
+      "period": "T4",
+      "root_pixels": 147533,
+      "changed_binary_pixels": 0,
+      "prediction_sha256": "127a37d724eaf6f5a3034cd1bba14c033de3c9297050ef003a3f6008ed2321ac",
+      "binary_sha256": "3c460444a758117a1034d69624be373f20fc6c2057687a16f22b4d8cef0620d9"
+    }
+  ],
+  "reference": "Uploaded (18) unchanged; T1 baseline display only; same-field internal agreement",
+  "method": "Overlapping 256px patches, Hann blending of softmax; no temporal constraints, class multipliers, dilation or forced matches"
+}
