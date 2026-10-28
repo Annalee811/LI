@@ -1,0 +1,5 @@
+{
+  "same_root_different_class_training_pairs": 2039,
+  "different_root_same_class_training_pairs": 4515,
+  "meaning": "Identity connection and temporal class continuity have distinct targets; real same-root changes are not mislabeled as disconnections"
+}

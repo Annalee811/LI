@@ -1,0 +1,108 @@
+{
+  "state": "complete",
+  "epochs": 100,
+  "selected_epoch": 32,
+  "test": {
+    "classes": [
+      {
+        "name": "persistent",
+        "Precision": 0.9783277591973244,
+        "Recall": 0.9463195807362995,
+        "Dice": 0.9620575112095333,
+        "IoU": 0.9268890344113733,
+        "support": 46367
+      },
+      {
+        "name": "newly_observed",
+        "Precision": 0.7689471972243305,
+        "Recall": 0.8181818181818182,
+        "Dice": 0.792800849589179,
+        "IoU": 0.6567274747661821,
+        "support": 8668
+      },
+      {
+        "name": "tip_extension",
+        "Precision": 0.12455874936964195,
+        "Recall": 0.24191968658178256,
+        "Dice": 0.1644474034620506,
+        "IoU": 0.08959013420384476,
+        "support": 1021
+      }
+    ],
+    "macro_Dice": 0.6397685880869209,
+    "confusion": [
+      [
+        43878,
+        1554,
+        935
+      ],
+      [
+        775,
+        7092,
+        801
+      ],
+      [
+        197,
+        577,
+        247
+      ]
+    ]
+  },
+  "test_connection": {
+    "F1": 0.7773117254528122,
+    "Precision": 0.6818866031108881,
+    "Recall": 0.9037907337619153,
+    "threshold": 0.275,
+    "pairs": 8111,
+    "positive_pairs": 4511
+  },
+  "baseline_test": {
+    "classes": [
+      {
+        "name": "persistent",
+        "Precision": 0.9740791866605316,
+        "Recall": 0.9587853430241335,
+        "Dice": 0.966371758363585,
+        "IoU": 0.934931650893796,
+        "support": 46367
+      },
+      {
+        "name": "newly_observed",
+        "Precision": 0.8068354135075236,
+        "Recall": 0.7979926165205353,
+        "Dice": 0.8023896525723566,
+        "IoU": 0.6699922510654786,
+        "support": 8668
+      },
+      {
+        "name": "tip_extension",
+        "Precision": 0.1903470715835141,
+        "Recall": 0.3437806072477963,
+        "Dice": 0.2450261780104712,
+        "IoU": 0.13961813842482101,
+        "support": 1021
+      }
+    ],
+    "macro_Dice": 0.6712625296488043,
+    "confusion": [
+      [
+        44456,
+        1203,
+        708
+      ],
+      [
+        966,
+        6917,
+        785
+      ],
+      [
+        217,
+        453,
+        351
+      ]
+    ]
+  },
+  "checkpoint_sha256": "d087126d14a27b52dc62ee702ddaab9f033966ad995b8c96ff3a0cd02c585a37",
+  "binary_geometry_unchanged": true,
+  "elapsed_seconds": 47.63108788700629
+}

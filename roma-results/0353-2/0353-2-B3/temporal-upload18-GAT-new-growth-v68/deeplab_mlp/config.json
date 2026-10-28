@@ -1,0 +1,29 @@
+{
+  "model": "deeplab",
+  "kind": "mlp",
+  "neural_source_SHA256": "3e0394432e5882e5bd60b2eea5b1085f64f95ed73daa502d4695595cd1fbd2d5",
+  "epochs": 100,
+  "seed": 2026102802,
+  "base_checkpoint_sha256": "0b73e59b1928739a48034d128be0eca9778202e90bf20917abd59b1a2ac28d1d",
+  "new_initialization": true,
+  "old_GAT_weights_loaded": false,
+  "temporal_targets": "upload18",
+  "connection_targets": "upload17 user_defined142 IDs only; target-only, no ID/color/parent input",
+  "binary_geometry_frozen": true,
+  "classes": [
+    "persistent",
+    "newly_observed",
+    "tip_extension"
+  ],
+  "class_weights": [
+    1.0,
+    3.0369410514831543,
+    9.0
+  ],
+  "sampling": "up to8 pixels per node per class, training spatial mask only",
+  "objective": "class-weighted focal CE gamma1.5 +0.3 weighted classDice +0.35 true-ID linkBCE +0.1 class-boundaryBCE +0.003 residual penalty",
+  "selection": "Validation only: .15 persistent Dice +.40 new Dice +.45 tip Dice +.05 connectionF1; never use test for decisions",
+  "evaluation": "Same-field inner spatial masks, transductive RGB/prediction graph; not external root/tube generalization",
+  "optimizer": "AdamW .001 cosine to .00001",
+  "parameter_count": 18549
+}

@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "file": "Fig_Persistent_before_after_GAT.tif",
+      "sha256": "22fa9f9069028e7448feb2e34d9232bfdc1336ff2ec2d87df389fc2a249ee600"
+    },
+    {
+      "file": "Fig_New_roots_before_after_GAT.tif",
+      "sha256": "122ab517d12a33abdcc18b05a8763f4bd2547957b4a477d1c45eff690b6678b3"
+    },
+    {
+      "file": "Fig_Tip_extension_before_after_GAT.tif",
+      "sha256": "9a5b90a2f08b8d44a223a35d3557b8325b9d5ec02edfea4ad0a91413681f33ea"
+    },
+    {
+      "file": "Fig_100_epoch_GAT_control_training.tif",
+      "sha256": "2087f3c9bc6e5d70a393b1b308e1efbd4056c216036e3857ea68a3929def3996"
+    },
+    {
+      "file": "Fig_Connection_and_class_continuity.tif",
+      "sha256": "f26dcf376146f4fdcee95c0f0adc6920de587c24aac22b3a895e3e6781e0dfea"
+    },
+    {
+      "file": "Fig_unet_four_period_before_after_GAT.tif",
+      "sha256": "5d0ef942fcc9288d6fe1856b601400e7cc9e7efda256d9e497b2bf0b3a5acb2d"
+    },
+    {
+      "file": "Fig_deeplab_four_period_before_after_GAT.tif",
+      "sha256": "21da5305b7666788b985de67f29a5437d74366b3a958a46e71d59eb64640514d"
+    },
+    {
+      "file": "Fig_segformer_four_period_before_after_GAT.tif",
+      "sha256": "2bbcca96ebfa90a87d133e53ee5fffba113960df10374c79988a1e216ff4f618"
+    }
+  ],
+  "font": "Times New Roman Bold, all text black",
+  "dpi": 600,
+  "smoothing": false
+}

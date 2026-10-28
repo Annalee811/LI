@@ -1,0 +1,10 @@
+﻿model,variant,reference_constant_same_root_pairs,unnecessary_class_switches,unnecessary_class_switch_rate,reference_true_class_transition_pairs,true_transition_preservation_rate,scope
+unet,baseline,1991,68,0.03415369161225515,5,0.8,"Candidate-nearby same-root pairs with pure heldout temporal labels; valid class changes are scored separately, not penalized"
+unet,mlp,1991,87,0.04369663485685585,5,0.8,"Candidate-nearby same-root pairs with pure heldout temporal labels; valid class changes are scored separately, not penalized"
+unet,gat,1991,90,0.045203415369161226,5,0.8,"Candidate-nearby same-root pairs with pure heldout temporal labels; valid class changes are scored separately, not penalized"
+deeplab,baseline,1454,57,0.039202200825309494,2,0.0,"Candidate-nearby same-root pairs with pure heldout temporal labels; valid class changes are scored separately, not penalized"
+deeplab,mlp,1454,74,0.05089408528198074,2,1.0,"Candidate-nearby same-root pairs with pure heldout temporal labels; valid class changes are scored separately, not penalized"
+deeplab,gat,1454,62,0.04264099037138927,2,0.0,"Candidate-nearby same-root pairs with pure heldout temporal labels; valid class changes are scored separately, not penalized"
+segformer,baseline,1419,64,0.04510218463706836,0,,"Candidate-nearby same-root pairs with pure heldout temporal labels; valid class changes are scored separately, not penalized"
+segformer,mlp,1419,81,0.05708245243128964,0,,"Candidate-nearby same-root pairs with pure heldout temporal labels; valid class changes are scored separately, not penalized"
+segformer,gat,1419,63,0.04439746300211417,0,,"Candidate-nearby same-root pairs with pure heldout temporal labels; valid class changes are scored separately, not penalized"

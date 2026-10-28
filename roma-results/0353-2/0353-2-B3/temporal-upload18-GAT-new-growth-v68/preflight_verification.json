@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "model": "unet",
+      "kind": "gat",
+      "zero_residual_matches_baseline": true,
+      "finite_nonzero_gradients": true,
+      "nodes": 17116,
+      "pairs": 99283
+    },
+    {
+      "model": "unet",
+      "kind": "mlp",
+      "zero_residual_matches_baseline": true,
+      "finite_nonzero_gradients": true,
+      "nodes": 17116,
+      "pairs": 99283
+    },
+    {
+      "model": "deeplab",
+      "kind": "gat",
+      "zero_residual_matches_baseline": true,
+      "finite_nonzero_gradients": true,
+      "nodes": 15352,
+      "pairs": 81167
+    },
+    {
+      "model": "deeplab",
+      "kind": "mlp",
+      "zero_residual_matches_baseline": true,
+      "finite_nonzero_gradients": true,
+      "nodes": 15352,
+      "pairs": 81167
+    },
+    {
+      "model": "segformer",
+      "kind": "gat",
+      "zero_residual_matches_baseline": true,
+      "finite_nonzero_gradients": true,
+      "nodes": 16510,
+      "pairs": 90100
+    },
+    {
+      "model": "segformer",
+      "kind": "mlp",
+      "zero_residual_matches_baseline": true,
+      "finite_nonzero_gradients": true,
+      "nodes": 16510,
+      "pairs": 90100
+    }
+  ],
+  "identity_targets_not_inputs": true,
+  "temporal_source": "18",
+  "connection_source": "17 user_defined only",
+  "cross_split_connection_supervision": false,
+  "test_targets_not_used_for_training_or_selection": true
+}

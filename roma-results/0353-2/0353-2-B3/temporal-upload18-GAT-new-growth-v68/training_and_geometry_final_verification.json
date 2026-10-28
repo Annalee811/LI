@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "modules": [
+    {
+      "module": "unet_gat",
+      "real_saved_epochs": 100,
+      "optimizer_steps": 100,
+      "parameters_changed": true
+    },
+    {
+      "module": "unet_mlp",
+      "real_saved_epochs": 100,
+      "optimizer_steps": 100,
+      "parameters_changed": true
+    },
+    {
+      "module": "deeplab_gat",
+      "real_saved_epochs": 100,
+      "optimizer_steps": 100,
+      "parameters_changed": true
+    },
+    {
+      "module": "deeplab_mlp",
+      "real_saved_epochs": 100,
+      "optimizer_steps": 100,
+      "parameters_changed": true
+    },
+    {
+      "module": "segformer_gat",
+      "real_saved_epochs": 100,
+      "optimizer_steps": 100,
+      "parameters_changed": true
+    },
+    {
+      "module": "segformer_mlp",
+      "real_saved_epochs": 100,
+      "optimizer_steps": 100,
+      "parameters_changed": true
+    }
+  ],
+  "all_36_full_prediction_binary_supports_equal_original": true,
+  "all_source18_and_binary_inputs_unchanged": true,
+  "physical_width_length_invariance": "Identical native binary masks; any deterministic width/length measurement is unchanged",
+  "actual_new_gradient_epochs": 600,
+  "not_simulated": true
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "all_12_frozen_supports_unchanged": true,
+  "all_6_new_modules_100_actual_epochs": true,
+  "temporal_source": "upload18 only",
+  "connection_source": "upload17 user_defined142 IDs only",
+  "all_source_hashes_unchanged": true,
+  "primary_metric": "Conditional temporal scores on fixed binary supports",
+  "scoring_scope": "Same-field internal spatial holdout, not independent generalization"
+}

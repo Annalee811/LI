@@ -1,0 +1,12 @@
+{
+  "temporal_source": "Uploaded18",
+  "connection_source": "Uploaded17 user_defined IDs only",
+  "connection_approval": "使用 (17) 已确认编号监督连接（推荐）",
+  "optimization_focus": [
+    "newly_observed",
+    "tip_extension"
+  ],
+  "binary_geometry": "Frozen previous masks, widths and lengths unchanged",
+  "GAT_initialization": "Random; no previous GAT weights",
+  "epochs": 100
+}

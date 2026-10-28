@@ -1,0 +1,108 @@
+{
+  "state": "complete",
+  "epochs": 100,
+  "selected_epoch": 20,
+  "test": {
+    "classes": [
+      {
+        "name": "persistent",
+        "Precision": 0.9769164245958711,
+        "Recall": 0.9501585179114457,
+        "Dice": 0.9633517012157788,
+        "IoU": 0.9292946338170773,
+        "support": 46367
+      },
+      {
+        "name": "newly_observed",
+        "Precision": 0.7777654867256637,
+        "Recall": 0.8111444393170282,
+        "Dice": 0.7941043596114751,
+        "IoU": 0.6585183103868127,
+        "support": 8668
+      },
+      {
+        "name": "tip_extension",
+        "Precision": 0.17040125065138093,
+        "Recall": 0.32027424094025464,
+        "Dice": 0.22244897959183674,
+        "IoU": 0.1251435132032147,
+        "support": 1021
+      }
+    ],
+    "macro_Dice": 0.6599683468063635,
+    "confusion": [
+      [
+        44056,
+        1548,
+        763
+      ],
+      [
+        808,
+        7031,
+        829
+      ],
+      [
+        233,
+        461,
+        327
+      ]
+    ]
+  },
+  "test_connection": {
+    "F1": 0.7572120038722169,
+    "Precision": 0.6721086097267571,
+    "Recall": 0.8669917978275327,
+    "threshold": 0.30000000000000004,
+    "pairs": 8111,
+    "positive_pairs": 4511
+  },
+  "baseline_test": {
+    "classes": [
+      {
+        "name": "persistent",
+        "Precision": 0.9740791866605316,
+        "Recall": 0.9587853430241335,
+        "Dice": 0.966371758363585,
+        "IoU": 0.934931650893796,
+        "support": 46367
+      },
+      {
+        "name": "newly_observed",
+        "Precision": 0.8068354135075236,
+        "Recall": 0.7979926165205353,
+        "Dice": 0.8023896525723566,
+        "IoU": 0.6699922510654786,
+        "support": 8668
+      },
+      {
+        "name": "tip_extension",
+        "Precision": 0.1903470715835141,
+        "Recall": 0.3437806072477963,
+        "Dice": 0.2450261780104712,
+        "IoU": 0.13961813842482101,
+        "support": 1021
+      }
+    ],
+    "macro_Dice": 0.6712625296488043,
+    "confusion": [
+      [
+        44456,
+        1203,
+        708
+      ],
+      [
+        966,
+        6917,
+        785
+      ],
+      [
+        217,
+        453,
+        351
+      ]
+    ]
+  },
+  "checkpoint_sha256": "932ad5b5033718deab0fceba10f1506c3b2d05d51a875dfbac6a0af8b28865b1",
+  "binary_geometry_unchanged": true,
+  "elapsed_seconds": 194.14571582499775
+}
