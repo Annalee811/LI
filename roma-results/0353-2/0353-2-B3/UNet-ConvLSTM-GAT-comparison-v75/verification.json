@@ -1,0 +1,640 @@
+{
+  "passed": true,
+  "source": "Latest20",
+  "source_sha256": "73cc3061f5eda257ddd629bf545776615a688846d1f5b9fb5314e0de237954b8",
+  "epochs": 100,
+  "selected_epoch": 45,
+  "checkpoint_sha256": "c523b9649828e0e8f9d0187231edf262bf9a8ece62e205e8696ae94f8ff100b5",
+  "original_binary_geometry_preserved_all_periods": true,
+  "heldout_predictions_match_training_evaluation": true,
+  "reference_ROI": [
+    1440,
+    96,
+    1824,
+    480
+  ],
+  "reference_ROI_class_counts": [
+    5777,
+    535,
+    1944,
+    89,
+    99,
+    108
+  ],
+  "extension_ROIs": [
+    {
+      "period": "T2",
+      "ROI": [
+        753,
+        760,
+        1009,
+        1016
+      ]
+    },
+    {
+      "period": "T3",
+      "ROI": [
+        1066,
+        152,
+        1322,
+        408
+      ]
+    },
+    {
+      "period": "T4",
+      "ROI": [
+        1953,
+        852,
+        2209,
+        1108
+      ]
+    }
+  ],
+  "no_smoothing": true,
+  "illustrative_not_independent_holdout": true,
+  "figures": [
+    {
+      "file": "Fig1_UNet_ConvLSTM_GAT_four_period_comparison.tif",
+      "sha256": "6bb5e5c51d738d685fd903d5712011aa114d10640f33d04fffdc3ac940e39356",
+      "dimensions": [
+        4900,
+        4200
+      ],
+      "typography": [
+        {
+          "text": "U-Net temporal classification: original vs ConvLSTM + GAT",
+          "bounds": [
+            1461,
+            35,
+            3439,
+            103
+          ]
+        },
+        {
+          "text": "Same revised reference (20) | 100 optimization epochs | Selected epoch 45",
+          "bounds": [
+            1862,
+            145,
+            3039,
+            179
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            549,
+            245,
+            790,
+            282
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            1699,
+            245,
+            2001,
+            272
+          ]
+        },
+        {
+          "text": "Original U-Net branch",
+          "bounds": [
+            2856,
+            245,
+            3245,
+            282
+          ]
+        },
+        {
+          "text": "U-Net + ConvLSTM + GAT",
+          "bounds": [
+            4012,
+            245,
+            4488,
+            272
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            40,
+            750,
+            110,
+            791
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            40,
+            1675,
+            110,
+            1716
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            40,
+            2600,
+            110,
+            2641
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            40,
+            3525,
+            110,
+            3566
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            252,
+            4090,
+            427,
+            4114
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1402,
+            4090,
+            1554,
+            4114
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2552,
+            4090,
+            2795,
+            4122
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3702,
+            4090,
+            3908,
+            4122
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_UNet_ConvLSTM_GAT_matched_local.tif",
+      "sha256": "f297cd002040817437ed625bedb58a988abcb0a80825df1849940f0f182490d4",
+      "dimensions": [
+        5680,
+        3420
+      ],
+      "typography": [
+        {
+          "text": "Matched local temporal detail: original vs ConvLSTM + GAT",
+          "bounds": [
+            1811,
+            35,
+            3869,
+            104
+          ]
+        },
+        {
+          "text": "Same384px window in all four periods; no binary shape, width or length changes",
+          "bounds": [
+            2151,
+            145,
+            3529,
+            181
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            80,
+            240,
+            150,
+            281
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            357,
+            320,
+            444,
+            347
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1005,
+            320,
+            1175,
+            347
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            1698,
+            320,
+            1842,
+            357
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            2284,
+            320,
+            2615,
+            347
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            2900,
+            240,
+            2970,
+            281
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            3177,
+            320,
+            3264,
+            347
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            3825,
+            320,
+            3995,
+            347
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            4518,
+            320,
+            4662,
+            357
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            5104,
+            320,
+            5435,
+            347
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            80,
+            1730,
+            150,
+            1771
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            357,
+            1810,
+            444,
+            1837
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1005,
+            1810,
+            1175,
+            1837
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            1698,
+            1810,
+            1842,
+            1847
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            2284,
+            1810,
+            2615,
+            1837
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            2900,
+            1730,
+            2970,
+            1771
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            3177,
+            1810,
+            3264,
+            1837
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            3825,
+            1810,
+            3995,
+            1837
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            4518,
+            1810,
+            4662,
+            1847
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            5104,
+            1810,
+            5435,
+            1837
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            252,
+            3310,
+            427,
+            3334
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1597,
+            3310,
+            1749,
+            3334
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2942,
+            3310,
+            3185,
+            3342
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            4287,
+            3310,
+            4493,
+            3342
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig3_UNet_ConvLSTM_GAT_extension_detail.tif",
+      "sha256": "5732378dbca605dcd0889108ab16a86310de023477a69a35f9551dbababae722",
+      "dimensions": [
+        4900,
+        3370
+      ],
+      "typography": [
+        {
+          "text": "Tip-extension detail across follow-up periods",
+          "bounds": [
+            1706,
+            35,
+            3194,
+            104
+          ]
+        },
+        {
+          "text": "Reference-only extension windows | Original and optimized predictions kept unchanged",
+          "bounds": [
+            1740,
+            145,
+            3161,
+            180
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            46,
+            700,
+            114,
+            740
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            579,
+            260,
+            670,
+            290
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1736,
+            260,
+            1915,
+            290
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            2949,
+            260,
+            3101,
+            299
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            4051,
+            260,
+            4399,
+            290
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            46,
+            1670,
+            114,
+            1710
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            579,
+            1230,
+            670,
+            1260
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1736,
+            1230,
+            1915,
+            1260
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            2949,
+            1230,
+            3101,
+            1269
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            4051,
+            1230,
+            4399,
+            1260
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            46,
+            2640,
+            114,
+            2680
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            579,
+            2200,
+            670,
+            2230
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1736,
+            2200,
+            1915,
+            2230
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            2949,
+            2200,
+            3101,
+            2239
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            4051,
+            2200,
+            4399,
+            2230
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            252,
+            3260,
+            427,
+            3284
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1402,
+            3260,
+            1554,
+            3284
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2552,
+            3260,
+            2795,
+            3292
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3702,
+            3260,
+            3908,
+            3292
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig4_UNet_ConvLSTM_GAT_100_epochs.tif",
+      "sha256": "0a0d11ab004869c7de9be91cb28406532fd7078133cb55a4597a46424ab80c5a"
+    }
+  ]
+}

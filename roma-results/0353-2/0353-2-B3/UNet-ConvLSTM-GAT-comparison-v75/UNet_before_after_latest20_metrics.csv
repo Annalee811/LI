@@ -1,0 +1,13 @@
+﻿model,variant,reference,name,Precision,Recall,Dice,IoU,support
+U-Net,original,Latest20; fixed-root internal spatial holdout,persistent,0.9879015200654276,0.9547690756210905,0.9710527592396239,0.943734256502822,73379
+U-Net,original,Latest20; fixed-root internal spatial holdout,newly_observed,0.8079181092879723,0.8385282399812515,0.8229386284356193,0.6991467465641894,12801
+U-Net,original,Latest20; fixed-root internal spatial holdout,tip_extension,0.01812478215406065,0.05823068309070549,0.02764486975013291,0.014016172506738544,893
+U-Net,ConvLSTM_GAT_root_state,Latest20; fixed-root internal spatial holdout,persistent,0.9941184729870981,0.8683955900189427,0.9270137767497345,0.8639568306307284,73379
+U-Net,ConvLSTM_GAT_root_state,Latest20; fixed-root internal spatial holdout,newly_observed,0.5653080654667453,0.97406452620889,0.7154168340122784,0.5569252758050829,12801
+U-Net,ConvLSTM_GAT_root_state,Latest20; fixed-root internal spatial holdout,tip_extension,0.5681570338058888,0.5834266517357223,0.5756906077348066,0.40418929402637704,893
+U-Net,ConvLSTM_GAT_flat_auxiliary,"Latest20; auxiliary pre-root-state output, not final structured result",persistent,0.9901121003699171,0.9593207866010711,0.9744732689166367,0.9502173267460382,73379
+U-Net,ConvLSTM_GAT_flat_auxiliary,"Latest20; auxiliary pre-root-state output, not final structured result",newly_observed,0.7833221701272606,0.9136004999609405,0.8434603872922001,0.7292965826889498,12801
+U-Net,ConvLSTM_GAT_flat_auxiliary,"Latest20; auxiliary pre-root-state output, not final structured result",tip_extension,0.16252390057361377,0.19036954087346025,0.17534811758638474,0.09609949123798757,893
+U-Net,same_label20_control,Latest20; same supervision and structured decoder without ConvLSTM/GAT,persistent,0.9909669501683886,0.9463606753975933,0.968150291032031,0.9382667675512079,73379
+U-Net,same_label20_control,Latest20; same supervision and structured decoder without ConvLSTM/GAT,newly_observed,0.7685319538199483,0.9516444027810327,0.8503420354600028,0.7396478445658774,12801
+U-Net,same_label20_control,Latest20; same supervision and structured decoder without ConvLSTM/GAT,tip_extension,0.36736474694589877,0.47144456886898095,0.4129475232957332,0.26019777503090236,893
