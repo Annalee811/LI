@@ -1,0 +1,289 @@
+{
+  "files": [
+    {
+      "file": "Fig1_Four_period_latest_reference_same_UNet_predictions.tif",
+      "sha256": "8ff1d7420082275b64cf79b4c0fd4920b2f44a823e2879e09d4561a6065b621b",
+      "dimensions": [
+        4100,
+        3820
+      ],
+      "typography": [
+        {
+          "text": "U-Net results with two user-confirmed annotation corrections",
+          "bounds": [
+            1316,
+            25,
+            2783,
+            64
+          ]
+        },
+        {
+          "text": "Predictions and model weights unchanged | Only the reference is revised in this export",
+          "bounds": [
+            1463,
+            115,
+            2637,
+            144
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            518,
+            210,
+            592,
+            233
+          ]
+        },
+        {
+          "text": "Latest corrected reference",
+          "bounds": [
+            1365,
+            210,
+            1745,
+            233
+          ]
+        },
+        {
+          "text": "Optimized U-Net V83",
+          "bounds": [
+            2398,
+            210,
+            2713,
+            241
+          ]
+        },
+        {
+          "text": "Reviewed U-Net V85",
+          "bounds": [
+            3404,
+            210,
+            3706,
+            233
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            25,
+            600,
+            76,
+            630
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            25,
+            1425,
+            76,
+            1455
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            25,
+            2250,
+            76,
+            2280
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            25,
+            3075,
+            76,
+            3105
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3700,
+            387,
+            3724
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1177,
+            3700,
+            1329,
+            3724
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2142,
+            3700,
+            2385,
+            3732
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3107,
+            3700,
+            3313,
+            3732
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_Reference_correction_1.tif",
+      "sha256": "0c662a131a9b2b9dcd82e0e4b976022c134ac70fe5cdac9b62e4e2ab0d503dbf",
+      "dimensions": [
+        3200,
+        1200
+      ],
+      "typography": [
+        {
+          "text": "User-confirmed new root: annotation correction 1",
+          "bounds": [
+            1027,
+            25,
+            2173,
+            63
+          ]
+        },
+        {
+          "text": "T2 | Purple: persistent | Green: new | Yellow: extension | Predictions unchanged",
+          "bounds": [
+            1094,
+            110,
+            2107,
+            136
+          ]
+        },
+        {
+          "text": "Original annotation",
+          "bounds": [
+            281,
+            210,
+            569,
+            241
+          ]
+        },
+        {
+          "text": "Corrected annotation",
+          "bounds": [
+            1049,
+            210,
+            1361,
+            233
+          ]
+        },
+        {
+          "text": "U-Net V83",
+          "bounds": [
+            1908,
+            210,
+            2061,
+            233
+          ]
+        },
+        {
+          "text": "U-Net V85",
+          "bounds": [
+            2688,
+            210,
+            2841,
+            233
+          ]
+        },
+        {
+          "text": "Reference-only change; no root pixel, root identifier, model weight or prediction is edited.",
+          "bounds": [
+            1030,
+            1030,
+            2170,
+            1056
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_Reference_correction_2.tif",
+      "sha256": "52a7225bb7a02e458171295811f60a9cdee981905370b757a4a31c801a373b66",
+      "dimensions": [
+        3200,
+        1200
+      ],
+      "typography": [
+        {
+          "text": "User-confirmed new root: annotation correction 2",
+          "bounds": [
+            1027,
+            25,
+            2173,
+            63
+          ]
+        },
+        {
+          "text": "T2 | Purple: persistent | Green: new | Yellow: extension | Predictions unchanged",
+          "bounds": [
+            1094,
+            110,
+            2107,
+            136
+          ]
+        },
+        {
+          "text": "Original annotation",
+          "bounds": [
+            281,
+            210,
+            569,
+            241
+          ]
+        },
+        {
+          "text": "Corrected annotation",
+          "bounds": [
+            1049,
+            210,
+            1361,
+            233
+          ]
+        },
+        {
+          "text": "U-Net V83",
+          "bounds": [
+            1908,
+            210,
+            2061,
+            233
+          ]
+        },
+        {
+          "text": "U-Net V85",
+          "bounds": [
+            2688,
+            210,
+            2841,
+            233
+          ]
+        },
+        {
+          "text": "Reference-only change; no root pixel, root identifier, model weight or prediction is edited.",
+          "bounds": [
+            1030,
+            1030,
+            2170,
+            1056
+          ]
+        }
+      ]
+    }
+  ],
+  "dpi": 600,
+  "black_bold_Times_New_Roman": true,
+  "geometry_unchanged": true
+}

@@ -1,0 +1,45 @@
+{
+  "period": "T2",
+  "root_label": "0017-N6",
+  "root_id": "R20569",
+  "bbox": [
+    1227,
+    458,
+    1392,
+    653
+  ],
+  "added_changed_pixels": 916,
+  "reason": "User explicitly confirmed this pictured root is new and the U-Net prediction is correct; extension annotation is erroneous.",
+  "changed_pixels_by_split": {
+    "unassigned": 86,
+    "train": 430,
+    "validation": 0,
+    "internal_test": 400
+  },
+  "annotation_code_before": 2,
+  "annotation_code_after": 1,
+  "derived_PNG_before": 3,
+  "derived_PNG_after": 2,
+  "weights_and_predictions_unchanged": true,
+  "no_training": true,
+  "root_geometry_and_IDs_unchanged": true,
+  "total_corrected_pixels_from_original24": 1373,
+  "first_correction_pixels": 457,
+  "prediction_types_on_newly_corrected_pixels": {
+    "original_U_Net_V66": {
+      "1": 12,
+      "2": 861,
+      "3": 43
+    },
+    "optimized_U_Net_V83": {
+      "1": 11,
+      "2": 902,
+      "3": 3
+    },
+    "reviewed_U_Net_V85": {
+      "1": 11,
+      "2": 902,
+      "3": 3
+    }
+  }
+}
