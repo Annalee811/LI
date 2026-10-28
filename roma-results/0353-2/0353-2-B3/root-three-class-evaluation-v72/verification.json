@@ -1,0 +1,169 @@
+{
+  "passed": true,
+  "trained_weights_or_thresholds_changed": false,
+  "new_training": false,
+  "classes_separately_evaluated": [
+    "newly_observed",
+    "tip_extension",
+    "persistent"
+  ],
+  "identity_reference": "Uploaded17 user_defined142 IDs, unchanged",
+  "category_reference": "Uploaded18 unchanged; training never used these classes in V71",
+  "class_definition": "At least3 heldout annotated root pixels in a node and >=90% share one reference class; T1 baseline is not a change-class anchor",
+  "edge_definition": "Both ends have scoreable heldout identity targets; at least one endpoint has the indicated reference category. Cross-category same-root positive links are retained.",
+  "strata_not_disjoint": true,
+  "strata_counts_must_not_be_added": true,
+  "threshold_definition": "One validation-selected threshold per branch, reused unchanged for all three classes; no per-class test tuning",
+  "temporal_pixel_Dice_is_not_connection_F1": true,
+  "new_GAT_temporal_segmentation_metrics_available": false,
+  "evaluation_scope": "One B3 development position; internal spatial holdout and transductive graph, not independent generalization",
+  "coverage": [
+    {
+      "model": "unet",
+      "pure_class_nodes": 2201,
+      "mixed_or_insufficient_nodes": 388,
+      "class_reference_pixel_counts": [
+        46367,
+        8668,
+        1021
+      ],
+      "all_heldout_identity_edges": 8111
+    },
+    {
+      "model": "deeplab",
+      "pure_class_nodes": 1851,
+      "mixed_or_insufficient_nodes": 304,
+      "class_reference_pixel_counts": [
+        40568,
+        6993,
+        980
+      ],
+      "all_heldout_identity_edges": 5217
+    },
+    {
+      "model": "segformer",
+      "pure_class_nodes": 1839,
+      "mixed_or_insufficient_nodes": 293,
+      "class_reference_pixel_counts": [
+        39295,
+        7297,
+        977
+      ],
+      "all_heldout_identity_edges": 5502
+    }
+  ],
+  "immutable_inputs": [
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/data/unet/T2_pixels.npz",
+      "sha256": "982c4dec18f4aef5fd9426f987b8c1d575306fb363523754ac4fa4977279ad22"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/data/unet/T3_pixels.npz",
+      "sha256": "c194f6a928fefa0eea634d6e750e343d4faf148dc394b35656e462c1022bbb5d"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/data/unet/T4_pixels.npz",
+      "sha256": "d634f90c2142520e1854e186c0552931105a7ce191bd6605c58a4f32f08d7bbf"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/unet_gat/completion.json",
+      "sha256": "4a181a5b7a1b8c7a1aa87258eddfa6b7a9ac9158942a44d9217c7d4189e2aa10"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/unet_gat/inference.npz",
+      "sha256": "fec6c2ab3f3518e3af07630004dbea6e85b58cd09a5195ddc0796a6f891e46ae"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/unet_gat/best.pt",
+      "sha256": "0c9e5f2ef56e4a22ec87d30605797dad5837be6a48824cb2047700f6411799fa"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/unet_mlp/completion.json",
+      "sha256": "c0f5835a5f6bfda47504be2b337382b6d0b34cab172b8c30116e67354be0a896"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/unet_mlp/inference.npz",
+      "sha256": "cfa402592d3e9d741f8a31c5a2b2217008fbb65be0bf1a371627b25e574e79ec"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/unet_mlp/best.pt",
+      "sha256": "e90447d8a4a8bc7d6a532ba4df96cac1553a6c1a8d4b4340fa3b75690f60ba8f"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/data/deeplab/T2_pixels.npz",
+      "sha256": "b0b8959b97b0a169c88ca3db08a01efb1414b4ecbfeec8c4e4934a1de2a042bb"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/data/deeplab/T3_pixels.npz",
+      "sha256": "8bb13eb65bf52c3a3a40627a78b0487dfc414b662c723541c8e9b1d079e3aaea"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/data/deeplab/T4_pixels.npz",
+      "sha256": "aae3d01840d63c23580576ea79a62e1d09330880aa102600964574071b12b915"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/deeplab_gat/completion.json",
+      "sha256": "d03d66c50659fbae588781d816b8c9525c63e304c09d20b6de9dd9cf90a735b1"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/deeplab_gat/inference.npz",
+      "sha256": "bec38e48e87b5bef39d9aaf7fd9c73efb138b235cf0203070c916fb9f4417749"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/deeplab_gat/best.pt",
+      "sha256": "e331c488cb915612147923f76e13c2e286a114efbb7c4b5b82800fdcf919125c"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/deeplab_mlp/completion.json",
+      "sha256": "351eb480f835ce5bc7326f05afa15b9921abf215b74baa2fe3e574d2859a4cb3"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/deeplab_mlp/inference.npz",
+      "sha256": "3b3b7a2852bbee5e30d510a9157aba13c1bfb9a57a8507153a803d22d18c2562"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/deeplab_mlp/best.pt",
+      "sha256": "62d573737a470483b07d6c7deb57838a1417303b2c5935f66cc75f760cd79705"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/data/segformer/T2_pixels.npz",
+      "sha256": "3d61a41ca775bf32275f10432daa96054663993c0a9a3a4d9357416bd4954802"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/data/segformer/T3_pixels.npz",
+      "sha256": "62bd07516b30db226c181f3df1beb23aaafdf86f4ddd76142444bcfa15203411"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/data/segformer/T4_pixels.npz",
+      "sha256": "1de661ff9ba53a22f592307bf1f778d1b5c09bc400a3a9e407fb9b8c1f99a6e9"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/segformer_gat/completion.json",
+      "sha256": "8b00bae8cddbd661ba5f124a0498c86c9a49ff303cf8b9bf41bca6b37ff86e44"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/segformer_gat/inference.npz",
+      "sha256": "54b8f05efcd4078b36a1f554e9a3b60482dd0d0b4e7c0bb57217c508cb3fed59"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/segformer_gat/best.pt",
+      "sha256": "737511c9d48c9b5741c298f15494886ebd42a5cea7ab8efddc1ec88879754253"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/segformer_mlp/completion.json",
+      "sha256": "c3d6e5c4211f15d3ab8998ecebefcff5b8f03503c0b62635b23cc123a388b55c"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/segformer_mlp/inference.npz",
+      "sha256": "ef72366f195c893e124788e587d9f31099da23fe3a869195db32618c335ca01c"
+    },
+    {
+      "path": "/workspace/LI/results/B3_root_association_GAT_v71_20261028/segformer_mlp/best.pt",
+      "sha256": "924b246e1f4ae72920908bfa903c2406b9dfcf787a0591e5f630f6e04de1bd53"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/Temporal_class_metrics_before_after.csv",
+      "sha256": "9667df356e99c4b6de852052ea9475873a944d65e3b8230e2b474dba43243d9f"
+    }
+  ]
+}

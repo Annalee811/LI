@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "file": "Fig_newly_observed_connection_evaluation.tif",
+      "sha256": "d70b5e570de25383287671f248f2772f01a4a99861f0e7033b49a10e4d8b787c"
+    },
+    {
+      "file": "Fig_tip_extension_connection_evaluation.tif",
+      "sha256": "db97b22427c4834619faf1cbe33b3a9c24c5633170ed6d2d825ee5d6eaabad01"
+    },
+    {
+      "file": "Fig_persistent_connection_evaluation.tif",
+      "sha256": "45a0e7e689f650487026fa7865e25c1e09d029784b28b16ec12c9a5d5ccf006d"
+    }
+  ],
+  "dpi": 600,
+  "font": "Times New Roman Bold, black",
+  "no_smoothing": true
+}
