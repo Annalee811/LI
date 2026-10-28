@@ -1,0 +1,20 @@
+{
+  "period": "T4",
+  "changed_pixels": 784,
+  "directive": "User explicitly requested every T4 manual extension label to become new; U-Net predictions must remain unchanged.",
+  "annotation_code_before": 2,
+  "annotation_code_after": 1,
+  "derived_PNG_before": 3,
+  "derived_PNG_after": 2,
+  "no_training": true,
+  "no_prediction_edit": true,
+  "previous_two_T2_corrections_preserved": true,
+  "cumulative_changed_pixels_from_original24": 2157,
+  "changed_pixels_by_split": {
+    "unassigned": 82,
+    "train": 381,
+    "validation": 0,
+    "internal_test": 321
+  },
+  "parent_JSON_sha256": "64ec011d50373a06fbe19da680485700fa811035e6cf735e9882d1bdb7f8af3b"
+}

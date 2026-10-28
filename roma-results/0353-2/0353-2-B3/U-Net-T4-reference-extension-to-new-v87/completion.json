@@ -1,0 +1,7 @@
+{
+  "state": "complete",
+  "no_training": true,
+  "no_prediction_edit": true,
+  "T4_reference_extension_to_new": 784,
+  "cumulative_user_reference_corrections": 2157
+}
