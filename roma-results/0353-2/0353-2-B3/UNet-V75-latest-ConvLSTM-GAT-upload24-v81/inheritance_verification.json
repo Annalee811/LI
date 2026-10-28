@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "learned_module_selected_epoch": 92,
+  "learned_module_checkpoint_sha256": "47175a3ac53b2341a2461fb92227bbcdbfe3c2ab371f911fa459c2569f3f3728",
+  "all_initial_parameters_equal_latest_module": true,
+  "baseline": "V75 AFTER selected45; immutable predictions",
+  "only_U_Net": true
+}

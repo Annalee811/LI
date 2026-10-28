@@ -1,0 +1,63 @@
+{
+  "state": "complete",
+  "epochs_completed": 100,
+  "selected_epoch": 13,
+  "edit_threshold": 0.15000000000000002,
+  "test_local_edits": {
+    "changed": 371,
+    "fixed": 286,
+    "harmed": 85,
+    "changed_but_still_wrong": 0,
+    "net_corrected": 201,
+    "edit_precision": 0.77088948787062
+  },
+  "test_local_metrics": {
+    "classes": [
+      {
+        "name": "persistent",
+        "Precision": 0.8701298701298701,
+        "Recall": 0.5168302945301543,
+        "Dice": 0.6484821821381435,
+        "IoU": 0.4798177083333333,
+        "support": 1426
+      },
+      {
+        "name": "newly_observed",
+        "Precision": 0.38654012079378774,
+        "Recall": 0.8160291438979964,
+        "Dice": 0.5245901639344263,
+        "IoU": 0.35555555555555557,
+        "support": 549
+      },
+      {
+        "name": "tip_extension",
+        "Precision": 0.625,
+        "Recall": 0.47244094488188976,
+        "Dice": 0.5381165919282511,
+        "IoU": 0.36809815950920244,
+        "support": 127
+      }
+    ],
+    "confusion": [
+      [
+        737,
+        658,
+        31
+      ],
+      [
+        96,
+        448,
+        5
+      ],
+      [
+        14,
+        53,
+        60
+      ]
+    ],
+    "macro_Dice": 0.5703963126669402,
+    "accuracy": 0.5922930542340628
+  },
+  "checkpoint_sha256": "ce29d142a03c5b4ee0bf0ca9ace14e033e5bada5e1b548c8fa24ea57769646bc",
+  "elapsed_seconds": 170.02721085200028
+}

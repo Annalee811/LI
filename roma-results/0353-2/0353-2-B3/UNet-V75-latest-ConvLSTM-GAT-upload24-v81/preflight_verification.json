@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "future_causality_error": 0.0,
+  "learned_module_source_selected_epoch": 92,
+  "ConvLSTM_gradient": 1.293426275253296,
+  "GAT_gradients": [
+    1.7334537506103516,
+    1.7338321208953857
+  ],
+  "global_pixel_head_frozen": true,
+  "latest_source24_learned_module_inherited_exactly": true,
+  "reference_IDs_used_as_features": false
+}
