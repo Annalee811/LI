@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "future_causality_error": 0.0,
+  "ConvLSTM_gradient": 0.3656004071235657,
+  "GAT_gradients": [
+    0.9942088723182678,
+    1.041717529296875
+  ],
+  "global_pixel_head_frozen": true,
+  "initial_local_labels_equal_frozen_U_Net": true,
+  "reference_IDs_used_as_features": false
+}

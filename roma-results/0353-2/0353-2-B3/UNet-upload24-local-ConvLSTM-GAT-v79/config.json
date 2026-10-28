@@ -1,0 +1,16 @@
+{
+  "epochs": 100,
+  "seed": 2026102809,
+  "source_sha256": "cb5a9326b73003a81b44961300de88806378a771514e886faff168a715bf2c8e",
+  "scope": "Only local candidate corrections, same-root/attachment supervision and explicit history-supported persistence evidence; no global pixel loss; source24 unchanged",
+  "U_Net_parameters_in_optimizer": false,
+  "old_ConvLSTM_GAT_weights_loaded": false,
+  "local_reference": "24",
+  "selection": "Validation fixed errors -3 harmed correct pixels -.5 edits remaining wrong; reference-free candidate mask",
+  "class_weights": [
+    1.0,
+    1.169765591621399,
+    2.560016393661499
+  ],
+  "model_source_sha256": "f64adf11fb0be4a6dcc8b33fad4c835e49cbf56eec5b369139b05a609032a97a"
+}

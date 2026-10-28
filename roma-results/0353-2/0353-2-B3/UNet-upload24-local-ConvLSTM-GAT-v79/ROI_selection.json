@@ -1,0 +1,32 @@
+{
+  "windows": [
+    {
+      "ROI": [
+        1280,
+        64,
+        1536,
+        320
+      ],
+      "changed_pixels": 187
+    },
+    {
+      "ROI": [
+        1408,
+        768,
+        1664,
+        1024
+      ],
+      "changed_pixels": 167
+    },
+    {
+      "ROI": [
+        896,
+        768,
+        1152,
+        1024
+      ],
+      "changed_pixels": 122
+    }
+  ],
+  "selection": "Actual edit counts only, no accuracy input; same window across four periods; examples may include development pixels"
+}

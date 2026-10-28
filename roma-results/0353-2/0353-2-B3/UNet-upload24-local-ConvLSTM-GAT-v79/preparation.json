@@ -1,0 +1,104 @@
+{
+  "source": "24",
+  "source_sha256": "cb5a9326b73003a81b44961300de88806378a771514e886faff168a715bf2c8e",
+  "anchor": "New source24-trained U-Net V78 temporal maps, frozen before local ConvLSTM/GAT training",
+  "periods": [
+    {
+      "period": "T1",
+      "connection_candidates": 0,
+      "short_island_candidates": 0,
+      "persistent_bridge_candidates": 0,
+      "new_attachment_candidates": 0,
+      "strong_new_attachment_candidates": 0,
+      "strong_history_persistent_candidates": 0,
+      "weak_labels_added_to_training": 0,
+      "eligible_pixels": 0,
+      "root_pixels": 104518,
+      "fraction_eligible": 0.0
+    },
+    {
+      "period": "T2",
+      "connection_candidates": 105,
+      "short_island_candidates": 771,
+      "persistent_bridge_candidates": 0,
+      "new_attachment_candidates": 4659,
+      "strong_new_attachment_candidates": 47,
+      "strong_history_persistent_candidates": 507,
+      "weak_labels_added_to_training": 5,
+      "eligible_pixels": 5409,
+      "root_pixels": 152193,
+      "fraction_eligible": 0.03554039936133725
+    },
+    {
+      "period": "T3",
+      "connection_candidates": 17,
+      "short_island_candidates": 396,
+      "persistent_bridge_candidates": 9,
+      "new_attachment_candidates": 2948,
+      "strong_new_attachment_candidates": 0,
+      "strong_history_persistent_candidates": 635,
+      "weak_labels_added_to_training": 6,
+      "eligible_pixels": 3343,
+      "root_pixels": 168984,
+      "fraction_eligible": 0.019782938029635943
+    },
+    {
+      "period": "T4",
+      "connection_candidates": 4,
+      "short_island_candidates": 185,
+      "persistent_bridge_candidates": 0,
+      "new_attachment_candidates": 598,
+      "strong_new_attachment_candidates": 0,
+      "strong_history_persistent_candidates": 280,
+      "weak_labels_added_to_training": 0,
+      "eligible_pixels": 783,
+      "root_pixels": 147533,
+      "fraction_eligible": 0.005307287183206469
+    }
+  ],
+  "scope": "Only existing yellow junction pixels and short new/extension or persistent/extension anomalies; history-supported bridge candidates; no global class refinement",
+  "candidate_generation_uses_reference": false,
+  "manual_IDs_targets_only": true,
+  "geometry_frozen": true,
+  "temporal_main_classes_frozen_outside_candidates": true,
+  "source_revision": {
+    "reference_type": "Full-field U-Net-derived temporal annotation proposal, pending user review",
+    "source_progress_SHA256": "a5589528711ed49f542a86dc9363efd6bc2c115575e0bf5e7db34d1a758f41b0",
+    "teacher_temporal_head_SHA256": "02b2fc69a4bffb833e8eb9e4c0bbbf30d6e7a76c25204059ef5e4c1f8d51dd0e",
+    "teacher_binary_checkpoint_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+    "scope": "All four upper RGB frames; no lower frames",
+    "original_labels_preserved": true,
+    "root_geometry": "U-Net frozen binary root masks",
+    "semantics": "T1 baseline; subsequent persistent shaft, terminal extension, newly observed root/side root relative to adjacent previous period",
+    "ambiguity_rule": "Only teacher-flagged crossing root pixels with assigned score <0.5 AND top-two margin <0.1 are temporally untyped; no background removal there",
+    "random_label_perturbation": false,
+    "human_reviewed": false,
+    "validation_reference": "Teacher-derived proposal; consistency only, not independent accuracy",
+    "original_audit_reference": "Byte-preserved user-selected (6) labels; historical same-field model exposure",
+    "historical_same_field_exposure": true,
+    "external_independent_test_images": 0
+  },
+  "immutable_inputs": [
+    {
+      "path": "/workspace/attachments/c64a3bc7-6dc9-4dbd-a57b-166f682547e9/root_annotation_progress (24).json",
+      "sha256": "cb5a9326b73003a81b44961300de88806378a771514e886faff168a715bf2c8e"
+    },
+    {
+      "path": "/workspace/LI/results/B3_UNet_temporal_upload24_v78_20261028/unet/full/T1_classes.png",
+      "sha256": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f"
+    },
+    {
+      "path": "/workspace/LI/results/B3_UNet_temporal_upload24_v78_20261028/unet/full/T2_classes.png",
+      "sha256": "eaca7826fb33a5ee148f6b0f882b12d86176438dc2f5a4561b33d953b0390cb4"
+    },
+    {
+      "path": "/workspace/LI/results/B3_UNet_temporal_upload24_v78_20261028/unet/full/T3_classes.png",
+      "sha256": "6024965fb956c1f95ace9691d9e3193d1b72fe1f2d7e52d514978aec2c2085ae"
+    },
+    {
+      "path": "/workspace/LI/results/B3_UNet_temporal_upload24_v78_20261028/unet/full/T4_classes.png",
+      "sha256": "efa9a58f9195a75ad0c67d4cdcdd00d86c68adde11564d066e946326d3d403f7"
+    }
+  ],
+  "outer_partition": "One B3 development position, four periods; fixed inner spatial masks, no independent test"
+}
