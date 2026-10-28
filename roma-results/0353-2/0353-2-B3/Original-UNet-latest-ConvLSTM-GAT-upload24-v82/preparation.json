@@ -1,0 +1,110 @@
+{
+  "source": "24",
+  "source_sha256": "cb5a9326b73003a81b44961300de88806378a771514e886faff168a715bf2c8e",
+  "learned_module_source": "Latest V81 source24-trained ConvLSTM/GAT local corrector selected13",
+  "learned_module_sha256": "ce29d142a03c5b4ee0bf0ca9ace14e033e5bada5e1b548c8fa24ea57769646bc",
+  "anchor": "ORIGINAL U-Net in V75 BEFORE column: V66 selected37; old-reference20 newly-observed Dice .8229386284; frozen before local correction",
+  "periods": [
+    {
+      "period": "T1",
+      "connection_candidates": 0,
+      "short_island_candidates": 0,
+      "persistent_bridge_candidates": 0,
+      "new_attachment_candidates": 0,
+      "strong_new_attachment_candidates": 0,
+      "strong_history_persistent_candidates": 0,
+      "weak_labels_added_to_training": 0,
+      "eligible_pixels": 0,
+      "root_pixels": 104518,
+      "fraction_eligible": 0.0
+    },
+    {
+      "period": "T2",
+      "connection_candidates": 1760,
+      "short_island_candidates": 1886,
+      "persistent_bridge_candidates": 37,
+      "new_attachment_candidates": 4543,
+      "strong_new_attachment_candidates": 47,
+      "strong_history_persistent_candidates": 626,
+      "weak_labels_added_to_training": 9,
+      "eligible_pixels": 7454,
+      "root_pixels": 152193,
+      "fraction_eligible": 0.04897728542048583
+    },
+    {
+      "period": "T3",
+      "connection_candidates": 619,
+      "short_island_candidates": 1026,
+      "persistent_bridge_candidates": 40,
+      "new_attachment_candidates": 2416,
+      "strong_new_attachment_candidates": 0,
+      "strong_history_persistent_candidates": 604,
+      "weak_labels_added_to_training": 6,
+      "eligible_pixels": 3807,
+      "root_pixels": 168984,
+      "fraction_eligible": 0.022528760119301234
+    },
+    {
+      "period": "T4",
+      "connection_candidates": 2,
+      "short_island_candidates": 98,
+      "persistent_bridge_candidates": 0,
+      "new_attachment_candidates": 657,
+      "strong_new_attachment_candidates": 0,
+      "strong_history_persistent_candidates": 283,
+      "weak_labels_added_to_training": 0,
+      "eligible_pixels": 754,
+      "root_pixels": 147533,
+      "fraction_eligible": 0.005110720991235859
+    }
+  ],
+  "scope": "Only existing yellow junction pixels and short new/extension or persistent/extension anomalies; history-supported bridge candidates; no global class refinement",
+  "candidate_generation_uses_reference": false,
+  "manual_IDs_targets_only": true,
+  "geometry_frozen": true,
+  "temporal_main_classes_frozen_outside_candidates": true,
+  "source_revision": {
+    "reference_type": "Full-field U-Net-derived temporal annotation proposal, pending user review",
+    "source_progress_SHA256": "a5589528711ed49f542a86dc9363efd6bc2c115575e0bf5e7db34d1a758f41b0",
+    "teacher_temporal_head_SHA256": "02b2fc69a4bffb833e8eb9e4c0bbbf30d6e7a76c25204059ef5e4c1f8d51dd0e",
+    "teacher_binary_checkpoint_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+    "scope": "All four upper RGB frames; no lower frames",
+    "original_labels_preserved": true,
+    "root_geometry": "U-Net frozen binary root masks",
+    "semantics": "T1 baseline; subsequent persistent shaft, terminal extension, newly observed root/side root relative to adjacent previous period",
+    "ambiguity_rule": "Only teacher-flagged crossing root pixels with assigned score <0.5 AND top-two margin <0.1 are temporally untyped; no background removal there",
+    "random_label_perturbation": false,
+    "human_reviewed": false,
+    "validation_reference": "Teacher-derived proposal; consistency only, not independent accuracy",
+    "original_audit_reference": "Byte-preserved user-selected (6) labels; historical same-field model exposure",
+    "historical_same_field_exposure": true,
+    "external_independent_test_images": 0
+  },
+  "immutable_inputs": [
+    {
+      "path": "/workspace/attachments/c64a3bc7-6dc9-4dbd-a57b-166f682547e9/root_annotation_progress (24).json",
+      "sha256": "cb5a9326b73003a81b44961300de88806378a771514e886faff168a715bf2c8e"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/best_temporal_head.pt",
+      "sha256": "58a460c25b29ad4a0fdf3f5ca3e9cad3ec186af0c3827fecc942ba784955e382"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T1_classes.png",
+      "sha256": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T2_classes.png",
+      "sha256": "2adfd5a8cd9856e10af2b13a3f508e078745f8a4d5570cf23019fd37ee0ba43a"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T3_classes.png",
+      "sha256": "d106b7265e20995800779d7e41fd8e66c2a5f983afd7d249a1c55f4077926890"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T4_classes.png",
+      "sha256": "127a37d724eaf6f5a3034cd1bba14c033de3c9297050ef003a3f6008ed2321ac"
+    }
+  ],
+  "outer_partition": "One B3 development position, four periods; fixed inner spatial masks, no independent test"
+}

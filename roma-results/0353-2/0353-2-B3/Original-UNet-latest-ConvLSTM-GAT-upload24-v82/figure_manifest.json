@@ -1,0 +1,881 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "Fig1_Four_period_U_Net_local_correction.tif",
+      "sha256": "c336789007d9953ad278af14f75dbe2817e91ae2fc3c00f3dfe1a86a293683ae",
+      "dimensions": [
+        4900,
+        4200
+      ],
+      "typography": [
+        {
+          "text": "Original U-Net: local refinement with the latest ConvLSTM + GAT",
+          "bounds": [
+            1375,
+            35,
+            3525,
+            103
+          ]
+        },
+        {
+          "text": "Original U-Net baseline | Revised annotation24 | Root geometry fixed",
+          "bounds": [
+            1906,
+            145,
+            2994,
+            179
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            628,
+            245,
+            713,
+            271
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            1703,
+            245,
+            1997,
+            271
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            2925,
+            245,
+            3175,
+            280
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            4067,
+            245,
+            4434,
+            271
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            41,
+            750,
+            109,
+            790
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            41,
+            1675,
+            109,
+            1715
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            41,
+            2600,
+            109,
+            2640
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            41,
+            3525,
+            109,
+            3565
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            4090,
+            387,
+            4114
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1377,
+            4090,
+            1529,
+            4114
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2542,
+            4090,
+            2785,
+            4122
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3707,
+            4090,
+            3913,
+            4122
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_Local_connection_and_jump_window_1.tif",
+      "sha256": "476fa07293c080979b73c171b76bad746bb27203ed863bfcf4a847acbb0610c2",
+      "dimensions": [
+        4600,
+        4980
+      ],
+      "typography": [
+        {
+          "text": "Local correction window 1: original body labels retained",
+          "bounds": [
+            1456,
+            35,
+            3143,
+            98
+          ]
+        },
+        {
+          "text": "Reference | newly trained U-Net | local correction | actual edited pixels",
+          "bounds": [
+            1733,
+            140,
+            2868,
+            174
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            28,
+            720,
+            92,
+            757
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            478,
+            270,
+            772,
+            296
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            1600,
+            270,
+            1850,
+            305
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            2642,
+            270,
+            3009,
+            296
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            3817,
+            270,
+            4033,
+            304
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            28,
+            1820,
+            92,
+            1857
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            478,
+            1370,
+            772,
+            1396
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            1600,
+            1370,
+            1850,
+            1405
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            2642,
+            1370,
+            3009,
+            1396
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            3817,
+            1370,
+            4033,
+            1404
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            28,
+            2920,
+            92,
+            2957
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            478,
+            2470,
+            772,
+            2496
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            1600,
+            2470,
+            1850,
+            2505
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            2642,
+            2470,
+            3009,
+            2496
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            3817,
+            2470,
+            4033,
+            2504
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            28,
+            4020,
+            92,
+            4057
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            478,
+            3570,
+            772,
+            3596
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            1600,
+            3570,
+            1850,
+            3605
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            2642,
+            3570,
+            3009,
+            3596
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            3817,
+            3570,
+            4033,
+            3604
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            4810,
+            387,
+            4834
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1302,
+            4810,
+            1454,
+            4834
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2392,
+            4810,
+            2635,
+            4842
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3482,
+            4810,
+            3688,
+            4842
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_Local_connection_and_jump_window_2.tif",
+      "sha256": "4ac0d6e8774ec83057db6cb58532ec27ce620d4de504f2401da9dda34ea70785",
+      "dimensions": [
+        4600,
+        4980
+      ],
+      "typography": [
+        {
+          "text": "Local correction window 2: original body labels retained",
+          "bounds": [
+            1456,
+            35,
+            3143,
+            98
+          ]
+        },
+        {
+          "text": "Reference | newly trained U-Net | local correction | actual edited pixels",
+          "bounds": [
+            1733,
+            140,
+            2868,
+            174
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            28,
+            720,
+            92,
+            757
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            478,
+            270,
+            772,
+            296
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            1600,
+            270,
+            1850,
+            305
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            2642,
+            270,
+            3009,
+            296
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            3817,
+            270,
+            4033,
+            304
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            28,
+            1820,
+            92,
+            1857
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            478,
+            1370,
+            772,
+            1396
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            1600,
+            1370,
+            1850,
+            1405
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            2642,
+            1370,
+            3009,
+            1396
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            3817,
+            1370,
+            4033,
+            1404
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            28,
+            2920,
+            92,
+            2957
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            478,
+            2470,
+            772,
+            2496
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            1600,
+            2470,
+            1850,
+            2505
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            2642,
+            2470,
+            3009,
+            2496
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            3817,
+            2470,
+            4033,
+            2504
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            28,
+            4020,
+            92,
+            4057
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            478,
+            3570,
+            772,
+            3596
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            1600,
+            3570,
+            1850,
+            3605
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            2642,
+            3570,
+            3009,
+            3596
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            3817,
+            3570,
+            4033,
+            3604
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            4810,
+            387,
+            4834
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1302,
+            4810,
+            1454,
+            4834
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2392,
+            4810,
+            2635,
+            4842
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3482,
+            4810,
+            3688,
+            4842
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_Local_connection_and_jump_window_3.tif",
+      "sha256": "3b33c5888672e2c6250a03a97dddb2051e05057156b344ccffb844a7cd9a914b",
+      "dimensions": [
+        4600,
+        4980
+      ],
+      "typography": [
+        {
+          "text": "Local correction window 3: original body labels retained",
+          "bounds": [
+            1456,
+            35,
+            3143,
+            98
+          ]
+        },
+        {
+          "text": "Reference | newly trained U-Net | local correction | actual edited pixels",
+          "bounds": [
+            1733,
+            140,
+            2868,
+            174
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            28,
+            720,
+            92,
+            757
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            478,
+            270,
+            772,
+            296
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            1600,
+            270,
+            1850,
+            305
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            2642,
+            270,
+            3009,
+            296
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            3817,
+            270,
+            4033,
+            304
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            28,
+            1820,
+            92,
+            1857
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            478,
+            1370,
+            772,
+            1396
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            1600,
+            1370,
+            1850,
+            1405
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            2642,
+            1370,
+            3009,
+            1396
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            3817,
+            1370,
+            4033,
+            1404
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            28,
+            2920,
+            92,
+            2957
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            478,
+            2470,
+            772,
+            2496
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            1600,
+            2470,
+            1850,
+            2505
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            2642,
+            2470,
+            3009,
+            2496
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            3817,
+            2470,
+            4033,
+            2504
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            28,
+            4020,
+            92,
+            4057
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            478,
+            3570,
+            772,
+            3596
+          ]
+        },
+        {
+          "text": "Original U-Net",
+          "bounds": [
+            1600,
+            3570,
+            1850,
+            3605
+          ]
+        },
+        {
+          "text": "After local refinement",
+          "bounds": [
+            2642,
+            3570,
+            3009,
+            3596
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            3817,
+            3570,
+            4033,
+            3604
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            4810,
+            387,
+            4834
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1302,
+            4810,
+            1454,
+            4834
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2392,
+            4810,
+            2635,
+            4842
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3482,
+            4810,
+            3688,
+            4842
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig3_Two_stages_real_100_epoch_curves.tif",
+      "sha256": "271ced2b41a720a8be3b768212d31878dde5b8058ba9731e44bfa4643f3250b9"
+    }
+  ],
+  "black_bold_Times_New_Roman": true,
+  "dpi": 600,
+  "binary_geometry_unchanged": true,
+  "changes_outside_candidates_zero": true
+}

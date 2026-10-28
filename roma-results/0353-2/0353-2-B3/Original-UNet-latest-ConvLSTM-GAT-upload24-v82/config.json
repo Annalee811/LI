@@ -1,0 +1,21 @@
+{
+  "epochs": 100,
+  "seed": 2026102812,
+  "source_sha256": "cb5a9326b73003a81b44961300de88806378a771514e886faff168a715bf2c8e",
+  "scope": "Only local candidate corrections, same-root/attachment supervision and explicit history-supported persistence evidence; no global pixel loss; source24 unchanged",
+  "U_Net_parameters_in_optimizer": false,
+  "old_ConvLSTM_GAT_weights_loaded": true,
+  "learned_module_selected_epoch": 13,
+  "learned_module_checkpoint_sha256": "ce29d142a03c5b4ee0bf0ca9ace14e033e5bada5e1b548c8fa24ea57769646bc",
+  "frozen_base_selected_epoch": 37,
+  "frozen_base_checkpoint_sha256": "58a460c25b29ad4a0fdf3f5ca3e9cad3ec186af0c3827fecc942ba784955e382",
+  "original_U_Net_V75_before_frozen": true,
+  "local_reference": "24",
+  "selection": "Validation fixed errors -3 harmed correct pixels -.5 edits remaining wrong; reference-free candidate mask",
+  "class_weights": [
+    1.0,
+    1.0984636545181274,
+    2.211622714996338
+  ],
+  "model_source_sha256": "f64adf11fb0be4a6dcc8b33fad4c835e49cbf56eec5b369139b05a609032a97a"
+}

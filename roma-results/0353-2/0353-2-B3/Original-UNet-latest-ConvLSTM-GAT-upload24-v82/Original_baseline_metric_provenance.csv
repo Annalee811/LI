@@ -1,0 +1,7 @@
+﻿model,prediction,reference,category,Dice
+"ORIGINAL U-Net V66, BEFORE column in V75",unchanged frozen original output,20,persistent,0.9710527592396239
+"ORIGINAL U-Net V66, BEFORE column in V75",unchanged frozen original output,20,newly_observed,0.8229386284356193
+"ORIGINAL U-Net V66, BEFORE column in V75",unchanged frozen original output,20,tip_extension,0.02764486975013291
+"ORIGINAL U-Net V66, BEFORE column in V75",unchanged frozen original output,24,persistent,0.9687084625609216
+"ORIGINAL U-Net V66, BEFORE column in V75",unchanged frozen original output,24,newly_observed,0.7861928011808789
+"ORIGINAL U-Net V66, BEFORE column in V75",unchanged frozen original output,24,tip_extension,0.08570842731187205

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "source_sha256": "cb5a9326b73003a81b44961300de88806378a771514e886faff168a715bf2c8e",
+  "reference": "24",
+  "epochs_local": 100,
+  "anchor_epochs": 100,
+  "all_binary_masks_identical": true,
+  "all_body_class_changes_outside_candidates_zero": true,
+  "T1_unchanged": true,
+  "heldout_predictions_match_training": true,
+  "reference_IDs_not_prediction_inputs": true,
+  "changed_pixels": 3585,
+  "unchanged_inputs": true
+}
