@@ -1112,6 +1112,97 @@
           ]
         }
       ]
+    },
+    {
+      "file": "Fig5_Reported_junction_native_pixel_and_ownership.tif",
+      "sha256": "6ddb232b8356fe27802d7a639cee70746ac690a313d09f0365d5f2e522acf40b",
+      "dimensions": [
+        3200,
+        1240
+      ],
+      "typography": [
+        {
+          "text": "Reported attachment: native pixel and single-root ownership",
+          "bounds": [
+            887,
+            25,
+            2313,
+            74
+          ]
+        },
+        {
+          "text": "Circled pixel (1067, 620): Persistent | Root geometry is identical before and after",
+          "bounds": [
+            1088,
+            115,
+            2112,
+            141
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            376,
+            220,
+            443,
+            241
+          ]
+        },
+        {
+          "text": "Before temporal classes",
+          "bounds": [
+            1044,
+            220,
+            1355,
+            248
+          ]
+        },
+        {
+          "text": "Corrected temporal classes",
+          "bounds": [
+            1811,
+            220,
+            2169,
+            248
+          ]
+        },
+        {
+          "text": "Predicted root ownership",
+          "bounds": [
+            2613,
+            220,
+            2948,
+            248
+          ]
+        },
+        {
+          "text": "Temporal colors: purple = persistent; green = new; yellow = extension.",
+          "bounds": [
+            1166,
+            945,
+            2035,
+            970
+          ]
+        },
+        {
+          "text": "Ownership panel: blue = vertical root; orange = diagonal root. One shared pixel has one owner.",
+          "bounds": [
+            1012,
+            1010,
+            2187,
+            1036
+          ]
+        },
+        {
+          "text": "The new-colored jump is removed. Actual distal extension remains on its own established root.",
+          "bounds": [
+            1018,
+            1075,
+            2182,
+            1100
+          ]
+        }
+      ]
     }
   ],
   "dpi": 600,

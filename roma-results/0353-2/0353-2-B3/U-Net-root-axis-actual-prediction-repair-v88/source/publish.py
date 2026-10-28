@@ -33,7 +33,7 @@ def main():
     manifest=json.loads((OUT/'figure_manifest.json').read_text())
     for r in manifest['files']:assert hashlib.sha256((OUT/'figures'/r['file']).read_bytes()).hexdigest()==r['sha256']
     for p in HERE.glob('*.py'):shutil.copy2(p,OUT/'source'/p.name)
-    names=['RESULTS.md','completion.json','prediction_verification.json','prediction_freeze.json','evaluation_verification.json','evaluation_results.json','structural_audit.json','User_case_audit.json','figure_manifest.json','Known_cases_actual_repair_preview.png']
+    names=['RESULTS.md','completion.json','prediction_verification.json','prediction_freeze.json','evaluation_verification.json','evaluation_results.json','structural_audit.json','User_case_audit.json','figure_manifest.json','Known_cases_actual_repair_preview.png','Junction_D_native_pixel_verification.json']
     names += [p.name for p in sorted(OUT.glob('*.csv'))]
     for directory in ['figures','full','changes','ownership','source']:
         names += [str(p.relative_to(OUT)) for p in sorted((OUT/directory).rglob('*')) if p.is_file()]
