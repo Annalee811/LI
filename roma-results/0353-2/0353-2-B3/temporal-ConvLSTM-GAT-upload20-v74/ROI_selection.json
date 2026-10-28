@@ -1,0 +1,80 @@
+{
+  "matched_ROI": [
+    1440,
+    96,
+    1824,
+    480
+  ],
+  "matched_reference_counts": [
+    5777,
+    535,
+    1944,
+    89,
+    99,
+    108
+  ],
+  "high_difference_windows": [
+    {
+      "ROI": [
+        1248,
+        724,
+        1632,
+        1108
+      ],
+      "changed_pixel_score": 22580
+    },
+    {
+      "ROI": [
+        960,
+        724,
+        1344,
+        1108
+      ],
+      "changed_pixel_score": 20449
+    },
+    {
+      "ROI": [
+        1536,
+        724,
+        1920,
+        1108
+      ],
+      "changed_pixel_score": 14609
+    }
+  ],
+  "extension_ROIs": [
+    {
+      "period": "T2",
+      "ROI": [
+        753,
+        760,
+        1009,
+        1016
+      ],
+      "reference_extension_pixels": 1205
+    },
+    {
+      "period": "T3",
+      "ROI": [
+        1066,
+        152,
+        1322,
+        408
+      ],
+      "reference_extension_pixels": 373
+    },
+    {
+      "period": "T4",
+      "ROI": [
+        1953,
+        852,
+        2209,
+        1108
+      ],
+      "reference_extension_pixels": 169
+    }
+  ],
+  "difference_selection": "Top3 nonoverlapping384px windows by ORIGINAL-vs-JOINT prediction disagreement only; no accuracy/ground-truth scoring input",
+  "matched_selection": "Reference20 class coverage only",
+  "scope": "Illustrative windows may include training/development pixels; not a heldout accuracy estimate; regressions retained"
+}

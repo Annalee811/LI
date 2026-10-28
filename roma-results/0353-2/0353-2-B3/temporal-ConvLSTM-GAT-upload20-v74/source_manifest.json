@@ -1,0 +1,46 @@
+[
+  {
+    "path": "attention.py",
+    "sha256": "ae9add098c740c2fea41806068047667e06da1c33c3163f6df02d12d8a6de2ed"
+  },
+  {
+    "path": "baseline_figures.py",
+    "sha256": "065971210d024129d88b169dc9c1c3e1b0f5bfd7e0251e7baeb827bbae7fc81f"
+  },
+  {
+    "path": "data.py",
+    "sha256": "48744a8cd92b16d5b9a308d8acc94b10cbf319654cfcf3a8be30b725550d7475"
+  },
+  {
+    "path": "evaluate.py",
+    "sha256": "f774ae92bc0cfae39178ba1b3cdb91b856b48fc158526f41c842d5ed7dcbe209"
+  },
+  {
+    "path": "metrics.py",
+    "sha256": "67ab7abec7f272ad5738e8713e5c2b34450a642da10b43051bf87b40a168ae3b"
+  },
+  {
+    "path": "model.py",
+    "sha256": "dfbb7f1b3f8193420d1bd7426a327011fcb5f4392309d5ccbe0612bd064c9fdd"
+  },
+  {
+    "path": "prepare.py",
+    "sha256": "54db1193f01379a9675537e5408a90fc9a593210c5c8ef049ade692b10055e19"
+  },
+  {
+    "path": "routing.py",
+    "sha256": "1718193ce5d04ad2635c709a6cd1c0eafc1982cc9db3ea32e18a60ac2b1a9d56"
+  },
+  {
+    "path": "run_all.py",
+    "sha256": "829433550eff0e25a29b8d05fce136c847f9aa488ed0a53d2847ce8f4d039829"
+  },
+  {
+    "path": "train.py",
+    "sha256": "5db7084143efc8d3ac373f6564966a4749f12d25165bba9d7d1841d651df9be1"
+  },
+  {
+    "path": "verify.py",
+    "sha256": "dbd45d3ddee25aa7eed51d77e4e2caca452e335f133d13d6404a517d25a2d64c"
+  }
+]

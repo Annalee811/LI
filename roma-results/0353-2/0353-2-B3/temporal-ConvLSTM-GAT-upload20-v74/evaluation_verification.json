@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "latest20_source_sha256": "73cc3061f5eda257ddd629bf545776615a688846d1f5b9fb5314e0de237954b8",
+  "all_36_binary_supports_equal_original": true,
+  "all_class_metrics_use_same_latest20": true,
+  "ground_truth_IDs_used_in_prediction": false,
+  "historical_curves_not_rewritten": true,
+  "causal_preflight_passed": true,
+  "difference_ROIs_use_predictions_only": true,
+  "all_inputs_unchanged": true
+}

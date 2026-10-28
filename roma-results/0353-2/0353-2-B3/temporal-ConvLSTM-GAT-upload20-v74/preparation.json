@@ -1,0 +1,236 @@
+{
+  "position": "0353-2-B3",
+  "upload20_sha256": "73cc3061f5eda257ddd629bf545776615a688846d1f5b9fb5314e0de237954b8",
+  "confirmed_root_IDs": 142,
+  "annotation_revision": {
+    "reference_type": "Full-field U-Net-derived temporal annotation proposal, pending user review",
+    "source_progress_SHA256": "a5589528711ed49f542a86dc9363efd6bc2c115575e0bf5e7db34d1a758f41b0",
+    "teacher_temporal_head_SHA256": "02b2fc69a4bffb833e8eb9e4c0bbbf30d6e7a76c25204059ef5e4c1f8d51dd0e",
+    "teacher_binary_checkpoint_SHA256": "ca744046b90b36497c490d0c87ed7205134cd75e1fe4c7d84d3dbd1a1af4e12e",
+    "scope": "All four upper RGB frames; no lower frames",
+    "original_labels_preserved": true,
+    "root_geometry": "U-Net frozen binary root masks",
+    "semantics": "T1 baseline; subsequent persistent shaft, terminal extension, newly observed root/side root relative to adjacent previous period",
+    "ambiguity_rule": "Only teacher-flagged crossing root pixels with assigned score <0.5 AND top-two margin <0.1 are temporally untyped; no background removal there",
+    "random_label_perturbation": false,
+    "human_reviewed": false,
+    "validation_reference": "Teacher-derived proposal; consistency only, not independent accuracy",
+    "original_audit_reference": "Byte-preserved user-selected (6) labels; historical same-field model exposure",
+    "historical_same_field_exposure": true,
+    "external_independent_test_images": 0
+  },
+  "periods": [
+    {
+      "period": "T1",
+      "typed_pixels": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 105376,
+        "255": 0
+      },
+      "new_root_pixels_without_owner": 871,
+      "stale_owner_pixels_not_supervised": 0
+    },
+    {
+      "period": "T2",
+      "typed_pixels": {
+        "1": 93341,
+        "2": 54213,
+        "3": 4509,
+        "4": 0,
+        "255": 292
+      },
+      "new_root_pixels_without_owner": 1591,
+      "stale_owner_pixels_not_supervised": 1421
+    },
+    {
+      "period": "T3",
+      "typed_pixels": {
+        "1": 146091,
+        "2": 20587,
+        "3": 3736,
+        "4": 0,
+        "255": 134
+      },
+      "new_root_pixels_without_owner": 1564,
+      "stale_owner_pixels_not_supervised": 0
+    },
+    {
+      "period": "T4",
+      "typed_pixels": {
+        "1": 149049,
+        "2": 3718,
+        "3": 531,
+        "4": 0,
+        "255": 28
+      },
+      "new_root_pixels_without_owner": 5994,
+      "stale_owner_pixels_not_supervised": 201
+    }
+  ],
+  "epochs": 100,
+  "new_variants": [
+    "control",
+    "convlstm_gat"
+  ],
+  "causal_history": true,
+  "original_reference": "V66 archived18 baseline, preserved unchanged",
+  "comparison_reference": "Latest20 for all variants; same frozen binary supports",
+  "root_state_ambiguity": "Preserve20 exactly; exclude mixed cases only from root-state supervision, not pixel evaluation",
+  "immutable_inputs": [
+    {
+      "path": "/workspace/LI/results/B3_ConvLSTM_GAT_upload20_v74_20261028/data/source_progress_20.json",
+      "sha256": "73cc3061f5eda257ddd629bf545776615a688846d1f5b9fb5314e0de237954b8"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/data/upper/T1_RGB.png",
+      "sha256": "c8548de563b4d5ac0b223235758f7cdf6f118ac70614a7792a86f12fb9eb295b"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/data/upper/T2_RGB.png",
+      "sha256": "e65b91ef07abea8527b71a97a37e2ff19ca1a6527ff0090970cf084bba338b3c"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/data/upper/T3_RGB.png",
+      "sha256": "3df9bca33ebd9ee88a2eab874143569d5f8d9cdb7cd49d326754791f1b58e8e6"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/data/upper/T4_RGB.png",
+      "sha256": "d43a5d5fd491ed05579f2f32bc853808165431ef15c30eac48f143b20160bdea"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/history.csv",
+      "sha256": "c6ef09c8302ddfb07dd20b65dc38fa052037039e755b72c7c60aef532cf8c69c"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/config.json",
+      "sha256": "d3101591b7099b162875fd5a4ea8c930c778ae39e76593c77eba6bb9284d54eb"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/completion.json",
+      "sha256": "9095290d6bb7915bf65e18e75af627451534d7f8cbd3be7aab9e1e2ec30b8207"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/best_temporal_head.pt",
+      "sha256": "58a460c25b29ad4a0fdf3f5ca3e9cad3ec186af0c3827fecc942ba784955e382"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T2_probability.npz",
+      "sha256": "f4d7c55125840ff24bb3fc1c2d798d6fe1beabe830f6e78a1b219be8a9e10968"
+    },
+    {
+      "path": "/workspace/LI/results/B3_annotation_refinement_v1/unet/upper/T2_probability.npy",
+      "sha256": "5b5175911c585b57d7b808e3745b858a2539a6efa469fe432eccb1eed0b22d11"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/data/unet/ownership.npz",
+      "sha256": "609bbc40362a6ed6333894a5bcc71d29edf46c0a05846e6eeddab515980c1068"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T3_probability.npz",
+      "sha256": "44946dfa1bf50bb8d57ccc80e7f9d8b0f2b81c133b940b570664f29e7dbeebee"
+    },
+    {
+      "path": "/workspace/LI/results/B3_annotation_refinement_v1/unet/upper/T3_probability.npy",
+      "sha256": "56437181eddd4693cfcdc21bcd577a25dc23de7c2d796adaa16450ffe671ebc6"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T4_probability.npz",
+      "sha256": "b00443aaa1d7a9b098eca8b8aaece827370d9cd6a886bc941193395646bfbd25"
+    },
+    {
+      "path": "/workspace/LI/results/B3_annotation_refinement_v1/unet/upper/T4_probability.npy",
+      "sha256": "a2f1ce123f384f6d9398ba4f2f6462901c5ca8cfba2c7cae578d2687fa9c695a"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/deeplab/history.csv",
+      "sha256": "b671a7665d808a0025e9e610452e64098a8ebefdf8ce1be1f93cf52115878bcb"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/deeplab/config.json",
+      "sha256": "89721e01957865f59ce235b917e4d2307e38adffca835378146277f58a99b9aa"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/deeplab/completion.json",
+      "sha256": "4b3a70775cc44dc11008531f515a773aecb52cd488e82534226df059eed41f7f"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/deeplab/best_temporal_head.pt",
+      "sha256": "0b73e59b1928739a48034d128be0eca9778202e90bf20917abd59b1a2ac28d1d"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/deeplab/full/T2_probability.npz",
+      "sha256": "505a74cddb7c2db412c2c8c4cb2cd01428de7fed04574bb7ea914b3f723b6631"
+    },
+    {
+      "path": "/workspace/LI/results/B3_annotation_refinement_v1/deeplab/upper/T2_probability.npy",
+      "sha256": "29ff4f9e6db534dc26b4a00b6d5dcf64d1abc896e4597f2962549b521ce73b5c"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/data/deeplab/ownership.npz",
+      "sha256": "d0e4a533af0247566fe931cae63a14c827cb83fb099847085f08c0db8b94a614"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/deeplab/full/T3_probability.npz",
+      "sha256": "b77c84bc61b09f286c83ef77ef9d5d570b782e35588d47b74a022a22580318aa"
+    },
+    {
+      "path": "/workspace/LI/results/B3_annotation_refinement_v1/deeplab/upper/T3_probability.npy",
+      "sha256": "45082991747907f4883495f435cf57b9ffe49578cbc2dac11279c43b2bd85e38"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/deeplab/full/T4_probability.npz",
+      "sha256": "0029577f6e25bf39cd5de1601ccc8f444c430c57a15ce6dc7e7dc35c76278d0c"
+    },
+    {
+      "path": "/workspace/LI/results/B3_annotation_refinement_v1/deeplab/upper/T4_probability.npy",
+      "sha256": "57323acdc8065e045c0306d53c4aac3436035f5c90ee7e643786a4a8c2a22e70"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/segformer/history.csv",
+      "sha256": "1511da47f3a68618cc1ff07e984536dd881ceb5b82bbe6cbca5c29cedcd48194"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/segformer/config.json",
+      "sha256": "1812e01113833398e753437111769841e946516f584d7b92e79ec5b58aa31d9b"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/segformer/completion.json",
+      "sha256": "e1058e60ae13724b532932bd3f17ad7b1c8ccfb34476c5b7bd20c85f52f9de91"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/segformer/best_temporal_head.pt",
+      "sha256": "cff450a88c0ab2509172eaa828cd9098556eea80550d9ab87089e17af7118f69"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/segformer/full/T2_probability.npz",
+      "sha256": "cbe95dec022ace4e2b6ede38da5a525f99770d377ac4f6ed231706cbb6209d86"
+    },
+    {
+      "path": "/workspace/LI/results/B3_annotation_refinement_v1/segformer/upper/T2_probability.npy",
+      "sha256": "afab90c6a48c84f7154416f46ac77b454fca12b957e66309fec5629b1af09e53"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_GAT_new_growth_v68_20261028/data/segformer/ownership.npz",
+      "sha256": "c14761aa167a08f8be48356f56bb42ec583f52078d2f3cee80a5135657dcf840"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/segformer/full/T3_probability.npz",
+      "sha256": "56e31c464949366a36dd0ed957c18c93ac1467b6225e1a092690076f185299a7"
+    },
+    {
+      "path": "/workspace/LI/results/B3_annotation_refinement_v1/segformer/upper/T3_probability.npy",
+      "sha256": "1ab1968799057cd01192e392c70ee6a1ab70e2897a1be48939cdfb4010cafdee"
+    },
+    {
+      "path": "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/segformer/full/T4_probability.npz",
+      "sha256": "f4e0937272ca444f123df89e8d437fac8331151d954ddfb454b03b39262e53d7"
+    },
+    {
+      "path": "/workspace/LI/results/B3_annotation_refinement_v1/segformer/upper/T4_probability.npy",
+      "sha256": "754e16d869d167008df132cc00b870eddd6fd08e0248d5caf2b99b4890858f5e"
+    }
+  ],
+  "outer_partition": "All4 B3 dates in one development position; inner spatial masks only, no independent test"
+}

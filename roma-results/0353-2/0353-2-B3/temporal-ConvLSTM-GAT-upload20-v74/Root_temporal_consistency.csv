@@ -1,0 +1,10 @@
+﻿model,variant,mixed_identity_predicted_groups,scoreable_predicted_groups,node_group_purity,node_group_ARI,scoreable_root_periods,new_extension_conflicts_any,new_extension_conflicts_5px,scoreable_stable_root_transitions,inappropriate_established_to_new_jumps,mean_groups_per_known_root_period
+unet,baseline,,,,,158,28,24,71,0,
+unet,control,65,316,0.9183991683991684,0.6378791136319399,158,8,5,71,0,3.6962025316455698
+unet,convlstm_gat,64,312,0.9126819126819127,0.6517168232712074,158,4,1,71,0,3.6202531645569622
+deeplab,baseline,,,,,150,29,15,67,1,
+deeplab,control,50,276,0.927012278308322,0.6593854494274259,150,5,2,67,0,4.286666666666667
+deeplab,convlstm_gat,42,336,0.9379263301500682,0.6260177464517453,150,10,7,67,0,4.7
+segformer,baseline,,,,,154,18,15,69,0,
+segformer,control,70,256,0.885506287227002,0.6373688492917402,154,6,4,69,0,4.0064935064935066
+segformer,convlstm_gat,60,250,0.8729318332230311,0.6319057039812778,154,7,3,69,0,3.831168831168831

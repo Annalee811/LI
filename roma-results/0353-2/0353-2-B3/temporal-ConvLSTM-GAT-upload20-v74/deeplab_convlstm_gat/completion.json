@@ -1,0 +1,128 @@
+{
+  "state": "complete",
+  "epochs_completed": 100,
+  "selected_epoch": 29,
+  "test": {
+    "classes": [
+      {
+        "name": "persistent",
+        "Precision": 0.982241563865443,
+        "Recall": 0.9577544315926357,
+        "Dice": 0.9698434562639152,
+        "IoU": 0.9414525026910656,
+        "support": 58444
+      },
+      {
+        "name": "newly_observed",
+        "Precision": 0.7811003615752956,
+        "Recall": 0.833385465540611,
+        "Dice": 0.8063962873284907,
+        "IoU": 0.67559800524047,
+        "support": 9591
+      },
+      {
+        "name": "tip_extension",
+        "Precision": 0.19077134986225897,
+        "Recall": 0.434850863422292,
+        "Dice": 0.2651986596457635,
+        "IoU": 0.15286975717439294,
+        "support": 637
+      }
+    ],
+    "macro_Dice": 0.6804794677460565,
+    "confusion": [
+      [
+        55975,
+        2140,
+        329
+      ],
+      [
+        752,
+        7993,
+        846
+      ],
+      [
+        260,
+        100,
+        277
+      ]
+    ]
+  },
+  "raw_auxiliary": {
+    "classes": [
+      {
+        "name": "persistent",
+        "Precision": 0.9870899960824816,
+        "Recall": 0.9484805968106221,
+        "Dice": 0.9674002198914504,
+        "IoU": 0.9368588281025537,
+        "support": 58444
+      },
+      {
+        "name": "newly_observed",
+        "Precision": 0.7225779967159277,
+        "Recall": 0.9176311125013034,
+        "Dice": 0.8085067291350879,
+        "IoU": 0.6785659213569777,
+        "support": 9591
+      },
+      {
+        "name": "tip_extension",
+        "Precision": 0.08383233532934131,
+        "Recall": 0.04395604395604396,
+        "Dice": 0.057672502574665295,
+        "IoU": 0.029692470837751856,
+        "support": 637
+      }
+    ],
+    "macro_Dice": 0.6111931505337346,
+    "confusion": [
+      [
+        55433,
+        2947,
+        64
+      ],
+      [
+        548,
+        8801,
+        242
+      ],
+      [
+        177,
+        432,
+        28
+      ]
+    ]
+  },
+  "connection": {
+    "within": {
+      "Precision": 0.5223684210526316,
+      "Recall": 0.46871310507674147,
+      "F1": 0.4940883634100809,
+      "F05": 0.5106766143555441,
+      "AP": 0.489796482086857,
+      "AUC": 0.7065477520022975,
+      "threshold": 0.775,
+      "positive_pairs": 847,
+      "negative_pairs": 1776
+    },
+    "across": {
+      "Precision": 0.7834439399231575,
+      "Recall": 0.9330282861896838,
+      "F1": 0.8517182456806531,
+      "F05": 0.8093966512702079,
+      "AP": 0.8329208684344929,
+      "AUC": 0.7253799798263688,
+      "threshold": 0.25,
+      "positive_pairs": 2404,
+      "negative_pairs": 965
+    }
+  },
+  "new_state_threshold": 0.65,
+  "link_thresholds": {
+    "within": 0.775,
+    "across": 0.25
+  },
+  "checkpoint_sha256": "d13a1f2e40080f48197ffa12f24ad6fb57ad54d4508c37d28824826ea84a034b",
+  "elapsed_seconds": 147.0717171360011
+}

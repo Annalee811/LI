@@ -1,0 +1,51 @@
+{
+  "epoch": 0,
+  "training_monitoring_CE": 0.3675689995288849,
+  "validation_monitoring_CE": 0.26349756121635437,
+  "validation": {
+    "classes": [
+      {
+        "name": "persistent",
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "Dice": 0.0,
+        "IoU": 0.0,
+        "support": 20347
+      },
+      {
+        "name": "newly_observed",
+        "Precision": 0.17391128869516084,
+        "Recall": 1.0,
+        "Dice": 0.29629374957023996,
+        "IoU": 0.17391128869516084,
+        "support": 4309
+      },
+      {
+        "name": "tip_extension",
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "Dice": 0.0,
+        "IoU": 0.0,
+        "support": 121
+      }
+    ],
+    "macro_Dice": 0.09876458319007998,
+    "confusion": [
+      [
+        0,
+        20347,
+        0
+      ],
+      [
+        0,
+        4309,
+        0
+      ],
+      [
+        0,
+        121,
+        0
+      ]
+    ]
+  }
+}

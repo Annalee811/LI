@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "model": "unet",
+      "variant": "convlstm_gat",
+      "future_causality_max_error": 0.0,
+      "ConvLSTM_gradient_L1": 0.2012879103422165,
+      "GAT_gradient_L1": [
+        1.0572987794876099,
+        1.2182894945144653
+      ],
+      "flat_zero_residual_matches_frozen_baseline": true
+    },
+    {
+      "model": "unet",
+      "variant": "control",
+      "future_causality_max_error": 0.0,
+      "ConvLSTM_gradient_L1": 0.0,
+      "GAT_gradient_L1": [],
+      "flat_zero_residual_matches_frozen_baseline": true
+    },
+    {
+      "model": "deeplab",
+      "variant": "convlstm_gat",
+      "future_causality_max_error": 0.0,
+      "ConvLSTM_gradient_L1": 0.36466529965400696,
+      "GAT_gradient_L1": [
+        1.0881714820861816,
+        1.2498375177383423
+      ],
+      "flat_zero_residual_matches_frozen_baseline": true
+    },
+    {
+      "model": "deeplab",
+      "variant": "control",
+      "future_causality_max_error": 0.0,
+      "ConvLSTM_gradient_L1": 0.0,
+      "GAT_gradient_L1": [],
+      "flat_zero_residual_matches_frozen_baseline": true
+    },
+    {
+      "model": "segformer",
+      "variant": "convlstm_gat",
+      "future_causality_max_error": 0.0,
+      "ConvLSTM_gradient_L1": 0.23984847962856293,
+      "GAT_gradient_L1": [
+        0.7408922910690308,
+        0.8568313121795654
+      ],
+      "flat_zero_residual_matches_frozen_baseline": true
+    },
+    {
+      "model": "segformer",
+      "variant": "control",
+      "future_causality_max_error": 0.0,
+      "ConvLSTM_gradient_L1": 0.0,
+      "GAT_gradient_L1": [],
+      "flat_zero_residual_matches_frozen_baseline": true
+    }
+  ],
+  "source20_and_old_results_unchanged": true,
+  "reference_IDs_not_in_model_input": true,
+  "topology_crossing_fixture_passed": true
+}

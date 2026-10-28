@@ -1,0 +1,3758 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "Fig1_Four_period_optimized_temporal_comparison.tif",
+      "sha256": "e64761548ef16da3c86c326dc3b50ddc092984933e0bf5492b3b3e48f8a5537b",
+      "dimensions": [
+        6250,
+        4200
+      ],
+      "typography": [
+        {
+          "text": "Temporal root classification across four periods",
+          "bounds": [
+            2314,
+            30,
+            3936,
+            101
+          ]
+        },
+        {
+          "text": "Revised reference20 and three optimized temporal branches | Frozen root geometry",
+          "bounds": [
+            2414,
+            145,
+            3837,
+            181
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            553,
+            245,
+            806,
+            284
+          ]
+        },
+        {
+          "text": "Reference20",
+          "bounds": [
+            1790,
+            245,
+            2011,
+            275
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            3019,
+            245,
+            3221,
+            283
+          ]
+        },
+        {
+          "text": "DeepLabV3+ joint",
+          "bounds": [
+            4173,
+            245,
+            4506,
+            283
+          ]
+        },
+        {
+          "text": "SegFormer-B0 joint",
+          "bounds": [
+            5382,
+            245,
+            5739,
+            283
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            36,
+            740,
+            104,
+            780
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            36,
+            1665,
+            104,
+            1705
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            36,
+            2590,
+            104,
+            2630
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            36,
+            3515,
+            104,
+            3555
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            4090,
+            387,
+            4114
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1714,
+            4090,
+            1866,
+            4114
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            3217,
+            4090,
+            3460,
+            4122
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            4719,
+            4090,
+            4925,
+            4122
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_Four_period_matched_before_after.tif",
+      "sha256": "7d1a0b2ef506ab602d9c98fe10741f5f1195586bd2cc1ed5f9646024e0f2bf69",
+      "dimensions": [
+        5840,
+        6130
+      ],
+      "typography": [
+        {
+          "text": "Matched temporal windows: original and optimized",
+          "bounds": [
+            2145,
+            30,
+            3695,
+            93
+          ]
+        },
+        {
+          "text": "Original vs ConvLSTM + GAT | Latest20 reference | Root geometry held fixed",
+          "bounds": [
+            2320,
+            130,
+            3520,
+            163
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            20,
+            890,
+            81,
+            924
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            240,
+            530,
+            265
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            240,
+            1268,
+            265
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            240,
+            2003,
+            273
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            240,
+            2679,
+            273
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            240,
+            3428,
+            273
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            240,
+            4103,
+            273
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            240,
+            4845,
+            273
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            240,
+            5519,
+            273
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            20,
+            2320,
+            81,
+            2354
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            1670,
+            530,
+            1695
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            1670,
+            1268,
+            1695
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            1670,
+            2003,
+            1703
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            1670,
+            2679,
+            1703
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            1670,
+            3428,
+            1703
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            1670,
+            4103,
+            1703
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            1670,
+            4845,
+            1703
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            1670,
+            5519,
+            1703
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            20,
+            3750,
+            81,
+            3784
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            3100,
+            530,
+            3125
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            3100,
+            1268,
+            3125
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            3100,
+            2003,
+            3133
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            3100,
+            2679,
+            3133
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            3100,
+            3428,
+            3133
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            3100,
+            4103,
+            3133
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            3100,
+            4845,
+            3133
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            3100,
+            5519,
+            3133
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            20,
+            5180,
+            81,
+            5214
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            4530,
+            530,
+            4555
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            4530,
+            1268,
+            4555
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            4530,
+            2003,
+            4563
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            4530,
+            2679,
+            4563
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            4530,
+            3428,
+            4563
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            4530,
+            4103,
+            4563
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            4530,
+            4845,
+            4563
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            4530,
+            5519,
+            4563
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            6020,
+            387,
+            6044
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1612,
+            6020,
+            1764,
+            6044
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            3012,
+            6020,
+            3255,
+            6052
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            4412,
+            6020,
+            4618,
+            6052
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig3_Extension_before_after.tif",
+      "sha256": "cb4f0335353a79af3cb8398963685987bfdfe3f6495b87aceb7743683a321136",
+      "dimensions": [
+        5840,
+        4700
+      ],
+      "typography": [
+        {
+          "text": "True tip-extension detail: reference-selected windows",
+          "bounds": [
+            2129,
+            30,
+            3711,
+            93
+          ]
+        },
+        {
+          "text": "Original vs ConvLSTM + GAT | Latest20 reference | Root geometry held fixed",
+          "bounds": [
+            2320,
+            130,
+            3520,
+            163
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            20,
+            890,
+            81,
+            924
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            240,
+            530,
+            265
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            240,
+            1268,
+            265
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            240,
+            2003,
+            273
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            240,
+            2679,
+            273
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            240,
+            3428,
+            273
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            240,
+            4103,
+            273
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            240,
+            4845,
+            273
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            240,
+            5519,
+            273
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            20,
+            2320,
+            81,
+            2354
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            1670,
+            530,
+            1695
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            1670,
+            1268,
+            1695
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            1670,
+            2003,
+            1703
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            1670,
+            2679,
+            1703
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            1670,
+            3428,
+            1703
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            1670,
+            4103,
+            1703
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            1670,
+            4845,
+            1703
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            1670,
+            5519,
+            1703
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            20,
+            3750,
+            81,
+            3784
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            3100,
+            530,
+            3125
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            3100,
+            1268,
+            3125
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            3100,
+            2003,
+            3133
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            3100,
+            2679,
+            3133
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            3100,
+            3428,
+            3133
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            3100,
+            4103,
+            3133
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            3100,
+            4845,
+            3133
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            3100,
+            5519,
+            3133
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            4590,
+            387,
+            4614
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1612,
+            4590,
+            1764,
+            4614
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            3012,
+            4590,
+            3255,
+            4622
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            4412,
+            4590,
+            4618,
+            4622
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig4_High_difference_window_1.tif",
+      "sha256": "309822b1d2cf6a0ea4f86ef6e7d1fec657e7266bf88565bc26bda6e8b0457cd9",
+      "dimensions": [
+        5840,
+        6130
+      ],
+      "typography": [
+        {
+          "text": "High-disagreement window 1: gains and regressions retained",
+          "bounds": [
+            2013,
+            30,
+            3828,
+            93
+          ]
+        },
+        {
+          "text": "Original vs ConvLSTM + GAT | Latest20 reference | Root geometry held fixed",
+          "bounds": [
+            2320,
+            130,
+            3520,
+            163
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            20,
+            890,
+            81,
+            924
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            240,
+            530,
+            265
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            240,
+            1268,
+            265
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            240,
+            2003,
+            273
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            240,
+            2679,
+            273
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            240,
+            3428,
+            273
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            240,
+            4103,
+            273
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            240,
+            4845,
+            273
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            240,
+            5519,
+            273
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            20,
+            2320,
+            81,
+            2354
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            1670,
+            530,
+            1695
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            1670,
+            1268,
+            1695
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            1670,
+            2003,
+            1703
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            1670,
+            2679,
+            1703
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            1670,
+            3428,
+            1703
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            1670,
+            4103,
+            1703
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            1670,
+            4845,
+            1703
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            1670,
+            5519,
+            1703
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            20,
+            3750,
+            81,
+            3784
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            3100,
+            530,
+            3125
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            3100,
+            1268,
+            3125
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            3100,
+            2003,
+            3133
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            3100,
+            2679,
+            3133
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            3100,
+            3428,
+            3133
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            3100,
+            4103,
+            3133
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            3100,
+            4845,
+            3133
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            3100,
+            5519,
+            3133
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            20,
+            5180,
+            81,
+            5214
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            4530,
+            530,
+            4555
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            4530,
+            1268,
+            4555
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            4530,
+            2003,
+            4563
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            4530,
+            2679,
+            4563
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            4530,
+            3428,
+            4563
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            4530,
+            4103,
+            4563
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            4530,
+            4845,
+            4563
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            4530,
+            5519,
+            4563
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            6020,
+            387,
+            6044
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1612,
+            6020,
+            1764,
+            6044
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            3012,
+            6020,
+            3255,
+            6052
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            4412,
+            6020,
+            4618,
+            6052
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig4_High_difference_window_2.tif",
+      "sha256": "ea18b44c37deb006791654a0895285838363949ce287c05e390faed121e13de9",
+      "dimensions": [
+        5840,
+        6130
+      ],
+      "typography": [
+        {
+          "text": "High-disagreement window 2: gains and regressions retained",
+          "bounds": [
+            2013,
+            30,
+            3828,
+            93
+          ]
+        },
+        {
+          "text": "Original vs ConvLSTM + GAT | Latest20 reference | Root geometry held fixed",
+          "bounds": [
+            2320,
+            130,
+            3520,
+            163
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            20,
+            890,
+            81,
+            924
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            240,
+            530,
+            265
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            240,
+            1268,
+            265
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            240,
+            2003,
+            273
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            240,
+            2679,
+            273
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            240,
+            3428,
+            273
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            240,
+            4103,
+            273
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            240,
+            4845,
+            273
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            240,
+            5519,
+            273
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            20,
+            2320,
+            81,
+            2354
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            1670,
+            530,
+            1695
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            1670,
+            1268,
+            1695
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            1670,
+            2003,
+            1703
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            1670,
+            2679,
+            1703
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            1670,
+            3428,
+            1703
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            1670,
+            4103,
+            1703
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            1670,
+            4845,
+            1703
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            1670,
+            5519,
+            1703
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            20,
+            3750,
+            81,
+            3784
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            3100,
+            530,
+            3125
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            3100,
+            1268,
+            3125
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            3100,
+            2003,
+            3133
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            3100,
+            2679,
+            3133
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            3100,
+            3428,
+            3133
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            3100,
+            4103,
+            3133
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            3100,
+            4845,
+            3133
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            3100,
+            5519,
+            3133
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            20,
+            5180,
+            81,
+            5214
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            4530,
+            530,
+            4555
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            4530,
+            1268,
+            4555
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            4530,
+            2003,
+            4563
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            4530,
+            2679,
+            4563
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            4530,
+            3428,
+            4563
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            4530,
+            4103,
+            4563
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            4530,
+            4845,
+            4563
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            4530,
+            5519,
+            4563
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            6020,
+            387,
+            6044
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1612,
+            6020,
+            1764,
+            6044
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            3012,
+            6020,
+            3255,
+            6052
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            4412,
+            6020,
+            4618,
+            6052
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig4_High_difference_window_3.tif",
+      "sha256": "c87fe7b494332da0c3e2b02d842672c6c6d789bd4318fefc45d1a63b2291327a",
+      "dimensions": [
+        5840,
+        6130
+      ],
+      "typography": [
+        {
+          "text": "High-disagreement window 3: gains and regressions retained",
+          "bounds": [
+            2013,
+            30,
+            3828,
+            93
+          ]
+        },
+        {
+          "text": "Original vs ConvLSTM + GAT | Latest20 reference | Root geometry held fixed",
+          "bounds": [
+            2320,
+            130,
+            3520,
+            163
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            20,
+            890,
+            81,
+            924
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            240,
+            530,
+            265
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            240,
+            1268,
+            265
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            240,
+            2003,
+            273
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            240,
+            2679,
+            273
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            240,
+            3428,
+            273
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            240,
+            4103,
+            273
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            240,
+            4845,
+            273
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            240,
+            5519,
+            273
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            20,
+            2320,
+            81,
+            2354
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            1670,
+            530,
+            1695
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            1670,
+            1268,
+            1695
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            1670,
+            2003,
+            1703
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            1670,
+            2679,
+            1703
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            1670,
+            3428,
+            1703
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            1670,
+            4103,
+            1703
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            1670,
+            4845,
+            1703
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            1670,
+            5519,
+            1703
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            20,
+            3750,
+            81,
+            3784
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            3100,
+            530,
+            3125
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            3100,
+            1268,
+            3125
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            3100,
+            2003,
+            3133
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            3100,
+            2679,
+            3133
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            3100,
+            3428,
+            3133
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            3100,
+            4103,
+            3133
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            3100,
+            4845,
+            3133
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            3100,
+            5519,
+            3133
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            20,
+            5180,
+            81,
+            5214
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            450,
+            4530,
+            530,
+            4555
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1111,
+            4530,
+            1268,
+            4555
+          ]
+        },
+        {
+          "text": "U-Net original",
+          "bounds": [
+            1776,
+            4530,
+            2003,
+            4563
+          ]
+        },
+        {
+          "text": "U-Net joint",
+          "bounds": [
+            2501,
+            4530,
+            2679,
+            4563
+          ]
+        },
+        {
+          "text": "DeepLab original",
+          "bounds": [
+            3152,
+            4530,
+            3428,
+            4563
+          ]
+        },
+        {
+          "text": "DeepLab joint",
+          "bounds": [
+            3876,
+            4530,
+            4103,
+            4563
+          ]
+        },
+        {
+          "text": "SegFormer original",
+          "bounds": [
+            4536,
+            4530,
+            4845,
+            4563
+          ]
+        },
+        {
+          "text": "SegFormer joint",
+          "bounds": [
+            5260,
+            4530,
+            5519,
+            4563
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            6020,
+            387,
+            6044
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1612,
+            6020,
+            1764,
+            6044
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            3012,
+            6020,
+            3255,
+            6052
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            4412,
+            6020,
+            4618,
+            6052
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Table_persistent_accuracy.tif",
+      "sha256": "0f0a923bb6e7d929ba0e62901bbdeddab7356498fb8c357a68ebd5a2efa00ad8",
+      "dimensions": [
+        3300,
+        1780
+      ],
+      "typography": [
+        {
+          "text": "Persistent roots: same latest20 reference",
+          "bounds": [
+            1094,
+            35,
+            2206,
+            80
+          ]
+        },
+        {
+          "text": "Fixed-root internal spatial holdout | Conditional on the frozen binary support",
+          "bounds": [
+            1089,
+            135,
+            2212,
+            165
+          ]
+        },
+        {
+          "text": "Model",
+          "bounds": [
+            120,
+            270,
+            235,
+            299
+          ]
+        },
+        {
+          "text": "Temporal branch",
+          "bounds": [
+            750,
+            270,
+            1062,
+            307
+          ]
+        },
+        {
+          "text": "Precision",
+          "bounds": [
+            1630,
+            270,
+            1795,
+            300
+          ]
+        },
+        {
+          "text": "Recall",
+          "bounds": [
+            2010,
+            270,
+            2122,
+            299
+          ]
+        },
+        {
+          "text": "Dice",
+          "bounds": [
+            2390,
+            270,
+            2469,
+            300
+          ]
+        },
+        {
+          "text": "IoU",
+          "bounds": [
+            2790,
+            270,
+            2858,
+            299
+          ]
+        },
+        {
+          "text": "U-Net",
+          "bounds": [
+            120,
+            390,
+            220,
+            416
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            750,
+            390,
+            891,
+            425
+          ]
+        },
+        {
+          "text": "0.9879",
+          "bounds": [
+            1630,
+            390,
+            1737,
+            416
+          ]
+        },
+        {
+          "text": "0.9548",
+          "bounds": [
+            2010,
+            390,
+            2117,
+            416
+          ]
+        },
+        {
+          "text": "0.9711",
+          "bounds": [
+            2390,
+            390,
+            2495,
+            416
+          ]
+        },
+        {
+          "text": "0.9437",
+          "bounds": [
+            2790,
+            390,
+            2897,
+            416
+          ]
+        },
+        {
+          "text": "U-Net",
+          "bounds": [
+            120,
+            520,
+            220,
+            546
+          ]
+        },
+        {
+          "text": "Current-label control",
+          "bounds": [
+            750,
+            520,
+            1107,
+            546
+          ]
+        },
+        {
+          "text": "0.9910",
+          "bounds": [
+            1630,
+            520,
+            1737,
+            546
+          ]
+        },
+        {
+          "text": "0.9464",
+          "bounds": [
+            2010,
+            520,
+            2117,
+            546
+          ]
+        },
+        {
+          "text": "0.9682",
+          "bounds": [
+            2390,
+            520,
+            2497,
+            546
+          ]
+        },
+        {
+          "text": "0.9383",
+          "bounds": [
+            2790,
+            520,
+            2897,
+            546
+          ]
+        },
+        {
+          "text": "U-Net",
+          "bounds": [
+            120,
+            650,
+            220,
+            676
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            750,
+            650,
+            1073,
+            676
+          ]
+        },
+        {
+          "text": "0.9941",
+          "bounds": [
+            1630,
+            650,
+            1737,
+            676
+          ]
+        },
+        {
+          "text": "0.8684",
+          "bounds": [
+            2010,
+            650,
+            2117,
+            676
+          ]
+        },
+        {
+          "text": "0.9270",
+          "bounds": [
+            2390,
+            650,
+            2497,
+            676
+          ]
+        },
+        {
+          "text": "0.8640",
+          "bounds": [
+            2790,
+            650,
+            2897,
+            676
+          ]
+        },
+        {
+          "text": "DeepLabV3+",
+          "bounds": [
+            120,
+            780,
+            342,
+            814
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            750,
+            780,
+            891,
+            815
+          ]
+        },
+        {
+          "text": "0.9824",
+          "bounds": [
+            1630,
+            780,
+            1737,
+            806
+          ]
+        },
+        {
+          "text": "0.9458",
+          "bounds": [
+            2010,
+            780,
+            2117,
+            806
+          ]
+        },
+        {
+          "text": "0.9638",
+          "bounds": [
+            2390,
+            780,
+            2497,
+            806
+          ]
+        },
+        {
+          "text": "0.9301",
+          "bounds": [
+            2790,
+            780,
+            2897,
+            806
+          ]
+        },
+        {
+          "text": "DeepLabV3+",
+          "bounds": [
+            120,
+            910,
+            342,
+            944
+          ]
+        },
+        {
+          "text": "Current-label control",
+          "bounds": [
+            750,
+            910,
+            1107,
+            936
+          ]
+        },
+        {
+          "text": "0.9899",
+          "bounds": [
+            1630,
+            910,
+            1737,
+            936
+          ]
+        },
+        {
+          "text": "0.9186",
+          "bounds": [
+            2010,
+            910,
+            2117,
+            936
+          ]
+        },
+        {
+          "text": "0.9529",
+          "bounds": [
+            2390,
+            910,
+            2497,
+            936
+          ]
+        },
+        {
+          "text": "0.9101",
+          "bounds": [
+            2790,
+            910,
+            2897,
+            936
+          ]
+        },
+        {
+          "text": "DeepLabV3+",
+          "bounds": [
+            120,
+            1040,
+            342,
+            1074
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            750,
+            1040,
+            1073,
+            1066
+          ]
+        },
+        {
+          "text": "0.9822",
+          "bounds": [
+            1630,
+            1040,
+            1737,
+            1066
+          ]
+        },
+        {
+          "text": "0.9578",
+          "bounds": [
+            2010,
+            1040,
+            2117,
+            1066
+          ]
+        },
+        {
+          "text": "0.9698",
+          "bounds": [
+            2390,
+            1040,
+            2497,
+            1066
+          ]
+        },
+        {
+          "text": "0.9415",
+          "bounds": [
+            2790,
+            1040,
+            2897,
+            1066
+          ]
+        },
+        {
+          "text": "SegFormer-B0",
+          "bounds": [
+            120,
+            1170,
+            363,
+            1204
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            750,
+            1170,
+            891,
+            1205
+          ]
+        },
+        {
+          "text": "0.9732",
+          "bounds": [
+            1630,
+            1170,
+            1737,
+            1196
+          ]
+        },
+        {
+          "text": "0.9438",
+          "bounds": [
+            2010,
+            1170,
+            2117,
+            1196
+          ]
+        },
+        {
+          "text": "0.9582",
+          "bounds": [
+            2390,
+            1170,
+            2497,
+            1196
+          ]
+        },
+        {
+          "text": "0.9198",
+          "bounds": [
+            2790,
+            1170,
+            2897,
+            1196
+          ]
+        },
+        {
+          "text": "SegFormer-B0",
+          "bounds": [
+            120,
+            1300,
+            363,
+            1334
+          ]
+        },
+        {
+          "text": "Current-label control",
+          "bounds": [
+            750,
+            1300,
+            1107,
+            1326
+          ]
+        },
+        {
+          "text": "0.9856",
+          "bounds": [
+            1630,
+            1300,
+            1737,
+            1326
+          ]
+        },
+        {
+          "text": "0.8979",
+          "bounds": [
+            2010,
+            1300,
+            2117,
+            1326
+          ]
+        },
+        {
+          "text": "0.9397",
+          "bounds": [
+            2390,
+            1300,
+            2497,
+            1326
+          ]
+        },
+        {
+          "text": "0.8863",
+          "bounds": [
+            2790,
+            1300,
+            2897,
+            1326
+          ]
+        },
+        {
+          "text": "SegFormer-B0",
+          "bounds": [
+            120,
+            1430,
+            363,
+            1464
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            750,
+            1430,
+            1073,
+            1456
+          ]
+        },
+        {
+          "text": "0.9848",
+          "bounds": [
+            1630,
+            1430,
+            1737,
+            1456
+          ]
+        },
+        {
+          "text": "0.8884",
+          "bounds": [
+            2010,
+            1430,
+            2117,
+            1456
+          ]
+        },
+        {
+          "text": "0.9341",
+          "bounds": [
+            2390,
+            1430,
+            2497,
+            1456
+          ]
+        },
+        {
+          "text": "0.8764",
+          "bounds": [
+            2790,
+            1430,
+            2897,
+            1456
+          ]
+        },
+        {
+          "text": "Internal reference agreement; revised/model-assisted labels; not independent accuracy.",
+          "bounds": [
+            1039,
+            1660,
+            2261,
+            1689
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Table_newly_observed_accuracy.tif",
+      "sha256": "a5f167038bfad7ac8570a93fe196f25f0e4f7ba3536a1c1d47487c418c164e95",
+      "dimensions": [
+        3300,
+        1780
+      ],
+      "typography": [
+        {
+          "text": "Newly observed roots: same latest20 reference",
+          "bounds": [
+            1012,
+            35,
+            2288,
+            93
+          ]
+        },
+        {
+          "text": "Fixed-root internal spatial holdout | Conditional on the frozen binary support",
+          "bounds": [
+            1089,
+            135,
+            2212,
+            165
+          ]
+        },
+        {
+          "text": "Model",
+          "bounds": [
+            120,
+            270,
+            235,
+            299
+          ]
+        },
+        {
+          "text": "Temporal branch",
+          "bounds": [
+            750,
+            270,
+            1062,
+            307
+          ]
+        },
+        {
+          "text": "Precision",
+          "bounds": [
+            1630,
+            270,
+            1795,
+            300
+          ]
+        },
+        {
+          "text": "Recall",
+          "bounds": [
+            2010,
+            270,
+            2122,
+            299
+          ]
+        },
+        {
+          "text": "Dice",
+          "bounds": [
+            2390,
+            270,
+            2469,
+            300
+          ]
+        },
+        {
+          "text": "IoU",
+          "bounds": [
+            2790,
+            270,
+            2858,
+            299
+          ]
+        },
+        {
+          "text": "U-Net",
+          "bounds": [
+            120,
+            390,
+            220,
+            416
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            750,
+            390,
+            891,
+            425
+          ]
+        },
+        {
+          "text": "0.8079",
+          "bounds": [
+            1630,
+            390,
+            1737,
+            416
+          ]
+        },
+        {
+          "text": "0.8385",
+          "bounds": [
+            2010,
+            390,
+            2117,
+            416
+          ]
+        },
+        {
+          "text": "0.8229",
+          "bounds": [
+            2390,
+            390,
+            2497,
+            416
+          ]
+        },
+        {
+          "text": "0.6991",
+          "bounds": [
+            2790,
+            390,
+            2897,
+            416
+          ]
+        },
+        {
+          "text": "U-Net",
+          "bounds": [
+            120,
+            520,
+            220,
+            546
+          ]
+        },
+        {
+          "text": "Current-label control",
+          "bounds": [
+            750,
+            520,
+            1107,
+            546
+          ]
+        },
+        {
+          "text": "0.7685",
+          "bounds": [
+            1630,
+            520,
+            1737,
+            546
+          ]
+        },
+        {
+          "text": "0.9516",
+          "bounds": [
+            2010,
+            520,
+            2117,
+            546
+          ]
+        },
+        {
+          "text": "0.8503",
+          "bounds": [
+            2390,
+            520,
+            2497,
+            546
+          ]
+        },
+        {
+          "text": "0.7396",
+          "bounds": [
+            2790,
+            520,
+            2897,
+            546
+          ]
+        },
+        {
+          "text": "U-Net",
+          "bounds": [
+            120,
+            650,
+            220,
+            676
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            750,
+            650,
+            1073,
+            676
+          ]
+        },
+        {
+          "text": "0.5653",
+          "bounds": [
+            1630,
+            650,
+            1737,
+            676
+          ]
+        },
+        {
+          "text": "0.9741",
+          "bounds": [
+            2010,
+            650,
+            2117,
+            676
+          ]
+        },
+        {
+          "text": "0.7154",
+          "bounds": [
+            2390,
+            650,
+            2497,
+            676
+          ]
+        },
+        {
+          "text": "0.5569",
+          "bounds": [
+            2790,
+            650,
+            2897,
+            676
+          ]
+        },
+        {
+          "text": "DeepLabV3+",
+          "bounds": [
+            120,
+            780,
+            342,
+            814
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            750,
+            780,
+            891,
+            815
+          ]
+        },
+        {
+          "text": "0.7031",
+          "bounds": [
+            1630,
+            780,
+            1737,
+            806
+          ]
+        },
+        {
+          "text": "0.8295",
+          "bounds": [
+            2010,
+            780,
+            2117,
+            806
+          ]
+        },
+        {
+          "text": "0.7611",
+          "bounds": [
+            2390,
+            780,
+            2495,
+            806
+          ]
+        },
+        {
+          "text": "0.6144",
+          "bounds": [
+            2790,
+            780,
+            2897,
+            806
+          ]
+        },
+        {
+          "text": "DeepLabV3+",
+          "bounds": [
+            120,
+            910,
+            342,
+            944
+          ]
+        },
+        {
+          "text": "Current-label control",
+          "bounds": [
+            750,
+            910,
+            1107,
+            936
+          ]
+        },
+        {
+          "text": "0.6580",
+          "bounds": [
+            1630,
+            910,
+            1737,
+            936
+          ]
+        },
+        {
+          "text": "0.9585",
+          "bounds": [
+            2010,
+            910,
+            2117,
+            936
+          ]
+        },
+        {
+          "text": "0.7803",
+          "bounds": [
+            2390,
+            910,
+            2497,
+            936
+          ]
+        },
+        {
+          "text": "0.6397",
+          "bounds": [
+            2790,
+            910,
+            2897,
+            936
+          ]
+        },
+        {
+          "text": "DeepLabV3+",
+          "bounds": [
+            120,
+            1040,
+            342,
+            1074
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            750,
+            1040,
+            1073,
+            1066
+          ]
+        },
+        {
+          "text": "0.7811",
+          "bounds": [
+            1630,
+            1040,
+            1735,
+            1066
+          ]
+        },
+        {
+          "text": "0.8334",
+          "bounds": [
+            2010,
+            1040,
+            2117,
+            1066
+          ]
+        },
+        {
+          "text": "0.8064",
+          "bounds": [
+            2390,
+            1040,
+            2497,
+            1066
+          ]
+        },
+        {
+          "text": "0.6756",
+          "bounds": [
+            2790,
+            1040,
+            2897,
+            1066
+          ]
+        },
+        {
+          "text": "SegFormer-B0",
+          "bounds": [
+            120,
+            1170,
+            363,
+            1204
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            750,
+            1170,
+            891,
+            1205
+          ]
+        },
+        {
+          "text": "0.7239",
+          "bounds": [
+            1630,
+            1170,
+            1737,
+            1196
+          ]
+        },
+        {
+          "text": "0.8427",
+          "bounds": [
+            2010,
+            1170,
+            2117,
+            1196
+          ]
+        },
+        {
+          "text": "0.7788",
+          "bounds": [
+            2390,
+            1170,
+            2497,
+            1196
+          ]
+        },
+        {
+          "text": "0.6377",
+          "bounds": [
+            2790,
+            1170,
+            2897,
+            1196
+          ]
+        },
+        {
+          "text": "SegFormer-B0",
+          "bounds": [
+            120,
+            1300,
+            363,
+            1334
+          ]
+        },
+        {
+          "text": "Current-label control",
+          "bounds": [
+            750,
+            1300,
+            1107,
+            1326
+          ]
+        },
+        {
+          "text": "0.6210",
+          "bounds": [
+            1630,
+            1300,
+            1737,
+            1326
+          ]
+        },
+        {
+          "text": "0.9568",
+          "bounds": [
+            2010,
+            1300,
+            2117,
+            1326
+          ]
+        },
+        {
+          "text": "0.7532",
+          "bounds": [
+            2390,
+            1300,
+            2497,
+            1326
+          ]
+        },
+        {
+          "text": "0.6041",
+          "bounds": [
+            2790,
+            1300,
+            2897,
+            1326
+          ]
+        },
+        {
+          "text": "SegFormer-B0",
+          "bounds": [
+            120,
+            1430,
+            363,
+            1464
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            750,
+            1430,
+            1073,
+            1456
+          ]
+        },
+        {
+          "text": "0.6077",
+          "bounds": [
+            1630,
+            1430,
+            1737,
+            1456
+          ]
+        },
+        {
+          "text": "0.9535",
+          "bounds": [
+            2010,
+            1430,
+            2117,
+            1456
+          ]
+        },
+        {
+          "text": "0.7423",
+          "bounds": [
+            2390,
+            1430,
+            2497,
+            1456
+          ]
+        },
+        {
+          "text": "0.5902",
+          "bounds": [
+            2790,
+            1430,
+            2897,
+            1456
+          ]
+        },
+        {
+          "text": "Internal reference agreement; revised/model-assisted labels; not independent accuracy.",
+          "bounds": [
+            1039,
+            1660,
+            2261,
+            1689
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Table_tip_extension_accuracy.tif",
+      "sha256": "e671fad5340de86d619a426854e570ad34834bff813c6b043a6e1a7bbdfc3a08",
+      "dimensions": [
+        3300,
+        1780
+      ],
+      "typography": [
+        {
+          "text": "Tip-extension segments: same latest20 reference",
+          "bounds": [
+            986,
+            35,
+            2315,
+            93
+          ]
+        },
+        {
+          "text": "Fixed-root internal spatial holdout | Conditional on the frozen binary support",
+          "bounds": [
+            1089,
+            135,
+            2212,
+            165
+          ]
+        },
+        {
+          "text": "Model",
+          "bounds": [
+            120,
+            270,
+            235,
+            299
+          ]
+        },
+        {
+          "text": "Temporal branch",
+          "bounds": [
+            750,
+            270,
+            1062,
+            307
+          ]
+        },
+        {
+          "text": "Precision",
+          "bounds": [
+            1630,
+            270,
+            1795,
+            300
+          ]
+        },
+        {
+          "text": "Recall",
+          "bounds": [
+            2010,
+            270,
+            2122,
+            299
+          ]
+        },
+        {
+          "text": "Dice",
+          "bounds": [
+            2390,
+            270,
+            2469,
+            300
+          ]
+        },
+        {
+          "text": "IoU",
+          "bounds": [
+            2790,
+            270,
+            2858,
+            299
+          ]
+        },
+        {
+          "text": "U-Net",
+          "bounds": [
+            120,
+            390,
+            220,
+            416
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            750,
+            390,
+            891,
+            425
+          ]
+        },
+        {
+          "text": "0.0181",
+          "bounds": [
+            1630,
+            390,
+            1737,
+            416
+          ]
+        },
+        {
+          "text": "0.0582",
+          "bounds": [
+            2010,
+            390,
+            2117,
+            416
+          ]
+        },
+        {
+          "text": "0.0276",
+          "bounds": [
+            2390,
+            390,
+            2497,
+            416
+          ]
+        },
+        {
+          "text": "0.0140",
+          "bounds": [
+            2790,
+            390,
+            2897,
+            416
+          ]
+        },
+        {
+          "text": "U-Net",
+          "bounds": [
+            120,
+            520,
+            220,
+            546
+          ]
+        },
+        {
+          "text": "Current-label control",
+          "bounds": [
+            750,
+            520,
+            1107,
+            546
+          ]
+        },
+        {
+          "text": "0.3674",
+          "bounds": [
+            1630,
+            520,
+            1737,
+            546
+          ]
+        },
+        {
+          "text": "0.4714",
+          "bounds": [
+            2010,
+            520,
+            2117,
+            546
+          ]
+        },
+        {
+          "text": "0.4129",
+          "bounds": [
+            2390,
+            520,
+            2497,
+            546
+          ]
+        },
+        {
+          "text": "0.2602",
+          "bounds": [
+            2790,
+            520,
+            2897,
+            546
+          ]
+        },
+        {
+          "text": "U-Net",
+          "bounds": [
+            120,
+            650,
+            220,
+            676
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            750,
+            650,
+            1073,
+            676
+          ]
+        },
+        {
+          "text": "0.5682",
+          "bounds": [
+            1630,
+            650,
+            1737,
+            676
+          ]
+        },
+        {
+          "text": "0.5834",
+          "bounds": [
+            2010,
+            650,
+            2117,
+            676
+          ]
+        },
+        {
+          "text": "0.5757",
+          "bounds": [
+            2390,
+            650,
+            2497,
+            676
+          ]
+        },
+        {
+          "text": "0.4042",
+          "bounds": [
+            2790,
+            650,
+            2897,
+            676
+          ]
+        },
+        {
+          "text": "DeepLabV3+",
+          "bounds": [
+            120,
+            780,
+            342,
+            814
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            750,
+            780,
+            891,
+            815
+          ]
+        },
+        {
+          "text": "0.0615",
+          "bounds": [
+            1630,
+            780,
+            1737,
+            806
+          ]
+        },
+        {
+          "text": "0.1052",
+          "bounds": [
+            2010,
+            780,
+            2117,
+            806
+          ]
+        },
+        {
+          "text": "0.0776",
+          "bounds": [
+            2390,
+            780,
+            2497,
+            806
+          ]
+        },
+        {
+          "text": "0.0404",
+          "bounds": [
+            2790,
+            780,
+            2897,
+            806
+          ]
+        },
+        {
+          "text": "DeepLabV3+",
+          "bounds": [
+            120,
+            910,
+            342,
+            944
+          ]
+        },
+        {
+          "text": "Current-label control",
+          "bounds": [
+            750,
+            910,
+            1107,
+            936
+          ]
+        },
+        {
+          "text": "0.3550",
+          "bounds": [
+            1630,
+            910,
+            1737,
+            936
+          ]
+        },
+        {
+          "text": "0.2575",
+          "bounds": [
+            2010,
+            910,
+            2117,
+            936
+          ]
+        },
+        {
+          "text": "0.2985",
+          "bounds": [
+            2390,
+            910,
+            2497,
+            936
+          ]
+        },
+        {
+          "text": "0.1754",
+          "bounds": [
+            2790,
+            910,
+            2897,
+            936
+          ]
+        },
+        {
+          "text": "DeepLabV3+",
+          "bounds": [
+            120,
+            1040,
+            342,
+            1074
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            750,
+            1040,
+            1073,
+            1066
+          ]
+        },
+        {
+          "text": "0.1908",
+          "bounds": [
+            1630,
+            1040,
+            1737,
+            1066
+          ]
+        },
+        {
+          "text": "0.4349",
+          "bounds": [
+            2010,
+            1040,
+            2117,
+            1066
+          ]
+        },
+        {
+          "text": "0.2652",
+          "bounds": [
+            2390,
+            1040,
+            2497,
+            1066
+          ]
+        },
+        {
+          "text": "0.1529",
+          "bounds": [
+            2790,
+            1040,
+            2897,
+            1066
+          ]
+        },
+        {
+          "text": "SegFormer-B0",
+          "bounds": [
+            120,
+            1170,
+            363,
+            1204
+          ]
+        },
+        {
+          "text": "Original",
+          "bounds": [
+            750,
+            1170,
+            891,
+            1205
+          ]
+        },
+        {
+          "text": "0.0016",
+          "bounds": [
+            1630,
+            1170,
+            1737,
+            1196
+          ]
+        },
+        {
+          "text": "0.0018",
+          "bounds": [
+            2010,
+            1170,
+            2117,
+            1196
+          ]
+        },
+        {
+          "text": "0.0017",
+          "bounds": [
+            2390,
+            1170,
+            2497,
+            1196
+          ]
+        },
+        {
+          "text": "0.0008",
+          "bounds": [
+            2790,
+            1170,
+            2897,
+            1196
+          ]
+        },
+        {
+          "text": "SegFormer-B0",
+          "bounds": [
+            120,
+            1300,
+            363,
+            1334
+          ]
+        },
+        {
+          "text": "Current-label control",
+          "bounds": [
+            750,
+            1300,
+            1107,
+            1326
+          ]
+        },
+        {
+          "text": "0.1278",
+          "bounds": [
+            1630,
+            1300,
+            1737,
+            1326
+          ]
+        },
+        {
+          "text": "0.0414",
+          "bounds": [
+            2010,
+            1300,
+            2117,
+            1326
+          ]
+        },
+        {
+          "text": "0.0625",
+          "bounds": [
+            2390,
+            1300,
+            2497,
+            1326
+          ]
+        },
+        {
+          "text": "0.0323",
+          "bounds": [
+            2790,
+            1300,
+            2897,
+            1326
+          ]
+        },
+        {
+          "text": "SegFormer-B0",
+          "bounds": [
+            120,
+            1430,
+            363,
+            1464
+          ]
+        },
+        {
+          "text": "ConvLSTM + GAT",
+          "bounds": [
+            750,
+            1430,
+            1073,
+            1456
+          ]
+        },
+        {
+          "text": "0.2069",
+          "bounds": [
+            1630,
+            1430,
+            1737,
+            1456
+          ]
+        },
+        {
+          "text": "0.1511",
+          "bounds": [
+            2010,
+            1430,
+            2115,
+            1456
+          ]
+        },
+        {
+          "text": "0.1746",
+          "bounds": [
+            2390,
+            1430,
+            2497,
+            1456
+          ]
+        },
+        {
+          "text": "0.0957",
+          "bounds": [
+            2790,
+            1430,
+            2897,
+            1456
+          ]
+        },
+        {
+          "text": "Internal reference agreement; revised/model-assisted labels; not independent accuracy.",
+          "bounds": [
+            1039,
+            1660,
+            2261,
+            1689
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig_100_epochs_joint_and_same_label_control.tif",
+      "sha256": "982a33bb55193031713e56e3207b6025bac9539311785ff1d13aa5ec1bcb7ce2"
+    }
+  ],
+  "typography": "Times New Roman Bold, all text black",
+  "dpi": 600,
+  "curves": {
+    "unet_convlstm_gat": 100,
+    "unet_control": 100,
+    "deeplab_convlstm_gat": 100,
+    "deeplab_control": 100,
+    "segformer_convlstm_gat": 100,
+    "segformer_control": 100
+  },
+  "reference_sha256": "73cc3061f5eda257ddd629bf545776615a688846d1f5b9fb5314e0de237954b8",
+  "native_categorical_resizing": true,
+  "all_binary_supports_unchanged": true,
+  "high_difference_selection_not_accuracy": true
+}

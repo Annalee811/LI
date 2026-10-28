@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "epochs_each": 100,
+  "modules": 6,
+  "latest_source": "20",
+  "baseline_original_preserved": true,
+  "ConvLSTM_and_GAT_trained": true,
+  "binary_geometry_unchanged": true
+}

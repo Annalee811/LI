@@ -1,0 +1,34 @@
+{
+  "model": "segformer",
+  "variant": "control",
+  "epochs": 100,
+  "seed": 2026102804,
+  "upload20_sha256": "73cc3061f5eda257ddd629bf545776615a688846d1f5b9fb5314e0de237954b8",
+  "random_new_modules": true,
+  "old_optimized_weights_loaded": false,
+  "baseline_probabilities_frozen": true,
+  "binary_support_fixed": true,
+  "causal_ConvLSTM": true,
+  "causal_GAT": true,
+  "ConvLSTM_enabled": false,
+  "GAT_enabled": false,
+  "loss_curves": "Training and validation share the same weighted pixel CE; composite optimization objective separately logged",
+  "real_ConvLSTM_spatial_shape": [
+    139,
+    318
+  ],
+  "root_identity_target_only": true,
+  "root_state_learned": true,
+  "decoder": "One-to-one endpoint continuation, single-owner junctions; predicted root groups and learned new/established state; persistent/tip within established group; no ground truth IDs at inference",
+  "objective": "weighted pixel CE +.2 macro softDice +.25 root-state BCE +.3 balanced within/cross link BCE +.1 native continuity BCE +.05 stable-root temporal consistency +.003 residual penalty",
+  "selection": "Validation hierarchical Dice: .2 persistent +.4 new +.4 tip, plus .05 within-period AP; epochs1..100",
+  "reference_scope": "Latest20 model-assisted revised reference; one B3 development field, internal spatial holdout, not independent accuracy",
+  "graph_sha256": "8d0ae38459c6560cb2fcdf9487c522a91006fa03c0dbe4cf9db0a703a0f126c0",
+  "frames_sha256": "cfa41bf91da2cf44b3c026ea73bdc966ca8278c47215fa070ac7910202298699",
+  "model_source_sha256": "dfbb7f1b3f8193420d1bd7426a327011fcb5f4392309d5ccbe0612bd064c9fdd",
+  "weights": [
+    1.0,
+    2.159419059753418,
+    4.0
+  ]
+}
