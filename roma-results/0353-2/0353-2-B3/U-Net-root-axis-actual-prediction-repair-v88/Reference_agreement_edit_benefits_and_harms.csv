@@ -1,0 +1,7 @@
+﻿scope,period,changed,fixed,harmed,changed_still_wrong
+original_inner_spatial_audit,T2,1993,601,1235,157
+original_inner_spatial_audit,T3,787,522,16,249
+original_inner_spatial_audit,T4,351,54,270,27
+all_valid_annotated_root_pixels,T2,7786,4228,2974,584
+all_valid_annotated_root_pixels,T3,3923,2099,1055,769
+all_valid_annotated_root_pixels,T4,914,208,543,163

@@ -1,0 +1,12 @@
+{
+  "prediction_sha256": {
+    "T1": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "T2": "dabfd0147d4c525f31cc3aa3f7b2d6ce18a17cf4c3022f7f5ea1df73c12d688f",
+    "T3": "0c00d27473e05a10125ecea2b56b3ac69e8706ba4924cfc9d27b755f91ea6b8b",
+    "T4": "7a3e6441940657d95e2fe1996117cd22d794df7558ac259ba5738c8688f1fd57"
+  },
+  "no_model_training": true,
+  "no_manual_reference_in_prediction": true,
+  "freeze_before_metrics": true,
+  "feedback_scope": "All examples are known user-feedback development cases; the old internal spatial test mask is now an audit region, not independent validation."
+}

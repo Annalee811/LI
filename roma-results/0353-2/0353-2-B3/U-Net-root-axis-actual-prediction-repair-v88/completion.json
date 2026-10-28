@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "actual_prediction_repairs": true,
+  "no_training": true,
+  "reference_unchanged": true,
+  "all_four_periods": true,
+  "unresolved_cases_retained": true
+}

@@ -1,0 +1,15 @@
+{
+  "confident_axis_records": 1194,
+  "confident_new_axes": 172,
+  "confident_established_axes": 1022,
+  "forbidden_class_pixels_before": 12108,
+  "forbidden_class_pixels_after": 0,
+  "historical_reference_root_records": 158,
+  "historical_known_root_new_extension_mixes": {
+    "previous_V85": 11,
+    "root_axis_V88": 11
+  },
+  "all_axis_paths": 2960,
+  "unresolved_axis_states": 1189,
+  "note": "Accepted-axis state checks are a decoder invariant, not independent accuracy. Historical human-root IDs can span different inferred axes; their separate audit is retained."
+}

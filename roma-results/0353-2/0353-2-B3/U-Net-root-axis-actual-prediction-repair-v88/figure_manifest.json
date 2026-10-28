@@ -1,0 +1,1121 @@
+{
+  "files": [
+    {
+      "file": "Fig1_User_examples_actual_prediction_repairs.tif",
+      "sha256": "7dfd249ee3d0e02d6086ce7f2b2f81d096f2fcde6f469b0a41dcfee730c33eff",
+      "dimensions": [
+        3400,
+        3950
+      ],
+      "typography": [
+        {
+          "text": "U-Net: actual repairs in the reported examples",
+          "bounds": [
+            1144,
+            25,
+            2256,
+            75
+          ]
+        },
+        {
+          "text": "Same root geometry | Full-axis history and connection ownership | Predictions are changed",
+          "bounds": [
+            1101,
+            110,
+            2300,
+            138
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            451,
+            210,
+            529,
+            234
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1198,
+            210,
+            1402,
+            234
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2002,
+            210,
+            2218,
+            234
+          ]
+        },
+        {
+          "text": "Changed pixels",
+          "bounds": [
+            2802,
+            210,
+            3037,
+            242
+          ]
+        },
+        {
+          "text": "A T2",
+          "bounds": [
+            25,
+            605,
+            108,
+            632
+          ]
+        },
+        {
+          "text": "Existing T1 root: false new-colored distal shaft becomes extension.",
+          "bounds": [
+            1305,
+            1015,
+            2094,
+            1040
+          ]
+        },
+        {
+          "text": "B T2",
+          "bounds": [
+            25,
+            1475,
+            108,
+            1502
+          ]
+        },
+        {
+          "text": "First-observed axis: false persistent / extension intervals become new.",
+          "bounds": [
+            1287,
+            1885,
+            2112,
+            1910
+          ]
+        },
+        {
+          "text": "C T3",
+          "bounds": [
+            25,
+            2345,
+            110,
+            2372
+          ]
+        },
+        {
+          "text": "Two roots contact: upper root already visible in T2; horizontal root first appears in T3.",
+          "bounds": [
+            1182,
+            2755,
+            2218,
+            2780
+          ]
+        },
+        {
+          "text": "D T3",
+          "bounds": [
+            25,
+            3215,
+            110,
+            3242
+          ]
+        },
+        {
+          "text": "Existing root: false new interval becomes growth; old shaft remains persistent.",
+          "bounds": [
+            1233,
+            3625,
+            2167,
+            3650
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3820,
+            387,
+            3844
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1002,
+            3820,
+            1154,
+            3844
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1792,
+            3820,
+            2035,
+            3852
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2582,
+            3820,
+            2788,
+            3852
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_Four_period_root_axis_comparison.tif",
+      "sha256": "65fd7b98d0bbff3a960c49f69f0f8f38e35c0f126fc3fa3c190322abcb5a1daa",
+      "dimensions": [
+        4100,
+        3820
+      ],
+      "typography": [
+        {
+          "text": "Four-period U-Net root-axis temporal consistency",
+          "bounds": [
+            1413,
+            25,
+            2686,
+            79
+          ]
+        },
+        {
+          "text": "Reference unchanged from V87 | Learned ConvLSTM + GAT features with structured axis decoding",
+          "bounds": [
+            1386,
+            115,
+            2715,
+            143
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            519,
+            210,
+            591,
+            232
+          ]
+        },
+        {
+          "text": "Current manual reference",
+          "bounds": [
+            1371,
+            210,
+            1739,
+            232
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            2462,
+            210,
+            2649,
+            232
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            3456,
+            210,
+            3654,
+            232
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            25,
+            600,
+            76,
+            630
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            25,
+            1425,
+            76,
+            1455
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            25,
+            2250,
+            76,
+            2280
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            25,
+            3075,
+            76,
+            3105
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3700,
+            387,
+            3724
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1177,
+            3700,
+            1329,
+            3724
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2142,
+            3700,
+            2385,
+            3732
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3107,
+            3700,
+            3313,
+            3732
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig3_Example_C_four_period_identity_audit.tif",
+      "sha256": "a046ae91d6b1884146d9f71c41049294a59e076379f624a96718e37d3e74e18c",
+      "dimensions": [
+        3260,
+        4300
+      ],
+      "typography": [
+        {
+          "text": "Example C: root identities explain the contact",
+          "bounds": [
+            1103,
+            25,
+            2158,
+            74
+          ]
+        },
+        {
+          "text": "N-0043: observed in T2 | N-0041: first observed in T3 | Identity overlay is annotation audit only",
+          "bounds": [
+            1043,
+            110,
+            2218,
+            135
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            25,
+            560,
+            75,
+            589
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            220,
+            614,
+            241
+          ]
+        },
+        {
+          "text": "Temporal prediction V88",
+          "bounds": [
+            1459,
+            220,
+            1802,
+            248
+          ]
+        },
+        {
+          "text": "Numbered-root audit",
+          "bounds": [
+            2534,
+            220,
+            2826,
+            241
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            25,
+            1510,
+            75,
+            1539
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            1170,
+            614,
+            1191
+          ]
+        },
+        {
+          "text": "Temporal prediction V88",
+          "bounds": [
+            1459,
+            1170,
+            1802,
+            1198
+          ]
+        },
+        {
+          "text": "Numbered-root audit",
+          "bounds": [
+            2534,
+            1170,
+            2826,
+            1191
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            25,
+            2460,
+            75,
+            2489
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            2120,
+            614,
+            2141
+          ]
+        },
+        {
+          "text": "Temporal prediction V88",
+          "bounds": [
+            1459,
+            2120,
+            1802,
+            2148
+          ]
+        },
+        {
+          "text": "Numbered-root audit",
+          "bounds": [
+            2534,
+            2120,
+            2826,
+            2141
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            25,
+            3410,
+            75,
+            3439
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            3070,
+            614,
+            3091
+          ]
+        },
+        {
+          "text": "Temporal prediction V88",
+          "bounds": [
+            1459,
+            3070,
+            1802,
+            3098
+          ]
+        },
+        {
+          "text": "Numbered-root audit",
+          "bounds": [
+            2534,
+            3070,
+            2826,
+            3091
+          ]
+        },
+        {
+          "text": "Blue identity: N-0043 | Orange identity: N-0041 | Temporal yellow/green do not imply one biological root.",
+          "bounds": [
+            1027,
+            4150,
+            2233,
+            4175
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig4_Example_A_four_period_chronology.tif",
+      "sha256": "170c9fde350ba7aafd1a183c10ca364ead78540fc6b7f4ecbe4eafb61d16d81e",
+      "dimensions": [
+        3260,
+        3850
+      ],
+      "typography": [
+        {
+          "text": "Example A: same native root window across all periods",
+          "bounds": [
+            1019,
+            25,
+            2242,
+            71
+          ]
+        },
+        {
+          "text": "Previous prediction vs actual root-axis repair | Fixed binary segmentation",
+          "bounds": [
+            1160,
+            110,
+            2100,
+            136
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            25,
+            550,
+            74,
+            578
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            220,
+            614,
+            241
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1539,
+            220,
+            1720,
+            241
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2584,
+            220,
+            2776,
+            241
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            25,
+            1400,
+            74,
+            1428
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            1070,
+            614,
+            1091
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1539,
+            1070,
+            1720,
+            1091
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2584,
+            1070,
+            2776,
+            1091
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            25,
+            2250,
+            74,
+            2278
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            1920,
+            614,
+            1941
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1539,
+            1920,
+            1720,
+            1941
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2584,
+            1920,
+            2776,
+            1941
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            25,
+            3100,
+            74,
+            3128
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            2770,
+            614,
+            2791
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1539,
+            2770,
+            1720,
+            2791
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2584,
+            2770,
+            2776,
+            2791
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3720,
+            387,
+            3744
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            967,
+            3720,
+            1119,
+            3744
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1722,
+            3720,
+            1965,
+            3752
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2477,
+            3720,
+            2683,
+            3752
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig4_Example_B_four_period_chronology.tif",
+      "sha256": "adda8564351b081fa20f5538cd28c509880adb7227dac5c573c1767f6efc5583",
+      "dimensions": [
+        3260,
+        3850
+      ],
+      "typography": [
+        {
+          "text": "Example B: same native root window across all periods",
+          "bounds": [
+            1019,
+            25,
+            2242,
+            71
+          ]
+        },
+        {
+          "text": "Previous prediction vs actual root-axis repair | Fixed binary segmentation",
+          "bounds": [
+            1160,
+            110,
+            2100,
+            136
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            25,
+            550,
+            74,
+            578
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            220,
+            614,
+            241
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1539,
+            220,
+            1720,
+            241
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2584,
+            220,
+            2776,
+            241
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            25,
+            1400,
+            74,
+            1428
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            1070,
+            614,
+            1091
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1539,
+            1070,
+            1720,
+            1091
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2584,
+            1070,
+            2776,
+            1091
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            25,
+            2250,
+            74,
+            2278
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            1920,
+            614,
+            1941
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1539,
+            1920,
+            1720,
+            1941
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2584,
+            1920,
+            2776,
+            1941
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            25,
+            3100,
+            74,
+            3128
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            2770,
+            614,
+            2791
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1539,
+            2770,
+            1720,
+            2791
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2584,
+            2770,
+            2776,
+            2791
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3720,
+            387,
+            3744
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            967,
+            3720,
+            1119,
+            3744
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1722,
+            3720,
+            1965,
+            3752
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2477,
+            3720,
+            2683,
+            3752
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig4_Example_D_four_period_chronology.tif",
+      "sha256": "fa4683b9c5a2c126d7d099d6148de02e524a12cd0de7a6eaa9772044db8b9a9c",
+      "dimensions": [
+        3260,
+        3850
+      ],
+      "typography": [
+        {
+          "text": "Example D: same native root window across all periods",
+          "bounds": [
+            1017,
+            25,
+            2243,
+            71
+          ]
+        },
+        {
+          "text": "Previous prediction vs actual root-axis repair | Fixed binary segmentation",
+          "bounds": [
+            1160,
+            110,
+            2100,
+            136
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            25,
+            550,
+            74,
+            578
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            220,
+            614,
+            241
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1539,
+            220,
+            1720,
+            241
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2584,
+            220,
+            2776,
+            241
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            25,
+            1400,
+            74,
+            1428
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            1070,
+            614,
+            1091
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1539,
+            1070,
+            1720,
+            1091
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2584,
+            1070,
+            2776,
+            1091
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            25,
+            2250,
+            74,
+            2278
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            1920,
+            614,
+            1941
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1539,
+            1920,
+            1720,
+            1941
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2584,
+            1920,
+            2776,
+            1941
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            25,
+            3100,
+            74,
+            3128
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            545,
+            2770,
+            614,
+            2791
+          ]
+        },
+        {
+          "text": "Previous V85",
+          "bounds": [
+            1539,
+            2770,
+            1720,
+            2791
+          ]
+        },
+        {
+          "text": "Root-axis V88",
+          "bounds": [
+            2584,
+            2770,
+            2776,
+            2791
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3720,
+            387,
+            3744
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            967,
+            3720,
+            1119,
+            3744
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1722,
+            3720,
+            1965,
+            3752
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2477,
+            3720,
+            2683,
+            3752
+          ]
+        }
+      ]
+    }
+  ],
+  "dpi": 600,
+  "black_bold_Times_New_Roman": true,
+  "categorical_nearest_neighbor": true,
+  "full_field_four_periods": true
+}

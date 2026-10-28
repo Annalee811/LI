@@ -1,0 +1,178 @@
+[
+  {
+    "case": "A",
+    "period": "T2",
+    "axis": 133,
+    "state": "established",
+    "ROI": [
+      1290,
+      220,
+      1540,
+      470
+    ],
+    "explanation": "Existing T1 root: false new-colored distal shaft becomes extension.",
+    "before_class_pixels": {
+      "1": 284,
+      "2": 690,
+      "3": 277
+    },
+    "after_class_pixels": {
+      "1": 293,
+      "2": 0,
+      "3": 958
+    },
+    "changed_pixels_on_axis": 696,
+    "history": {
+      "period": "T2",
+      "axis": 133,
+      "length": 200,
+      "persistent": 36,
+      "new": 100,
+      "extension": 48,
+      "state": "established",
+      "prior_period": "T1",
+      "prior_axis": 164,
+      "prior_support": 35,
+      "prior_fraction": 0.195,
+      "identity_affinity": 0.44030827283859253,
+      "learned_new_probability": 0.5066252946853638,
+      "future_aligned_support": 0.99,
+      "x_start": 1457,
+      "y_start": 178,
+      "x_end": 1334,
+      "y_end": 389
+    }
+  },
+  {
+    "case": "B",
+    "period": "T2",
+    "axis": 409,
+    "state": "new",
+    "ROI": [
+      1530,
+      590,
+      1830,
+      850
+    ],
+    "explanation": "First-observed axis: false persistent / extension intervals become new.",
+    "before_class_pixels": {
+      "1": 312,
+      "2": 340,
+      "3": 358
+    },
+    "after_class_pixels": {
+      "1": 0,
+      "2": 1010,
+      "3": 0
+    },
+    "changed_pixels_on_axis": 670,
+    "history": {
+      "period": "T2",
+      "axis": 409,
+      "length": 244,
+      "persistent": 71,
+      "new": 77,
+      "extension": 90,
+      "state": "new",
+      "prior_period": "",
+      "prior_axis": -1,
+      "prior_support": 0,
+      "prior_fraction": 0.0,
+      "identity_affinity": 0.0,
+      "learned_new_probability": 0.577538013458252,
+      "future_aligned_support": 0.8073770491803278,
+      "x_start": 1800,
+      "y_start": 656,
+      "x_end": 1554,
+      "y_end": 784
+    }
+  },
+  {
+    "case": "C",
+    "period": "T3",
+    "axis": 158,
+    "state": "established",
+    "ROI": [
+      1100,
+      205,
+      1290,
+      385
+    ],
+    "explanation": "Two roots contact: upper root already visible in T2; horizontal root first appears in T3.",
+    "before_class_pixels": {
+      "1": 298,
+      "2": 24,
+      "3": 339
+    },
+    "after_class_pixels": {
+      "1": 310,
+      "2": 0,
+      "3": 351
+    },
+    "changed_pixels_on_axis": 50,
+    "history": {
+      "period": "T3",
+      "axis": 158,
+      "length": 135,
+      "persistent": 57,
+      "new": 3,
+      "extension": 65,
+      "state": "established",
+      "prior_period": "T2",
+      "prior_axis": 164,
+      "prior_support": 52,
+      "prior_fraction": 0.3925925925925926,
+      "identity_affinity": 0.6368722319602966,
+      "learned_new_probability": 0.3055138885974884,
+      "future_aligned_support": 0.8,
+      "x_start": 1165,
+      "y_start": 304,
+      "x_end": 1299,
+      "y_end": 217
+    }
+  },
+  {
+    "case": "D",
+    "period": "T3",
+    "axis": 337,
+    "state": "established",
+    "ROI": [
+      1005,
+      550,
+      1165,
+      715
+    ],
+    "explanation": "Existing root: false new interval becomes growth; old shaft remains persistent.",
+    "before_class_pixels": {
+      "1": 550,
+      "2": 137,
+      "3": 2
+    },
+    "after_class_pixels": {
+      "1": 554,
+      "2": 0,
+      "3": 135
+    },
+    "changed_pixels_on_axis": 137,
+    "history": {
+      "period": "T3",
+      "axis": 337,
+      "length": 148,
+      "persistent": 107,
+      "new": 36,
+      "extension": 0,
+      "state": "established",
+      "prior_period": "T1",
+      "prior_axis": 195,
+      "prior_support": 69,
+      "prior_fraction": 0.4864864864864865,
+      "identity_affinity": 0.4296308159828186,
+      "learned_new_probability": 0.2181159108877182,
+      "future_aligned_support": 0.7364864864864865,
+      "x_start": 1208,
+      "y_start": 504,
+      "x_end": 1069,
+      "y_end": 620
+    }
+  }
+]
