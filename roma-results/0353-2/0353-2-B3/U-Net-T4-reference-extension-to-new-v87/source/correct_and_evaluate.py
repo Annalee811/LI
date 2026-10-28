@@ -126,11 +126,11 @@ def main():
         for x, a in zip(xx[1:], [revised[t], preds['optimized_U_Net_V83'][t], preds['reviewed_U_Net_V85'][t]]):
             cv.panel(overlay(rgb[t], a), x, y, w, h); cv.panel(isolated(a), x, y + h + 10, w, h, True)
     cv.legend(3700); manifest.append(cv.save('Fig1_Four_period_corrected_T4_reference_same_UNet'))
-    cv = Canvas(3300, 1900, figdir); cv.text(1650, 25, 'T4 reference revision: all extension labels become new', 55)
+    cv = Canvas(3300, 4470, figdir); cv.text(1650, 25, 'T4 reference revision: all extension labels become new', 55)
     cv.text(1650, 110, '784 reference pixels changed | Previous T2 corrections retained | No retraining', 32)
     for i, (title, a) in enumerate([('Previous T4 reference', before['T4']), ('Corrected T4 reference', revised['T4']), ('U-Net V85 prediction (unchanged)', preds['reviewed_U_Net_V85']['T4'])]):
-        y = 230 + i * 480; cv.text(1650, y, title, 36); cv.panel(isolated(a), 250, y + 55, 2800, 360, True)
-    cv.legend(1770); manifest.append(cv.save('Fig2_T4_reference_before_after_and_fixed_UNet'))
+        y = 230 + i * 1330; cv.text(1650, y, title, 36); cv.panel(isolated(a), 250, y + 55, 2800, 1221, True)
+    cv.legend(4350); manifest.append(cv.save('Fig2_T4_reference_before_after_and_fixed_UNet'))
     js(OUT / 'figure_manifest.json', dict(files=manifest, dpi=600, categorical_nearest_neighbor=True, black_bold_Times_New_Roman=True))
     text = '# T4 reference-only change: extension to new\n\n'
     text += 'The user explicitly instructed that ALL T4 manual extension labels become new. Exactly784 T4 temporal pixels are reassigned; no extension label remains in the T4 manual temporal layer. The earlier1373 explicitly confirmed T2 corrections remain, for2157 cumulative changed pixels relative to original24. All root masks, widths, lengths, identifiers, other annotation layers and prior files are preserved.\n\n'

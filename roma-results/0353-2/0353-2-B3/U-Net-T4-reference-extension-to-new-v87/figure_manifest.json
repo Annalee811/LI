@@ -138,10 +138,10 @@
     },
     {
       "file": "Fig2_T4_reference_before_after_and_fixed_UNet.tif",
-      "sha256": "b2dfeb36d7d20188422794fcf39e6d7d50e462f0a8dc946b11d3ea75ef1f41ce",
+      "sha256": "7c9b94936fc03b2df7999d9bdcfa9932c653cae04c328215d718bf07f74c4b7d",
       "dimensions": [
         3300,
-        1900
+        4470
       ],
       "typography": [
         {
@@ -175,54 +175,54 @@
           "text": "Corrected T4 reference",
           "bounds": [
             1471,
-            710,
+            1560,
             1828,
-            734
+            1584
           ]
         },
         {
           "text": "U-Net V85 prediction (unchanged)",
           "bounds": [
             1385,
-            1190,
+            2890,
             1915,
-            1222
+            2922
           ]
         },
         {
           "text": "T1 baseline",
           "bounds": [
             212,
-            1770,
+            4350,
             387,
-            1794
+            4374
           ]
         },
         {
           "text": "Persistent",
           "bounds": [
             977,
-            1770,
+            4350,
             1129,
-            1794
+            4374
           ]
         },
         {
           "text": "Newly observed",
           "bounds": [
             1742,
-            1770,
+            4350,
             1985,
-            1802
+            4382
           ]
         },
         {
           "text": "Tip extension",
           "bounds": [
             2507,
-            1770,
+            4350,
             2713,
-            1802
+            4382
           ]
         }
       ]
@@ -230,5 +230,6 @@
   ],
   "dpi": 600,
   "categorical_nearest_neighbor": true,
-  "black_bold_Times_New_Roman": true
+  "black_bold_Times_New_Roman": true,
+  "native_full_frame_aspect_preserved": true
 }
