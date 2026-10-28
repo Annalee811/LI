@@ -1,0 +1,35 @@
+{
+  "epochs": 100,
+  "selected_epoch": 78,
+  "geometry_weight": 2.0,
+  "assignment_confidence": 0.9,
+  "validation": {
+    "correct": 22,
+    "accepted": 26,
+    "available": 37,
+    "accuracy": 0.8461538461538461,
+    "coverage": 0.7027027027027027
+  },
+  "test": {
+    "correct": 109,
+    "accepted": 118,
+    "available": 160,
+    "accuracy": 0.923728813559322,
+    "coverage": 0.7375
+  },
+  "test_all": {
+    "correct": 142,
+    "accepted": 160,
+    "available": 160,
+    "accuracy": 0.8875,
+    "coverage": 1.0
+  },
+  "trained_ConvLSTM": true,
+  "trained_GAT": true,
+  "learned_relation_gates_attention": true,
+  "pair_head_ranking": true,
+  "root_state_temporal_consistency": true,
+  "temporal_train_pairs": 205,
+  "checkpoint_sha256": "e835ab06aff540d6d820417e9abf6e5763245b4d20d3a6ea50acc30cf9d50ab3",
+  "elapsed_seconds": 410.45574552299513
+}

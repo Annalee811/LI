@@ -1,0 +1,7 @@
+﻿period,hub,x,y,allowed_reference_types,root_IDs,core_pixels,original_U_Net_third_type_pixels,previous_local_V82_third_type_pixels,whole_segment_temporal_graph_third_type_pixels,reference24_third_type_pixels,reference_root_labels
+T2,328,1520,952,2,"52,114",13,13,13,13,0,"0024,0024-N1"
+T2,339,1516,966,"1,2","114,137",25,25,3,3,0,"0024-N1,0030"
+T2,500,1468,931,1,"51,137",31,31,7,4,0,"0012-4,0030"
+T2,532,1614,1056,1,"137,128",42,41,18,22,0,"0030,0012-6"
+T3,320,1068,620,1,"94,9",13,12,9,9,0,"N-0042,0002"
+T3,325,1361,651,1,"40,98",13,0,0,1,0,"0002-10,N-0036"

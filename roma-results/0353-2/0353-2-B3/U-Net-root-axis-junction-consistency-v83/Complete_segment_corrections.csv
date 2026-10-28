@@ -1,0 +1,123 @@
+﻿period,predicted_axis,from_class,to_class,skeleton_pixels,x_start,y_start,x_end,y_end,past_aligned_support,later_aligned_support,learned_new_probability,reason
+T2,9,3,2,1,1475,22,1475,22,0.0,0.775,0.45432335138320923,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,47,-1,1,36,150,82,167,117,0.5555555555555556,0.6777777777777778,0.3949696719646454,"complete mixed-color bridge with earlier direct same-root support; affinities [0.662, 0.411, 0.791, 0.517]"
+T2,55,3,2,11,1435,82,1428,91,0.0,0.8974358974358975,0.5922210812568665,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,75,3,2,14,1427,93,1426,106,0.03787878787878788,0.8787878787878788,0.8616020083427429,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,92,3,1,8,297,122,303,127,0.2,0.7142857142857143,0.335808664560318,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,105,-1,1,3,806,258,809,262,1.0,0.6026936026936027,0.08831792324781418,"complete mixed-color bridge with earlier direct same-root support; affinities [0.722, 0.726, 0.777, 0.623]"
+T2,134,3,2,46,1445,191,1419,236,0.17,0.99,0.5066252946853638,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,135,3,2,1,1441,189,1441,189,0.26595744680851063,0.9893617021276596,0.5499710440635681,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,135,3,2,9,1452,189,1460,193,0.26595744680851063,0.9893617021276596,0.5499710440635681,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,154,3,2,3,1462,206,1461,208,0.0,1.0,0.6328978538513184,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,166,3,2,2,1290,226,1289,227,0.0,1.0,0.8070263862609863,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,208,2,1,1,1587,391,1587,391,0.9809069212410502,0.9904534606205251,0.052174072712659836,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T2,208,2,1,1,1599,419,1599,419,0.9809069212410502,0.9904534606205251,0.052174072712659836,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T2,237,2,1,1,1540,431,1540,431,0.9391891891891891,0.7162162162162162,0.06804464757442474,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T2,248,2,1,7,769,387,770,393,0.6805555555555556,0.9444444444444444,0.21787814795970917,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T2,276,-1,1,2,2213,489,2216,491,1.0,0.9385964912280702,0.07251833379268646,"complete mixed-color bridge with earlier direct same-root support; affinities [0.64, 0.576, 0.719, 0.563]"
+T2,292,2,1,1,1278,445,1278,445,0.9879518072289156,0.7951807228915663,0.12187188118696213,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T2,318,-1,2,1,1252,499,1252,499,0.0,0.3170731707317073,0.8084440231323242,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,320,2,1,1,2236,469,2236,469,0.8823529411764706,0.35294117647058826,0.11785058677196503,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T2,346,-1,1,3,2197,517,2195,518,1.0,0.45,0.24335595965385437,"complete mixed-color bridge with earlier direct same-root support; affinities [0.609, 0.779, 0.667, 0.793]"
+T2,352,2,1,2,2004,545,2005,545,0.8255813953488372,0.6395348837209303,0.1088019460439682,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T2,379,-1,2,2,1122,590,1121,590,0.19298245614035087,0.7894736842105263,0.556242048740387,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,405,-1,2,34,1263,652,1238,685,0.0,0.9470588235294117,0.7764939069747925,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,405,-1,2,3,1260,773,1261,775,0.0,0.9470588235294117,0.7764939069747925,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,410,3,2,24,887,654,865,672,0.0,0.02,0.8787490129470825,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,410,3,2,1,863,673,863,673,0.0,0.02,0.8787490129470825,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,413,-1,1,6,1595,769,1590,770,0.6666666666666666,0.8073770491803278,0.577538013458252,"occluded earlier interior: both flanks existed earlier and later same-root continuation confirms the full bridge; affinities [0.529, 0.696, 0.72, 0.691]"
+T2,418,3,2,17,120,663,117,679,0.0,0.0,0.7714284658432007,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,433,-1,2,12,1468,732,1476,747,0.0,0.9622641509433962,0.6603463888168335,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,433,-1,2,12,1492,772,1498,785,0.0,0.9622641509433962,0.6603463888168335,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,433,-1,2,1,1508,809,1508,809,0.0,0.9622641509433962,0.6603463888168335,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,441,3,2,2,1146,700,1147,700,0.0,1.0,0.888602077960968,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,442,3,2,1,1145,702,1145,702,0.0,0.9285714285714286,0.8729493618011475,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,444,-1,1,62,1075,816,1114,884,0.04838709677419355,0.7738095238095238,0.25817421078681946,"occluded earlier interior: both flanks existed earlier and later same-root continuation confirms the full bridge; affinities [0.812, 0.864, 0.855, 0.615]"
+T2,446,3,2,14,871,865,861,878,0.0,0.7616279069767442,0.8687267899513245,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,457,3,2,2,1180,743,1179,744,0.0,0.6438356164383562,0.8008111119270325,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,460,3,2,1,1186,745,1186,745,0.0,1.0,0.8649817705154419,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,461,2,1,8,984,805,982,813,0.9144385026737968,0.9732620320855615,0.15852531790733337,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T2,462,2,1,1,2452,959,2452,959,0.7816091954022989,0.5402298850574713,0.08385873585939407,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T2,478,3,2,3,1495,784,1493,785,0.0,0.1509433962264151,0.7870869040489197,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,478,3,2,17,1427,859,1419,875,0.0,0.1509433962264151,0.7870869040489197,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,490,3,2,6,1255,859,1258,864,0.0,0.8676470588235294,0.7124572396278381,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,491,-1,2,25,1090,810,1066,833,0.0,0.11029411764705882,0.7570276260375977,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,491,3,2,9,983,914,975,922,0.0,0.11029411764705882,0.7570276260375977,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,494,-1,2,4,1095,833,1094,836,0.0,0.5463917525773195,0.6823064088821411,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,494,-1,2,7,1087,850,1085,856,0.0,0.5463917525773195,0.6823064088821411,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,495,-1,1,2,1266,951,1267,952,1.0,0.4015748031496063,0.10429942607879639,"complete mixed-color bridge with earlier direct same-root support; affinities [0.894, 0.861, 0.92, 0.861]"
+T2,496,-1,2,29,847,874,876,887,0.1056338028169014,0.43309859154929575,0.6048856377601624,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,498,3,2,3,910,884,908,886,0.0,0.5465116279069767,0.8244310617446899,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,514,3,1,11,1469,933,1479,938,0.3630573248407643,0.012738853503184714,0.19245955348014832,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,514,3,1,7,1493,949,1499,953,0.3630573248407643,0.012738853503184714,0.19245955348014832,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,514,3,1,3,1509,961,1511,963,0.3630573248407643,0.012738853503184714,0.19245955348014832,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,530,3,2,8,1255,871,1248,872,0.0,0.0,0.7910774350166321,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,530,3,2,1,1246,873,1246,873,0.0,0.0,0.7910774350166321,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,532,3,2,2,1266,876,1266,877,0.0,0.5492957746478874,0.6886014938354492,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,543,3,2,4,892,896,890,899,0.0,0.0,0.8178867697715759,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,567,-1,1,4,974,990,975,993,1.0,1.0,0.08665391057729721,"complete mixed-color bridge with earlier direct same-root support; affinities [0.692, 0.649, 0.587, 0.686]"
+T2,575,3,2,8,1029,935,1027,942,0.0,0.7375,0.7460837364196777,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,575,3,2,5,1024,947,1023,951,0.0,0.7375,0.7460837364196777,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,577,-1,1,23,1288,935,1266,940,0.8695652173913043,0.0,0.29661867022514343,"complete mixed-color bridge with earlier direct same-root support; affinities [0.615, 0.82, 0.697, 0.799]"
+T2,594,-1,2,15,879,1010,891,1022,0.12878787878787878,0.4015151515151515,0.6431175470352173,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,594,3,2,4,903,1034,906,1036,0.12878787878787878,0.4015151515151515,0.6431175470352173,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,594,3,2,2,909,1041,910,1042,0.12878787878787878,0.4015151515151515,0.6431175470352173,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,605,2,1,1,959,1001,959,1001,0.7725856697819314,0.1059190031152648,0.17047441005706787,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T2,606,3,2,5,1515,973,1513,977,0.0,0.9827586206896551,0.35792630910873413,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,606,3,2,29,1506,996,1512,1024,0.0,0.9827586206896551,0.35792630910873413,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,610,3,2,6,917,1033,912,1034,0.0,0.22448979591836735,0.784709095954895,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,625,3,2,1,921,993,921,993,0.0,0.0,0.8432328104972839,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,625,3,2,8,899,1009,892,1014,0.0,0.0,0.8432328104972839,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,630,-1,2,1,1589,1025,1589,1025,0.0,0.0,0.49081021547317505,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,630,-1,2,11,1608,1048,1618,1060,0.0,0.0,0.49081021547317505,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,630,3,2,9,1634,1079,1641,1086,0.0,0.0,0.49081021547317505,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T2,673,3,1,10,1426,1035,1419,1044,0.0,0.5,0.15481512248516083,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,705,-1,1,8,948,1072,941,1073,0.75,0.03759398496240601,0.31293582916259766,"occluded earlier interior: both flanks existed earlier and later same-root continuation confirms the full bridge; affinities [0.448, 0.61, 0.768, 0.732]"
+T2,721,-1,2,23,1449,1070,1427,1084,0.0,0.0,0.7177759408950806,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T2,723,3,2,19,1677,1070,1660,1082,0.0,0.02631578947368421,0.6432473063468933,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,727,-1,1,6,182,1073,177,1074,1.0,0.9,0.5652137398719788,"complete mixed-color bridge with earlier direct same-root support; affinities [0.743, 0.588, 0.888, 0.75]"
+T2,768,3,1,4,1643,1091,1646,1094,0.0,0.0,0.32962411642074585,entire internal extension-colored segment bounded by same-root unchanged anchors
+T2,786,3,2,4,1402,1100,1405,1101,0.0,0.6571428571428571,0.8763526082038879,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T3,9,-1,1,4,938,50,940,55,1.0,0.6616541353383458,0.0904093086719513,"complete mixed-color bridge with earlier direct same-root support; affinities [0.624, 0.69, 0.667, 0.64]"
+T3,13,-1,1,2,1497,22,1495,24,1.0,0.828125,0.0642489418387413,"complete mixed-color bridge with earlier direct same-root support; affinities [0.958, 0.737, 0.939, 0.941]"
+T3,37,2,1,1,1095,212,1095,212,0.8173652694610778,0.9715568862275449,0.054704807698726654,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T3,53,-1,1,4,1500,52,1496,52,1.0,0.8765432098765432,0.05435151606798172,"complete mixed-color bridge with earlier direct same-root support; affinities [0.865, 0.803, 0.877, 0.832]"
+T3,63,3,2,2,1306,100,1307,101,0.0,1.0,0.18842756748199463,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T3,64,2,1,1,1491,103,1491,103,1.0,0.9764705882352941,0.048341527581214905,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T3,73,-1,1,19,1323,127,1337,143,0.3684210526315789,0.9672131147540983,0.14123991131782532,"occluded earlier interior: both flanks existed earlier and later same-root continuation confirms the full bridge; affinities [0.541, 0.693, 0.584, 0.733]"
+T3,88,2,1,6,1486,151,1481,156,0.7341772151898734,0.8544303797468354,0.12470752745866776,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T3,108,-1,1,13,2002,156,2014,159,0.8461538461538461,0.6307692307692307,0.15055367350578308,"complete mixed-color bridge with earlier direct same-root support; affinities [0.655, 0.612, 0.662, 0.674]"
+T3,111,3,1,8,1892,161,1899,164,0.48881789137380194,0.9808306709265175,0.21815910935401917,entire internal extension-colored segment bounded by same-root unchanged anchors
+T3,111,3,1,2,1909,167,1910,167,0.48881789137380194,0.9808306709265175,0.21815910935401917,entire internal extension-colored segment bounded by same-root unchanged anchors
+T3,111,3,1,24,1938,178,1961,181,0.48881789137380194,0.9808306709265175,0.21815910935401917,entire internal extension-colored segment bounded by same-root unchanged anchors
+T3,111,3,1,19,1996,170,2013,161,0.48881789137380194,0.9808306709265175,0.21815910935401917,entire internal extension-colored segment bounded by same-root unchanged anchors
+T3,132,2,1,4,2061,177,2064,178,1.0,0.796875,0.12665720283985138,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T3,139,2,1,2,1084,269,1085,269,0.9827586206896551,1.0,0.052056919783353806,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T3,142,-1,1,5,1191,287,1190,291,1.0,1.0,0.06400148570537567,"complete mixed-color bridge with earlier direct same-root support; affinities [0.646, 0.728, 0.611, 0.536]"
+T3,145,-1,2,30,996,224,967,246,0.0,0.0,0.6942230463027954,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T3,168,-1,1,12,791,273,780,280,0.9166666666666666,0.9145299145299145,0.26776543259620667,"complete mixed-color bridge with earlier direct same-root support; affinities [0.816, 0.758, 0.794, 0.839]"
+T3,173,-1,1,2,1091,249,1092,250,1.0,0.9942528735632183,0.05504753813147545,"complete mixed-color bridge with earlier direct same-root support; affinities [0.688, 0.547, 0.661, 0.624]"
+T3,185,3,1,14,1634,271,1647,278,0.7704918032786885,0.9836065573770492,0.07772374898195267,entire internal extension-colored segment bounded by same-root unchanged anchors
+T3,325,2,1,7,2464,501,2467,507,0.9879518072289156,0.04819277108433735,0.296501100063324,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T3,334,3,1,1,66,504,66,504,0.06153846153846154,0.0,0.13858456909656525,entire internal extension-colored segment bounded by same-root unchanged anchors
+T3,334,3,1,1,66,506,66,506,0.06153846153846154,0.0,0.13858456909656525,entire internal extension-colored segment bounded by same-root unchanged anchors
+T3,347,2,1,6,2250,499,2245,501,0.6896551724137931,0.4827586206896552,0.13949495553970337,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T3,391,3,2,10,1813,614,1804,614,0.0,1.0,0.7595968246459961,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T3,394,-1,2,18,943,682,949,700,0.008333333333333333,0.9395833333333333,0.5393691658973694,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T3,394,-1,2,1,987,791,987,791,0.008333333333333333,0.9395833333333333,0.5393691658973694,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T3,394,-1,2,1,1028,845,1028,845,0.008333333333333333,0.9395833333333333,0.5393691658973694,whole extension-colored interval between unchanged new-root anchors on one reconstructed root axis
+T3,414,3,2,3,605,659,603,659,0.0,0.013157894736842105,0.78853839635849,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T3,414,3,2,8,557,689,550,690,0.0,0.013157894736842105,0.78853839635849,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T3,414,3,2,14,545,690,532,691,0.0,0.013157894736842105,0.78853839635849,new root: learned state/green shaft plus absence of aligned earlier root; extension cannot be a second birth state
+T3,423,-1,1,9,1782,866,1772,874,1.0,0.963302752293578,0.04668831080198288,"complete mixed-color bridge with earlier direct same-root support; affinities [0.573, 0.536, 0.588, 0.548]"
+T3,427,3,1,28,885,739,858,763,0.398876404494382,0.6797752808988764,0.13456891477108002,entire internal extension-colored segment bounded by same-root unchanged anchors
+T3,463,2,1,3,1538,764,1540,768,0.7254901960784313,0.43137254901960786,0.05414533615112305,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T3,471,-1,1,73,1502,784,1576,763,0.5753424657534246,0.8333333333333334,0.13244116306304932,"complete mixed-color bridge with earlier direct same-root support; affinities [0.834, 0.628, 0.629, 0.816]"
+T3,484,2,1,1,1617,781,1617,781,0.8918918918918919,1.0,0.07055692374706268,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T3,505,-1,1,3,1374,866,1376,867,1.0,0.23579545454545456,0.060230858623981476,"complete mixed-color bridge with earlier direct same-root support; affinities [0.795, 0.628, 0.649, 0.0]"
+T3,508,2,1,3,1508,829,1506,831,0.6626506024096386,0.42168674698795183,0.05847252905368805,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T3,530,-1,1,117,1102,851,1192,964,0.7521367521367521,0.9851851851851852,0.3822467625141144,"complete mixed-color bridge with earlier direct same-root support; affinities [0.601, 0.569, 0.444, 0.705]"
+T3,734,-1,1,8,1562,1073,1569,1076,1.0,1.0,0.06961851567029953,"complete mixed-color bridge with earlier direct same-root support; affinities [0.578, 0.523, 0.519, 0.675]"
+T3,780,-1,1,3,1843,1094,1845,1095,1.0,0.8867924528301887,0.06824275851249695,"complete mixed-color bridge with earlier direct same-root support; affinities [0.555, 0.634, 0.593, 0.627]"
+T4,608,2,1,19,1912,1043,1894,1048,0.8164383561643835,0.0,0.05982146039605141,"short new-colored temporal jump inside an established axis, with aligned earlier presence"
+T4,652,2,1,1,1685,1006,1685,1006,0.9932432432432432,0.0,0.05376260727643967,"short new-colored temporal jump inside an established axis, with aligned earlier presence"

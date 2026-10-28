@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "all_four_root_geometries_unchanged": true,
+  "T1_unchanged": true,
+  "original_and_previous_results_unchanged": true,
+  "source24_unchanged": true,
+  "metrics_are_internal_reference_agreement": true,
+  "manual_IDs_prediction_inputs": false,
+  "all_fields_processed": true,
+  "full_segment_and_junction_rules_applied": true,
+  "pixel_metrics_separate_from_structural_checks": true,
+  "prediction_sha256": {
+    "T1_classes.png": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "T2_classes.png": "9c99d3b6f637eaaec2edc0d7771b12a81afb0b55043dc7b606cf7e5d7230f921",
+    "T3_classes.png": "1920d814f9e4e10a9540cc998b85a760e8354d8c75fd2a8c964f7e3bec97e1e0",
+    "T4_classes.png": "ce6a7ab834e25e8dce275e7bc4282fca112e370640c6d93140215df592c292c3"
+  }
+}

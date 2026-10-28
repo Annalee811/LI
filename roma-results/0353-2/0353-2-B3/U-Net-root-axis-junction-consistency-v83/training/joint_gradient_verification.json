@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "ConvLSTM_gradient": 3.507664918899536,
+  "GAT_gradients": [
+    5.356167793273926,
+    5.892677307128906
+  ],
+  "source24_confirmed_root_supervision": true,
+  "learned_identity_gates_graph_messages": true
+}

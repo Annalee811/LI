@@ -1,0 +1,324 @@
+{
+  "pixel_metrics": {
+    "20": {
+      "original_U_Net": {
+        "classes": [
+          {
+            "name": "persistent",
+            "Precision": 0.9879015200654276,
+            "Recall": 0.9547690756210905,
+            "Dice": 0.9710527592396239,
+            "IoU": 0.943734256502822,
+            "support": 73379
+          },
+          {
+            "name": "newly_observed",
+            "Precision": 0.8079181092879723,
+            "Recall": 0.8385282399812515,
+            "Dice": 0.8229386284356193,
+            "IoU": 0.6991467465641894,
+            "support": 12801
+          },
+          {
+            "name": "tip_extension",
+            "Precision": 0.01812478215406065,
+            "Recall": 0.05823068309070549,
+            "Dice": 0.02764486975013291,
+            "IoU": 0.014016172506738544,
+            "support": 893
+          }
+        ],
+        "macro_Dice": 0.6072120858084586,
+        "confusion": [
+          [
+            70060,
+            1780,
+            1539
+          ],
+          [
+            789,
+            10734,
+            1278
+          ],
+          [
+            69,
+            772,
+            52
+          ]
+        ],
+        "accuracy": 0.9284852939487557
+      },
+      "previous_local_V82": {
+        "classes": [
+          {
+            "name": "persistent",
+            "Precision": 0.9869412918593247,
+            "Recall": 0.9599204131972363,
+            "Dice": 0.9732433384686595,
+            "IoU": 0.9478812019754814,
+            "support": 73379
+          },
+          {
+            "name": "newly_observed",
+            "Precision": 0.80766693542476,
+            "Recall": 0.8607921256151864,
+            "Dice": 0.8333837543488126,
+            "IoU": 0.7143598055105348,
+            "support": 12801
+          },
+          {
+            "name": "tip_extension",
+            "Precision": 0.02524271844660194,
+            "Recall": 0.05823068309070549,
+            "Dice": 0.03521842194378598,
+            "IoU": 0.017924853498793518,
+            "support": 893
+          }
+        ],
+        "macro_Dice": 0.6139485049204193,
+        "confusion": [
+          [
+            70438,
+            1852,
+            1089
+          ],
+          [
+            863,
+            11019,
+            919
+          ],
+          [
+            69,
+            772,
+            52
+          ]
+        ],
+        "accuracy": 0.9360995945930426
+      },
+      "whole_segment_temporal_graph": {
+        "classes": [
+          {
+            "name": "persistent",
+            "Precision": 0.987152661533311,
+            "Recall": 0.9644039847912891,
+            "Dice": 0.9756457361081431,
+            "IoU": 0.952449528936743,
+            "support": 73379
+          },
+          {
+            "name": "newly_observed",
+            "Precision": 0.8147838797243684,
+            "Recall": 0.9144598078275135,
+            "Dice": 0.8617491166077739,
+            "IoU": 0.757081878152891,
+            "support": 12801
+          },
+          {
+            "name": "tip_extension",
+            "Precision": 0.05009823182711198,
+            "Recall": 0.05711086226203808,
+            "Dice": 0.05337519623233909,
+            "IoU": 0.027419354838709678,
+            "support": 893
+          }
+        ],
+        "macro_Dice": 0.630256682982752,
+        "confusion": [
+          [
+            70767,
+            1888,
+            724
+          ],
+          [
+            852,
+            11706,
+            243
+          ],
+          [
+            69,
+            773,
+            51
+          ]
+        ],
+        "accuracy": 0.9477564801947791
+      }
+    },
+    "24": {
+      "original_U_Net": {
+        "classes": [
+          {
+            "name": "persistent",
+            "Precision": 0.9830408452881089,
+            "Recall": 0.9547879962334702,
+            "Dice": 0.9687084625609216,
+            "IoU": 0.9393158262177111,
+            "support": 73277
+          },
+          {
+            "name": "newly_observed",
+            "Precision": 0.759044069283052,
+            "Recall": 0.8153556288271314,
+            "Dice": 0.7861928011808789,
+            "IoU": 0.6477081384471469,
+            "support": 12738
+          },
+          {
+            "name": "tip_extension",
+            "Precision": 0.06922822126531965,
+            "Recall": 0.11248654467168999,
+            "Dice": 0.08570842731187205,
+            "IoU": 0.04477292202227935,
+            "support": 1858
+          }
+        ],
+        "macro_Dice": 0.6135365636845574,
+        "confusion": [
+          [
+            69964,
+            1738,
+            1575
+          ],
+          [
+            1117,
+            10386,
+            1235
+          ],
+          [
+            90,
+            1559,
+            209
+          ]
+        ],
+        "accuracy": 0.9167662421904339
+      },
+      "previous_local_V82": {
+        "classes": [
+          {
+            "name": "persistent",
+            "Precision": 0.982028241335045,
+            "Recall": 0.9604650845422166,
+            "Dice": 0.9711269791990065,
+            "IoU": 0.943874471937236,
+            "support": 73277
+          },
+          {
+            "name": "newly_observed",
+            "Precision": 0.7601880877742947,
+            "Recall": 0.8376511226252159,
+            "Dice": 0.7970419063270336,
+            "IoU": 0.662568306010929,
+            "support": 12738
+          },
+          {
+            "name": "tip_extension",
+            "Precision": 0.0880590133702167,
+            "Recall": 0.10279870828848224,
+            "Dice": 0.09485969704494661,
+            "IoU": 0.049791449426485924,
+            "support": 1858
+          }
+        ],
+        "macro_Dice": 0.6210095275236623,
+        "confusion": [
+          [
+            70380,
+            1807,
+            1090
+          ],
+          [
+            1180,
+            10670,
+            888
+          ],
+          [
+            108,
+            1559,
+            191
+          ]
+        ],
+        "accuracy": 0.9245274430143503
+      },
+      "whole_segment_temporal_graph": {
+        "classes": [
+          {
+            "name": "persistent",
+            "Precision": 0.9823152688829306,
+            "Recall": 0.9649685440179047,
+            "Dice": 0.9735646427096242,
+            "IoU": 0.9484909456740442,
+            "support": 73277
+          },
+          {
+            "name": "newly_observed",
+            "Precision": 0.7694026818366517,
+            "Recall": 0.8918982571832312,
+            "Dice": 0.8261343804537522,
+            "IoU": 0.7037725329864337,
+            "support": 12738
+          },
+          {
+            "name": "tip_extension",
+            "Precision": 0.16725978647686832,
+            "Recall": 0.10118406889128095,
+            "Dice": 0.12608987256874582,
+            "IoU": 0.06728704366499642,
+            "support": 1858
+          }
+        ],
+        "macro_Dice": 0.6419296319107074,
+        "confusion": [
+          [
+            70710,
+            1843,
+            724
+          ],
+          [
+            1165,
+            11361,
+            212
+          ],
+          [
+            108,
+            1562,
+            188
+          ]
+        ],
+        "accuracy": 0.9361123439509291
+      }
+    }
+  },
+  "root_period_records": 158,
+  "root_new_extension_conflicts5": {
+    "original_U_Net": 24,
+    "previous_local_V82": 17,
+    "whole_segment_temporal_graph": 11
+  },
+  "scoreable_confirmed_two_root_junctions": 80,
+  "third_type_junction_audit": {
+    "original_U_Net": {
+      "junctions_with_third_type": 13,
+      "third_type_pixels": 202
+    },
+    "previous_local_V82": {
+      "junctions_with_third_type": 10,
+      "third_type_pixels": 79
+    },
+    "whole_segment_temporal_graph": {
+      "junctions_with_third_type": 6,
+      "third_type_pixels": 52
+    }
+  },
+  "holdout_edit_counts": {
+    "changed_on_holdout": 1166,
+    "fixed": 1037,
+    "harmed": 19,
+    "changed_still_wrong": 110
+  },
+  "user_review_case_yellow_pixels": {
+    "original_U_Net": 325,
+    "previous_local_V82": 241,
+    "whole_segment_temporal_graph": 1
+  },
+  "user_case_scope": "User-reported known regression region; not independent validation",
+  "reference24_itself_has_core_third_type_pixels": 0
+}

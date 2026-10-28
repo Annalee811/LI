@@ -1,0 +1,33 @@
+{
+  "source24_sha256": "cb5a9326b73003a81b44961300de88806378a771514e886faff168a715bf2c8e",
+  "baseline": "Original U-Net plus previously delivered local V82 result; frozen binary geometry",
+  "module": "Frozen latest ConvLSTM/GAT embeddings; learn a junction-continuation relation head; structured segment decoder",
+  "feature_dimension": 114,
+  "pair_targets": {
+    "train": [
+      1224,
+      1016
+    ],
+    "val": [
+      95,
+      96
+    ],
+    "test": [
+      402,
+      305
+    ]
+  },
+  "unique_matching_junctions": {
+    "train": 452,
+    "val": 37,
+    "test": 160
+  },
+  "manual_IDs_input": false,
+  "user_case_ROI": [
+    1024,
+    704,
+    1280,
+    960
+  ],
+  "case_scope": "User-reported regression case; no independent test claim"
+}

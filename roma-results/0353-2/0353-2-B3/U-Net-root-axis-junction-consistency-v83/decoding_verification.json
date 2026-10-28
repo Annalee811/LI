@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "prototype": false,
+  "whole_field_all_four_periods": true,
+  "geometry_unchanged": true,
+  "non_anomaly_body_classes_unchanged": true,
+  "no_reference_IDs_or_classes_at_prediction": true,
+  "total_edits": 5610,
+  "whole_segment_changes": 122,
+  "all_prior_results_preserved": true,
+  "connection_head_confidence": 0.9,
+  "geometry_weight": 2.0,
+  "temporal_identity_threshold": 0.40000000000000013,
+  "temporal_residual_motion_search_pixels": 32
+}

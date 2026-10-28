@@ -1,0 +1,1522 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "Fig1_Four_period_whole_root_consistency.tif",
+      "sha256": "282df62c8173f6f4aa8d9ac1889eb5b0f31c5feed8253f215223035afd94516e",
+      "dimensions": [
+        4900,
+        4200
+      ],
+      "typography": [
+        {
+          "text": "Whole-root temporal continuity across four periods",
+          "bounds": [
+            1593,
+            35,
+            3307,
+            104
+          ]
+        },
+        {
+          "text": "Learned junction continuation + multi-period root identity + complete-segment decoding",
+          "bounds": [
+            1730,
+            145,
+            3169,
+            179
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            549,
+            245,
+            790,
+            282
+          ]
+        },
+        {
+          "text": "Revised reference",
+          "bounds": [
+            1699,
+            245,
+            2001,
+            272
+          ]
+        },
+        {
+          "text": "Previous local correction",
+          "bounds": [
+            2839,
+            245,
+            3262,
+            272
+          ]
+        },
+        {
+          "text": "Root-segment correction",
+          "bounds": [
+            4040,
+            245,
+            4460,
+            281
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            41,
+            750,
+            109,
+            790
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            41,
+            1675,
+            109,
+            1715
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            41,
+            2600,
+            109,
+            2640
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            41,
+            3525,
+            109,
+            3565
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            4090,
+            387,
+            4114
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1377,
+            4090,
+            1529,
+            4114
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2542,
+            4090,
+            2785,
+            4122
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3707,
+            4090,
+            3913,
+            4122
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_User_reported_crossing_four_period_check.tif",
+      "sha256": "4e792e92e172a5419662f122cfbc072c12877d5e37c5db8a9bfc5aa34ae62f2d",
+      "dimensions": [
+        4740,
+        4260
+      ],
+      "typography": [
+        {
+          "text": "Known regression: continuity through the reported crossing",
+          "bounds": [
+            1500,
+            35,
+            3239,
+            96
+          ]
+        },
+        {
+          "text": "Same native window in all four periods | Root shapes, widths and lengths fixed",
+          "bounds": [
+            1769,
+            135,
+            2970,
+            167
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            20,
+            660,
+            81,
+            694
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            250,
+            591,
+            276
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            250,
+            1541,
+            276
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            250,
+            2492,
+            276
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            250,
+            3443,
+            284
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            250,
+            4295,
+            284
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            20,
+            1610,
+            81,
+            1644
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            1200,
+            591,
+            1226
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            1200,
+            1541,
+            1226
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            1200,
+            2492,
+            1226
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            1200,
+            3443,
+            1234
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            1200,
+            4295,
+            1234
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            20,
+            2560,
+            81,
+            2594
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            2150,
+            591,
+            2176
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            2150,
+            1541,
+            2176
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            2150,
+            2492,
+            2176
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            2150,
+            3443,
+            2184
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            2150,
+            4295,
+            2184
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            20,
+            3510,
+            81,
+            3544
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            3100,
+            591,
+            3126
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            3100,
+            1541,
+            3126
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            3100,
+            2492,
+            3126
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            3100,
+            3443,
+            3134
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            3100,
+            4295,
+            3134
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            4110,
+            387,
+            4134
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1337,
+            4110,
+            1489,
+            4134
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2462,
+            4110,
+            2705,
+            4142
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3587,
+            4110,
+            3793,
+            4142
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig3_All_field_detail_1.tif",
+      "sha256": "68912aa8d81394994f27cc67d408bbb61aede44817d750b0f7b984fd1787f10b",
+      "dimensions": [
+        4740,
+        4260
+      ],
+      "typography": [
+        {
+          "text": "All-field detail 1: complete segments and junction types",
+          "bounds": [
+            1568,
+            35,
+            3172,
+            96
+          ]
+        },
+        {
+          "text": "Same native window in all four periods | Root shapes, widths and lengths fixed",
+          "bounds": [
+            1769,
+            135,
+            2970,
+            167
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            20,
+            660,
+            81,
+            694
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            250,
+            591,
+            276
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            250,
+            1541,
+            276
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            250,
+            2492,
+            276
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            250,
+            3443,
+            284
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            250,
+            4295,
+            284
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            20,
+            1610,
+            81,
+            1644
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            1200,
+            591,
+            1226
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            1200,
+            1541,
+            1226
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            1200,
+            2492,
+            1226
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            1200,
+            3443,
+            1234
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            1200,
+            4295,
+            1234
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            20,
+            2560,
+            81,
+            2594
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            2150,
+            591,
+            2176
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            2150,
+            1541,
+            2176
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            2150,
+            2492,
+            2176
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            2150,
+            3443,
+            2184
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            2150,
+            4295,
+            2184
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            20,
+            3510,
+            81,
+            3544
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            3100,
+            591,
+            3126
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            3100,
+            1541,
+            3126
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            3100,
+            2492,
+            3126
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            3100,
+            3443,
+            3134
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            3100,
+            4295,
+            3134
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            4110,
+            387,
+            4134
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1337,
+            4110,
+            1489,
+            4134
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2462,
+            4110,
+            2705,
+            4142
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3587,
+            4110,
+            3793,
+            4142
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig3_All_field_detail_2.tif",
+      "sha256": "0146d55c049c454307755a776af98adf60448a32d245733da04a3cd620170586",
+      "dimensions": [
+        4740,
+        4260
+      ],
+      "typography": [
+        {
+          "text": "All-field detail 2: complete segments and junction types",
+          "bounds": [
+            1568,
+            35,
+            3172,
+            96
+          ]
+        },
+        {
+          "text": "Same native window in all four periods | Root shapes, widths and lengths fixed",
+          "bounds": [
+            1769,
+            135,
+            2970,
+            167
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            20,
+            660,
+            81,
+            694
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            250,
+            591,
+            276
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            250,
+            1541,
+            276
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            250,
+            2492,
+            276
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            250,
+            3443,
+            284
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            250,
+            4295,
+            284
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            20,
+            1610,
+            81,
+            1644
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            1200,
+            591,
+            1226
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            1200,
+            1541,
+            1226
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            1200,
+            2492,
+            1226
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            1200,
+            3443,
+            1234
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            1200,
+            4295,
+            1234
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            20,
+            2560,
+            81,
+            2594
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            2150,
+            591,
+            2176
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            2150,
+            1541,
+            2176
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            2150,
+            2492,
+            2176
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            2150,
+            3443,
+            2184
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            2150,
+            4295,
+            2184
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            20,
+            3510,
+            81,
+            3544
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            3100,
+            591,
+            3126
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            3100,
+            1541,
+            3126
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            3100,
+            2492,
+            3126
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            3100,
+            3443,
+            3134
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            3100,
+            4295,
+            3134
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            4110,
+            387,
+            4134
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1337,
+            4110,
+            1489,
+            4134
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2462,
+            4110,
+            2705,
+            4142
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3587,
+            4110,
+            3793,
+            4142
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig3_All_field_detail_3.tif",
+      "sha256": "6d6634bac961c4b506a719f7451270767ad149ee942bc906b1d83ceafd277ec5",
+      "dimensions": [
+        4740,
+        4260
+      ],
+      "typography": [
+        {
+          "text": "All-field detail 3: complete segments and junction types",
+          "bounds": [
+            1568,
+            35,
+            3172,
+            96
+          ]
+        },
+        {
+          "text": "Same native window in all four periods | Root shapes, widths and lengths fixed",
+          "bounds": [
+            1769,
+            135,
+            2970,
+            167
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            20,
+            660,
+            81,
+            694
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            250,
+            591,
+            276
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            250,
+            1541,
+            276
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            250,
+            2492,
+            276
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            250,
+            3443,
+            284
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            250,
+            4295,
+            284
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            20,
+            1610,
+            81,
+            1644
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            1200,
+            591,
+            1226
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            1200,
+            1541,
+            1226
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            1200,
+            2492,
+            1226
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            1200,
+            3443,
+            1234
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            1200,
+            4295,
+            1234
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            20,
+            2560,
+            81,
+            2594
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            2150,
+            591,
+            2176
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            2150,
+            1541,
+            2176
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            2150,
+            2492,
+            2176
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            2150,
+            3443,
+            2184
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            2150,
+            4295,
+            2184
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            20,
+            3510,
+            81,
+            3544
+          ]
+        },
+        {
+          "text": "RGB",
+          "bounds": [
+            509,
+            3100,
+            591,
+            3126
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            1379,
+            3100,
+            1541,
+            3126
+          ]
+        },
+        {
+          "text": "Previous result",
+          "bounds": [
+            2249,
+            3100,
+            2492,
+            3126
+          ]
+        },
+        {
+          "text": "Root-segment result",
+          "bounds": [
+            3117,
+            3100,
+            3443,
+            3134
+          ]
+        },
+        {
+          "text": "Edited pixels",
+          "bounds": [
+            4085,
+            3100,
+            4295,
+            3134
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            4110,
+            387,
+            4134
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1337,
+            4110,
+            1489,
+            4134
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2462,
+            4110,
+            2705,
+            4142
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3587,
+            4110,
+            3793,
+            4142
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig4_100_epochs_joint_history_and_graph_training.tif",
+      "sha256": "f497079b5af4a696637780da0d2ea2a9148df567c0d6c2a95f59248ad1594be3"
+    },
+    {
+      "file": "Table_Structural_continuity_before_after.tif",
+      "sha256": "11eaf71bcd865bab4f8c0b446ff6d21d00f7232bba764a94bba676ba442c068e",
+      "dimensions": [
+        3300,
+        1540
+      ],
+      "typography": [
+        {
+          "text": "Structural continuity audit: previous vs root-segment correction",
+          "bounds": [
+            803,
+            35,
+            2497,
+            90
+          ]
+        },
+        {
+          "text": "Internal known-root reference checks; these are not pixel Dice or independent accuracy",
+          "bounds": [
+            1016,
+            130,
+            2283,
+            160
+          ]
+        },
+        {
+          "text": "Check",
+          "bounds": [
+            140,
+            270,
+            255,
+            300
+          ]
+        },
+        {
+          "text": "Previous",
+          "bounds": [
+            1740,
+            270,
+            1896,
+            300
+          ]
+        },
+        {
+          "text": "Current",
+          "bounds": [
+            2220,
+            270,
+            2366,
+            300
+          ]
+        },
+        {
+          "text": "Records",
+          "bounds": [
+            2650,
+            270,
+            2797,
+            299
+          ]
+        },
+        {
+          "text": "Roots mixing new / extension (each >=5px)",
+          "bounds": [
+            140,
+            400,
+            850,
+            434
+          ]
+        },
+        {
+          "text": "17",
+          "bounds": [
+            1740,
+            400,
+            1779,
+            426
+          ]
+        },
+        {
+          "text": "11",
+          "bounds": [
+            2220,
+            400,
+            2257,
+            426
+          ]
+        },
+        {
+          "text": "158",
+          "bounds": [
+            2650,
+            400,
+            2709,
+            426
+          ]
+        },
+        {
+          "text": "Two-root junctions with a third class",
+          "bounds": [
+            140,
+            570,
+            751,
+            604
+          ]
+        },
+        {
+          "text": "10",
+          "bounds": [
+            1740,
+            570,
+            1779,
+            596
+          ]
+        },
+        {
+          "text": "6",
+          "bounds": [
+            2220,
+            570,
+            2240,
+            596
+          ]
+        },
+        {
+          "text": "80",
+          "bounds": [
+            2650,
+            570,
+            2689,
+            596
+          ]
+        },
+        {
+          "text": "Third-class pixels at those junctions",
+          "bounds": [
+            140,
+            740,
+            736,
+            774
+          ]
+        },
+        {
+          "text": "79",
+          "bounds": [
+            1740,
+            740,
+            1779,
+            766
+          ]
+        },
+        {
+          "text": "52",
+          "bounds": [
+            2220,
+            740,
+            2259,
+            766
+          ]
+        },
+        {
+          "text": "same set",
+          "bounds": [
+            2650,
+            740,
+            2790,
+            765
+          ]
+        },
+        {
+          "text": "Yellow pixels in the user review window",
+          "bounds": [
+            140,
+            910,
+            799,
+            944
+          ]
+        },
+        {
+          "text": "241",
+          "bounds": [
+            1740,
+            910,
+            1799,
+            936
+          ]
+        },
+        {
+          "text": "1",
+          "bounds": [
+            2220,
+            910,
+            2240,
+            936
+          ]
+        },
+        {
+          "text": "known case",
+          "bounds": [
+            2650,
+            910,
+            2842,
+            936
+          ]
+        },
+        {
+          "text": "Root geometry changed pixels",
+          "bounds": [
+            140,
+            1080,
+            639,
+            1114
+          ]
+        },
+        {
+          "text": "0",
+          "bounds": [
+            1740,
+            1080,
+            1760,
+            1106
+          ]
+        },
+        {
+          "text": "0",
+          "bounds": [
+            2220,
+            1080,
+            2240,
+            1106
+          ]
+        },
+        {
+          "text": "all periods",
+          "bounds": [
+            2650,
+            1080,
+            2824,
+            1114
+          ]
+        },
+        {
+          "text": "Remaining errors are retained; the known user example is not held-out validation.",
+          "bounds": [
+            1072,
+            1380,
+            2228,
+            1409
+          ]
+        }
+      ]
+    }
+  ],
+  "black_bold_Times_New_Roman": true,
+  "dpi": 600,
+  "geometry_unchanged": true,
+  "whole_field_four_period_processing": true
+}

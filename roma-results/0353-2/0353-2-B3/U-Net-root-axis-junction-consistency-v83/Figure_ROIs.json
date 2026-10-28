@@ -1,0 +1,38 @@
+{
+  "user_case": [
+    1024,
+    704,
+    1280,
+    960
+  ],
+  "other_windows": [
+    {
+      "ROI": [
+        1280,
+        64,
+        1536,
+        320
+      ],
+      "changed_pixels": 829
+    },
+    {
+      "ROI": [
+        832,
+        832,
+        1088,
+        1088
+      ],
+      "changed_pixels": 672
+    },
+    {
+      "ROI": [
+        1408,
+        832,
+        1664,
+        1088
+      ],
+      "changed_pixels": 552
+    }
+  ],
+  "selection": "User case is a known development regression; other windows selected by actual change count, never favorable accuracy"
+}

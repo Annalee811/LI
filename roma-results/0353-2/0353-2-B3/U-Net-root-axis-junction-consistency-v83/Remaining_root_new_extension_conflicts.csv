@@ -1,0 +1,12 @@
+﻿period,root_target,pixels,original_U_Net_new_extension_conflict5,previous_local_V82_new_extension_conflict5,whole_segment_temporal_graph_new_extension_conflict5,reference_root_label
+T2,45,917,True,True,True,0011
+T2,48,275,True,True,True,0012
+T2,51,543,False,True,True,0012-4
+T2,61,595,True,True,True,0019-2
+T2,92,639,True,True,True,0017-N6
+T2,96,684,True,True,True,N-0021
+T2,98,349,True,True,True,N-0036
+T2,133,605,True,True,True,N-0001
+T2,137,1417,True,True,True,0030
+T3,65,230,True,True,True,0012-5
+T3,94,360,True,True,True,N-0042

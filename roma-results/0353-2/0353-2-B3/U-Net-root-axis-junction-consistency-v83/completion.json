@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "joint_epochs": 100,
+  "only_U_Net": true,
+  "all_four_periods": true,
+  "geometry_unchanged": true,
+  "unresolved_cases_retained": true
+}
