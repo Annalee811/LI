@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "offline HTML opens four native RGB periods with all remote image requests blocked",
+      "passed": true
+    },
+    {
+      "name": "all sixteen pixel layers match upload17 exactly",
+      "passed": true
+    },
+    {
+      "name": "all native root paths, IDs, lengths, ownership maps and cut records match",
+      "passed": true
+    },
+    {
+      "name": "all142 user-confirmed root definitions are preserved",
+      "passed": true
+    },
+    {
+      "name": "T1 displays exact matching original PNG",
+      "passed": true
+    },
+    {
+      "name": "T2 displays exact matching original PNG",
+      "passed": true
+    },
+    {
+      "name": "T3 displays exact matching original PNG",
+      "passed": true
+    },
+    {
+      "name": "T4 displays exact matching original PNG",
+      "passed": true
+    },
+    {
+      "name": "real root-number input and Apply button update the selected biological root",
+      "passed": true
+    },
+    {
+      "name": "number editing leaves pixel labels and native ownership unchanged",
+      "passed": true
+    },
+    {
+      "name": "Restore progress applies the uploaded original source correctly",
+      "passed": true
+    },
+    {
+      "name": "Restore progress also recovers a newly edited number",
+      "passed": true
+    },
+    {
+      "name": "Save editable HTML emits a complete file with embedded original images",
+      "passed": true
+    },
+    {
+      "name": "saved edited HTML reopens offline and retains edits without resetting to original17",
+      "passed": true
+    },
+    {
+      "name": "cut, detachment and save controls are present once after reopening",
+      "passed": true
+    },
+    {
+      "name": "original project still validates and restores exactly after saving and reopening",
+      "passed": true
+    },
+    {
+      "name": "no browser runtime exceptions",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "exceptions": [],
+  "tested_HTML_SHA256": "f3d204ac7c456d30a8e72ed6578432423e2b83deb25e988ad8dcdf981bc99bc1",
+  "browser": "Chromium, actual input/click/file restore/save/reopen; HTTPS and external image assets blocked",
+  "software_test_changes_not_applied_to_delivery": true
+}

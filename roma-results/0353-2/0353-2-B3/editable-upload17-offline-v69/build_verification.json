@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "source_sha256": "c5f82d8920e4faed263c206b4d85261dcdea99f102c4f75caf45fa6f57c4a270",
+  "backup_sha256": "c5f82d8920e4faed263c206b4d85261dcdea99f102c4f75caf45fa6f57c4a270",
+  "embedded_JSON_deep_equal_source": true,
+  "all_original_PNG_bytes_exact": true,
+  "all_four_frames_native_dimensions_unchanged": true,
+  "images": [
+    {
+      "name": "T1_RGB.png",
+      "sha256": "c8548de563b4d5ac0b223235758f7cdf6f118ac70614a7792a86f12fb9eb295b",
+      "bytes": 6034977,
+      "dimensions": [
+        2541,
+        1108
+      ]
+    },
+    {
+      "name": "T2_RGB.png",
+      "sha256": "e65b91ef07abea8527b71a97a37e2ff19ca1a6527ff0090970cf084bba338b3c",
+      "bytes": 4367012,
+      "dimensions": [
+        2541,
+        1108
+      ]
+    },
+    {
+      "name": "T3_RGB.png",
+      "sha256": "3df9bca33ebd9ee88a2eab874143569d5f8d9cdb7cd49d326754791f1b58e8e6",
+      "bytes": 3901381,
+      "dimensions": [
+        2541,
+        1108
+      ]
+    },
+    {
+      "name": "T4_RGB.png",
+      "sha256": "d43a5d5fd491ed05579f2f32bc853808165431ef15c30eac48f143b20160bdea",
+      "bytes": 4521300,
+      "dimensions": [
+        2541,
+        1108
+      ]
+    }
+  ],
+  "confirmed_root_IDs": 142,
+  "new_root_labels_or_proposals_added": false,
+  "pixel_layers_geometry_widths_lengths_numbers_connections_unchanged": true,
+  "offline_html_bytes": 27788307,
+  "offline_html_sha256": "f3d204ac7c456d30a8e72ed6578432423e2b83deb25e988ad8dcdf981bc99bc1",
+  "online_html_sha256": "6304fb1f68f83f6992878c71f0758dde7a993a7437a4df9a3dc77eb888140846"
+}
