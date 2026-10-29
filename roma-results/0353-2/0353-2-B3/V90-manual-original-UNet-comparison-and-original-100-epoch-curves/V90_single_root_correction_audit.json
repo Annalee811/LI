@@ -1,0 +1,33 @@
+{
+  "period": "T2",
+  "root_id": "R20484",
+  "root_label": "0002-N1",
+  "root_first_seen_period": "T2",
+  "selected_root_foreground_pixels": 3149,
+  "changed_pixels": 2100,
+  "bbox": [
+    1271,
+    201,
+    2068,
+    457
+  ],
+  "before_class_counts": {
+    "1": 266,
+    "2": 1049,
+    "3": 1834
+  },
+  "after_class_counts": {
+    "1": 0,
+    "2": 3149,
+    "3": 0
+  },
+  "other_root_pixels_changed": 0,
+  "T1_T3_T4_prediction_pixels_changed": 0,
+  "older_contact_strand_preserved": true,
+  "old_model_axis_count_representing_this_one_root": 11,
+  "new_model_axis": 772,
+  "error_mechanism": "Only21 skeleton samples near an old contact strand were accepted as earlier-root evidence; the new lateral body had472 new-class samples. The decoder joined contact and lateral and inherited the old state. The user and existing confirmed root identity specify a new T2 lateral.",
+  "correction_scope": "ONLY the explicitly confirmed numbered root intersected with the immutable prediction foreground, not a rectangular/page repaint",
+  "assisted_review": true,
+  "no_training": true
+}

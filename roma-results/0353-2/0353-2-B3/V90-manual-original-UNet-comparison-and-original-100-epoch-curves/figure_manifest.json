@@ -1,0 +1,1729 @@
+{
+  "files": [
+    {
+      "file": "Fig1_Manual_Original_UNet_V90_four_period_full_comparison.tif",
+      "sha256": "fa253cf129fb1b2fbe250e7b0b0b2ec6efc9819959f7cb55b6a7850771360b88",
+      "dimensions": [
+        6250,
+        5780
+      ],
+      "typography": [
+        {
+          "text": "Manual annotation | Original U-Net | V90: full four-period comparison",
+          "bounds": [
+            2038,
+            25,
+            4212,
+            91
+          ]
+        },
+        {
+          "text": "Same registered full observation area (2541 x 1108 native pixels); original and V90 root geometry is identical",
+          "bounds": [
+            2272,
+            145,
+            3979,
+            178
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            739,
+            245,
+            980,
+            282
+          ]
+        },
+        {
+          "text": "Manual reference (revised V87)",
+          "bounds": [
+            2101,
+            245,
+            2639,
+            280
+          ]
+        },
+        {
+          "text": "Original U-Net (V66)",
+          "bounds": [
+            3699,
+            245,
+            4061,
+            282
+          ]
+        },
+        {
+          "text": "V90 reviewed output",
+          "bounds": [
+            5213,
+            245,
+            5568,
+            281
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            40,
+            870,
+            115,
+            914
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            40,
+            2170,
+            115,
+            2214
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            40,
+            3470,
+            115,
+            3515
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            40,
+            4770,
+            115,
+            4814
+          ]
+        },
+        {
+          "text": "V90 includes the explicit T2 root 0002-N1 review. Manual labels are unchanged. T1 is baseline, excluded from temporal Dice.",
+          "bounds": [
+            2249,
+            5575,
+            4002,
+            5604
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            5650,
+            387,
+            5674
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1714,
+            5650,
+            1866,
+            5674
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            3217,
+            5650,
+            3460,
+            5682
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            4719,
+            5650,
+            4925,
+            5682
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Full_T1_native_resolution_comparison.tif",
+      "sha256": "fb27e6d0162fa89acc53cde26edf5bc1d54ef1a82886c650bd7fb647c70b6807",
+      "dimensions": [
+        10540,
+        1510
+      ],
+      "typography": [
+        {
+          "text": "T1: manual annotation, original U-Net and V90 (native image pixels)",
+          "bounds": [
+            4215,
+            20,
+            6326,
+            84
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            1194,
+            155,
+            1526,
+            205
+          ]
+        },
+        {
+          "text": "Manual reference (revised V87)",
+          "bounds": [
+            3600,
+            155,
+            4340,
+            204
+          ]
+        },
+        {
+          "text": "Original U-Net (V66)",
+          "bounds": [
+            6331,
+            155,
+            6829,
+            205
+          ]
+        },
+        {
+          "text": "V90 reviewed output",
+          "bounds": [
+            8946,
+            155,
+            9434,
+            204
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            1430,
+            387,
+            1454
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            2787,
+            1430,
+            2939,
+            1454
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            5362,
+            1430,
+            5605,
+            1462
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            7937,
+            1430,
+            8143,
+            1462
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Full_T2_native_resolution_comparison.tif",
+      "sha256": "feb0275d4b34d9867912d764a06ccd9f8d5d0638d918a71e7a68b1ba002f01ec",
+      "dimensions": [
+        10540,
+        1510
+      ],
+      "typography": [
+        {
+          "text": "T2: manual annotation, original U-Net and V90 (native image pixels)",
+          "bounds": [
+            4215,
+            20,
+            6326,
+            84
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            1194,
+            155,
+            1526,
+            205
+          ]
+        },
+        {
+          "text": "Manual reference (revised V87)",
+          "bounds": [
+            3600,
+            155,
+            4340,
+            204
+          ]
+        },
+        {
+          "text": "Original U-Net (V66)",
+          "bounds": [
+            6331,
+            155,
+            6829,
+            205
+          ]
+        },
+        {
+          "text": "V90 reviewed output",
+          "bounds": [
+            8946,
+            155,
+            9434,
+            204
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            1430,
+            387,
+            1454
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            2787,
+            1430,
+            2939,
+            1454
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            5362,
+            1430,
+            5605,
+            1462
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            7937,
+            1430,
+            8143,
+            1462
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Full_T3_native_resolution_comparison.tif",
+      "sha256": "2ca3ece3d02b30643a94f476fc78ac9fc61f7b7a4b2cd1259ace1dbf724ad696",
+      "dimensions": [
+        10540,
+        1510
+      ],
+      "typography": [
+        {
+          "text": "T3: manual annotation, original U-Net and V90 (native image pixels)",
+          "bounds": [
+            4215,
+            20,
+            6326,
+            84
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            1194,
+            155,
+            1526,
+            205
+          ]
+        },
+        {
+          "text": "Manual reference (revised V87)",
+          "bounds": [
+            3600,
+            155,
+            4340,
+            204
+          ]
+        },
+        {
+          "text": "Original U-Net (V66)",
+          "bounds": [
+            6331,
+            155,
+            6829,
+            205
+          ]
+        },
+        {
+          "text": "V90 reviewed output",
+          "bounds": [
+            8946,
+            155,
+            9434,
+            204
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            1430,
+            387,
+            1454
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            2787,
+            1430,
+            2939,
+            1454
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            5362,
+            1430,
+            5605,
+            1462
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            7937,
+            1430,
+            8143,
+            1462
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Full_T4_native_resolution_comparison.tif",
+      "sha256": "b89764d5e783e0bb44a1a8aed5b525ec2c7e3f771eddd79d88b5979ceee46afa",
+      "dimensions": [
+        10540,
+        1510
+      ],
+      "typography": [
+        {
+          "text": "T4: manual annotation, original U-Net and V90 (native image pixels)",
+          "bounds": [
+            4215,
+            20,
+            6326,
+            84
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            1194,
+            155,
+            1526,
+            205
+          ]
+        },
+        {
+          "text": "Manual reference (revised V87)",
+          "bounds": [
+            3600,
+            155,
+            4340,
+            204
+          ]
+        },
+        {
+          "text": "Original U-Net (V66)",
+          "bounds": [
+            6331,
+            155,
+            6829,
+            205
+          ]
+        },
+        {
+          "text": "V90 reviewed output",
+          "bounds": [
+            8946,
+            155,
+            9434,
+            204
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            1430,
+            387,
+            1454
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            2787,
+            1430,
+            2939,
+            1454
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            5362,
+            1430,
+            5605,
+            1462
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            7937,
+            1430,
+            8143,
+            1462
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_Matched_four_period_local_manual_Original_UNet_V90.tif",
+      "sha256": "1b88833e3571463fcbc63452b442dd546a8a1235101fd8f575191c62744f8f23",
+      "dimensions": [
+        6250,
+        3420
+      ],
+      "typography": [
+        {
+          "text": "Matched four-period detail: the reviewed new lateral 0002-N1",
+          "bounds": [
+            2123,
+            25,
+            4126,
+            93
+          ]
+        },
+        {
+          "text": "Identical native ROI [1220,150,2120,520] in T1-T4; T2 is explicitly user-reviewed, later dates are preserved",
+          "bounds": [
+            2262,
+            150,
+            3988,
+            185
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            739,
+            255,
+            980,
+            292
+          ]
+        },
+        {
+          "text": "Manual reference (revised V87)",
+          "bounds": [
+            2101,
+            255,
+            2639,
+            290
+          ]
+        },
+        {
+          "text": "Original U-Net (V66)",
+          "bounds": [
+            3699,
+            255,
+            4061,
+            292
+          ]
+        },
+        {
+          "text": "V90 reviewed output",
+          "bounds": [
+            5213,
+            255,
+            5568,
+            291
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            35,
+            600,
+            107,
+            642
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            35,
+            1280,
+            107,
+            1322
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            35,
+            1960,
+            107,
+            2002
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            35,
+            2640,
+            107,
+            2682
+          ]
+        },
+        {
+          "text": "Newly observed is a within-period state: a root first seen in T2 may correctly become persistent or extend in a later period.",
+          "bounds": [
+            2240,
+            3180,
+            4010,
+            3210
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3280,
+            387,
+            3304
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1714,
+            3280,
+            1866,
+            3304
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            3217,
+            3280,
+            3460,
+            3312
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            4719,
+            3280,
+            4925,
+            3312
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig3_Local_optimization_details_page_1.tif",
+      "sha256": "0f36016219c1ff6ecd325396d070a68a53f23ef8a7867dca122b4add2d3a3c0d",
+      "dimensions": [
+        6250,
+        3900
+      ],
+      "typography": [
+        {
+          "text": "Local temporal / connection details: manual, original U-Net and V90 (1/2)",
+          "bounds": [
+            2010,
+            25,
+            4239,
+            89
+          ]
+        },
+        {
+          "text": "User-reported regions, selected before score inspection; identical crops and unchanged root segmentation",
+          "bounds": [
+            2276,
+            155,
+            3974,
+            189
+          ]
+        },
+        {
+          "text": "A  T2  Entire reviewed new root 0002-N1; old contact strand retained",
+          "bounds": [
+            2492,
+            300,
+            3759,
+            337
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            742,
+            390,
+            977,
+            425
+          ]
+        },
+        {
+          "text": "Manual reference (revised V87)",
+          "bounds": [
+            2108,
+            390,
+            2633,
+            424
+          ]
+        },
+        {
+          "text": "Original U-Net (V66)",
+          "bounds": [
+            3703,
+            390,
+            4056,
+            425
+          ]
+        },
+        {
+          "text": "V90 reviewed output",
+          "bounds": [
+            5217,
+            390,
+            5563,
+            424
+          ]
+        },
+        {
+          "text": "Native ROI [1220, 150, 2120, 520]; original-to-V90 changed class pixels: 1379",
+          "bounds": [
+            2551,
+            1295,
+            3699,
+            1327
+          ]
+        },
+        {
+          "text": "B  T2  Established-root shaft, distal extension and crossing continuity",
+          "bounds": [
+            2491,
+            1420,
+            3759,
+            1459
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            742,
+            1510,
+            977,
+            1545
+          ]
+        },
+        {
+          "text": "Manual reference (revised V87)",
+          "bounds": [
+            2108,
+            1510,
+            2633,
+            1544
+          ]
+        },
+        {
+          "text": "Original U-Net (V66)",
+          "bounds": [
+            3703,
+            1510,
+            4056,
+            1545
+          ]
+        },
+        {
+          "text": "V90 reviewed output",
+          "bounds": [
+            5217,
+            1510,
+            5563,
+            1544
+          ]
+        },
+        {
+          "text": "Native ROI [620, 740, 1068, 1100]; original-to-V90 changed class pixels: 1667",
+          "bounds": [
+            2552,
+            2415,
+            3698,
+            2447
+          ]
+        },
+        {
+          "text": "C  T2  Earlier-period evidence for an established growing root",
+          "bounds": [
+            2556,
+            2540,
+            3693,
+            2579
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            742,
+            2630,
+            977,
+            2665
+          ]
+        },
+        {
+          "text": "Manual reference (revised V87)",
+          "bounds": [
+            2108,
+            2630,
+            2633,
+            2664
+          ]
+        },
+        {
+          "text": "Original U-Net (V66)",
+          "bounds": [
+            3703,
+            2630,
+            4056,
+            2665
+          ]
+        },
+        {
+          "text": "V90 reviewed output",
+          "bounds": [
+            5217,
+            2630,
+            5563,
+            2664
+          ]
+        },
+        {
+          "text": "Native ROI [1290, 150, 1540, 470]; original-to-V90 changed class pixels: 886",
+          "bounds": [
+            2560,
+            3535,
+            3691,
+            3567
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3770,
+            387,
+            3794
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1714,
+            3770,
+            1866,
+            3794
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            3217,
+            3770,
+            3460,
+            3802
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            4719,
+            3770,
+            4925,
+            3802
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig4_Local_optimization_details_page_2.tif",
+      "sha256": "5126b7b531cab9a1bbe262d29e5da5fe0b05baf3921b9e4b899c58a922879dd0",
+      "dimensions": [
+        6250,
+        3900
+      ],
+      "typography": [
+        {
+          "text": "Local temporal / connection details: manual, original U-Net and V90 (2/2)",
+          "bounds": [
+            2010,
+            25,
+            4239,
+            89
+          ]
+        },
+        {
+          "text": "User-reported regions, selected before score inspection; identical crops and unchanged root segmentation",
+          "bounds": [
+            2276,
+            155,
+            3974,
+            189
+          ]
+        },
+        {
+          "text": "D  T2  New lateral identity and continuation across older roots",
+          "bounds": [
+            2554,
+            300,
+            3696,
+            339
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            742,
+            390,
+            977,
+            425
+          ]
+        },
+        {
+          "text": "Manual reference (revised V87)",
+          "bounds": [
+            2108,
+            390,
+            2633,
+            424
+          ]
+        },
+        {
+          "text": "Original U-Net (V66)",
+          "bounds": [
+            3703,
+            390,
+            4056,
+            425
+          ]
+        },
+        {
+          "text": "V90 reviewed output",
+          "bounds": [
+            5217,
+            390,
+            5563,
+            424
+          ]
+        },
+        {
+          "text": "Native ROI [1530, 590, 1830, 850]; original-to-V90 changed class pixels: 867",
+          "bounds": [
+            2560,
+            1295,
+            3691,
+            1327
+          ]
+        },
+        {
+          "text": "E  T3  Two older roots: crossing ownership and distal growth",
+          "bounds": [
+            2567,
+            1420,
+            3683,
+            1459
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            742,
+            1510,
+            977,
+            1545
+          ]
+        },
+        {
+          "text": "Manual reference (revised V87)",
+          "bounds": [
+            2108,
+            1510,
+            2633,
+            1544
+          ]
+        },
+        {
+          "text": "Original U-Net (V66)",
+          "bounds": [
+            3703,
+            1510,
+            4056,
+            1545
+          ]
+        },
+        {
+          "text": "V90 reviewed output",
+          "bounds": [
+            5217,
+            1510,
+            5563,
+            1544
+          ]
+        },
+        {
+          "text": "Native ROI [1005, 550, 1165, 715]; original-to-V90 changed class pixels: 366",
+          "bounds": [
+            2561,
+            2415,
+            3690,
+            2447
+          ]
+        },
+        {
+          "text": "F  T3  Different roots at a contact: do not merge their identities",
+          "bounds": [
+            2549,
+            2540,
+            3701,
+            2579
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            742,
+            2630,
+            977,
+            2665
+          ]
+        },
+        {
+          "text": "Manual reference (revised V87)",
+          "bounds": [
+            2108,
+            2630,
+            2633,
+            2664
+          ]
+        },
+        {
+          "text": "Original U-Net (V66)",
+          "bounds": [
+            3703,
+            2630,
+            4056,
+            2665
+          ]
+        },
+        {
+          "text": "V90 reviewed output",
+          "bounds": [
+            5217,
+            2630,
+            5563,
+            2664
+          ]
+        },
+        {
+          "text": "Native ROI [1100, 205, 1290, 385]; original-to-V90 changed class pixels: 168",
+          "bounds": [
+            2561,
+            3535,
+            3690,
+            3567
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3770,
+            387,
+            3794
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1714,
+            3770,
+            1866,
+            3794
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            3217,
+            3770,
+            3460,
+            3802
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            4719,
+            3770,
+            4925,
+            3802
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Loss_unet_complete_100_epochs.tif",
+      "sha256": "7b11db5bab64f5c65d6cc42098ff0f40e052195389a837fac19d8dc8f707f683",
+      "dimensions": [
+        4500,
+        3000
+      ]
+    },
+    {
+      "file": "Loss_deeplab_complete_100_epochs.tif",
+      "sha256": "dfe219d15071ba2e2fbaf6aea8ef0388e33f373119c6c68b3e0865d27f0c36af",
+      "dimensions": [
+        4500,
+        3000
+      ]
+    },
+    {
+      "file": "Loss_segformer_complete_100_epochs.tif",
+      "sha256": "c8c880a6de7848c489549ca81995b645b4ceb523f5c17f31fcb06a4a38b5db6b",
+      "dimensions": [
+        4500,
+        3000
+      ]
+    },
+    {
+      "file": "Fig5_Original_three_models_complete_100_epoch_training_validation_loss.tif",
+      "sha256": "0fb4575c4b7717ba9390021dabb89d9ae8bc551b885a13f84bb2ffe20006de00",
+      "dimensions": [
+        10800,
+        3120
+      ]
+    },
+    {
+      "file": "Fig6_Manual_Original_UNet_V90_accuracy_Dice_table.tif",
+      "sha256": "f0a55e135521851c3adc73c5f58a58e4e865f3109be6500412ccfabdda876392",
+      "dimensions": [
+        5400,
+        2400
+      ],
+      "typography": [
+        {
+          "text": "Same-reference temporal accuracy and Dice: original U-Net vs V90",
+          "bounds": [
+            1726,
+            30,
+            3675,
+            91
+          ]
+        },
+        {
+          "text": "Reference: revised manual V87 | T2-T4 combined | T1 baseline excluded | Root foreground fixed",
+          "bounds": [
+            1924,
+            145,
+            3477,
+            179
+          ]
+        },
+        {
+          "text": "All valid annotated root pixels (development agreement)",
+          "bounds": [
+            2149,
+            310,
+            3251,
+            352
+          ]
+        },
+        {
+          "text": "Variant",
+          "bounds": [
+            170,
+            420,
+            284,
+            444
+          ]
+        },
+        {
+          "text": "Pixel accuracy",
+          "bounds": [
+            2342,
+            420,
+            2559,
+            451
+          ]
+        },
+        {
+          "text": "Persistent Dice",
+          "bounds": [
+            2939,
+            420,
+            3162,
+            444
+          ]
+        },
+        {
+          "text": "New Dice",
+          "bounds": [
+            3580,
+            420,
+            3721,
+            444
+          ]
+        },
+        {
+          "text": "Extension Dice",
+          "bounds": [
+            4139,
+            420,
+            4362,
+            444
+          ]
+        },
+        {
+          "text": "Macro Dice",
+          "bounds": [
+            4763,
+            420,
+            4936,
+            444
+          ]
+        },
+        {
+          "text": "Manual annotation (reference)",
+          "bounds": [
+            170,
+            540,
+            667,
+            574
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            2369,
+            540,
+            2531,
+            566
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            2969,
+            540,
+            3131,
+            566
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            3569,
+            540,
+            3731,
+            566
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            4169,
+            540,
+            4331,
+            566
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            4769,
+            540,
+            4931,
+            566
+          ]
+        },
+        {
+          "text": "original_U_Net_V66",
+          "bounds": [
+            170,
+            655,
+            504,
+            689
+          ]
+        },
+        {
+          "text": "0.9393",
+          "bounds": [
+            2398,
+            655,
+            2503,
+            681
+          ]
+        },
+        {
+          "text": "0.9755",
+          "bounds": [
+            2998,
+            655,
+            3103,
+            681
+          ]
+        },
+        {
+          "text": "0.8518",
+          "bounds": [
+            3598,
+            655,
+            3703,
+            681
+          ]
+        },
+        {
+          "text": "0.3124",
+          "bounds": [
+            4198,
+            655,
+            4303,
+            681
+          ]
+        },
+        {
+          "text": "0.7132",
+          "bounds": [
+            4798,
+            655,
+            4903,
+            681
+          ]
+        },
+        {
+          "text": "V90_reviewed_output",
+          "bounds": [
+            170,
+            770,
+            526,
+            804
+          ]
+        },
+        {
+          "text": "0.9610",
+          "bounds": [
+            2398,
+            770,
+            2503,
+            796
+          ]
+        },
+        {
+          "text": "0.9821",
+          "bounds": [
+            2998,
+            770,
+            3103,
+            796
+          ]
+        },
+        {
+          "text": "0.9076",
+          "bounds": [
+            3598,
+            770,
+            3703,
+            796
+          ]
+        },
+        {
+          "text": "0.5457",
+          "bounds": [
+            4198,
+            770,
+            4303,
+            796
+          ]
+        },
+        {
+          "text": "0.8118",
+          "bounds": [
+            4799,
+            770,
+            4901,
+            796
+          ]
+        },
+        {
+          "text": "Identical evaluated pixels for both outputs: 468,203",
+          "bounds": [
+            2318,
+            960,
+            3083,
+            991
+          ]
+        },
+        {
+          "text": "Original inner spatial audit (development region)",
+          "bounds": [
+            2217,
+            1120,
+            3183,
+            1163
+          ]
+        },
+        {
+          "text": "Variant",
+          "bounds": [
+            170,
+            1230,
+            284,
+            1254
+          ]
+        },
+        {
+          "text": "Pixel accuracy",
+          "bounds": [
+            2342,
+            1230,
+            2559,
+            1261
+          ]
+        },
+        {
+          "text": "Persistent Dice",
+          "bounds": [
+            2939,
+            1230,
+            3162,
+            1254
+          ]
+        },
+        {
+          "text": "New Dice",
+          "bounds": [
+            3580,
+            1230,
+            3721,
+            1254
+          ]
+        },
+        {
+          "text": "Extension Dice",
+          "bounds": [
+            4139,
+            1230,
+            4362,
+            1254
+          ]
+        },
+        {
+          "text": "Macro Dice",
+          "bounds": [
+            4763,
+            1230,
+            4936,
+            1254
+          ]
+        },
+        {
+          "text": "Manual annotation (reference)",
+          "bounds": [
+            170,
+            1350,
+            667,
+            1384
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            2369,
+            1350,
+            2531,
+            1376
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            2969,
+            1350,
+            3131,
+            1376
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            3569,
+            1350,
+            3731,
+            1376
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            4169,
+            1350,
+            4331,
+            1376
+          ]
+        },
+        {
+          "text": "Reference",
+          "bounds": [
+            4769,
+            1350,
+            4931,
+            1376
+          ]
+        },
+        {
+          "text": "original_U_Net_V66",
+          "bounds": [
+            170,
+            1465,
+            504,
+            1499
+          ]
+        },
+        {
+          "text": "0.9249",
+          "bounds": [
+            2398,
+            1465,
+            2503,
+            1491
+          ]
+        },
+        {
+          "text": "0.9687",
+          "bounds": [
+            2998,
+            1465,
+            3103,
+            1491
+          ]
+        },
+        {
+          "text": "0.8181",
+          "bounds": [
+            3598,
+            1465,
+            3703,
+            1491
+          ]
+        },
+        {
+          "text": "0.0991",
+          "bounds": [
+            4198,
+            1465,
+            4303,
+            1491
+          ]
+        },
+        {
+          "text": "0.6287",
+          "bounds": [
+            4798,
+            1465,
+            4903,
+            1491
+          ]
+        },
+        {
+          "text": "V90_reviewed_output",
+          "bounds": [
+            170,
+            1580,
+            526,
+            1614
+          ]
+        },
+        {
+          "text": "0.9548",
+          "bounds": [
+            2398,
+            1580,
+            2503,
+            1606
+          ]
+        },
+        {
+          "text": "0.9774",
+          "bounds": [
+            2998,
+            1580,
+            3103,
+            1606
+          ]
+        },
+        {
+          "text": "0.8895",
+          "bounds": [
+            3598,
+            1580,
+            3703,
+            1606
+          ]
+        },
+        {
+          "text": "0.4354",
+          "bounds": [
+            4198,
+            1580,
+            4303,
+            1606
+          ]
+        },
+        {
+          "text": "0.7674",
+          "bounds": [
+            4798,
+            1580,
+            4903,
+            1606
+          ]
+        },
+        {
+          "text": "Identical evaluated pixels for both outputs: 87,873",
+          "bounds": [
+            2326,
+            1770,
+            3073,
+            1801
+          ]
+        },
+        {
+          "text": "V90 includes an explicit annotation-assisted correction of T2 root 0002-N1; these are descriptive agreement scores.",
+          "bounds": [
+            1825,
+            2080,
+            3576,
+            2112
+          ]
+        },
+        {
+          "text": "The reference is not an independently evaluated model. Binary segmentation misses outside fixed foreground are excluded.",
+          "bounds": [
+            1786,
+            2170,
+            3613,
+            2201
+          ]
+        }
+      ]
+    }
+  ],
+  "dpi": 600,
+  "manual_reference_sha256": "0664587ee2e5931e318f8ad025934b64d5a95fb4ffb8854ac942da861b907636",
+  "matched_four_period_ROI": [
+    1220,
+    150,
+    2120,
+    520
+  ],
+  "detail_cases": [
+    {
+      "period": "T2",
+      "ROI": [
+        1220,
+        150,
+        2120,
+        520
+      ],
+      "reason": "Entire reviewed new root 0002-N1; old contact strand retained"
+    },
+    {
+      "period": "T2",
+      "ROI": [
+        620,
+        740,
+        1068,
+        1100
+      ],
+      "reason": "Established-root shaft, distal extension and crossing continuity"
+    },
+    {
+      "period": "T2",
+      "ROI": [
+        1290,
+        150,
+        1540,
+        470
+      ],
+      "reason": "Earlier-period evidence for an established growing root"
+    },
+    {
+      "period": "T2",
+      "ROI": [
+        1530,
+        590,
+        1830,
+        850
+      ],
+      "reason": "New lateral identity and continuation across older roots"
+    },
+    {
+      "period": "T3",
+      "ROI": [
+        1005,
+        550,
+        1165,
+        715
+      ],
+      "reason": "Two older roots: crossing ownership and distal growth"
+    },
+    {
+      "period": "T3",
+      "ROI": [
+        1100,
+        205,
+        1290,
+        385
+      ],
+      "reason": "Different roots at a contact: do not merge their identities"
+    }
+  ],
+  "categorical_resampling": "nearest",
+  "root_geometry_unchanged": true,
+  "full_view": "Entire available registered upper observation ROI, not the full tube"
+}

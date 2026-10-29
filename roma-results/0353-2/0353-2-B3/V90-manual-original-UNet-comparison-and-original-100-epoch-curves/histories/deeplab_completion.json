@@ -1,0 +1,10 @@
+{
+  "state": "complete",
+  "epochs_completed": 100,
+  "selected_epoch": 14,
+  "selected_validation_macro_Dice": 0.5102158399527211,
+  "test_macro_Dice": 0.486344586271767,
+  "checkpoint_sha256": "0b73e59b1928739a48034d128be0eca9778202e90bf20917abd59b1a2ac28d1d",
+  "root_weights_unchanged": true,
+  "seconds": 8963.635811647
+}

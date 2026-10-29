@@ -1,0 +1,35 @@
+{
+  "type": "explicit_user_reviewed_prediction_correction",
+  "period": "T2",
+  "manual_root_id": "R20484",
+  "manual_root_label": "0002-N1",
+  "class_name": "newly_observed",
+  "prediction_class_code": 2,
+  "source_annotation_sha256": "0664587ee2e5931e318f8ad025934b64d5a95fb4ffb8854ac942da861b907636",
+  "fixed_root_support_sha256": "7995076c788c2888884d75df6472d0077a58eb85940feceb436798bfa8c9a2c0",
+  "new_model_axis": 772,
+  "old_inherited_axis": 162,
+  "virtual_contact_split_coordinate": [
+    2067,
+    203
+  ],
+  "old_contact_strand_coordinate_range": [
+    [
+      2090,
+      218
+    ],
+    [
+      2068,
+      203
+    ]
+  ],
+  "old_contact_root_id": "R20038",
+  "biological_parent_root_id": "R20024",
+  "decision": "Same-root continuity among the reviewed new-lateral fragments; biological parent/contact roots are different identities and must not transfer their old state.",
+  "must_not_link_as_same_identity": [
+    "R20038",
+    "R20024"
+  ],
+  "manual_annotation_modified": false,
+  "model_retrained": false
+}
