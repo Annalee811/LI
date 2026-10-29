@@ -1,0 +1,52 @@
+[
+  {
+    "file": "Figure2_caption.txt",
+    "sha256": "12ba40bceaf56170475ccea7bd38c80f207316826ec852eb3a2f6c8f8ee723d9",
+    "bytes": 412
+  },
+  {
+    "file": "RESULTS.md",
+    "sha256": "1a23078f604fb642ede6240837e7428ac8c042beba8283a882c62e88e668b656",
+    "bytes": 776
+  },
+  {
+    "file": "completion.json",
+    "sha256": "1dff76a269f8950baf8a7120c8a08152f431dccea31589710121786c5ca85f65",
+    "bytes": 91
+  },
+  {
+    "file": "figure_manifest.json",
+    "sha256": "d7308a2e37fe0ad6a754cb75fdb82878636495cdb4b0177ffdb8606e0bce070d",
+    "bytes": 8041
+  },
+  {
+    "file": "figures/Fig2_Four_period_matched_local_RGB_manual_original_UNet_V90.pdf",
+    "sha256": "b8fc76ad68b8abbb1cc5e9be8f22cacbd816c9728d77b0f044991fcdd01fbfb0",
+    "bytes": 2590733
+  },
+  {
+    "file": "figures/Fig2_Four_period_matched_local_RGB_manual_original_UNet_V90.tif",
+    "sha256": "c436b2ecf844d502ccb86f074827ef9a3bb4ff069fbd3075ee6efb3d74141915",
+    "bytes": 7010408
+  },
+  {
+    "file": "figures/Fig2_Four_period_matched_local_RGB_manual_original_UNet_V90_preview.png",
+    "sha256": "2eb2f2877d6d3d4dd299438de771ccc3bd3f362febde6415193ef704313aa75c",
+    "bytes": 1617062
+  },
+  {
+    "file": "source/publish.py",
+    "sha256": "4bff80a9835dee5a3ce53d1eea10851f2ccd09492200e0b351eaa9addfe03262",
+    "bytes": 3582
+  },
+  {
+    "file": "source/render.py",
+    "sha256": "f814e26b668ac727569ad782266994d088d99f2dfeb032bb42d749877e8fb482",
+    "bytes": 6744
+  },
+  {
+    "file": "verification.json",
+    "sha256": "b941eda156f4927a1bc75df813d1565609ea15e3e17fd24c64ebf7c1123c9ee2",
+    "bytes": 4020
+  }
+]
