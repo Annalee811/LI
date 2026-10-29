@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "unbranched_segments_checked": 3853,
+  "new_extension_segments": 0,
+  "new_persistent_segments": 0,
+  "junction_events_checked": 853,
+  "forbidden_junction_pixels": 0,
+  "T1_baseline_unchanged": true,
+  "foreground_bitwise_unchanged": true,
+  "scope": "Independent scalar-color implementation on the same inferred topology; not independent biological ground truth."
+}

@@ -1,0 +1,7 @@
+﻿period,fragment_axis,joined_new_axis,pixels,maximum_gap,median_margin_to_old_axis,learned_new_probability,reason
+T2,32,18,1,6.4031242374328485,38.31823531256295,0.5208601951599121,tiny disconnected piece uniquely matches nearby new axis; foreground is not filled
+T2,40,34,1,7.0,71.16009211867653,0.7629554867744446,tiny disconnected piece uniquely matches nearby new axis; foreground is not filled
+T2,53,7,1,6.708203932499369,55.533261345882366,0.7647668719291687,tiny disconnected piece uniquely matches nearby new axis; foreground is not filled
+T2,410,414,3,6.0,108.6001760562016,0.5619855523109436,tiny disconnected piece uniquely matches nearby new axis; foreground is not filled
+T2,415,409,4,5.830951894845301,66.08452405257735,0.6764097809791565,tiny disconnected piece uniquely matches nearby new axis; foreground is not filled
+T2,435,409,2,5.830951894845301,72.53446588729344,0.6881686449050903,tiny disconnected piece uniquely matches nearby new axis; foreground is not filled

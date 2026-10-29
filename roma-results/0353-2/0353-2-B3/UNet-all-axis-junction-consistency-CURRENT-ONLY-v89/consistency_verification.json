@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "T1_baseline_axes_checked": 577,
+  "total_four_period_axes_checked": 2960,
+  "all_inferred_temporal_axes_scanned": 2383,
+  "mixed_axes_before": 206,
+  "mixed_new_extension_before": 58,
+  "mixed_axes_after": 0,
+  "new_extension_after": 0,
+  "new_persistent_after": 0,
+  "all_junction_events_scanned": 853,
+  "forbidden_event_pixels_before": 1942,
+  "forbidden_event_pixels_after": 0,
+  "ownership_reassigned_junction_pixels": 479,
+  "disconnected_new_root_fragments_rejoined": 6,
+  "junction_radius_policy": "two local native diameters, clamped to4..10px; foreground itself unchanged",
+  "low_confidence_mixed_decisions": 59,
+  "geometry_unchanged": true,
+  "reference_unchanged": true,
+  "no_training": true,
+  "immutable_input_sha256": {
+    "/workspace/LI/results/B3_root_state_prediction_repair_v88_20261028/full/T1_classes.png": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "/workspace/LI/results/B3_root_state_prediction_repair_v88_20261028/full/T2_classes.png": "dabfd0147d4c525f31cc3aa3f7b2d6ce18a17cf4c3022f7f5ea1df73c12d688f",
+    "/workspace/LI/results/B3_root_state_prediction_repair_v88_20261028/full/T3_classes.png": "0c00d27473e05a10125ecea2b56b3ac69e8706ba4924cfc9d27b755f91ea6b8b",
+    "/workspace/LI/results/B3_root_state_prediction_repair_v88_20261028/full/T4_classes.png": "7a3e6441940657d95e2fe1996117cd22d794df7558ac259ba5738c8688f1fd57",
+    "/workspace/LI/results/B3_root_axis_junction_v83_20261028/joint_best.pt": "e835ab06aff540d6d820417e9abf6e5763245b4d20d3a6ea50acc30cf9d50ab3",
+    "/workspace/LI/results/B3_T4_all_extension_reference_to_new_v87_20261028/root_annotation_progress_24_user_corrected_T2_and_T4.json": "0664587ee2e5931e318f8ad025934b64d5a95fb4ffb8854ac942da861b907636"
+  },
+  "prediction_sha256": {
+    "T1": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "T2": "2b8e466bfdb0abf68515472a42bb811e094b2ee6c7ba2d6f6fbfa030723617ad",
+    "T3": "f363f844f7915f98ae8b605571f63457d16eadafc092d97be013f857c9226848",
+    "T4": "ae7fad5b8a77904970e845c0e1b3bc9fb73acfef08a6e486b78520f91cde4bf2"
+  },
+  "scope": "Consistency of inferred axes and event footprints, NOT independent biological accuracy; MAP decisions on low-confidence axes are explicitly exported."
+}

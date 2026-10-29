@@ -1,0 +1,140 @@
+[
+  {
+    "case": "1_long_axis",
+    "axis": 492,
+    "period": "T2",
+    "ROI": [
+      620,
+      740,
+      1068,
+      1000
+    ],
+    "V85_pixel_counts": {
+      "1": 567,
+      "2": 439,
+      "3": 382
+    },
+    "V88_pixel_counts": {
+      "1": 556,
+      "2": 0,
+      "3": 832
+    },
+    "V89_pixel_counts": {
+      "1": 645,
+      "2": 0,
+      "3": 743
+    },
+    "earlier_root_evidence": {
+      "period": "T2",
+      "axis": 492,
+      "length": 284,
+      "persistent": 112,
+      "new": 82,
+      "extension": 76,
+      "state": "established",
+      "prior_period": "T1",
+      "prior_axis": 362,
+      "prior_support": 28,
+      "prior_fraction": 0.09859154929577464,
+      "identity_affinity": 0.7522965669631958,
+      "learned_new_probability": 0.6048856377601624,
+      "future_aligned_support": 0.43309859154929575,
+      "x_start": 683,
+      "y_start": 803,
+      "x_end": 968,
+      "y_end": 923
+    }
+  },
+  {
+    "case": "2_old_root_distal_axis",
+    "axis": 133,
+    "period": "T2",
+    "ROI": [
+      1290,
+      150,
+      1540,
+      470
+    ],
+    "V85_pixel_counts": {
+      "1": 284,
+      "2": 690,
+      "3": 277
+    },
+    "V88_pixel_counts": {
+      "1": 293,
+      "2": 0,
+      "3": 958
+    },
+    "V89_pixel_counts": {
+      "1": 293,
+      "2": 0,
+      "3": 958
+    },
+    "earlier_root_evidence": {
+      "period": "T2",
+      "axis": 133,
+      "length": 200,
+      "persistent": 36,
+      "new": 100,
+      "extension": 48,
+      "state": "established",
+      "prior_period": "T1",
+      "prior_axis": 164,
+      "prior_support": 35,
+      "prior_fraction": 0.195,
+      "identity_affinity": 0.44030827283859253,
+      "learned_new_probability": 0.5066252946853638,
+      "future_aligned_support": 0.99,
+      "x_start": 1457,
+      "y_start": 178,
+      "x_end": 1334,
+      "y_end": 389
+    }
+  },
+  {
+    "case": "3_new_root_tip",
+    "axis": 409,
+    "period": "T2",
+    "ROI": [
+      1530,
+      590,
+      1830,
+      850
+    ],
+    "V85_pixel_counts": {
+      "1": 312,
+      "2": 340,
+      "3": 364
+    },
+    "V88_pixel_counts": {
+      "1": 0,
+      "2": 1010,
+      "3": 6
+    },
+    "V89_pixel_counts": {
+      "1": 0,
+      "2": 1016,
+      "3": 0
+    },
+    "earlier_root_evidence": {
+      "period": "T2",
+      "axis": 409,
+      "length": 244,
+      "persistent": 71,
+      "new": 77,
+      "extension": 90,
+      "state": "new",
+      "prior_period": "",
+      "prior_axis": -1,
+      "prior_support": 0,
+      "prior_fraction": 0.0,
+      "identity_affinity": 0.0,
+      "learned_new_probability": 0.577538013458252,
+      "future_aligned_support": 0.8073770491803278,
+      "x_start": 1800,
+      "y_start": 656,
+      "x_end": 1554,
+      "y_end": 784
+    }
+  }
+]

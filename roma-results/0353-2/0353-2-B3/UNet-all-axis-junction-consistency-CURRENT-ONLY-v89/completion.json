@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "current_only_main_figures": true,
+  "no_training": true,
+  "all_mixed_inferred_axes_processed": true,
+  "unchanged_reference_and_geometry": true,
+  "low_confidence_cases_retained_for_review": true
+}

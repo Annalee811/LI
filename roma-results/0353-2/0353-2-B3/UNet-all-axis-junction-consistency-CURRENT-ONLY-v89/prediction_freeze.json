@@ -1,0 +1,10 @@
+{
+  "prediction_sha256": {
+    "T1": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "T2": "2b8e466bfdb0abf68515472a42bb811e094b2ee6c7ba2d6f6fbfa030723617ad",
+    "T3": "f363f844f7915f98ae8b605571f63457d16eadafc092d97be013f857c9226848",
+    "T4": "ae7fad5b8a77904970e845c0e1b3bc9fb73acfef08a6e486b78520f91cde4bf2"
+  },
+  "freeze_before_reference_scores": true,
+  "reference_sha256": "0664587ee2e5931e318f8ad025934b64d5a95fb4ffb8854ac942da861b907636"
+}

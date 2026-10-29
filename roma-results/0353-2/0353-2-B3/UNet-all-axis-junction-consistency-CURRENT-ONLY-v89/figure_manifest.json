@@ -1,0 +1,1184 @@
+{
+  "files": [
+    {
+      "file": "Fig1_CURRENT_ONLY_four_period_predictions_V89.tif",
+      "sha256": "7a70257a668e9bf5b32ff1d829c7ddfd1398668bc3cdc2c343cae86c57cbf9ab",
+      "dimensions": [
+        4800,
+        3900
+      ],
+      "typography": [
+        {
+          "text": "CURRENT PREDICTIONS ONLY - V89",
+          "bounds": [
+            1605,
+            25,
+            3195,
+            88
+          ]
+        },
+        {
+          "text": "U-Net temporal output | No old comparison column and no manual-reference column",
+          "bounds": [
+            1637,
+            155,
+            3162,
+            193
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            717,
+            270,
+            982,
+            311
+          ]
+        },
+        {
+          "text": "CURRENT temporal overlay",
+          "bounds": [
+            2125,
+            270,
+            2674,
+            310
+          ]
+        },
+        {
+          "text": "CURRENT root classes",
+          "bounds": [
+            3730,
+            270,
+            4171,
+            302
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            35,
+            615,
+            103,
+            655
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            35,
+            1405,
+            103,
+            1445
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            35,
+            2195,
+            103,
+            2235
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            35,
+            2985,
+            103,
+            3025
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3710,
+            387,
+            3734
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1352,
+            3710,
+            1504,
+            3734
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2492,
+            3710,
+            2735,
+            3742
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3632,
+            3710,
+            3838,
+            3742
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_CURRENT_ONLY_requested_locations_V89.tif",
+      "sha256": "67093b2f72cfb74845ca2fc867ba33207a52dcb15aa415ae78f581beb182c9b9",
+      "dimensions": [
+        4200,
+        1900
+      ],
+      "typography": [
+        {
+          "text": "CURRENT LOCAL PREDICTIONS ONLY - V89",
+          "bounds": [
+            1297,
+            25,
+            2904,
+            78
+          ]
+        },
+        {
+          "text": "Same three requested locations | Main axes are traced beyond the original screenshot crop",
+          "bounds": [
+            1410,
+            150,
+            2789,
+            182
+          ]
+        },
+        {
+          "text": "Location 1 / T2",
+          "bounds": [
+            578,
+            300,
+            862,
+            332
+          ]
+        },
+        {
+          "text": "Location 2 / T2",
+          "bounds": [
+            1958,
+            300,
+            2242,
+            332
+          ]
+        },
+        {
+          "text": "Location 3 / T2",
+          "bounds": [
+            3338,
+            300,
+            3622,
+            332
+          ]
+        },
+        {
+          "text": "Locations1-2: an earlier root keeps persistent shaft / distal extension. Location3: the new axis is new only.",
+          "bounds": [
+            1362,
+            1580,
+            2838,
+            1609
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            1760,
+            387,
+            1784
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1202,
+            1760,
+            1354,
+            1784
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2192,
+            1760,
+            2435,
+            1792
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3182,
+            1760,
+            3388,
+            1792
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Diagnostic_V85_V88_V89_requested_coordinates.tif",
+      "sha256": "155af873b989bdf037cb917bb9b4f7ea0cdae7042af9ca621f8715a44d800770",
+      "dimensions": [
+        3700,
+        3200
+      ],
+      "typography": [
+        {
+          "text": "DIAGNOSTIC VERSION CHECK - NOT THE MAIN RESULT",
+          "bounds": [
+            1048,
+            25,
+            2653,
+            67
+          ]
+        },
+        {
+          "text": "V85 OLD comparison column",
+          "bounds": [
+            429,
+            160,
+            890,
+            193
+          ]
+        },
+        {
+          "text": "V88 previous corrected output",
+          "bounds": [
+            1656,
+            160,
+            2124,
+            192
+          ]
+        },
+        {
+          "text": "V89 CURRENT output",
+          "bounds": [
+            2940,
+            160,
+            3299,
+            192
+          ]
+        },
+        {
+          "text": "Requested location 1",
+          "bounds": [
+            1704,
+            1050,
+            1995,
+            1079
+          ]
+        },
+        {
+          "text": "Requested location 2",
+          "bounds": [
+            1704,
+            1950,
+            1995,
+            1979
+          ]
+        },
+        {
+          "text": "Requested location 3",
+          "bounds": [
+            1704,
+            2850,
+            1995,
+            2879
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3040,
+            387,
+            3064
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1077,
+            3040,
+            1229,
+            3064
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1942,
+            3040,
+            2185,
+            3072
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2807,
+            3040,
+            3013,
+            3072
+          ]
+        }
+      ]
+    },
+    {
+      "file": "All_new_persistent_junction_checks_page_1.tif",
+      "sha256": "cff9ffc5688b2b59a167834d48127259dc985e0b744762aa3fd46500294df8ef",
+      "dimensions": [
+        3100,
+        3840
+      ],
+      "typography": [
+        {
+          "text": "ALL previously forbidden new/persistent junctions - page 1",
+          "bounds": [
+            967,
+            25,
+            2133,
+            67
+          ]
+        },
+        {
+          "text": "OLD V88 on left; CURRENT V89 on right in each pair | All events, not favorable-score selection",
+          "bounds": [
+            956,
+            110,
+            2145,
+            136
+          ]
+        },
+        {
+          "text": "T2 event 15 / (1364, 88)",
+          "bounds": [
+            612,
+            220,
+            928,
+            247
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            352,
+            280,
+            467,
+            300
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            1044,
+            280,
+            1237,
+            299
+          ]
+        },
+        {
+          "text": "T2 event 74 / (884, 314)",
+          "bounds": [
+            2112,
+            220,
+            2428,
+            247
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            1852,
+            280,
+            1967,
+            300
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            2544,
+            280,
+            2737,
+            299
+          ]
+        },
+        {
+          "text": "T2 event 77 / (768, 357)",
+          "bounds": [
+            612,
+            1090,
+            928,
+            1117
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            352,
+            1150,
+            467,
+            1170
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            1044,
+            1150,
+            1237,
+            1169
+          ]
+        },
+        {
+          "text": "T2 event 84 / (1750, 366)",
+          "bounds": [
+            2104,
+            1090,
+            2436,
+            1117
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            1852,
+            1150,
+            1967,
+            1170
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            2544,
+            1150,
+            2737,
+            1169
+          ]
+        },
+        {
+          "text": "T2 event 99 / (1569, 440)",
+          "bounds": [
+            604,
+            1960,
+            936,
+            1987
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            352,
+            2020,
+            467,
+            2040
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            1044,
+            2020,
+            1237,
+            2039
+          ]
+        },
+        {
+          "text": "T2 event 157 / (1107, 793)",
+          "bounds": [
+            2097,
+            1960,
+            2444,
+            1987
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            1852,
+            2020,
+            1967,
+            2040
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            2544,
+            2020,
+            2737,
+            2039
+          ]
+        },
+        {
+          "text": "T2 event 172 / (805, 858)",
+          "bounds": [
+            604,
+            2830,
+            936,
+            2857
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            352,
+            2890,
+            467,
+            2910
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            1044,
+            2890,
+            1237,
+            2909
+          ]
+        },
+        {
+          "text": "T2 event 184 / (971, 924)",
+          "bounds": [
+            2104,
+            2830,
+            2436,
+            2857
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            1852,
+            2890,
+            1967,
+            2910
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            2544,
+            2890,
+            2737,
+            2909
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3710,
+            387,
+            3734
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            927,
+            3710,
+            1079,
+            3734
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1642,
+            3710,
+            1885,
+            3742
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2357,
+            3710,
+            2563,
+            3742
+          ]
+        }
+      ]
+    },
+    {
+      "file": "All_new_persistent_junction_checks_page_2.tif",
+      "sha256": "0999d5a04925f47770aaa945470ffc64657b49a73997b0a34039137337a3124e",
+      "dimensions": [
+        3100,
+        3840
+      ],
+      "typography": [
+        {
+          "text": "ALL previously forbidden new/persistent junctions - page 2",
+          "bounds": [
+            967,
+            25,
+            2133,
+            67
+          ]
+        },
+        {
+          "text": "OLD V88 on left; CURRENT V89 on right in each pair | All events, not favorable-score selection",
+          "bounds": [
+            956,
+            110,
+            2145,
+            136
+          ]
+        },
+        {
+          "text": "T2 event 193 / (1487, 963)",
+          "bounds": [
+            596,
+            220,
+            944,
+            247
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            352,
+            280,
+            467,
+            300
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            1044,
+            280,
+            1237,
+            299
+          ]
+        },
+        {
+          "text": "T2 event 196 / (831, 964)",
+          "bounds": [
+            2104,
+            220,
+            2436,
+            247
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            1852,
+            280,
+            1967,
+            300
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            2544,
+            280,
+            2737,
+            299
+          ]
+        },
+        {
+          "text": "T2 event 236 / (1983, 1039)",
+          "bounds": [
+            588,
+            1090,
+            952,
+            1117
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            352,
+            1150,
+            467,
+            1170
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            1044,
+            1150,
+            1237,
+            1169
+          ]
+        },
+        {
+          "text": "T2 event 237 / (1931, 1046)",
+          "bounds": [
+            2088,
+            1090,
+            2452,
+            1117
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            1852,
+            1150,
+            1967,
+            1170
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            2544,
+            1150,
+            2737,
+            1169
+          ]
+        },
+        {
+          "text": "T2 event 266 / (1645, 1095)",
+          "bounds": [
+            588,
+            1960,
+            952,
+            1987
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            352,
+            2020,
+            467,
+            2040
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            1044,
+            2020,
+            1237,
+            2039
+          ]
+        },
+        {
+          "text": "T2 event 273 / (1397, 1100)",
+          "bounds": [
+            2089,
+            1960,
+            2452,
+            1987
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            1852,
+            2020,
+            1967,
+            2040
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            2544,
+            2020,
+            2737,
+            2039
+          ]
+        },
+        {
+          "text": "T3 event 43 / (1481, 157)",
+          "bounds": [
+            604,
+            2830,
+            936,
+            2857
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            352,
+            2890,
+            467,
+            2910
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            1044,
+            2890,
+            1237,
+            2909
+          ]
+        },
+        {
+          "text": "T3 event 46 / (1326, 170)",
+          "bounds": [
+            2104,
+            2830,
+            2436,
+            2857
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            1852,
+            2890,
+            1967,
+            2910
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            2544,
+            2890,
+            2737,
+            2909
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3710,
+            387,
+            3734
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            927,
+            3710,
+            1079,
+            3734
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1642,
+            3710,
+            1885,
+            3742
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2357,
+            3710,
+            2563,
+            3742
+          ]
+        }
+      ]
+    },
+    {
+      "file": "All_new_persistent_junction_checks_page_3.tif",
+      "sha256": "cd4f668522254c8f2de9c1a882a19a9aa30793729073f79686ddd31b7c5d35d3",
+      "dimensions": [
+        3100,
+        3840
+      ],
+      "typography": [
+        {
+          "text": "ALL previously forbidden new/persistent junctions - page 3",
+          "bounds": [
+            967,
+            25,
+            2133,
+            67
+          ]
+        },
+        {
+          "text": "OLD V88 on left; CURRENT V89 on right in each pair | All events, not favorable-score selection",
+          "bounds": [
+            956,
+            110,
+            2145,
+            136
+          ]
+        },
+        {
+          "text": "T3 event 47 / (2184, 163)",
+          "bounds": [
+            604,
+            220,
+            936,
+            247
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            352,
+            280,
+            467,
+            300
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            1044,
+            280,
+            1237,
+            299
+          ]
+        },
+        {
+          "text": "T3 event 68 / (1014, 211)",
+          "bounds": [
+            2105,
+            220,
+            2436,
+            247
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            1852,
+            280,
+            1967,
+            300
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            2544,
+            280,
+            2737,
+            299
+          ]
+        },
+        {
+          "text": "T3 event 73 / (863, 243)",
+          "bounds": [
+            612,
+            1090,
+            928,
+            1117
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            352,
+            1150,
+            467,
+            1170
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            1044,
+            1150,
+            1237,
+            1169
+          ]
+        },
+        {
+          "text": "T3 event 125 / (1076, 397)",
+          "bounds": [
+            2096,
+            1090,
+            2444,
+            1117
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            1852,
+            1150,
+            1967,
+            1170
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            2544,
+            1150,
+            2737,
+            1169
+          ]
+        },
+        {
+          "text": "T3 event 237 / (1728, 918)",
+          "bounds": [
+            596,
+            1960,
+            944,
+            1987
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            352,
+            2020,
+            467,
+            2040
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            1044,
+            2020,
+            1237,
+            2039
+          ]
+        },
+        {
+          "text": "T3 event 242 / (1805, 915)",
+          "bounds": [
+            2096,
+            1960,
+            2444,
+            1987
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            1852,
+            2020,
+            1967,
+            2040
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            2544,
+            2020,
+            2737,
+            2039
+          ]
+        },
+        {
+          "text": "T4 event 4 / (24, 27)",
+          "bounds": [
+            636,
+            2830,
+            904,
+            2857
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            352,
+            2890,
+            467,
+            2910
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            1044,
+            2890,
+            1237,
+            2909
+          ]
+        },
+        {
+          "text": "T4 event 253 / (39, 979)",
+          "bounds": [
+            2112,
+            2830,
+            2428,
+            2857
+          ]
+        },
+        {
+          "text": "OLD V88",
+          "bounds": [
+            1852,
+            2890,
+            1967,
+            2910
+          ]
+        },
+        {
+          "text": "CURRENT V89",
+          "bounds": [
+            2544,
+            2890,
+            2737,
+            2909
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3710,
+            387,
+            3734
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            927,
+            3710,
+            1079,
+            3734
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1642,
+            3710,
+            1885,
+            3742
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2357,
+            3710,
+            2563,
+            3742
+          ]
+        }
+      ]
+    }
+  ],
+  "dpi": 600,
+  "black_bold_Times_New_Roman": true,
+  "main_figures_current_predictions_only": true,
+  "old_versions_confined_to_explicit_diagnostic_figures": true
+}
