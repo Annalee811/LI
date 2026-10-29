@@ -1,0 +1,7 @@
+{
+  "state": "complete",
+  "scientific_figures": 2,
+  "metric_scopes": 2,
+  "epochs": 100,
+  "training_performed": false
+}

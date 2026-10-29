@@ -1,0 +1,399 @@
+{
+  "reference_sha256": "0664587ee2e5931e318f8ad025934b64d5a95fb4ffb8854ac942da861b907636",
+  "binary_periods": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "class_summary_periods": [
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "binary_definition": "Pool TP/FP/FN/TN across T1-T4; root=manual mask255 and prediction>0, explicit background=manual mask0; 64/128 ignored. No root-type split.",
+  "class_definition": "Pool the same valid reference pixels across T2-T4, including true background0 and missed roots; macro average foreground classes1/2/3 without listing individual types. T1 baseline is not a change class.",
+  "root_accuracy_definition": "Correct persistent/new/extension predictions divided by all valid manually typed root pixels, including root misses.",
+  "dependency": "The current editable reference foreground almost exactly follows original U-Net; only24 FP and3 FN. Binary near1 is reference-mask agreement, not independent segmentation accuracy. V90 does not change binary masks.",
+  "reviewed_output": "V90 includes explicit annotation-assisted correction; not independent generalization.",
+  "counts": {
+    "U-Net": {
+      "binary_counts": [
+        573204,
+        24,
+        3,
+        10688481
+      ],
+      "temporal_confusion_background_persistent_new_extension": [
+        [
+          7977574,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          369149,
+          7389,
+          4114
+        ],
+        [
+          0,
+          6097,
+          67218,
+          5464
+        ],
+        [
+          0,
+          933,
+          4442,
+          3397
+        ]
+      ]
+    },
+    "DeepLabV3+": {
+      "binary_counts": [
+        453841,
+        124727,
+        119366,
+        10563778
+      ],
+      "temporal_confusion_background_persistent_new_extension": [
+        [
+          7867568,
+          82213,
+          23302,
+          4499
+        ],
+        [
+          67151,
+          299079,
+          12981,
+          1441
+        ],
+        [
+          16941,
+          6058,
+          51019,
+          4761
+        ],
+        [
+          1824,
+          1042,
+          4363,
+          1543
+        ]
+      ]
+    },
+    "SegFormer-B0": {
+      "binary_counts": [
+        433993,
+        112556,
+        139214,
+        10575949
+      ],
+      "temporal_confusion_background_persistent_new_extension": [
+        [
+          7878391,
+          69820,
+          24774,
+          4597
+        ],
+        [
+          82843,
+          287826,
+          9143,
+          840
+        ],
+        [
+          15998,
+          6831,
+          53599,
+          2351
+        ],
+        [
+          1888,
+          1831,
+          3444,
+          1609
+        ]
+      ]
+    },
+    "U-Net + V90 (reviewed)": {
+      "binary_counts": [
+        573204,
+        24,
+        3,
+        10688481
+      ],
+      "temporal_confusion_background_persistent_new_extension": [
+        [
+          7977574,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          375996,
+          2301,
+          2355
+        ],
+        [
+          0,
+          7161,
+          68667,
+          2951
+        ],
+        [
+          0,
+          1922,
+          1568,
+          5282
+        ]
+      ]
+    }
+  },
+  "per_period_binary_audit": [
+    {
+      "model": "U-Net",
+      "period": "T1",
+      "Dice": 0.9999091009123398,
+      "IoU": 0.9998182183484658,
+      "Precision": 0.9998469163206337,
+      "Recall": 0.9999712932395579,
+      "Pixel_accuracy": 0.999993251470114,
+      "Specificity": 0.9999940979511406,
+      "TP": 104502,
+      "FP": 16,
+      "FN": 3,
+      "TN": 2710907,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "U-Net",
+      "period": "T2",
+      "Dice": 0.9999737168914967,
+      "IoU": 0.9999474351645607,
+      "Precision": 0.9999474351645607,
+      "Recall": 1.0,
+      "Pixel_accuracy": 0.9999971585137322,
+      "Specificity": 0.9999969961434236,
+      "TP": 152185,
+      "FP": 8,
+      "FN": 0,
+      "TN": 2663235,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "U-Net",
+      "period": "T3",
+      "Dice": 1.0,
+      "IoU": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "Pixel_accuracy": 1.0,
+      "Specificity": 1.0,
+      "TP": 168984,
+      "FP": 0,
+      "FN": 0,
+      "TN": 2646444,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "U-Net",
+      "period": "T4",
+      "Dice": 1.0,
+      "IoU": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "Pixel_accuracy": 1.0,
+      "Specificity": 1.0,
+      "TP": 147533,
+      "FP": 0,
+      "FN": 0,
+      "TN": 2667895,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "DeepLabV3+",
+      "period": "T1",
+      "Dice": 0.7475324757187206,
+      "IoU": 0.5968477914408898,
+      "Precision": 0.8286556109377183,
+      "Recall": 0.6808765130854983,
+      "Pixel_accuracy": 0.9829287056887975,
+      "Specificity": 0.9945726971957521,
+      "TP": 71155,
+      "FP": 14713,
+      "FN": 33350,
+      "TN": 2696210,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "DeepLabV3+",
+      "period": "T2",
+      "Dice": 0.7898337317256772,
+      "IoU": 0.652665466251978,
+      "Precision": 0.7937278946774696,
+      "Recall": 0.785977593061077,
+      "Pixel_accuracy": 0.9773902937670578,
+      "Specificity": 0.9883281397904735,
+      "TP": 119614,
+      "FP": 31085,
+      "FN": 32571,
+      "TN": 2632158,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "DeepLabV3+",
+      "period": "T3",
+      "Dice": 0.8202059209118885,
+      "IoU": 0.6952110842477218,
+      "Precision": 0.7643618815879605,
+      "Recall": 0.8848530038346826,
+      "Pixel_accuracy": 0.9767161511500205,
+      "Specificity": 0.9825819099138315,
+      "TP": 149526,
+      "FP": 46096,
+      "FN": 19458,
+      "TN": 2600348,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "DeepLabV3+",
+      "period": "T4",
+      "Dice": 0.7726530390048723,
+      "IoU": 0.6295310646130645,
+      "Precision": 0.7756986999501294,
+      "Recall": 0.7696312011549958,
+      "Pixel_accuracy": 0.97626648594814,
+      "Specificity": 0.9876932937765541,
+      "TP": 113546,
+      "FP": 32833,
+      "FN": 33987,
+      "TN": 2635062,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "SegFormer-B0",
+      "period": "T1",
+      "Dice": 0.7185605957654989,
+      "IoU": 0.560744888436413,
+      "Precision": 0.8318021646111251,
+      "Recall": 0.6324577771398497,
+      "Pixel_accuracy": 0.981610256060535,
+      "Specificity": 0.9950699448121544,
+      "TP": 66095,
+      "FP": 13365,
+      "FN": 38410,
+      "TN": 2697558,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "SegFormer-B0",
+      "period": "T2",
+      "Dice": 0.790152433519899,
+      "IoU": 0.653100816509263,
+      "Precision": 0.775653076596849,
+      "Recall": 0.805204192265992,
+      "Pixel_accuracy": 0.9768816677251203,
+      "Specificity": 0.9866917889205004,
+      "TP": 122540,
+      "FP": 35443,
+      "FN": 29645,
+      "TN": 2627800,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "SegFormer-B0",
+      "period": "T3",
+      "Dice": 0.7936092044041093,
+      "IoU": 0.657837582399748,
+      "Precision": 0.7728175048225742,
+      "Recall": 0.815550584670738,
+      "Pixel_accuracy": 0.9745395726688801,
+      "Specificity": 0.9846915332423433,
+      "TP": 137815,
+      "FP": 40513,
+      "FN": 31169,
+      "TN": 2605931,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "SegFormer-B0",
+      "period": "T4",
+      "Dice": 0.7728260830509753,
+      "IoU": 0.6297608451232081,
+      "Precision": 0.822332502408662,
+      "Recall": 0.7289419994170796,
+      "Pixel_accuracy": 0.977543378839736,
+      "Specificity": 0.9912908866353436,
+      "TP": 107543,
+      "FP": 23235,
+      "FN": 39990,
+      "TN": 2644660,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "U-Net + V90 (reviewed)",
+      "period": "T1",
+      "Dice": 0.9999091009123398,
+      "IoU": 0.9998182183484658,
+      "Precision": 0.9998469163206337,
+      "Recall": 0.9999712932395579,
+      "Pixel_accuracy": 0.999993251470114,
+      "Specificity": 0.9999940979511406,
+      "TP": 104502,
+      "FP": 16,
+      "FN": 3,
+      "TN": 2710907,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "U-Net + V90 (reviewed)",
+      "period": "T2",
+      "Dice": 0.9999737168914967,
+      "IoU": 0.9999474351645607,
+      "Precision": 0.9999474351645607,
+      "Recall": 1.0,
+      "Pixel_accuracy": 0.9999971585137322,
+      "Specificity": 0.9999969961434236,
+      "TP": 152185,
+      "FP": 8,
+      "FN": 0,
+      "TN": 2663235,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "U-Net + V90 (reviewed)",
+      "period": "T3",
+      "Dice": 1.0,
+      "IoU": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "Pixel_accuracy": 1.0,
+      "Specificity": 1.0,
+      "TP": 168984,
+      "FP": 0,
+      "FN": 0,
+      "TN": 2646444,
+      "evaluated_pixels": 2815428
+    },
+    {
+      "model": "U-Net + V90 (reviewed)",
+      "period": "T4",
+      "Dice": 1.0,
+      "IoU": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "Pixel_accuracy": 1.0,
+      "Specificity": 1.0,
+      "TP": 147533,
+      "FP": 0,
+      "FN": 0,
+      "TN": 2667895,
+      "evaluated_pixels": 2815428
+    }
+  ]
+}

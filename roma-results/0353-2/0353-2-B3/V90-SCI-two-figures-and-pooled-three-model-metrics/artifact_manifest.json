@@ -1,0 +1,137 @@
+[
+  {
+    "file": "Figure_captions.txt",
+    "bytes": 899,
+    "sha256": "87058a3df7cc208163f6b92310587a7c78719350d00a652262cd3bbfdaa21fc8"
+  },
+  {
+    "file": "RESULTS.md",
+    "bytes": 3914,
+    "sha256": "682e6de049598f4e3523234e2ab1f9f9523fd8808eac6051944cbbad0fed4fd5"
+  },
+  {
+    "file": "Table1_Four_period_binary_root_segmentation.csv",
+    "bytes": 742,
+    "sha256": "fb7045ebb2d1424caa781fc8bb4d15d3e9162cca686cdb95c05a47a409891db9"
+  },
+  {
+    "file": "Table2_Pooled_temporal_class_summary.csv",
+    "bytes": 994,
+    "sha256": "9ce18ebeb89f5a6077463311bd313ee7f0860c740ac9a4352de6db252eb36c15"
+  },
+  {
+    "file": "Three_models_pooled_metrics.xlsx",
+    "bytes": 4964,
+    "sha256": "120591d2eabcf6de47c253de10eacdac7240e75e4a36d077e79f12fdbe7816e0"
+  },
+  {
+    "file": "Three_original_models_actual_100_epoch_losses.csv",
+    "bytes": 15641,
+    "sha256": "642e12360235c4694f403d40453fdfef52c3cb160a419c152b4940f064de6c1f"
+  },
+  {
+    "file": "completion.json",
+    "bytes": 123,
+    "sha256": "bac24c36613fe2c07049f4c10aeeaae1e46ee1e8a7d810a7fe8e08a5a26e74e8"
+  },
+  {
+    "file": "figure_manifest.json",
+    "bytes": 1699,
+    "sha256": "103d0fbf21e8d4e8288a5c9500fe8a72fb3feb477688ec4eac99df413f355cea"
+  },
+  {
+    "file": "figures/Fig1_Three_model_100_epoch_curves_and_four_period_full_comparison.pdf",
+    "bytes": 11724692,
+    "sha256": "adb98ca5270f473e7e278e82f04eb963a29897f6ffeac0aa4f21fbb46bfaca0e"
+  },
+  {
+    "file": "figures/Fig1_Three_model_100_epoch_curves_and_four_period_full_comparison.tif",
+    "bytes": 29345920,
+    "sha256": "b36cd7e8bd6fe7fe3182e8f3e0fe627408c63ef6c5b54a7d6a2478f910aef8e5"
+  },
+  {
+    "file": "figures/Fig1_Three_model_100_epoch_curves_and_four_period_full_comparison_preview.png",
+    "bytes": 4336139,
+    "sha256": "f27cb9698809c66e2b8747aeb39697d5db25443c13f6f2dd93f4155d9553e704"
+  },
+  {
+    "file": "figures/Fig2_Four_period_matched_local_RGB_original_UNet_V90.pdf",
+    "bytes": 2577040,
+    "sha256": "9e2b1ce0f7db630fb4db6d3f8e08158755367ec2c58dc3d527cc92de866c6e6d"
+  },
+  {
+    "file": "figures/Fig2_Four_period_matched_local_RGB_original_UNet_V90.tif",
+    "bytes": 4389242,
+    "sha256": "7301f32fdc15fbf79827f38e920a395c10c6599c79041bb5f1a02c083f94d47b"
+  },
+  {
+    "file": "figures/Fig2_Four_period_matched_local_RGB_original_UNet_V90_preview.png",
+    "bytes": 1670841,
+    "sha256": "3af339c8f44ea654a096316a325214cf4ce01c765c3038ba10b3b2fa32ac5b47"
+  },
+  {
+    "file": "histories/deeplab_completion.json",
+    "bytes": 327,
+    "sha256": "4b3a70775cc44dc11008531f515a773aecb52cd488e82534226df059eed41f7f"
+  },
+  {
+    "file": "histories/deeplab_config.json",
+    "bytes": 2500,
+    "sha256": "89721e01957865f59ce235b917e4d2307e38adffca835378146277f58a99b9aa"
+  },
+  {
+    "file": "histories/deeplab_history.csv",
+    "bytes": 40460,
+    "sha256": "b671a7665d808a0025e9e610452e64098a8ebefdf8ce1be1f93cf52115878bcb"
+  },
+  {
+    "file": "histories/segformer_completion.json",
+    "bytes": 332,
+    "sha256": "e1058e60ae13724b532932bd3f17ad7b1c8ccfb34476c5b7bd20c85f52f9de91"
+  },
+  {
+    "file": "histories/segformer_config.json",
+    "bytes": 2503,
+    "sha256": "1812e01113833398e753437111769841e946516f584d7b92e79ec5b58aa31d9b"
+  },
+  {
+    "file": "histories/segformer_history.csv",
+    "bytes": 39593,
+    "sha256": "1511da47f3a68618cc1ff07e984536dd881ceb5b82bbe6cbca5c29cedcd48194"
+  },
+  {
+    "file": "histories/unet_completion.json",
+    "bytes": 332,
+    "sha256": "9095290d6bb7915bf65e18e75af627451534d7f8cbd3be7aab9e1e2ec30b8207"
+  },
+  {
+    "file": "histories/unet_config.json",
+    "bytes": 2492,
+    "sha256": "d3101591b7099b162875fd5a4ea8c930c778ae39e76593c77eba6bb9284d54eb"
+  },
+  {
+    "file": "histories/unet_history.csv",
+    "bytes": 40445,
+    "sha256": "c6ef09c8302ddfb07dd20b65dc38fa052037039e755b72c7c60aef532cf8c69c"
+  },
+  {
+    "file": "metric_counts_and_definitions.json",
+    "bytes": 9318,
+    "sha256": "1c34669c807f473e8288d66680c72488e50e023b70314b0589c4b95fd87dec86"
+  },
+  {
+    "file": "source/export.py",
+    "bytes": 25288,
+    "sha256": "c46f1ce1939b49a1cbf58ba2d1f4d5c129a629f6fa03b04db1a2b0413b8770f8"
+  },
+  {
+    "file": "source/publish.py",
+    "bytes": 3669,
+    "sha256": "6e214ce86bef5e9ea93880eea7034ca3d7674e6b457cf023b317c35b588f55aa"
+  },
+  {
+    "file": "verification.json",
+    "bytes": 8399,
+    "sha256": "6a5754b7148907e69b6d6bdd6c83f2188337218f256bce6d7b254350e596888b"
+  }
+]

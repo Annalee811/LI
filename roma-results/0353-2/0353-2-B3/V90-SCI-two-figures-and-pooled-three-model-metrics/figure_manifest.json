@@ -1,0 +1,41 @@
+{
+  "figures": [
+    {
+      "stem": "Fig1_Three_model_100_epoch_curves_and_four_period_full_comparison",
+      "width_inches": 15.4,
+      "height_inches": 15.6,
+      "pixels": [
+        9240,
+        9360
+      ],
+      "dpi": 600,
+      "tiff_sha256": "b36cd7e8bd6fe7fe3182e8f3e0fe627408c63ef6c5b54a7d6a2478f910aef8e5",
+      "pdf_sha256": "adb98ca5270f473e7e278e82f04eb963a29897f6ffeac0aa4f21fbb46bfaca0e",
+      "PDF": "Vector text/curves with 300dpi raster root/RGB panels; lossless TIFF panels remain600dpi"
+    },
+    {
+      "stem": "Fig2_Four_period_matched_local_RGB_original_UNet_V90",
+      "width_inches": 10.8,
+      "height_inches": 12.8,
+      "pixels": [
+        6480,
+        7680
+      ],
+      "dpi": 600,
+      "tiff_sha256": "7301f32fdc15fbf79827f38e920a395c10c6599c79041bb5f1a02c083f94d47b",
+      "pdf_sha256": "9e2b1ce0f7db630fb4db6d3f8e08158755367ec2c58dc3d527cc92de866c6e6d",
+      "PDF": "Vector text/curves with 300dpi raster root/RGB panels; lossless TIFF panels remain600dpi"
+    }
+  ],
+  "number_of_scientific_figures": 2,
+  "ROI": [
+    1530,
+    590,
+    1830,
+    850
+  ],
+  "selection": "A previously reported complete new-lateral tip and crossings; selected for visible correction and chronology, not ranked by metric gain.",
+  "plot_style": "Bold black Times New Roman, consistent font/line scales, vector curves, native-aspect images, nearest categorical sampling, aligned period rows.",
+  "curve_source": "V66 actual upload18 temporal-head history, not a new V90 training run; epoch0 excluded, epochs1-100 unmodified.",
+  "full_image_scope": "Entire available 2541x1108 registered upper field; lower multi-region canvas is not registered full-tube data."
+}
