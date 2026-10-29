@@ -1,0 +1,328 @@
+{
+  "files": [
+    {
+      "file": "Fig1_Reported_new_root_before_after.tif",
+      "sha256": "189f58eb399d30c988b0a7c3329cf92ff234eac376fed58338b07631bf53f2af",
+      "dimensions": [
+        3600,
+        1500
+      ],
+      "typography": [
+        {
+          "text": "User-confirmed new root: correction of mistaken old-root inheritance",
+          "bounds": [
+            912,
+            25,
+            2688,
+            67
+          ]
+        },
+        {
+          "text": "T2 root 0002-N1: explicitly confirmed NEW | Only this root changes; all other roots are preserved",
+          "bounds": [
+            1113,
+            135,
+            2486,
+            165
+          ]
+        },
+        {
+          "text": "V89 BEFORE: incorrect inherited state",
+          "bounds": [
+            595,
+            270,
+            1255,
+            297
+          ]
+        },
+        {
+          "text": "V90 CURRENT: reviewed NEW root",
+          "bounds": [
+            2366,
+            270,
+            2985,
+            296
+          ]
+        },
+        {
+          "text": "No root width, length, foreground pixel or manual label is changed. The older contact root stays unchanged.",
+          "bounds": [
+            1089,
+            1200,
+            2511,
+            1228
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            1370,
+            387,
+            1394
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1052,
+            1370,
+            1204,
+            1394
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1892,
+            1370,
+            2135,
+            1402
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2732,
+            1370,
+            2938,
+            1402
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_Entire_numbered_new_root_before_after.tif",
+      "sha256": "4719d0bc381ead01e4629051f50a1adb915537288abb261bf676f32146d49435",
+      "dimensions": [
+        3600,
+        1500
+      ],
+      "typography": [
+        {
+          "text": "Entire numbered root 0002-N1: continuous new-root identity",
+          "bounds": [
+            1021,
+            25,
+            2580,
+            79
+          ]
+        },
+        {
+          "text": "T2 root 0002-N1: explicitly confirmed NEW | Only this root changes; all other roots are preserved",
+          "bounds": [
+            1113,
+            135,
+            2486,
+            165
+          ]
+        },
+        {
+          "text": "V89 BEFORE: incorrect inherited state",
+          "bounds": [
+            595,
+            270,
+            1255,
+            297
+          ]
+        },
+        {
+          "text": "V90 CURRENT: reviewed NEW root",
+          "bounds": [
+            2366,
+            270,
+            2985,
+            296
+          ]
+        },
+        {
+          "text": "No root width, length, foreground pixel or manual label is changed. The older contact root stays unchanged.",
+          "bounds": [
+            1089,
+            1200,
+            2511,
+            1228
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            1370,
+            387,
+            1394
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1052,
+            1370,
+            1204,
+            1394
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            1892,
+            1370,
+            2135,
+            1402
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            2732,
+            1370,
+            2938,
+            1402
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig3_CURRENT_ONLY_four_period_predictions_V90.tif",
+      "sha256": "649b258f820e19d1e3eb5ffe9dae801714f311aca7d5a375c89dc126d5e57777",
+      "dimensions": [
+        4800,
+        3900
+      ],
+      "typography": [
+        {
+          "text": "CURRENT REVIEWED PREDICTIONS ONLY - V90",
+          "bounds": [
+            1461,
+            25,
+            3339,
+            81
+          ]
+        },
+        {
+          "text": "Only the user-confirmed T2 root 0002-N1 is corrected; T1, T3 and T4 remain unchanged",
+          "bounds": [
+            1683,
+            155,
+            3116,
+            190
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            717,
+            270,
+            982,
+            311
+          ]
+        },
+        {
+          "text": "CURRENT temporal overlay",
+          "bounds": [
+            2125,
+            270,
+            2674,
+            310
+          ]
+        },
+        {
+          "text": "CURRENT root classes",
+          "bounds": [
+            3730,
+            270,
+            4171,
+            302
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            35,
+            615,
+            103,
+            655
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            35,
+            1405,
+            103,
+            1445
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            35,
+            2195,
+            103,
+            2235
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            35,
+            2985,
+            103,
+            3025
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3710,
+            387,
+            3734
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1352,
+            3710,
+            1504,
+            3734
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2492,
+            3710,
+            2735,
+            3742
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3632,
+            3710,
+            3838,
+            3742
+          ]
+        }
+      ]
+    }
+  ],
+  "dpi": 600,
+  "black_bold_Times_New_Roman": true,
+  "categorical_nearest_neighbor": true,
+  "original_user_report_ROI": [
+    1550,
+    180,
+    2090,
+    440
+  ],
+  "whole_reviewed_root_ROI": [
+    1220,
+    150,
+    2120,
+    520
+  ]
+}

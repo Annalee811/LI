@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "only_one_user_confirmed_root_modified": true,
+  "other_root_pixels_changed": 0,
+  "T1_T3_T4_unchanged": true,
+  "older_contact_root_unchanged": true,
+  "all_reviewed_root_pixels_are_new": true,
+  "whole_foreground_bitwise_identical": true,
+  "manual_annotation_unchanged": true,
+  "no_training": true,
+  "not_label_blind_inference": true,
+  "immutable_input_sha256": {
+    "/workspace/LI/results/B3_T4_all_extension_reference_to_new_v87_20261028/root_annotation_progress_24_user_corrected_T2_and_T4.json": "0664587ee2e5931e318f8ad025934b64d5a95fb4ffb8854ac942da861b907636",
+    "/workspace/LI/results/B3_root_axis_junction_v83_20261028/joint_best.pt": "e835ab06aff540d6d820417e9abf6e5763245b4d20d3a6ea50acc30cf9d50ab3",
+    "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/best_temporal_head.pt": "58a460c25b29ad4a0fdf3f5ca3e9cad3ec186af0c3827fecc942ba784955e382",
+    "/workspace/LI/results/B3_all_axes_and_crossing_consistency_v89_20261029/full/T1_classes.png": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "/workspace/LI/results/B3_all_axes_and_crossing_consistency_v89_20261029/full/T2_classes.png": "2b8e466bfdb0abf68515472a42bb811e094b2ee6c7ba2d6f6fbfa030723617ad",
+    "/workspace/LI/results/B3_all_axes_and_crossing_consistency_v89_20261029/full/T3_classes.png": "f363f844f7915f98ae8b605571f63457d16eadafc092d97be013f857c9226848",
+    "/workspace/LI/results/B3_all_axes_and_crossing_consistency_v89_20261029/full/T4_classes.png": "ae7fad5b8a77904970e845c0e1b3bc9fb73acfef08a6e486b78520f91cde4bf2",
+    "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T1_classes.png": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T2_classes.png": "2adfd5a8cd9856e10af2b13a3f508e078745f8a4d5570cf23019fd37ee0ba43a",
+    "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T3_classes.png": "d106b7265e20995800779d7e41fd8e66c2a5f983afd7d249a1c55f4077926890",
+    "/workspace/LI/results/B3_temporal_upload18_noGAT_v66_20261028/unet/full/T4_classes.png": "127a37d724eaf6f5a3034cd1bba14c033de3c9297050ef003a3f6008ed2321ac"
+  },
+  "prediction_sha256": {
+    "T1": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f",
+    "T2": "b8a31ce5e1126be91d9f51ffb9521e1b5abdb4382034d8f222642616ce76fa38",
+    "T3": "f363f844f7915f98ae8b605571f63457d16eadafc092d97be013f857c9226848",
+    "T4": "ae7fad5b8a77904970e845c0e1b3bc9fb73acfef08a6e486b78520f91cde4bf2"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "explicit_user_review_only": true,
+  "target": "T2 0002-N1",
+  "changed_pixels": 2100,
+  "no_training": true,
+  "unrelated_roots_and_geometry_unchanged": true
+}
