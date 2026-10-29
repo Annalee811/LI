@@ -1,0 +1,569 @@
+{
+  "files": [
+    {
+      "file": "Fig1_Original_UNet_vs_V89_four_period_comparison.tif",
+      "sha256": "5516501d7f37ba2c4425bc10891e518b9da972a504c0c4624febcfcec0352861",
+      "dimensions": [
+        4350,
+        4600
+      ],
+      "typography": [
+        {
+          "text": "Original U-Net vs V89: four-period comparison",
+          "bounds": [
+            1446,
+            25,
+            2904,
+            90
+          ]
+        },
+        {
+          "text": "Original U-Net (V66, selected epoch37) | V89 temporal correction | Identical root geometry",
+          "bounds": [
+            1500,
+            135,
+            2850,
+            168
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            600,
+            235,
+            859,
+            275
+          ]
+        },
+        {
+          "text": "ORIGINAL U-Net (V66)",
+          "bounds": [
+            1953,
+            235,
+            2407,
+            275
+          ]
+        },
+        {
+          "text": "OPTIMIZED output (V89)",
+          "bounds": [
+            3382,
+            235,
+            3879,
+            275
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            35,
+            765,
+            98,
+            801
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            35,
+            1805,
+            98,
+            1841
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            35,
+            2845,
+            98,
+            2881
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            35,
+            3885,
+            98,
+            3921
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            4490,
+            387,
+            4514
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1239,
+            4490,
+            1391,
+            4514
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2267,
+            4490,
+            2510,
+            4522
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3294,
+            4490,
+            3500,
+            4522
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig2_Original_UNet_vs_V89_matched_four_period_detail.tif",
+      "sha256": "30add111b7e0f6a7eec013cbb7a5fa16fe975a8007669d0f942e53af1e5849b3",
+      "dimensions": [
+        4000,
+        3650
+      ],
+      "typography": [
+        {
+          "text": "Original U-Net vs V89: matched detail across four periods",
+          "bounds": [
+            1244,
+            25,
+            2755,
+            81
+          ]
+        },
+        {
+          "text": "Same native ROI in T1-T4: [620, 740, 1068, 1100] | Persistent, new and extension classes",
+          "bounds": [
+            1402,
+            125,
+            2598,
+            154
+          ]
+        },
+        {
+          "text": "T1",
+          "bounds": [
+            25,
+            590,
+            79,
+            621
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            575,
+            260,
+            786,
+            292
+          ]
+        },
+        {
+          "text": "ORIGINAL U-Net (V66)",
+          "bounds": [
+            1815,
+            260,
+            2184,
+            292
+          ]
+        },
+        {
+          "text": "OPTIMIZED output (V89)",
+          "bounds": [
+            3118,
+            260,
+            3523,
+            292
+          ]
+        },
+        {
+          "text": "T2",
+          "bounds": [
+            25,
+            1380,
+            79,
+            1411
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            575,
+            1050,
+            786,
+            1082
+          ]
+        },
+        {
+          "text": "ORIGINAL U-Net (V66)",
+          "bounds": [
+            1815,
+            1050,
+            2184,
+            1082
+          ]
+        },
+        {
+          "text": "OPTIMIZED output (V89)",
+          "bounds": [
+            3118,
+            1050,
+            3523,
+            1082
+          ]
+        },
+        {
+          "text": "T3",
+          "bounds": [
+            25,
+            2170,
+            79,
+            2201
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            575,
+            1840,
+            786,
+            1872
+          ]
+        },
+        {
+          "text": "ORIGINAL U-Net (V66)",
+          "bounds": [
+            1815,
+            1840,
+            2184,
+            1872
+          ]
+        },
+        {
+          "text": "OPTIMIZED output (V89)",
+          "bounds": [
+            3118,
+            1840,
+            3523,
+            1872
+          ]
+        },
+        {
+          "text": "T4",
+          "bounds": [
+            25,
+            2960,
+            79,
+            2991
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            575,
+            2630,
+            786,
+            2662
+          ]
+        },
+        {
+          "text": "ORIGINAL U-Net (V66)",
+          "bounds": [
+            1815,
+            2630,
+            2184,
+            2662
+          ]
+        },
+        {
+          "text": "OPTIMIZED output (V89)",
+          "bounds": [
+            3118,
+            2630,
+            3523,
+            2662
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3520,
+            387,
+            3544
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1152,
+            3520,
+            1304,
+            3544
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2092,
+            3520,
+            2335,
+            3552
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3032,
+            3520,
+            3238,
+            3552
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig3_Original_UNet_vs_V89_reported_T2_details.tif",
+      "sha256": "60c5e874cc325b6a5b188bae4f0a7391854513ad151a7c9cf8e118e30d722ec3",
+      "dimensions": [
+        4000,
+        3400
+      ],
+      "typography": [
+        {
+          "text": "Original U-Net vs V89: three reported T2 root regions",
+          "bounds": [
+            1276,
+            25,
+            2725,
+            82
+          ]
+        },
+        {
+          "text": "Exact original U-Net baseline | Same native crop and segmentation mask in each comparison",
+          "bounds": [
+            1349,
+            135,
+            2651,
+            164
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            35,
+            580,
+            68,
+            612
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            575,
+            260,
+            786,
+            292
+          ]
+        },
+        {
+          "text": "ORIGINAL U-Net (V66)",
+          "bounds": [
+            1815,
+            260,
+            2184,
+            292
+          ]
+        },
+        {
+          "text": "OPTIMIZED output (V89)",
+          "bounds": [
+            3118,
+            260,
+            3523,
+            292
+          ]
+        },
+        {
+          "text": "T2 native ROI: [620, 740, 1068, 1000]",
+          "bounds": [
+            1761,
+            1075,
+            2238,
+            1102
+          ]
+        },
+        {
+          "text": "B",
+          "bounds": [
+            35,
+            1560,
+            66,
+            1591
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            575,
+            1240,
+            786,
+            1272
+          ]
+        },
+        {
+          "text": "ORIGINAL U-Net (V66)",
+          "bounds": [
+            1815,
+            1240,
+            2184,
+            1272
+          ]
+        },
+        {
+          "text": "OPTIMIZED output (V89)",
+          "bounds": [
+            3118,
+            1240,
+            3523,
+            1272
+          ]
+        },
+        {
+          "text": "T2 native ROI: [1290, 150, 1540, 470]",
+          "bounds": [
+            1761,
+            2055,
+            2238,
+            2082
+          ]
+        },
+        {
+          "text": "C",
+          "bounds": [
+            35,
+            2540,
+            68,
+            2573
+          ]
+        },
+        {
+          "text": "Original RGB",
+          "bounds": [
+            575,
+            2220,
+            786,
+            2252
+          ]
+        },
+        {
+          "text": "ORIGINAL U-Net (V66)",
+          "bounds": [
+            1815,
+            2220,
+            2184,
+            2252
+          ]
+        },
+        {
+          "text": "OPTIMIZED output (V89)",
+          "bounds": [
+            3118,
+            2220,
+            3523,
+            2252
+          ]
+        },
+        {
+          "text": "T2 native ROI: [1530, 590, 1830, 850]",
+          "bounds": [
+            1761,
+            3035,
+            2238,
+            3062
+          ]
+        },
+        {
+          "text": "T1 baseline",
+          "bounds": [
+            212,
+            3270,
+            387,
+            3294
+          ]
+        },
+        {
+          "text": "Persistent",
+          "bounds": [
+            1152,
+            3270,
+            1304,
+            3294
+          ]
+        },
+        {
+          "text": "Newly observed",
+          "bounds": [
+            2092,
+            3270,
+            2335,
+            3302
+          ]
+        },
+        {
+          "text": "Tip extension",
+          "bounds": [
+            3032,
+            3270,
+            3238,
+            3302
+          ]
+        }
+      ]
+    }
+  ],
+  "dpi": 600,
+  "black_bold_Times_New_Roman": true,
+  "categorical_nearest_neighbor": true,
+  "original_baseline": "V66 original U-Net, selected epoch37; historical reference20 new-root Dice0.8229",
+  "comparison": "Original U-Net vs actual V89; no V85/V88 or manual reference column",
+  "matched_four_period_ROI": [
+    620,
+    740,
+    1068,
+    1100
+  ],
+  "T2_detail_ROIs": [
+    [
+      620,
+      740,
+      1068,
+      1000
+    ],
+    [
+      1290,
+      150,
+      1540,
+      470
+    ],
+    [
+      1530,
+      590,
+      1830,
+      850
+    ]
+  ]
+}

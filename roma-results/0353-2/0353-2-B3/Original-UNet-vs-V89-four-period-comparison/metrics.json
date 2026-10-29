@@ -1,0 +1,222 @@
+{
+  "original_inner_spatial_audit": {
+    "original_U_Net_V66": {
+      "classes": [
+        {
+          "name": "persistent",
+          "Precision": 0.9830408452881089,
+          "Recall": 0.9547879962334702,
+          "Dice": 0.9687084625609216,
+          "IoU": 0.9393158262177111,
+          "support": 73277,
+          "reference_present": true,
+          "predicted_pixels": 71171,
+          "false_positive_pixels": 1207,
+          "class_Dice_status": "reference_class_present"
+        },
+        {
+          "name": "newly_observed",
+          "Precision": 0.8114448585836439,
+          "Recall": 0.8249498476855636,
+          "Dice": 0.8181416255250166,
+          "IoU": 0.6922501402830601,
+          "support": 13459,
+          "reference_present": true,
+          "predicted_pixels": 13683,
+          "false_positive_pixels": 2580,
+          "class_Dice_status": "reference_class_present"
+        },
+        {
+          "name": "tip_extension",
+          "Precision": 0.06823451473998013,
+          "Recall": 0.18117854001759015,
+          "Dice": 0.09913378248315688,
+          "IoU": 0.052151898734177214,
+          "support": 1137,
+          "reference_present": true,
+          "predicted_pixels": 3019,
+          "false_positive_pixels": 2813,
+          "class_Dice_status": "reference_class_present"
+        }
+      ],
+      "macro_Dice": 0.6286612901896983,
+      "confusion": [
+        [
+          69964,
+          1738,
+          1575
+        ],
+        [
+          1118,
+          11103,
+          1238
+        ],
+        [
+          89,
+          842,
+          206
+        ]
+      ],
+      "accuracy": 0.9248916049298419,
+      "macro_Dice_defined_classes": 0.6286612901896983,
+      "macro_Dice_reference_present_classes": 0.6286612901896983
+    },
+    "optimized_V89": {
+      "classes": [
+        {
+          "name": "persistent",
+          "Precision": 0.9768893502520044,
+          "Recall": 0.9760361368505807,
+          "Dice": 0.976462557171138,
+          "IoU": 0.9540076564980192,
+          "support": 73277
+        },
+        {
+          "name": "newly_observed",
+          "Precision": 0.9010565151769244,
+          "Recall": 0.7984248458280704,
+          "Dice": 0.846641717549734,
+          "IoU": 0.7340665345993579,
+          "support": 13459
+        },
+        {
+          "name": "tip_extension",
+          "Precision": 0.24103877103145574,
+          "Recall": 0.5795954265611257,
+          "Dice": 0.3404804959958667,
+          "IoU": 0.20516811955168118,
+          "support": 1137
+        }
+      ],
+      "macro_Dice": 0.7211949235722462,
+      "confusion": [
+        [
+          71521,
+          986,
+          770
+        ],
+        [
+          1408,
+          10746,
+          1305
+        ],
+        [
+          284,
+          194,
+          659
+        ]
+      ],
+      "accuracy": 0.9437028438769588
+    }
+  },
+  "all_valid_annotated_root_pixels": {
+    "original_U_Net_V66": {
+      "classes": [
+        {
+          "name": "persistent",
+          "Precision": 0.9813120881282581,
+          "Recall": 0.9697807971585595,
+          "Dice": 0.9755123666974529,
+          "IoU": 0.9521953559876394,
+          "support": 380652,
+          "reference_present": true,
+          "predicted_pixels": 376179,
+          "false_positive_pixels": 7030,
+          "class_Dice_status": "reference_class_present"
+        },
+        {
+          "name": "newly_observed",
+          "Precision": 0.8503333375501272,
+          "Recall": 0.853247692913086,
+          "Dice": 0.8517880224041362,
+          "IoU": 0.7418386491557223,
+          "support": 78779,
+          "reference_present": true,
+          "predicted_pixels": 79049,
+          "false_positive_pixels": 11831,
+          "class_Dice_status": "reference_class_present"
+        },
+        {
+          "name": "tip_extension",
+          "Precision": 0.2618111753371869,
+          "Recall": 0.3872549019607843,
+          "Dice": 0.31241090725157494,
+          "IoU": 0.18512261580381473,
+          "support": 8772,
+          "reference_present": true,
+          "predicted_pixels": 12975,
+          "false_positive_pixels": 9578,
+          "class_Dice_status": "reference_class_present"
+        }
+      ],
+      "macro_Dice": 0.713237098784388,
+      "confusion": [
+        [
+          369149,
+          7389,
+          4114
+        ],
+        [
+          6097,
+          67218,
+          5464
+        ],
+        [
+          933,
+          4442,
+          3397
+        ]
+      ],
+      "accuracy": 0.9392592529308869,
+      "macro_Dice_defined_classes": 0.713237098784388,
+      "macro_Dice_reference_present_classes": 0.713237098784388
+    },
+    "optimized_V89": {
+      "classes": [
+        {
+          "name": "persistent",
+          "Precision": 0.9757487524037152,
+          "Recall": 0.9877683553481921,
+          "Dice": 0.9817217650814042,
+          "IoU": 0.9640997238440295,
+          "support": 380652
+        },
+        {
+          "name": "newly_observed",
+          "Precision": 0.9450738216922203,
+          "Recall": 0.8450348443113013,
+          "Dice": 0.892259028675973,
+          "IoU": 0.8054762365695479,
+          "support": 78779
+        },
+        {
+          "name": "tip_extension",
+          "Precision": 0.4252133311866044,
+          "Recall": 0.6021431828545372,
+          "Dice": 0.4984429555534585,
+          "IoU": 0.3319507290095525,
+          "support": 8772
+        }
+      ],
+      "macro_Dice": 0.7908079164369451,
+      "confusion": [
+        [
+          375996,
+          2301,
+          2355
+        ],
+        [
+          7423,
+          66571,
+          4785
+        ],
+        [
+          1922,
+          1568,
+          5282
+        ]
+      ],
+      "accuracy": 0.9565274037116379
+    }
+  }
+}
