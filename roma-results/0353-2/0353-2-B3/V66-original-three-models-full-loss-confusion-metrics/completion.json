@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "models": 3,
+  "figures": 4,
+  "epochs_per_model": 100,
+  "evaluated_root_pixels_per_model": 468203,
+  "no_training": true
+}

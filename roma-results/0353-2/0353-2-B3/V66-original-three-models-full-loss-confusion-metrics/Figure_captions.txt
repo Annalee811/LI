@@ -1,0 +1,4 @@
+Figure1. Original V66 three-model100-epoch training dynamics and four-period full-field RGB/manual/original-model comparison. Training used upload18, displayed reference is revisedV87.
+Figure2. Actual original V66 training and validation losses for all100epochs; validation-macro-Dice-selected epochs37/14/63.
+Figure3. Temporal confusion over the same468203 manually typed root pixels in T2-T4. Rows are reference classes and columns predicted classes plus missed roots. Counts and row percentages are annotated; shared0-1scale. T1baseline and true background pixels are excluded.
+Figure4. Root-only pooled macro Dice/IoU/Precision/Recall and root-label accuracy for the three original V66 models. Missed roots remain FN. All results are same-position development-reference agreement, not independent test evidence.

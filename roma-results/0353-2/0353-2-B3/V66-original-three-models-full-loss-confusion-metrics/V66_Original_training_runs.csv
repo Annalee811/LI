@@ -1,0 +1,4 @@
+﻿Model,Completed_epochs,Selected_epoch,Checkpoint_SHA256,History_SHA256,Training_reference
+U-Net,100,37,58a460c25b29ad4a0fdf3f5ca3e9cad3ec186af0c3827fecc942ba784955e382,c6ef09c8302ddfb07dd20b65dc38fa052037039e755b72c7c60aef532cf8c69c,"upload18; original run, binary/features frozen"
+DeepLabV3+,100,14,0b73e59b1928739a48034d128be0eca9778202e90bf20917abd59b1a2ac28d1d,b671a7665d808a0025e9e610452e64098a8ebefdf8ce1be1f93cf52115878bcb,"upload18; original run, binary/features frozen"
+SegFormer-B0,100,63,cff450a88c0ab2509172eaa828cd9098556eea80550d9ab87089e17af7118f69,1511da47f3a68618cc1ff07e984536dd881ceb5b82bbe6cbca5c29cedcd48194,"upload18; original run, binary/features frozen"

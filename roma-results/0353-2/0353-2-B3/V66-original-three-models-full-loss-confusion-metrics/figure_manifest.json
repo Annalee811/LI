@@ -1,0 +1,57 @@
+{
+  "figures": [
+    {
+      "stem": "Fig1_V66_Three_models_four_period_and_100_epoch_curves",
+      "source_stem": "Fig1_Three_model_100_epoch_curves_and_four_period_full_comparison",
+      "copied_losslessly": true
+    },
+    {
+      "stem": "Fig2_V66_Three_models_100_epoch_training_validation_loss",
+      "source_stem": "Fig5_Original_three_models_complete_100_epoch_training_validation_loss",
+      "copied_losslessly_formats": [
+        "TIFF",
+        "SVG",
+        "previewPNG"
+      ],
+      "PDF": "Vector plot from the same unchanged genuine V66 history"
+    },
+    {
+      "stem": "Fig3_V66_Three_models_temporal_confusion_matrices",
+      "pixels": [
+        9720,
+        3180
+      ],
+      "tiff_dpi": 600
+    },
+    {
+      "stem": "Fig4_V66_Three_models_temporal_metric_comparison",
+      "pixels": [
+        8100,
+        4320
+      ],
+      "tiff_dpi": 600
+    }
+  ],
+  "models": [
+    "U-Net",
+    "DeepLabV3+",
+    "SegFormer-B0"
+  ],
+  "V90_or_CG_predictions_included": false,
+  "manual_reference": "revisedV87",
+  "T1_baseline_display": true,
+  "all_100_loss_epochs_actual": true,
+  "matrix_rows": [
+    "Persistent",
+    "New",
+    "Extension"
+  ],
+  "matrix_columns": [
+    "Persistent",
+    "New",
+    "Extension",
+    "Missed"
+  ],
+  "matrix_heatmap": "row-normalized, common0-1scale; count and percentage annotated",
+  "font": "black bold embedded Times New Roman"
+}
