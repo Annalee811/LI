@@ -1,0 +1,10 @@
+﻿Genotype,Interval,Designed_replicates,Effective_n_current_share,Effective_n_previous_ratio,Registration_review_flagged_n
+0353,T1-T2,6,6,6,2
+0353,T2-T3,6,6,6,2
+0353,T3-T4,6,6,6,2
+A017,T1-T2,6,6,6,3
+A017,T2-T3,6,4,4,3
+A017,T3-T4,6,4,4,3
+Q1,T1-T2,6,3,3,3
+Q1,T2-T3,6,2,2,2
+Q1,T3-T4,6,3,3,2

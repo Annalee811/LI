@@ -1,0 +1,6 @@
+﻿Genotype,Replicate,Sequence,Observed_interval,Period_gap,Status
+A017,1,A017-1-B2,T2-T4,2,Longer-than-adjacent comparison; excluded from T1-T2/T2-T3/T3-T4 means
+A017,2,A017-1-Z2,T2-T4,2,Longer-than-adjacent comparison; excluded from T1-T2/T2-T3/T3-T4 means
+Q1,1,Q1-1-B2,T1-T3,2,Longer-than-adjacent comparison; excluded from T1-T2/T2-T3/T3-T4 means
+Q1,5,Q1-2-Z2,T1-T3,2,Longer-than-adjacent comparison; excluded from T1-T2/T2-T3/T3-T4 means
+Q1,6,Q1-2-Z3,T2-T4,2,Longer-than-adjacent comparison; excluded from T1-T2/T2-T3/T3-T4 means

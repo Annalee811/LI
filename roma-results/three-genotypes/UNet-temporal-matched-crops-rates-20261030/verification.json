@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "all63_foregrounds_equal_previous_binary_masks": true,
+  "all_class_lengths_sum_to_frozen_total": true,
+  "current_length_shares_sum100": true,
+  "all_adjacent_rates_use_real_observations": true,
+  "no_cross_gap_in_adjacent_means": true,
+  "model": "Frozen V66 U-Net temporal head",
+  "temporal_epoch": 37,
+  "root_epoch": 77,
+  "models_retrained": false,
+  "ConvLSTM_GAT_added": false,
+  "summary": {
+    "state": "completed_available_inputs",
+    "available_input_images": 63,
+    "expected_observed_images": 66,
+    "planned_period_cells": 72,
+    "classified_frames": 45,
+    "baseline_frames": 17,
+    "unclassified_no_history_frames": 1,
+    "adjacent_intervals": 40,
+    "cross_gap_frames": 5,
+    "missing_observation_cells": 6,
+    "source_unavailable_cells": 3,
+    "effective_interval_replicates": [
+      {
+        "Genotype": "0353",
+        "Interval": "T1-T2",
+        "Designed_replicates": 6,
+        "Effective_n_current_share": 6,
+        "Effective_n_previous_ratio": 6,
+        "Registration_review_flagged_n": 2
+      },
+      {
+        "Genotype": "0353",
+        "Interval": "T2-T3",
+        "Designed_replicates": 6,
+        "Effective_n_current_share": 6,
+        "Effective_n_previous_ratio": 6,
+        "Registration_review_flagged_n": 2
+      },
+      {
+        "Genotype": "0353",
+        "Interval": "T3-T4",
+        "Designed_replicates": 6,
+        "Effective_n_current_share": 6,
+        "Effective_n_previous_ratio": 6,
+        "Registration_review_flagged_n": 2
+      },
+      {
+        "Genotype": "A017",
+        "Interval": "T1-T2",
+        "Designed_replicates": 6,
+        "Effective_n_current_share": 6,
+        "Effective_n_previous_ratio": 6,
+        "Registration_review_flagged_n": 3
+      },
+      {
+        "Genotype": "A017",
+        "Interval": "T2-T3",
+        "Designed_replicates": 6,
+        "Effective_n_current_share": 4,
+        "Effective_n_previous_ratio": 4,
+        "Registration_review_flagged_n": 3
+      },
+      {
+        "Genotype": "A017",
+        "Interval": "T3-T4",
+        "Designed_replicates": 6,
+        "Effective_n_current_share": 4,
+        "Effective_n_previous_ratio": 4,
+        "Registration_review_flagged_n": 3
+      },
+      {
+        "Genotype": "Q1",
+        "Interval": "T1-T2",
+        "Designed_replicates": 6,
+        "Effective_n_current_share": 3,
+        "Effective_n_previous_ratio": 3,
+        "Registration_review_flagged_n": 3
+      },
+      {
+        "Genotype": "Q1",
+        "Interval": "T2-T3",
+        "Designed_replicates": 6,
+        "Effective_n_current_share": 2,
+        "Effective_n_previous_ratio": 2,
+        "Registration_review_flagged_n": 2
+      },
+      {
+        "Genotype": "Q1",
+        "Interval": "T3-T4",
+        "Designed_replicates": 6,
+        "Effective_n_current_share": 3,
+        "Effective_n_previous_ratio": 3,
+        "Registration_review_flagged_n": 2
+      }
+    ]
+  }
+}
