@@ -1,0 +1,9 @@
+{
+  "binary_images_complete": 63,
+  "binary_images_expected": 66,
+  "source_images_unrestored": 3,
+  "temporal_units_complete": 17,
+  "temporal_units_expected": 18,
+  "physical_calibration_confirmed": false,
+  "temporal_inference_complete_for_available_sources": true
+}

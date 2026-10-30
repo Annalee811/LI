@@ -1,0 +1,13 @@
+{
+  "validated": true,
+  "binary_images": 63,
+  "temporal_units": 17,
+  "temporal_class_maps": 114,
+  "foreground_preserved": true,
+  "nonoverlapping_temporal_bands": true,
+  "rate_sums_equal_100": true,
+  "means_are_unweighted_observation_means": true,
+  "missing_dates_not_imputed": true,
+  "physical_calibration_confirmed": false,
+  "independent_field_accuracy_evaluation": false
+}
