@@ -39,7 +39,7 @@
 
 已完成输出属于模型估计，不是新样本经独立人工验证的准确率。沿用现有冻结配准；review_required标记保留，Q1-1-Z2的T2–T3连接仍需复核，不能将候选定位当作独立配准真值。
 
-predictions/binary提供实际二元掩膜、骨架和RGB预览；predictions/temporal提供原始时序类别图、优化类别图及RGB叠加预览。详细中间张量和运行日志不纳入数据包。validation.json记录结果一致性检查，SHA256SUMS.txt校验本包文件，model_and_method_SHA256.json记录模型与方法来源。因当前原始图像不全且物理标定待确认，本包不能表述为18个完整四期序列的最终毫米根长结果。
+Three_genotype_root_length_temporal_results.zip提供全部表格、实际二元掩膜、骨架、修正前后的时序类别图及校验记录。彩色叠加预览分别放在Root_binary_RGB_previews.zip和Root_temporal_RGB_previews.zip中，每个ZIP都可独立解压。详细中间张量和运行日志不纳入数据包。validation.json记录结果一致性检查，SHA256SUMS.txt校验本包文件，model_and_method_SHA256.json记录模型与方法来源。因当前原始图像不全且物理标定待确认，本包不能表述为18个完整四期序列的最终毫米根长结果。
 
 ## 方法复核与继续计算
 
