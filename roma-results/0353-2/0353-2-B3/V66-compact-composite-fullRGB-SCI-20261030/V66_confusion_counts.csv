@@ -1,0 +1,10 @@
+﻿Model,Reference_class,Persistent,New,Extension,Missed
+U-Net,Persistent,369149,7389,4114,0
+U-Net,New,6097,67218,5464,0
+U-Net,Extension,933,4442,3397,0
+DeepLabV3+,Persistent,299079,12981,1441,67151
+DeepLabV3+,New,6058,51019,4761,16941
+DeepLabV3+,Extension,1042,4363,1543,1824
+SegFormer-B0,Persistent,287826,9143,840,82843
+SegFormer-B0,New,6831,53599,2351,15998
+SegFormer-B0,Extension,1831,3444,1609,1888
