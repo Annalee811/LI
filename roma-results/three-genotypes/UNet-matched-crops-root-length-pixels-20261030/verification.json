@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "model": "V35 U-Net",
+  "selected_epoch": 77,
+  "checkpoint_SHA256": "e01c745f2106490dd5346f0903060cdc6ec40247521f39885a4dc87fa2a3c43e",
+  "measurement_scope": "matched cropped registered fields only",
+  "physical_conversion": false,
+  "temporal_classification": false,
+  "observed_frames": 66,
+  "processed_frames": 63,
+  "planned_cells": 72,
+  "missing_not_observed": 6,
+  "source_unavailable": 3,
+  "genotypes": [
+    "0353",
+    "A017",
+    "Q1"
+  ],
+  "replicates_per_genotype": 6,
+  "full_precision_means": [
+    {
+      "种质": "0353",
+      "T1_平均根长_px": 18483.990692706644,
+      "T2_平均根长_px": 25161.368068283937,
+      "T3_平均根长_px": 26425.798514811933,
+      "T4_平均根长_px": 21786.283053531715
+    },
+    {
+      "种质": "A017",
+      "T1_平均根长_px": 13058.182592014748,
+      "T2_平均根长_px": 15208.340213698166,
+      "T3_平均根长_px": 13554.724270008275,
+      "T4_平均根长_px": 9013.009121082663
+    },
+    {
+      "种质": "Q1",
+      "T1_平均根长_px": 21219.57050539099,
+      "T2_平均根长_px": 56967.81054243804,
+      "T3_平均根长_px": 21368.077331180575,
+      "T4_平均根长_px": 58874.3894989805
+    }
+  ],
+  "effective_replicates": [
+    {
+      "种质": "0353",
+      "设计重复数": 6,
+      "T1_有效重复数": 6,
+      "T2_有效重复数": 6,
+      "T3_有效重复数": 6,
+      "T4_有效重复数": 6
+    },
+    {
+      "种质": "A017",
+      "设计重复数": 6,
+      "T1_有效重复数": 6,
+      "T2_有效重复数": 6,
+      "T3_有效重复数": 4,
+      "T4_有效重复数": 6
+    },
+    {
+      "种质": "Q1",
+      "设计重复数": 6,
+      "T1_有效重复数": 5,
+      "T2_有效重复数": 3,
+      "T3_有效重复数": 4,
+      "T4_有效重复数": 5
+    }
+  ],
+  "all_original_input_registered_sha256_verified": true,
+  "binary_and_skeleton_sha256_verified": true,
+  "root_lengths_independently_recomputed_with_original_measurement_function": true,
+  "root_length_unit_sanity_checks_passed": true
+}
