@@ -1,0 +1,9 @@
+﻿Tube_ID,Material,Observation_units,Planned_observation_units,Available_frames,Available_adjacent_pairs
+0353-1,0353,0353-1-B3,1,4,3
+0353-2,0353,0353-2-B3;0353-2-LB2;0353-2-LB3,3,12,9
+0353-3,0353,0353-3-LB2;0353-3-LB3,2,8,6
+A017-1,A017,A017-1-B2;A017-1-Z2,2,6,2
+A017-2,A017,A017-2-2;A017-2-3,2,8,6
+A017-3,A017,A017-3-B3;A017-3-Z2,2,8,6
+Q1-1,Q1,Q1-1-B2;Q1-1-Z2;Q1-1-Z3,3,10,6
+Q1-2,Q1,Q1-2-B3;Q1-2-Z2;Q1-2-Z3,3,7,2

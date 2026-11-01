@@ -1,0 +1,9 @@
+Values are means ± sample SD across available observation fields. nL indicates the number of available length observations; nI indicates the number of real adjacent-period pairs. The 18 observation fields belong to 8 source tubes and are not assumed to be independent biological replicates.
+
+Root length is measured in 10³ native registered pixels, with artificial stitching seams excluded. Physical calibration has not been confirmed; these values are not millimetres or whole-tube root-system lengths. Field area and sampling scale differ among sequences.
+
+For T2, T3 and T4, temporal quantities refer to T1–T2, T2–T3 and T3–T4, respectively. Persistent, new and extension shares are each current-class skeleton length divided by current total skeleton length ×100%. E/Lprev is current extension-class skeleton length divided by previous total skeleton length ×100%; it is an interval ratio, not a time-normalized elongation rate.
+
+Length means use all available observations in each period; temporal means use only valid adjacent pairs. These supports may differ. Missing observations and unavailable source files remain NA. Cross-gap comparisons are excluded. T1 is a baseline and has no three-class temporal percentages.
+
+All results are frozen-model estimates on matched fields: existing U-Net binary segmentation followed by the existing U-Net temporal head. Registration review flags are retained. No new training, physical conversion, independent accuracy claim or significance test is introduced. Rounding may cause displayed class percentages to differ slightly from 100%.

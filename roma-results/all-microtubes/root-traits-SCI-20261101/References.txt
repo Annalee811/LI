@@ -1,0 +1,7 @@
+[1] Johnson MG, Tingey DT, Phillips DL, Storm MJ. Advancing fine root research with minirhizotrons. Environmental and Experimental Botany. 2001;45(3):263–289. https://doi.org/10.1016/S0098-8472(01)00077-6
+
+[2] Freschet GT, Pagès L, Iversen CM, et al. A starting guide to root ecology: strengthening ecological concepts and standardising root classification, sampling, processing and trait measurements. New Phytologist. 2021;232(3):973–1122. https://doi.org/10.1111/nph.17572
+
+[3] Smith AG, Han E, Petersen J, et al. RootPainter: deep learning segmentation of biological images with corrective annotation. New Phytologist. 2022;236(2):774–791. https://doi.org/10.1111/nph.18387
+
+[4] Yasrab R, Atkinson JA, Wells DM, French AP, Pridmore TP, Pound MP. RootNav 2.0: Deep learning for automatic navigation of complex plant root architectures. GigaScience. 2019;8(11):giz123. https://doi.org/10.1093/gigascience/giz123
