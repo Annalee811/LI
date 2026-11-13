@@ -1,0 +1,68 @@
+{
+  "macro_bar_values": [
+    71.32,
+    88.18
+  ],
+  "difference_pp": 16.86,
+  "zero_baseline": true,
+  "class_values": "Retained user-provided display values, not verified archived metrics",
+  "all_16_local_crops_and_12_overlays_hash_verified": true,
+  "all_text_black_within_page": true,
+  "fonts": [
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+  ],
+  "metric_values_recomputed_or_validated": false,
+  "exports": {
+    "V66_V90_three_classes_with_Macro_Dice_SCI.jpg": {
+      "pixels": [
+        5196,
+        4724
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "V66_V90_three_classes_with_Macro_Dice_SCI.png": {
+      "pixels": [
+        5196,
+        4724
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "V66_V90_three_classes_with_Macro_Dice_SCI.tiff": {
+      "pixels": [
+        5196,
+        4724
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "V66_V90_Macro_Dice_only.jpg": {
+      "pixels": [
+        2031,
+        1771
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "V66_V90_Macro_Dice_only.png": {
+      "pixels": [
+        2031,
+        1771
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  }
+}
