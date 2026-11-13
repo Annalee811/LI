@@ -1,0 +1,43 @@
+{
+  "edit_verified": "Reviewed elongating IoU point and label = 70.23%",
+  "other_values": "Retained from user-supplied figure, not recomputed",
+  "metric_consistency_validated": false,
+  "all_local_crop_arrays_unchanged": true,
+  "fonts": [
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+  ],
+  "all_text_black_and_within_page": true,
+  "exports": {
+    "png": {
+      "pixels": [
+        5196,
+        4724
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "jpg": {
+      "pixels": [
+        5196,
+        4724
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "tiff": {
+      "pixels": [
+        5196,
+        4724
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    }
+  }
+}
