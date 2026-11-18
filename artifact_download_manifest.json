@@ -1,0 +1,193 @@
+{
+  "artifact_commit": "14a79d0f39809861e1ca50678cc9a3da64ecfdfb",
+  "positions": 18,
+  "frames": 66,
+  "files": [
+    {
+      "file": "All_18_sequences_status.csv",
+      "bytes": 2287,
+      "sha256": "4821f2ee23dfb22f3d680e396aaa291879490fda04922086b79defa2e1447702",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/All_18_sequences_status.csv"
+    },
+    {
+      "file": "All_66_frames_status.csv",
+      "bytes": 17640,
+      "sha256": "98ff91a6afec6293abb3726917ba4bedc1ef1bda684c5ee42252c7ac6789a662",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/All_66_frames_status.csv"
+    },
+    {
+      "file": "All_positions_temporal_RGB_preview.pdf",
+      "bytes": 48096404,
+      "sha256": "1111ca4cd7dee2658b0f6a14f8169140695cc3ebe9da2ded0a446afa08f216a2",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/All_positions_temporal_RGB_preview.pdf"
+    },
+    {
+      "file": "B3_V90_automatic_outputs.zip",
+      "bytes": 19527514,
+      "sha256": "119ac07daaae6249f467b7b664f9a94c7b8d8b5957725e73ab14b8f89b844ad2",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/B3_V90_automatic_outputs.zip"
+    },
+    {
+      "file": "B3_adapter_agreement.json",
+      "bytes": 3668,
+      "sha256": "0ae6065ef5788954a285aa04192413ec858402599ac71c171d55f5c408da112d",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/B3_adapter_agreement.json"
+    },
+    {
+      "file": "Input_adapter_audit.json",
+      "bytes": 829,
+      "sha256": "d998b5f1288967c87faec488d3b4f82be5d87110de6fff3e6abf8aa1b8d4370e",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/Input_adapter_audit.json"
+    },
+    {
+      "file": "MODEL_README.md",
+      "bytes": 3771,
+      "sha256": "193fb72795ab12c0b55fbcf00cdba201d44bea62f9c326d6cbff785681021d6e",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/MODEL_README.md"
+    },
+    {
+      "file": "Output_integrity_verification.json",
+      "bytes": 28683,
+      "sha256": "be718e0280dc78817f5fc2458f93a6f927bc3dcd8de26a37366c6c8e8680ad81",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/Output_integrity_verification.json"
+    },
+    {
+      "file": "Training_data_and_source_index.md",
+      "bytes": 1102,
+      "sha256": "a7ff55bdfe30b25fed8591416efc0486d16514b22caa2f255357eb17a55069b6",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/Training_data_and_source_index.md"
+    },
+    {
+      "file": "V90_batch_scripts_and_logs.zip",
+      "bytes": 39424,
+      "sha256": "30208341531319cee0063ab59db9797db462889b4de4e7517a2001a4c3f188d2",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_batch_scripts_and_logs.zip"
+    },
+    {
+      "file": "V90_candidate_0353-1-B3.zip",
+      "bytes": 30079020,
+      "sha256": "753593ea10c5e55f840b561aded0df44040241e071db8218d88bcc0f18d2d634",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_0353-1-B3.zip"
+    },
+    {
+      "file": "V90_candidate_0353-2-B3.zip",
+      "bytes": 39742595,
+      "sha256": "29ce13b3b385c80e2f5621708781c737ba11519f000e5454633568c7bb6f1453",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_0353-2-B3.zip"
+    },
+    {
+      "file": "V90_candidate_0353-2-LB2.zip",
+      "bytes": 59896892,
+      "sha256": "ccd7fbccac09325adcad53b5eebf8ba8f2108a6ef4b7a7de31fa24fdab3831e2",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_0353-2-LB2.zip"
+    },
+    {
+      "file": "V90_candidate_0353-2-LB3.zip",
+      "bytes": 61967368,
+      "sha256": "9ce7c88e5ef8f03adbd6fcb97a33c90415c1a2292e11eba0a81d2bed23a1181f",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_0353-2-LB3.zip"
+    },
+    {
+      "file": "V90_candidate_0353-3-LB2.zip",
+      "bytes": 25498024,
+      "sha256": "f6d5be7aa03a7a50f69b386c2c944146ef7ace1418c8e47528dda03c8532c064",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_0353-3-LB2.zip"
+    },
+    {
+      "file": "V90_candidate_0353-3-LB3.zip",
+      "bytes": 50061473,
+      "sha256": "454f338ff9aaed67ca31ee957e62adf2059eeec1e3eefda40305262728606ea6",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_0353-3-LB3.zip"
+    },
+    {
+      "file": "V90_candidate_A017-1-B2.zip",
+      "bytes": 42000765,
+      "sha256": "7d413d8abf5f17198bd6f548629e282e57f13ab4773ea1e1552919e6ce0b411a",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_A017-1-B2.zip"
+    },
+    {
+      "file": "V90_candidate_A017-1-Z2.zip",
+      "bytes": 13065514,
+      "sha256": "cdf01f8e69cef427c9cf75060d09c63ad184bc7e0b538fb6f53ef295b5f0d96e",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_A017-1-Z2.zip"
+    },
+    {
+      "file": "V90_candidate_A017-2-2.zip",
+      "bytes": 40709112,
+      "sha256": "c9f44837f3fd55ab3db95493b82bd0a4287c54fea147461e192859bd7f7a97c6",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_A017-2-2.zip"
+    },
+    {
+      "file": "V90_candidate_A017-2-3.zip",
+      "bytes": 46770504,
+      "sha256": "8ded76af2b0d70b909d35baea70f5f3f6f60553ef7c71004f4b17089f9205592",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_A017-2-3.zip"
+    },
+    {
+      "file": "V90_candidate_A017-3-B3.zip",
+      "bytes": 55799255,
+      "sha256": "70160c2da18a41a42d293ac76a46b80f49467475fbb860375adbb6afa25dabaa",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_A017-3-B3.zip"
+    },
+    {
+      "file": "V90_candidate_A017-3-Z2.zip",
+      "bytes": 58881518,
+      "sha256": "78032173d721eae6454311354d7855ee864e5176950ebf0321405bef1d27788c",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_A017-3-Z2.zip"
+    },
+    {
+      "file": "V90_candidate_Q1-1-B2.zip",
+      "bytes": 15072019,
+      "sha256": "bf9c019ae691d3563d8590a036fa3d66c4787a833a9ad49be71bbc96cc256389",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_Q1-1-B2.zip"
+    },
+    {
+      "file": "V90_candidate_Q1-1-Z2.zip",
+      "bytes": 23537513,
+      "sha256": "4ddb870a4fcb64f160dde0f1075c46e77d229f5711229d50f9548235a7eee076",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_Q1-1-Z2.zip"
+    },
+    {
+      "file": "V90_candidate_Q1-1-Z3.zip",
+      "bytes": 35285401,
+      "sha256": "82cc3145f0b3158dec3d1272c2cb748c1d6c77f9a1f90b022d53dd9c7ae86fc4",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_Q1-1-Z3.zip"
+    },
+    {
+      "file": "V90_candidate_Q1-2-B3.zip",
+      "bytes": 64238818,
+      "sha256": "65c5139855333097cbfd1fc5b8e3204d9dd5b6d9db695e29d9c1dd4c4b48f3d2",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_Q1-2-B3.zip"
+    },
+    {
+      "file": "V90_candidate_Q1-2-Z2.zip",
+      "bytes": 49200424,
+      "sha256": "3daf7c263713a23e9ef3efae9817ac5d0d81464ea5952e8d37dbeeeaa2943aec",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_Q1-2-Z2.zip"
+    },
+    {
+      "file": "V90_candidate_Q1-2-Z3.zip",
+      "bytes": 58310890,
+      "sha256": "7702f48e245a279cbf4b60c977f2f99600373d1a8d6c9b03ff836eb3cb52283e",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_candidate_Q1-2-Z3.zip"
+    },
+    {
+      "file": "V90_prediction_index_and_validation.xlsx",
+      "bytes": 21516,
+      "sha256": "74b5470254c697d97504a1216a7c7db00f5d37b1b17a328641f73c17edeb5fad",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_prediction_index_and_validation.xlsx"
+    },
+    {
+      "file": "V90_transfer_candidate_model.zip",
+      "bytes": 47273810,
+      "sha256": "0ccdb12668ebd183d41ecf3ddb6b237e8086aee8ec98b23d18f870c3ac325978",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/V90_transfer_candidate_model.zip"
+    },
+    {
+      "file": "position_archives_manifest.json",
+      "bytes": 5706,
+      "sha256": "7ff16d169f88aa1ae57979d571587d7d1b5aa49a838b181e01d2b47f97e38881",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/14a79d0f39809861e1ca50678cc9a3da64ecfdfb/position_archives_manifest.json"
+    }
+  ]
+}
