@@ -1,0 +1,33 @@
+{
+  "source_commit": "8b4fdb81b5938720e263d802426745c982c4479c",
+  "observation_sequences": 18,
+  "source_tubes": 8,
+  "possible_period_cells": 72,
+  "available_segmented_frames": 63,
+  "binary_frames_by_material": {
+    "0353": 24,
+    "A017": 22,
+    "Q1": 17
+  },
+  "temporal_frames": 63,
+  "valid_adjacent_pairs": 40,
+  "missing_period_or_source_cells": 9,
+  "missing_acquisitions": 6,
+  "unavailable_sources": 3,
+  "image_files": 441,
+  "image_counts": {
+    "V35_binary/0353": 96,
+    "V35_binary/A017": 88,
+    "V35_binary/Q1": 68,
+    "V66_temporal/0353": 72,
+    "V66_temporal/A017": 66,
+    "V66_temporal/Q1": 51
+  },
+  "all_frame_sets_match_frozen_Excel": true,
+  "all_temporal_foreground_equals_binary_mask": true,
+  "all_archived_member_bytes_unchanged": true,
+  "images_reencoded": false,
+  "new_training_inference_registration": false,
+  "models": "V35 U-Net epoch77 binary; V66 U-Net temporal head epoch37",
+  "not_V90": true
+}

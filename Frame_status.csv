@@ -1,0 +1,73 @@
+﻿position,period,source_status,adjacent_status,registration_review,image_available
+0353-1-B3,T1,完成,Baseline,False,True
+0353-1-B3,T2,完成,Available adjacent interval,False,True
+0353-1-B3,T3,完成,Available adjacent interval,False,True
+0353-1-B3,T4,完成,Available adjacent interval,False,True
+0353-2-B3,T1,完成,Baseline,False,True
+0353-2-B3,T2,完成,Available adjacent interval,False,True
+0353-2-B3,T3,完成,Available adjacent interval,False,True
+0353-2-B3,T4,完成,Available adjacent interval,False,True
+0353-2-LB2,T1,完成,Baseline,True,True
+0353-2-LB2,T2,完成,Available adjacent interval,True,True
+0353-2-LB2,T3,完成,Available adjacent interval,True,True
+0353-2-LB2,T4,完成,Available adjacent interval,True,True
+0353-2-LB3,T1,完成,Baseline,False,True
+0353-2-LB3,T2,完成,Available adjacent interval,False,True
+0353-2-LB3,T3,完成,Available adjacent interval,False,True
+0353-2-LB3,T4,完成,Available adjacent interval,False,True
+0353-3-LB2,T1,完成,Baseline,False,True
+0353-3-LB2,T2,完成,Available adjacent interval,False,True
+0353-3-LB2,T3,完成,Available adjacent interval,False,True
+0353-3-LB2,T4,完成,Available adjacent interval,False,True
+0353-3-LB3,T1,完成,Baseline,True,True
+0353-3-LB3,T2,完成,Available adjacent interval,True,True
+0353-3-LB3,T3,完成,Available adjacent interval,True,True
+0353-3-LB3,T4,完成,Available adjacent interval,True,True
+A017-1-B2,T1,完成,Baseline,False,True
+A017-1-B2,T2,完成,Available adjacent interval,False,True
+A017-1-B2,T3,该期图像缺失,T3: Not observed,False,False
+A017-1-B2,T4,完成,T3: Not observed,False,True
+A017-1-Z2,T1,完成,Baseline,False,True
+A017-1-Z2,T2,完成,Available adjacent interval,False,True
+A017-1-Z2,T3,该期图像缺失,T3: Not observed,False,False
+A017-1-Z2,T4,完成,T3: Not observed,False,True
+A017-2-2,T1,完成,Baseline,True,True
+A017-2-2,T2,完成,Available adjacent interval,True,True
+A017-2-2,T3,完成,Available adjacent interval,True,True
+A017-2-2,T4,完成,Available adjacent interval,True,True
+A017-2-3,T1,完成,Baseline,False,True
+A017-2-3,T2,完成,Available adjacent interval,False,True
+A017-2-3,T3,完成,Available adjacent interval,False,True
+A017-2-3,T4,完成,Available adjacent interval,False,True
+A017-3-B3,T1,完成,Baseline,True,True
+A017-3-B3,T2,完成,Available adjacent interval,True,True
+A017-3-B3,T3,完成,Available adjacent interval,True,True
+A017-3-B3,T4,完成,Available adjacent interval,True,True
+A017-3-Z2,T1,完成,Baseline,True,True
+A017-3-Z2,T2,完成,Available adjacent interval,True,True
+A017-3-Z2,T3,完成,Available adjacent interval,True,True
+A017-3-Z2,T4,完成,Available adjacent interval,True,True
+Q1-1-B2,T1,完成,Baseline,False,True
+Q1-1-B2,T2,该期图像缺失,T2: Not observed,False,False
+Q1-1-B2,T3,完成,T2: Not observed,False,True
+Q1-1-B2,T4,完成,Available adjacent interval,False,True
+Q1-1-Z2,T1,完成,Baseline,True,True
+Q1-1-Z2,T2,完成,Available adjacent interval,True,True
+Q1-1-Z2,T3,完成,Available adjacent interval,True,True
+Q1-1-Z2,T4,完成,Available adjacent interval,True,True
+Q1-1-Z3,T1,完成,Baseline,True,True
+Q1-1-Z3,T2,完成,Available adjacent interval,True,True
+Q1-1-Z3,T3,完成,Available adjacent interval,True,True
+Q1-1-Z3,T4,该期图像缺失,T4: Not observed,True,False
+Q1-2-B3,T1,源文件不可用,Baseline,False,False
+Q1-2-B3,T2,源文件不可用,T1: Source unavailable; T2: Source unavailable,False,False
+Q1-2-B3,T3,源文件不可用,T2: Source unavailable; T3: Source unavailable,False,False
+Q1-2-B3,T4,完成,T3: Source unavailable,False,True
+Q1-2-Z2,T1,完成,Baseline,True,True
+Q1-2-Z2,T2,该期图像缺失,T2: Not observed,True,False
+Q1-2-Z2,T3,完成,T2: Not observed,True,True
+Q1-2-Z2,T4,完成,Available adjacent interval,True,True
+Q1-2-Z3,T1,完成,Baseline,True,True
+Q1-2-Z3,T2,完成,Available adjacent interval,True,True
+Q1-2-Z3,T3,该期图像缺失,T3: Not observed,True,False
+Q1-2-Z3,T4,完成,T3: Not observed,True,True
