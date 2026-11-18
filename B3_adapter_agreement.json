@@ -1,0 +1,161 @@
+{
+  "V66": {
+    "classes": [
+      {
+        "class_id": 1,
+        "Dice": 0.9755123666974529,
+        "IoU": 0.9521953559876394,
+        "Precision": 0.9813120881282581,
+        "Recall": 0.9697807971585595
+      },
+      {
+        "class_id": 2,
+        "Dice": 0.8517880224041362,
+        "IoU": 0.7418386491557223,
+        "Precision": 0.8503333375501272,
+        "Recall": 0.853247692913086
+      },
+      {
+        "class_id": 3,
+        "Dice": 0.31241090725157494,
+        "IoU": 0.18512261580381473,
+        "Precision": 0.2618111753371869,
+        "Recall": 0.3872549019607843
+      }
+    ],
+    "macro_Dice": 0.713237098784388,
+    "scope": "B3 reference-B agreement, manual annotation used for evaluation only; not independent cross-tube accuracy",
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        369149,
+        7389,
+        4114
+      ],
+      [
+        0,
+        6097,
+        67218,
+        5464
+      ],
+      [
+        0,
+        933,
+        4442,
+        3397
+      ]
+    ]
+  },
+  "V90_automatic": {
+    "classes": [
+      {
+        "class_id": 1,
+        "Dice": 0.9817217650814042,
+        "IoU": 0.9640997238440295,
+        "Precision": 0.9757487524037152,
+        "Recall": 0.9877683553481921
+      },
+      {
+        "class_id": 2,
+        "Dice": 0.892259028675973,
+        "IoU": 0.8054762365695479,
+        "Precision": 0.9450738216922203,
+        "Recall": 0.8450348443113013
+      },
+      {
+        "class_id": 3,
+        "Dice": 0.4984429555534585,
+        "IoU": 0.3319507290095525,
+        "Precision": 0.4252133311866044,
+        "Recall": 0.6021431828545372
+      }
+    ],
+    "macro_Dice": 0.7908079164369451,
+    "scope": "B3 reference-B agreement, manual annotation used for evaluation only; not independent cross-tube accuracy",
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        375996,
+        2301,
+        2355
+      ],
+      [
+        0,
+        7423,
+        66571,
+        4785
+      ],
+      [
+        0,
+        1922,
+        1568,
+        5282
+      ]
+    ]
+  },
+  "V90_transfer_candidate": {
+    "classes": [
+      {
+        "class_id": 1,
+        "Dice": 0.9799313323154524,
+        "IoU": 0.9606523201421302,
+        "Precision": 0.9768945189099435,
+        "Recall": 0.9829870853167723
+      },
+      {
+        "class_id": 2,
+        "Dice": 0.8834825267115024,
+        "IoU": 0.7912841024416453,
+        "Precision": 0.930161403508772,
+        "Recall": 0.8412648040721512
+      },
+      {
+        "class_id": 3,
+        "Dice": 0.43006299836997225,
+        "IoU": 0.2739364687394769,
+        "Precision": 0.3504703094708121,
+        "Recall": 0.5564295485636115
+      }
+    ],
+    "macro_Dice": 0.7644922857989758,
+    "scope": "B3 reference-B agreement, manual annotation used for evaluation only; not independent cross-tube accuracy",
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        374176,
+        2642,
+        3834
+      ],
+      [
+        0,
+        7293,
+        66274,
+        5212
+      ],
+      [
+        0,
+        1557,
+        2334,
+        4881
+      ]
+    ]
+  }
+}

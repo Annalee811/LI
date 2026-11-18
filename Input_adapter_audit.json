@@ -1,0 +1,22 @@
+{
+  "scope": "V90 deployment adapter audit",
+  "verified_registered_inputs": 66,
+  "active_positions": 18,
+  "current_tubes": 8,
+  "original_checkpoint_unchanged": true,
+  "original_B3_inference_replayed": true,
+  "B3_frame_tensor_exactly_recreated": true,
+  "B3_V66_initial_maps_exactly_recreated": true,
+  "original_graph_nodes": 17116,
+  "reconstructed_B3_graph_nodes": 16941,
+  "exact_historical_graph_adapter": false,
+  "remaining_method_departures": [
+    "Node partition and graph neighbors reconstructed",
+    "One degree cue approximated",
+    "Unreleased original dense local prepass omitted"
+  ],
+  "external_manual_truth_available": false,
+  "output_status": "Experimental transfer candidates; export in progress",
+  "re_registration_performed": false,
+  "manual_annotation_role": "Evaluation ground truth only"
+}
