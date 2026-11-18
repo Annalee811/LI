@@ -24,7 +24,7 @@
       }
     ],
     "macro_Dice": 0.713237098784388,
-    "scope": "B3 reference-B agreement, manual annotation used for evaluation only; not independent cross-tube accuracy",
+    "scope": "B3 T2\u2013T4 pooled agreement on valid typed reference-root pixels; background/untyped/ignored pixels excluded; not independent cross-tube accuracy",
     "confusion_matrix": [
       [
         0,
@@ -50,7 +50,8 @@
         4442,
         3397
       ]
-    ]
+    ],
+    "reference_annotation_SHA256": "0664587ee2e5931e318f8ad025934b64d5a95fb4ffb8854ac942da861b907636"
   },
   "V90_automatic": {
     "classes": [
@@ -77,7 +78,7 @@
       }
     ],
     "macro_Dice": 0.7908079164369451,
-    "scope": "B3 reference-B agreement, manual annotation used for evaluation only; not independent cross-tube accuracy",
+    "scope": "B3 T2\u2013T4 pooled agreement on valid typed reference-root pixels; background/untyped/ignored pixels excluded; not independent cross-tube accuracy",
     "confusion_matrix": [
       [
         0,
@@ -103,7 +104,8 @@
         1568,
         5282
       ]
-    ]
+    ],
+    "reference_annotation_SHA256": "0664587ee2e5931e318f8ad025934b64d5a95fb4ffb8854ac942da861b907636"
   },
   "V90_transfer_candidate": {
     "classes": [
@@ -130,7 +132,7 @@
       }
     ],
     "macro_Dice": 0.7644922857989758,
-    "scope": "B3 reference-B agreement, manual annotation used for evaluation only; not independent cross-tube accuracy",
+    "scope": "B3 T2\u2013T4 pooled agreement on valid typed reference-root pixels; background/untyped/ignored pixels excluded; not independent cross-tube accuracy",
     "confusion_matrix": [
       [
         0,
@@ -156,6 +158,7 @@
         2334,
         4881
       ]
-    ]
+    ],
+    "reference_annotation_SHA256": "0664587ee2e5931e318f8ad025934b64d5a95fb4ffb8854ac942da861b907636"
   }
 }

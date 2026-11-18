@@ -4,7 +4,7 @@ This package performs real inference with the original V90 ConvLSTM/GAT, learned
 
 **This is not the complete original V90 workflow and is not a validated production model.** The original dense local-correction preparation was not released. The reconstructed adapter changes the node partition/neighbors, approximates one geometric cue, and starts from V66 priors. These are material method changes. No external accuracy is claimed.
 
-On developmental B3 reference B, macro Dice: V66 71.32%; this transfer candidate 76.45%; V90 automatic output 79.08%. These are within-position, development-exposed agreements, not independent generalization estimates. Do not reuse B3 scores for other tubes.
+On developmental B3 reference B, macro Dice: V66 71.32%; this transfer candidate 76.45%; V90 automatic output 79.08%. T2–T4 metrics are pooled over valid typed reference-root pixels; background and untyped/ignored pixels are excluded. These are within-position, development-exposed agreements, not independent generalization estimates. Do not reuse B3 scores for other tubes.
 
 ## Run
 
@@ -15,6 +15,14 @@ Put registered, matched-field RGB observations in one directory as T1.png, T2.pn
 ```bash
 python predict_candidate.py --rgb-dir /path/to/registered/position --position sample-1 --output /path/to/new/output
 ```
+
+For multiple positions, each in its own directory:
+
+```bash
+python batch_predict.py --rgb-root /path/to/registered_positions --output /path/to/new_batch
+```
+
+The complete workflow uses the available observation sequence offline, including later observations in structural decoding. It is not a live single-frame predictor. Empty-foreground frames are currently rejected with a saved log; the adapter does not invent roots.
 
 The package needs no B3 cached tensors, human labels, root-ID maps or network access for prediction. All three frozen model checkpoints and inference normalization are included. Outputs are under predictions/sample-1/.
 

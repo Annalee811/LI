@@ -1,0 +1,19 @@
+﻿position_id,tube_id,periods,missing_periods,frames,status,manual_validation_status,registration_attention
+0353-1-B3,0353-1,"T1,T2,T3,T4",,4,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+Q1-1-Z2,Q1-1,"T1,T2,T3,T4",,4,V90 transfer candidate,Pending independent annotation,T2/T3 coarse/unverified
+0353-2-B3,0353-2,"T1,T2,T3,T4",,4,V90 transfer candidate,B3 developmental agreement only,See original dataset quality flag
+0353-2-LB2,0353-2,"T1,T2,T3,T4",,4,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+0353-2-LB3,0353-2,"T1,T2,T3,T4",,4,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+0353-3-LB2,0353-3,"T1,T2,T3,T4",,4,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+0353-3-LB3,0353-3,"T1,T2,T3,T4",,4,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+A017-1-B2,A017-1,"T1,T2,T4",T3,3,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+A017-1-Z2,A017-1,"T1,T2,T4",T3,3,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+A017-2-2,A017-2,"T1,T2,T3,T4",,4,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+A017-2-3,A017-2,"T1,T2,T3,T4",,4,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+A017-3-B3,A017-3,"T1,T2,T3,T4",,4,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+A017-3-Z2,A017-3,"T1,T2,T3,T4",,4,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+Q1-1-B2,Q1-1,"T1,T3,T4",T2,3,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+Q1-1-Z3,Q1-1,"T1,T2,T3",T4,3,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+Q1-2-B3,Q1-2,"T1,T2,T3,T4",,4,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+Q1-2-Z2,Q1-2,"T1,T3,T4",T2,3,V90 transfer candidate,Pending independent annotation,See original dataset quality flag
+Q1-2-Z3,Q1-2,"T1,T2,T4",T3,3,V90 transfer candidate,Pending independent annotation,See original dataset quality flag

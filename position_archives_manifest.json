@@ -1,0 +1,248 @@
+[
+  {
+    "position": "0353-1-B3",
+    "file": "V90_candidate_0353-1-B3.zip",
+    "bytes": 30079020,
+    "sha256": "753593ea10c5e55f840b561aded0df44040241e071db8218d88bcc0f18d2d634",
+    "frames": 4,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "0353-2-B3",
+    "file": "V90_candidate_0353-2-B3.zip",
+    "bytes": 39742595,
+    "sha256": "29ce13b3b385c80e2f5621708781c737ba11519f000e5454633568c7bb6f1453",
+    "frames": 4,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "0353-2-LB2",
+    "file": "V90_candidate_0353-2-LB2.zip",
+    "bytes": 59896892,
+    "sha256": "ccd7fbccac09325adcad53b5eebf8ba8f2108a6ef4b7a7de31fa24fdab3831e2",
+    "frames": 4,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "0353-2-LB3",
+    "file": "V90_candidate_0353-2-LB3.zip",
+    "bytes": 61967368,
+    "sha256": "9ce7c88e5ef8f03adbd6fcb97a33c90415c1a2292e11eba0a81d2bed23a1181f",
+    "frames": 4,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "0353-3-LB2",
+    "file": "V90_candidate_0353-3-LB2.zip",
+    "bytes": 25498024,
+    "sha256": "f6d5be7aa03a7a50f69b386c2c944146ef7ace1418c8e47528dda03c8532c064",
+    "frames": 4,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "0353-3-LB3",
+    "file": "V90_candidate_0353-3-LB3.zip",
+    "bytes": 50061473,
+    "sha256": "454f338ff9aaed67ca31ee957e62adf2059eeec1e3eefda40305262728606ea6",
+    "frames": 4,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "A017-1-B2",
+    "file": "V90_candidate_A017-1-B2.zip",
+    "bytes": 42000765,
+    "sha256": "7d413d8abf5f17198bd6f548629e282e57f13ab4773ea1e1552919e6ce0b411a",
+    "frames": 3,
+    "periods": [
+      "T1",
+      "T2",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "A017-1-Z2",
+    "file": "V90_candidate_A017-1-Z2.zip",
+    "bytes": 13065514,
+    "sha256": "cdf01f8e69cef427c9cf75060d09c63ad184bc7e0b538fb6f53ef295b5f0d96e",
+    "frames": 3,
+    "periods": [
+      "T1",
+      "T2",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "A017-2-2",
+    "file": "V90_candidate_A017-2-2.zip",
+    "bytes": 40709112,
+    "sha256": "c9f44837f3fd55ab3db95493b82bd0a4287c54fea147461e192859bd7f7a97c6",
+    "frames": 4,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "A017-2-3",
+    "file": "V90_candidate_A017-2-3.zip",
+    "bytes": 46770504,
+    "sha256": "8ded76af2b0d70b909d35baea70f5f3f6f60553ef7c71004f4b17089f9205592",
+    "frames": 4,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "A017-3-B3",
+    "file": "V90_candidate_A017-3-B3.zip",
+    "bytes": 55799255,
+    "sha256": "70160c2da18a41a42d293ac76a46b80f49467475fbb860375adbb6afa25dabaa",
+    "frames": 4,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "A017-3-Z2",
+    "file": "V90_candidate_A017-3-Z2.zip",
+    "bytes": 58881518,
+    "sha256": "78032173d721eae6454311354d7855ee864e5176950ebf0321405bef1d27788c",
+    "frames": 4,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "Q1-1-B2",
+    "file": "V90_candidate_Q1-1-B2.zip",
+    "bytes": 15072019,
+    "sha256": "bf9c019ae691d3563d8590a036fa3d66c4787a833a9ad49be71bbc96cc256389",
+    "frames": 3,
+    "periods": [
+      "T1",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "Q1-1-Z2",
+    "file": "V90_candidate_Q1-1-Z2.zip",
+    "bytes": 23537513,
+    "sha256": "4ddb870a4fcb64f160dde0f1075c46e77d229f5711229d50f9548235a7eee076",
+    "frames": 4,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "Q1-1-Z3",
+    "file": "V90_candidate_Q1-1-Z3.zip",
+    "bytes": 35285401,
+    "sha256": "82cc3145f0b3158dec3d1272c2cb748c1d6c77f9a1f90b022d53dd9c7ae86fc4",
+    "frames": 3,
+    "periods": [
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "Q1-2-B3",
+    "file": "V90_candidate_Q1-2-B3.zip",
+    "bytes": 64238818,
+    "sha256": "65c5139855333097cbfd1fc5b8e3204d9dd5b6d9db695e29d9c1dd4c4b48f3d2",
+    "frames": 4,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "Q1-2-Z2",
+    "file": "V90_candidate_Q1-2-Z2.zip",
+    "bytes": 49200424,
+    "sha256": "3daf7c263713a23e9ef3efae9817ac5d0d81464ea5952e8d37dbeeeaa2943aec",
+    "frames": 3,
+    "periods": [
+      "T1",
+      "T3",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  },
+  {
+    "position": "Q1-2-Z3",
+    "file": "V90_candidate_Q1-2-Z3.zip",
+    "bytes": 58310890,
+    "sha256": "7702f48e245a279cbf4b60c977f2f99600373d1a8d6c9b03ff836eb3cb52283e",
+    "frames": 3,
+    "periods": [
+      "T1",
+      "T2",
+      "T4"
+    ],
+    "kind": "V90 deployment transfer candidate"
+  }
+]
