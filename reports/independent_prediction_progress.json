@@ -1,0 +1,77 @@
+[
+  {
+    "variant": "full",
+    "seed": 20261123,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "no_lstm",
+    "seed": 20261123,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "no_gat",
+    "seed": 20261123,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "no_gates",
+    "seed": 20261123,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "current_only",
+    "seed": 20261123,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "full",
+    "seed": 20261124,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "no_lstm",
+    "seed": 20261124,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "no_gat",
+    "seed": 20261124,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "no_gates",
+    "seed": 20261124,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "current_only",
+    "seed": 20261124,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "full",
+    "seed": 20261125,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "no_lstm",
+    "seed": 20261125,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "no_gat",
+    "seed": 20261125,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "no_gates",
+    "seed": 20261125,
+    "status": "predicted_no_GT_scores"
+  },
+  {
+    "variant": "current_only",
+    "seed": 20261125,
+    "status": "predicted_no_GT_scores"
+  }
+]

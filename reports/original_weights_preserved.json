@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "weights_SHA256": {
+    "weights/V90_joint_best.pt": "721e6c55e9522dfab54912bc70eee64e2460f364f7fbfba9c88e4996ad0d152a",
+    "upstream/03_temporal_V66/assets/weights/unet/best_temporal_head.pt": "794948f4a77075249678095546348d26fb359780669727643724ebca96a3001b",
+    "upstream/02_root_background/assets/weights/unet/best_model.pt": "2294f0002da52fc1636b01bed50e527015b597c0a7506c1eb7e38cd99635bd21"
+  }
+}

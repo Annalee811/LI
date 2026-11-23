@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "trained_current_frame_classifier_history_perturbation_max_logit_difference": 0.0,
+  "train_test_frame_isolation_already_verified": true,
+  "unannotated_GT_templates_rejected": true,
+  "no_fake_independent_scores_produced": true
+}

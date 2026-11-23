@@ -1,0 +1,22 @@
+{
+  "full": {
+    "train_embedding_max_difference_after_other_partition_perturbation": 0.0,
+    "passed": true
+  },
+  "no_lstm": {
+    "train_embedding_max_difference_after_other_partition_perturbation": 0.0,
+    "passed": true
+  },
+  "no_gat": {
+    "train_embedding_max_difference_after_other_partition_perturbation": 0.0,
+    "passed": true
+  },
+  "no_gates": {
+    "train_embedding_max_difference_after_other_partition_perturbation": 0.0,
+    "passed": true
+  },
+  "current_only": {
+    "train_embedding_max_difference_after_other_partition_perturbation": 0.0,
+    "passed": true
+  }
+}

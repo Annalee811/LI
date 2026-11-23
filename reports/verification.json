@@ -1,0 +1,133 @@
+{
+  "passed": true,
+  "formal_runs": 15,
+  "updates_per_run": 100,
+  "total_training_updates": 1500,
+  "independent_prediction_masks": 390,
+  "independent_tubes": 3,
+  "independent_frames": 26,
+  "external_accuracy_evaluated": false,
+  "independent_status": "NOT_EVALUATED_NO_HUMAN_GT",
+  "checks": [
+    {
+      "variant": "full",
+      "seed": 20261123,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "628207577839e6dd797d97f97460f3a0f2dc79da866047655ebeb26dde1f3b20"
+    },
+    {
+      "variant": "full",
+      "seed": 20261124,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "516eca84d827cb8f8187c9a124150e4b676b8e99039cb58cf7e3d41cc3015ed0"
+    },
+    {
+      "variant": "full",
+      "seed": 20261125,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "cd51b6bccbad90c35a34c0d8513027d4e2d3ff20a95aec9dd4b405dba12d253e"
+    },
+    {
+      "variant": "no_lstm",
+      "seed": 20261123,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "ddd38f56ffb34d329d1b3f39ba15829db5c3b88069318bd854fc438871288700"
+    },
+    {
+      "variant": "no_lstm",
+      "seed": 20261124,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "6dbb9002b5bdc566ae943b3392acca9d4edee91f592fa8f7c540038a1b96ee71"
+    },
+    {
+      "variant": "no_lstm",
+      "seed": 20261125,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "87be9ad8d0b5ddfc1cca4a3c98e17fed58a4b8d865d39ba836d6e3af24fbe9ad"
+    },
+    {
+      "variant": "no_gat",
+      "seed": 20261123,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "5e4d6b8622f8245b1e0726b28c863af2c737880ec3a43e672d698506d63dc565"
+    },
+    {
+      "variant": "no_gat",
+      "seed": 20261124,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "f92e394b23c97b98f6bd00957a8234b2eb01b7370aacc3ce45c8574ac8374df6"
+    },
+    {
+      "variant": "no_gat",
+      "seed": 20261125,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "3b68975286fb5b0f45ea8522e949951a105419165ae2f07d3e7da2307171bc4e"
+    },
+    {
+      "variant": "no_gates",
+      "seed": 20261123,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "daa89555261cc8f9d7392d485914d5b2cda1074f6243534a634cdb59a22695c7"
+    },
+    {
+      "variant": "no_gates",
+      "seed": 20261124,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "c8ab3ccc3b90abb72b3b4d9130c34bec4372dd1dfbcf132409958c6bb5da57e7"
+    },
+    {
+      "variant": "no_gates",
+      "seed": 20261125,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "6308fe2924c40776764906b025fbec513a5bb6a453eea544b7f84980c01233bf"
+    },
+    {
+      "variant": "current_only",
+      "seed": 20261123,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "6fa0e09d8dd18cab5035d9635689b44c910227409a7828bfea8318bd9b4d6dea"
+    },
+    {
+      "variant": "current_only",
+      "seed": 20261124,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "8fc07bb5d4ba13d6459ff48c88bb394325f6f73e1b8f065bcb86f398ae722ce2"
+    },
+    {
+      "variant": "current_only",
+      "seed": 20261125,
+      "epochs": 100,
+      "validation_checkpoint_selection_verified": true,
+      "finite_neural_outputs": true,
+      "best_checkpoint_SHA256": "e1ba518efeb68e00fe0fb86f880c55a164f900a6cfcabc7196ef76da0a94b3cb"
+    }
+  ]
+}

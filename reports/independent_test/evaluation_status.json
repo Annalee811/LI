@@ -1,0 +1,137 @@
+{
+  "status": "NOT_EVALUATED_NO_HUMAN_GT",
+  "metrics": null,
+  "expected_frames": 26,
+  "missing_GT": [
+    {
+      "position": "0353-3-LB2",
+      "period": "T1",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "0353-3-LB2",
+      "period": "T2",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "0353-3-LB2",
+      "period": "T3",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "0353-3-LB2",
+      "period": "T4",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "0353-3-LB3",
+      "period": "T1",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "0353-3-LB3",
+      "period": "T2",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "0353-3-LB3",
+      "period": "T3",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "0353-3-LB3",
+      "period": "T4",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "A017-3-B3",
+      "period": "T1",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "A017-3-B3",
+      "period": "T2",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "A017-3-B3",
+      "period": "T3",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "A017-3-B3",
+      "period": "T4",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "A017-3-Z2",
+      "period": "T1",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "A017-3-Z2",
+      "period": "T2",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "A017-3-Z2",
+      "period": "T3",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "A017-3-Z2",
+      "period": "T4",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "Q1-2-B3",
+      "period": "T1",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "Q1-2-B3",
+      "period": "T2",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "Q1-2-B3",
+      "period": "T3",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "Q1-2-B3",
+      "period": "T4",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "Q1-2-Z2",
+      "period": "T1",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "Q1-2-Z2",
+      "period": "T3",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "Q1-2-Z2",
+      "period": "T4",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "Q1-2-Z3",
+      "period": "T1",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "Q1-2-Z3",
+      "period": "T2",
+      "reason": "Human-complete annotation/provenance missing"
+    },
+    {
+      "position": "Q1-2-Z3",
+      "period": "T4",
+      "reason": "Human-complete annotation/provenance missing"
+    }
+  ]
+}

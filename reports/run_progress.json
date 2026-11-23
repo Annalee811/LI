@@ -1,0 +1,77 @@
+[
+  {
+    "variant": "no_lstm",
+    "seed": 20261123,
+    "status": "complete"
+  },
+  {
+    "variant": "full",
+    "seed": 20261123,
+    "status": "complete"
+  },
+  {
+    "variant": "no_gat",
+    "seed": 20261123,
+    "status": "complete"
+  },
+  {
+    "variant": "current_only",
+    "seed": 20261123,
+    "status": "complete"
+  },
+  {
+    "variant": "no_gates",
+    "seed": 20261123,
+    "status": "complete"
+  },
+  {
+    "variant": "full",
+    "seed": 20261124,
+    "status": "complete"
+  },
+  {
+    "variant": "no_lstm",
+    "seed": 20261124,
+    "status": "complete"
+  },
+  {
+    "variant": "no_gat",
+    "seed": 20261124,
+    "status": "complete"
+  },
+  {
+    "variant": "current_only",
+    "seed": 20261124,
+    "status": "complete"
+  },
+  {
+    "variant": "no_gates",
+    "seed": 20261124,
+    "status": "complete"
+  },
+  {
+    "variant": "full",
+    "seed": 20261125,
+    "status": "complete"
+  },
+  {
+    "variant": "no_lstm",
+    "seed": 20261125,
+    "status": "complete"
+  },
+  {
+    "variant": "no_gat",
+    "seed": 20261125,
+    "status": "complete"
+  },
+  {
+    "variant": "current_only",
+    "seed": 20261125,
+    "status": "complete"
+  },
+  {
+    "variant": "no_gates",
+    "seed": 20261125,
+    "status": "complete"
+  }
+]

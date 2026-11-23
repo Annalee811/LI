@@ -1,0 +1,142 @@
+{
+  "scope": "New controlled internal module experiments on released B3 features; not an independent test",
+  "nodes_original": 17116,
+  "nodes_partition_pure": 14915,
+  "nodes_by_split": {
+    "0": 10710,
+    "1": 980,
+    "2": 3225
+  },
+  "edges_retained": 100430,
+  "pixel_data": [
+    {
+      "period": "T1",
+      "all_foreground_pixels": 104518,
+      "eligible_typed_pixels": 0,
+      "split_counts": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "class_by_split": {
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "1": [
+          0,
+          0,
+          0
+        ],
+        "2": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "period": "T2",
+      "all_foreground_pixels": 152193,
+      "eligible_typed_pixels": 128608,
+      "split_counts": {
+        "0": 91815,
+        "1": 9466,
+        "2": 27327
+      },
+      "class_by_split": {
+        "0": [
+          56019,
+          32330,
+          3466
+        ],
+        "1": [
+          5616,
+          3729,
+          121
+        ],
+        "2": [
+          17919,
+          9043,
+          365
+        ]
+      }
+    },
+    {
+      "period": "T3",
+      "all_foreground_pixels": 168984,
+      "eligible_typed_pixels": 144147,
+      "split_counts": {
+        "0": 106599,
+        "1": 7682,
+        "2": 29866
+      },
+      "class_by_split": {
+        "0": [
+          89263,
+          15136,
+          2200
+        ],
+        "1": [
+          7449,
+          233,
+          0
+        ],
+        "2": [
+          26678,
+          2525,
+          663
+        ]
+      }
+    },
+    {
+      "period": "T4",
+      "all_foreground_pixels": 147533,
+      "eligible_typed_pixels": 126846,
+      "split_counts": {
+        "0": 94438,
+        "1": 6123,
+        "2": 26285
+      },
+      "class_by_split": {
+        "0": [
+          91507,
+          2931,
+          0
+        ],
+        "1": [
+          5978,
+          145,
+          0
+        ],
+        "2": [
+          25282,
+          1003,
+          0
+        ]
+      }
+    }
+  ],
+  "GT_SHA256": {
+    "T1": "00a70b4459e5b84fd71e2e435ce4e1b73539a8d5ed2e4d59711ecc1ebf9c4abb",
+    "T2": "b74db8f9463475dca827d2c281187f1cdbf6730ba1c28f8b1e74b358eda8bfda",
+    "T3": "619d4a3dda8cd58a4ddb893567ceee32ddee181fa6c44f71107bbfa20f36a403",
+    "T4": "68b45b5fd07e7fdaa6e974f766f1b1c4c9b9d9758e9107faf379963a4a19c661"
+  },
+  "source_graph_SHA256": "ecc36bae6ce6dfafcfc2d00b9634fc20e3f51ac020ee5d821eabee242a33c5f1",
+  "spatial_split_SHA256": "514755ecb42ba2b059347d00df3bc97113bde0b036818906dc4bddf506d50b9c",
+  "normalization_fit_on_train_only": true,
+  "edges_across_splits": 0,
+  "nodes_shared_across_splits": 0,
+  "latest_class_truth_used": true,
+  "fresh_module_initialization": true,
+  "frozen_priors_historical_B3_exposure": true,
+  "baseline_and_all_ablations_same_masks": true,
+  "junction_groups_by_split": {
+    "0": 366,
+    "1": 34,
+    "2": 142
+  },
+  "external_GT_available": false
+}

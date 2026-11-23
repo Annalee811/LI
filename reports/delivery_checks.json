@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "archives": {
+    "Annotation_RGB_templates_0353-3.zip": {
+      "CRC_passed": true,
+      "files": 18,
+      "bytes": 36929383
+    },
+    "Annotation_RGB_templates_A017-3.zip": {
+      "CRC_passed": true,
+      "files": 18,
+      "bytes": 55735931
+    },
+    "Annotation_RGB_templates_Q1-2.zip": {
+      "CRC_passed": true,
+      "files": 22,
+      "bytes": 81099370
+    },
+    "Decoder_inputs.zip": {
+      "CRC_passed": true,
+      "files": 28,
+      "bytes": 54469688
+    },
+    "Independent_inputs_0353-3.zip": {
+      "CRC_passed": true,
+      "files": 17,
+      "bytes": 9979795
+    },
+    "Independent_inputs_A017-3.zip": {
+      "CRC_passed": true,
+      "files": 17,
+      "bytes": 17787577
+    },
+    "Independent_inputs_Q1-2-B3.zip": {
+      "CRC_passed": true,
+      "files": 9,
+      "bytes": 45358825
+    },
+    "Independent_inputs_Q1-2-Z2.zip": {
+      "CRC_passed": true,
+      "files": 8,
+      "bytes": 22317903
+    },
+    "Independent_inputs_Q1-2-Z3.zip": {
+      "CRC_passed": true,
+      "files": 8,
+      "bytes": 52561514
+    },
+    "Independent_predictions_442_masks.zip": {
+      "CRC_passed": true,
+      "files": 549,
+      "bytes": 29455582
+    },
+    "V90_actual_experiments_code_weights_results.zip": {
+      "CRC_passed": true,
+      "files": 432,
+      "bytes": 58370516
+    }
+  },
+  "executed_model_code_hashes_preserved": true
+}

@@ -1,0 +1,9 @@
+{
+  "formal_runs_completed": 15,
+  "formal_runs_expected": 15,
+  "decoder_seed_stage_rows": 9,
+  "independent_test_status": "NOT_EVALUATED_NO_HUMAN_GT",
+  "independent_test_tubes": 3,
+  "independent_test_frames": 26,
+  "seed_SD_is_optimization_variation_not_biological_replication": true
+}

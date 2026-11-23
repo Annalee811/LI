@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "source": "Bundled features and checkpoint; original RGB cache not used by the portable entry point",
+  "comparison": "All four native PNG predictions are byte-identical to formal predictions",
+  "files": [
+    {
+      "file": "T2_classes.png",
+      "SHA256": "b8c5adca2281bcd9fcf2c5c7836e953b102c94225be9de6c22a4c93fecebe0ad"
+    },
+    {
+      "file": "T4_classes.png",
+      "SHA256": "818dfc777a50b16572fe8d0d40ea357ded56599d6850b95a52bca31366ed2d98"
+    },
+    {
+      "file": "T3_classes.png",
+      "SHA256": "8fc9e53f9fad72747059a27967e07b7f43ee30c358db1589b509d4c965a2602f"
+    },
+    {
+      "file": "T1_classes.png",
+      "SHA256": "319495a4f05aac3a974c74da8e8a680b340b9afc076ee39204a393401ad73c8d"
+    }
+  ]
+}
