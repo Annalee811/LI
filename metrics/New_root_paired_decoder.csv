@@ -1,0 +1,10 @@
+﻿seed,stage,scope,TP,FP,FN,new_truth_pixels,new_predicted_pixels,Precision,Recall
+20261123,raw_head,Separate paired whole-field context; same neural output within seed; eligible held-out typed root pixels,10138,2222,2433,12571,12360,0.8202265372168285,0.8064593111128788
+20261123,axis_constraints,Separate paired whole-field context; same neural output within seed; eligible held-out typed root pixels,10823,1617,1748,12571,12440,0.870016077170418,0.8609498051069923
+20261123,axis_and_junction_constraints,Separate paired whole-field context; same neural output within seed; eligible held-out typed root pixels,10989,1481,1582,12571,12470,0.8812349639133922,0.8741548007318432
+20261124,raw_head,Separate paired whole-field context; same neural output within seed; eligible held-out typed root pixels,10111,2082,2460,12571,12193,0.8292462888542607,0.8043115106196802
+20261124,axis_constraints,Separate paired whole-field context; same neural output within seed; eligible held-out typed root pixels,10754,1573,1817,12571,12327,0.872393932019145,0.8554609816243736
+20261124,axis_and_junction_constraints,Separate paired whole-field context; same neural output within seed; eligible held-out typed root pixels,10764,1481,1807,12571,12245,0.8790526745610453,0.8562564632885212
+20261125,raw_head,Separate paired whole-field context; same neural output within seed; eligible held-out typed root pixels,10145,2195,2426,12571,12340,0.8221231766612642,0.8070161482777822
+20261125,axis_constraints,Separate paired whole-field context; same neural output within seed; eligible held-out typed root pixels,10782,1644,1789,12571,12426,0.8676967648478996,0.8576883302839869
+20261125,axis_and_junction_constraints,Separate paired whole-field context; same neural output within seed; eligible held-out typed root pixels,10842,1585,1729,12571,12427,0.8724551380059548,0.8624612202688728

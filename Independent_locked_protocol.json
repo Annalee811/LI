@@ -1,0 +1,177 @@
+{
+  "locked_test_tubes": [
+    "0353-3",
+    "A017-3",
+    "Q1-2"
+  ],
+  "locked_test_positions": 7,
+  "locked_test_frames": 26,
+  "training_tube_excluded": "0353-2",
+  "all_eligible_cross_tube_frames": 50,
+  "coarse_localization_excluded": "Q1-1-Z2",
+  "selection_basis": "Predeclared tube IDs spanning all three germplasm series; no test-label-based selection",
+  "test_images_had_prior_unlabelled_prediction_exposure": true,
+  "unseen_image_or_prospective_blind_test_claim": false,
+  "status": "NOT_EVALUATED_NO_HUMAN_GT",
+  "metrics": null,
+  "annotation_instructions": "GT is human annotation only, not model predictions; templates contain 255 (unannotated), not zero-valued background truth",
+  "locked_before_test_labels_available": true,
+  "locked_observations": [
+    {
+      "position_id": "0353-3-LB2",
+      "tube_id": "0353-3",
+      "period": "T1",
+      "RGB_SHA256": "7ff1ee7903ed66632c81edbb97e16b3735196d4dcb414b81c699cc7df43fc24b"
+    },
+    {
+      "position_id": "0353-3-LB2",
+      "tube_id": "0353-3",
+      "period": "T2",
+      "RGB_SHA256": "b8d2a50b0f62d8a9cec4f4781b6d27c4f1b07ababc45a90b55e7c88424a1f7d7"
+    },
+    {
+      "position_id": "0353-3-LB2",
+      "tube_id": "0353-3",
+      "period": "T3",
+      "RGB_SHA256": "929e1cc1ede6168125c0eac439d26f0dee8f10d614b2f197f9aff1db633aee27"
+    },
+    {
+      "position_id": "0353-3-LB2",
+      "tube_id": "0353-3",
+      "period": "T4",
+      "RGB_SHA256": "0b553ec6d2623d3489fa62d8469773b17bf07ae5a71625a37bb45e4436a71742"
+    },
+    {
+      "position_id": "0353-3-LB3",
+      "tube_id": "0353-3",
+      "period": "T1",
+      "RGB_SHA256": "282e562004358be1448c1abef8e38d8b838296408219f83d283bfcdc3ff45b93"
+    },
+    {
+      "position_id": "0353-3-LB3",
+      "tube_id": "0353-3",
+      "period": "T2",
+      "RGB_SHA256": "e6a3dae6e7744a496fe3510ff1c3ca1a5fee231acaed77f098a07d8aaf5a89d2"
+    },
+    {
+      "position_id": "0353-3-LB3",
+      "tube_id": "0353-3",
+      "period": "T3",
+      "RGB_SHA256": "f18b4d0a75c6cc2d6b9fb4239d4b87bb31bd6f10793b1401b08134ec60b99f97"
+    },
+    {
+      "position_id": "0353-3-LB3",
+      "tube_id": "0353-3",
+      "period": "T4",
+      "RGB_SHA256": "b3f772e34d88391ef448371b1267297436f7c6f512004ffd01db12d27591d4f1"
+    },
+    {
+      "position_id": "A017-3-B3",
+      "tube_id": "A017-3",
+      "period": "T1",
+      "RGB_SHA256": "e059371d0225f353da906a36ca1a99e92fcde70e26d70db94f0eef54120b7cf1"
+    },
+    {
+      "position_id": "A017-3-B3",
+      "tube_id": "A017-3",
+      "period": "T2",
+      "RGB_SHA256": "67a8be958eb62b045209c12f8fbadabd8708ca0fce46a5340c6e517c853154c3"
+    },
+    {
+      "position_id": "A017-3-B3",
+      "tube_id": "A017-3",
+      "period": "T3",
+      "RGB_SHA256": "45e6203d04f53e294028e0ea8383963ad495cbae93020a2503d215253b24fa6d"
+    },
+    {
+      "position_id": "A017-3-B3",
+      "tube_id": "A017-3",
+      "period": "T4",
+      "RGB_SHA256": "11b0b6c58130c9d3d9dd52d9dc922934bcdc6e0b262ba82726cae54ae2a0302e"
+    },
+    {
+      "position_id": "A017-3-Z2",
+      "tube_id": "A017-3",
+      "period": "T1",
+      "RGB_SHA256": "2989606600779fce2665ed303a8ddf7fdc92354e7a1162c9a19a1c8266a9843d"
+    },
+    {
+      "position_id": "A017-3-Z2",
+      "tube_id": "A017-3",
+      "period": "T2",
+      "RGB_SHA256": "ba6709c1a3304c0b7fedf011c4aa1fa9a8964f771be840eee9278f7244539e84"
+    },
+    {
+      "position_id": "A017-3-Z2",
+      "tube_id": "A017-3",
+      "period": "T3",
+      "RGB_SHA256": "12ea44c869789b706c9e8814c2632bb59e25b4c11469c199d49e4f6d96897ada"
+    },
+    {
+      "position_id": "A017-3-Z2",
+      "tube_id": "A017-3",
+      "period": "T4",
+      "RGB_SHA256": "44b2800b461a350e67f792cf1f6d3cb46fb4073e93aae2e18850f751dfb27c98"
+    },
+    {
+      "position_id": "Q1-2-B3",
+      "tube_id": "Q1-2",
+      "period": "T1",
+      "RGB_SHA256": "ef8f3f46f1d79f158bbfd5d814f55eebd7f00e581e4e29f41754695050299bdd"
+    },
+    {
+      "position_id": "Q1-2-B3",
+      "tube_id": "Q1-2",
+      "period": "T2",
+      "RGB_SHA256": "7be21a3826c69ab8a05c180075877299403f4e24a59a8aded11e0f31a18c0084"
+    },
+    {
+      "position_id": "Q1-2-B3",
+      "tube_id": "Q1-2",
+      "period": "T3",
+      "RGB_SHA256": "f474f0e2e0f8d71477be58d9602458b0e3365bf5d94fca9b4df74822c9ffed01"
+    },
+    {
+      "position_id": "Q1-2-B3",
+      "tube_id": "Q1-2",
+      "period": "T4",
+      "RGB_SHA256": "537243563c10d4829646cea2b9b144f9ee01e081f41ab9896f512afd1bd52b84"
+    },
+    {
+      "position_id": "Q1-2-Z2",
+      "tube_id": "Q1-2",
+      "period": "T1",
+      "RGB_SHA256": "023154dca7912500012be4f235e34125b0c4e3e2ccbda21f353ad2a96787e9ba"
+    },
+    {
+      "position_id": "Q1-2-Z2",
+      "tube_id": "Q1-2",
+      "period": "T3",
+      "RGB_SHA256": "8ddcc274e32f834eec5c8b7be14203201f1112f8c08578f625f0a5271f0d1f27"
+    },
+    {
+      "position_id": "Q1-2-Z2",
+      "tube_id": "Q1-2",
+      "period": "T4",
+      "RGB_SHA256": "da38de000bbb2fb78485bd8337f346bddd3c0d4be69a0c275a7fbdbf5084808b"
+    },
+    {
+      "position_id": "Q1-2-Z3",
+      "tube_id": "Q1-2",
+      "period": "T1",
+      "RGB_SHA256": "eb8e0d46c3e0af0da36fec15cf1b116aacb3f4fd76111795699bcc09e3f0ac73"
+    },
+    {
+      "position_id": "Q1-2-Z3",
+      "tube_id": "Q1-2",
+      "period": "T2",
+      "RGB_SHA256": "1dc54d9941b23c17b0e583cf48e343ddb22b9b06a86e21a8cd3c27f08a8dd52c"
+    },
+    {
+      "position_id": "Q1-2-Z3",
+      "tube_id": "Q1-2",
+      "period": "T4",
+      "RGB_SHA256": "fc6ac24f40db88dcf536164df55ddc02e719979bee6e7d8d5206fc90cf1c5429"
+    }
+  ]
+}

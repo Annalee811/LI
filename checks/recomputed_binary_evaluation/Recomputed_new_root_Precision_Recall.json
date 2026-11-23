@@ -1,0 +1,239 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/full/20261123",
+      "TP": 10155,
+      "FP": 2214,
+      "FN": 2416,
+      "Precision": 0.8210041232112539,
+      "Recall": 0.8078116299419298
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/full/20261124",
+      "TP": 10096,
+      "FP": 2028,
+      "FN": 2475,
+      "Precision": 0.8327284724513362,
+      "Recall": 0.8031182881234588
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/full/20261125",
+      "TP": 10145,
+      "FP": 2125,
+      "FN": 2426,
+      "Precision": 0.8268133659331703,
+      "Recall": 0.8070161482777822
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/no_lstm/20261123",
+      "TP": 10194,
+      "FP": 2219,
+      "FN": 2377,
+      "Precision": 0.8212358011761862,
+      "Recall": 0.8109140084321056
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/no_lstm/20261124",
+      "TP": 10178,
+      "FP": 2029,
+      "FN": 2393,
+      "Precision": 0.8337838944867699,
+      "Recall": 0.8096412377694694
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/no_lstm/20261125",
+      "TP": 10128,
+      "FP": 2176,
+      "FN": 2443,
+      "Precision": 0.823146944083225,
+      "Recall": 0.8056638294487312
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/no_gat/20261123",
+      "TP": 10020,
+      "FP": 2096,
+      "FN": 2551,
+      "Precision": 0.8270056124133377,
+      "Recall": 0.7970726274759367
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/no_gat/20261124",
+      "TP": 10061,
+      "FP": 2077,
+      "FN": 2510,
+      "Precision": 0.8288844949744604,
+      "Recall": 0.800334102298942
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/no_gat/20261125",
+      "TP": 10192,
+      "FP": 2182,
+      "FN": 2379,
+      "Precision": 0.8236625181832875,
+      "Recall": 0.8107549120992761
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/no_gates/20261123",
+      "TP": 10154,
+      "FP": 2230,
+      "FN": 2417,
+      "Precision": 0.8199289405684754,
+      "Recall": 0.807732081775515
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/no_gates/20261124",
+      "TP": 10089,
+      "FP": 2045,
+      "FN": 2482,
+      "Precision": 0.8314653041041701,
+      "Recall": 0.8025614509585554
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/no_gates/20261125",
+      "TP": 10096,
+      "FP": 2111,
+      "FN": 2475,
+      "Precision": 0.8270664372900794,
+      "Recall": 0.8031182881234588
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/current_only/20261123",
+      "TP": 0,
+      "FP": 0,
+      "FN": 12571,
+      "Precision": null,
+      "Recall": 0.0
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/current_only/20261124",
+      "TP": 0,
+      "FP": 0,
+      "FN": 12571,
+      "Precision": null,
+      "Recall": 0.0
+    },
+    {
+      "protocol": "internal",
+      "id": "New_only_reproduction/internal/current_only/20261125",
+      "TP": 0,
+      "FP": 0,
+      "FN": 12571,
+      "Precision": null,
+      "Recall": 0.0
+    },
+    {
+      "protocol": "decoder",
+      "id": "New_only_reproduction/decoder/20261123/raw_head",
+      "TP": 10138,
+      "FP": 2222,
+      "FN": 2433,
+      "Precision": 0.8202265372168285,
+      "Recall": 0.8064593111128788
+    },
+    {
+      "protocol": "decoder",
+      "id": "New_only_reproduction/decoder/20261123/axis_constraints",
+      "TP": 10823,
+      "FP": 1617,
+      "FN": 1748,
+      "Precision": 0.870016077170418,
+      "Recall": 0.8609498051069923
+    },
+    {
+      "protocol": "decoder",
+      "id": "New_only_reproduction/decoder/20261123/axis_and_junction_constraints",
+      "TP": 10989,
+      "FP": 1481,
+      "FN": 1582,
+      "Precision": 0.8812349639133922,
+      "Recall": 0.8741548007318432
+    },
+    {
+      "protocol": "decoder",
+      "id": "New_only_reproduction/decoder/20261124/raw_head",
+      "TP": 10111,
+      "FP": 2082,
+      "FN": 2460,
+      "Precision": 0.8292462888542607,
+      "Recall": 0.8043115106196802
+    },
+    {
+      "protocol": "decoder",
+      "id": "New_only_reproduction/decoder/20261124/axis_constraints",
+      "TP": 10754,
+      "FP": 1573,
+      "FN": 1817,
+      "Precision": 0.872393932019145,
+      "Recall": 0.8554609816243736
+    },
+    {
+      "protocol": "decoder",
+      "id": "New_only_reproduction/decoder/20261124/axis_and_junction_constraints",
+      "TP": 10764,
+      "FP": 1481,
+      "FN": 1807,
+      "Precision": 0.8790526745610453,
+      "Recall": 0.8562564632885212
+    },
+    {
+      "protocol": "decoder",
+      "id": "New_only_reproduction/decoder/20261125/raw_head",
+      "TP": 10145,
+      "FP": 2195,
+      "FN": 2426,
+      "Precision": 0.8221231766612642,
+      "Recall": 0.8070161482777822
+    },
+    {
+      "protocol": "decoder",
+      "id": "New_only_reproduction/decoder/20261125/axis_constraints",
+      "TP": 10782,
+      "FP": 1644,
+      "FN": 1789,
+      "Precision": 0.8676967648478996,
+      "Recall": 0.8576883302839869
+    },
+    {
+      "protocol": "decoder",
+      "id": "New_only_reproduction/decoder/20261125/axis_and_junction_constraints",
+      "TP": 10842,
+      "FP": 1585,
+      "FN": 1729,
+      "Precision": 0.8724551380059548,
+      "Recall": 0.8624612202688728
+    },
+    {
+      "protocol": "full_B3_historical",
+      "id": "V66_frozen",
+      "TP": 67218,
+      "FP": 11831,
+      "FN": 11561,
+      "Precision": 0.8503333375501272,
+      "Recall": 0.853247692913086
+    },
+    {
+      "protocol": "full_B3_historical",
+      "id": "V90_automatic_historical",
+      "TP": 66571,
+      "FP": 3869,
+      "FN": 12208,
+      "Precision": 0.9450738216922203,
+      "Recall": 0.8450348443113013
+    }
+  ]
+}

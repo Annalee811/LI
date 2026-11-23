@@ -1,0 +1,119 @@
+{
+  "internal": {
+    "full": {
+      "variant": "full",
+      "seeds": 3,
+      "new_truth_pixels": 12571,
+      "Precision_mean": 0.8268486538652535,
+      "Precision_SD": 0.00586225427668123,
+      "Precision_defined_seeds": 3,
+      "Recall_mean": 0.8059820221143902,
+      "Recall_SD": 0.002511757760535655,
+      "Recall_defined_seeds": 3
+    },
+    "no_lstm": {
+      "variant": "no_lstm",
+      "seeds": 3,
+      "new_truth_pixels": 12571,
+      "Precision_mean": 0.8260555465820604,
+      "Precision_SD": 0.006760816356399022,
+      "Precision_defined_seeds": 3,
+      "Recall_mean": 0.8087396918834354,
+      "Recall_SD": 0.002738737588348924,
+      "Recall_defined_seeds": 3
+    },
+    "no_gat": {
+      "variant": "no_gat",
+      "seeds": 3,
+      "new_truth_pixels": 12571,
+      "Precision_mean": 0.8265175418570285,
+      "Precision_SD": 0.002644980161142797,
+      "Precision_defined_seeds": 3,
+      "Recall_mean": 0.8027205472913849,
+      "Recall_SD": 0.007146507392075136,
+      "Recall_defined_seeds": 3
+    },
+    "no_gates": {
+      "variant": "no_gates",
+      "seeds": 3,
+      "new_truth_pixels": 12571,
+      "Precision_mean": 0.8261535606542417,
+      "Precision_SD": 0.005822106897088045,
+      "Precision_defined_seeds": 3,
+      "Recall_mean": 0.8044706069525097,
+      "Recall_SD": 0.0028382090167705385,
+      "Recall_defined_seeds": 3
+    },
+    "current_only": {
+      "variant": "current_only",
+      "seeds": 3,
+      "new_truth_pixels": 12571,
+      "Precision_mean": null,
+      "Precision_SD": null,
+      "Precision_defined_seeds": 0,
+      "Recall_mean": 0.0,
+      "Recall_SD": 0.0,
+      "Recall_defined_seeds": 3
+    }
+  },
+  "paired_decoder": {
+    "raw_head": {
+      "Precision": {
+        "mean": 0.8238653342441178,
+        "SD": 0.00475555619069534,
+        "seeds": 3
+      },
+      "Recall": {
+        "mean": 0.805928990003447,
+        "SD": 0.0014281794616705526,
+        "seeds": 3
+      }
+    },
+    "axis_constraints": {
+      "Precision": {
+        "mean": 0.8700355913458209,
+        "SD": 0.0023486443879262584,
+        "seeds": 3
+      },
+      "Recall": {
+        "mean": 0.8580330390051176,
+        "SD": 0.002760600275783196,
+        "seeds": 3
+      }
+    },
+    "axis_and_junction_constraints": {
+      "Precision": {
+        "mean": 0.8775809254934641,
+        "SD": 0.004571200031684457,
+        "seeds": 3
+      },
+      "Recall": {
+        "mean": 0.8642908280964123,
+        "SD": 0.009088356254609544,
+        "seeds": 3
+      }
+    }
+  },
+  "audit": {
+    "class_code_positive": 2,
+    "other_valid_classes_remain_negatives": true,
+    "classes_not_merged": true,
+    "reported_metrics": [
+      "Precision",
+      "Recall"
+    ],
+    "new_predictions_generated": false,
+    "models_retrained": false,
+    "scope_changed_to_single_class_reporting": true,
+    "original_evaluation_masks_unchanged": true,
+    "current_frame_Precision_is_undefined_when_no_positive_predictions": true,
+    "internal_scores_match_archived_new_class_scores": true,
+    "independent_accuracy_available": false,
+    "GT_SHA256": {
+      "T1": "00a70b4459e5b84fd71e2e435ce4e1b73539a8d5ed2e4d59711ecc1ebf9c4abb",
+      "T2": "b74db8f9463475dca827d2c281187f1cdbf6730ba1c28f8b1e74b358eda8bfda",
+      "T3": "619d4a3dda8cd58a4ddb893567ceee32ddee181fa6c44f71107bbfa20f36a403",
+      "T4": "68b45b5fd07e7fdaa6e974f766f1b1c4c9b9d9758e9107faf379963a4a19c661"
+    }
+  }
+}

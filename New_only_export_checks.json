@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "series": 18,
+  "frames": 66,
+  "comparison_masks": 442,
+  "mask_definition": "original class == 2; 0/255 PNG",
+  "other_classes_not_merged": true,
+  "native_dimensions_preserved": true,
+  "RGB_bytes_verified_against_active_manifest": true,
+  "overlay_pixels_outside_new_mask_unchanged": true,
+  "root_identity_values_preserved_on_new_pixels": true,
+  "baseline_new_class_assessed": false,
+  "missing_periods_not_synthesized": true,
+  "independent_accuracy_computed": false,
+  "model_weights_or_annotations_modified": false,
+  "training_or_inference_run": false
+}

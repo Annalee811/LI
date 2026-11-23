@@ -1,0 +1,16 @@
+﻿variant,seed,scope,TP,FP,FN,new_truth_pixels,new_predicted_pixels,Precision,Recall
+full,20261123,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,10155,2214,2416,12571,12369,0.8210041232112539,0.8078116299419298
+full,20261124,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,10096,2028,2475,12571,12124,0.8327284724513362,0.8031182881234588
+full,20261125,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,10145,2125,2426,12571,12270,0.8268133659331703,0.8070161482777822
+no_lstm,20261123,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,10194,2219,2377,12571,12413,0.8212358011761862,0.8109140084321056
+no_lstm,20261124,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,10178,2029,2393,12571,12207,0.8337838944867699,0.8096412377694694
+no_lstm,20261125,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,10128,2176,2443,12571,12304,0.823146944083225,0.8056638294487312
+no_gat,20261123,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,10020,2096,2551,12571,12116,0.8270056124133377,0.7970726274759367
+no_gat,20261124,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,10061,2077,2510,12571,12138,0.8288844949744604,0.800334102298942
+no_gat,20261125,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,10192,2182,2379,12571,12374,0.8236625181832875,0.8107549120992761
+no_gates,20261123,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,10154,2230,2417,12571,12384,0.8199289405684754,0.807732081775515
+no_gates,20261124,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,10089,2045,2482,12571,12134,0.8314653041041701,0.8025614509585554
+no_gates,20261125,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,10096,2111,2475,12571,12207,0.8270664372900794,0.8031182881234588
+current_only,20261123,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,0,0,12571,12571,0,,0.0
+current_only,20261124,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,0,0,12571,12571,0,,0.0
+current_only,20261125,Internal B3 held-out eligible typed root pixels; frozen foreground; historical upstream exposure,0,0,12571,12571,0,,0.0

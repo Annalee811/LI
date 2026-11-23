@@ -1,0 +1,13 @@
+{
+  "position": "0353-2-B3",
+  "x": 1584,
+  "y": 768,
+  "width": 560,
+  "height": 320,
+  "criterion": "Maximum sum log(1 + human new-root pixels) over T2\u2013T4, grid step 24; no prediction-quality selection",
+  "new_pixels_T2_T3_T4": [
+    8776,
+    1991,
+    2301
+  ]
+}

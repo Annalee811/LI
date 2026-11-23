@@ -1,0 +1,9 @@
+﻿model,period,scope,TP,FP,FN,new_truth_pixels,new_predicted_pixels,Precision,Recall
+V66_frozen,T2,"Full B3 image human-valid pixels including background; descriptive historical agreement, not held-out or independent accuracy",46343,6541,7262,53605,52884,0.8763141971106573,0.8645275627273575
+V66_frozen,T3,"Full B3 image human-valid pixels including background; descriptive historical agreement, not held-out or independent accuracy",17169,4562,3445,20614,21731,0.7900694859877594,0.8328805666052198
+V66_frozen,T4,"Full B3 image human-valid pixels including background; descriptive historical agreement, not held-out or independent accuracy",3706,728,854,4560,4434,0.8358141632837167,0.8127192982456141
+V66_frozen,T2-T4_pooled,"Full B3 image human-valid pixels including background; descriptive historical agreement, not held-out or independent accuracy",67218,11831,11561,78779,79049,0.8503333375501272,0.853247692913086
+V90_automatic_historical,T2,"Full B3 image human-valid pixels including background; descriptive historical agreement, not held-out or independent accuracy",47665,3172,5940,53605,50837,0.9376045006589688,0.8891894412834623
+V90_automatic_historical,T3,"Full B3 image human-valid pixels including background; descriptive historical agreement, not held-out or independent accuracy",16330,652,4284,20614,16982,0.9616064067836533,0.7921800717958669
+V90_automatic_historical,T4,"Full B3 image human-valid pixels including background; descriptive historical agreement, not held-out or independent accuracy",2576,45,1984,4560,2621,0.982830980541778,0.5649122807017544
+V90_automatic_historical,T2-T4_pooled,"Full B3 image human-valid pixels including background; descriptive historical agreement, not held-out or independent accuracy",66571,3869,12208,78779,70440,0.9450738216922203,0.8450348443113013

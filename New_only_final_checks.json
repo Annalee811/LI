@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "new_only_masks_verified": 66,
+  "comparison_new_only_masks_verified": 442,
+  "only_class_2_selected": true,
+  "other_classes_not_merged": true,
+  "original_RGB_outside_new_pixels_unchanged": true,
+  "all_metrics_only_New_Precision_and_Recall": true,
+  "baseline_new_class_not_assessed": true,
+  "missing_dates_not_synthesized": true,
+  "independent_Precision": null,
+  "independent_Recall": null,
+  "pending_new_class_GT_frames": 19,
+  "saved_binary_inputs_reproduce_26_evaluations": true,
+  "model_weights_and_human_annotations_not_modified": true
+}

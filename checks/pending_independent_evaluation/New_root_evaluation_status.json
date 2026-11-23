@@ -1,0 +1,105 @@
+{
+  "status": "NOT_EVALUATED_NO_HUMAN_GT",
+  "Precision": null,
+  "Recall": null,
+  "locked_input_frames": 26,
+  "new_class_scored_frames": 19,
+  "baseline_frames_excluded": 7,
+  "missing_human_GT": [
+    {
+      "position": "0353-3-LB2",
+      "period": "T2",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "0353-3-LB2",
+      "period": "T3",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "0353-3-LB2",
+      "period": "T4",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "0353-3-LB3",
+      "period": "T2",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "0353-3-LB3",
+      "period": "T3",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "0353-3-LB3",
+      "period": "T4",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "A017-3-B3",
+      "period": "T2",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "A017-3-B3",
+      "period": "T3",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "A017-3-B3",
+      "period": "T4",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "A017-3-Z2",
+      "period": "T2",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "A017-3-Z2",
+      "period": "T3",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "A017-3-Z2",
+      "period": "T4",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "Q1-2-B3",
+      "period": "T2",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "Q1-2-B3",
+      "period": "T3",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "Q1-2-B3",
+      "period": "T4",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "Q1-2-Z2",
+      "period": "T3",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "Q1-2-Z2",
+      "period": "T4",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "Q1-2-Z3",
+      "period": "T2",
+      "reason": "Human-complete GT and provenance unavailable"
+    },
+    {
+      "position": "Q1-2-Z3",
+      "period": "T4",
+      "reason": "Human-complete GT and provenance unavailable"
+    }
+  ]
+}
