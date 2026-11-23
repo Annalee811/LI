@@ -1,0 +1,33 @@
+{
+  "joint_module": "ConvLSTM + GAT",
+  "ablation": "Remove recurrent memory and both GAT layers simultaneously; retain frame CNN, node encoder, frozen upstream priors and auxiliary heads",
+  "variant": "no_temporal_relation",
+  "seeds": [
+    20261123,
+    20261124,
+    20261125
+  ],
+  "training_updates": 100,
+  "sampled_pixels_per_update": 8192,
+  "selection": "Original three-class validation macro Dice; match original Full comparator",
+  "evaluation": "Merge persistent and extension masks into existing; report two-class metrics on identical held-out typed-root pixels",
+  "two_class_retraining": false,
+  "joint_effect_not_sum_of_single_ablations": true,
+  "source_study": "/workspace/work/V90_validation_20261123",
+  "full_comparators": {
+    "20261123": {
+      "full_checkpoint": "/workspace/work/V90_validation_20261123/experiments/full/20261123/best.pt",
+      "sha256": "628207577839e6dd797d97f97460f3a0f2dc79da866047655ebeb26dde1f3b20"
+    },
+    "20261124": {
+      "full_checkpoint": "/workspace/work/V90_validation_20261123/experiments/full/20261124/best.pt",
+      "sha256": "516eca84d827cb8f8187c9a124150e4b676b8e99039cb58cf7e3d41cc3015ed0"
+    },
+    "20261125": {
+      "full_checkpoint": "/workspace/work/V90_validation_20261123/experiments/full/20261125/best.pt",
+      "sha256": "cd51b6bccbad90c35a34c0d8513027d4e2d3ff20a95aec9dd4b405dba12d253e"
+    }
+  },
+  "learned_gates_note": "With GAT removed, attention-edge gating has no aggregation path; auxiliary connection head is retained. Gate-only ablation is conditional on the joint module being present.",
+  "independent_GT": "unavailable; predictions only"
+}

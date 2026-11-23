@@ -1,0 +1,74 @@
+{
+  "source_protocol_preserved": true,
+  "joint_module": "ConvLSTM + GAT",
+  "runs": [
+    {
+      "seed": 20261123,
+      "updates": 100,
+      "validation_only_selection_verified": true,
+      "selected_epoch": 59,
+      "exact_training_code_hashes_verified": true
+    },
+    {
+      "seed": 20261124,
+      "updates": 100,
+      "validation_only_selection_verified": true,
+      "selected_epoch": 75,
+      "exact_training_code_hashes_verified": true
+    },
+    {
+      "seed": 20261125,
+      "updates": 100,
+      "validation_only_selection_verified": true,
+      "selected_epoch": 65,
+      "exact_training_code_hashes_verified": true
+    }
+  ],
+  "source_checkpoints_preserved": true,
+  "image_sizes": {
+    "jpg": [
+      4488,
+      2362
+    ],
+    "png": [
+      4488,
+      2362
+    ],
+    "tif": [
+      4488,
+      2362
+    ]
+  },
+  "PDF_fonts_embedded": true,
+  "layout": {
+    "three_horizontally_aligned_axes": true,
+    "panel_letters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "figure_mm": [
+      190,
+      100
+    ],
+    "raster_dpi": 600,
+    "font": "Times New Roman, black",
+    "classes": [
+      "new",
+      "existing"
+    ],
+    "B_module_reference": "Full minus ablated, partition-isolated",
+    "B_decoder_reference": "Each step minus preceding step, separate paired whole-field context",
+    "C_source_position": "Q1-2-B3",
+    "C_source_model": "Retrained Full raw neural head",
+    "C_seed": 20261123,
+    "C_crops_unchanged_from_previous_figures": true,
+    "independent_accuracy_computed": false,
+    "models_retrained": true,
+    "new_joint_ablation_runs": 3,
+    "original_model_values_changed": false,
+    "joint_module": "ConvLSTM + GAT",
+    "all_text_within_canvas": true
+  },
+  "prediction_cache_unchanged": true
+}

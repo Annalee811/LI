@@ -1,0 +1,13 @@
+{
+  "joint_module": "ConvLSTM + GAT",
+  "seeds": 3,
+  "updates_per_seed": 100,
+  "joint_ablation_macro_Dice_mean_pct": 89.32588522015635,
+  "joint_ablation_existing_Dice_mean_pct": 96.83959845665005,
+  "joint_ablation_new_Dice_mean_pct": 81.81217198366268,
+  "paired_joint_effect_macro_Dice_pp_mean": -0.11711436195812608,
+  "paired_joint_effect_macro_Dice_pp_SD": 0.11725821805604979,
+  "pixel_confusions_verified_against_saved_predictions": true,
+  "original_full_checkpoints_unchanged": true,
+  "C_predictions_unchanged": true
+}
