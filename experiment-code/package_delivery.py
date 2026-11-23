@@ -113,7 +113,7 @@ No original files, weights, labels or earlier results were deleted or overwritte
  (root/'README.txt').write_text(text)
  (root/'requirements-experiments.txt').write_text('torch==2.8.0\nnumpy==2.2.6\nscipy==1.16.2\nscikit-image==0.25.2\nPillow==11.3.0\n')
  (root/'requirements-figures.txt').write_text('matplotlib>=3.9\nopenpyxl>=3.1\nPyMuPDF>=1.24\n')
- hashes={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest()for p in sorted(root.rglob('*'))if p.is_file()}
+ hashes={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest()for p in sorted(root.rglob('*'))if p.is_file() and p.name!='FILE_SHA256.json'}
  (root/'FILE_SHA256.json').write_text(json.dumps(hashes,indent=2))
  archive(root,'V90_actual_experiments_code_weights_results.zip')
  pred=S/'independent_predictions';tree(W/'independent_predictions',pred)

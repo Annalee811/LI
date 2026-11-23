@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "seed": 20261123,
+  "check": "Native class PNGs byte-identical and ownership arrays equal to formal paired experiment",
+  "files": [
+    "branch/full/T1_classes.png",
+    "branch/full/T2_classes.png",
+    "branch/full/T3_classes.png",
+    "branch/full/T4_classes.png",
+    "axis/full/T1_classes.png",
+    "axis/full/T2_classes.png",
+    "axis/full/T3_classes.png",
+    "axis/full/T4_classes.png",
+    "junction/full/T1_classes.png",
+    "junction/full/T2_classes.png",
+    "junction/full/T3_classes.png",
+    "junction/full/T4_classes.png",
+    "axis/ownership/T1_axis_owner.npz",
+    "axis/ownership/T2_axis_owner.npz",
+    "axis/ownership/T3_axis_owner.npz",
+    "axis/ownership/T4_axis_owner.npz",
+    "junction/ownership/T1_axis_owner.npz",
+    "junction/ownership/T2_axis_owner.npz",
+    "junction/ownership/T3_axis_owner.npz",
+    "junction/ownership/T4_axis_owner.npz"
+  ]
+}
