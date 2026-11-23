@@ -1,0 +1,63 @@
+{
+  "jpg": {
+    "size_px": [
+      4488,
+      2645
+    ],
+    "dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  "png": {
+    "size_px": [
+      4488,
+      2645
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "tif": {
+    "size_px": [
+      4488,
+      2645
+    ],
+    "dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  "PDF": {
+    "pages": 1,
+    "fonts_embedded": true,
+    "font_names": [
+      "CNAJXZ+TimesNewRomanPS-BoldMT",
+      "CNAJXZ+TimesNewRomanPSMT"
+    ],
+    "main_component_text_present": true
+  },
+  "source_RGB_and_mask_files_unchanged": true,
+  "layout": {
+    "figure_mm": [
+      190,
+      112
+    ],
+    "raster_dpi": 600,
+    "font": "Times New Roman, black",
+    "background": "white",
+    "joint_module": "ConvLSTM + GAT",
+    "gate_location": "Inside GAT attention aggregation",
+    "three_class_internal_head": true,
+    "two_class_mapping": "new=N; existing=P+E",
+    "Axis_and_Junction": "Fixed-rule decoding guided by Full neural outputs and learned features",
+    "offline_future_context_disclosed": true,
+    "RGB_source": "Real B3 same-field crops, see Image_provenance.json",
+    "output_example": "Actual cached T2 mask after axis+junction decoding, grouped to two classes for display",
+    "root_geometry_modified": false,
+    "source_images_or_models_modified": false,
+    "training_or_inference_rerun": false,
+    "all_text_within_canvas": true
+  }
+}
