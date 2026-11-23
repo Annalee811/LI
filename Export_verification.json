@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "source_results_unchanged": true,
+  "raster": {
+    "png": {
+      "pixels": [
+        4488,
+        3425
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "jpg": {
+      "pixels": [
+        4488,
+        3425
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "tif": {
+      "pixels": [
+        4488,
+        3425
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    }
+  },
+  "PDF": {
+    "pages": 1,
+    "fonts": [
+      "CNAJXZ+TimesNewRomanPS-BoldMT",
+      "CNAJXZ+TimesNewRomanPSMT"
+    ],
+    "size_mm": [
+      190.0,
+      145.0
+    ]
+  },
+  "existing_results_only": true,
+  "model_training_or_inference": false,
+  "independent_accuracy_available": false
+}

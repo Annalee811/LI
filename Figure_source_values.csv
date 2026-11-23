@@ -1,0 +1,46 @@
+﻿panel,method,metric,mean,SD,n_seeds
+A,V66,macro_Dice_percent,62.55735020841596,,1
+A,current_only,macro_Dice_percent,30.37748521423867,0.0,3
+A,no_lstm,macro_Dice_percent,63.41557456749391,0.15062015426763362,3
+A,no_gat,macro_Dice_percent,62.948235091556086,0.23536567070697156,3
+A,no_gates,macro_Dice_percent,63.69129955271578,0.2598593246014389,3
+A,full,macro_Dice_percent,63.71299830684023,0.3515650346372623,3
+B,V66,persistent_Dice_percent,96.87627010393079,,1
+B,V66,new_Dice_percent,81.69782239260167,,1
+B,V66,extension_Dice_percent,9.09795812871543,,1
+B,current_only,persistent_Dice_percent,91.13245564271601,0.0,3
+B,current_only,new_Dice_percent,0.0,0.0,3
+B,current_only,extension_Dice_percent,0.0,0.0,3
+B,no_lstm,persistent_Dice_percent,97.3037434005462,0.10005050830787474,3
+B,no_lstm,new_Dice_percent,81.72963525692413,0.3771593599119765,3
+B,no_lstm,extension_Dice_percent,11.213345045011392,0.2395350111625018,3
+B,no_gat,persistent_Dice_percent,97.13269624052431,0.0609946476968785,3
+B,no_gat,new_Dice_percent,81.44267212186455,0.26978703169306933,3
+B,no_gat,extension_Dice_percent,10.269336912279417,0.8363730866235279,3
+B,no_gates,persistent_Dice_percent,97.26114409099729,0.018073130718149113,3
+B,no_gates,new_Dice_percent,81.51530040530186,0.15005138171472834,3
+B,no_gates,extension_Dice_percent,12.297454161848208,0.9350122290045457,3
+B,full,persistent_Dice_percent,97.27782662534207,0.02198077978570727,3
+B,full,new_Dice_percent,81.62682205114335,0.17123189106617578,3
+B,full,extension_Dice_percent,12.234346244035244,1.2366151056307118,3
+C,+ ConvLSTM,full_minus_ablated_macro_Dice_pp,0.29742373934631655,0.470752823557941,3
+C,+ GAT,full_minus_ablated_macro_Dice_pp,0.7647632152841363,0.12955491846590517,3
+C,+ ID gates,full_minus_ablated_macro_Dice_pp,0.02169875412443408,0.10562644595606202,3
+D,raw_head,macro_Dice_percent,63.70136883320725,0.34360962437782405,3
+D,axis_constraints,macro_Dice_percent,73.51366114559482,0.5035363771810373,3
+D,axis_and_junction_constraints,macro_Dice_percent,76.70855681320916,1.9893769279935485,3
+E,raw_head,persistent_Dice_percent,97.24245048373949,0.010395181803633422,3
+E,axis_constraints,persistent_Dice_percent,97.22685163852579,0.04583613101927087,3
+E,axis_and_junction_constraints,persistent_Dice_percent,97.33065596669572,0.04732841581692446,3
+E,raw_head,new_Dice_percent,81.47909602230585,0.16711222005801807,3
+E,axis_constraints,new_Dice_percent,86.3989067692033,0.14034359050124728,3
+E,axis_and_junction_constraints,new_Dice_percent,87.0871611250414,0.5896881175668438,3
+E,raw_head,extension_Dice_percent,12.382559993576388,1.1812456872171744,3
+E,axis_constraints,extension_Dice_percent,36.915225029055385,1.3968370206404441,3
+E,axis_and_junction_constraints,extension_Dice_percent,45.70785334789034,5.4482272308249025,3
+F,axis_constraints,pairwise_instance_precision_percent,96.07234108543885,0.4536398002488087,3
+F,axis_constraints,pairwise_instance_recall_percent,49.75780356801126,1.0629001659425465,3
+F,axis_constraints,pairwise_instance_F1_percent,65.55423395188204,0.8373612679593397,3
+F,axis_and_junction_constraints,pairwise_instance_precision_percent,95.90908151791866,0.4490735731292589,3
+F,axis_and_junction_constraints,pairwise_instance_recall_percent,49.76532396202746,1.0677070971299798,3
+F,axis_and_junction_constraints,pairwise_instance_F1_percent,65.52279900081392,0.848694478362828,3

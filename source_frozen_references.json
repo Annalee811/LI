@@ -1,0 +1,1458 @@
+{
+  "V66_pairwise_frozen": {
+    "metrics_by_split": {
+      "0": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 230559,
+            "FP": 4406,
+            "FN": 6230,
+            "support": 236789,
+            "Precision": 0.981248271019088,
+            "Recall": 0.9736896561917995,
+            "Dice": 0.9774543512084688,
+            "IoU": 0.9559029001430378
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 43337,
+            "FP": 6852,
+            "FN": 7060,
+            "support": 50397,
+            "Precision": 0.8634760604913427,
+            "Recall": 0.8599122963668472,
+            "Dice": 0.8616904937068777,
+            "IoU": 0.7569913884958689
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 2429,
+            "FP": 5269,
+            "FN": 3237,
+            "support": 5666,
+            "Precision": 0.315536502987789,
+            "Recall": 0.4286974938228027,
+            "Dice": 0.36351391798862615,
+            "IoU": 0.2221307727480567
+          }
+        ],
+        "macro_Dice": 0.7342195876346574,
+        "macro_IoU": 0.6450083537956545,
+        "confusion": [
+          [
+            230559,
+            4262,
+            1968
+          ],
+          [
+            3759,
+            43337,
+            3301
+          ],
+          [
+            647,
+            2590,
+            2429
+          ]
+        ]
+      },
+      "1": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 18714,
+            "FP": 543,
+            "FN": 329,
+            "support": 19043,
+            "Precision": 0.9718024614425923,
+            "Recall": 0.9827233104027727,
+            "Dice": 0.9772323759791123,
+            "IoU": 0.9554784029408762
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 3309,
+            "FP": 328,
+            "FN": 798,
+            "support": 4107,
+            "Precision": 0.9098157822381083,
+            "Recall": 0.8056975894813733,
+            "Dice": 0.8545971074380165,
+            "IoU": 0.7461104847801578
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 35,
+            "FP": 342,
+            "FN": 86,
+            "support": 121,
+            "Precision": 0.09283819628647215,
+            "Recall": 0.2892561983471074,
+            "Dice": 0.14056224899598393,
+            "IoU": 0.0755939524838013
+          }
+        ],
+        "macro_Dice": 0.6574639108043709,
+        "macro_IoU": 0.5923942800682784,
+        "confusion": [
+          [
+            18714,
+            288,
+            41
+          ],
+          [
+            497,
+            3309,
+            301
+          ],
+          [
+            46,
+            40,
+            35
+          ]
+        ]
+      },
+      "2": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 66740,
+            "FP": 1165,
+            "FN": 3139,
+            "support": 69879,
+            "Precision": 0.9828436786687283,
+            "Recall": 0.9550794945548734,
+            "Dice": 0.968762701039308,
+            "IoU": 0.9394178255728844
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 10336,
+            "FP": 2396,
+            "FN": 2235,
+            "support": 12571,
+            "Precision": 0.8118127552623311,
+            "Recall": 0.8222098480630021,
+            "Dice": 0.8169782239260167,
+            "IoU": 0.6905859557693592
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 176,
+            "FP": 2665,
+            "FN": 852,
+            "support": 1028,
+            "Precision": 0.061950017599436816,
+            "Recall": 0.17120622568093385,
+            "Dice": 0.0909795812871543,
+            "IoU": 0.04765773084213377
+          }
+        ],
+        "macro_Dice": 0.6255735020841596,
+        "macro_IoU": 0.5592205040614592,
+        "confusion": [
+          [
+            66740,
+            1626,
+            1513
+          ],
+          [
+            1083,
+            10336,
+            1152
+          ],
+          [
+            82,
+            770,
+            176
+          ]
+        ]
+      }
+    },
+    "scope": "Existing frozen automatic outputs re-evaluated on the same eligible pixels; historical B3 exposure. Not fresh retraining and not independent testing."
+  },
+  "V90_automatic_historical_reference": {
+    "metrics_by_split": {
+      "0": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 234789,
+            "FP": 5672,
+            "FN": 2000,
+            "support": 236789,
+            "Precision": 0.9764119753307189,
+            "Recall": 0.991553661698812,
+            "Dice": 0.9839245678365637,
+            "IoU": 0.9683577977489163
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 43171,
+            "FP": 1889,
+            "FN": 7226,
+            "support": 50397,
+            "Precision": 0.9580781180648025,
+            "Recall": 0.8566184495108836,
+            "Dice": 0.9045119792157725,
+            "IoU": 0.8256703515281337
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 3386,
+            "FP": 3945,
+            "FN": 2280,
+            "support": 5666,
+            "Precision": 0.46187423271040784,
+            "Recall": 0.5975997176138369,
+            "Dice": 0.5210433176886974,
+            "IoU": 0.3523046509208199
+          }
+        ],
+        "macro_Dice": 0.8031599549136779,
+        "macro_IoU": 0.7154442667326233,
+        "confusion": [
+          [
+            234789,
+            774,
+            1226
+          ],
+          [
+            4507,
+            43171,
+            2719
+          ],
+          [
+            1165,
+            1115,
+            3386
+          ]
+        ]
+      },
+      "1": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 18894,
+            "FP": 718,
+            "FN": 149,
+            "support": 19043,
+            "Precision": 0.9633897613705894,
+            "Recall": 0.9921756025836266,
+            "Dice": 0.977570818781529,
+            "IoU": 0.9561257021405799
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 3303,
+            "FP": 57,
+            "FN": 804,
+            "support": 4107,
+            "Precision": 0.9830357142857142,
+            "Recall": 0.804236669101534,
+            "Dice": 0.8846926476496585,
+            "IoU": 0.7932276657060519
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 0,
+            "FP": 299,
+            "FN": 121,
+            "support": 121,
+            "Precision": 0.0,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.6207544888103959,
+        "macro_IoU": 0.5831177892822106,
+        "confusion": [
+          [
+            18894,
+            29,
+            120
+          ],
+          [
+            625,
+            3303,
+            179
+          ],
+          [
+            93,
+            28,
+            0
+          ]
+        ]
+      },
+      "2": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 68228,
+            "FP": 1641,
+            "FN": 1651,
+            "support": 69879,
+            "Precision": 0.9765131889679257,
+            "Recall": 0.9763734455272686,
+            "Dice": 0.9764433122477603,
+            "IoU": 0.9539709172259507
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 9968,
+            "FP": 1114,
+            "FN": 2603,
+            "support": 12571,
+            "Precision": 0.8994766287673706,
+            "Recall": 0.7929361228223689,
+            "Dice": 0.8428529150636282,
+            "IoU": 0.7283887468030691
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 609,
+            "FP": 1918,
+            "FN": 419,
+            "support": 1028,
+            "Precision": 0.2409972299168975,
+            "Recall": 0.5924124513618677,
+            "Dice": 0.3426160337552743,
+            "IoU": 0.20672097759674135
+          }
+        ],
+        "macro_Dice": 0.7206374203555542,
+        "macro_IoU": 0.6296935472085871,
+        "confusion": [
+          [
+            68228,
+            950,
+            701
+          ],
+          [
+            1386,
+            9968,
+            1217
+          ],
+          [
+            255,
+            164,
+            609
+          ]
+        ]
+      }
+    },
+    "scope": "Existing frozen automatic outputs re-evaluated on the same eligible pixels; historical B3 exposure. Not fresh retraining and not independent testing."
+  },
+  "local_input": {
+    "metrics_by_split": {
+      "0": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 231651,
+            "FP": 4471,
+            "FN": 5138,
+            "support": 236789,
+            "Precision": 0.9810648732434928,
+            "Recall": 0.9783013569042481,
+            "Dice": 0.9796811662236657,
+            "IoU": 0.9601715991047003
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 44033,
+            "FP": 6566,
+            "FN": 6364,
+            "support": 50397,
+            "Precision": 0.8702345896163955,
+            "Recall": 0.8737226422207671,
+            "Dice": 0.8719751277278308,
+            "IoU": 0.7730105507083546
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 2369,
+            "FP": 3762,
+            "FN": 3297,
+            "support": 5666,
+            "Precision": 0.3863969988582613,
+            "Recall": 0.41810801270737735,
+            "Dice": 0.4016275324234975,
+            "IoU": 0.25127280441238864
+          }
+        ],
+        "macro_Dice": 0.7510946087916648,
+        "macro_IoU": 0.6614849847418145,
+        "confusion": [
+          [
+            231651,
+            3955,
+            1183
+          ],
+          [
+            3785,
+            44033,
+            2579
+          ],
+          [
+            686,
+            2611,
+            2369
+          ]
+        ]
+      },
+      "1": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 18736,
+            "FP": 547,
+            "FN": 307,
+            "support": 19043,
+            "Precision": 0.9716330446507286,
+            "Recall": 0.9838785905582104,
+            "Dice": 0.9777174763867871,
+            "IoU": 0.9564063297600817
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 3361,
+            "FP": 318,
+            "FN": 746,
+            "support": 4107,
+            "Precision": 0.9135634683337863,
+            "Recall": 0.8183588994399805,
+            "Dice": 0.8633444644233239,
+            "IoU": 0.7595480225988701
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 32,
+            "FP": 277,
+            "FN": 89,
+            "support": 121,
+            "Precision": 0.10355987055016182,
+            "Recall": 0.2644628099173554,
+            "Dice": 0.14883720930232558,
+            "IoU": 0.08040201005025126
+          }
+        ],
+        "macro_Dice": 0.6632997167041456,
+        "macro_IoU": 0.5987854541364009,
+        "confusion": [
+          [
+            18736,
+            275,
+            32
+          ],
+          [
+            501,
+            3361,
+            245
+          ],
+          [
+            46,
+            43,
+            32
+          ]
+        ]
+      },
+      "2": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 67136,
+            "FP": 1246,
+            "FN": 2743,
+            "support": 69879,
+            "Precision": 0.9817788306864379,
+            "Recall": 0.9607464331201077,
+            "Dice": 0.9711487693565068,
+            "IoU": 0.9439156414762742
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 10587,
+            "FP": 2464,
+            "FN": 1984,
+            "support": 12571,
+            "Precision": 0.8112022067274538,
+            "Recall": 0.8421764378331079,
+            "Dice": 0.8263991881976427,
+            "IoU": 0.7041569670768207
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 158,
+            "FP": 1887,
+            "FN": 870,
+            "support": 1028,
+            "Precision": 0.07726161369193155,
+            "Recall": 0.15369649805447472,
+            "Dice": 0.10283110966482265,
+            "IoU": 0.054202401372212695
+          }
+        ],
+        "macro_Dice": 0.6334596890729908,
+        "macro_IoU": 0.5674250033084359,
+        "confusion": [
+          [
+            67136,
+            1694,
+            1049
+          ],
+          [
+            1146,
+            10587,
+            838
+          ],
+          [
+            100,
+            770,
+            158
+          ]
+        ]
+      }
+    },
+    "scope": "Existing frozen automatic outputs re-evaluated on the same eligible pixels; historical B3 exposure. Not fresh retraining and not independent testing."
+  },
+  "junction_pair_decoder": {
+    "metrics_by_split": {
+      "0": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 232644,
+            "FP": 5018,
+            "FN": 4145,
+            "support": 236789,
+            "Precision": 0.9788859809309018,
+            "Recall": 0.9824949638707879,
+            "Dice": 0.9806871520978984,
+            "IoU": 0.9621061425020782
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 44446,
+            "FP": 6585,
+            "FN": 5951,
+            "support": 50397,
+            "Precision": 0.870960788540299,
+            "Recall": 0.8819175744587971,
+            "Dice": 0.8764049374926056,
+            "IoU": 0.7800007019760626
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 1793,
+            "FP": 2366,
+            "FN": 3873,
+            "support": 5666,
+            "Precision": 0.4311132483770137,
+            "Recall": 0.31644899399929405,
+            "Dice": 0.3649872773536896,
+            "IoU": 0.2232320717131474
+          }
+        ],
+        "macro_Dice": 0.7406931223147312,
+        "macro_IoU": 0.6551129720637627,
+        "confusion": [
+          [
+            232644,
+            3471,
+            674
+          ],
+          [
+            4259,
+            44446,
+            1692
+          ],
+          [
+            759,
+            3114,
+            1793
+          ]
+        ]
+      },
+      "1": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 18772,
+            "FP": 573,
+            "FN": 271,
+            "support": 19043,
+            "Precision": 0.9703799431377617,
+            "Recall": 0.9857690489943811,
+            "Dice": 0.9780139626966761,
+            "IoU": 0.956973898858075
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 3403,
+            "FP": 282,
+            "FN": 704,
+            "support": 4107,
+            "Precision": 0.9234735413839892,
+            "Recall": 0.8285853420988556,
+            "Dice": 0.8734599589322382,
+            "IoU": 0.7753474595579859
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 0,
+            "FP": 241,
+            "FN": 121,
+            "support": 121,
+            "Precision": 0.0,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.6171579738763048,
+        "macro_IoU": 0.5774404528053537,
+        "confusion": [
+          [
+            18772,
+            239,
+            32
+          ],
+          [
+            495,
+            3403,
+            209
+          ],
+          [
+            78,
+            43,
+            0
+          ]
+        ]
+      },
+      "2": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 67446,
+            "FP": 1231,
+            "FN": 2433,
+            "support": 69879,
+            "Precision": 0.9820755129082517,
+            "Recall": 0.9651826729060232,
+            "Dice": 0.9735558185859869,
+            "IoU": 0.9484741949092954
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 11229,
+            "FP": 2503,
+            "FN": 1342,
+            "support": 12571,
+            "Precision": 0.8177250218467812,
+            "Recall": 0.8932463606713865,
+            "Dice": 0.8538189560126221,
+            "IoU": 0.7449250364866657
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 155,
+            "FP": 914,
+            "FN": 873,
+            "support": 1028,
+            "Precision": 0.1449953227315248,
+            "Recall": 0.1507782101167315,
+            "Dice": 0.14783023366714354,
+            "IoU": 0.07981462409886715
+          }
+        ],
+        "macro_Dice": 0.6584016694219176,
+        "macro_IoU": 0.5910712851649428,
+        "confusion": [
+          [
+            67446,
+            1730,
+            703
+          ],
+          [
+            1131,
+            11229,
+            211
+          ],
+          [
+            100,
+            773,
+            155
+          ]
+        ]
+      }
+    },
+    "scope": "Existing frozen automatic outputs re-evaluated on the same eligible pixels; historical B3 exposure. Not fresh retraining and not independent testing."
+  },
+  "branch_consistency": {
+    "metrics_by_split": {
+      "0": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 232939,
+            "FP": 5075,
+            "FN": 3850,
+            "support": 236789,
+            "Precision": 0.9786777248397153,
+            "Recall": 0.9837407987702131,
+            "Dice": 0.9812027303955535,
+            "IoU": 0.9630990970131975
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 44400,
+            "FP": 5562,
+            "FN": 5997,
+            "support": 50397,
+            "Precision": 0.8886753932989072,
+            "Recall": 0.8810048217155783,
+            "Dice": 0.8848234836935401,
+            "IoU": 0.7934380528601297
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 2402,
+            "FP": 2474,
+            "FN": 3264,
+            "support": 5666,
+            "Precision": 0.492616899097621,
+            "Recall": 0.4239322273208613,
+            "Dice": 0.4557010055018023,
+            "IoU": 0.2950859950859951
+          }
+        ],
+        "macro_Dice": 0.7739090731969654,
+        "macro_IoU": 0.6838743816531075,
+        "confusion": [
+          [
+            232939,
+            3069,
+            781
+          ],
+          [
+            4304,
+            44400,
+            1693
+          ],
+          [
+            771,
+            2493,
+            2402
+          ]
+        ]
+      },
+      "1": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 18772,
+            "FP": 571,
+            "FN": 271,
+            "support": 19043,
+            "Precision": 0.9704802771028279,
+            "Recall": 0.9857690489943811,
+            "Dice": 0.9780649195019018,
+            "IoU": 0.9570714795554196
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 3405,
+            "FP": 282,
+            "FN": 702,
+            "support": 4107,
+            "Precision": 0.9235150528885273,
+            "Recall": 0.829072315558802,
+            "Dice": 0.8737490377213241,
+            "IoU": 0.7758031442241968
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 0,
+            "FP": 241,
+            "FN": 121,
+            "support": 121,
+            "Precision": 0.0,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.6172713190744087,
+        "macro_IoU": 0.5776248745932054,
+        "confusion": [
+          [
+            18772,
+            239,
+            32
+          ],
+          [
+            493,
+            3405,
+            209
+          ],
+          [
+            78,
+            43,
+            0
+          ]
+        ]
+      },
+      "2": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 67447,
+            "FP": 1287,
+            "FN": 2432,
+            "support": 69879,
+            "Precision": 0.9812756423313062,
+            "Recall": 0.9651969833569456,
+            "Dice": 0.9731699046986935,
+            "IoU": 0.9477418992215384
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 11204,
+            "FP": 2384,
+            "FN": 1367,
+            "support": 12571,
+            "Precision": 0.8245510744774801,
+            "Recall": 0.8912576565110174,
+            "Dice": 0.8566076684888566,
+            "IoU": 0.749180875961217
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 242,
+            "FP": 914,
+            "FN": 786,
+            "support": 1028,
+            "Precision": 0.2093425605536332,
+            "Recall": 0.23540856031128404,
+            "Dice": 0.2216117216117216,
+            "IoU": 0.12461380020597322
+          }
+        ],
+        "macro_Dice": 0.6837964315997572,
+        "macro_IoU": 0.6071788584629095,
+        "confusion": [
+          [
+            67447,
+            1729,
+            703
+          ],
+          [
+            1156,
+            11204,
+            211
+          ],
+          [
+            131,
+            655,
+            242
+          ]
+        ]
+      }
+    },
+    "scope": "Existing frozen automatic outputs re-evaluated on the same eligible pixels; historical B3 exposure. Not fresh retraining and not independent testing."
+  },
+  "axis_consistency": {
+    "metrics_by_split": {
+      "0": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 234019,
+            "FP": 4291,
+            "FN": 2770,
+            "support": 236789,
+            "Precision": 0.98199404137468,
+            "Recall": 0.9883018214528546,
+            "Dice": 0.9851378344302977,
+            "IoU": 0.9707109673137547
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 43447,
+            "FP": 2718,
+            "FN": 6950,
+            "support": 50397,
+            "Precision": 0.9411242283114913,
+            "Recall": 0.8620949659701966,
+            "Dice": 0.8998777987199934,
+            "IoU": 0.8179798550315354
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 3560,
+            "FP": 4817,
+            "FN": 2106,
+            "support": 5666,
+            "Precision": 0.42497314074250925,
+            "Recall": 0.6283092128485704,
+            "Dice": 0.5070141707612333,
+            "IoU": 0.3395974434799199
+          }
+        ],
+        "macro_Dice": 0.7973432679705081,
+        "macro_IoU": 0.7094294219417366,
+        "confusion": [
+          [
+            234019,
+            1329,
+            1441
+          ],
+          [
+            3574,
+            43447,
+            3376
+          ],
+          [
+            717,
+            1389,
+            3560
+          ]
+        ]
+      },
+      "1": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 18812,
+            "FP": 586,
+            "FN": 231,
+            "support": 19043,
+            "Precision": 0.9697907000721724,
+            "Recall": 0.9878695583679042,
+            "Dice": 0.9787466507114799,
+            "IoU": 0.9583779102348566
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 3411,
+            "FP": 91,
+            "FN": 696,
+            "support": 4107,
+            "Precision": 0.9740148486579098,
+            "Recall": 0.8305332359386414,
+            "Dice": 0.8965698514916546,
+            "IoU": 0.8125297760838495
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 15,
+            "FP": 356,
+            "FN": 106,
+            "support": 121,
+            "Precision": 0.04043126684636118,
+            "Recall": 0.12396694214876033,
+            "Dice": 0.06097560975609756,
+            "IoU": 0.031446540880503145
+          }
+        ],
+        "macro_Dice": 0.6454307039864107,
+        "macro_IoU": 0.6007847423997364,
+        "confusion": [
+          [
+            18812,
+            63,
+            168
+          ],
+          [
+            508,
+            3411,
+            188
+          ],
+          [
+            78,
+            28,
+            15
+          ]
+        ]
+      },
+      "2": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 67835,
+            "FP": 1318,
+            "FN": 2044,
+            "support": 69879,
+            "Precision": 0.9809408124014866,
+            "Recall": 0.9707494383148013,
+            "Dice": 0.9758185166004949,
+            "IoU": 0.9527789092237032
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 9980,
+            "FP": 1427,
+            "FN": 2591,
+            "support": 12571,
+            "Precision": 0.8749013763478566,
+            "Recall": 0.7938907008193461,
+            "Dice": 0.8324297272499791,
+            "IoU": 0.7129589941420202
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 712,
+            "FP": 2206,
+            "FN": 316,
+            "support": 1028,
+            "Precision": 0.24400274160383825,
+            "Recall": 0.6926070038910506,
+            "Dice": 0.3608717688798784,
+            "IoU": 0.22016079158936303
+          }
+        ],
+        "macro_Dice": 0.7230400042434507,
+        "macro_IoU": 0.6286328983183622,
+        "confusion": [
+          [
+            67835,
+            1242,
+            802
+          ],
+          [
+            1187,
+            9980,
+            1404
+          ],
+          [
+            131,
+            185,
+            712
+          ]
+        ]
+      }
+    },
+    "scope": "Existing frozen automatic outputs re-evaluated on the same eligible pixels; historical B3 exposure. Not fresh retraining and not independent testing."
+  },
+  "junction_consistency": {
+    "metrics_by_split": {
+      "0": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 234789,
+            "FP": 5672,
+            "FN": 2000,
+            "support": 236789,
+            "Precision": 0.9764119753307189,
+            "Recall": 0.991553661698812,
+            "Dice": 0.9839245678365637,
+            "IoU": 0.9683577977489163
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 43171,
+            "FP": 1889,
+            "FN": 7226,
+            "support": 50397,
+            "Precision": 0.9580781180648025,
+            "Recall": 0.8566184495108836,
+            "Dice": 0.9045119792157725,
+            "IoU": 0.8256703515281337
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 3386,
+            "FP": 3945,
+            "FN": 2280,
+            "support": 5666,
+            "Precision": 0.46187423271040784,
+            "Recall": 0.5975997176138369,
+            "Dice": 0.5210433176886974,
+            "IoU": 0.3523046509208199
+          }
+        ],
+        "macro_Dice": 0.8031599549136779,
+        "macro_IoU": 0.7154442667326233,
+        "confusion": [
+          [
+            234789,
+            774,
+            1226
+          ],
+          [
+            4507,
+            43171,
+            2719
+          ],
+          [
+            1165,
+            1115,
+            3386
+          ]
+        ]
+      },
+      "1": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 18894,
+            "FP": 718,
+            "FN": 149,
+            "support": 19043,
+            "Precision": 0.9633897613705894,
+            "Recall": 0.9921756025836266,
+            "Dice": 0.977570818781529,
+            "IoU": 0.9561257021405799
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 3303,
+            "FP": 57,
+            "FN": 804,
+            "support": 4107,
+            "Precision": 0.9830357142857142,
+            "Recall": 0.804236669101534,
+            "Dice": 0.8846926476496585,
+            "IoU": 0.7932276657060519
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 0,
+            "FP": 299,
+            "FN": 121,
+            "support": 121,
+            "Precision": 0.0,
+            "Recall": 0.0,
+            "Dice": 0.0,
+            "IoU": 0.0
+          }
+        ],
+        "macro_Dice": 0.6207544888103959,
+        "macro_IoU": 0.5831177892822106,
+        "confusion": [
+          [
+            18894,
+            29,
+            120
+          ],
+          [
+            625,
+            3303,
+            179
+          ],
+          [
+            93,
+            28,
+            0
+          ]
+        ]
+      },
+      "2": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 68228,
+            "FP": 1641,
+            "FN": 1651,
+            "support": 69879,
+            "Precision": 0.9765131889679257,
+            "Recall": 0.9763734455272686,
+            "Dice": 0.9764433122477603,
+            "IoU": 0.9539709172259507
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 9968,
+            "FP": 1114,
+            "FN": 2603,
+            "support": 12571,
+            "Precision": 0.8994766287673706,
+            "Recall": 0.7929361228223689,
+            "Dice": 0.8428529150636282,
+            "IoU": 0.7283887468030691
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 609,
+            "FP": 1918,
+            "FN": 419,
+            "support": 1028,
+            "Precision": 0.2409972299168975,
+            "Recall": 0.5924124513618677,
+            "Dice": 0.3426160337552743,
+            "IoU": 0.20672097759674135
+          }
+        ],
+        "macro_Dice": 0.7206374203555542,
+        "macro_IoU": 0.6296935472085871,
+        "confusion": [
+          [
+            68228,
+            950,
+            701
+          ],
+          [
+            1386,
+            9968,
+            1217
+          ],
+          [
+            255,
+            164,
+            609
+          ]
+        ]
+      }
+    },
+    "scope": "Existing frozen automatic outputs re-evaluated on the same eligible pixels; historical B3 exposure. Not fresh retraining and not independent testing."
+  },
+  "pairwise_prior_zero_residual": {
+    "metrics_by_split": {
+      "0": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 230561,
+            "FP": 4407,
+            "FN": 6228,
+            "support": 236789,
+            "Precision": 0.981244254536788,
+            "Recall": 0.9736981025301006,
+            "Dice": 0.9774566143162687,
+            "IoU": 0.9559072289756049
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 43336,
+            "FP": 6851,
+            "FN": 7061,
+            "support": 50397,
+            "Precision": 0.8634905453603523,
+            "Recall": 0.8598924539159077,
+            "Dice": 0.8616877435775073,
+            "IoU": 0.7569871436556735
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 2429,
+            "FP": 5268,
+            "FN": 3237,
+            "support": 5666,
+            "Precision": 0.3155774977263869,
+            "Recall": 0.4286974938228027,
+            "Dice": 0.3635411210057622,
+            "IoU": 0.22215108834827144
+          }
+        ],
+        "macro_Dice": 0.7342284929665128,
+        "macro_IoU": 0.64501515365985,
+        "confusion": [
+          [
+            230561,
+            4261,
+            1967
+          ],
+          [
+            3760,
+            43336,
+            3301
+          ],
+          [
+            647,
+            2590,
+            2429
+          ]
+        ]
+      },
+      "1": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 18714,
+            "FP": 543,
+            "FN": 329,
+            "support": 19043,
+            "Precision": 0.9718024614425923,
+            "Recall": 0.9827233104027727,
+            "Dice": 0.9772323759791123,
+            "IoU": 0.9554784029408762
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 3309,
+            "FP": 328,
+            "FN": 798,
+            "support": 4107,
+            "Precision": 0.9098157822381083,
+            "Recall": 0.8056975894813733,
+            "Dice": 0.8545971074380165,
+            "IoU": 0.7461104847801578
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 35,
+            "FP": 342,
+            "FN": 86,
+            "support": 121,
+            "Precision": 0.09283819628647215,
+            "Recall": 0.2892561983471074,
+            "Dice": 0.14056224899598393,
+            "IoU": 0.0755939524838013
+          }
+        ],
+        "macro_Dice": 0.6574639108043709,
+        "macro_IoU": 0.5923942800682784,
+        "confusion": [
+          [
+            18714,
+            288,
+            41
+          ],
+          [
+            497,
+            3309,
+            301
+          ],
+          [
+            46,
+            40,
+            35
+          ]
+        ]
+      },
+      "2": {
+        "classes": [
+          {
+            "class_id": 1,
+            "name": "persistent",
+            "TP": 66740,
+            "FP": 1165,
+            "FN": 3139,
+            "support": 69879,
+            "Precision": 0.9828436786687283,
+            "Recall": 0.9550794945548734,
+            "Dice": 0.968762701039308,
+            "IoU": 0.9394178255728844
+          },
+          {
+            "class_id": 2,
+            "name": "new",
+            "TP": 10337,
+            "FP": 2396,
+            "FN": 2234,
+            "support": 12571,
+            "Precision": 0.8118275347522187,
+            "Recall": 0.8222893962294169,
+            "Dice": 0.8170249762883338,
+            "IoU": 0.6906527694260707
+          },
+          {
+            "class_id": 3,
+            "name": "extension",
+            "TP": 176,
+            "FP": 2664,
+            "FN": 852,
+            "support": 1028,
+            "Precision": 0.061971830985915494,
+            "Recall": 0.17120622568093385,
+            "Dice": 0.09100310237849017,
+            "IoU": 0.047670639219934995
+          }
+        ],
+        "macro_Dice": 0.6255969265687106,
+        "macro_IoU": 0.5592470780729634,
+        "confusion": [
+          [
+            66740,
+            1626,
+            1513
+          ],
+          [
+            1083,
+            10337,
+            1151
+          ],
+          [
+            82,
+            770,
+            176
+          ]
+        ]
+      }
+    },
+    "scope": "Frozen released prior probabilities; common zero-residual starting point for temporal variants"
+  }
+}
