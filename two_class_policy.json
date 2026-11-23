@@ -1,0 +1,22 @@
+{
+  "version": "2026-11-23-two-class-downstream-v1",
+  "scope": "Subsequent V90-derived root-segment composition summaries",
+  "groups": {
+    "new": {"name_cn": "新生根", "name_en": "Newly observed roots", "original_codes": [2], "output_code": 2},
+    "existing": {"name_cn": "既有根", "name_en": "Existing roots", "original_codes": [1, 3], "output_code": 1}
+  },
+  "background_output_code": 0,
+  "baseline_or_uncertain_output_code": 255,
+  "first_observation_rates": null,
+  "measurement": "Current root skeleton-edge length share (%)",
+  "new_share_formula": "100 * L_new / (L_persistent + L_new + L_extension)",
+  "existing_share_formula": "100 * (L_persistent + L_extension) / (L_persistent + L_new + L_extension)",
+  "class_grouping_does_not_merge_root_instances": true,
+  "new_labels_and_prediction_geometry_unchanged": true,
+  "model_retraining_required": false,
+  "existing_definition": "Existing refers to root-axis identity and includes newly elongated portions of an existing root; it does not assert that every current pixel was visible previously.",
+  "main_mean": "Arithmetic mean of per-position length shares for actually adjacent observed dates, matching the previous descriptive field-average convention.",
+  "supplemental_means": ["previous-observed intervals including gaps, separately labelled", "tube-balanced means", "coarse-position-excluded sensitivity", "assigned-support sensitivity with coverage"],
+  "uncertainty": "Retain the original uncertainty flag. Provisional raw shares and assigned-support shares have separate denominators; do not mix them.",
+  "statistics": "Sample SD is computed after per-position category grouping; SDs are not added. Positions/dates are not independent biological replicates."
+}

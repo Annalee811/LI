@@ -1,0 +1,70 @@
+{
+  "Final_verification.json": {
+    "bytes": 626,
+    "SHA256": "731f95cd7342eb39f1d31440b32c8828109aef247b1bc1a279f818ce1b810778"
+  },
+  "README.txt": {
+    "bytes": 4014,
+    "SHA256": "9dc2d9792c751780c8fd1f8f912c0118fbe4da3d7aade024d8b0833ee6f5f6df"
+  },
+  "Two_class_methods_and_results_CN.txt": {
+    "bytes": 2870,
+    "SHA256": "2fc10bce9b16160ce2df205153bec10e4c0f62ca85e5f960964ad39bfd10ea83"
+  },
+  "V90_three_series_two_class_3D_SCI.jpg": {
+    "bytes": 1109169,
+    "SHA256": "146f2ecacaa98a97af47a892fceb0ad512e6382e8d2ec772958c56b4d186078f"
+  },
+  "V90_three_series_two_class_3D_SCI.pdf": {
+    "bytes": 55221,
+    "SHA256": "7af463efb6cca4ef55fcc37c0f007c464a06549f902434e59347582f1fc441d8"
+  },
+  "V90_three_series_two_class_3D_SCI.svg": {
+    "bytes": 38292,
+    "SHA256": "d6ae3c6c444dff9b2ac1e6762681b8b3344058cc72b7ca7b4f26cfdf56c38ca2"
+  },
+  "V90_three_series_two_class_3D_SCI.tif": {
+    "bytes": 1132456,
+    "SHA256": "b85ed6ce6f76ca5694579ef564cc6190564f0c8688052f68f50eee3f63133d8b"
+  },
+  "V90_three_series_two_class_3D_SCI_preview.png": {
+    "bytes": 135486,
+    "SHA256": "55f240027bd23fe387b3f2c8ba3eeee1ace5fd20e4c220e1e8b57ce308d72742"
+  },
+  "V90_three_series_two_class_rates_SCI.jpg": {
+    "bytes": 917947,
+    "SHA256": "6e154ae31da14fc170bea72eb73c13267061a41b045e1dedd97e18fbe3eff395"
+  },
+  "V90_three_series_two_class_rates_SCI.pdf": {
+    "bytes": 55482,
+    "SHA256": "d6392a02c7f4c631eaaa66da77e8e792f275d26fad9e8796b1a4fb90af23cf06"
+  },
+  "V90_three_series_two_class_rates_SCI.svg": {
+    "bytes": 32195,
+    "SHA256": "2e8b5fe507a160b9c30807b5b116dcc8fe76783d3abc202497d6e62286bbc9f3"
+  },
+  "V90_three_series_two_class_rates_SCI.tif": {
+    "bytes": 842842,
+    "SHA256": "d58dc4dc26342faed7b5b4cfced1a77792b99899be98d92c4a25fee120ddabc7"
+  },
+  "V90_three_series_two_class_rates_SCI_preview.png": {
+    "bytes": 91173,
+    "SHA256": "17adbdb3c2f8ee41c4281e7c576b3f0217a2060a0da4bab3fb46ee100266c54f"
+  },
+  "V90_two_class_rates.xlsx": {
+    "bytes": 75287,
+    "SHA256": "7484d5a3dd277f4741db6da62842ceed8b67cc6f7b1fb5b9351277624d01ac9d"
+  },
+  "V90_two_class_rates_and_methods.docx": {
+    "bytes": 393627,
+    "SHA256": "d0b4dfaf2b08bdb386b1adcd125d12a9565033565625297a673f4a3f400319c5"
+  },
+  "V90_two_class_rates_complete.zip": {
+    "bytes": 31486006,
+    "SHA256": "e5c3741a7ae54090f12b14ccc002b8ef6e2bddb0f9cfa44f4c2ff995e0d9db3a"
+  },
+  "two_class_policy.json": {
+    "bytes": 1746,
+    "SHA256": "cc47e117afa67f4714629051b3d8e3f12b29e833b7e197dac60cbf7a4c5baf1b"
+  }
+}

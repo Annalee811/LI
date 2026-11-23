@@ -1,0 +1,19 @@
+{
+  "primary_mm": [
+    190,
+    87
+  ],
+  "primary_source": "Series_mean_adjacent.csv",
+  "font": "Black Times New Roman",
+  "raster_dpi": 600,
+  "root_groups": [
+    "new",
+    "existing"
+  ],
+  "new_label_unchanged": true,
+  "existing_is_persistent_plus_extension": true,
+  "uncertainty": "Shading is field SD clipped to 0\u2013100 for display; full numeric SD retained",
+  "T1_assigned_rate": false,
+  "rate_denominator": "Current predicted root skeleton length",
+  "no_independent_accuracy_claim": true
+}

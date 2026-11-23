@@ -1,0 +1,13 @@
+﻿material,period,interval_regime,mean_basis,classification_support,coarse_position_excluded,n_positions,n_tubes,new_mean_pct,new_SD_pct,existing_mean_pct,existing_SD_pct,mean_uncertain_skeleton_pct
+0353,T1,adjacent_only,equal_position_means,all_raw_prediction,False,0,0,,,,,
+0353,T2,adjacent_only,equal_position_means,all_raw_prediction,False,6,3,36.53105881212637,13.906042573335933,63.46894118787365,13.906042573335942,31.307738797554038
+0353,T3,adjacent_only,equal_position_means,all_raw_prediction,False,6,3,11.51582898633709,4.0657906447181436,88.48417101366293,4.065790644718138,31.24226294002641
+0353,T4,adjacent_only,equal_position_means,all_raw_prediction,False,6,3,7.882236759195366,14.976651762184654,92.11776324080462,14.976651762184634,25.30282435631554
+A017,T1,adjacent_only,equal_position_means,all_raw_prediction,False,0,0,,,,,
+A017,T2,adjacent_only,equal_position_means,all_raw_prediction,False,6,3,41.61974456171465,15.376261268683487,58.38025543828538,15.376261268683484,35.848791965138936
+A017,T3,adjacent_only,equal_position_means,all_raw_prediction,False,4,2,29.594412372701434,18.61479615390697,70.40558762729856,18.61479615390694,46.463823195270514
+A017,T4,adjacent_only,equal_position_means,all_raw_prediction,False,4,2,11.448572246136871,8.736667257319912,88.55142775386315,8.736667257319917,37.32275528843665
+Q1,T1,adjacent_only,equal_position_means,all_raw_prediction,False,0,0,,,,,
+Q1,T2,adjacent_only,equal_position_means,all_raw_prediction,False,4,2,40.127425290440584,21.95828658644625,59.87257470955939,21.95828658644619,47.37581447289629
+Q1,T3,adjacent_only,equal_position_means,all_raw_prediction,False,3,2,22.81157942600257,22.255709650914223,77.18842057399745,22.25570965091422,54.809506479806736
+Q1,T4,adjacent_only,equal_position_means,all_raw_prediction,False,4,2,5.092210327336998,4.815821609562624,94.907789672663,4.815821609562643,47.361318432562065
