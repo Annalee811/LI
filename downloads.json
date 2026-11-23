@@ -1,0 +1,132 @@
+{
+  "artifact_commit": "4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e",
+  "independent_accuracy_status": "NOT_EVALUATED_NO_HUMAN_GT",
+  "artifacts": [
+    {
+      "file": "V90_actual_experiments_code_weights_results.zip",
+      "description": "完整实验：代码、固定特征、15组最优与续训权重、日志、指标及高清图",
+      "bytes": 58372658,
+      "SHA256": "696784117d105673a938faa0ca0d664949bed478894c4578f9c85169ca30f98a",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/V90_actual_experiments_code_weights_results.zip"
+    },
+    {
+      "file": "Baseline_ablation_and_test_index.xlsx",
+      "description": "全部指标与独立样本清单（Excel）",
+      "bytes": 22350,
+      "SHA256": "5bd927df748fc2e71de6760df0a5b12fd470966698eac592f171afc7377ce3c0",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Baseline_ablation_and_test_index.xlsx"
+    },
+    {
+      "file": "Baseline_ablation_SCI.jpg",
+      "description": "内部基线与模块消融图（高清JPG）",
+      "bytes": 1875929,
+      "SHA256": "e5cf2f08c1f5795ca20b15b6a3943259c9e4ded55c8cc4893b330118e56fb390",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Baseline_ablation_SCI.jpg"
+    },
+    {
+      "file": "Structured_decoder_SCI.jpg",
+      "description": "根轴与连接处结构解码对照图（高清JPG）",
+      "bytes": 977189,
+      "SHA256": "db6fdae90da96f3bfa3605163bcb8663701532d90c4a7e3642353971cb34770c",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Structured_decoder_SCI.jpg"
+    },
+    {
+      "file": "Independent_prediction_preview.pdf",
+      "description": "7个位置、四期跨管原图与标记预览（7页PDF）",
+      "bytes": 7508961,
+      "SHA256": "d3ef527d261e638d8bb6654f40463a36f086d7bce4ac94a070d8c323ec07cf69",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Independent_prediction_preview.pdf"
+    },
+    {
+      "file": "Independent_predictions_442_masks.zip",
+      "description": "跨管预测类别图：390张新模型结果及52张冻结参照",
+      "bytes": 29455582,
+      "SHA256": "241e1a948b7ce33a37060f6b9ca8d89921877b0aa797efb4d1fa5f899b373dad",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Independent_predictions_442_masks.zip"
+    },
+    {
+      "file": "Experiment_report_CN.txt",
+      "description": "完整中文实验报告",
+      "bytes": 5744,
+      "SHA256": "b2ff2f68b62c074a3f3937cc1997ac40006d9ae842c65820fc9ba403e7587939",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Experiment_report_CN.txt"
+    },
+    {
+      "file": "Annotation_RGB_templates_0353-3.zip",
+      "description": "独立测试RGB与空标注模板：0353-3",
+      "bytes": 36929383,
+      "SHA256": "78eb09c7ae4f43f6338e7657f33e7eac584d1dfb598a6010827ca6fae53454e1",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Annotation_RGB_templates_0353-3.zip"
+    },
+    {
+      "file": "Annotation_RGB_templates_A017-3.zip",
+      "description": "独立测试RGB与空标注模板：A017-3",
+      "bytes": 55735931,
+      "SHA256": "88c2f7dc50a57628e1fc2faa01b848bce53232ac32034391998d97a9745123df",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Annotation_RGB_templates_A017-3.zip"
+    },
+    {
+      "file": "Annotation_RGB_templates_Q1-2.zip",
+      "description": "独立测试RGB与空标注模板：Q1-2",
+      "bytes": 81099370,
+      "SHA256": "ac749f77f0289ac24c3acb166cb1739c81df11a5e284a951d6e9ba883c957684",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Annotation_RGB_templates_Q1-2.zip"
+    },
+    {
+      "file": "Baseline_ablation_SCI.pdf",
+      "description": "内部基线与模块消融图（矢量PDF）",
+      "bytes": 76082,
+      "SHA256": "00ab4cf4585d977800be332da2e8b3a4c777dbf7829fae893b640f22a95a7fd2",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Baseline_ablation_SCI.pdf"
+    },
+    {
+      "file": "Decoder_inputs.zip",
+      "description": "复现结构解码的原始B3输入与拓扑",
+      "bytes": 54469688,
+      "SHA256": "668b75f10dc723da6f038540fa9ed4727b1e3be8cfc8c65a724a7a93eefd9988",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Decoder_inputs.zip"
+    },
+    {
+      "file": "Independent_inputs_0353-3.zip",
+      "description": "重放跨管预测的固定输入特征：0353-3",
+      "bytes": 9979795,
+      "SHA256": "3c4e293bf0df343a5596e2bfdad859ebb48d05fbb0d05b20e8c85408b462eb5b",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Independent_inputs_0353-3.zip"
+    },
+    {
+      "file": "Independent_inputs_A017-3.zip",
+      "description": "重放跨管预测的固定输入特征：A017-3",
+      "bytes": 17787577,
+      "SHA256": "1d8e892655c818f4978997a1db7001b3a6f32af7d413a092e050aac20ef8fbea",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Independent_inputs_A017-3.zip"
+    },
+    {
+      "file": "Independent_inputs_Q1-2-B3.zip",
+      "description": "重放跨管预测的固定输入特征：Q1-2-B3",
+      "bytes": 45358825,
+      "SHA256": "2a9a512df2a6d6bb2f86ea48546f5e69a0e4be71a39e00a51089820d514eafca",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Independent_inputs_Q1-2-B3.zip"
+    },
+    {
+      "file": "Independent_inputs_Q1-2-Z2.zip",
+      "description": "重放跨管预测的固定输入特征：Q1-2-Z2",
+      "bytes": 22317903,
+      "SHA256": "a048ed4f26cd18f419343d2af36ffa758470c15fa788c957e500fb1de313f0e3",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Independent_inputs_Q1-2-Z2.zip"
+    },
+    {
+      "file": "Independent_inputs_Q1-2-Z3.zip",
+      "description": "重放跨管预测的固定输入特征：Q1-2-Z3",
+      "bytes": 52561514,
+      "SHA256": "6ee7427e75cb0cd0f986c42711ddc0861b0b1f51cc53aadf10b241757bc55691",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Independent_inputs_Q1-2-Z3.zip"
+    },
+    {
+      "file": "Structured_decoder_SCI.pdf",
+      "description": "结构解码对照图（矢量PDF）",
+      "bytes": 59374,
+      "SHA256": "0673abe2b1553cf34fbd46fb12796f73949d6907a3d1ecb283d4161f81d20557",
+      "url": "https://raw.githubusercontent.com/Annalee811/LI/4a4e61a9e14ece88f6c8ac5bb3bc044a9170a01e/Structured_decoder_SCI.pdf"
+    }
+  ]
+}
