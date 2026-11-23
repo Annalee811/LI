@@ -1,0 +1,14 @@
+﻿panel,comparison,class_or_metric,value,SD,unit,reference
+A,current_only,existing,91.85736956310522,0.0,Dice (%),Common B3 held-out typed-root domain
+A,current_only,new,0.0,0.0,Dice (%),Common B3 held-out typed-root domain
+A,V66_pairwise_frozen,existing,96.73074343642564,,Dice (%),Common B3 held-out typed-root domain
+A,V66_pairwise_frozen,new,81.69782239260167,,Dice (%),Common B3 held-out typed-root domain
+A,no_gat,existing,96.76575227833693,0.02854333593220057,Dice (%),Common B3 held-out typed-root domain
+A,no_gat,new,81.44267212186455,0.26978703169306933,Dice (%),Common B3 held-out typed-root domain
+A,full,existing,96.79071966525312,0.04782323309690028,Dice (%),Common B3 held-out typed-root domain
+A,full,new,81.62682205114335,0.17123189106617578,Dice (%),Common B3 held-out typed-root domain
+B,ConvLSTM,two-class macro Dice,-0.05631237802432946,0.18815801062816942,percentage points,Full minus ablated; partition-isolated context
+B,GAT,two-class macro Dice,0.10455865809750146,0.10677902530372788,percentage points,Full minus ablated; partition-isolated context
+B,Learned identity gates,two-class macro Dice,0.06452887064736605,0.03671888232781914,percentage points,Full minus ablated; partition-isolated context
+B,axis_constraints,two-class macro Dice,2.884866921470382,0.15637537677343433,percentage points,After minus previous decoder stage; paired whole-field context
+B,axis_and_junction_constraints,two-class macro Dice,0.4056688091516973,0.2715092421079812,percentage points,After minus previous decoder stage; paired whole-field context

@@ -1,0 +1,94 @@
+{
+  "source_csv_files_byte_identical": true,
+  "RGB_and_prediction_cache_byte_identical": true,
+  "raster_files": {
+    "jpg": {
+      "size_px": [
+        4488,
+        2362
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "png": {
+      "size_px": [
+        4488,
+        2362
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "tif": {
+      "size_px": [
+        4488,
+        2362
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    }
+  },
+  "PDF": {
+    "pages": 1,
+    "fonts": [
+      [
+        16,
+        "ttf",
+        "Type0",
+        "CNAJXZ+TimesNewRomanPS-BoldMT",
+        "F2",
+        "Identity-H"
+      ],
+      [
+        23,
+        "ttf",
+        "Type0",
+        "CNAJXZ+TimesNewRomanPSMT",
+        "F1",
+        "Identity-H"
+      ]
+    ],
+    "fonts_embedded": true,
+    "page_points": [
+      0.0,
+      0.0,
+      538.5827026367188,
+      283.4645690917969
+    ]
+  },
+  "layout": {
+    "three_horizontally_aligned_axes": true,
+    "panel_letters": [
+      "A",
+      "B",
+      "C"
+    ],
+    "figure_mm": [
+      190,
+      100
+    ],
+    "raster_dpi": 600,
+    "font": "Times New Roman, black",
+    "classes": [
+      "new",
+      "existing"
+    ],
+    "B_module_reference": "Full minus ablated, partition-isolated",
+    "B_decoder_reference": "Each step minus preceding step, separate paired whole-field context",
+    "C_source_position": "Q1-2-B3",
+    "C_source_model": "Retrained Full raw neural head",
+    "C_seed": 20261123,
+    "C_crops_unchanged_from_previous_figures": true,
+    "independent_accuracy_computed": false,
+    "models_retrained": false,
+    "source_values_changed": false,
+    "all_text_within_canvas": true
+  },
+  "GT_pending_no_independent_accuracy": true,
+  "ABC_plot_data_rows": 13
+}
