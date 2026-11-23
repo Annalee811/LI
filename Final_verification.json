@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "three_figures_generated": true,
+  "raster_dpi": 600,
+  "font": "Times New Roman, black",
+  "recalculated_masks_before_metrics": true,
+  "new_class_metrics_unchanged": true,
+  "reproduced_confusion_matrices": 26,
+  "existing_checkpoints_SHA256_unchanged": 15,
+  "independent_two_class_masks": 442,
+  "independent_truth_available": false,
+  "independent_metrics": null,
+  "retraining_for_two_class_performed": false,
+  "primary_domain": "Internal foreground-conditioned pixel classification",
+  "independent_figure_model": "Raw retrained Full head, seed20261123; historical V90 transfer separately in atlas"
+}

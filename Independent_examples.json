@@ -1,0 +1,68 @@
+[
+  {
+    "tube": "0353-3",
+    "position": "0353-3-LB2",
+    "x": 656,
+    "y": 112,
+    "width": 256,
+    "height": 256,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "crop_selection": "Max sum log(1+common frozen-foreground pixels) over T2\u2013T4, grid16; no GT, confidence or model-agreement selection",
+    "checkpoint_variant": "full",
+    "seed": 20261123,
+    "common_foreground_counts": [
+      1475,
+      1268,
+      3009
+    ]
+  },
+  {
+    "tube": "A017-3",
+    "position": "A017-3-B3",
+    "x": 1792,
+    "y": 272,
+    "width": 256,
+    "height": 256,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "crop_selection": "Max sum log(1+common frozen-foreground pixels) over T2\u2013T4, grid16; no GT, confidence or model-agreement selection",
+    "checkpoint_variant": "full",
+    "seed": 20261123,
+    "common_foreground_counts": [
+      3659,
+      2657,
+      2444
+    ]
+  },
+  {
+    "tube": "Q1-2",
+    "position": "Q1-2-B3",
+    "x": 208,
+    "y": 1456,
+    "width": 256,
+    "height": 256,
+    "periods": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "crop_selection": "Max sum log(1+common frozen-foreground pixels) over T2\u2013T4, grid16; no GT, confidence or model-agreement selection",
+    "checkpoint_variant": "full",
+    "seed": 20261123,
+    "common_foreground_counts": [
+      12871,
+      12413,
+      10687
+    ]
+  }
+]

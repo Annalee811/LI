@@ -1,0 +1,38 @@
+{
+  "version": "V90-module-study-v1",
+  "models": [
+    "full",
+    "no_lstm",
+    "no_gat",
+    "no_gates",
+    "current_only"
+  ],
+  "seeds": [
+    20261123,
+    20261124,
+    20261125
+  ],
+  "epochs": 100,
+  "threads_per_run": 1,
+  "parallel_runs": 2,
+  "initialization": "Fresh matched random initialization for shared parameters; V90 trained weights used only as reference",
+  "training_steps_per_epoch": 1,
+  "training_pixel_samples": 8192,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "optimizer": "AdamW",
+  "test_selection_forbidden": true,
+  "checkpoint_selection": "Validation macro Dice only",
+  "scope": "Internal B3 feature-backbone module study",
+  "external_test_tubes": [
+    "0353-3",
+    "A017-3",
+    "Q1-2"
+  ],
+  "independent_test_status": "PENDING_HUMAN_GT",
+  "data_SHA256": "7c577cdeff02a5d479ae29fb9b772d52762c42fe440038b437ee21e50837b336",
+  "code_SHA256": {
+    "study_model.py": "84f7d10ba5d4f49e7a2eca09aeb6db31a3ca32575f5ffe889a7bddcfcd61850a",
+    "train_study.py": "441a989cf0507074b4ee62a8c02fc3f8d1a100b9082edd619ed24634b8d453e2"
+  }
+}

@@ -1,0 +1,8 @@
+Independent two-class ground truth: annotate from the registered RGB sequence independently of model outputs.
+0 background;1 Existing (persistent shaft and extension of an existing axis);2 New (newly observed root axis/lateral);255 uncertain.
+Refer to previous_observed_period, including documented gaps. Do not synthesize a missing date.
+T1 is baseline and excluded from temporal class scores. Root ownership ambiguity at crossings can remain255.
+A New-vs-non-New binary mask alone cannot distinguish Existing from soil background.
+Use the explicit annotation_schema in the new checklist; keep all26 locked observations and label the19 post-baseline frames.
+Fill human_complete, annotator and annotation_source only when actual human GT exists. Empty templates are not GT.
+Model overlays are for prediction inspection and should not be supplied as truth to independent annotators.

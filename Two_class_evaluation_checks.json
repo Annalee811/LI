@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "classes": {
+    "existing": [
+      1,
+      3
+    ],
+    "new": [
+      2
+    ]
+  },
+  "truth_and_prediction_masks_merged_before_metrics": true,
+  "existing_class_scores_not_averaged_from_component_scores": true,
+  "new_class_scores_unchanged": true,
+  "two_class_macro_not_comparable_to_three_class_macro": true,
+  "original_checkpoints_and_selection_unchanged": true,
+  "model_retrained": false,
+  "model_forward_rerun": false,
+  "internal_domain": "83,478 common eligible held-out typed root pixels at T2\u2013T4; foreground conditioned, background excluded",
+  "existing_truth_pixels": 70907,
+  "new_truth_pixels": 12571,
+  "primary_inference_context": "Partition-isolated feature/module study",
+  "decoder_inference_context": "Separate paired whole-field context",
+  "independent_human_GT_available": false,
+  "independent_metrics": null,
+  "training_runs_reused": 15,
+  "optimization_updates_per_original_run": 100
+}

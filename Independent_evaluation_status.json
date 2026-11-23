@@ -1,0 +1,25 @@
+{
+  "status": "NOT_EVALUATED_NO_HUMAN_GT",
+  "test_tubes": [
+    "0353-3",
+    "A017-3",
+    "Q1-2"
+  ],
+  "positions": 7,
+  "frames": 26,
+  "baseline_frames": 7,
+  "temporal_frames": 19,
+  "classes": [
+    "existing",
+    "new"
+  ],
+  "Precision": null,
+  "Recall": null,
+  "Dice": null,
+  "IoU": null,
+  "macro_Dice": null,
+  "GT_annotation_state": "pending",
+  "training_tube_0353_2_excluded": true,
+  "prior_unlabelled_image_exposure": true,
+  "prepared_feature_adapter_has_documented_approximations": true
+}

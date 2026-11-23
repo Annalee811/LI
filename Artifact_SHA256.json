@@ -1,0 +1,106 @@
+{
+  "Figure_1_Temporal_baselines_two_classes.jpg": {
+    "bytes": 1451944,
+    "SHA256": "c135bbf73a299d2c0f39c20d61d9eb8fa0a246593a768eacd7f66982b2e4eb50"
+  },
+  "Figure_1_Temporal_baselines_two_classes.pdf": {
+    "bytes": 70585,
+    "SHA256": "69ea8c709e61061de0c46eae78fa431f083ad857806049e9b4a2414cfc304ba4"
+  },
+  "Figure_1_Temporal_baselines_two_classes.svg": {
+    "bytes": 58212,
+    "SHA256": "e15bdd7689751ca71b0d8dc5671a40cc0dbf3c1128495f7ead9c02cf8aff3493"
+  },
+  "Figure_1_Temporal_baselines_two_classes.tif": {
+    "bytes": 1567810,
+    "SHA256": "91ae61906c08781a57891d3fa0c4fd04422f6ae6919c4c91e9b38906fd831d05"
+  },
+  "Figure_1_Temporal_baselines_two_classes_preview.png": {
+    "bytes": 142380,
+    "SHA256": "d5c23e4c97ceb4aa331fcfa39c7ab04b5656e0e813a1017190d9b4d1a71c1ce3"
+  },
+  "Figure_2_Module_ablations_two_classes.jpg": {
+    "bytes": 1347915,
+    "SHA256": "a494650fe2d3a5c5a286bcd04534739b6198ebadb843ab806ccdf5e3f4218e8f"
+  },
+  "Figure_2_Module_ablations_two_classes.pdf": {
+    "bytes": 68344,
+    "SHA256": "cf0fe6f9a8c47d77f905424c592eb366e705dd3108821444782f3314035712e8"
+  },
+  "Figure_2_Module_ablations_two_classes.svg": {
+    "bytes": 52579,
+    "SHA256": "d03507eddb6a5cd7794b822c3591604bae0845f1ade94bc1b4f2a0d4859c4835"
+  },
+  "Figure_2_Module_ablations_two_classes.tif": {
+    "bytes": 1193436,
+    "SHA256": "591c8308f0f412258597feab3638af1a4d120ada4e4cac7ed9c25bda96abf9af"
+  },
+  "Figure_2_Module_ablations_two_classes_preview.png": {
+    "bytes": 126704,
+    "SHA256": "3e2c79be8d1d9dfd565c36542e986f0d7d75e8a82cc3a56c404377b62706d472"
+  },
+  "Figure_3_Independent_transfer_two_classes.jpg": {
+    "bytes": 4447653,
+    "SHA256": "7fc3d5f714c1fc6ca7728f580b91e9f6485f3f3775fd53edd37b314ee12fca8b"
+  },
+  "Figure_3_Independent_transfer_two_classes.pdf": {
+    "bytes": 6203994,
+    "SHA256": "38acdff57d8efac3a04a5323bd53545b290510559731a1f48efb63230ac3b99d"
+  },
+  "Figure_3_Independent_transfer_two_classes.svg": {
+    "bytes": 9273542,
+    "SHA256": "451347dd49a2193ac2b6f98bb8a8add49c74cca0c2b133d6e77466a7fb5fbff5"
+  },
+  "Figure_3_Independent_transfer_two_classes.tif": {
+    "bytes": 16469314,
+    "SHA256": "22878448158d55a6fb30a396e8bd3f0654c6e43253c77344c3ac9b35e705388e"
+  },
+  "Figure_3_Independent_transfer_two_classes_preview.png": {
+    "bytes": 1010964,
+    "SHA256": "1242ca43bc9d54122058a95a16ae9431e768fb3f88b7acfb4cc37efdb216aa8f"
+  },
+  "Final_verification.json": {
+    "bytes": 630,
+    "SHA256": "584877a85f7f3e13fb7b29e1342641df7aa3abbc6402b66f003c5e393bf9f82e"
+  },
+  "Independent_442_two_class_predictions.zip": {
+    "bytes": 29109474,
+    "SHA256": "36e22fdb97feeb8bcce48f618c8cb68117fe3d5a1a0818d03539d1fba32b9823"
+  },
+  "Independent_all_7_positions_two_class_atlas.pdf": {
+    "bytes": 9078270,
+    "SHA256": "26597dc82552b2af0718a9deea2aae57f705a2f2474397407a5730fb72dbb72a"
+  },
+  "Independent_annotation_guide.txt": {
+    "bytes": 882,
+    "SHA256": "b9cb6739af1267becbbff27238b6a42aede12fa0b125fc935803d0c85fee4ef2"
+  },
+  "README.txt": {
+    "bytes": 4664,
+    "SHA256": "4130177277fc60771c3e66fde38e6c37eeb37406a31190942aed2c384fab2edb"
+  },
+  "Results_and_limitations_CN.txt": {
+    "bytes": 2475,
+    "SHA256": "9b814318c1371da894bca43610c9e1cc24b8ccc209aa8d227b326b212079b4db"
+  },
+  "Three_key_figures_captions_and_results.docx": {
+    "bytes": 8794665,
+    "SHA256": "46c642dd64f85edb2eae57b50cd60188e9ba63bed703f8662f732bf5de4b0730"
+  },
+  "Three_key_figures_two_class.pdf": {
+    "bytes": 6340416,
+    "SHA256": "ac54cd730aa946256cd68099698c1eb729dfb7754f44edc489a9a41d3cb61862"
+  },
+  "Three_key_figures_two_class_metrics.xlsx": {
+    "bytes": 22238,
+    "SHA256": "f87e6aa6d69af1ebbf8c6a29544801da4f2d08192b3e7e5adfb7d6bcba72f3fc"
+  },
+  "Three_two_class_key_figures_complete.zip": {
+    "bytes": 80099253,
+    "SHA256": "021c483add78616b3d4d920d8c70d28322f2b5c367762330f1b6df4337400613"
+  },
+  "two_class_experiment_policy.json": {
+    "bytes": 989,
+    "SHA256": "bf79bb92bda84712f14c1c2cc6c781aaf3c118b4180593b2e9e676666bf5294d"
+  }
+}
