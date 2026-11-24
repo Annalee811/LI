@@ -1,0 +1,17 @@
+{
+  "archive_extraction_and_standalone_model_loading": true,
+  "heldout_confusion_exactly_reproduced": true,
+  "confusion": [
+    [
+      67920,
+      2987
+    ],
+    [
+      1090,
+      11481
+    ]
+  ],
+  "selected_seed": 20261125,
+  "no_original_source_paths_needed_for_model_forward": true,
+  "batch_prediction_not_resumed": true
+}

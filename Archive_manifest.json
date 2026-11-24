@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Code_and_selected_model.zip",
+    "bytes": 305080,
+    "sha256": "1d2fc019b9e41090641b3e2a779d517adeb022f32cd1831e3b42bfdcbd1f3d40",
+    "files": 28
+  },
+  {
+    "name": "B3_training_inputs.zip",
+    "bytes": 20458361,
+    "sha256": "4b29f8ad5ceb6281592d370d94af481811eb8e497f804483e33867b6ee89a0a2",
+    "files": 21
+  },
+  {
+    "name": "Reports_and_figures.zip",
+    "bytes": 3446471,
+    "sha256": "02cfe73376108c9825983265f12eb5ccc0de6438a887a6219d99e0a7459b43b2",
+    "files": 35
+  },
+  {
+    "name": "Runs_joint_full.zip",
+    "bytes": 20220258,
+    "sha256": "0f5ea634b5e32fa3d5ff1131134d3e211ad8f56b8a7e57af3c881b64a573b557",
+    "files": 42
+  },
+  {
+    "name": "Runs_neural_only.zip",
+    "bytes": 19899688,
+    "sha256": "b80b72b3f6cd4156baa2d951ce33acf56431926b4224189390dc9b4d05e04d97",
+    "files": 42
+  },
+  {
+    "name": "Runs_without_axis.zip",
+    "bytes": 20097519,
+    "sha256": "3d1f6f4a31d9679d0ad91925c8f5f0296411965746687d8db331be89526b045e",
+    "files": 42
+  },
+  {
+    "name": "Runs_without_junction.zip",
+    "bytes": 20014708,
+    "sha256": "0d2ca09e2083ee8ff6f7f325695404228425e7e0970bd4773e4248e8817f1a44",
+    "files": 42
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "classification_loss_gradient_L1": {
+    "axis_decoder": 0.06130776181817055,
+    "junction_decoder": 0.010956375859677792,
+    "junction_pair_scores": 2.1049550923635252e-05,
+    "ConvLSTM": 0.05156053602695465,
+    "GAT": 0.20139631628990173
+  },
+  "structural_decoders_receive_classification_gradients": true,
+  "manual_targets_absent_from_forward": true,
+  "train_partition_invariant_to_other_partition_features": true,
+  "variable_node_count_forward_passed": true,
+  "identical_matched_initialization": true,
+  "binary_logits_shape": [
+    8192,
+    2
+  ],
+  "legacy_rule_decoders_used": false
+}

@@ -1,0 +1,139 @@
+{
+  "all_12_runs_verified": true,
+  "two_class_training_and_validation_selection": true,
+  "source_files_unchanged": true,
+  "legacy_fixed_class_rewrite_used": false,
+  "implementation_gradient_checks": {
+    "passed": true,
+    "classification_loss_gradient_L1": {
+      "axis_decoder": 0.06130776181817055,
+      "junction_decoder": 0.010956375859677792,
+      "junction_pair_scores": 2.1049550923635252e-05,
+      "ConvLSTM": 0.05156053602695465,
+      "GAT": 0.20139631628990173
+    },
+    "structural_decoders_receive_classification_gradients": true,
+    "manual_targets_absent_from_forward": true,
+    "train_partition_invariant_to_other_partition_features": true,
+    "variable_node_count_forward_passed": true,
+    "identical_matched_initialization": true,
+    "binary_logits_shape": [
+      8192,
+      2
+    ],
+    "legacy_rule_decoders_used": false
+  },
+  "run_checks": [
+    {
+      "variant": "joint_full",
+      "seed": 20261124,
+      "validation_only_checkpoint_selection_verified": true,
+      "100_updates_verified": true,
+      "two_class_confusion_verified": true,
+      "code_matches_trained_checkpoint": true,
+      "checkpoint_SHA256": "f130f2c08daf7e8b634a3896d1493971f3e2bedaecb488bbaa054266715e8af9"
+    },
+    {
+      "variant": "joint_full",
+      "seed": 20261125,
+      "validation_only_checkpoint_selection_verified": true,
+      "100_updates_verified": true,
+      "two_class_confusion_verified": true,
+      "code_matches_trained_checkpoint": true,
+      "checkpoint_SHA256": "cc75c8fe08fac7441d27c705f301add9490eff5675b84c9dddadbb797a43aa14"
+    },
+    {
+      "variant": "joint_full",
+      "seed": 20261126,
+      "validation_only_checkpoint_selection_verified": true,
+      "100_updates_verified": true,
+      "two_class_confusion_verified": true,
+      "code_matches_trained_checkpoint": true,
+      "checkpoint_SHA256": "f6e3822ce614f39ab0088f070b9b90fc0a3ffa082177079f336b48e3f5e6ecbd"
+    },
+    {
+      "variant": "neural_only",
+      "seed": 20261124,
+      "validation_only_checkpoint_selection_verified": true,
+      "100_updates_verified": true,
+      "two_class_confusion_verified": true,
+      "code_matches_trained_checkpoint": true,
+      "checkpoint_SHA256": "e6ca6417aa5246acb7ccfef3cae320aa5a3fdfbdb50ebd07380e947973635538"
+    },
+    {
+      "variant": "neural_only",
+      "seed": 20261125,
+      "validation_only_checkpoint_selection_verified": true,
+      "100_updates_verified": true,
+      "two_class_confusion_verified": true,
+      "code_matches_trained_checkpoint": true,
+      "checkpoint_SHA256": "00291076b3444577fa80a9475ae37729a37bb1c4160813dbaf98285fa9f03cc6"
+    },
+    {
+      "variant": "neural_only",
+      "seed": 20261126,
+      "validation_only_checkpoint_selection_verified": true,
+      "100_updates_verified": true,
+      "two_class_confusion_verified": true,
+      "code_matches_trained_checkpoint": true,
+      "checkpoint_SHA256": "822ec65496b077da406e5a8241b327f6f522eb441e55998a8c8e914127b66338"
+    },
+    {
+      "variant": "without_axis",
+      "seed": 20261124,
+      "validation_only_checkpoint_selection_verified": true,
+      "100_updates_verified": true,
+      "two_class_confusion_verified": true,
+      "code_matches_trained_checkpoint": true,
+      "checkpoint_SHA256": "c3c49f185fe4a0fbb0e7b7854a50862386fa840f844dceecd2bf859731bdfd39"
+    },
+    {
+      "variant": "without_axis",
+      "seed": 20261125,
+      "validation_only_checkpoint_selection_verified": true,
+      "100_updates_verified": true,
+      "two_class_confusion_verified": true,
+      "code_matches_trained_checkpoint": true,
+      "checkpoint_SHA256": "22ea8faffe7cab0e9f18289fe2353b9628df0ffcbcf2f90d8a29837550beaa3e"
+    },
+    {
+      "variant": "without_axis",
+      "seed": 20261126,
+      "validation_only_checkpoint_selection_verified": true,
+      "100_updates_verified": true,
+      "two_class_confusion_verified": true,
+      "code_matches_trained_checkpoint": true,
+      "checkpoint_SHA256": "ecb3254d2defc536db91bfb8a98398464f643b1082cc0ac191ae77132e6aab97"
+    },
+    {
+      "variant": "without_junction",
+      "seed": 20261124,
+      "validation_only_checkpoint_selection_verified": true,
+      "100_updates_verified": true,
+      "two_class_confusion_verified": true,
+      "code_matches_trained_checkpoint": true,
+      "checkpoint_SHA256": "d53515bf6fb6681ed87868bc508405ae774c8c47a11159bd23f1305ae6e03276"
+    },
+    {
+      "variant": "without_junction",
+      "seed": 20261125,
+      "validation_only_checkpoint_selection_verified": true,
+      "100_updates_verified": true,
+      "two_class_confusion_verified": true,
+      "code_matches_trained_checkpoint": true,
+      "checkpoint_SHA256": "db93cbca8ff424bcaa6b5356557651f6a2699098011beece71e3e8a693942c83"
+    },
+    {
+      "variant": "without_junction",
+      "seed": 20261126,
+      "validation_only_checkpoint_selection_verified": true,
+      "100_updates_verified": true,
+      "two_class_confusion_verified": true,
+      "code_matches_trained_checkpoint": true,
+      "checkpoint_SHA256": "c9478aa0ce90219cbc060df4a606f7f81d8cde9d40750e32286dd10406962bde"
+    }
+  ],
+  "batch_prediction_paused_by_user": true,
+  "internal_scope": "B3 fixed foreground, 83,478 common held-out typed-root pixels; frozen upstream prior has historical B3 exposure",
+  "independent_accuracy": null
+}

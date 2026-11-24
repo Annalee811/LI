@@ -1,0 +1,9 @@
+{
+  "requested_by_user": true,
+  "scope": "Pause all 18-position/66-image input preparation and batch prediction; continue model training and B3 internal validation/test only",
+  "stopped_processes": [
+    3337
+  ],
+  "existing_generated_files_preserved": true,
+  "resume_without_user_instruction": false
+}

@@ -1,0 +1,44 @@
+{
+  "jpg": {
+    "size_px": [
+      4488,
+      2078
+    ],
+    "dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  "png": {
+    "size_px": [
+      4488,
+      2078
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "tif": {
+    "size_px": [
+      4488,
+      2078
+    ],
+    "dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  "Joint_learned_structure_ABC.pdf": {
+    "pages": 1,
+    "fonts_embedded": true
+  },
+  "Learned_structure_network.pdf": {
+    "pages": 1,
+    "fonts_embedded": true
+  },
+  "Training_loss_and_validation.pdf": {
+    "pages": 4,
+    "fonts_embedded": true
+  }
+}

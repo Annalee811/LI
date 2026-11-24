@@ -1,0 +1,56 @@
+{
+  "all_12_exported_mask_confusions_match": [
+    [
+      "joint_full",
+      20261124
+    ],
+    [
+      "joint_full",
+      20261125
+    ],
+    [
+      "joint_full",
+      20261126
+    ],
+    [
+      "neural_only",
+      20261124
+    ],
+    [
+      "neural_only",
+      20261125
+    ],
+    [
+      "neural_only",
+      20261126
+    ],
+    [
+      "without_axis",
+      20261124
+    ],
+    [
+      "without_axis",
+      20261125
+    ],
+    [
+      "without_axis",
+      20261126
+    ],
+    [
+      "without_junction",
+      20261124
+    ],
+    [
+      "without_junction",
+      20261125
+    ],
+    [
+      "without_junction",
+      20261126
+    ]
+  ],
+  "selected_model_has_two_output_channels": true,
+  "selected_model_matches_validation_selected_original": true,
+  "source_human_class_masks_unchanged": true,
+  "batch_prediction_paused": true
+}

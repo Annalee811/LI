@@ -1,0 +1,31 @@
+{
+  "version": "joint-learned-structure-v1",
+  "variants": [
+    "joint_full",
+    "neural_only",
+    "without_axis",
+    "without_junction"
+  ],
+  "seeds": [
+    20261124,
+    20261125,
+    20261126
+  ],
+  "updates_per_run": 100,
+  "pixels_sampled_per_update": 8192,
+  "selection": "Two-class validation macro Dice only; no test-based model or seed selection",
+  "initialization": "Fresh matched parameters in all four variants",
+  "baseline": "Same two-class backbone and auxiliary heads, with differentiable structure refinement and explicit axis/junction consistency terms disabled",
+  "ablations": "without_axis or without_junction disables the corresponding learned refinement and corresponding consistency term; shared identity/pair auxiliary supervision is retained",
+  "network_output": [
+    "existing",
+    "new"
+  ],
+  "upstream_root_segmentation_and_temporal_prior": "Frozen and reused; not retrained",
+  "legacy_axis_junction_postprocessing": false,
+  "independent_GT": false,
+  "parallel_runs": 2,
+  "threads_per_run": 1,
+  "compute_device": "CPU",
+  "planned_runs": 12
+}
