@@ -1,0 +1,17 @@
+流程名称
+
+根轴身份约束时序精化（Root-axis identity-constrained temporal refinement）。
+
+V66 U-Net 提供固定根区与时序先验。V90 精化流程依次使用 ConvLSTM＋GAT（含身份 Gate）和神经预测头，接着执行根轴约束（Axis）与交叉连接约束（Junction），得到根段类别和根轴归属。两个输出类别为新生根和既有根，既有根由持续段与同一根轴的延伸段组成。
+
+中文图注
+
+图 V90 根轴身份约束时序精化的整体消融和定性比较。A 比较历史单帧对照、V66 U-Net 逐对时序基线和旧版 V90 完整自动流程的两类宏平均 Dice。B 以 V66 的冻结时序预测为输入和关闭精化的对照，将 ConvLSTM＋GAT、神经预测头、根轴约束及交叉连接约束作为一个整体旁路或启用，比较人工标注延伸像素被误判为新生根的比例。两组固定使用同一根区前景。C 比较两组的新生根精确率、召回率、Dice 和 IoU，以及既有根的 Dice 和 IoU。A–C 使用同一批 B3 内部留出域 T2–T4 的 83,478 个已标注根像素，包含 1,028 个延伸像素。单帧对照沿用历史训练协议，属于描述性参照。V66 和旧 V90 为同视野两组归档预测，整体效应由配对像素计算。D 展示 B3 四期同一配准局部视野，依次为原始 RGB、人工标注、V66 预测和旧 V90 自动预测。金色表示新生根，蓝色表示既有根，灰色表示 T1 基线。标尺为 100 个原生像素。
+
+结果表述
+
+在固定根区内启用完整精化流程后，宏平均 Dice 由 89.21% 升至 90.85%，新生根 Dice 由 81.70% 升至 84.29%，既有根 Dice 由 96.73% 升至 97.41%。新生根精确率由 81.18% 升至 89.95%，召回率由 82.22% 降至 79.29%。延伸误判由 770 个降至 164 个（74.90% 降至 15.95%）。逐像素配对有 695 个误判延伸像素恢复为既有根，另有 89 个原本分类正确的延伸像素改判为新生根，净减少 606 个误判。这组比较估计的是完整流程在 B3 上的净效应。两个预测均来自含 B3 开发暴露的冻结流程，解释范围为内部时序分类。用于图表的自动预测路径为 B3_verified_inference/junction/full。
+
+English caption
+
+Figure. Workflow ablation of root-axis identity-constrained temporal refinement. (A) Two-class macro Dice for a historical single-frame control, the frozen V66 U-Net pairwise temporal baseline, and the original automatic V90 workflow. (B) Elongation pixels labeled as new roots with the entire V90 refinement off or on. The off condition reads the frozen V66 temporal output. The on condition retains the ConvLSTM–GAT with identity gating, neural prediction heads, root-axis constraints, and junction constraints as one workflow. Both conditions use identical root foreground. (C) Precision, recall, Dice, and IoU for newly observed roots and Dice and IoU for existing roots. Existing roots comprise persistent segments and elongation of the same axes. Scores in A–C use the same 83,478 labeled root pixels in the B3 internal holdout across T2–T4, including 1,028 labeled elongation pixels. The single-frame model is a historical descriptive control. V66 and V90 each contribute one archived prediction set. The paired comparison estimates the net effect of the full frozen workflow within B3. (D) Matched registered B3 RGB crops across T1–T4 with human annotations, V66 predictions, and original automatic V90 predictions. Gold, blue, and gray indicate new roots, existing roots, and T1 baseline roots, respectively. Scale bar, 100 native pixels.
