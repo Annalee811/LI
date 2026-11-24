@@ -1,0 +1,61 @@
+V90联合结构学习版：训练结果下载索引
+
+12组真实两类训练；上游根区与先验冻结。B3内部宏平均Dice 90.86%，普通网络对照90.94%，本轮未显示分类优势。
+18个位置、66幅影像的输入与批量预测按用户要求暂停，部分本地缓存不包含在交付中。训练输入包仅为B3。
+将代码、B3输入及所需运行档案解压到同一新目录；详情见README.txt。
+
+Best_joint_model.pt (0.298 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Best_joint_model.pt
+SHA256 cc75c8fe08fac7441d27c705f301add9490eff5675b84c9dddadbb797a43aa14
+
+Code_and_selected_model.zip (0.305 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Code_and_selected_model.zip
+SHA256 1d2fc019b9e41090641b3e2a779d517adeb022f32cd1831e3b42bfdcbd1f3d40
+
+B3_training_inputs.zip (20.458 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/B3_training_inputs.zip
+SHA256 4b29f8ad5ceb6281592d370d94af481811eb8e497f804483e33867b6ee89a0a2
+
+Runs_joint_full.zip (20.22 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Runs_joint_full.zip
+SHA256 0f5ea634b5e32fa3d5ff1131134d3e211ad8f56b8a7e57af3c881b64a573b557
+
+Runs_neural_only.zip (19.9 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Runs_neural_only.zip
+SHA256 b80b72b3f6cd4156baa2d951ce33acf56431926b4224189390dc9b4d05e04d97
+
+Runs_without_axis.zip (20.098 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Runs_without_axis.zip
+SHA256 3d1f6f4a31d9679d0ad91925c8f5f0296411965746687d8db331be89526b045e
+
+Runs_without_junction.zip (20.015 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Runs_without_junction.zip
+SHA256 0d2ca09e2083ee8ff6f7f325695404228425e7e0970bd4773e4248e8817f1a44
+
+Reports_and_figures.zip (3.446 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Reports_and_figures.zip
+SHA256 02cfe73376108c9825983265f12eb5ccc0de6438a887a6219d99e0a7459b43b2
+
+Joint_training_metrics.xlsx (0.018 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Joint_training_metrics.xlsx
+SHA256 4c0441a9c12f463ceb1ad1970a94811ebf18293cb4a3954fe36d49386ae7143f
+
+Joint_training_report.docx (0.616 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Joint_training_report.docx
+SHA256 0cccdfce4c0eb60063cbca32417d6491c8b4a4ae07d48c2e8414735285a45c61
+
+Joint_learned_structure_ABC.jpg (0.899 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Joint_learned_structure_ABC.jpg
+SHA256 c9952c7c321ca2a6e22e9bd8f05790fd820162cb4b1d06e53ab44e47deda09c0
+
+Joint_learned_structure_ABC.pdf (0.072 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Joint_learned_structure_ABC.pdf
+SHA256 1d042abef81e9f579be426dac88455b7a4a2fc4fbb798de113b979a6cb64845e
+
+Joint_learned_structure_ABC.tif (0.765 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Joint_learned_structure_ABC.tif
+SHA256 ca6d82bdadb0b4c23c747f0a8f99f7598d31095d41741230bfc853187c5b0aa4
+
+Learned_structure_network.pdf (0.055 MB)
+https://raw.githubusercontent.com/Annalee811/LI/9e5c7fb8cd3902bb45df165361fd1e74eb38c5b0/Learned_structure_network.pdf
+SHA256 dba85b923c46e0b1d8f89228134545bbc9728458252760208fbbda963154ed16
